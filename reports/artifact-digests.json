@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-26T18:36:07.157057+00:00",
-  "artifact_count": 327,
+  "generated_at_utc": "2026-06-26T18:45:20.560991+00:00",
+  "artifact_count": 329,
   "artifacts": [
     {
       "path": ".github/ISSUE_TEMPLATE/claim-review.yml",
@@ -403,6 +403,11 @@
       "bytes": 1633
     },
     {
+      "path": "docs/LAUNCH_CARD.md",
+      "sha256": "sha256:6de6b2f9f35ef642af9fe52c49bc1b4a990d2cd9633d61de5060070e2b05603e",
+      "bytes": 872
+    },
+    {
       "path": "docs/LAUNCH_NARRATIVE.md",
       "sha256": "sha256:0ad563b1068b043f9d106f9628804bd25ced71926a76dc7222beb3e732036234",
       "bytes": 684
@@ -616,6 +621,11 @@
       "path": "docs/evidence/EVIDENTIAL_STATUS_DASHBOARD.md",
       "sha256": "sha256:5806e804f6f080eff1b0165c831a68443d400e60c0f8605fcf0248f998303183",
       "bytes": 832
+    },
+    {
+      "path": "docs/evidence/EVIDENTIAL_STATUS_REPORT.md",
+      "sha256": "sha256:ab45165cea259d6513bf250882208de312a23ecbc70f52dff3c36d395f3521ac",
+      "bytes": 2297
     },
     {
       "path": "docs/evidence/GOVERNANCE_FOR_STRATEGIC_CLAIMS.md",
@@ -1234,7 +1244,7 @@
     },
     {
       "path": "public/site-status.json",
-      "sha256": "sha256:9292d13a8652c7f25ed25ad7dcecaa1d365a5c2fb23a9d82d8f4873a3082e55f",
+      "sha256": "sha256:8d427fe4f5fe16cb86c7b8a4b376822ba274bef1729146dc4c92e1bf6fa63d0a",
       "bytes": 238
     },
     {
@@ -1284,12 +1294,12 @@
     },
     {
       "path": "reports/autopilot-summary.md",
-      "sha256": "sha256:4c7251bd19a9789cd4a67acc1345450fd909ba9c3bca463628b2359ed864525a",
+      "sha256": "sha256:f678e4d0de7156e58f8851e4ca98cf191e5b81514fae2dfa2ae1a450686d8b90",
       "bytes": 220
     },
     {
       "path": "reports/claim-scan.json",
-      "sha256": "sha256:3aefabdb926e6918766ecf3a575006ad48aaf950d8d6fc4c5e06db98f8d3a4d5",
+      "sha256": "sha256:58acb14d3cd94eebf965621bf0f17c7f0b7e18d06a5d354c3d4795e98015e678",
       "bytes": 175
     },
     {
@@ -1299,37 +1309,37 @@
     },
     {
       "path": "reports/evidence-maturity-score.json",
-      "sha256": "sha256:692cbd8d566f9562cd664692e7ca4cc908e9d210597b05854a3179115841889c",
+      "sha256": "sha256:423430f32d4484313d3bc83a13b20071c55656363652038ff53dc6d95f8b5978",
       "bytes": 661
     },
     {
       "path": "reports/evidence-room-index.json",
-      "sha256": "sha256:4660a80506a7bb3941636124c9e06c6f77bbf669ae2d97f38b08813af8bc45b1",
+      "sha256": "sha256:fedd5b450c9c801228013ab1d7d8524d99f05737d703e8b07465be8a59700733",
       "bytes": 4109
     },
     {
       "path": "reports/institutional-scorecard.json",
-      "sha256": "sha256:b1c3022eda2781945a15d0776612983711fba684dc3c71813f964fb288a249e7",
+      "sha256": "sha256:d0842182238649504871ed0412fa95b942909350397b99130c066cf63caa8eb5",
       "bytes": 1065
     },
     {
       "path": "reports/proof-velocity.json",
-      "sha256": "sha256:d197d5479cf8bc649dc29e4b8d32d15131c70643b4937d95baf9cfda341a1102",
+      "sha256": "sha256:6698ef9717e48b9929f36b2b81d3fccc19b7e8f70b9bf5806f4c0a6e55ab3d8f",
       "bytes": 327
     },
     {
       "path": "reports/repo-validation.json",
-      "sha256": "sha256:95f7e2921fe4b33500c099aa4cb2ba149d6524e695b02e999968281570954be9",
+      "sha256": "sha256:2ae274e278d2270780d21d2376ad261e50c168d5e775c2f0f4bc059c2704d195",
       "bytes": 194
     },
     {
       "path": "reports/site-qa.json",
-      "sha256": "sha256:803875e93748fa106cc710739c2351caa34dc3afe78334bee687c3262c73a4bc",
+      "sha256": "sha256:e0e48ea5253d76cd2f8f29b5dd6964e7afa94eacca11d69261a694b6b3b2edb5",
       "bytes": 161
     },
     {
       "path": "reports/strategic-evidence-scorecard.json",
-      "sha256": "sha256:8168a981b3dfd9b3d8a0b8050b5dfd4db880f3173ca4ef1ca789a47d2df7e61b",
+      "sha256": "sha256:329b4c98f432f1d41bf00223a5feddd416dd5ee620b7b40bf56a1214cc81341a",
       "bytes": 1273
     },
     {
