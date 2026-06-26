@@ -1,0 +1,16 @@
+{
+  "id": "ev-proof-velocity-example-001",
+  "artifact_type": "proof_velocity_event",
+  "category": "proof_velocity",
+  "evidence_status": "example_placeholder",
+  "summary": "Template event showing how mission-to-docket timing is captured.",
+  "created_at": "2026-06-26T18:05:13.007030+00:00",
+  "confidentiality": "public",
+  "public_claim_permission": "limited",
+  "metrics": {
+    "mission_started_at": "2026-06-26T18:05:13.007030+00:00",
+    "evidence_docket_created_at": null,
+    "validator_report_created_at": null,
+    "capability_reused": false
+  }
+}

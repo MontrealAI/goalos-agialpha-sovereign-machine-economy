@@ -1,0 +1,43 @@
+name: Evidence signal
+description: Submit a proof-bearing market, pilot, benchmark, usage, or validation signal.
+title: "Evidence signal: "
+labels: ["evidence", "review"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Evidence category
+      options:
+        - customer_discovery
+        - design_partner
+        - pilot
+        - benchmark
+        - commercial
+        - independent_validation
+        - fair_value_support
+        - governance
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Evidence status
+      options:
+        - operator_attested
+        - source_verifiable
+        - third_party_verified
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, when, and what source supports it?
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Artifact links or hashes
+    validations:
+      required: true

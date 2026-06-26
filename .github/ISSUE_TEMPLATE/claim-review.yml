@@ -1,0 +1,17 @@
+name: Claim Boundary Review
+about: Flag language that may overstate evidence.
+title: "[Claim Review]: "
+labels: [claim-boundary, trust]
+body:
+  - type: textarea
+    id: phrase
+    attributes:
+      label: Phrase or page to review
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Why it may exceed the evidence
+    validations:
+      required: true

@@ -1,0 +1,7 @@
+{
+  "id": "provenance:goalos-lineage",
+  "source": "public Montreal.AI repositories and papers supplied in project brief",
+  "collected_at": "2026-06-26T12:01:40.191450+00:00",
+  "license_or_terms": "review source repositories for exact licenses and terms",
+  "use_in_claim": "source lineage only, not empirical performance evidence"
+}

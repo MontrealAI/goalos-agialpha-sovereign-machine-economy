@@ -1,0 +1,12 @@
+{
+  "id": "contradiction-register:genesis",
+  "mission_id": "mission:genesis-sovereign-machine-economy",
+  "contradictions": [
+    {
+      "claim": "autonomous website publication",
+      "tension": "human review is still required for consequential release",
+      "resolution": "publish as demonstration with claim boundary"
+    }
+  ],
+  "resolution_status": "documented"
+}

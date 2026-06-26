@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Mission Contract",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "objective",
+    "scope",
+    "non_goals",
+    "deliverables",
+    "acceptance_criteria",
+    "evidence_requirements",
+    "validators",
+    "risk_controls",
+    "rollback_plan"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "non_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_controls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rollback_plan": {
+      "type": "string"
+    }
+  }
+}

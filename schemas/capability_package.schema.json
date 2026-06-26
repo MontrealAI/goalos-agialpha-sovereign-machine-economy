@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Capability Package",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "version",
+    "source_docket",
+    "reuse_conditions",
+    "evaluation_status",
+    "rollback_plan"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "source_docket": {
+      "type": "string"
+    },
+    "reuse_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation_status": {
+      "type": "string"
+    },
+    "rollback_plan": {
+      "type": "string"
+    }
+  }
+}

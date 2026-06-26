@@ -1,0 +1,31 @@
+{
+  "id": "job-001",
+  "mission_id": "mission-001",
+  "role": "Repository Autopilot",
+  "task": "Generate repository files and a public GitHub Pages website from a claim-bounded manifest.",
+  "allowed_tools": [
+    "python stdlib",
+    "git",
+    "GitHub Actions Pages actions"
+  ],
+  "inputs": [
+    "content/site_manifest.json",
+    "schemas/*.json",
+    "docs/*.md"
+  ],
+  "outputs": [
+    "public/*.html",
+    "reports/*.json",
+    "reports/autopilot-summary.md"
+  ],
+  "trace_requirements": [
+    "commit diff",
+    "QA report",
+    "site status JSON"
+  ],
+  "done_gate": [
+    "repo validation passes",
+    "site validation passes",
+    "claim boundary present"
+  ]
+}

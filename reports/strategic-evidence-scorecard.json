@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "generated_at_utc": "2026-06-26T18:36:07.031548+00:00",
+  "institutional_infrastructure_score": 100,
+  "market_evidence_score": 0,
+  "evidence_state": "infrastructure_ready_market_evidence_pending",
+  "public_scale_claim_allowed": false,
+  "verified_categories_present": [],
+  "required_categories_missing": [
+    "benchmark",
+    "commercial",
+    "customer_discovery",
+    "design_partner",
+    "fair_value_support",
+    "governance",
+    "independent_validation",
+    "pilot",
+    "product",
+    "usage"
+  ],
+  "proof_velocity": {
+    "counted_events": 0,
+    "capability_reuse_events": 0,
+    "median_hours_to_docket": null,
+    "median_hours_to_validation": null
+  },
+  "recommended_public_statement": "Institutional proof infrastructure is ready; strong market-scale claims require source-verifiable external evidence.",
+  "next_best_actions": [
+    "Replace placeholder evidence with real dated customer discovery records.",
+    "Run at least three bounded pilots with success criteria agreed before execution.",
+    "Publish baseline comparisons with replayable evidence.",
+    "Obtain independent validator reports for flagship Evidence Dockets.",
+    "Add source-verifiable commercial and fair-value-support records when they exist."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Provenance Record",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "collected_at",
+    "license_or_terms",
+    "use_in_claim"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "collected_at": {
+      "type": "string"
+    },
+    "license_or_terms": {
+      "type": "string"
+    },
+    "use_in_claim": {
+      "type": "string"
+    }
+  }
+}

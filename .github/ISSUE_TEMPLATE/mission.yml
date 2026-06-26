@@ -1,0 +1,26 @@
+name: Mission Contract
+about: Propose a bounded GoalOS mission.
+title: "[Mission]: "
+labels: [mission, needs-evidence]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should be accomplished?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence requirements
+      description: What proof must exist before this can be accepted?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and non-goals
+      description: What must the system not do?
+    validations:
+      required: true

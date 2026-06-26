@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Evidence Docket",
+  "type": "object",
+  "required": [
+    "id",
+    "mission_id",
+    "claim_boundary",
+    "proof_bundles",
+    "validator_reports",
+    "risk_ledger",
+    "cost_ledger",
+    "decision_state"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string"
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "proof_bundles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validator_reports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_ledger": {
+      "type": "string"
+    },
+    "cost_ledger": {
+      "type": "string"
+    },
+    "decision_state": {
+      "enum": [
+        "draft",
+        "ready_for_validation",
+        "needs_revision",
+        "blocked",
+        "accepted",
+        "settled",
+        "reusable",
+        "retired"
+      ]
+    }
+  }
+}

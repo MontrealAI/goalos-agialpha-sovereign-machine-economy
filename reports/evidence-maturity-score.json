@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "generated_at_utc": "2026-06-26T18:36:06.908435+00:00",
+  "evidence_state": "infrastructure_ready_market_evidence_pending",
+  "public_scale_claim_allowed": false,
+  "total_items": 8,
+  "counted_items": 0,
+  "verified_items": 0,
+  "placeholder_items": 8,
+  "verified_categories_present": [],
+  "required_categories_missing": [
+    "benchmark",
+    "commercial",
+    "customer_discovery",
+    "design_partner",
+    "fair_value_support",
+    "governance",
+    "independent_validation",
+    "pilot",
+    "product",
+    "usage"
+  ],
+  "errors": [],
+  "note": "Examples and templates are intentionally excluded from counted market evidence."
+}

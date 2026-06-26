@@ -1,0 +1,29 @@
+name: Evidence Docket
+about: Submit or review evidence for a claim.
+title: "[Evidence Docket]: "
+labels: [evidence, validator-review]
+body:
+  - type: input
+    id: mission
+    attributes:
+      label: Mission ID
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Bounded claim
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Proof bundle links or hashes
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Known limitations
+    validations:
+      required: true

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Agent Card",
+  "type": "object",
+  "required": [
+    "id",
+    "role",
+    "allowed_tools",
+    "prohibited_actions",
+    "evaluation_requirements",
+    "retirement_conditions"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "allowed_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "retirement_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

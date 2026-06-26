@@ -1,0 +1,19 @@
+{
+  "id": "ev-fair-value-example-001",
+  "artifact_type": "fair_value_support_record",
+  "category": "fair_value_support",
+  "evidence_status": "example_placeholder",
+  "summary": "Template for formal fair-value-support evidence. This is not a valuation claim.",
+  "created_at": "2026-06-26T18:05:13.007030+00:00",
+  "confidentiality": "private",
+  "public_claim_permission": "not_allowed",
+  "source_provenance": {
+    "source_type": "template",
+    "source_status": "not_formal_valuation_evidence"
+  },
+  "review": {
+    "qualified_reviewer": false,
+    "methodology_documented": false,
+    "transaction_or_external_process": false
+  }
+}

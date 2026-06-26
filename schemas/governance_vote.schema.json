@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Governance Vote",
+  "type": "object",
+  "required": [
+    "id",
+    "proposal",
+    "voter_class",
+    "decision",
+    "rationale"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "proposal": {
+      "type": "string"
+    },
+    "voter_class": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    }
+  }
+}

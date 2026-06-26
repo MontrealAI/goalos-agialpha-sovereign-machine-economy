@@ -1,0 +1,51 @@
+{
+  "id": "mission-001",
+  "title": "Launch GoalOS AGIALPHA Ascension public repository",
+  "objective": "Create a public-safe repository and autonomous website scaffold for proof-settled AI work.",
+  "scope": [
+    "repository docs",
+    "schemas",
+    "examples",
+    "autonomous GitHub Pages action",
+    "QA reports"
+  ],
+  "non_goals": [
+    "production deployment",
+    "mainnet activation",
+    "user-fund custody",
+    "legal advice",
+    "financial advice",
+    "claim of achieved AGI"
+  ],
+  "deliverables": [
+    "README",
+    "START_HERE",
+    "public website",
+    "schema registry",
+    "example Evidence Docket"
+  ],
+  "acceptance_criteria": [
+    "website builds",
+    "QA passes",
+    "claim boundary appears",
+    "schemas load",
+    "examples load"
+  ],
+  "evidence_requirements": [
+    "autopilot summary",
+    "site QA report",
+    "repo validation report",
+    "example docket"
+  ],
+  "validators": [
+    "repo QA",
+    "site QA",
+    "operator review"
+  ],
+  "risk_controls": [
+    "no secrets",
+    "no production claims",
+    "no user-fund automation"
+  ],
+  "rollback_plan": "Revert the autopilot commit or rerun the workflow in pull_request mode for review before merge."
+}

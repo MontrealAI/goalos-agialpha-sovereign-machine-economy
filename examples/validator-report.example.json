@@ -1,0 +1,12 @@
+{
+  "id": "validator-001",
+  "proof_bundle_id": "proof-001",
+  "validator": "site-qa",
+  "decision": "accept",
+  "findings": [
+    "Public pages generated",
+    "Claim boundary present",
+    "No broken local links detected in generated pages"
+  ],
+  "required_changes": []
+}

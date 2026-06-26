@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Validator Report",
+  "type": "object",
+  "required": [
+    "id",
+    "proof_bundle_id",
+    "validator",
+    "decision",
+    "findings",
+    "required_changes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "proof_bundle_id": {
+      "type": "string"
+    },
+    "validator": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "accept",
+        "revise",
+        "reject",
+        "block"
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_changes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

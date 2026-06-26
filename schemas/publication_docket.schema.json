@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Publication Docket",
+  "type": "object",
+  "required": [
+    "id",
+    "artifact",
+    "claim_boundary_present",
+    "qa_status",
+    "human_review_required",
+    "publication_decision"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "artifact": {
+      "type": "string"
+    },
+    "claim_boundary_present": {
+      "type": "boolean"
+    },
+    "qa_status": {
+      "type": "string"
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "publication_decision": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Tool Trace",
+  "type": "object",
+  "required": [
+    "id",
+    "job_id",
+    "tool",
+    "purpose",
+    "input_summary",
+    "output_summary",
+    "timestamp_utc"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "tool": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "input_summary": {
+      "type": "string"
+    },
+    "output_summary": {
+      "type": "string"
+    },
+    "timestamp_utc": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">GoalOS Institutional Document Series</title>
+<desc id="desc">Dark executive cover graphic with proof flow and institutional document series title.</desc>
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#08111f"/><stop offset="0.55" stop-color="#101827"/><stop offset="1" stop-color="#1e1634"/></linearGradient>
+  <radialGradient id="r" cx="75%" cy="25%" r="65%"><stop offset="0" stop-color="#c9a45c" stop-opacity="0.42"/><stop offset="1" stop-color="#c9a45c" stop-opacity="0"/></radialGradient>
+  <style>
+    .small{font:500 34px Inter,Segoe UI,Arial,sans-serif;fill:#b8c2d6;letter-spacing:.08em;text-transform:uppercase}
+    .title{font:800 82px Inter,Segoe UI,Arial,sans-serif;fill:#fff;letter-spacing:-.045em}
+    .sub{font:400 34px Inter,Segoe UI,Arial,sans-serif;fill:#d8dfef}
+    .pill{font:600 25px Inter,Segoe UI,Arial,sans-serif;fill:#101827}
+    .node{fill:#ffffff;stroke:#d7b56d;stroke-width:3;opacity:.96}
+    .line{stroke:#d7b56d;stroke-width:4;opacity:.72}
+  </style>
+</defs>
+<rect width="1600" height="900" fill="url(#g)"/>
+<rect width="1600" height="900" fill="url(#r)"/>
+<circle cx="1270" cy="170" r="260" fill="#d7b56d" opacity=".08"/>
+<text x="110" y="150" class="small">GoalOS AGIALPHA Ascension</text>
+<text x="110" y="255" class="title">Institutional</text>
+<text x="110" y="350" class="title">Document Series</text>
+<text x="113" y="430" class="sub">Proof-settled autonomous AI work, made understandable, governable, and reviewable.</text>
+<g transform="translate(120 570)">
+  <line x1="120" y1="52" x2="1340" y2="52" class="line"/>
+  <g><circle cx="120" cy="52" r="46" class="node"/><text x="76" y="140" class="pill" fill="#eaf0fb">Mission</text></g>
+  <g><circle cx="360" cy="52" r="46" class="node"/><text x="328" y="140" class="pill" fill="#eaf0fb">Job</text></g>
+  <g><circle cx="600" cy="52" r="46" class="node"/><text x="552" y="140" class="pill" fill="#eaf0fb">Evidence</text></g>
+  <g><circle cx="840" cy="52" r="46" class="node"/><text x="790" y="140" class="pill" fill="#eaf0fb">Validate</text></g>
+  <g><circle cx="1080" cy="52" r="46" class="node"/><text x="1030" y="140" class="pill" fill="#eaf0fb">Settle</text></g>
+  <g><circle cx="1340" cy="52" r="46" class="node"/><text x="1287" y="140" class="pill" fill="#eaf0fb">Reuse</text></g>
+</g>
+<rect x="110" y="770" rx="28" ry="28" width="630" height="62" fill="#d7b56d"/>
+<text x="145" y="811" class="pill">AI Work = Output x Proof x Validation x Settlement x Reuse</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "decision": "accepted",
+  "settled_claim": "Repository scaffold accepted for public demonstration within the claim boundary.",
+  "evidence_hash": "sha256:d58d4f26c000f7e22f3237800523999920713940cce41b459232c7820704ecde",
+  "limitations": [
+    "research and product scaffold only",
+    "not production authorization",
+    "not legal, tax, or financial advice",
+    "not a claim of achieved AGI or ASI"
+  ]
+}

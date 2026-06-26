@@ -1,0 +1,13 @@
+{
+  "id": "capability-001",
+  "name": "Autonomous GitHub Pages proof-site generator",
+  "version": "0.2.0",
+  "source_docket": "docket-001",
+  "reuse_conditions": [
+    "public-safe content only",
+    "claim boundary preserved",
+    "QA passes before deployment"
+  ],
+  "evaluation_status": "demo accepted",
+  "rollback_plan": "Revert generated website or disable GitHub Pages deployment."
+}

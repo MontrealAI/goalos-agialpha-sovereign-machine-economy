@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "artifact_type",
+    "evidence_status",
+    "summary",
+    "created_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "artifact_type": {
+      "type": "string"
+    },
+    "evidence_status": {
+      "type": "string",
+      "enum": [
+        "example_placeholder",
+        "operator_attested",
+        "source_verifiable",
+        "third_party_verified"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "source_provenance": {
+      "type": "object"
+    },
+    "public_claim_permission": {
+      "type": "string",
+      "enum": [
+        "not_allowed",
+        "limited",
+        "allowed_with_context"
+      ]
+    },
+    "confidentiality": {
+      "type": "string",
+      "enum": [
+        "public",
+        "redacted",
+        "private"
+      ]
+    },
+    "review": {
+      "type": "object"
+    },
+    "metrics": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true,
+  "title": "Market Evidence Item"
+}

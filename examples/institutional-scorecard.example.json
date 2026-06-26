@@ -1,0 +1,27 @@
+{
+  "id": "institutional-scorecard:genesis",
+  "dimensions": [
+    {
+      "name": "claim boundary",
+      "score": 10
+    },
+    {
+      "name": "proof artifacts",
+      "score": 9
+    },
+    {
+      "name": "operator UX",
+      "score": 9
+    },
+    {
+      "name": "automation",
+      "score": 9
+    },
+    {
+      "name": "commercial clarity",
+      "score": 8
+    }
+  ],
+  "overall_signal": "institutional-grade repository surface, research scaffold only",
+  "financial_claim_boundary": true
+}

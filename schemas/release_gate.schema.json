@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Release Gate",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "checks",
+    "rollback_plan",
+    "decision"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "rollback_plan": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    }
+  }
+}

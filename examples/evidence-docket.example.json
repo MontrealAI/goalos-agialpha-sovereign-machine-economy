@@ -1,0 +1,14 @@
+{
+  "id": "docket-001",
+  "mission_id": "mission-001",
+  "claim_boundary": "No AGI-achievement claim, no production authorization, no user-fund authorization, no financial promise.",
+  "proof_bundles": [
+    "proof-001"
+  ],
+  "validator_reports": [
+    "validator-001"
+  ],
+  "risk_ledger": "risk-001",
+  "cost_ledger": "demo-cost-ledger-001",
+  "decision_state": "accepted"
+}

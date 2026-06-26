@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Risk Ledger",
+  "type": "object",
+  "required": [
+    "id",
+    "mission_id",
+    "risks",
+    "mitigations",
+    "residual_risk"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string"
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mitigations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "residual_risk": {
+      "type": "string"
+    }
+  }
+}

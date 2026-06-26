@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Proof Bundle",
+  "type": "object",
+  "required": [
+    "id",
+    "mission_id",
+    "claim",
+    "evidence_hashes",
+    "source_cards",
+    "tool_traces",
+    "tests",
+    "known_limits"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "evidence_hashes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_cards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tool_traces": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

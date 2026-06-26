@@ -1,0 +1,17 @@
+{
+  "id": "settlement-001",
+  "docket_id": "docket-001",
+  "decision": "accepted",
+  "settled_claim": "The repository scaffold and generated site are ready for public demonstration within the stated claim boundary.",
+  "evidence_hash": "sha256:example-placeholder",
+  "validator_quorum": [
+    "repo-qa",
+    "site-qa",
+    "operator-review"
+  ],
+  "limitations": [
+    "not production certification",
+    "not external audit",
+    "not legal, tax, or financial advice"
+  ]
+}

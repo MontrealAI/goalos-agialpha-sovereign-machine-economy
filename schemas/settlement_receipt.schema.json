@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Settlement Receipt",
+  "type": "object",
+  "required": [
+    "id",
+    "docket_id",
+    "decision",
+    "settled_claim",
+    "evidence_hash",
+    "validator_quorum",
+    "limitations"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "docket_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "accepted",
+        "rejected",
+        "blocked"
+      ]
+    },
+    "settled_claim": {
+      "type": "string"
+    },
+    "evidence_hash": {
+      "type": "string"
+    },
+    "validator_quorum": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

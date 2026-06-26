@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Proof Job",
+  "type": "object",
+  "required": [
+    "id",
+    "mission_id",
+    "role",
+    "task",
+    "allowed_tools",
+    "inputs",
+    "outputs",
+    "trace_requirements",
+    "done_gate"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "task": {
+      "type": "string"
+    },
+    "allowed_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trace_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "done_gate": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

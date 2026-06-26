@@ -1,0 +1,24 @@
+{
+  "id": "agent-card:genesis-claim-boundary-validator",
+  "role": "Claim Boundary Validator",
+  "allowed_tools": [
+    "read_docket",
+    "scan_claims",
+    "write_validator_report"
+  ],
+  "prohibited_actions": [
+    "authorize_production",
+    "make_investment_claims",
+    "remove_claim_boundary"
+  ],
+  "evaluation_requirements": [
+    "detect restricted claims",
+    "confirm docket references",
+    "emit limitations"
+  ],
+  "retirement_conditions": [
+    "false approvals",
+    "policy drift",
+    "missing trace output"
+  ]
+}

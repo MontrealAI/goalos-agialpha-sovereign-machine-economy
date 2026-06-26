@@ -1,0 +1,20 @@
+{
+  "name": "goalos-agialpha-sovereign-machine-economy",
+  "version": "0.4.0-institutional",
+  "private": true,
+  "description": "Institutional proof-settled autonomous AI work repository surface for GoalOS AGIALPHA Ascension.",
+  "scripts": {
+    "site": "python scripts/build_site.py",
+    "qa": "python scripts/validate_repo.py && python scripts/validate_claims.py && python scripts/build_site.py && python scripts/verify_site.py && python scripts/compute_institutional_scorecard.py && python scripts/hash_artifacts.py",
+    "demo": "python scripts/run_demo_mission.py"
+  },
+  "keywords": [
+    "goalos",
+    "agialpha",
+    "evidence-docket",
+    "validator-mesh",
+    "proof-jobs",
+    "machine-economy"
+  ],
+  "license": "MIT"
+}

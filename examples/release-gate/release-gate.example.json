@@ -1,0 +1,20 @@
+{
+  "id": "release-gate:genesis",
+  "version": "0.3.0-institutional",
+  "checks": [
+    {
+      "name": "repo validation",
+      "status": "pass"
+    },
+    {
+      "name": "site qa",
+      "status": "pass"
+    },
+    {
+      "name": "claim boundary",
+      "status": "present"
+    }
+  ],
+  "rollback_plan": "revert the Autopilot commit or disable GitHub Pages deployment",
+  "decision": "ready for public demonstration"
+}

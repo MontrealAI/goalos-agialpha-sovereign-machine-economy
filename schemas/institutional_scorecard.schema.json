@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Institutional Scorecard",
+  "type": "object",
+  "required": [
+    "id",
+    "dimensions",
+    "overall_signal",
+    "financial_claim_boundary"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "overall_signal": {
+      "type": "string"
+    },
+    "financial_claim_boundary": {
+      "type": "boolean"
+    }
+  }
+}

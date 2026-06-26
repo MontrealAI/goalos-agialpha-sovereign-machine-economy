@@ -1,0 +1,8 @@
+{
+  "id": "publication-docket:genesis-site",
+  "artifact": "public/index.html",
+  "claim_boundary_present": true,
+  "qa_status": "pass",
+  "human_review_required": true,
+  "publication_decision": "publish demonstration site within claim boundary"
+}

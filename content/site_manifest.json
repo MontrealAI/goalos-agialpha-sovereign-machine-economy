@@ -1,0 +1,1154 @@
+{
+  "title": "GoalOS AGIALPHA Ascension — Sovereign Machine Economy ✨",
+  "short_title": "GoalOS Ascension",
+  "tagline": "AI creates output. GoalOS creates proof.",
+  "subtitle": "An institutional-grade operating surface for proof-settled autonomous AI work, governed decision states, validator-gated jobs, and reusable capability packages.",
+  "primary_repository": "goalos-agialpha-sovereign-machine-economy",
+  "generated_from": [
+    {
+      "name": "GoalOS AGIALPHA Ascension",
+      "url": "https://github.com/MontrealAI/goalos-agialpha-ascension",
+      "role": "upstream evidence-first GoalOS repository and claim-boundary source"
+    },
+    {
+      "name": "META-AGENTIC α‑AGI",
+      "url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0",
+      "role": "meta-agentic agent foundry lineage"
+    },
+    {
+      "name": "AGI Alpha Node v0",
+      "url": "https://github.com/MontrealAI/AGI-Alpha-Node-v0",
+      "role": "operator-controlled node runtime, validator, identity, and observability lineage"
+    },
+    {
+      "name": "AGI Jobs v0 (v2)",
+      "url": "https://github.com/MontrealAI/AGIJobsv0",
+      "role": "jobs ledger, CI status wall, and audit artifact lineage"
+    },
+    {
+      "name": "GoalOS Mission OS Paper",
+      "url": "https://montrealai.github.io/goalos-agialpha-ascension/downloads/mission-os/GoalOS_Mission_OS_Paper.pdf",
+      "role": "Proof OS, Governed Decision States, Evidence Dockets, and autonomous publication law"
+    },
+    {
+      "name": "Proof-of-Evolution Constitution",
+      "url": "https://github.com/MontrealAI/proof-gradient/blob/main/docs/standards/AEP-001/GoalOS_Proof-of-Evolution-Constitution_AEP001_v12.1_Institutional_Final.pdf",
+      "role": "proof-gated evolution and governance reference"
+    }
+  ],
+  "operating_law": [
+    "No proof, no settlement.",
+    "No Evidence Docket, no strong public claim.",
+    "No eval, no propagation.",
+    "No rollback, no release.",
+    "No claim boundary, no publication.",
+    "Public proof, private data."
+  ],
+  "claim_boundary": "This repository is a research, product, and governance scaffold. It does not claim achieved AGI, ASI, superintelligence, empirical SOTA, guaranteed security, guaranteed returns, legal approval, tax approval, production authorization, user-fund authorization, autonomous legal sovereignty, mainnet activation, or civilization-scale capability.",
+  "hero_badges": [
+    "Proof OS",
+    "Mission Contracts",
+    "Evidence Dockets",
+    "Validator Mesh",
+    "AGI Jobs Ledger",
+    "Node Runtime",
+    "Capability Registry",
+    "Trust Center",
+    "Autonomous GitHub Pages",
+    "Evidence-to-Scale",
+    "Proof Velocity",
+    "Public Metrics Ledger",
+    "Evidence Room"
+  ],
+  "kpis": [
+    {
+      "label": "Proof surfaces",
+      "value": "18+",
+      "detail": "schemas and examples for evidence-bearing work"
+    },
+    {
+      "label": "Generated pages",
+      "value": "40+",
+      "detail": "public website pages generated from manifest and evidence standards"
+    },
+    {
+      "label": "GoalOS standards",
+      "value": "12",
+      "detail": "artifact standards and conformance gates"
+    },
+    {
+      "label": "Operator controls",
+      "value": "12+",
+      "detail": "QA, digests, release gates, risk ledgers, and claim scans"
+    },
+    {
+      "label": "Launch path",
+      "value": "1 file",
+      "detail": "paste one workflow into GitHub Web UI"
+    },
+    {
+      "label": "Claim boundary",
+      "value": "Always on",
+      "detail": "publication remains evidence-bounded"
+    },
+    {
+      "label": "Evidence room",
+      "value": "Live",
+      "detail": "structured records, placeholders, and source-verifiable evidence gates"
+    },
+    {
+      "label": "Scale claim gate",
+      "value": "Strict",
+      "detail": "strong public claims require verified evidence categories"
+    },
+    {
+      "label": "Proof velocity",
+      "value": "Tracked",
+      "detail": "missions, dockets, validation, and capability reuse metrics"
+    }
+  ],
+  "proof_flow": [
+    "Objective",
+    "Mission Contract",
+    "Claims Matrix",
+    "Proof Jobs",
+    "Tool Traces",
+    "Evidence Docket",
+    "Validator Reports",
+    "Governed Decision State",
+    "Settlement Receipt",
+    "Chronicle",
+    "Capability Package"
+  ],
+  "quick_launch": [
+    "Create a public GitHub repository named goalos-agialpha-sovereign-machine-economy.",
+    "Set Actions workflow permissions to Read and write permissions.",
+    "Set Pages source to GitHub Actions.",
+    "Create .github/workflows/goalos-ascension-autopilot.yml.",
+    "Paste the autonomous workflow and commit.",
+    "Run the workflow from the Actions tab.",
+    "Copy the Pages URL into the repository About box."
+  ],
+  "pillars": [
+    {
+      "title": "Mission OS",
+      "text": "Converts objectives into bounded Mission Contracts and Governed Decision States.",
+      "link": "mission-os.html"
+    },
+    {
+      "title": "Meta-Agentic Council",
+      "text": "Creates, selects, evaluates, reconfigures, and retires agents under proof gates.",
+      "link": "agents.html"
+    },
+    {
+      "title": "AGI Jobs Ledger",
+      "text": "Turns autonomous work into constrained proof jobs with evidence requirements.",
+      "link": "jobs.html"
+    },
+    {
+      "title": "Node Runtime",
+      "text": "Keeps operators in control with pause, rollback, identity, validator, and observability surfaces.",
+      "link": "node.html"
+    },
+    {
+      "title": "Evidence Dockets",
+      "text": "Bundle sources, traces, contradiction registers, risks, costs, validator reports, and claims matrices.",
+      "link": "evidence.html"
+    },
+    {
+      "title": "Trust Center",
+      "text": "Publishes the non-sensitive proof surface, standards, QA reports, and claim boundary.",
+      "link": "trust-center.html"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "index",
+      "nav": "Home",
+      "eyebrow": "Institutional proof surface",
+      "title": "Home",
+      "headline": "Autonomous AI work, made evidence-bearing.",
+      "body": "GoalOS AGIALPHA Ascension turns ambitious autonomous AI work into bounded missions, evidence dockets, validator reports, release gates, settlement receipts, and reusable capability packages.",
+      "cta": "Launch from GitHub Web UI",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "The executive thesis",
+          "text": "The next practical frontier is not merely more agents. It is governed, observable, proof-bearing work that an institution can review, reproduce, settle, and reuse.",
+          "cards": [
+            {
+              "title": "Output is not enough",
+              "text": "A result becomes institutionally useful only when it carries evidence, traceability, risk accounting, and validation."
+            },
+            {
+              "title": "Capability must compound",
+              "text": "Accepted work is captured as Chronicle entries and reusable capability packages rather than isolated chat outputs."
+            },
+            {
+              "title": "Publication is gated",
+              "text": "The public website is generated from proof-aligned source and always carries the claim boundary."
+            }
+          ]
+        },
+        {
+          "title": "One-file public launch",
+          "text": "A non-technical operator can launch the repository from GitHub Web UI by pasting one workflow file and pressing Run workflow.",
+          "checklist": [
+            "Create a public GitHub repository named goalos-agialpha-sovereign-machine-economy.",
+            "Set Actions workflow permissions to Read and write permissions.",
+            "Set Pages source to GitHub Actions.",
+            "Create .github/workflows/goalos-ascension-autopilot.yml.",
+            "Paste the autonomous workflow and commit.",
+            "Run the workflow from the Actions tab.",
+            "Copy the Pages URL into the repository About box."
+          ]
+        },
+        {
+          "title": "Repository promise",
+          "text": "Corporate polish, research discipline, public trust posture, machine-readable artifacts, and a clear path from demo to pilot without overstating evidence."
+        }
+      ]
+    },
+    {
+      "slug": "start",
+      "nav": "Start",
+      "eyebrow": "Non-technical launch",
+      "title": "Start Here",
+      "headline": "Create the repository from GitHub.com in minutes.",
+      "body": "No terminal is required. This page is the practical path for creating the repository, running the autonomous action, and publishing the website.",
+      "cta": "View troubleshooting",
+      "cta_href": "troubleshooting.html",
+      "sections": [
+        {
+          "title": "Before you begin",
+          "text": "You need a GitHub account and permission to create a new repository. Public visibility is easiest for GitHub Pages."
+        },
+        {
+          "title": "Click-by-click path",
+          "text": "Create the repository, set Actions to read/write, set Pages to GitHub Actions, paste the workflow, commit it, then run it.",
+          "checklist": [
+            "Create a public GitHub repository named goalos-agialpha-sovereign-machine-economy.",
+            "Set Actions workflow permissions to Read and write permissions.",
+            "Set Pages source to GitHub Actions.",
+            "Create .github/workflows/goalos-ascension-autopilot.yml.",
+            "Paste the autonomous workflow and commit.",
+            "Run the workflow from the Actions tab.",
+            "Copy the Pages URL into the repository About box."
+          ]
+        },
+        {
+          "title": "After the run succeeds",
+          "text": "Open reports/site-qa.json, reports/repo-validation.json, reports/claim-scan.json, and the live Pages URL. Add the URL to the repository About section."
+        }
+      ]
+    },
+    {
+      "slug": "mission-os",
+      "nav": "Mission OS",
+      "eyebrow": "Proof OS",
+      "title": "Mission OS",
+      "headline": "From objective to governed decision state.",
+      "body": "Mission OS converts a high-stakes objective into a bounded contract, evidence plan, validation process, decision state, and reusable capability.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Mission lifecycle",
+          "text": "Every mission starts with a bounded objective and ends with a reviewable evidence package, not a vague autonomous action.",
+          "cards": [
+            {
+              "title": "Mission Contract",
+              "text": "Defines scope, success criteria, constraints, non-goals, validation requirements, and human review gates."
+            },
+            {
+              "title": "Claims Matrix",
+              "text": "Separates facts, inferences, recommendations, assumptions, and unsupported claims."
+            },
+            {
+              "title": "Governed Decision State",
+              "text": "Records whether the work is accepted, rejected, blocked, deferred, or ready for limited release."
+            }
+          ]
+        },
+        {
+          "title": "Practical value",
+          "text": "This lets operators explain what the system did, what it relied on, what risks were controlled, and what still needs review."
+        }
+      ]
+    },
+    {
+      "slug": "capability-stack",
+      "nav": "Capability Stack",
+      "eyebrow": "Institutional capability model",
+      "title": "Capability Stack",
+      "headline": "A complete operating model for proof-settled AI work.",
+      "body": "The repository is structured as a stack: user-facing launch experience, mission engine, proof jobs, evidence layer, validation layer, runtime controls, governance, and publication.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Stack layers",
+          "text": "Each layer has a purpose, artifact, and review gate.",
+          "cards": [
+            {
+              "title": "Operator UX",
+              "text": "Plain-language launch guides, website editor guide, and non-technical troubleshooting."
+            },
+            {
+              "title": "Proof Kernel",
+              "text": "Minimal reference logic for DONE gating, settlement readiness, and review status."
+            },
+            {
+              "title": "Trust Center",
+              "text": "Public artifacts, claim boundaries, QA reports, standards, and release-state information."
+            }
+          ]
+        },
+        {
+          "title": "Why this matters",
+          "text": "The repository can be inspected by executives, developers, reviewers, operators, and governance stakeholders without requiring one audience to read everything."
+        }
+      ]
+    },
+    {
+      "slug": "agents",
+      "nav": "Agents",
+      "eyebrow": "Meta-agentic council",
+      "title": "Agent Foundry",
+      "headline": "Agents that manage agents remain governed by proof.",
+      "body": "The META-AGENTIC α‑AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Agent operating rules",
+          "text": "Agents are not treated as free-floating personalities. They are accountable work units with roles, permissions, evidence duties, and retirement criteria.",
+          "cards": [
+            {
+              "title": "Create",
+              "text": "Spawn candidate agents only when a mission contract justifies the role."
+            },
+            {
+              "title": "Evaluate",
+              "text": "Compare agents using task evidence, validator reports, and delayed outcomes."
+            },
+            {
+              "title": "Retire or reconfigure",
+              "text": "Remove or adapt agents when evidence quality, safety, or cost profiles degrade."
+            }
+          ]
+        },
+        {
+          "title": "Institutional guardrail",
+          "text": "No agent output is promoted to capability without an Evidence Docket and validation status."
+        }
+      ]
+    },
+    {
+      "slug": "jobs",
+      "nav": "Jobs",
+      "eyebrow": "AGI Jobs Ledger",
+      "title": "AGI Jobs Ledger",
+      "headline": "Bounded work packets with evidence obligations.",
+      "body": "The AGI Jobs layer turns missions into proof jobs: concrete units of work with owners, tools, traces, acceptance criteria, and settlement requirements.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Job design",
+          "text": "A useful job is small enough to verify and rich enough to produce meaningful work.",
+          "cards": [
+            {
+              "title": "Bounded scope",
+              "text": "Each job states its objective, constraints, non-goals, and expected output."
+            },
+            {
+              "title": "Trace requirements",
+              "text": "Tool actions, inputs, outputs, timestamps, costs, and provenance are recorded."
+            },
+            {
+              "title": "Acceptance gate",
+              "text": "Settlement is blocked until validation and review requirements are met."
+            }
+          ]
+        },
+        {
+          "title": "Operator benefit",
+          "text": "The ledger gives non-technical reviewers a clean way to see what happened and why it passed or failed."
+        }
+      ]
+    },
+    {
+      "slug": "node",
+      "nav": "Node",
+      "eyebrow": "Runtime control plane",
+      "title": "Node Runtime",
+      "headline": "Operator control for autonomous work.",
+      "body": "The Node Runtime maps AGI Alpha Node v0 into a GoalOS operator plane: identity, validator gating, pause/resume, telemetry, release state, and rollback authority.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Control surfaces",
+          "text": "The runtime is designed so operators can stop, review, redirect, or roll back work when the evidence or risk posture requires it.",
+          "cards": [
+            {
+              "title": "Pause and resume",
+              "text": "Stop work when validation fails, risk rises, or policy changes."
+            },
+            {
+              "title": "Validator roster",
+              "text": "Track who or what can validate work and under which criteria."
+            },
+            {
+              "title": "Observability",
+              "text": "Expose mission status, job status, docket completeness, risk ledgers, and release state."
+            }
+          ]
+        },
+        {
+          "title": "Boundary",
+          "text": "Runtime control is architectural in this repository and does not imply production authorization or user-fund authorization."
+        }
+      ]
+    },
+    {
+      "slug": "evidence",
+      "nav": "Evidence",
+      "eyebrow": "Evidence Dockets",
+      "title": "Evidence Layer",
+      "headline": "Proof that can be reviewed, reproduced, and challenged.",
+      "body": "Evidence Dockets are the core institutional unit: claims, source provenance, contradiction registers, tool traces, verifier reports, costs, risks, and outcomes.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Docket contents",
+          "text": "An Evidence Docket should make it easy to understand the work without trusting the agent blindly.",
+          "cards": [
+            {
+              "title": "Claims Matrix",
+              "text": "Every important claim is categorized and linked to supporting evidence."
+            },
+            {
+              "title": "Source Provenance",
+              "text": "Sources, files, tools, and generated artifacts are recorded with stable references."
+            },
+            {
+              "title": "Validator Reports",
+              "text": "Review results state what passed, what failed, what is unresolved, and what requires human approval."
+            }
+          ]
+        },
+        {
+          "title": "Institutional standard",
+          "text": "No strong public claim should be published unless a docket can carry it."
+        }
+      ]
+    },
+    {
+      "slug": "governance",
+      "nav": "Governance",
+      "eyebrow": "Governed decision states",
+      "title": "Governance",
+      "headline": "The system remains ambitious because it remains bounded.",
+      "body": "Governance turns proof into controlled decisions: accept, reject, block, defer, request more evidence, release internally, or publish externally.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Governance mode",
+          "text": "The repository favors boringly clear decision records over vague autonomous behavior.",
+          "cards": [
+            {
+              "title": "Release gates",
+              "text": "Public claims, website changes, standards updates, and capability propagation require checks."
+            },
+            {
+              "title": "Risk ledger",
+              "text": "Known risks are recorded with severity, owner, mitigation, and status."
+            },
+            {
+              "title": "Rollback plan",
+              "text": "Each release has a defined recovery path when evidence, claims, or site QA fail."
+            }
+          ]
+        },
+        {
+          "title": "Practical outcome",
+          "text": "The repo is easier to trust because its claims are intentionally constrained."
+        }
+      ]
+    },
+    {
+      "slug": "trust-center",
+      "nav": "Trust Center",
+      "eyebrow": "Public assurance layer",
+      "title": "Trust Center",
+      "headline": "A public proof surface for serious reviewers.",
+      "body": "The Trust Center organizes the public proof, standards, claim boundary, QA reports, and operator guidance that make the repository credible.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Trust center surfaces",
+          "text": "Visitors should be able to find what the system claims, what it does not claim, what artifacts exist, and how validation works.",
+          "cards": [
+            {
+              "title": "Reports",
+              "text": "Site QA, claim scan, artifact digests, repository validation, and scorecard outputs."
+            },
+            {
+              "title": "Standards",
+              "text": "GoalOS standards for mission contracts, proof jobs, evidence dockets, validator reports, release gates, and scorecards."
+            },
+            {
+              "title": "Privacy posture",
+              "text": "Public proof, private data: publish references and review status without exposing confidential inputs."
+            }
+          ]
+        },
+        {
+          "title": "Corporate readiness",
+          "text": "The Trust Center is designed for procurement, board review, partner diligence, and community review."
+        }
+      ]
+    },
+    {
+      "slug": "operators",
+      "nav": "Operators",
+      "eyebrow": "Operator experience",
+      "title": "Operator Console Blueprint",
+      "headline": "A clear cockpit for mission control.",
+      "body": "The operator experience is built around visible mission status, evidence completeness, validation state, risk posture, and publication readiness.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Operator panels",
+          "text": "The intended product experience is a cockpit, not a chat window.",
+          "cards": [
+            {
+              "title": "Mission board",
+              "text": "Shows active missions, current gates, owners, due dates, and blocked items."
+            },
+            {
+              "title": "Evidence cockpit",
+              "text": "Shows what proof exists, what is missing, and what validators said."
+            },
+            {
+              "title": "Release console",
+              "text": "Shows whether a release is ready, blocked, or safe for limited publication."
+            }
+          ]
+        },
+        {
+          "title": "Non-technical UX rule",
+          "text": "Every important status should be readable without opening code."
+        }
+      ]
+    },
+    {
+      "slug": "pilot-program",
+      "nav": "Pilot",
+      "eyebrow": "Pilot program",
+      "title": "Pilot Program",
+      "headline": "Start with bounded missions that prove the workflow.",
+      "body": "The recommended first deployment is not open-ended autonomy. It is a controlled pilot with bounded missions, clear baselines, validation, and evidence review.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Pilot design",
+          "text": "Pick work where proof matters and outcomes can be judged.",
+          "cards": [
+            {
+              "title": "Mission 1: Research brief",
+              "text": "Convert a research question into a claims matrix, source provenance, and executive brief."
+            },
+            {
+              "title": "Mission 2: Vendor diligence",
+              "text": "Create a docket comparing vendor claims, risks, costs, and contradictions."
+            },
+            {
+              "title": "Mission 3: Release readiness",
+              "text": "Run a release gate over website copy, claims, docs, and QA artifacts."
+            }
+          ]
+        },
+        {
+          "title": "Success criteria",
+          "text": "The pilot succeeds when the review process is faster, clearer, safer, and more reusable than ad hoc AI work."
+        }
+      ]
+    },
+    {
+      "slug": "enterprise",
+      "nav": "Enterprise",
+      "eyebrow": "Enterprise operating model",
+      "title": "Enterprise Readiness",
+      "headline": "Built for institutional review, not just developer novelty.",
+      "body": "The repository includes procurement, compliance, risk, board, data-room, and operating-metric surfaces so serious organizations can evaluate it.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Enterprise artifacts",
+          "text": "A technical repo becomes enterprise-readable when it includes governance, operations, assurance, and rollout materials.",
+          "cards": [
+            {
+              "title": "Procurement readiness",
+              "text": "Explains scope, boundaries, dependencies, data handling, and support expectations."
+            },
+            {
+              "title": "Model risk management",
+              "text": "Frames AI outputs as evidence-gated work products, not automatic truth."
+            },
+            {
+              "title": "Board-level brief",
+              "text": "Gives leadership a practical understanding of the opportunity and boundaries."
+            }
+          ]
+        },
+        {
+          "title": "Practical posture",
+          "text": "This is a launch-grade public package; production deployment still requires implementation review, security review, and authorized operating procedures."
+        }
+      ]
+    },
+    {
+      "slug": "standards",
+      "nav": "Standards",
+      "eyebrow": "GoalOS standards registry",
+      "title": "Standards",
+      "headline": "A shared language for proof-settled work.",
+      "body": "The standards directory defines the artifact contracts and review expectations that keep missions auditable and interoperable.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Standards included",
+          "text": "The repository ships with twelve GoalOS standards covering mission contracts, proof jobs, tool traces, evidence dockets, validator reports, Chronicle entries, settlement receipts, agent cards, publication dockets, release gates, and scorecards."
+        },
+        {
+          "title": "Why standards matter",
+          "text": "Reusable capability requires stable forms. Standards let different agents, validators, and operators understand the same proof objects."
+        }
+      ]
+    },
+    {
+      "slug": "schema-registry",
+      "nav": "Schemas",
+      "eyebrow": "Machine-readable contracts",
+      "title": "Schema Registry",
+      "headline": "Proof artifacts that software can validate.",
+      "body": "JSON schemas make the proof surface machine-readable, testable, and automation-friendly.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Schema role",
+          "text": "Schemas do not make claims true. They make proof artifacts structured enough to validate, compare, index, and review."
+        },
+        {
+          "title": "Included schemas",
+          "text": "Mission contracts, proof jobs, tool traces, evidence dockets, validator reports, risk ledgers, settlement receipts, capability packages, Chronicle entries, and more."
+        }
+      ]
+    },
+    {
+      "slug": "evaluation",
+      "nav": "Evaluation",
+      "eyebrow": "Evaluation program",
+      "title": "Evaluation",
+      "headline": "Evidence before stronger claims.",
+      "body": "The evaluation program defines how missions are compared against baselines, reviewed by validators, tested with delayed outcomes, and documented for reproduction.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Evaluation requirements",
+          "text": "A strong empirical claim needs task definition, baseline, proof bundle, replay or reproduction path, validator report, cost ledger, risk ledger, and delayed-outcome review."
+        },
+        {
+          "title": "Claim discipline",
+          "text": "Without an Evidence Docket, the system should not make a strong empirical claim."
+        }
+      ]
+    },
+    {
+      "slug": "proof-economy",
+      "nav": "Proof Economy",
+      "eyebrow": "Settlement and reuse",
+      "title": "Proof Economy",
+      "headline": "Verified work becomes reusable capability.",
+      "body": "The Sovereign Machine Economy is modeled as a proof-settled loop: work only becomes reusable economic capacity after evidence and validation.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Economic loop",
+          "text": "Missions produce proof jobs; proof jobs produce dockets; accepted dockets produce settlement receipts; settled work becomes Chronicle entries and capability packages."
+        },
+        {
+          "title": "Boundary",
+          "text": "This is an architectural model, not a financial return claim, investment offering, or production settlement system."
+        }
+      ]
+    },
+    {
+      "slug": "release-gates",
+      "nav": "Release Gates",
+      "eyebrow": "Publication control",
+      "title": "Release Gates",
+      "headline": "Do not publish what the evidence cannot carry.",
+      "body": "Release gates protect the public repository by checking site quality, claim boundaries, schema validity, proof reports, and rollback readiness.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Gate checks",
+          "text": "The action runs site QA, claim scan, repository validation, artifact hashing, scorecard computation, demo mission, and unit tests before deployment."
+        },
+        {
+          "title": "Rollback expectation",
+          "text": "A release without a rollback path should not be treated as complete."
+        }
+      ]
+    },
+    {
+      "slug": "security",
+      "nav": "Security",
+      "eyebrow": "Security posture",
+      "title": "Security",
+      "headline": "Safety through limits, review, and transparent boundaries.",
+      "body": "The repository avoids implying production security. It provides a public security posture, responsible disclosure process, secrets guidance, and review expectations.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Security principles",
+          "text": "Least privilege, no secrets in public proof artifacts, bounded claims, review gates, artifact digests, and human authorization for sensitive transitions."
+        },
+        {
+          "title": "Boundary",
+          "text": "The repository is not a completed external audit and should not be represented as one."
+        }
+      ]
+    },
+    {
+      "slug": "roadmap",
+      "nav": "Roadmap",
+      "eyebrow": "Capability roadmap",
+      "title": "Roadmap",
+      "headline": "A practical path from public scaffold to serious pilot.",
+      "body": "The roadmap moves from repository launch to pilot mission packs, validator integrations, proof APIs, operator console, trust center, and production hardening.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Phases",
+          "text": "Launch the public proof surface, run controlled pilots, expand validation, implement APIs, add operator UI, then pursue independent review."
+        },
+        {
+          "title": "Review gate",
+          "text": "Each roadmap step needs evidence of usefulness, risk control, cost, and reproducibility before stronger claims."
+        }
+      ]
+    },
+    {
+      "slug": "source-lineage",
+      "nav": "Lineage",
+      "eyebrow": "Source integration",
+      "title": "Source Lineage",
+      "headline": "One GoalOS-native surface for prior lineages.",
+      "body": "The repository integrates the previous META-AGENTIC α‑AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Integrated lineages",
+          "text": "Agent creation and evaluation become the Agent Foundry; node owner controls become the Node Runtime; jobs and CI discipline become the AGI Jobs Ledger; Mission OS supplies the proof-to-action architecture."
+        },
+        {
+          "title": "Respecting boundaries",
+          "text": "The repo preserves a strict distinction between architecture, demonstration, evidence, and production authorization."
+        }
+      ]
+    },
+    {
+      "slug": "repository-map",
+      "nav": "Repo Map",
+      "eyebrow": "Repository navigation",
+      "title": "Repository Map",
+      "headline": "Know where everything lives.",
+      "body": "The repository is organized so non-technical operators, developers, reviewers, and executives can find their path quickly.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Primary directories",
+          "text": "content for website source, docs for operating manuals, standards for artifact rules, schemas for contracts, examples for proof objects, scripts for automation, public for generated website, and reports for QA outputs."
+        },
+        {
+          "title": "First files to read",
+          "text": "START_HERE.md, README.md, CLAIMS.md, docs/NON_TECHNICAL_OPERATOR_MANUAL.md, docs/EXECUTIVE_INSTITUTIONAL_BRIEF.md, and reports/site-qa.json."
+        }
+      ]
+    },
+    {
+      "slug": "launch",
+      "nav": "Launch",
+      "eyebrow": "Public launch package",
+      "title": "Launch Package",
+      "headline": "A polished public release surface.",
+      "body": "The launch package includes repository About copy, topics, website copy, demo script, stakeholder guide, and a non-technical GitHub UI path.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Public copy",
+          "text": "GoalOS turns autonomous AI work into evidence-bearing institutional capability."
+        },
+        {
+          "title": "Recommended topics",
+          "text": "goalos, agialpha, sovereign-machine-economy, autonomous-ai, evidence-docket, proof-bundles, validator-mesh, governed-ai, machine-labor, institutional-ai."
+        }
+      ]
+    },
+    {
+      "slug": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Plain-English answers",
+      "title": "FAQ",
+      "headline": "Straight answers for non-technical reviewers.",
+      "body": "This FAQ explains what the repository is, what the action does, what the website is, and what the project does not claim.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Is this production software?",
+          "text": "No. It is a launch-grade repository, proof architecture, product scaffold, standards package, and website generator. Production use requires further implementation and review."
+        },
+        {
+          "title": "Will the action change my repository?",
+          "text": "Yes, in direct commit mode. It creates files, runs QA, commits generated artifacts, and publishes Pages. Use dry run or pull request mode for a safer review path."
+        }
+      ]
+    },
+    {
+      "slug": "executive-brief",
+      "nav": "Brief",
+      "eyebrow": "Executive brief",
+      "title": "Executive Brief",
+      "headline": "The boardroom explanation in one page.",
+      "body": "GoalOS is a disciplined way to convert AI output into reviewable work, reviewable work into trusted decisions, and trusted decisions into reusable capability.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Why now",
+          "text": "Organizations are adopting agentic systems faster than their evidence, governance, and audit practices can mature. GoalOS makes proof the operating primitive."
+        },
+        {
+          "title": "What leadership should ask",
+          "text": "What was done? What evidence supports it? What did it cost? What risks remain? Who validated it? Can it be reused?"
+        }
+      ]
+    },
+    {
+      "slug": "claim-boundary",
+      "nav": "Boundary",
+      "eyebrow": "Claim boundary",
+      "title": "Claim Boundary",
+      "headline": "Ambition without unsupported claims.",
+      "body": "This repository is a research, product, and governance scaffold. It does not claim achieved AGI, ASI, superintelligence, empirical SOTA, guaranteed security, guaranteed returns, legal approval, tax approval, production authorization, user-fund authorization, autonomous legal sovereignty, mainnet activation, or civilization-scale capability.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "What this repository does not claim",
+          "text": "It does not claim achieved AGI, ASI, empirical SOTA, production authorization, external audit completion, guaranteed returns, legal approval, tax approval, user-fund authorization, or civilization-scale capability."
+        },
+        {
+          "title": "What would justify stronger claims",
+          "text": "Real tasks, baselines, Evidence Dockets, replay logs, validator reports, cost and safety ledgers, delayed outcomes, and independent review."
+        }
+      ]
+    },
+    {
+      "slug": "adoption",
+      "nav": "Adoption",
+      "eyebrow": "Adoption playbook",
+      "title": "Adoption Playbook",
+      "headline": "How a serious organization would start.",
+      "body": "Adoption should begin with bounded, low-risk proof missions and expand only after evidence quality, operator experience, and review practices are strong.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "First 30 days",
+          "text": "Launch the repository, run a proof mission, review dockets, tune schemas, define validators, and create a pilot scorecard."
+        },
+        {
+          "title": "Next 60 days",
+          "text": "Add domain-specific mission templates, verifier rosters, operator dashboards, and a private evidence store."
+        }
+      ]
+    },
+    {
+      "slug": "data-room",
+      "nav": "Data Room",
+      "eyebrow": "Data room index",
+      "title": "Data Room",
+      "headline": "Diligence-ready public materials.",
+      "body": "The repository includes a data-room index for reviewers who need fast access to architecture, governance, security, claim boundaries, QA reports, standards, and pilot design.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Diligence package",
+          "text": "Executive brief, trust center, standards registry, security posture, claim boundary, release gates, repository validation, and artifact digest reports."
+        },
+        {
+          "title": "Private extension",
+          "text": "In a real deployment, sensitive inputs, customer data, secrets, credentials, and private validator notes stay out of public Pages."
+        }
+      ]
+    },
+    {
+      "slug": "metrics",
+      "nav": "Metrics",
+      "eyebrow": "Operating metrics",
+      "title": "Operating Metrics",
+      "headline": "Measure proof quality, not just activity.",
+      "body": "GoalOS metrics focus on mission completion quality: evidence completeness, validation pass rate, contradiction resolution, cost, latency, rollback frequency, and capability reuse.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Useful metrics",
+          "text": "Docket completeness, validation latency, rejected claim rate, unresolved risk count, replay success, cost per accepted mission, and capability reuse count."
+        },
+        {
+          "title": "Avoid vanity metrics",
+          "text": "Agent count, message count, and token volume are not proof of institutional value."
+        }
+      ]
+    },
+    {
+      "slug": "website-autopilot",
+      "nav": "Website",
+      "eyebrow": "Autonomous publication",
+      "title": "Website Autopilot",
+      "headline": "A public site generated from proof-aligned source.",
+      "body": "The website is generated from content/site_manifest.json, checked by automation, and deployed through GitHub Pages.",
+      "cta": "Edit the website source",
+      "cta_href": "repository-map.html",
+      "sections": [
+        {
+          "title": "Edit without code",
+          "text": "Change content/site_manifest.json, rerun the workflow, and the public pages regenerate."
+        },
+        {
+          "title": "Publication guardrails",
+          "text": "The generated site includes the claim boundary, status JSON, search index, sitemap, and QA checks."
+        }
+      ]
+    },
+    {
+      "slug": "troubleshooting",
+      "nav": "Help",
+      "eyebrow": "GitHub Web UI troubleshooting",
+      "title": "Troubleshooting",
+      "headline": "What to do when GitHub does not behave as expected.",
+      "body": "Most launch issues are settings issues: Pages source, workflow permissions, missing workflow_dispatch, or a typo in the workflow file path.",
+      "cta": "Start with the launch guide",
+      "cta_href": "start.html",
+      "sections": [
+        {
+          "title": "Common fixes",
+          "text": "Check that the file path is exactly .github/workflows/goalos-ascension-autopilot.yml, Actions are enabled, workflow permissions are read/write, and Pages source is GitHub Actions."
+        },
+        {
+          "title": "If the website is not live yet",
+          "text": "Open Actions, wait for the deploy job to finish, then open Settings → Pages for the final URL."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-to-scale",
+      "nav": "Evidence Scale",
+      "eyebrow": "Strategic evidence",
+      "title": "Evidence to Scale",
+      "headline": "Institutional ambition, tested by evidence.",
+      "body": "The evidence-to-scale layer distinguishes vision from counted proof and blocks strong public claims until source-verifiable artifacts exist.",
+      "cta": "Open evidence standard",
+      "cta_href": "claim-boundary.html",
+      "sections": [
+        {
+          "title": "What changed",
+          "text": "The repository now has market evidence schemas, pilot outcome dockets, proof velocity metrics, public metrics ledgers, and an evidence room index.",
+          "cards": [
+            {
+              "title": "Placeholders do not count",
+              "text": "Examples are visibly labeled and excluded from market evidence scoring."
+            },
+            {
+              "title": "Proof has levels",
+              "text": "Operator-attested, source-verifiable, and third-party-verified evidence are treated differently."
+            },
+            {
+              "title": "Claims are gated",
+              "text": "The validator refuses strong scale claims until required evidence categories are present."
+            }
+          ]
+        },
+        {
+          "title": "Evidence categories",
+          "text": "Product, usage, customer discovery, design partner, pilot, benchmark, commercial, independent validation, fair-value support, and governance evidence are tracked separately."
+        }
+      ]
+    },
+    {
+      "slug": "proof-velocity",
+      "nav": "Proof Velocity",
+      "eyebrow": "Operating metric",
+      "title": "Proof Velocity",
+      "headline": "Measure how quickly work becomes validated capability.",
+      "body": "Proof velocity measures the time from mission start to Evidence Docket, validation, settlement, Chronicle entry, and reuse.",
+      "cta": "View metrics",
+      "cta_href": "metrics.html",
+      "sections": [
+        {
+          "title": "Not raw activity",
+          "text": "High proof velocity requires bounded missions, complete evidence, validator review, and reusable capability packages."
+        },
+        {
+          "title": "Tracked outputs",
+          "text": "The repository tracks missions completed, dockets created, validator reports, release gates, capability packages, reuse events, and review cycle time."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-room",
+      "nav": "Evidence Room",
+      "eyebrow": "Stakeholder trust",
+      "title": "Evidence Room",
+      "headline": "A structured data room for what can be proven.",
+      "body": "The evidence room indexes artifacts, source provenance, confidentiality, public claim permission, and review status.",
+      "cta": "Open trust center",
+      "cta_href": "trust-center.html",
+      "sections": [
+        {
+          "title": "Public proof, private data",
+          "text": "Public pages can show aggregates, hashes, and redacted summaries. Sensitive customer, commercial, or legal records stay private unless publication rights are clear."
+        },
+        {
+          "title": "Reviewer path",
+          "text": "A stakeholder can see what is built, tested, validated, confidential, and still pending without relying on marketing language."
+        }
+      ]
+    },
+    {
+      "slug": "pilot-proof",
+      "nav": "Pilot Proof",
+      "eyebrow": "Enterprise evidence",
+      "title": "Pilot Proof",
+      "headline": "Every serious pilot ends with a docket.",
+      "body": "Pilot evidence requires a bounded mission, success criteria, baseline, execution record, validator decision, and follow-up status.",
+      "cta": "View pilot program",
+      "cta_href": "pilot-program.html",
+      "sections": [
+        {
+          "title": "Controlled pilots",
+          "text": "The system is designed for named use cases, pre-agreed success criteria, replayable evidence, and post-pilot acceptance records."
+        },
+        {
+          "title": "Outcome states",
+          "text": "Pilots are recorded as in progress, completed pending review, validated success, validated mixed, or not validated."
+        }
+      ]
+    },
+    {
+      "slug": "strategic-evidence-scorecard",
+      "nav": "Scorecard",
+      "eyebrow": "Evidence gate",
+      "title": "Strategic Evidence Scorecard",
+      "headline": "What can be proven today?",
+      "body": "The scorecard separates institutional infrastructure readiness from external market proof and recommends the public statement that evidence can carry.",
+      "cta": "Read claim boundary",
+      "cta_href": "claim-boundary.html",
+      "sections": [
+        {
+          "title": "Two scores",
+          "text": "Institutional infrastructure can be strong while market evidence remains pending. That separation protects trust."
+        },
+        {
+          "title": "Strong claim gate",
+          "text": "The gate requires verified evidence across product, usage, customer, pilot, benchmark, commercial, independent validation, fair-value support, and governance categories."
+        }
+      ]
+    },
+    {
+      "slug": "public-metrics-ledger",
+      "nav": "Public Metrics",
+      "eyebrow": "Transparent metrics",
+      "title": "Public Metrics Ledger",
+      "headline": "Publish the metrics that proof can support.",
+      "body": "The public metrics ledger exposes proof velocity and evidence completeness while keeping sensitive records private.",
+      "cta": "View metrics",
+      "cta_href": "metrics.html",
+      "sections": [
+        {
+          "title": "Safe public reporting",
+          "text": "The ledger can publish aggregate mission counts, validation counts, reuse rates, and evidence completeness without revealing private customer records."
+        },
+        {
+          "title": "Evidence hashes",
+          "text": "Private records can be represented by hashes, source classes, and reviewer notes when full disclosure is not appropriate."
+        }
+      ]
+    },
+    {
+      "slug": "independent-validation",
+      "nav": "Validation",
+      "eyebrow": "External review",
+      "title": "Independent Validation",
+      "headline": "Internal proof becomes stronger when reviewed independently.",
+      "body": "The validation protocol gives external reviewers a Mission Contract, Claims Matrix, Evidence Docket, Risk Ledger, replay notes, and acceptance criteria.",
+      "cta": "Open assurance model",
+      "cta_href": "evaluation.html",
+      "sections": [
+        {
+          "title": "Reviewer outputs",
+          "text": "Validators return a decision, confidence level, evidence gaps, reproduction notes, limitations, and publication recommendation."
+        },
+        {
+          "title": "Trust lift",
+          "text": "Independent review does not replace judgment, but it improves the evidential quality of serious public claims."
+        }
+      ]
+    },
+    {
+      "slug": "commercial-evidence",
+      "nav": "Commercial Evidence",
+      "eyebrow": "Private by default",
+      "title": "Commercial Evidence",
+      "headline": "Commercial signals are counted carefully and disclosed responsibly.",
+      "body": "Commercial evidence can include signed records, paid pilots, procurement progression, renewals, and expansion signals, but sensitive details stay private by default.",
+      "cta": "Open data room",
+      "cta_href": "data-room.html",
+      "sections": [
+        {
+          "title": "Counted evidence",
+          "text": "A commercial signal counts only when it has a date, owner, source record, confidentiality level, and public claim permission."
+        },
+        {
+          "title": "Disclosure discipline",
+          "text": "Names, revenue amounts, contract terms, and legal records are not published unless permission is clear."
+        }
+      ]
+    }
+  ]
+}

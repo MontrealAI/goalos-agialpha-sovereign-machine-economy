@@ -1,0 +1,9 @@
+[project]
+name = "goalos-agialpha-sovereign-machine-economy"
+version = "0.3.0"
+description = "Proof-settled autonomous AI work repository surface for GoalOS AGIALPHA Ascension."
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

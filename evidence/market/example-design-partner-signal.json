@@ -1,0 +1,19 @@
+{
+  "id": "ev-market-design-partner-example-001",
+  "artifact_type": "enterprise_signal",
+  "category": "design_partner",
+  "evidence_status": "example_placeholder",
+  "summary": "Template for a design partner record with mission boundary and success criteria.",
+  "created_at": "2026-06-26T18:05:13.007030+00:00",
+  "confidentiality": "private",
+  "public_claim_permission": "not_allowed",
+  "source_provenance": {
+    "source_type": "template",
+    "source_status": "not_real_market_evidence"
+  },
+  "metrics": {
+    "success_criteria_defined": false,
+    "counterparty_approved": false,
+    "follow_up_date": null
+  }
+}

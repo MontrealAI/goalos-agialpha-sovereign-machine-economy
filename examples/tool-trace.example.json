@@ -1,0 +1,9 @@
+{
+  "id": "trace-001",
+  "job_id": "job-001",
+  "tool": "python scripts/build_site.py",
+  "purpose": "Build the static website from the manifest.",
+  "input_summary": "Read content/site_manifest.json and docs metadata.",
+  "output_summary": "Generated public HTML pages, CSS, JS, search index, and site status.",
+  "timestamp_utc": "2026-06-26T00:00:00Z"
+}

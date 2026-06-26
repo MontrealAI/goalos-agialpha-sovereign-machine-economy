@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Evaluation Pack",
+  "type": "object",
+  "required": [
+    "id",
+    "capability_id",
+    "tests",
+    "baseline",
+    "result",
+    "limitations"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "capability_id": {
+      "type": "string"
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "baseline": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

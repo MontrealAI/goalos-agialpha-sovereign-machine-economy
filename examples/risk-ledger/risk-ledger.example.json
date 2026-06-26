@@ -1,0 +1,17 @@
+{
+  "id": "risk-001",
+  "mission_id": "mission-001",
+  "risks": [
+    "Overstated AGI claims",
+    "Accidental secret publication",
+    "Broken GitHub Pages links",
+    "Confusing non-technical setup"
+  ],
+  "mitigations": [
+    "Claim boundary scan",
+    ".env ignored",
+    "site QA",
+    "START_HERE guide"
+  ],
+  "residual_risk": "Operator must still review public pages before broad announcement."
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "GoalOS AGIALPHA Ascension — Sovereign Machine Economy ✨"
+message: "If you use this repository scaffold, cite it as a GoalOS AGIALPHA Ascension implementation kit."
+type: software
+authors:
+  - family-names: "Boucher"
+    given-names: "Vincent"
+repository-code: "https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy"
+license: MIT
+date-released: "2026-06-26"

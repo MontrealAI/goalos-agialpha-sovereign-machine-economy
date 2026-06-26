@@ -1,0 +1,2 @@
+
+const init=()=>{document.body.dataset.goalos='ready';const links=[...document.querySelectorAll('a[href^="#"]')];for(const a of links){a.addEventListener('click',e=>{const id=a.getAttribute('href').slice(1);const el=document.getElementById(id);if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'});}})}};document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();

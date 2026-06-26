@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Chronicle Entry",
+  "type": "object",
+  "required": [
+    "id",
+    "date",
+    "event",
+    "decision_state",
+    "evidence",
+    "next_action"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "decision_state": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_action": {
+      "type": "string"
+    }
+  }
+}

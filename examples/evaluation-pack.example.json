@@ -1,0 +1,16 @@
+{
+  "id": "evaluation-pack:genesis-capability",
+  "capability_id": "capability:genesis-proof-mission",
+  "tests": [
+    "schema validation",
+    "site QA",
+    "kernel settlement gate",
+    "claim boundary scan"
+  ],
+  "baseline": "manual repository scaffold without autonomous proof QA",
+  "result": "reference scaffold passes local gates",
+  "limitations": [
+    "not a production security audit",
+    "not empirical agent benchmark"
+  ]
+}

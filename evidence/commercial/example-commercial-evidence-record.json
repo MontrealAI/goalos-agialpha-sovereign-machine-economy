@@ -1,0 +1,19 @@
+{
+  "id": "ev-commercial-example-001",
+  "artifact_type": "commercial_evidence_record",
+  "category": "commercial",
+  "evidence_status": "example_placeholder",
+  "summary": "Template for a source-verifiable commercial record.",
+  "created_at": "2026-06-26T18:05:13.007030+00:00",
+  "confidentiality": "private",
+  "public_claim_permission": "not_allowed",
+  "source_provenance": {
+    "source_type": "template",
+    "source_status": "not_real_commercial_evidence"
+  },
+  "metrics": {
+    "paid": false,
+    "signed_record_exists": false,
+    "renewal_or_expansion": false
+  }
+}

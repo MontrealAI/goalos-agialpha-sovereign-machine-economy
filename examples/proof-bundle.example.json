@@ -1,0 +1,24 @@
+{
+  "id": "proof-001",
+  "mission_id": "mission-001",
+  "claim": "The repository contains a generated public website and claim-boundary-aware proof artifacts.",
+  "evidence_hashes": [
+    "sha256:example-placeholder"
+  ],
+  "source_cards": [
+    "references-public-lineage"
+  ],
+  "tool_traces": [
+    "trace-001"
+  ],
+  "tests": [
+    "validate_repo.py",
+    "verify_site.py",
+    "unittest discover"
+  ],
+  "known_limits": [
+    "demonstration scaffold only",
+    "not production authorization",
+    "not legal or financial advice"
+  ]
+}

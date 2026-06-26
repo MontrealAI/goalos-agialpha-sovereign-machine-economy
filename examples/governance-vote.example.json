@@ -1,0 +1,7 @@
+{
+  "id": "governance-vote:genesis-publication",
+  "proposal": "Publish generated GitHub Pages site",
+  "voter_class": "maintainer",
+  "decision": "approve within claim boundary",
+  "rationale": "QA passed and no production or financial claims are made"
+}
