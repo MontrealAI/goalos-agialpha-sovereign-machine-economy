@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-06-26T23:06:06Z",
+  "release_tag": "v0.2.1-complete-sync",
+  "pages_url": "https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/",
+  "files": [
+    {
+      "path": "public/404.html",
+      "sha256": "5e96ccc373cebc50cb6f9050222235592385e1c0998dd62ae2c43f3ef8ed8a67"
+    },
+    {
+      "path": "public/adoption.html",
+      "sha256": "e9d3f59e29bbf60b6c3cefb013be5c78a8167a08d1dca02c76aa01336b85da19"
+    },
+    {
+      "path": "public/agents.html",
+      "sha256": "e5f451c9c89b220c4d7dd150b2326e99c9b4d9196395ee50307a208d087c3a84"
+    },
+    {
+      "path": "public/architecture.html",
+      "sha256": "213891d4f5aca3190164fe818ae033e4a46e3288d9954d25350d4668270b260a"
+    },
+    {
+      "path": "public/assets/goalos-frontier-og.svg",
+      "sha256": "672682b267bd80566d4f49341a23bc07513871916548a562a7bd4473d8fb32f3"
+    },
+    {
+      "path": "public/assets/goalos-historical.css",
+      "sha256": "67f8bbcf745b4bbbfad15dec16a95b9f5e548aa108efdd4e8add5c126be8f5be"
+    },
+    {
+      "path": "public/assets/goalos-historical.js",
+      "sha256": "80fafc83bc15b684fe12372881b78c64815b2764dc1a1d3800eec0d51c76e5f1"
+    },
+    {
+      "path": "public/assets/goalos-mark.svg",
+      "sha256": "df3b3dda9ee9b5c2cd057c4a57b2d586dafad6be3df9c4341c876800332e3b2e"
+    },
+    {
+      "path": "public/assets/goalos-prestige-mark.svg",
+      "sha256": "c78516be9117cae8694ee1c9cbd07ceb2c45e0a2c5346ca54d6971325d57fa97"
+    },
+    {
+      "path": "public/assets/goalos.css",
+      "sha256": "7f0b61fbe54293ed9e7d257fcc07c40d8817703e230ba558c78be6129365d1f6"
+    },
+    {
+      "path": "public/assets/goalos.js",
+      "sha256": "c24d74079a6349b5314442c156dff5eed62662bc55ce987ad90fdcaf1e9114a6"
+    },
+    {
+      "path": "public/assets/social-preview.svg",
+      "sha256": "117f31f63fb064e5f759c1bae6375f557b484284945004c75e2e8e3f95391909"
+    },
+    {
+      "path": "public/capability-stack.html",
+      "sha256": "64461543c5e7f50c0b5b747a5870bfe57feb659399f433834728aa54be5ec4bc"
+    },
+    {
+      "path": "public/claim-boundary.html",
+      "sha256": "c0f5daafccd76e38c9206f57e30310e1414cba86b83131d5f107b631f9379de9"
+    },
+    {
+      "path": "public/commercial-evidence.html",
+      "sha256": "046d3c5d10902fb0365a58bda444101f768daa6148549c32a2f5b1280f6d1071"
+    },
+    {
+      "path": "public/console.html",
+      "sha256": "442e8fc1e476db06bc867983ce0a4ee8e2289987adb261376c12ea6b20a0d26d"
+    },
+    {
+      "path": "public/data-room.html",
+      "sha256": "60422661a890738aa5b7478cb70a7562bd296ce0fbdd57935e279d830bd4c4c5"
+    },
+    {
+      "path": "public/enterprise.html",
+      "sha256": "2a1da53ad900b3929ecf6e662ddd817338f29c531a796c40621cd69613975f20"
+    },
+    {
+      "path": "public/evaluation.html",
+      "sha256": "d5fcdcb6868082632dff03d8200bc4ba25698efdca13fbbbe8aa8fb8426ef91f"
+    },
+    {
+      "path": "public/evidence-room.html",
+      "sha256": "8b3b73596f673df6cced0dff84e9d83191d5891fe227ecc60bf8bcd3bce4797c"
+    },
+    {
+      "path": "public/evidence-to-scale.html",
+      "sha256": "378000484255f6ea9c9cafb8febb9d323b640fe3b253a2574fafaf47858f9754"
+    },
+    {
+      "path": "public/evidence.html",
+      "sha256": "ed9668ef30e0891ee7130e17b0ee2f0ae5ea7b51c336b3716fe692f478ff1e06"
+    },
+    {
+      "path": "public/executive-brief.html",
+      "sha256": "c0ace0c15938f7fcc1bbf85923d80fe60a62cb3acac45160d35148cf2bbaa26f"
+    },
+    {
+      "path": "public/faq.html",
+      "sha256": "bcfbca89e3c0be47f5bde1218bdd33f9cb892c82bf5a0ed863b155c1d1fb6fd4"
+    },
+    {
+      "path": "public/frontier-release-case-study.html",
+      "sha256": "5ae23765bbb1fdc54c94852247e8256e8cf49b0e8688f8641e7c2d8652fde39c"
+    },
+    {
+      "path": "public/frontier-release-room.html",
+      "sha256": "5bda1d0e21be08aee4e2b553a71cec830ca7769d5fcf6b2e7d7bcf458928d3a1"
+    },
+    {
+      "path": "public/governance.html",
+      "sha256": "205184eaffd77a72dddea62165f1f8d14bf22288100504ad267b5f15f6d7c316"
+    },
+    {
+      "path": "public/independent-validation.html",
+      "sha256": "a90d94754ec93691ed0e29b89e10dc7c1b1372c5bd9db27aa6e0ad66a42739a4"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "de462a874c6acb052f0a5e810834b1df5ed5eb633f6ae3a21ec1e8e9d532a9c5"
+    },
+    {
+      "path": "public/jobs.html",
+      "sha256": "caf920f086cf89f3d06010819139b47550f9cbe1706808f08429eb417e3d74d2"
+    },
+    {
+      "path": "public/launch.html",
+      "sha256": "269094d2df38bbce548bddb42bc8d190c062a25b8829241bee362924ff68acea"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "sha256": "b80730e2358199ae902acae6271ffc1b20f91ddf518e81fc4e6254f42a9479d6"
+    },
+    {
+      "path": "public/metrics.html",
+      "sha256": "0bec019e9e4ba2426deffe3a638258d79e2de3757b1957a51dc241ddea861e6d"
+    },
+    {
+      "path": "public/mission-os.html",
+      "sha256": "ca13fb7de717bc06d078aa64e4b94b84b0031de33650794c126ab63fa4d3bfa5"
+    },
+    {
+      "path": "public/node.html",
+      "sha256": "ebd05b6f13fc6991c69088169214170763d31becdabf4287e49c328ad9a2ff68"
+    },
+    {
+      "path": "public/operators.html",
+      "sha256": "c57205008628b6f2310be70bd232221062ab276fc128a48482ff610b79b0b412"
+    },
+    {
+      "path": "public/pilot-program.html",
+      "sha256": "278faf48045c9c6083d636556b39d295168bf25b94657ac2f4b8e9fbc09e0f72"
+    },
+    {
+      "path": "public/pilot-proof.html",
+      "sha256": "cc5f8f4a9d1a72ea544a456726dc20ffbcd7b498ec6cc30b8c2432fb8d145d3a"
+    },
+    {
+      "path": "public/product.html",
+      "sha256": "fefd42d3e344df59bbc02934426df6ee1ea484eb7b05bbb25889c4e9608916a2"
+    },
+    {
+      "path": "public/proof-economy.html",
+      "sha256": "a22fe06df24747ddd4ae84429bb418123aadb1f25140d4f88deb82031a12b395"
+    },
+    {
+      "path": "public/proof-velocity.html",
+      "sha256": "24ad5b6596d5bf8348f94ba2c628f8e667050812257e890820b3764d8483249b"
+    },
+    {
+      "path": "public/public-metrics-ledger.html",
+      "sha256": "fdb5e6d28e5ecdde3296b30a891898c0715abb122a18a2ca39d635fe312f16bc"
+    },
+    {
+      "path": "public/release-gates.html",
+      "sha256": "401990629eacbbd71d34069d62d3d6ebf01fa5a4f357c4e34a103199f2b16876"
+    },
+    {
+      "path": "public/repository-map.html",
+      "sha256": "fc2db0a1deb9b0365f790eb92c2c73c4e6a627c83b19bffe0b712fbcf93ed544"
+    },
+    {
+      "path": "public/roadmap.html",
+      "sha256": "a7c46c29207355a4c2781ed13c4bf16797cd5831d6588fd13c65104ea2b238df"
+    },
+    {
+      "path": "public/robots.txt",
+      "sha256": "c503256ebd049c452039c1a381c9e0d4980c6a7c41a10c2e9a08d7b9397e5f07"
+    },
+    {
+      "path": "public/schema-registry.html",
+      "sha256": "7e7682d7882638ffbe110f092f344723243a81969d03b7d67473dc276e0bf766"
+    },
+    {
+      "path": "public/search-index.json",
+      "sha256": "5f02b5c1a2f3d9c017b807c87cd82d2dca328c4e2b8b5535cb944a2509a01049"
+    },
+    {
+      "path": "public/security.html",
+      "sha256": "2d645ec236a512758779473f1cf2ca2fd954dd9e71a911f6dd011623ce084495"
+    },
+    {
+      "path": "public/site-status.json",
+      "sha256": "8d427fe4f5fe16cb86c7b8a4b376822ba274bef1729146dc4c92e1bf6fa63d0a"
+    },
+    {
+      "path": "public/site.webmanifest",
+      "sha256": "526587687f4f20d50ba8089c82e3b9e1c4f29d9909e8e37cbd2182dca1e532b7"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "sha256": "dde03a356df1cf78dd47c5e40945f70728da1edb22d0e01dd5111910b9f52bf5"
+    },
+    {
+      "path": "public/source-lineage.html",
+      "sha256": "deab8b393a276784776ef4bb18b487692914a98666122582f2f877202a0a86da"
+    },
+    {
+      "path": "public/standards.html",
+      "sha256": "99a5f20329e1fe01ae93ba58ec68b3f0a8840969ead1178fe307a448bf84b07a"
+    },
+    {
+      "path": "public/start.html",
+      "sha256": "e716aae98857439fbdfa0c3dbdcf353cf1cd1e6f14affa50e9a6584eb2b80036"
+    },
+    {
+      "path": "public/strategic-evidence-scorecard.html",
+      "sha256": "053b84b41ba44c7ae76dd3e22f52b95ce00e6f056ff203ddb26b0e1885e15a1b"
+    },
+    {
+      "path": "public/troubleshooting.html",
+      "sha256": "467f57a5dfdce3c5fc9f20c91106c88f6c45ac7588f3f199b1e277c6a50010d3"
+    },
+    {
+      "path": "public/trust-center.html",
+      "sha256": "0a146337ae80f72adcf5e5d46578d498d05218d333640a02f2c655d49e146586"
+    },
+    {
+      "path": "public/trust.html",
+      "sha256": "6cdf43f2d92cc04afbdb39d90b5d442f859064570a8c221d2df45bedf92d7123"
+    },
+    {
+      "path": "public/website-autopilot.html",
+      "sha256": "2e6b97067e724ba2fbf51fcf322534736215aa453f565be26a4e9ac532dfef00"
+    },
+    {
+      "path": "docs/frontier-release/ACCESS_TIER_MATRIX.md",
+      "sha256": "e33e991ed21ca1721c1907216348575096f25217099ac51d9e39a3d46514947c"
+    },
+    {
+      "path": "docs/frontier-release/ANTHROPIC_MYTHOS_OPENAI_SOL_PUBLIC_SOURCE_CASE_STUDY.md",
+      "sha256": "cc8f4d82e339ac2cb36ae8ee605eb55f25838a3d76630ad0f9d77237c5ca44a6"
+    },
+    {
+      "path": "docs/frontier-release/BOARD_MEMO_HISTORICAL_OPPORTUNITY.md",
+      "sha256": "c8357dcd48a4dc81e4c36fbef66f2e1a50225ca131f0213364e55661a7824826"
+    },
+    {
+      "path": "docs/frontier-release/FRG-001_FRONTIER_MODEL_RELEASE_EVIDENCE_DOCKET.md",
+      "sha256": "40e32a0eb61bffb3c0f9626b9da98d6aa03c238be1be2c471b8245eadaa0a7d8"
+    },
+    {
+      "path": "docs/frontier-release/FRONTIER_RELEASE_ROOM_OPERATOR_GUIDE.md",
+      "sha256": "550b2e5230cd030334461083e8bcca3d59a6cf1e112b36ef8fd1d2defc48701a"
+    },
+    {
+      "path": "docs/frontier-release/PUBLIC_PRIVATE_EVIDENCE_MODEL.md",
+      "sha256": "680b4a73df6067aef82be28dcbb24231bd105e42fad8a28fac12bc9f237c0c13"
+    },
+    {
+      "path": "docs/frontier-release/README.md",
+      "sha256": "3269ba347a4007d3addea915a548ab874c75a063655623b56bad87873a00d7e8"
+    },
+    {
+      "path": "docs/frontier-release/RELEASE_NOTES_FRONTIER_RELEASE_ROOM.md",
+      "sha256": "eef084cb2e392fbd0b8353ae25518bf848fa1771ae42be830d984db7da18ce80"
+    },
+    {
+      "path": "docs/frontier-release/ROLLBACK_RESTORE_PROTOCOL.md",
+      "sha256": "d0f3f03927edc5c14776d8817014a32f480be4e0fb1ecd594f23238c82f19e8f"
+    },
+    {
+      "path": "docs/frontier-release/VALIDATOR_SEAT_MODEL.md",
+      "sha256": "c89e164bd571095556fbc93105ba987147891e2b9d4d5bf35abc762fbe0b8b5c"
+    }
+  ],
+  "qa": {
+    "status": "passed",
+    "generated_at": "2026-06-26T23:06:06Z",
+    "pages_checked": 10,
+    "sources_checked": 8,
+    "local_only": true,
+    "network_calls": 0,
+    "external_authority": "none_granted",
+    "human_review_required": true,
+    "errors": [],
+    "visual_intensity": "sovereign"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-26T23:06:06Z",
+  "pages_checked": 10,
+  "sources_checked": 8,
+  "local_only": true,
+  "network_calls": 0,
+  "external_authority": "none_granted",
+  "human_review_required": true,
+  "errors": [],
+  "visual_intensity": "sovereign"
+}

@@ -1,3 +1,23 @@
+
+<p align="center">
+  <a href="https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/"><strong>Live Website</strong></a> ·
+  <a href="https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/console.html"><strong>Interactive Proof Console</strong></a> ·
+  <a href="https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/frontier-release-room.html"><strong>Frontier Release Room</strong></a> ·
+  <a href="https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/frontier-release-case-study.html"><strong>Case Study 001</strong></a>
+</p>
+
+<p align="center">
+  <img alt="Pages" src="https://img.shields.io/badge/GitHub%20Pages-live-5fffd2?style=for-the-badge" />
+  <img alt="Proof Console" src="https://img.shields.io/badge/Proof%20Console-interactive-fff06a?style=for-the-badge" />
+  <img alt="FRG-001" src="https://img.shields.io/badge/FRG--001-release%20docket-67a7ff?style=for-the-badge" />
+  <img alt="Claim Boundary" src="https://img.shields.io/badge/Claim%20Boundary-active-ff72b6?style=for-the-badge" />
+  <img alt="Release" src="https://img.shields.io/github/v/release/MontrealAI/goalos-agialpha-sovereign-machine-economy?include_prereleases&style=for-the-badge" />
+  <img alt="Repo validation" src="https://img.shields.io/badge/Repo%20Validation-passing-5fffd2?style=for-the-badge" />
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-white?style=for-the-badge" />
+</p>
+
+> **Historical opportunity:** frontier AI release decisions now need an evidence-bearing governance layer. GoalOS provides the proof architecture: Mission Contracts, Evidence Dockets, validator reports, access matrices, rollback conditions, and human-authorized decision states.
+
 # GoalOS AGIALPHA Ascension — Sovereign Machine Economy ✨
 
 **The institutional-grade operating surface for proof-settled autonomous AI work.**

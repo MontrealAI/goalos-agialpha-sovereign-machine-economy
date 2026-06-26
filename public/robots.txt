@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: sitemap.xml
+Sitemap: https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/sitemap.xml

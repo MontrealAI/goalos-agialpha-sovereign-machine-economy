@@ -1,0 +1,102 @@
+{
+  "schema": "goalos.frontier_release_public_source_docket.v1",
+  "generated_at": "2026-06-26T23:06:06Z",
+  "docket_id": "FRG-CASE-001",
+  "title": "Frontier AI Release Governance Public-Source Docket",
+  "case": "Anthropic Fable/Mythos and OpenAI GPT-5.6 public-source release-governance pattern",
+  "claim_boundary": [
+    "No model call is performed by the website console.",
+    "No wallet, transaction, settlement, external API call, or production activation is performed.",
+    "No legal, export-control, safety, security, or investment advice is provided.",
+    "No claim is made that GoalOS resolves any specific company-government dispute.",
+    "Human authority and independent review remain required for real decisions."
+  ],
+  "bounded_claim": "The public-source record supports the need for a structured Evidence Docket process for high-consequence frontier AI release decisions.",
+  "unsupported_claims": [
+    "GoalOS resolves any specific dispute.",
+    "GoalOS certifies any model as safe.",
+    "GoalOS replaces government, legal, or export-control review.",
+    "GoalOS has inside knowledge of confidential release decisions."
+  ],
+  "mission_contract": {
+    "objective": "Convert a public frontier-release governance controversy into a structured, source-cited, validator-reviewable docket.",
+    "scope": "public sources only",
+    "decision_state": "HOLD_PENDING_STRUCTURED_REVIEW",
+    "human_authority_required": true
+  },
+  "required_real_evidence_for_stronger_claims": [
+    "authenticated model release evidence",
+    "source-verifiable eval summaries",
+    "red-team and safeguard reports",
+    "independent validator reports",
+    "access-control implementation records",
+    "rollback and restore incident data",
+    "legal and policy review by qualified counsel"
+  ],
+  "sources": [
+    {
+      "id": "anthropic-fable-mythos-access",
+      "publisher": "Anthropic",
+      "title": "Fable and Mythos access update",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "type": "primary_source",
+      "used_for": "Anthropic's public statement on access suspension, foreign-national scope, and its position on transparent, fair, technically grounded government action."
+    },
+    {
+      "id": "openai-gpt-56-sol-preview",
+      "publisher": "OpenAI",
+      "title": "Previewing GPT-5.6 Sol",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "type": "primary_source",
+      "used_for": "OpenAI's public framing of a limited trusted-partner preview and government engagement around a frontier model release."
+    },
+    {
+      "id": "reuters-openai-defers-rollout",
+      "publisher": "Reuters",
+      "title": "OpenAI defers public rollout of GPT-5.6 as US seeks early access to frontier AI models",
+      "url": "https://www.reuters.com/legal/litigation/openai-defers-public-rollout-gpt56-us-seeks-early-access-frontier-ai-models-2026-06-26/",
+      "type": "news_report",
+      "used_for": "Public reporting on the government-requested staged release pattern and broader national-security context."
+    },
+    {
+      "id": "theverge-anthropic-mythos-standoff",
+      "publisher": "The Verge",
+      "title": "Anthropic's Mythos mess is only getting worse",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "type": "news_report",
+      "used_for": "Public reporting on the unresolved standoff and the absence of a clear operational rulebook."
+    },
+    {
+      "id": "ap-openai-limited-preview",
+      "publisher": "Associated Press",
+      "title": "OpenAI limits its latest ChatGPT product to approved customers during cybersecurity review",
+      "url": "https://apnews.com/article/065d5398baac7f16c8265c2cb8ba2baa",
+      "type": "news_report",
+      "used_for": "Public reporting on limited preview access, cybersecurity review, and stakeholder concerns."
+    },
+    {
+      "id": "nist-ai-rmf",
+      "publisher": "NIST",
+      "title": "AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "governance_reference",
+      "used_for": "General risk-management context for govern, map, measure, and manage functions."
+    },
+    {
+      "id": "iso-iec-42001",
+      "publisher": "ISO",
+      "title": "ISO/IEC 42001 Artificial intelligence management system",
+      "url": "https://www.iso.org/standard/42001",
+      "type": "governance_reference",
+      "used_for": "AI management-system context for institutional governance practices."
+    },
+    {
+      "id": "frontier-model-forum-safety-frameworks",
+      "publisher": "Frontier Model Forum",
+      "title": "Components of frontier AI safety frameworks",
+      "url": "https://www.frontiermodelforum.org/updates/issue-brief-components-of-frontier-ai-safety-frameworks/",
+      "type": "governance_reference",
+      "used_for": "Context on frontier safety frameworks, risk thresholds, evaluations, and mitigation strategies."
+    }
+  ]
+}

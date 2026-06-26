@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://goalos.local/schemas/frontier-release-docket.schema.json",
+  "title": "GoalOS Frontier Release Evidence Docket",
+  "type": "object",
+  "required": [
+    "schema",
+    "docket_id",
+    "title",
+    "bounded_claim",
+    "mission_contract",
+    "sources"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string"
+    },
+    "docket_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bounded_claim": {
+      "type": "string"
+    },
+    "mission_contract": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array"
+    }
+  }
+}
