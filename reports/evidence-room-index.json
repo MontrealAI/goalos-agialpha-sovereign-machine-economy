@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T15:48:55Z",
+  "generated_at": "2026-06-27T15:51:35Z",
   "reports": [
     "reports/aep001-conformance.json",
     "reports/agi-alpha-node-theatre-demo.json",
@@ -38,7 +38,9 @@
     "reports/repo-validation.json",
     "reports/site-qa.json",
     "reports/strategic-evidence-scorecard.json",
+    "reports/user-adoption-layer-install-report.json",
     "reports/user-adoption-layer-manifest.json",
+    "reports/user-adoption-layer-qa.json",
     "reports/website-code-parity-v3-install-report.json",
     "reports/website-code-parity-v3.json",
     "reports/world-critical-opportunity-scorecard.json"
