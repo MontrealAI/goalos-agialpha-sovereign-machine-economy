@@ -1,5 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: Claim boundary
-    url: https://github.com/MontrealAI/goalos-agialpha-ascension
-    about: Review source lineage and claim discipline before opening broad claims.
+  - name: Privacy and zero-user-data boundary
+    url: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/privacy.html
+    about: Read the privacy notice before opening a public issue.
+  - name: Data boundary
+    url: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/data-boundary.html
+    about: Do not submit personal, confidential, customer, regulated, credential, or trade-secret data.

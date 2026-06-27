@@ -1,3 +1,32 @@
+<!-- GOALOS_LEGAL_PRIVACY_SHIELD_START -->
+
+## Legal & Privacy Shield — zero user data boundary
+
+**GoalOS does not want user data. Do not submit personal data, customer data, confidential data, credentials, private keys, regulated records, payment data, health data, children’s data, trade secrets, or privileged information through the public website, GitHub issues, pull requests, demos, Evidence Dockets, or public proof runs.**
+
+Public-alpha boundary:
+
+- No intentional analytics.
+- No public forms collecting user data.
+- No wallet connection.
+- No transaction execution.
+- No production authorization.
+- No legal, financial, investment, tax, medical, security, or regulatory advice.
+- No token sale, investment offer, profit promise, or user-fund authorization.
+- Human review required.
+
+Key pages:
+
+- [Privacy Notice](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/privacy.html)
+- [Terms of Use](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/terms.html)
+- [Zero User Data Boundary](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/data-boundary.html)
+- [Token & Investment Boundary](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/investment-token-boundary.html)
+- [Responsible Use](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/responsible-use.html)
+
+Private, enterprise, regulated, customer-data, token-related, settlement, or production work requires a separate written agreement and independent legal/security review.
+
+<!-- GOALOS_LEGAL_PRIVACY_SHIELD_END -->
+
 
 
 <!-- GOALOS_USER_ADOPTION_LAYER_START -->

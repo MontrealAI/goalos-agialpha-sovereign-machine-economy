@@ -1,22 +1,39 @@
-name: Validator review
-description: Review an Evidence Docket or claim boundary
+name: Validator Review
+description: Review an Evidence Docket without submitting private data
 title: "Validator Review: "
-labels: ["validator-review", "evidence"]
+labels: [validator-review, no-user-data]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, credentials, secrets, regulated data, or trade secrets. Public-safe review only.
+  - type: input
+    id: artifact
+    attributes:
+      label: Public artifact reviewed
+      placeholder: e.g. evidence/proof-run-001/proof-run-001-docket.json
+    validations:
+      required: true
   - type: dropdown
     id: verdict
     attributes:
-      label: Verdict
-      options: [accept, reject, revise]
+      label: Review verdict
+      options: [accept, reject, revise, insufficient-evidence]
     validations:
       required: true
   - type: textarea
-    id: evidence
+    id: notes
     attributes:
-      label: Evidence reviewed
+      label: Public-safe review notes
+      description: Do not include personal, confidential, regulated, credential, or private data.
     validations:
       required: true
-  - type: textarea
-    id: issues
+  - type: checkboxes
+    id: confirmations
     attributes:
-      label: Unsupported claims or risks
+      label: Confirmations
+      options:
+        - label: I did not include personal, confidential, customer, regulated, credential, or trade-secret data.
+          required: true
+        - label: My review is public-safe and does not disclose sensitive security details.
+          required: true

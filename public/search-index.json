@@ -58,5 +58,40 @@
     "title": "Falsification Box",
     "url": "falsification-box.html",
     "category": "User Adoption"
+  },
+  {
+    "title": "Legal Shield",
+    "url": "legal.html",
+    "summary": "GoalOS legal, privacy, data, investment, and responsibility boundary."
+  },
+  {
+    "title": "Privacy Notice",
+    "url": "privacy.html",
+    "summary": "GoalOS does not want user data; static, no-account, no-tracking public site posture."
+  },
+  {
+    "title": "Zero User Data Boundary",
+    "url": "data-boundary.html",
+    "summary": "Do not submit personal, customer, confidential, regulated, credential, or trade-secret data."
+  },
+  {
+    "title": "Terms of Use",
+    "url": "terms.html",
+    "summary": "Public-alpha no-reliance, no-advice, no-production-authority terms."
+  },
+  {
+    "title": "Token & Investment Boundary",
+    "url": "investment-token-boundary.html",
+    "summary": "No token sale, no investment offer, no profit promise, no user-fund authorization."
+  },
+  {
+    "title": "Responsible Use",
+    "url": "responsible-use.html",
+    "summary": "Lawful, bounded, public-safe, human-reviewed use only."
+  },
+  {
+    "title": "Security Boundary",
+    "url": "security-boundary.html",
+    "summary": "Default-deny, no public secrets, no unauthorized testing."
   }
 ]

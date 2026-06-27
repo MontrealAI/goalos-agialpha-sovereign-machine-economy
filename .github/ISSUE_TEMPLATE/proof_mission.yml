@@ -1,22 +1,38 @@
-name: Proof mission
-description: Propose a bounded proof mission for GoalOS
-title: "Proof Mission: "
-labels: ["proof-mission", "user-adoption"]
+name: Public-Safe Proof Mission Proposal
+description: Propose a proof mission without submitting private data
+title: "Proof Mission Proposal: "
+labels: [proof-mission, no-user-data]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, credentials, secrets, regulated data, or trade secrets. Public-safe mission proposals only.
   - type: textarea
     id: objective
     attributes:
-      label: Objective
-      description: What decision should this mission support?
+      label: Public-safe objective
+      description: Describe the mission using public or synthetic information only.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk class
+      options: [low, medium, high, regulated-or-private-do-not-submit-here]
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Evidence available
-      description: What public-safe sources or artifacts can be used?
-  - type: dropdown
-    id: risk
+      label: Public sources / public-safe evidence
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
     attributes:
-      label: Risk class
-      options: [public-safe, consequential, high-consequence]
+      label: Confirmations
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, or trade-secret data.
+          required: true
+        - label: I understand private or regulated pilots require a separate written agreement.
+          required: true

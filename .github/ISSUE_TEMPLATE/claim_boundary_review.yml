@@ -1,15 +1,36 @@
-name: Claim-boundary review
-description: Flag unsupported or risky public claims
+name: Claim Boundary Review
+description: Flag overclaiming, unclear disclaimers, or legal/privacy boundary issues
 title: "Claim Boundary Review: "
-labels: ["claim-boundary", "trust"]
+labels: [claim-boundary, legal-privacy]
 body:
-  - type: textarea
-    id: claim
+  - type: markdown
     attributes:
-      label: Claim or wording to review
+      value: |
+        Public-safe review only. Do not include private or regulated information.
+  - type: input
+    id: page_or_file
+    attributes:
+      label: Page or file
+      placeholder: public/index.html or README.md
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options: [privacy-boundary, investment-token-boundary, legal-advice-boundary, security-claim-boundary, AGI-ASI-overclaim, production-authority-overclaim, other]
     validations:
       required: true
   - type: textarea
-    id: recommendation
+    id: concern
     attributes:
-      label: Recommended change
+      label: Public-safe concern
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I did not include personal, confidential, customer, regulated, credential, or trade-secret data.
+          required: true

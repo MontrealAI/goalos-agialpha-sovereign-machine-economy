@@ -1,32 +1,17 @@
 # Security Policy
 
-## Public-safety posture
+## Public-alpha boundary
 
-This repository must not contain:
+GoalOS public demos are intended to be browser-local, no-wallet, no-transaction, no-production-action, and human-review-required.
 
-- private keys;
-- seed phrases;
-- API keys;
-- treasury credentials;
-- customer data;
-- private buyer deliverables;
-- live user-fund automation;
-- production activation secrets.
+## Do not disclose secrets publicly
 
-## Reporting
+Do not post credentials, API keys, private keys, tokens, seed phrases, customer data, exploit details, or confidential vulnerability reports in public issues or pull requests.
 
-Open a private security advisory on GitHub if available, or contact the maintainers through the repository owner’s preferred channel.
+## Reporting vulnerabilities
 
-## Autopilot workflow safety
+Use GitHub private vulnerability reporting or security advisory mechanisms where enabled. If private reporting is not available, open a public issue only with a high-level non-sensitive description and no exploit detail, no secret, and no personal data.
 
-The autopilot is designed to generate documentation, examples, schemas, reports, and a static website. It does not deploy contracts, move funds, request secrets, or activate production systems.
+## No authorization
 
-## Operator checklist
-
-Before publishing:
-
-- verify no secrets were committed;
-- review `CLAIMS.md`;
-- review `reports/autopilot-summary.md`;
-- review `reports/site-qa.json`;
-- confirm GitHub Pages contains only public-safe content.
+This repository does not authorize scanning, testing, exploiting, or accessing any third-party system. Test only systems you own or are explicitly authorized to test.
