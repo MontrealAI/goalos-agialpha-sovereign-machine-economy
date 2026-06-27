@@ -98,5 +98,45 @@
     "title": "$AGIALPHA Public-Market Boundary",
     "url": "agialpha-token-boundary.html",
     "description": "$AGIALPHA is not available from GoalOS. No sale, no support, no custody, no user funds."
+  },
+  {
+    "title": "Demo Launcher",
+    "url": "demo-launcher.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Proof Flight Demo",
+    "url": "proof-flight-demo.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Docket Builder",
+    "url": "docket-builder.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Agent Constellation Demo",
+    "url": "agent-constellation-demo.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Proof Card Studio",
+    "url": "proof-card-studio.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Local Autopilot Demo",
+    "url": "local-autopilot-demo.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Demo Gallery",
+    "url": "demo-gallery.html",
+    "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "Demo Safety",
+    "url": "demo-safety.html",
+    "category": "Autonomous Demos V4"
   }
 ]

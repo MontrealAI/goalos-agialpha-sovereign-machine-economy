@@ -1,0 +1,315 @@
+{
+  "schema": "goalos.autonomous_demo_pack.v4",
+  "dockets": {
+    "launch": {
+      "schema": "goalos.autonomous_demo_docket.v4",
+      "generated_at": "2026-06-27T18:53:32Z",
+      "scenario": "Repository launch readiness",
+      "readiness_score": 91,
+      "risk_class": "low",
+      "proof_gates": [
+        {
+          "gate": 1,
+          "name": "Mission Contract",
+          "status": "passed"
+        },
+        {
+          "gate": 2,
+          "name": "Claims Matrix",
+          "status": "passed"
+        },
+        {
+          "gate": 3,
+          "name": "Allowed Sources",
+          "status": "passed"
+        },
+        {
+          "gate": 4,
+          "name": "Tool Boundary",
+          "status": "passed"
+        },
+        {
+          "gate": 5,
+          "name": "Evidence Docket",
+          "status": "passed"
+        },
+        {
+          "gate": 6,
+          "name": "Validator Report",
+          "status": "passed"
+        },
+        {
+          "gate": 7,
+          "name": "Risk Ledger",
+          "status": "passed"
+        },
+        {
+          "gate": 8,
+          "name": "Governed Decision",
+          "status": "passed"
+        },
+        {
+          "gate": 9,
+          "name": "Chronicle",
+          "status": "review-ready"
+        },
+        {
+          "gate": 10,
+          "name": "Capability Package",
+          "status": "review-ready"
+        }
+      ],
+      "boundary": {
+        "no_user_data": true,
+        "no_user_funds": true,
+        "no_wallet": true,
+        "no_transaction": true,
+        "no_network_call": true,
+        "no_production_authority": true,
+        "human_review_required": true
+      },
+      "claim_boundary": [
+        "public-alpha reference demo",
+        "not achieved AGI/ASI",
+        "not empirical SOTA",
+        "not production authorization"
+      ],
+      "chain_head": "DEMO-e8982349bc986518"
+    },
+    "frontier": {
+      "schema": "goalos.autonomous_demo_docket.v4",
+      "generated_at": "2026-06-27T18:53:32Z",
+      "scenario": "Frontier release governance review",
+      "readiness_score": 84,
+      "risk_class": "high",
+      "proof_gates": [
+        {
+          "gate": 1,
+          "name": "Mission Contract",
+          "status": "passed"
+        },
+        {
+          "gate": 2,
+          "name": "Claims Matrix",
+          "status": "passed"
+        },
+        {
+          "gate": 3,
+          "name": "Allowed Sources",
+          "status": "passed"
+        },
+        {
+          "gate": 4,
+          "name": "Tool Boundary",
+          "status": "passed"
+        },
+        {
+          "gate": 5,
+          "name": "Evidence Docket",
+          "status": "passed"
+        },
+        {
+          "gate": 6,
+          "name": "Validator Report",
+          "status": "passed"
+        },
+        {
+          "gate": 7,
+          "name": "Risk Ledger",
+          "status": "passed"
+        },
+        {
+          "gate": 8,
+          "name": "Governed Decision",
+          "status": "passed"
+        },
+        {
+          "gate": 9,
+          "name": "Chronicle",
+          "status": "review-ready"
+        },
+        {
+          "gate": 10,
+          "name": "Capability Package",
+          "status": "review-ready"
+        }
+      ],
+      "boundary": {
+        "no_user_data": true,
+        "no_user_funds": true,
+        "no_wallet": true,
+        "no_transaction": true,
+        "no_network_call": true,
+        "no_production_authority": true,
+        "human_review_required": true
+      },
+      "claim_boundary": [
+        "public-alpha reference demo",
+        "not achieved AGI/ASI",
+        "not empirical SOTA",
+        "not production authorization"
+      ],
+      "chain_head": "DEMO-b050034b3432b9ed"
+    },
+    "pilot": {
+      "schema": "goalos.autonomous_demo_docket.v4",
+      "generated_at": "2026-06-27T18:53:32Z",
+      "scenario": "Public-safe proof mission pilot",
+      "readiness_score": 88,
+      "risk_class": "medium",
+      "proof_gates": [
+        {
+          "gate": 1,
+          "name": "Mission Contract",
+          "status": "passed"
+        },
+        {
+          "gate": 2,
+          "name": "Claims Matrix",
+          "status": "passed"
+        },
+        {
+          "gate": 3,
+          "name": "Allowed Sources",
+          "status": "passed"
+        },
+        {
+          "gate": 4,
+          "name": "Tool Boundary",
+          "status": "passed"
+        },
+        {
+          "gate": 5,
+          "name": "Evidence Docket",
+          "status": "passed"
+        },
+        {
+          "gate": 6,
+          "name": "Validator Report",
+          "status": "passed"
+        },
+        {
+          "gate": 7,
+          "name": "Risk Ledger",
+          "status": "passed"
+        },
+        {
+          "gate": 8,
+          "name": "Governed Decision",
+          "status": "passed"
+        },
+        {
+          "gate": 9,
+          "name": "Chronicle",
+          "status": "review-ready"
+        },
+        {
+          "gate": 10,
+          "name": "Capability Package",
+          "status": "review-ready"
+        }
+      ],
+      "boundary": {
+        "no_user_data": true,
+        "no_user_funds": true,
+        "no_wallet": true,
+        "no_transaction": true,
+        "no_network_call": true,
+        "no_production_authority": true,
+        "human_review_required": true
+      },
+      "claim_boundary": [
+        "public-alpha reference demo",
+        "not achieved AGI/ASI",
+        "not empirical SOTA",
+        "not production authorization"
+      ],
+      "chain_head": "DEMO-6e850d662621a372"
+    },
+    "coordination": {
+      "schema": "goalos.autonomous_demo_docket.v4",
+      "generated_at": "2026-06-27T18:53:32Z",
+      "scenario": "Multi-agent coordination check",
+      "readiness_score": 86,
+      "risk_class": "medium",
+      "proof_gates": [
+        {
+          "gate": 1,
+          "name": "Mission Contract",
+          "status": "passed"
+        },
+        {
+          "gate": 2,
+          "name": "Claims Matrix",
+          "status": "passed"
+        },
+        {
+          "gate": 3,
+          "name": "Allowed Sources",
+          "status": "passed"
+        },
+        {
+          "gate": 4,
+          "name": "Tool Boundary",
+          "status": "passed"
+        },
+        {
+          "gate": 5,
+          "name": "Evidence Docket",
+          "status": "passed"
+        },
+        {
+          "gate": 6,
+          "name": "Validator Report",
+          "status": "passed"
+        },
+        {
+          "gate": 7,
+          "name": "Risk Ledger",
+          "status": "passed"
+        },
+        {
+          "gate": 8,
+          "name": "Governed Decision",
+          "status": "passed"
+        },
+        {
+          "gate": 9,
+          "name": "Chronicle",
+          "status": "review-ready"
+        },
+        {
+          "gate": 10,
+          "name": "Capability Package",
+          "status": "review-ready"
+        }
+      ],
+      "boundary": {
+        "no_user_data": true,
+        "no_user_funds": true,
+        "no_wallet": true,
+        "no_transaction": true,
+        "no_network_call": true,
+        "no_production_authority": true,
+        "human_review_required": true
+      },
+      "claim_boundary": [
+        "public-alpha reference demo",
+        "not achieved AGI/ASI",
+        "not empirical SOTA",
+        "not production authorization"
+      ],
+      "chain_head": "DEMO-60244e87e17f0f2a"
+    }
+  },
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "no_production_authority": true,
+    "human_review_required": true
+  },
+  "external_actions": 0
+}

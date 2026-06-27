@@ -1,4 +1,18 @@
 <!-- GOALOS_LEGAL_PRIVACY_SHIELD_START -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Legal & Privacy Shield — zero user data boundary
 
@@ -29,7 +43,21 @@ Private, enterprise, regulated, customer-data, token-related, settlement, or pro
 
 
 
-<!-- GOALOS_USER_ADOPTION_LAYER_START -->
+<!-- GOALOS_USER_ADOPTION_LAYER_START --><!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
+
 ## User Adoption Layer
 
 GoalOS is now organized for visitors, reviewers, validators, pilot partners, and developers.
@@ -51,6 +79,20 @@ For reviewers: inspect the Evidence Room, run the local parity audit, then file 
 
 
 <!-- GOALOS_WEBSITE_CODE_PARITY_V3_START -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Website-Code Parity V3
 
@@ -85,6 +127,20 @@ Boundary: local public-alpha reference implementation only. No wallet, no transa
 
 
 <!-- GOALOS-CAPABILITY-PARITY-V2:START -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Capability Parity V2
 
@@ -112,6 +168,20 @@ Boundary: local public-alpha reference only. No wallet, no transaction, no produ
 
 
 <!-- GOALOS_ASCENSION_VISUAL_PARITY_V4 -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Ascension Visual Parity V4
 
@@ -156,6 +226,20 @@ Boundary: browser-local public proof theatre; no external authority, no wallet, 
 GoalOS AGIALPHA Ascension re-implements the earlier **META-AGENTIC α‑AGI 👁️✨ × AGI Alpha Node v0 ⚡️✨ × AGI Jobs v0 (v2) ✨** line as a clean, corporate, public-ready repository for the **Sovereign Machine Economy**: missions, proof jobs, tool traces, evidence dockets, validator reports, governed decision states, settlement receipts, Chronicle entries, and reusable capability packages.
 
 This is designed to feel like a serious institutional product from the first page: elegant public website, non-technical launch guide, claim boundaries, standards, schemas, example proof artifacts, QA reports, operator docs, product blueprints, and a one-file autonomous GitHub Action.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## The thesis
 
@@ -178,6 +262,20 @@ Objective
 → Chronicle
 → Capability Package
 ```
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Operating law
 
@@ -189,6 +287,20 @@ No rollback, no release.
 No claim boundary, no publication.
 Public proof, private data.
 ```
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## What this repository contains
 
@@ -202,6 +314,20 @@ Public proof, private data.
 | Trust Center | Makes public proof, standards, reports, and claim boundaries easy to inspect. |
 | Capability Registry | Turns accepted work into versioned reusable capability packages. |
 | Website Autopilot | Generates and deploys the GitHub Pages site from proof-aligned source. |
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## One-file GitHub Web UI launch
 
@@ -216,6 +342,20 @@ Paste the autonomous workflow, commit it, open **Actions**, and click **Run work
 Start here: [`START_HERE.md`](START_HERE.md)  
 Full launch guide: [`CREATE_REPOSITORY_WEB_UI_GUIDE.md`](CREATE_REPOSITORY_WEB_UI_GUIDE.md)  
 Operator manual: [`docs/NON_TECHNICAL_OPERATOR_MANUAL.md`](docs/NON_TECHNICAL_OPERATOR_MANUAL.md)
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Repository map
 
@@ -231,17 +371,59 @@ Operator manual: [`docs/NON_TECHNICAL_OPERATOR_MANUAL.md`](docs/NON_TECHNICAL_OP
 | `src/goalos_ascension/` | Minimal reference proof kernel. |
 | `public/` | Generated GitHub Pages website. |
 | `reports/` | Generated QA, claim scan, digest, validation, scorecard, and demo reports. |
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Claim boundary
 
 This repository is a research, product, and governance scaffold. It does **not** claim achieved AGI, ASI, superintelligence, empirical SOTA, guaranteed security, guaranteed returns, legal approval, tax approval, production authorization, user-fund authorization, autonomous legal sovereignty, mainnet activation, or civilization-scale capability.
 
 See [`CLAIMS.md`](CLAIMS.md) and [`docs/CLAIM_BOUNDARY.md`](docs/CLAIM_BOUNDARY.md).
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
 
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## Evidence-to-scale layer
 
@@ -252,6 +434,20 @@ The layer includes market evidence schemas, pilot outcome dockets, proof-velocit
 Start with `docs/evidence/EV-001_EVIDENCE_TO_SCALE_STANDARD.md`, then review `reports/strategic-evidence-scorecard.json` after the GitHub Action runs.
 
 <!-- GOALOS-HISTORICAL-MASTER-START -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## GoalOS Historical Master Update
 
@@ -276,6 +472,20 @@ Boundary: public-alpha proof architecture. Not achieved AGI, ASI, empirical SOTA
 <!-- GOALOS-HISTORICAL-MASTER-END -->
 
 <!-- GOALOS-LATEST-WEBSITE:START -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## GoalOS Latest Website Update
 
@@ -288,6 +498,20 @@ The live website has been refreshed to the latest public-alpha stack: Historical
 <!-- GOALOS-LATEST-WEBSITE:END -->
 
 <!-- GOALOS_AGIALPHA_TOKEN_BOUNDARY_START -->
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START -->
+## Autonomous Demo Layer V4 — self-run user delight
+
+Users can now run the additions autonomously from the website:
+
+- `public/demo-launcher.html` — one-click launcher
+- `public/proof-flight-demo.html` — animated proof gates + docket download
+- `public/docket-builder.html` — public-safe Evidence Docket builder
+- `public/agent-constellation-demo.html` — proof-gated multi-agent routing demo
+- `public/proof-card-studio.html` — local SVG proof-card generator
+- `public/local-autopilot-demo.html` — copyable local commands
+
+Boundary: browser-local demos; no user data; no user funds; no wallet; no transaction; no network call; no production authority; human review required.
+<!-- GOALOS_AUTONOMOUS_DEMO_V4_README_END -->
 
 ## $AGIALPHA public-market boundary
 
