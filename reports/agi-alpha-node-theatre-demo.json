@@ -1,0 +1,86 @@
+{
+  "node_identity": "1.alpha.node.agi.eth",
+  "mission": "Produce a human-review-ready Evidence Docket",
+  "node_state": "HUMAN_REVIEW_REQUIRED",
+  "primary_route": "ROUTE-8F0082E4B293",
+  "chain_head": "GOALOS-27a307283f51",
+  "authority": "NONE_GRANTED",
+  "review_readiness": 81,
+  "peers": [
+    {
+      "peer_id": "P01",
+      "role": "planner",
+      "quality": 76,
+      "evidence": 71,
+      "risk": 22
+    },
+    {
+      "peer_id": "P02",
+      "role": "route",
+      "quality": 91,
+      "evidence": 88,
+      "risk": 23
+    },
+    {
+      "peer_id": "P03",
+      "role": "executor",
+      "quality": 72,
+      "evidence": 80,
+      "risk": 39
+    },
+    {
+      "peer_id": "P04",
+      "role": "validator",
+      "quality": 95,
+      "evidence": 94,
+      "risk": 33
+    },
+    {
+      "peer_id": "P05",
+      "role": "guardian",
+      "quality": 83,
+      "evidence": 71,
+      "risk": 29
+    },
+    {
+      "peer_id": "P06",
+      "role": "chronicle",
+      "quality": 90,
+      "evidence": 71,
+      "risk": 31
+    },
+    {
+      "peer_id": "P07",
+      "role": "risk",
+      "quality": 62,
+      "evidence": 79,
+      "risk": 10
+    },
+    {
+      "peer_id": "P08",
+      "role": "settlement",
+      "quality": 95,
+      "evidence": 89,
+      "risk": 26
+    },
+    {
+      "peer_id": "P09",
+      "role": "planner",
+      "quality": 62,
+      "evidence": 92,
+      "risk": 6
+    },
+    {
+      "peer_id": "P10",
+      "role": "route",
+      "quality": 80,
+      "evidence": 86,
+      "risk": 8
+    }
+  ],
+  "disposition": "HUMAN_REVIEW_REQUIRED",
+  "external_actions": 0,
+  "network_calls": 0,
+  "created_at": "2026-06-27T14:23:01Z",
+  "_hash": "sha256:1a444e5d910aa4d13a428fc9c53a1dfdc99834a7338df4f5407d67a3316a71bb"
+}

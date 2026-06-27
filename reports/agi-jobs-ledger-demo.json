@@ -1,0 +1,64 @@
+{
+  "request": {
+    "job_id": "agijob-12b4563d54",
+    "objective": "Proof-gated autonomous work demo",
+    "acceptance_tests": [
+      "proof bundle present",
+      "validator report present",
+      "claim boundary preserved",
+      "replay path present"
+    ],
+    "risk_class": "medium",
+    "allowed_tools": [
+      "local_reference_engine",
+      "read_repository",
+      "generate_docket"
+    ],
+    "budget": {
+      "usd": 0,
+      "mode": "simulation_only"
+    },
+    "status": "requested",
+    "created_at": "2026-06-27T14:23:01Z",
+    "_hash": "sha256:f3512147f6b848539a3a7f7d463bdee95276bfd9c418c4cc14d71d647d0d0f7f"
+  },
+  "escrow": {
+    "simulated": true,
+    "amount": 0,
+    "asset": "AGIALPHA-simulated",
+    "locked": true,
+    "external_funds": false
+  },
+  "execution": {
+    "status": "executed",
+    "tool_calls": 1,
+    "external_actions": 0,
+    "network_calls": 0,
+    "trace_root": "sha256:fb49d2b3be7af50f1873e9296e1d21a9e1efb65ccf8fcecb8121e077943ee8bd"
+  },
+  "proof": {
+    "proof_bundle": "sha256:8fb6e3a643b37da50fa820045e41cb886670c3f5f9c549ef5599086f41066ad4",
+    "replay_path": "scripts/run_agi_jobs_demo.py",
+    "evidence_docket_required": true
+  },
+  "validation": {
+    "verdict": "accept_for_human_review",
+    "validator": "local-reference-validator",
+    "tests_passed": true,
+    "human_review_required": true
+  },
+  "settlement": {
+    "status": "settled_simulated",
+    "asset": "AGIALPHA-simulated",
+    "amount": 0,
+    "mainnet": false,
+    "user_funds": false,
+    "condition": "validator_acceptance"
+  },
+  "chronicle": {
+    "entry": "job lifecycle completed in local public-alpha simulation",
+    "job_id": "agijob-12b4563d54",
+    "capability_package": "candidate"
+  },
+  "_hash": "sha256:c459f5d9f6ff33dabc0b84cee8c81c9f933216366f2a26b80207a5f9dc0383d7"
+}

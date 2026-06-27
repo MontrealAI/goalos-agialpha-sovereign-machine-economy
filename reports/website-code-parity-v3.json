@@ -1,0 +1,208 @@
+{
+  "schema": "goalos.website_code_parity.v3",
+  "generated_at": "2026-06-27T14:23:02Z",
+  "status": "passed",
+  "capabilities_checked": 18,
+  "capabilities_covered": 18,
+  "missing": [],
+  "capability_matrix": [
+    {
+      "capability": "Homepage proof-governed operating regime",
+      "website": "public/index.html",
+      "code": "src/goalos_ascension/mission_os.py",
+      "test": "tests/test_mission_os.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Interactive Proof Console",
+      "website": "public/console.html",
+      "code": "src/goalos_ascension/kernel.py",
+      "test": "tests/test_mission_os.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Frontier Release Room",
+      "website": "public/frontier-release-room.html",
+      "code": "src/goalos_ascension/frontier_release.py",
+      "test": "tests/test_frontier_release.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "META-Agentic Institution Foundry",
+      "website": "public/meta-agentic-alpha-agi.html",
+      "code": "src/goalos_ascension/agent_foundry.py",
+      "test": "tests/test_agent_foundry.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "AGI Alpha Node v0 Theatre",
+      "website": "public/agi-alpha-node-v0.html",
+      "code": "src/goalos_ascension/node_runtime.py",
+      "test": "tests/test_node_runtime.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "AGI Jobs v0/v2 Work OS",
+      "website": "public/agi-jobs-v0-v2.html",
+      "code": "src/goalos_ascension/agi_jobs.py",
+      "test": "tests/test_agi_jobs.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Research Spine",
+      "website": "public/research-spine.html",
+      "code": "src/goalos_ascension/aep001.py",
+      "test": "tests/test_aep001_conformance.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Proof Run 001",
+      "website": "public/proof-run-001.html",
+      "code": "src/goalos_ascension/proof_run.py",
+      "test": "tests/test_proof_run_001.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "$AGIALPHA Proof Control Rail",
+      "website": "public/agialpha-control-rail.html",
+      "code": "src/goalos_ascension/agi_jobs.py",
+      "test": "tests/test_agi_jobs.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Multi-Agent Institution",
+      "website": "public/multi-agent-institution.html",
+      "code": "src/goalos_ascension/coordination.py",
+      "test": "tests/test_coordination.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Coordination Console",
+      "website": "public/coordination-console.html",
+      "code": "src/goalos_ascension/coordination.py",
+      "test": "tests/test_coordination.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "AEP-001 Evidence Docket 6.1",
+      "website": "public/proof-of-evolution.html",
+      "code": "src/goalos_ascension/aep001.py",
+      "test": "tests/test_aep001_conformance.py",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Document Series",
+      "website": "public/document-series.html",
+      "code": "docs/series/00_SERIES_INDEX.md",
+      "test": "reports/document-series-manifest.json",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Launch Narrative",
+      "website": "public/launch-narrative.html",
+      "code": "docs/communications/LAUNCH_NARRATIVE.md",
+      "test": "reports/goalos-latest-website-qa.json",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Validator Seats",
+      "website": "public/validator-seats.html",
+      "code": "docs/validators/VALIDATOR_SEAT_INVITATION.md",
+      "test": "issue-bodies/validator-seat-001.md",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Proof Mission Slots",
+      "website": "public/proof-mission-slots.html",
+      "code": "docs/proof-runs/PROOF_RUN_001_DOCKET_STRUCTURE.md",
+      "test": "issue-bodies/proof-mission-slots.md",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Falsification Box",
+      "website": "public/falsification-box.html",
+      "code": "docs/metrics/PUBLIC_PROOF_METRICS.md",
+      "test": "issue-bodies/proof-run-001-falsification-box.md",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Capability Parity Page",
+      "website": "public/capability-parity.html",
+      "code": "src/goalos_ascension/parity.py",
+      "test": "reports/capability-parity-audit.json",
+      "website_exists": true,
+      "implementation_exists": true,
+      "test_or_report_exists": true,
+      "covered": true
+    }
+  ],
+  "reference_probes": {
+    "mission_os_done": true,
+    "frontier_release_human_review_required": true,
+    "foundry_candidates": 24,
+    "node_external_actions": 0,
+    "agi_jobs_settlement_simulated": true,
+    "coordination_route_family": "R0_hamiltonian_baseline",
+    "production_authority": false,
+    "external_actions_authorized": false,
+    "human_review_required": true
+  },
+  "boundary": {
+    "production_authority": false,
+    "external_actions_authorized": false,
+    "wallet_or_mainnet": false,
+    "human_review_required": true
+  },
+  "report_hash": "sha256:bc3f5b8c690246cd6d846d2349c86309f86fa9997ea67e74e26f228f1c788624"
+}

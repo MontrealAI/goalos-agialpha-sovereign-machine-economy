@@ -1,3 +1,37 @@
+
+<!-- GOALOS_WEBSITE_CODE_PARITY_V3_START -->
+
+## Website-Code Parity V3
+
+The public website now has repository-backed implementation parity for the current public-alpha capability surface.
+
+Every major website claim is mapped to code, tests, scripts, reports, Evidence Dockets, or issue bodies:
+
+- META-Agentic Institution Foundry → `src/goalos_ascension/agent_foundry.py`
+- AGI Alpha Node Theatre → `src/goalos_ascension/node_runtime.py`
+- AGI Jobs v0/v2 Work OS → `src/goalos_ascension/agi_jobs.py`
+- Mission OS / Proof Console → `src/goalos_ascension/mission_os.py` and `src/goalos_ascension/kernel.py`
+- Frontier Release Room → `src/goalos_ascension/frontier_release.py`
+- Multi-Agent Institution → `src/goalos_ascension/coordination.py`
+- Proof Run 001 → `src/goalos_ascension/proof_run.py`
+- Website-code parity audit → `src/goalos_ascension/website_parity.py`
+
+Open the parity report:
+
+```text
+reports/website-code-parity-v3.json
+```
+
+Open the public page:
+
+```text
+https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capability-parity.html
+```
+
+Boundary: local public-alpha reference implementation only. No wallet, no transaction, no production activation, no user-fund authorization, no mainnet activation, no achieved AGI/ASI claim. Human review remains required.
+
+<!-- GOALOS_WEBSITE_CODE_PARITY_V3_END -->
+
 <!-- GOALOS-CAPABILITY-PARITY-V2:START -->
 
 ## Capability Parity V2

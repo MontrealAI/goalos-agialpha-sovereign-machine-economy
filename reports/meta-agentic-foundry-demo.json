@@ -1,0 +1,32 @@
+{
+  "status": "ready_for_human_review",
+  "selected": {
+    "candidate_id": "M\u03a8-10",
+    "lineage": "generation-2",
+    "archetype": "Breakthrough science institution",
+    "mission": "Design a proof-governed institution for autonomous AI work",
+    "evidence_strength": 89,
+    "mission_utility": 96,
+    "safety_reversibility": 85,
+    "institutional_efficiency": 65,
+    "strategic_novelty": 88,
+    "posteriorscore": 86,
+    "gates": {
+      "claim_boundary": true,
+      "human_authority": true,
+      "evidence_docket_required": true,
+      "rollback_required": true,
+      "no_external_action": true
+    },
+    "generated_at": "2026-06-27T14:23:01Z",
+    "_hash": "sha256:384d5620b61120d3010bb62e72592d4b5901e09416ba69088fda56679b45354f"
+  },
+  "candidate_count": 24,
+  "selection_rule": "max posterior score subject to evidence, rollback, no-external-action, and human-authority gates",
+  "claim_boundary": [
+    "not achieved AGI",
+    "not production authority",
+    "human review required"
+  ],
+  "public_surface": "public/meta-agentic-alpha-agi.html"
+}
