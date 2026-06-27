@@ -1,3 +1,3 @@
 # Proof Run 001
 
-Publish the first public Evidence Docket proving the full loop.
+Execute the first public Evidence Docket path through Mission → Work → Proof → Validation → Chronicle → Reuse.

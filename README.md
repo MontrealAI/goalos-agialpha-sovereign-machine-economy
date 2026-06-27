@@ -1,3 +1,21 @@
+<!-- GOALOS_ASCENSION_VISUAL_PARITY_V4 -->
+
+## Ascension Visual Parity V4
+
+The public website has been upgraded to match and surpass the flagship GoalOS AGIALPHA Ascension visual language: cinematic hero sections, premium proof theatres, dynamic local-only consoles, Frontier Release Room, Meta-Agentic Institution Foundry, Sovereign Node Theatre, Proof Run 001, $AGIALPHA control rail, Multi-Agent Institution, and strict claim-boundary discipline.
+
+Key pages:
+
+- [Historical Command Center](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/historical-command-center.html)
+- [Frontier Release Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/frontier-release-room.html)
+- [Meta-Agentic α‑AGI](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/meta-agentic-alpha-agi.html)
+- [AGI Alpha Node v0](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-alpha-node-v0.html)
+- [Multi-Agent Institution](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/multi-agent-institution.html)
+- [Proof Run 001](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001.html)
+
+Boundary: browser-local public proof theatre; no external authority, no wallet, no transaction, no production activation, no user-fund authorization, no achieved AGI/ASI claim.
+<!-- /GOALOS_ASCENSION_VISUAL_PARITY_V4 -->
+
 
 <p align="center">
   <a href="https://MontrealAI.github.io/goalos-agialpha-sovereign-machine-economy/"><strong>Live Website</strong></a> ·
