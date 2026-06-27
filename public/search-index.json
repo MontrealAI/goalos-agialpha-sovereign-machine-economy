@@ -93,5 +93,10 @@
     "title": "Security Boundary",
     "url": "security-boundary.html",
     "summary": "Default-deny, no public secrets, no unauthorized testing."
+  },
+  {
+    "title": "$AGIALPHA Public-Market Boundary",
+    "url": "agialpha-token-boundary.html",
+    "description": "$AGIALPHA is not available from GoalOS. No sale, no support, no custody, no user funds."
   }
 ]

@@ -286,3 +286,19 @@ The live website has been refreshed to the latest public-alpha stack: Historical
 **Boundary:** public-alpha proof architecture; no achieved AGI/ASI claim, no production authorization, no legal approval, no user-fund authorization, no mainnet activation, and no guaranteed outcomes.
 
 <!-- GOALOS-LATEST-WEBSITE:END -->
+
+<!-- GOALOS_AGIALPHA_TOKEN_BOUNDARY_START -->
+
+## $AGIALPHA public-market boundary
+
+Canonical public Ethereum contract address for identification only:
+
+`0xA61a3B3a130a9c20768EEBF97E21515A6046a1fA`
+
+$AGIALPHA is **not available from GoalOS, this website, this GitHub repository, GitHub Issues, GitHub Discussions, pull requests, public demos, or public proof runs**.
+
+No token sale. No offer. No custody. No wallet support. No user-fund authorization. No investment advice. No trading advice. No tax advice. No legal advice. Third parties are solely responsible for their own legal, financial, tax, technical, operational, and security review.
+
+See: [docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md](docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md) and the website page `/agialpha-token-boundary.html`.
+
+<!-- GOALOS_AGIALPHA_TOKEN_BOUNDARY_END -->

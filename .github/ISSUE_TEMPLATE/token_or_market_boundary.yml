@@ -1,0 +1,36 @@
+name: Token / Market Boundary Correction
+about: Report an incorrect token-boundary statement. Do not request wallet, price, trading, tax, bridge, liquidity, or transaction support.
+title: "Token boundary correction: "
+labels: ["legal-boundary", "token-boundary", "human-review-required"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this only to report an incorrect statement in the repository or website.
+
+        Do not submit personal data, wallet addresses you do not want public, private keys, seed phrases, transaction support requests, price questions, trading questions, tax questions, legal questions, exchange/listing requests, bridge requests, or token recovery requests.
+
+        $AGIALPHA is not available from GoalOS, this website, this repository, GitHub Issues, GitHub Discussions, pull requests, public demos, or public proof runs.
+  - type: input
+    id: page
+    attributes:
+      label: Page or file with the issue
+      description: Provide the public page or repository file path.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Describe the correction without including personal, confidential, credential, payment, wallet-secret, or regulated data.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not requesting wallet, trading, bridge, exchange, liquidity, transaction, tax, investment, or legal support.
+          required: true
+        - label: I did not include personal data, confidential data, private keys, seed phrases, payment data, or regulated data.
+          required: true

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-27T16:40:03Z",
+  "name": "GoalOS $AGIALPHA Token Public-Market Boundary V2",
+  "token_address": "0xA61a3B3a130a9c20768EEBF97E21515A6046a1fA",
+  "files": [
+    "public/agialpha-token-boundary.html",
+    "public/investment-token-boundary.html",
+    "public/token.html",
+    "scripts/goalos_token_boundary_audit.py",
+    ".github/ISSUE_TEMPLATE/token_or_market_boundary.yml",
+    "content/goalos/agialpha-token-boundary.json",
+    "docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md",
+    "docs/legal/TOKEN_AND_INVESTMENT_BOUNDARY.md",
+    "docs/legal/NO_TOKEN_SALE_NO_USER_FUNDS.md",
+    "docs/compliance/AGIALPHA_THIRD_PARTY_RESPONSIBILITY_MATRIX.md"
+  ],
+  "core_boundary": [
+    "not_available_from_goalos",
+    "no_token_sale",
+    "no_user_funds",
+    "no_wallet_support",
+    "third_party_responsibility"
+  ]
+}
