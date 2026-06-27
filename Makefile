@@ -19,3 +19,17 @@ scorecard:
 
 hashes:
 	python scripts/hash_artifacts.py
+
+.PHONY: capability-parity proof-run-001 aep001 mission-os-demo
+
+capability-parity:
+	python scripts/run_capability_parity_audit.py
+
+proof-run-001:
+	python scripts/run_proof_run_001.py
+
+aep001:
+	python scripts/run_aep001_conformance.py
+
+mission-os-demo:
+	python scripts/run_mission_os_demo.py

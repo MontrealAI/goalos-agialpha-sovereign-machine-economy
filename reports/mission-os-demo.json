@@ -1,0 +1,660 @@
+{
+  "mission_contract": {
+    "mission_id": "mission-os-demo",
+    "objective": "Produce a public-safe governed decision state for the GoalOS implementation parity review.",
+    "success_criteria": [
+      "public-safe Evidence Docket emitted",
+      "validator report emitted",
+      "replay path present"
+    ],
+    "failure_criteria": [
+      "unsupported claim",
+      "missing validator report",
+      "missing replay path",
+      "external action attempted"
+    ],
+    "constraints": [
+      "browser/local reference only",
+      "no wallet",
+      "no transaction",
+      "human review required"
+    ],
+    "authority": "human_review_required",
+    "risk_class": "medium",
+    "allowed_tools": [
+      "read_repository",
+      "inspect_files",
+      "generate_docket"
+    ],
+    "required_artifacts": [
+      "claims_matrix",
+      "evidence_docket",
+      "validator_report",
+      "risk_ledger",
+      "cost_ledger",
+      "decision_state",
+      "chronicle_entry",
+      "capability_package"
+    ],
+    "claim_boundary": [
+      "public_alpha_reference_implementation",
+      "no_production_authorization",
+      "no_user_fund_authorization",
+      "no_mainnet_activation",
+      "human_review_required"
+    ],
+    "created_at": "2026-06-27T12:52:44Z",
+    "_hash": "sha256:0ae2186f4987785675d50eeab39af430a193eae38d30dcc65f95649b9d009927"
+  },
+  "proof_jobs": [
+    {
+      "job_id": "mission-os-demo-job-01",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce claims matrix",
+      "acceptance_criteria": [
+        "claims_matrix is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:1ece5e9da58812fdeff31eb7b89a1767ede0f506e38e35d656f4c9026ae4a4f0"
+    },
+    {
+      "job_id": "mission-os-demo-job-02",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce evidence docket",
+      "acceptance_criteria": [
+        "evidence_docket is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:b77dffabebee6332273fe9d38371a8cbc0e73fbcead6025039e142c1b6f72b0d"
+    },
+    {
+      "job_id": "mission-os-demo-job-03",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce validator report",
+      "acceptance_criteria": [
+        "validator_report is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:a05f5d4d2be25f268bbd0ceded59defe3c5d8a9dbeabceebdb488614fb9a7727"
+    },
+    {
+      "job_id": "mission-os-demo-job-04",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce risk ledger",
+      "acceptance_criteria": [
+        "risk_ledger is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:86d147394ef2362de2fe85bca205d85e711a3265813ebbb9954527c258debb48"
+    },
+    {
+      "job_id": "mission-os-demo-job-05",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce cost ledger",
+      "acceptance_criteria": [
+        "cost_ledger is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:8be8c83ccd84c2ba39a2bfd2feb794f8a99e813f61d24d2f2f3917faea5298ec"
+    },
+    {
+      "job_id": "mission-os-demo-job-06",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce decision state",
+      "acceptance_criteria": [
+        "decision_state is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:7039d8f4205f8898b21283c191cb84e2dd63948c2d4ab24e006a9df2f6c94070"
+    },
+    {
+      "job_id": "mission-os-demo-job-07",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce chronicle entry",
+      "acceptance_criteria": [
+        "chronicle_entry is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:cbcb9c37e24392ae123513af71928856d47e223c3fead83efea4f8f424e77fb6"
+    },
+    {
+      "job_id": "mission-os-demo-job-08",
+      "mission_id": "mission-os-demo",
+      "objective": "Produce capability package",
+      "acceptance_criteria": [
+        "capability_package is present",
+        "claim boundary preserved"
+      ],
+      "proof_requirements": [
+        "trace root",
+        "output hash",
+        "replay path"
+      ],
+      "allowed_tools": [
+        "read_repository",
+        "inspect_files",
+        "generate_docket"
+      ],
+      "risk_class": "medium",
+      "status": "executed",
+      "_hash": "sha256:f4b49b27945c65b7a259b4ffcd208ae082dcdcc35444e9e4a08a4edf168e2dd0"
+    }
+  ],
+  "tool_traces": [
+    {
+      "trace_id": "trace-mission-os-demo-job-01",
+      "job_id": "mission-os-demo-job-01",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:a7934a1beaa46384b24e2cd1604ba1879f8acbaa0b2f602d6d7ad188b67e006e"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-02",
+      "job_id": "mission-os-demo-job-02",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:b8a21546bf6d26d7eabade4f57980b5062a2cb0820da6eb68dcda7c65df7e69c"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-03",
+      "job_id": "mission-os-demo-job-03",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:a63df2c5ac86b1b886acdbac5ae17a8d92b500a51963558aa2e47851849f8fee"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-04",
+      "job_id": "mission-os-demo-job-04",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:2f5d7257873a50dd93c8cb00c0530b04867ed076ba393034a3306693f9f79696"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-05",
+      "job_id": "mission-os-demo-job-05",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:316402d7b82b43150aa6332ccf83cabe5843b082d6a57faaa12566ee009a412e"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-06",
+      "job_id": "mission-os-demo-job-06",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:2094d1135c78475f69ccfc94dc6556bd1549fa608a6adf870409e2f617a3cf3a"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-07",
+      "job_id": "mission-os-demo-job-07",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:398c76fe78d45a48e771f8fe587ca5a9749e1d4a2cd7605d2ac440ae528c6f2f"
+    },
+    {
+      "trace_id": "trace-mission-os-demo-job-08",
+      "job_id": "mission-os-demo-job-08",
+      "tool_name": "local_reference_engine",
+      "action_reason": "Generate public-alpha proof artifact for implementation parity.",
+      "permission_scope": "local_repository_only",
+      "expected_observation": "artifact generated",
+      "actual_observation": "artifact generated",
+      "reversible": true,
+      "external_action": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:d7e70f37fbfabfcd64781bd7a7efa78cc8f69addac7fcfae80614a17b099bc5a"
+    }
+  ],
+  "evidence_docket": {
+    "id": "docket-mission-os-demo",
+    "mission_id": "mission-os-demo",
+    "claim_boundary": [
+      "public_alpha_reference_implementation",
+      "no_production_authorization",
+      "no_user_fund_authorization",
+      "no_mainnet_activation",
+      "human_review_required"
+    ],
+    "claims_matrix": [
+      {
+        "claim": "GoalOS public-alpha loop can produce a complete local Evidence Docket scaffold.",
+        "status": "supported_by_reference_run"
+      },
+      {
+        "claim": "The run authorizes production, external action, wallet, or mainnet settlement.",
+        "status": "explicitly_not_claimed"
+      }
+    ],
+    "proof_bundles": [
+      {
+        "proof_id": "proof-mission-os-demo-job-01",
+        "job_id": "mission-os-demo-job-01",
+        "trace_root": "sha256:a7934a1beaa46384b24e2cd1604ba1879f8acbaa0b2f602d6d7ad188b67e006e",
+        "output_hash": "sha256:c01cd2cf9e51e452251f4c73374d5fc21d2b404c65fabfa2c712e5300fbf1682",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:a7934a1beaa46384b24e2cd1604ba1879f8acbaa0b2f602d6d7ad188b67e006e",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:a1b67a27a4e48b2085ef059a27110b77ea3485cc85f3a1b4b78116914e720680"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-02",
+        "job_id": "mission-os-demo-job-02",
+        "trace_root": "sha256:b8a21546bf6d26d7eabade4f57980b5062a2cb0820da6eb68dcda7c65df7e69c",
+        "output_hash": "sha256:f047e6d78946958a8f5154f0ca9e4f90e6e6a43f47e03d6f111b6e6ce3357960",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:b8a21546bf6d26d7eabade4f57980b5062a2cb0820da6eb68dcda7c65df7e69c",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:819e9fae26e91bf38defaa4d08df4a68939ce9922a72cea2a9e1ee8842f8dd8e"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-03",
+        "job_id": "mission-os-demo-job-03",
+        "trace_root": "sha256:a63df2c5ac86b1b886acdbac5ae17a8d92b500a51963558aa2e47851849f8fee",
+        "output_hash": "sha256:13111d1e111242f020d87186cf3eac0a7e6160aec17de605fa95fcba0935a8df",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:a63df2c5ac86b1b886acdbac5ae17a8d92b500a51963558aa2e47851849f8fee",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:a2fb5dee47c427fa2bb3224eee92cab0c0c8594b2af232c217b9c6df7ae57952"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-04",
+        "job_id": "mission-os-demo-job-04",
+        "trace_root": "sha256:2f5d7257873a50dd93c8cb00c0530b04867ed076ba393034a3306693f9f79696",
+        "output_hash": "sha256:bba405d2c195ae99b668359967db6b599c1472b21c4f80c97911d04f600639d3",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:2f5d7257873a50dd93c8cb00c0530b04867ed076ba393034a3306693f9f79696",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:0ef96b7f8324ade450acde1f731979c0bddf3751842f86df1c4580f6d05fad9f"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-05",
+        "job_id": "mission-os-demo-job-05",
+        "trace_root": "sha256:316402d7b82b43150aa6332ccf83cabe5843b082d6a57faaa12566ee009a412e",
+        "output_hash": "sha256:3cd120c45cd33d66fc7f385eab890e06eab8ec2c353ab35db4936338d771219b",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:316402d7b82b43150aa6332ccf83cabe5843b082d6a57faaa12566ee009a412e",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:ebd1ec99e60c5f8f5d66ab7a475c2829b91430bf91a234837b787ab414067e9e"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-06",
+        "job_id": "mission-os-demo-job-06",
+        "trace_root": "sha256:2094d1135c78475f69ccfc94dc6556bd1549fa608a6adf870409e2f617a3cf3a",
+        "output_hash": "sha256:72750824d0d9852e454e6d82058bec675a53e25685f84123eafb42d2db2a8ead",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:2094d1135c78475f69ccfc94dc6556bd1549fa608a6adf870409e2f617a3cf3a",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:75bce6d6665e1a8aceb9112b7c0cfa7e49be69e8b7eb033033cc5d41bb80fb39"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-07",
+        "job_id": "mission-os-demo-job-07",
+        "trace_root": "sha256:398c76fe78d45a48e771f8fe587ca5a9749e1d4a2cd7605d2ac440ae528c6f2f",
+        "output_hash": "sha256:845823c54e1cf36ee464161b445ec457028e2555aa7b9d1dbe1c2af4a3abc446",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:398c76fe78d45a48e771f8fe587ca5a9749e1d4a2cd7605d2ac440ae528c6f2f",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:8aeed9c12e61595dd50e91b76d924128d01080b6cc725fc7fa71d50984d58e45"
+      },
+      {
+        "proof_id": "proof-mission-os-demo-job-08",
+        "job_id": "mission-os-demo-job-08",
+        "trace_root": "sha256:d7e70f37fbfabfcd64781bd7a7efa78cc8f69addac7fcfae80614a17b099bc5a",
+        "output_hash": "sha256:76dba9fcd1dd6a12ebaab1e9198d78394593b30f1a6dcb944dd00eb32c09bf46",
+        "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
+        "tool_history_root": "sha256:d7e70f37fbfabfcd64781bd7a7efa78cc8f69addac7fcfae80614a17b099bc5a",
+        "cost": {
+          "usd": 0,
+          "mode": "local_reference"
+        },
+        "latency_ms": 1,
+        "signatures": [
+          "local-reference-signature"
+        ],
+        "replay_path": "scripts/run_proof_run_001.py",
+        "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+        "_hash": "sha256:e23013678319af6d8b8564706d6e22338c921a55ca4d99590e1a7222d35bd7d1"
+      }
+    ],
+    "validator_reports": [
+      {
+        "validator_id": "local-reference-validator",
+        "docket_id": "docket-mission-os-demo",
+        "verdict": "accept",
+        "checks": {
+          "required_fields": true,
+          "proof_bundles": true,
+          "claim_boundary": true,
+          "human_review_required": true
+        },
+        "notes": [
+          "Local public-alpha reference only.",
+          "No external authority granted."
+        ],
+        "signed_at": "2026-06-27T12:52:44Z",
+        "_hash": "sha256:88e1b759ad0cd1ff8eb243775eb506691d82b3acb9b7092ff6cd3aeca3dcab62"
+      }
+    ],
+    "risk_ledger": [
+      {
+        "risk": "overclaiming",
+        "control": "claim boundary and blocked phrase scan",
+        "status": "controlled"
+      }
+    ],
+    "cost_ledger": {
+      "usd": 0,
+      "mode": "local_reference",
+      "external_services": 0
+    },
+    "decision_state": {
+      "decision_id": "decision-mission-os-demo",
+      "mission_id": "mission-os-demo",
+      "state": "READY_FOR_HUMAN_REVIEW",
+      "rationale": "Docket has minimum proof structure.",
+      "evidence_hash": "sha256:14c5a1a147c29b58e096dec418f34c29b778172319a947e019d8b8278de6e652",
+      "human_review_required": true,
+      "production_authority": false,
+      "external_actions_authorized": false,
+      "created_at": "2026-06-27T12:52:44Z",
+      "_hash": "sha256:d002c1e3fa478e28ab4742f4a8f0683079af3861cfd35b8c928c89bb727859e6"
+    },
+    "replay_path": "python scripts/run_proof_run_001.py",
+    "public_private_boundary": {
+      "public": [
+        "hashes",
+        "reports",
+        "docket"
+      ],
+      "private": [
+        "none in reference run"
+      ]
+    },
+    "created_at": "2026-06-27T12:52:44Z",
+    "_hash": "sha256:506b0f08592ed3ea4c2f9a7445db83ba788ccb71803523cdcd08e8ff6cef7f1b"
+  },
+  "governed_decision_state": {
+    "decision_id": "decision-mission-os-demo",
+    "mission_id": "mission-os-demo",
+    "state": "READY_FOR_HUMAN_REVIEW",
+    "rationale": "Docket has minimum proof structure.",
+    "evidence_hash": "sha256:14c5a1a147c29b58e096dec418f34c29b778172319a947e019d8b8278de6e652",
+    "human_review_required": true,
+    "production_authority": false,
+    "external_actions_authorized": false,
+    "created_at": "2026-06-27T12:52:44Z",
+    "_hash": "sha256:d002c1e3fa478e28ab4742f4a8f0683079af3861cfd35b8c928c89bb727859e6"
+  },
+  "settlement_receipt": {
+    "receipt_id": "settlement-mission-os-demo",
+    "mission_id": "mission-os-demo",
+    "simulated": true,
+    "decision": "accepted_for_simulated_settlement",
+    "settled_claim": "public-alpha proof-run-001 reference loop",
+    "evidence_hash": "sha256:14c5a1a147c29b58e096dec418f34c29b778172319a947e019d8b8278de6e652",
+    "limitations": [
+      "simulation only",
+      "not production authorization",
+      "not legal, tax, or financial advice",
+      "not a claim of achieved AGI or ASI",
+      "human review remains required"
+    ],
+    "created_at": "2026-06-27T12:52:44Z",
+    "_hash": "sha256:7cf9b7ae3cf19bce74548d15e152591b6c21f9f923b57864d33e74bed7b12abf"
+  },
+  "chronicle_entry": {
+    "entry_id": "chronicle-mission-os-demo",
+    "mission_id": "mission-os-demo",
+    "summary": "Proof Run 001 reference loop generated a local Evidence Docket, validator report, simulated settlement receipt, and capability package.",
+    "decision_state": "READY_FOR_HUMAN_REVIEW",
+    "evidence_hash": "sha256:14c5a1a147c29b58e096dec418f34c29b778172319a947e019d8b8278de6e652",
+    "capability_package_id": "capability-mission-os-demo",
+    "created_at": "2026-06-27T12:52:44Z",
+    "_hash": "sha256:5eba4d5cd900a25ed01471dbf02903bbe17cf0e33c13e7cbdf899ff85cbfddd8"
+  },
+  "capability_package": {
+    "package_id": "capability-mission-os-demo",
+    "mission_id": "mission-os-demo",
+    "name": "Proof Run 001 Reference Loop",
+    "initiation_conditions": [
+      "public-safe mission",
+      "human review"
+    ],
+    "tool_contracts": [
+      "local_reference_engine"
+    ],
+    "validators": [
+      "local-reference-validator"
+    ],
+    "risk_class": "medium",
+    "evidence_history": [
+      "sha256:14c5a1a147c29b58e096dec418f34c29b778172319a947e019d8b8278de6e652"
+    ],
+    "replay_path": "scripts/run_proof_run_001.py",
+    "rollback_plan": "revert generated evidence artifacts",
+    "promotion_status": "candidate",
+    "_hash": "sha256:0a55732fb682880cab0e993f2464d748ae35181b1cb5e7ed263c1c5ef210df4d"
+  },
+  "done": true,
+  "boundary": "local public-alpha reference only",
+  "mission_os_done_state": {
+    "DONE": true,
+    "required_artifacts": [
+      "MissionContract",
+      "ClaimsMatrix",
+      "SourceProvenance",
+      "ContradictionRegister",
+      "EvidenceDocket",
+      "VerifierReport",
+      "RiskLedger",
+      "DecisionState",
+      "ActionGraph",
+      "ChronicleEntry",
+      "ClaimBoundaryPass",
+      "QAPass"
+    ],
+    "present": {
+      "MissionContract": true,
+      "ClaimsMatrix": true,
+      "SourceProvenance": true,
+      "ContradictionRegister": true,
+      "EvidenceDocket": true,
+      "VerifierReport": true,
+      "RiskLedger": true,
+      "DecisionState": true,
+      "ActionGraph": true,
+      "ChronicleEntry": true,
+      "ClaimBoundaryPass": true,
+      "QAPass": true
+    },
+    "law": "autonomy runs until the evidence package is complete, not until output sounds persuasive"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Capability Parity Audit",
+  "type": "object",
+  "required": [
+    "status",
+    "capabilities_checked",
+    "capabilities_covered",
+    "capability_matrix"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "passed",
+        "needs_revision"
+      ]
+    },
+    "capabilities_checked": {
+      "type": "integer"
+    },
+    "capabilities_covered": {
+      "type": "integer"
+    },
+    "capability_matrix": {
+      "type": "array"
+    }
+  }
+}

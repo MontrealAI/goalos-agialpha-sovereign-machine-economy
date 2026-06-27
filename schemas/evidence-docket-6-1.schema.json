@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Docket 6.1",
+  "type": "object",
+  "required": [
+    "manifest",
+    "claims_matrix",
+    "environment",
+    "baselines",
+    "proof_packets",
+    "evaluator_attestations",
+    "selection_certificate",
+    "safety_ledger",
+    "cost_ledger",
+    "public_report",
+    "replay_path"
+  ]
+}

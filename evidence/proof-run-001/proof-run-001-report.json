@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-27T12:52:44Z",
+  "docket_hash": "sha256:a743c8f30fa7a341eabad4f0f7e7049e1b0b792512138af11528e0fa532349ac",
+  "human_review_required": true,
+  "production_authority": false,
+  "external_actions_authorized": false,
+  "next_required_step": "independent reviewer replay and validator report"
+}
