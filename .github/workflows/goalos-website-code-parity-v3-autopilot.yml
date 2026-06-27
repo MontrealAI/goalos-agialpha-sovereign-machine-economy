@@ -1,4 +1,4 @@
-name: GoalOS Website-Code Parity V3 — Repository Matches Website
+name: GoalOS Website-Code Parity V3.1 — Repository Matches Website
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ on:
       release_tag:
         description: "Release tag to create when create_release=true"
         required: true
-        default: "v0.12.0-website-code-parity-v3"
+        default: "v0.12.1-website-code-parity-v3-1"
         type: string
 
 permissions:
@@ -58,6 +58,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Install Python test dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+          python - <<'PY'
+          import pytest
+          print(f"pytest installed: {pytest.__version__}")
+          PY
 
       - name: Install Website-Code Parity V3 implementation pack
         shell: bash
@@ -169,7 +180,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const title = 'Website-Code Parity V3 — repository implementation matches public website';
+            const title = 'Website-Code Parity V3.1 — repository implementation matches public website';
             const body = [
               '## Goal',
               'Keep the public website capability surface matched by repository code, tests, reports, scripts, and Evidence Dockets.',
@@ -202,7 +213,7 @@ jobs:
             echo "Release already exists: $RELEASE_TAG"
           else
             cat > /tmp/release_notes.md <<'EOF'
-          GoalOS Website-Code Parity V3
+          GoalOS Website-Code Parity V3.1
 
           This release adds repository-backed implementation parity for the public website capability surface.
 
@@ -217,7 +228,7 @@ jobs:
 
           Boundary: public-alpha local reference implementation only. No wallet, no transaction, no production authorization, no user-fund authorization, no mainnet activation, and no achieved AGI/ASI claim.
           EOF
-            gh release create "$RELEASE_TAG" --title "GoalOS Website-Code Parity V3" --notes-file /tmp/release_notes.md
+            gh release create "$RELEASE_TAG" --title "GoalOS Website-Code Parity V3.1" --notes-file /tmp/release_notes.md
           fi
 
       - name: Upload GitHub Pages artifact
