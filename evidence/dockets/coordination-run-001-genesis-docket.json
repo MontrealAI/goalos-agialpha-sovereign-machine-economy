@@ -1,6 +1,6 @@
 {
   "schema": "goalos.docket.v1",
-  "mission": "Demonstrate source-bounded release governance.",
+  "mission": "Demonstrate proof-gated multi-agent coordination.",
   "decision_state": "HOLD_PENDING_PUBLIC_RUN",
   "created_at": "2026-06-27T01:29:35+00:00",
   "authority_boundary": [

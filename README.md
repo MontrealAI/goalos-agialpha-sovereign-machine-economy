@@ -119,3 +119,27 @@ This repository now includes a dedicated evidence-to-scale layer. It separates p
 The layer includes market evidence schemas, pilot outcome dockets, proof-velocity metrics, public metrics ledgers, strategic evidence scorecards, and an evidence room index. The default examples are intentionally marked as placeholders and do not count as external market proof.
 
 Start with `docs/evidence/EV-001_EVIDENCE_TO_SCALE_STANDARD.md`, then review `reports/strategic-evidence-scorecard.json` after the GitHub Action runs.
+
+<!-- GOALOS-HISTORICAL-MASTER-START -->
+
+## GoalOS Historical Master Update
+
+**AI creates output. GoalOS creates proof.**
+
+This repository now exposes the unified GoalOS stack:
+
+- [Historical Command Center](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/historical-command-center.html)
+- [Proof Console](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/console.html)
+- [Frontier Release Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/frontier-release-room.html)
+- [Research Spine](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/research-spine.html)
+- [Holy Grail Candidate](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/holy-grail-candidate.html)
+- [Proof Run 001](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001.html)
+- [$AGIALPHA Control Rail](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agialpha-control-rail.html)
+- [Multi-Agent Institution](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/multi-agent-institution.html)
+- [Coordination Console](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/coordination-console.html)
+
+**Not more agents. Better proof loops. Not a swarm. An institution.**
+
+Boundary: public-alpha proof architecture. Not achieved AGI, ASI, empirical SOTA, production authorization, legal approval, user-fund authorization, mainnet activation, or guaranteed outcome.
+
+<!-- GOALOS-HISTORICAL-MASTER-END -->
