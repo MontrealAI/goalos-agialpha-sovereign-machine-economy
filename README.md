@@ -1,4 +1,5 @@
 
+
 <!-- GOALOS_WEBSITE_CODE_PARITY_V3_START -->
 
 ## Website-Code Parity V3
@@ -31,6 +32,7 @@ https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capabilit
 Boundary: local public-alpha reference implementation only. No wallet, no transaction, no production activation, no user-fund authorization, no mainnet activation, no achieved AGI/ASI claim. Human review remains required.
 
 <!-- GOALOS_WEBSITE_CODE_PARITY_V3_END -->
+
 
 <!-- GOALOS-CAPABILITY-PARITY-V2:START -->
 

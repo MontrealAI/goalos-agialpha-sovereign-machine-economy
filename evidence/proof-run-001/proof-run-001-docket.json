@@ -1,6 +1,6 @@
 {
   "id": "proof-run-001-genesis-docket",
-  "created_at": "2026-06-27T14:23:02Z",
+  "created_at": "2026-06-27T14:23:55Z",
   "mission_os": {
     "mission_contract": {
       "mission_id": "proof-run-001",
@@ -46,8 +46,8 @@
         "no_mainnet_activation",
         "human_review_required"
       ],
-      "created_at": "2026-06-27T14:23:02Z",
-      "_hash": "sha256:69be984730ae8e6b86a3118fe66ecb70dfdba9d1b9b7129b253cf9e10e41a630"
+      "created_at": "2026-06-27T14:23:55Z",
+      "_hash": "sha256:83d1fc59b6c895c8b1dfc8c39633eba6bbb38ff139c65a6e68daff8d30dd9ebd"
     },
     "proof_jobs": [
       {
@@ -238,8 +238,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:874b8662f1a3ee091705b13e82ef0833bc3eef6b617f0391fc5963ca3b736b70"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:bc7523349c6b5c43db675b667b24172436b77eedbe5786fc95c229032c9be9a1"
       },
       {
         "trace_id": "trace-proof-run-001-job-02",
@@ -251,8 +251,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:9b58bb324538634f3f4e9bea353926e7175bb6db1ee285bb0664b8746f90d510"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:d6af59885c3ae8f956c8fe8a3c8a3035e455a4a76213fcd0eeb9c399e75c0aa4"
       },
       {
         "trace_id": "trace-proof-run-001-job-03",
@@ -264,8 +264,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:a80419ffd058608e61f794301538f5dfaaa809cfed7164c97dc06c3beabe8c60"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:ff658ab9695669cf17de4e2873950118975a6e77e2d4cf16282d005f8eb44112"
       },
       {
         "trace_id": "trace-proof-run-001-job-04",
@@ -277,8 +277,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:b573d2c2e8c46a3734a9963360d725a1fdb77ca9f673052bb38fe813ff86f186"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:2912cefbd6bb30243b96a9e65b98698b6a4af09e306fe8e314803ece6f843eca"
       },
       {
         "trace_id": "trace-proof-run-001-job-05",
@@ -290,8 +290,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:42746e0193c1aa9d2cfb57f5c1a1c207db5ccacb0c2cca352907d80f33005df6"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:3182533265738bba309d97f97faf862b0a639647eb49bc4ba16a1ed472a24bfd"
       },
       {
         "trace_id": "trace-proof-run-001-job-06",
@@ -303,8 +303,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:773e65d087ebf1abd3f6d90b8e9ef133959a18ad711b326e2cb4ac716f1f3c78"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:3c9e358051930198bb2bb3d5422d85c4eac847bc5059feb8c186133229fc1b5b"
       },
       {
         "trace_id": "trace-proof-run-001-job-07",
@@ -316,8 +316,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:daa39a15a4debb2ec838e97717d3303e1fd3d35e9e3cb7ba4469d851de8530c1"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:31aa8551c29de41d4a26cb05fe7148f794989deff11c1c54a419aa0c1c505935"
       },
       {
         "trace_id": "trace-proof-run-001-job-08",
@@ -329,8 +329,8 @@
         "actual_observation": "artifact generated",
         "reversible": true,
         "external_action": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:c44597a55d50e3937f758756cca7fd1523ddc3e38749b7bab727324a03a433f3"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:6e33d44479ef5ba8e2b5a6f7f1d979623f09d6dc14bcde9dc5dfffd04fc6e573"
       }
     ],
     "evidence_docket": {
@@ -357,10 +357,10 @@
         {
           "proof_id": "proof-proof-run-001-job-01",
           "job_id": "proof-run-001-job-01",
-          "trace_root": "sha256:874b8662f1a3ee091705b13e82ef0833bc3eef6b617f0391fc5963ca3b736b70",
+          "trace_root": "sha256:bc7523349c6b5c43db675b667b24172436b77eedbe5786fc95c229032c9be9a1",
           "output_hash": "sha256:ebc6b35ef7d37c9e2a480d73be485a5a2e2ad3642062463681080f4b2777620b",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:874b8662f1a3ee091705b13e82ef0833bc3eef6b617f0391fc5963ca3b736b70",
+          "tool_history_root": "sha256:bc7523349c6b5c43db675b667b24172436b77eedbe5786fc95c229032c9be9a1",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -371,15 +371,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:6acac12c6fe353ed8e8a01a9c9c6373d26262fc6a7a72d122a5cad4bd0e77c1d"
+          "_hash": "sha256:67ef0d3d42fdf92b0367ec5775f77cc2e7457bccf1b9f84fa2daa869190622a6"
         },
         {
           "proof_id": "proof-proof-run-001-job-02",
           "job_id": "proof-run-001-job-02",
-          "trace_root": "sha256:9b58bb324538634f3f4e9bea353926e7175bb6db1ee285bb0664b8746f90d510",
+          "trace_root": "sha256:d6af59885c3ae8f956c8fe8a3c8a3035e455a4a76213fcd0eeb9c399e75c0aa4",
           "output_hash": "sha256:2f18ab6ca18adb91fa276b067c37faaefa99cb077dc27ae86fd5c484bdec61dc",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:9b58bb324538634f3f4e9bea353926e7175bb6db1ee285bb0664b8746f90d510",
+          "tool_history_root": "sha256:d6af59885c3ae8f956c8fe8a3c8a3035e455a4a76213fcd0eeb9c399e75c0aa4",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -390,15 +390,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:7d75ceda740dddc32f141f0a3527317ac96735be856c103863a64dc96c840951"
+          "_hash": "sha256:d1baab2ecfa6ce3c7438dc23fcf0e709ce4db941a11315e277b97740cd79d714"
         },
         {
           "proof_id": "proof-proof-run-001-job-03",
           "job_id": "proof-run-001-job-03",
-          "trace_root": "sha256:a80419ffd058608e61f794301538f5dfaaa809cfed7164c97dc06c3beabe8c60",
+          "trace_root": "sha256:ff658ab9695669cf17de4e2873950118975a6e77e2d4cf16282d005f8eb44112",
           "output_hash": "sha256:cebdcc171151a2eece36f1e71fe5a20f356146d945e9036686f7a58ec7779766",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:a80419ffd058608e61f794301538f5dfaaa809cfed7164c97dc06c3beabe8c60",
+          "tool_history_root": "sha256:ff658ab9695669cf17de4e2873950118975a6e77e2d4cf16282d005f8eb44112",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -409,15 +409,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:18f307e6c56c8ab3c57ff5d604429237fd0add1fed2c2e15c04c91eb35cce5de"
+          "_hash": "sha256:3b53f314bf4a3c24fc3f02677f6c6c28265abe6342e263630df9921a1824ffa0"
         },
         {
           "proof_id": "proof-proof-run-001-job-04",
           "job_id": "proof-run-001-job-04",
-          "trace_root": "sha256:b573d2c2e8c46a3734a9963360d725a1fdb77ca9f673052bb38fe813ff86f186",
+          "trace_root": "sha256:2912cefbd6bb30243b96a9e65b98698b6a4af09e306fe8e314803ece6f843eca",
           "output_hash": "sha256:906b71497d71f548cfcb78ab914e5a91b99c9eba2cac039fd5971b05cbf4e831",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:b573d2c2e8c46a3734a9963360d725a1fdb77ca9f673052bb38fe813ff86f186",
+          "tool_history_root": "sha256:2912cefbd6bb30243b96a9e65b98698b6a4af09e306fe8e314803ece6f843eca",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -428,15 +428,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:b4c3962e7bc58a7308eccb70f60f3ec04a2f4ae437766b7a89e3fdcf344b05f1"
+          "_hash": "sha256:7bede2fca70f076e5c9ff4bbf51a5dad780932fa86fa44ea2012c7d64c21e2c0"
         },
         {
           "proof_id": "proof-proof-run-001-job-05",
           "job_id": "proof-run-001-job-05",
-          "trace_root": "sha256:42746e0193c1aa9d2cfb57f5c1a1c207db5ccacb0c2cca352907d80f33005df6",
+          "trace_root": "sha256:3182533265738bba309d97f97faf862b0a639647eb49bc4ba16a1ed472a24bfd",
           "output_hash": "sha256:534aa7f530281e540122c09e81638dc47715809beac0351c85bd3d3b9a5a0474",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:42746e0193c1aa9d2cfb57f5c1a1c207db5ccacb0c2cca352907d80f33005df6",
+          "tool_history_root": "sha256:3182533265738bba309d97f97faf862b0a639647eb49bc4ba16a1ed472a24bfd",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -447,15 +447,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:a339eb2171c560a9d43dcf61fafd425eae7185c68f22fedc6ee97e9abe3afe1f"
+          "_hash": "sha256:027549344cd03fce6bee5880f55875e92f83d9d386f4dcd8a04e8a3dcbb2f7f3"
         },
         {
           "proof_id": "proof-proof-run-001-job-06",
           "job_id": "proof-run-001-job-06",
-          "trace_root": "sha256:773e65d087ebf1abd3f6d90b8e9ef133959a18ad711b326e2cb4ac716f1f3c78",
+          "trace_root": "sha256:3c9e358051930198bb2bb3d5422d85c4eac847bc5059feb8c186133229fc1b5b",
           "output_hash": "sha256:844faeabe39f2ebe402f0a7228f0e204c35c887a42f5762a27dea11ea1c59a93",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:773e65d087ebf1abd3f6d90b8e9ef133959a18ad711b326e2cb4ac716f1f3c78",
+          "tool_history_root": "sha256:3c9e358051930198bb2bb3d5422d85c4eac847bc5059feb8c186133229fc1b5b",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -466,15 +466,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:24b698f915400dd74978e14317db0029151e647becd9c496a088ed58915953ff"
+          "_hash": "sha256:e060acc47ee8cc489d6e94cfcaa45ae86dcd0ff1594da6e9299106afbbe401a6"
         },
         {
           "proof_id": "proof-proof-run-001-job-07",
           "job_id": "proof-run-001-job-07",
-          "trace_root": "sha256:daa39a15a4debb2ec838e97717d3303e1fd3d35e9e3cb7ba4469d851de8530c1",
+          "trace_root": "sha256:31aa8551c29de41d4a26cb05fe7148f794989deff11c1c54a419aa0c1c505935",
           "output_hash": "sha256:9736692084c6b6ca25c5880b69d2785f05e0c7495473c3bfdd2e46bae1563be9",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:daa39a15a4debb2ec838e97717d3303e1fd3d35e9e3cb7ba4469d851de8530c1",
+          "tool_history_root": "sha256:31aa8551c29de41d4a26cb05fe7148f794989deff11c1c54a419aa0c1c505935",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -485,15 +485,15 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:aa055cb27bfceecd60c7c9bc8ccc2e18f3b86c56095e3885fbad5d5acb59bd2f"
+          "_hash": "sha256:5b44e0dceb5087137eef8336bfc5d81946a0a88610029554a607564c02b14cc4"
         },
         {
           "proof_id": "proof-proof-run-001-job-08",
           "job_id": "proof-run-001-job-08",
-          "trace_root": "sha256:c44597a55d50e3937f758756cca7fd1523ddc3e38749b7bab727324a03a433f3",
+          "trace_root": "sha256:6e33d44479ef5ba8e2b5a6f7f1d979623f09d6dc14bcde9dc5dfffd04fc6e573",
           "output_hash": "sha256:848e0fad225101869ad98921b7887567bf21be40b2dcd95589dbb2296220ce0b",
           "policy_decision_root": "sha256:139281b54c951e74a4e8b00146ee882a22b81226a490767251b913882ae5843d",
-          "tool_history_root": "sha256:c44597a55d50e3937f758756cca7fd1523ddc3e38749b7bab727324a03a433f3",
+          "tool_history_root": "sha256:6e33d44479ef5ba8e2b5a6f7f1d979623f09d6dc14bcde9dc5dfffd04fc6e573",
           "cost": {
             "usd": 0,
             "mode": "local_reference"
@@ -504,7 +504,7 @@
           ],
           "replay_path": "scripts/run_proof_run_001.py",
           "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
-          "_hash": "sha256:f99816844ed733a76cf04e69991ba469ad18772e0f4e20ef980689b9b58d2611"
+          "_hash": "sha256:dc72e600f6097e5ffe460c9faa1510df31bce6171f9fb11e34c636ee86eb4a1a"
         }
       ],
       "validator_reports": [
@@ -522,8 +522,8 @@
             "Local public-alpha reference only.",
             "No external authority granted."
           ],
-          "signed_at": "2026-06-27T14:23:02Z",
-          "_hash": "sha256:d99d8eaf41182b8e9a99bbd2d9b89364b9f312609ceb75a1e73cf3d2d6f21732"
+          "signed_at": "2026-06-27T14:23:55Z",
+          "_hash": "sha256:d461ad635288a8173b48c64af94f22524063cdb5250812791f9de35e080d8a6b"
         }
       ],
       "risk_ledger": [
@@ -543,12 +543,12 @@
         "mission_id": "proof-run-001",
         "state": "READY_FOR_HUMAN_REVIEW",
         "rationale": "Docket has minimum proof structure.",
-        "evidence_hash": "sha256:e81f087dd1507cab4c75d90ea2b7c17aa2062754075040e592e10a0b1e39c1bf",
+        "evidence_hash": "sha256:1758eabd0a10832a80257262ba44bfe34c8b8789194749c95c07e41aa98a0555",
         "human_review_required": true,
         "production_authority": false,
         "external_actions_authorized": false,
-        "created_at": "2026-06-27T14:23:02Z",
-        "_hash": "sha256:676436984f91d1d14989b47d0845787116d8cae29c24bc468d4d9f729119701f"
+        "created_at": "2026-06-27T14:23:55Z",
+        "_hash": "sha256:2bcf133c73d5c18d88be256f637bd4ef47c818365f7db4a31c4ac4b6f5d33e9e"
       },
       "replay_path": "python scripts/run_proof_run_001.py",
       "public_private_boundary": {
@@ -561,20 +561,20 @@
           "none in reference run"
         ]
       },
-      "created_at": "2026-06-27T14:23:02Z",
-      "_hash": "sha256:9a7b3839ececf01966c13b4286a78997beb16b7886417dd9e0e557a54e6ccd3a"
+      "created_at": "2026-06-27T14:23:55Z",
+      "_hash": "sha256:15a4b8e2166d03e00429cb0bc7bf49b1776f48feada2b5ced69b0c2fb808ddcf"
     },
     "governed_decision_state": {
       "decision_id": "decision-proof-run-001",
       "mission_id": "proof-run-001",
       "state": "READY_FOR_HUMAN_REVIEW",
       "rationale": "Docket has minimum proof structure.",
-      "evidence_hash": "sha256:e81f087dd1507cab4c75d90ea2b7c17aa2062754075040e592e10a0b1e39c1bf",
+      "evidence_hash": "sha256:1758eabd0a10832a80257262ba44bfe34c8b8789194749c95c07e41aa98a0555",
       "human_review_required": true,
       "production_authority": false,
       "external_actions_authorized": false,
-      "created_at": "2026-06-27T14:23:02Z",
-      "_hash": "sha256:676436984f91d1d14989b47d0845787116d8cae29c24bc468d4d9f729119701f"
+      "created_at": "2026-06-27T14:23:55Z",
+      "_hash": "sha256:2bcf133c73d5c18d88be256f637bd4ef47c818365f7db4a31c4ac4b6f5d33e9e"
     },
     "settlement_receipt": {
       "receipt_id": "settlement-proof-run-001",
@@ -582,7 +582,7 @@
       "simulated": true,
       "decision": "accepted_for_simulated_settlement",
       "settled_claim": "public-alpha proof-run-001 reference loop",
-      "evidence_hash": "sha256:e81f087dd1507cab4c75d90ea2b7c17aa2062754075040e592e10a0b1e39c1bf",
+      "evidence_hash": "sha256:1758eabd0a10832a80257262ba44bfe34c8b8789194749c95c07e41aa98a0555",
       "limitations": [
         "simulation only",
         "not production authorization",
@@ -590,18 +590,18 @@
         "not a claim of achieved AGI or ASI",
         "human review remains required"
       ],
-      "created_at": "2026-06-27T14:23:02Z",
-      "_hash": "sha256:9b9445e31fe7ce6bc87420a32777159470c43a4ad9217f05a8d6926cd16f652b"
+      "created_at": "2026-06-27T14:23:55Z",
+      "_hash": "sha256:f926a232d36910d6942d92370c8db2051a9c353cb9bc88c7bacb63a14aa98051"
     },
     "chronicle_entry": {
       "entry_id": "chronicle-proof-run-001",
       "mission_id": "proof-run-001",
       "summary": "Proof Run 001 reference loop generated a local Evidence Docket, validator report, simulated settlement receipt, and capability package.",
       "decision_state": "READY_FOR_HUMAN_REVIEW",
-      "evidence_hash": "sha256:e81f087dd1507cab4c75d90ea2b7c17aa2062754075040e592e10a0b1e39c1bf",
+      "evidence_hash": "sha256:1758eabd0a10832a80257262ba44bfe34c8b8789194749c95c07e41aa98a0555",
       "capability_package_id": "capability-proof-run-001",
-      "created_at": "2026-06-27T14:23:02Z",
-      "_hash": "sha256:e77f62f3261764cffeb83ca389b049932fd77944e0fee8c3278ec05117dae5a9"
+      "created_at": "2026-06-27T14:23:55Z",
+      "_hash": "sha256:62b0b5f450238fda5322f9ae85a8e27c19ba611424dd6d718be4ffea9c83faaf"
     },
     "capability_package": {
       "package_id": "capability-proof-run-001",
@@ -619,12 +619,12 @@
       ],
       "risk_class": "medium",
       "evidence_history": [
-        "sha256:e81f087dd1507cab4c75d90ea2b7c17aa2062754075040e592e10a0b1e39c1bf"
+        "sha256:1758eabd0a10832a80257262ba44bfe34c8b8789194749c95c07e41aa98a0555"
       ],
       "replay_path": "scripts/run_proof_run_001.py",
       "rollback_plan": "revert generated evidence artifacts",
       "promotion_status": "candidate",
-      "_hash": "sha256:3c5c51dc0b5aa32cdaf482af44a5bc37a72b62c4d5e95c75bad646da03f15cee"
+      "_hash": "sha256:afeff34bb55219ea86f9e1df3bb1260886a7a5130ec064814666374020746301"
     },
     "done": true,
     "boundary": "local public-alpha reference only",

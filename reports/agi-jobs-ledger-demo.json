@@ -19,8 +19,8 @@
       "mode": "simulation_only"
     },
     "status": "requested",
-    "created_at": "2026-06-27T14:23:01Z",
-    "_hash": "sha256:f3512147f6b848539a3a7f7d463bdee95276bfd9c418c4cc14d71d647d0d0f7f"
+    "created_at": "2026-06-27T14:23:55Z",
+    "_hash": "sha256:99ea0b2e8d82135d154a1071906b319332fcc77719b939d4ec9ad95b71ff22df"
   },
   "escrow": {
     "simulated": true,
@@ -60,5 +60,5 @@
     "job_id": "agijob-12b4563d54",
     "capability_package": "candidate"
   },
-  "_hash": "sha256:c459f5d9f6ff33dabc0b84cee8c81c9f933216366f2a26b80207a5f9dc0383d7"
+  "_hash": "sha256:4ed96cd7fa9be1b3c557a57a1eb2746fe90ab19cf624b59a47566b0187b08ca8"
 }

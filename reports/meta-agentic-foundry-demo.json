@@ -18,8 +18,8 @@
       "rollback_required": true,
       "no_external_action": true
     },
-    "generated_at": "2026-06-27T14:23:01Z",
-    "_hash": "sha256:384d5620b61120d3010bb62e72592d4b5901e09416ba69088fda56679b45354f"
+    "generated_at": "2026-06-27T14:23:55Z",
+    "_hash": "sha256:d2ea0d4df96c8996486722db0488c6b356c9e917a5f378ecd876202c0785347c"
   },
   "candidate_count": 24,
   "selection_rule": "max posterior score subject to evidence, rollback, no-external-action, and human-authority gates",
