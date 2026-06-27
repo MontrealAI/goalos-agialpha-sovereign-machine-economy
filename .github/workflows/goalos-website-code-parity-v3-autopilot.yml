@@ -1,0 +1,231 @@
+name: GoalOS Website-Code Parity V3 — Repository Matches Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated parity files back to the repository"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      deploy_pages:
+        description: "Deploy GitHub Pages after updating the parity layer"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      create_release:
+        description: "Create a release after the parity run succeeds"
+        required: true
+        default: "false"
+        type: choice
+        options: ["true", "false"]
+      create_tracking_issue:
+        description: "Create a public tracking issue for website-code parity"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      release_tag:
+        description: "Release tag to create when create_release=true"
+        required: true
+        default: "v0.12.0-website-code-parity-v3"
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-website-code-parity-v3-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages == 'true' }}
+        uses: actions/configure-pages@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Website-Code Parity V3 implementation pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import base64, zipfile, io
+          blob = """UEsDBAoAAAAAAINo21wAAAAAAAAAAAAAAAAEABwAc3JjL1VUCQADRso/ahvLP2p1eAsAAQQAAAAABAAAAABQSwMECgAAAAAAjGjbXAAAAAAAAAAAAAAAABUAHABzcmMvZ29hbG9zX2FzY2Vuc2lvbi9VVAkAA1jKP2obyz9qdXgLAAEEAAAAAAQAAAAAUEsDBBQAAAAIAIRo21xGubYgcgUAAAgOAAAlABwAc3JjL2dvYWxvc19hc2NlbnNpb24vYWdlbnRfZm91bmRyeS5weVVUCQADR8o/aurKP2p1eAsAAQQAAAAABAAAAAB9Vs1u4zYQvvspCAEF5K6s3aTZYGFAi6bBbpFD2gIb9GIYAi2NLDYU6ZJUEjfI+/TaF9ln6pCURFl2kkNkDeePM998mkrJhuR51ZpWQZ4T1uykMoQKIQ01TAo9m1VWp6SGFpxqDbpXGkQJobpkhfGaNdU1Z5teS9f0/OOlPzL7HRPb/uRK7DvnaSNL4IPjggopWEF5bn0lpDVFLuTjbDb7eYgZo+E/ILI71cJ85kTkRmjDTGvTvqaiZKgMyxnBv6J/zVm5JNooJ+VMAN1CEFBV1IBJjkQN0xr9BQE8sBJEATkKQGxNvSRMmLFujhlwZvbhQNMK3eYKHkBptpmcspA2XhmqihUMI4ztjcLct8yW4QH42HgntQHFpNKFVBDkWzTQS2LbskLzhGyk5Gt/BAKsvzKnxt/LiUuoiJG5tYg18GpOFp9H9tittS+mC0v3XNKSZF3rvcX0eBW5DkZr1DtsatxpBBMFCEHRW2KvfU9vwdArzNiw4qtsRan2Pokoin5R8lGDWnCJXsntl7urxdWvX367u7km3//DnzfoswJlm0U43YNK/UXvaoZQ0wQhTiiC4AGIwx/Rj1Q1Kbkx9tTUgCXB2jZMMGxQkdhG7aAwdMMhuPYtbHYcGszSzQzZQM1E6Vzs2g1nxRiapLsHXtVir5AIeg2YSQef5KBJAbpjnGBmmm0FTh48UN7a052SsvJtx3nE6NgRTJZQ565uGyoWCEAGj/ig5T44TvuCzg6HQGPXVkN/omsLQan2CwQKlgTn2KZOxT5KCPYC6L2plWy3NdEOvwcJW51viF0FmDaG3lE/BVOdP1y5FohiVNWmr0mUhDy+KoloAIUt4ECxclvrV1AbEWvQODe2GAuB3cDmPkp1T37/ZuV/Um6vLBXm3oqCcSu8xrQRmdjUBhq8IJFqS/uQ6zAcuRsxh/TkgBcsMkp4csOX4LBzP1ZugFAUpkbRR6wpimLPinEVPXeOXpbPzgk+rYOXKMUSIirj+Tyt4alkWyxHPF8tP60TcnZ5NDcfP5J3zv8P5OKnkHMPo5NZ2xoYlzVmdX7h8uWI9dUpIh0Nv7NDk4Y+xWfWqYgvPnXu5iGzAWDIQ6+7tSBbDzYVtoZhRngVsYXYuwyRxwSMhvZSadeWfnoIw5b2OtH8wLQj5rcsO5WJoSfwt+y8xsQscPmbyQ5aE/OO7N+y7VSm6VpFNFOWaeIP6fkn8mOo2zuCkguU9OVwgnMUdNe072eX1iTk72QfUNZFPAzoaAcDPh9I3bgijbMm39hMqNpHS2K/2MmxnmOonLamlso24FXF4QNcyuIeDH5V/26ZghIthit+znAgTtgqyfmGFvdjo1fCCJnDk7HEwnNaOH46pfty8BYgn9LdDrD4pzAfH0Ub7ydZFd1+/3fxzN6dLT+cly9IUd2igifdPKM3VCDv35NL7MzZS3R8gYHGMweewOorhhzBQcQT+Xw98EN28Cka/x1tP1kvSabrT9Y9k5PrT+aFxxFe24ay8DM5Xoiy7plMFqLM/T+O4gCbdV/L8UKUdctmPD80mh8xbuh1oFv/zT1Btm8uU8FTP+oDbXc+QnAfAcqOfoNpQu5hn3HabEpKiiWJKedxkborpnZJAI3fEmTp9LBCVnLUVSs81bXjKhxOfKRxA2o1Tkrklowc+Tz3k+13jwlQo/46aNH/TPsldNKBKAyJ+yygiUVxqMBU3zu0iFQtB5sTVizgo2NJ3W7+snuSkSRAueeJBOlu0dPAwtOA3678QjXQlQfU9HZH3LeK3NJZ1AyrWhLcUSNH4saub2Xr/JPAgUlHi8QXjwystZ4E8ltmrltV0cJd1UveN7g+L6jfnxeU72r7xtLaNHyU7Mvsf1BLAwQUAAAACACEaNtct8mWfuEDAAAtCQAAJAAcAHNyYy9nb2Fsb3NfYXNjZW5zaW9uL25vZGVfcnVudGltZS5weVVUCQADR8o/aurKP2p1eAsAAQQAAAAABAAAAACVVm1v2zYQ/u5fQQgYJi2KZntN0BpIMWMxsgCpnaXJ9sEwCFY6W0QlSiUpvyzIf9+R1JvdLciMwBaPx+eeu+eOyloWOaF0XelKAqWE52UhNWFCFJppXgg1GKyNT8I0izOmFKjGqTWFhKmEx9p5pkylGf/SeKmUjS8u3ZY+lFxsmp2pONTgUV4kkLXAMROF4DHLqMEKSaVjKordYDD4tY3p48G/QVw9ygqCgTWROaLcA8jJgOCnxCfKkwlRWlqDLDLoVt8qlnF9mBAutDXAlicgYugskquvbmWXCayJLqjJ1FeQrQNy/pGY1RIxQ5POykW2ZwErKurCOPc38X9AGrBzOALX1JDSlmjDPOdKoTKdwfop1KuXXil5zuSByqLqm+OUcUFTYL26sEqnhTwKIS0LKtGPC1Cqq4mpKi4zrvTyOPeVKxJXZaG4PiIIew1SoJ4stj3VwQnQu0J+pSh21jPHGFlDQpl2IP+//iU7ZAVLyNWxBCfbS8+2mLdCv+Ou82uP4FTR2o5iOtE+F1uQwDfCqlehVjk4Gp7n3RWIh8Qx/ZwLrBmPyfTmlkyzMmVWb7IdIvIaIbD1SMYOICOX7iem4xSnTadAdvAFawo/9sK5048opZbowFHDSpONZMgAZyzjW+iUjRpCg3YSFKa89MoMRx2kFxLPdop5gD3ElS6scYtDgj3rFpuKyYQzYZ7jVJpqZfaEGRTzq0DrDHJsWG/VaUZz0JLHVoHwqHtDwpO9VT0kimVObCsrmnqzxHZIFk2+u0z8tWdafvJcY71MnhEHvw3GixdhKXHbD4IohX3CN6C0Hywn71chGV1+J+jliJzZED+QXy471vUI1CH+lfz384k0vVHEjLqR2Y3YhkegU88mdTrf7TwZKZrLC5O7f+Zno8lwnLxgUU3gyAq25EgxA8fFmYJV7dDUuCaIhUU5vnnBa9tgtkfDITl/xUl5QUDWhSQcBcAyiQ34o2GwahNork3MATtIJL6qcr+MWrM5W5qzNtOA/GxTcItOi/o2PgFprG/DMF14AmBNbzzd3HUIkbO9PzRqC//Dh7BGHEbv3pGfunzPCFqGaGlYnqNhPEaDjXpGRu+DHn5385omuVlM7xafzz10a3v6+aifXvrt3ZL77+4ejTtN7CibMA+Lp8fZcRT3QmixX8OLqrLEhuxy6F3uBv33p0/TOX2Y/Xk7+wt//ni6fZhde4Sve8X8eEUuLgi+3AH9F3fX9H42v76d31A8dT2b/zbzTuexmxL/qCDt9IV9HqFLNuzVF7t2vpjP6M3DdP6IhMKOTkiWZdS8Q4KTzlidAA/tX/3PB9Zn8A9QSwMEFAAAAAgAhGjbXNK2l6xGBAAArAsAACAAHABzcmMvZ29hbG9zX2FzY2Vuc2lvbi9hZ2lfam9icy5weVVUCQADR8o/aurKP2p1eAsAAQQAAAAABAAAAADNVk2P4zYMvedXCD4lqJOd7TFAig6KfmwRoIvdopdgICgynWhHllxJTjYdzH8vKTmW8zHYHpuTIorUE98j6drZhnFed6FzwDlTTWtdYMIYG0RQ1vjJpKYzlQhCauE9+POhYatkwldKhpLVCnSVHMKpVWZ3PvtoTiVbqwBO6D7iorEV6CGaFMYaJYXme+H3JeuC5MYeJ5PJj8NFU3T8B8zqT9fBbBK32OOvH3632+WE4e+L3XJVLZkPLv632y8ggzpA3hJSQhuEkcAD+OCXTCsfNmh+inan/DOPkUc+WtsjVDxYq28ctl21g7BklADaLemtyeQxhR069O/eFA7+7vBSqIqSFfAVZNevD0IrfGX64yEEjdd51XQ6bj6xFRs5x+DSAdm4CBEonojJn1ZQi04HXgsZrDut+jzOJtELrSxYTmCnHnQ9Y/MfrqCnVNKvFSdtRYWhE7/J49q8KSJjEeQlidP+RHZxgDozZ89vcovErlUN8iQ1fAJpXZXA9am4m3Tw0tnjfVPMOIr6rrV11tZ3LT07bzkmvhow9wHJvaOcaLix/i8ZGVeVXwOK26X7i6JYWwyELjU4wAqiU8SRZ4eHd4fv2dG6Z/bH50V62IdApZ0S49mnRBk97ufIUFylEqDlR8o+Lf7qS4HWn2NmafXTOYmpID0TrC8PZGVujT6xtttqJedCt3vBtLXt4gw7JzoVDcc+ETNXXnWI8rr8qe4aqFTXFJGXcbMZZS9tT4ft3ItWhdgpXM4L9t01Fy/FcHuxzEheZ5v5+4flU3kRbjCvhtXlgevGttoUUdHYoEyFSWwdeGRi1G2sQ/yx945s+HbVsK1FJ+FOyeIOqTHhaS1wT4T94HIFM+dvlZdXQMfdFFFqEhUfRMXB7JSBdJ+oOEH0iloZbe3AYCtFCisrn+Hm+tSMVy9F5yvM6QN60JTBZZHlwkkuxWv2HPVG1xmuzy3nrkaiDt5qTD3xKBtyXYzkNgQZl14qiRW5LM49INtTJ0PzS5FHwZJRg8R3iQY5Cv0jaS7TukAlPq4//vY4zx5o1pSskS98xYFkMOs10uxx/xehPbzmm8+NMl0exxhFH48soo8jc5os78dBcfDQh0MPzUCgvjAcpb3gBBKN6iTMN1WB2cBtykmqobMDIYhiKV5nGWsSOeGMK57k/h/jDg9Fw7B+nQ1a56T1qB7pVBv8O9IHVjRR6nkFjV20UZdwUFVUb9IlJ26VG3Ke4eZZEjEfwBHrdEUqYF5bx/ddIwzGOCg4XhTskIL5UC/zbKREUekjatTDiO9xvLeh5Tl2RfvtB8m3JXchz0YoY+LpKDTc6bCrXKqPeo81lerZyG/mubMVGewwVSNWxIz9Ab2o+Ib6ZdLSAEJETBkW83Y5JXJPIMhJFdcSkaIVW6VVIDHIZ7GLOkRxVXFMjSD1w+C2N0z7Si/7ki6z1sqk33Kki3JERJnfOZv8C1BLAwQUAAAACACEaNtcT+NkQqAHAAD1GAAAJgAcAHNyYy9nb2Fsb3NfYXNjZW5zaW9uL3dlYnNpdGVfcGFyaXR5LnB5VVQJAANHyj9q6so/anV4CwABBAAAAAAEAAAAAL1YXW/jthJ9z68ghPtgA5GdtkAfAqSANvF23eYLtrN7L4KAoCXaZiORLkk5m273v3eGpGTZkbwubtHFIrbFQ/JwPg5ntNCqIJQuSltqTikRxVppS5iUyjIrlDQnJwvErJld5WJeAe7hpx+wr2shl9XzRL6GCQO25NLShSplpl+r8RtuWYIDIn3vR2q0oL+puakX+nn8C/y85tmS64BJldKZkI5XhbtsPBvJpZA8gOEv7MI11TznzPBqwvvwfOIfT5QqwoxCGAOrUFWTuPFP7qYBIVXGqS5hflGvN1UbrrlYylsYnPixAF9rpRaIr7DwldYP6dnZd9XOMDWvd02ZVFKkLKcrZlanpLQplerl5OTkMrlP3o2vx7P/0Zvk/pzkwtjHTKT20Vh9SuDP0xO5II8nBP59iVK2ZnORC/sanZPogyr4GpxCHIN4ibwlz4hacw3mAx9qvgTy0SmJXvjcCMtx2rqc5yIdCpnxz4OVLXIcT4EwDhqdDpeK5cpQZlIu0VrDrR0H61dEW24sovHTDPEv3cV8PW1lPJYWqKVWbDi5R9LgbWlU3kEx9YPHkXzGw+f/J8EqlkgIJoLR1E6uCsc4hGMM5ymOo7ofyd2k25Ad1G9GsyQOmUjG0lhhS5dXIS3bT1FA+sbMz4pZvl7hL3HcMXb0oPsMb2AdBwCBIAkyIJh4ZHNGZivOrO4IDqAZCGMSx5uz40g3M76b8z7qAGUUNSA73HxPPin9TO6m3XxRD4FpvPn+WAt7DT1k3C2ig+SEG850uiJT0PUOY+qAiQ1ijiTH1yB4B6i5cQpJvFC6YDI9ZEmvBqC2BOa0c/QqB06JcdujKNbS3M1yR70PEPwP+Dq5vv+QbIXLapWTCRN5p8N9fKYeGmuA/ot+vylzK7wiNPWgQwcc2KVqLLbg4+g2r/FuyvuoDtrN+/9b18MWGf+tu+IfJZyM7jEiyWgjMg5RTq5U+swt+XFwMJDhP9+o/G+Y+R9NOCBZFhgaU64FN+1MswCKjQO9oQnjZujHhmdndDqajEdTOr69Gv13UGRNmppjJWT2V4yBplgAZvCbgdDs4HrNSgn6dcs01jWbjnDIHSqWFaqdbaqKosRizNXCw+vk4fbyA71NJpNkNv446qDtfRHnDAfisHf8OztI+yPLRcas0mBjZjtMvKlAYBEAtZOuQWb4MbkeXyWzuwlYO5mBrT+OZ8D87naPOVQ7JY/nKkPf7G7i9BPQB6U4VMpkmqsu6j6OQ10VGwS206+V2wzvJ3d37+nk4Rblll7dXf46mtHpbPJwOXuY7Ft/5wxtu3Uf4j3LjVgEN5N36nNHEdeEwU5vC2J3AKiStIDP+4d31+NL6g8BBddkfDn9NudwZcVvN+vmf1n/gs5M+49llw7W2HjtsEdejh67KydVwL9ZM2ZlJrZp+gTNS8YXroukBjrL0vTgsPbcNZKn0HnkLgnPsYfpk/gnMlcqP3dn1Rx6U0kcngxraH/AP0P7Y3r9am2t5lCF8QW0YyBmFLqpnKN4+NztuWW3zRJ0qk9+gxAk0DjV/V6vP8A7Hiu6nGZK8l70KWQxGon4Q/otG1Z2g5UFNj9Efbd+VZXDBi3NJ27FN4K/9KIaWLWs2COEvWCXx+BBalSpUy/CLIUvhhZQ+AoXtFA55HOWPmOlYlWqnGNXJQgnZaVdKbfWUyAWevOLlrYcaBlgkdpedMUNtLeE7TeOjYsfltIE1ldSFao0JBmTF6hugwGwPIZN2jrl+vRVw9VDQclKuBcZcbRjPw4fLHvdvzXDBu7FwcXuO4Pgwhzui/Q1zXnPK1W8BFHOmlyRKMl4ocJiO28ZLlpeMODKqrTw2YzPL+4H/ou2vaOLHUgUjOZeeDxYcjCqG+j3T7ez9ps36r0WzKP576XQPIPFKuCgFdBc0buSpkxmKOgQMueV0x+j+imUAOCM6Kkx0zU0/DO035LlFFtwyCCYjM8H+88b86o6kxpurc8+agRUi2h0mO9q0O2YN0XBhJToSyIMQSUG38usHVtCIUAXcALTgDcINJ1HnZfoghUiR5XcKdCaY435axd8bvY2Xc7fbLNvggr8hzvlPrrLkTNdBtjXoGFONYMygkqRP50+QhRGg6hTv5wwXjikmxrCUr1gTjw+hVTXBASqgKQle2+Rap4wAybgDj2E9psDj5XEUa+6Eb5n2lfzU7dFDa1kpl5iV5GPWcndSPvLuOpVYZ7g5XPMMu662l8mdXKUuYntJ8QoPEi8BnRQam5oBmy95jIDYi+eibs90EffvLm215Rcok+186dGZzo3iwVkpiW6cSi/9xyTnYEEqOdqH/PYHuRPu9lXYQ9FeseU9nB3YIz4IJruVedFUzZNuuIFw7LCFx+DyiEYBTTUH3CrNjILrix8eckzyrAeCW9Ke01Z9eHg6h9mDBCprFXZE6k37cTxPJHkPDPuEMZ1wQ2JqWodKNkoUIZ7CJM55xJda/qd0OAayOyy6H331oVN9zVXCURhYvjWtsNrVQOcu/UakG1ceQcBwn9pYKrzw9iXwxp4nPZBRcTynLucqOR9O3ZID7/uMHfZhG/BUb53Xov3vkR4zuq4Trmbh/var5TVh5u7o/2CJ38BUEsDBBQAAAAIAIxo21wkVL2w/QEAACsFAAAgABwAc3JjL2dvYWxvc19hc2NlbnNpb24vX19pbml0X18ucHlVVAkAA1jKP2rqyj9qdXgLAAEEAAAAAAQAAAAAfVPLbtswELz7KwgfC9mwU6C3HlInMdImTWEfi4KgqZWzCUUKFOXAf99dUVQVS40PMjWcmdW+Cu9KsVRQrVZrgWXlfBC3J8zBarhx+hXCl3Umfnnniq1XOYINmTg0aHLpoQDPPKldWeIE7hs7K2KAIwll4Rqb+3OKc2/rgKEJ6OxG2RxzFSATjxDUNdNR30V+74HyxR3qJL/e3n93h6z7rx8gP4LPBJ0fsAB91gZ2oJ3PO712dEarOF7vwYEouwINhd4MGLf2iPYC20HdmNDZ0ZO+ETzla0DVkCzvOnwX4R2cEN6yEexc2Rm9grdgknxjFJbfOHHlz5m4AY01hc7E1inztP/RkruOpJdnVT/LSp2NUynZEmuWSdeX6zEiT/vEcDmY/vZTh1pCuW8Byz6jn4SlNPbuRM3Fo23ByOuklfIY+uaqJkd61vEgtarUAQ0RZOQlEefBAZOOjrIHJU1lR3yDQ40B5IdREklzFpEpT59nMymVMVKKr+L3TNBvPijfPBPzYW35/V0TGEht4POw2vMs+vXFZcJEq6fgtqJttNHYXaJx8FKw4dAy83JfGXu3sQxM7+zUDdW9T2u0iyyY2lvGp2aD8X/z02cwXFmmRIBP4/VNov8MEos+6j7fj4aKPP/wWNAHt2vCozFfLddXy9Wis1mwzSLaLMhm9hdQSwMECgAAAAAAhGjbXAAAAAAAAAAAAAAAAAgAHABzY3JpcHRzL1VUCQADR8o/ahvLP2p1eAsAAQQAAAAABAAAAABQSwMEFAAAAAgA2WjbXH6jqXgZAQAAxwEAACEAHABzY3JpcHRzL3J1bl9hZ2VudF9mb3VuZHJ5X2RlbW8ucHlVVAkAA+nKP2rqyj9qdXgLAAEEAAAAAAQAAAAAbY9La8MwEITv+hXCJ4nG6uOeQ6AUeij00FsahGqvXTW21uyu8/j3leoUSslBIGlmd+brCEc9Bfkc4oeO44Qk+jU/1eXOZ1b5uGJxMTGQmLuVZiFTbMb7Lg7gvXUEjMMBjM1egiS8vd9Z+7vnizGproQxNa7HMCD7wA0kjphc6POE73BOLZ1/e7yAhE0RYvO0KErllHkQvb4i5mSGARox1SNw7JMOeiLEru7xAJSg1RlAosySI3WHpMMsmHDEmfXmWR+R9pVVP1wVQenAlXXjvo1k4BRZPO7XbzTDP9PtmMvUYWlTXyjqFkZ0hTvvOFIU8AInMeXHtfM4sVlgVrlWm0fXD1bf6Oo9+9VEMV2xbquFENpq92fMqm9QSwMEFAAAAAgA2WjbXBXMFS0TAQAAxAEAACAAHABzY3JpcHRzL3J1bl9ub2RlX3RoZWF0cmVfZGVtby5weVVUCQAD6co/aurKP2p1eAsAAQQAAAAABAAAAAB9kEtPwzAQhO/+FVZOjmjM494bXFEF3ABZJt42S2M72t2k7b/HpvSCEAfLj/k0O+Mt5agnL8OIHxrjlEn0plzVz5lPrMqyFbGYGEjMzUqzkKmYcW6LIzjXWgLO4wKmLSxBEn69fW/bi88n56S2dRhTb3fZj5md5x4SY0425QCO5iQY4RLjOS9AgLv0WMSns6ZUGTOPotd/yqbGWBAOLiJXY9NsKIe5B+31MEefurNeNh9O+mHBAKmo97nfgzStlewC9mJa9V2vIahZuChxH5AMHJHF5f36hWb4BV37HXZ+nAbf1T6dDOCFoAsQs60fUFwOhAJO4Cimvtgwx4nNudRKYypxZH3X6ivdvBVeTYTpf7RVX1BLAwQUAAAACADZaNtc/LmbywYBAACeAQAAHAAcAHNjcmlwdHMvcnVuX2FnaV9qb2JzX2RlbW8ucHlVVAkAA+nKP2rqyj9qdXgLAAEEAAAAAAQAAAAAfZA9T8MwEIZ3/worky0a87F3YEIghg5sgKw0vgS3ji+6u9D232MXOsDAYMl3fnzvYw+Ek547+Uhxq+M0I4nelFL97PnEqixXERczA4m5WWkWMhUz3g8xgffWETCmTzC2sARZ+PX23drLnB1jVkMNY+rdiF1C9h33kDlidt0Y/Q63fFG4f3h8KuUzhBFIqTJ7SaLXv/slipbsUxygP/UJTLMhxKEdO4Ggu0Uw44QL6wPSXgeYsLFO0IfYi7Hq7N8Q1EAuJ9M+RDJwjCwe9+sXWuAPdF0026rZprNAW2e6+rRy/UBRwAscxdSOC8s0s/k2X+mYQ/mT9Z3VV7p5K7yaKeb/Uau+AFBLAwQUAAAACADZaNtcms/IRfwAAACWAQAAJQAcAHNjcmlwdHMvcnVuX3dlYnNpdGVfY29kZV9wYXJpdHlfdjMucHlVVAkAA+nKP2rqyj9qdXgLAAEEAAAAAAQAAAAAfY9PT8MwDMXv+RQhp0SsgcENqUfuSHAbU5S1Lpi1SWW7+/PtSdftwoFIkfKcn/38OsqDHqN897jTOIyZRL8Vqa5vPrMq18+Ix8RAYh9XmoXsjNkQOuwhBOcJOPcHsK6wBEl4s946d5vzwzmpbjZjavxXjn3mELmBxJiTP8KOUSCUVpTzbZE4tShKEVxUvWhrvHHqYm6WHzbOD/sWycIJWULe1x80wR/o4epRNbmFajGqDs9+3qwMONLsL3ASO1d8Ow0j26V3pTG1JVL95PS9Np+FVyNh+h8t2Tu9VDeGJcrEZqvvam3GyAyteVG6HIrIoN/PLDC8nkq+tVO/UEsDBAoAAAAAAIRo21wAAAAAAAAAAAAAAAAGABwAdGVzdHMvVVQJAANHyj9qG8s/anV4CwABBAAAAAAEAAAAAFBLAwQUAAAACADPaNtcgjqf0+YAAAB/AQAAGwAcAHRlc3RzL3Rlc3RfYWdlbnRfZm91bmRyeS5weVVUCQAD1co/aurKP2p1eAsAAQQAAAAABAAAAABtjzFvhDAMhXd+hZUJhjKcbqrEUKnq1u22E4rcxNBIkCDboeXfN3DVTWSy/V6ePw+cZhB27ZhwSmJRHEUJKbY4UlQ7pBw9bxDmJbHCJym+7UJwHw+lqipPAyjJ02yLgRjLyF6u1mH0wR9dqezCJMRr6b52N/JWN68VlFeEPCl0J0vqphWayGlt3knCGAFh4ZSGlzGtxJE8hCgaNGtBN82Rh1IW6X/s3Tw5rCuhanroOrhcz6yiqFkeDsOEfiunsf3OM0bLtAb6Maf/Dkbypr+bcb94L2Ky9KsFEieL7uDrIQjcOFP1B1BLAwQUAAAACADPaNtcdpDAbPoAAACfAQAAGgAcAHRlc3RzL3Rlc3Rfbm9kZV9ydW50aW1lLnB5VVQJAAPVyj9q6so/anV4CwABBAAAAAAEAAAAAHVQTUvDQBC951cMe0pAgmchh2KWNqDbGq0ehyWZ1qXJruxOUkX8724MqId0LjPM+5jHHLzrIfgmPzrduYA6NGSDcTa3riX0g2XTE5j+zXmGRzeSJ3O0KoL1jCVJ0tIBmALjfw3GrR46jt0aCkjvTN7qDvXAr84b/kizmwRieRoNnaFYtE+zfMaxN2EKloqdd+3QEGgLcjTRPs6la07EIvsx1CFQTDvr8t97UBQg1FZJXNcr9SRLscD+i9lwvBYm0fUCzxKfnT9ho7vuMmn6R2DN8YMWPsVmf79SWMvnSr7E9rCv6pjiCsRme1fiTqqyUmuMcCnVrRRfyTdQSwMEFAAAAAgAz2jbXJD84f3cAAAAkQEAABYAHAB0ZXN0cy90ZXN0X2FnaV9qb2JzLnB5VVQJAAPVyj9q6so/anV4CwABBAAAAAAEAAAAAIWQsU7EMAyG9z6Flakd6AMgdWABgRhuRyjyNW4JJHYVO0J9ewKnCjGg82b9/j7ZXopk0DKPq2AS9agzsUbhEdfo3+WsEPMmxeDu4fGptc8UVipd1wVawEjNH4M+xYXmfU7ko3qNuSa0ZvLCaffIwRfaEu54TtQPtx20KjRLCTD9tffDWCr/+np3KiLLzYpGAbCasGSpCp9SPtzwY0JValtehKOSWaJMbC9ODa2qe4VpAncJwrEeBXeFzhiZyRoeFe4xKV0Bagv8UjnoP4y7vMFvaG8OIh+S7fvG7gtQSwMEFAAAAAgAz2jbXOblxme5AAAAXQEAACQAHAB0ZXN0cy90ZXN0X3dlYnNpdGVfY29kZV9wYXJpdHlfdjMucHlVVAkAA9XKP2rqyj9qdXgLAAEEAAAAAAQAAAAAlc2xjsIwDAbgPU9hZYKlEmJBJ/Wegg1VkZsYsI42xXaKePsLRWxdyOLI/n77LHkAldhcMt6yBtRIo3Iemwf1ykZhQmF7Ag9TFgMsic05l+gMRmrhw2JOHxvmff2pkm62Pw7qE1rC7Tu+8Y3fLv0Xqv33+OTV0Ir6DtoW/LIh+TUXccKeb2xMGuKV4l+FHfy2sDt84euVdZFnkpdY29XnMiaUp+9O/loGHIPQzPSo5V54iQErHKWQ+wdQSwMECgAAAAAAg2jbXAAAAAAAAAAAAAAAAAUAHABkb2NzL1VUCQADRso/ahvLP2p1eAsAAQQAAAAABAAAAABQSwMECgAAAAAAhGjbXAAAAAAAAAAAAAAAABQAHABkb2NzL2ltcGxlbWVudGF0aW9uL1VUCQADR8o/ahvLP2p1eAsAAQQAAAAABAAAAABQSwMEFAAAAAgAhGjbXKBZ0mShAgAA3QQAAC0AHABkb2NzL2ltcGxlbWVudGF0aW9uL1dFQlNJVEVfQ09ERV9QQVJJVFlfVjMubWRVVAkAA0fKP2rqyj9qdXgLAAEEAAAAAAQAAAAAdVRNU9wwDL3nV2iGHjcZKO0FTtvls0OBAQbOiqPdNThWKttZtr++crIfpdOePLal56enJx/AJaO7e4QXqoONVEYuZ9wQ3KPYuIbn46J4WtoAIaJvUBoQ+pmsUADqSdbQ4isLdKl21sBqBAGDHdbWZYDIsMSeACM4whCBPSlGxxrIsi5rNG/UgG07Ry35iNGyB5Ro52jiCRglM4FIIU6GNNG1Yc0Z17TLmYDyoHcyKWLtCIIR28Uq06e/+bW4hlppWk+tJpsKctCeFbRJmYpeWg/Wh47MAKpoBwdbaSQ5Korpv4pWvQz7YBsSrc1wP6zs3RpWS/InRXFUQdzz6nBByt2GGE6LzxWgMoxmaf3if8Lsoo9z9Ed5bAiJoOZmPWiyIE+CUQmMuu1Sv4wcjEPbanjK/R24d9pekp6a0+JrBZ41I5J4dIApLjlXP4EVOpebkDXyihooxpHpBJKml3MF3Cb82reoE26SGYvRpR/r0lcXgl5ZjhrPkohCaU1z1c6bP+S1FIqihB9aZs5U76ozMyzPB9VZ21LChbDXUIEHyr4jeGBuc9r507Scqibadrj2IdqYBgYXWQBZa8j08hqmrlsi3OZJUGtgFNpcfOc6wAvLmz6cj87vy8PDI+D6VT0CrSa4gc/9wOdSsLH6lkaOBw/Jg8br/pOiTW/ur6Z76lHYgaB1mWdy0Y5EP9DM2DNmaawflZvtSj7bjAM8kqhIE7jB5M0SblG0/7bXOXpGZxtUi2sMRg0ZWW21fHScDy/QBTu3ZnzgG78PLbnrso2yJx2u1PjXYERB9CfgFLsUq+1Xsj0e6tJ23jKc9zoLuYtnm9FVUwUtV8EG+1U5iHp0w40m6kQMrw8XKovL/8RwKWM/q+Iqtej3jtyMa9h+UGqk31BLAwQKAAAAAACEaNtcAAAAAAAAAAAAAAAABwAcAHB1YmxpYy9VVAkAA0fKP2obyz9qdXgLAAEEAAAAAAQAAAAAUEsDBBQAAAAIAIRo21ye6M0AQwUAAMQKAAAdABwAcHVibGljL2NhcGFiaWxpdHktcGFyaXR5Lmh0bWxVVAkAA0fKP2rqyj9qdXgLAAEEAAAAAAQAAAAAjVbbcts2EH3vV6DKizVDUqR8UyhZM65zqTtNk7Ez6TNILkk0IMAAoC7x+LUf0E/sl3SXoCzZaTJ+kAiAwO7Zs2cXXPxc6NxtW2C1a+RyQf9MclVdjECNcA68WC4acJzlNTcW3MWoc2U4Gw2rijdwMVoJWLfauBHLtXKgcNdaFK6+KGAlcgj7SSCUcILL0OZcwkWCJpxwEpZvNZfvb9kVb3kmpHBb9oEbfCwm/v3Cui0+Ml1s7xpuKqHSeJ7x/HNldKeK9EV8Gs+S43mupTbpi/KkPC/LeYlIwpI3Qm7TawRlAru1DpqwE4HlyoYWjCjvGy4UWt14jGmSzOJ2Mx/c8M7pecuLQqgqPZ+2GzY9aTf3EWwhM3p9t/NYwvSczyU4dBPalue0P5pOoZk72LjQGXRYatOkXduCybkFj8+Kr5AmaNhP1yCq2qWzOL6vk7v9jlzypj06mbWbYLZaB0mMKMZzKRSEtT8SvXzqPoziM/Q/RBIhFhbfRxITemB4eoyuD+0k0cnpjsg8L84A5ntyXsYxRV8ZUdwVwraSb1OazOkvRG5xxUGIx7tG2dRAC9wdEYlhKVzQCIW2jqanaCVISjMezyvepsnJA+Gh0216PCUnOTfFXaZNASZNkHirpSiYqTKOBk6D3S9KTsZzvy00vBCdTSlFD0mbErcHWqFYuQkr2os6PcJ0F1AF39qNZ+P/Wz0+HY89OGad0araaeD8uCyLGRLM13dPgpn/IIzpWZBMp0GEdn8YBk0eq+0gqG/NxWfje/4E2mLi62gx8VVN9YRVjPpfLlqGErMWq94re7S8xmRCgxRxJ7RibV+RbMLaLpMiZ1y2NV9MWmwRyfJPyKxwQDZEY1nNVzjWBbAMaqEK5mpoInSbHDgiIY6+W/rs0zFreGvp6M7levBiO1PyHJjTTGpsJcxACQYULonHoBtddBJswBxYhw+bG9HSAJWJ3QoHH4zWJbvpFIvjhHHjBJqmFxxh9+GwjChGUGCjPl4LeW98iIOkj52sEKvdColjRE2L5LF8J6yl7e9vif9+adE+rF5hJRrv0UP5TWc4/qi1ZB/xBYF/vRJFH90rnX8G2rriKCLutNkH8lavwCgo2CvIRW/6Fkmg41c1OhW5BIa8UBg+OAOd5Rmu5nvusXN85tUu0AnG9IPA3uC/E2DYDWAuLbAbrZvDGIf1sOqhcYrAAN0UmLZK5JQFVLoCazEx2qDMA1Z3DVcMO0atSQYeqtIMmyjZkIx78oekbJ+F9B1eVOFlheGjit7QSbM9BPoK0Dg2J2FpQ44uiV1Uk8IF1/UO8TQYryqCZDE2jwStIQdtn7yKGH8WpMu31+ySSoj9gXVyCOb3XtK3xBl2ZNW/Zx+xYp2BA6WbDqNpgK2Fqxl2AQcB3dBCMSruA249hQWUvJMuRCFt9/Q+Gyqp8nFqv3RYUuzfv/9hr7Gq9NoPN5Ajkn7s5UyjT16tfvkWLynph3thSlFCvsURlqhoOtnzHGoln5lfjEz4BLPrfc4OAfdoQsoPlrXGPitU7yRgN3FPH6qPZahWuh+wwOjTgLRNJ4IhuwVkLhiyT0FQn9nzfIh0MvSIR5jxYhgtfxl0mw6ty7e2sO+m3+9jPROoBLbmEm/5gCqi/6Tw1dDPEWPReUnS6oo/vOnwQycs0e8u8V/376j7K3BPj/C8FrBCrjD5k8vba98KI/ZrX55DFRug0xafXzphoIiG6JEGzmoM5mI0tKfJ0LpDuhRCf5WEq+PoL6vxI/N9C4oNV0h4RXLf3wHewGLCl55ef1tN/NU16b9Zf/oPUEsDBAoAAAAAAINo21wAAAAAAAAAAAAAAAAIABwAcmVwb3J0cy9VVAkAA0bKP2obyz9qdXgLAAEEAAAAAAQAAAAAUEsDBAoAAAAAAIRo21wAAAAAAAAAAAAAAAANABwAaXNzdWUtYm9kaWVzL1VUCQADR8o/ahvLP2p1eAsAAQQAAAAABAAAAABQSwMEFAAAAAgAhGjbXMzum4MmAQAAIgIAACYAHABpc3N1ZS1ib2RpZXMvd2Vic2l0ZS1jb2RlLXBhcml0eS12My5tZFVUCQADR8o/aurKP2p1eAsAAQQAAAAABAAAAACVUT1Pw0AM3fMrLHVtqyI21g5sUJUKBsTgJE5j9XIXbF9L+fW4CSmIjfHeO78PezaD+4Th8QleqFQ2WqxTTbBBYTvD821R7FpWYNVMYILVQcFaAqH3zEIdRfM32gD2uQxcwWlU8j8dclTo0KqWaijPDvXJuSRn4K4Pwzwapwgoxg1WpsuiWLdUHQKr3RXFAl7hbQoHPe5JgT6cgybJb9cKeyw5XGJrFpei5ffw0KhLdQ7/n92Rmrqt6oRsvYI4hkKwp0iCRvVEbiSlBrY5wmp1420bEooV/bQb/a/JAnIHZcqxRjlfF3Zk5TJcMzwknzKSiAFcw7c1hxOGQDa/nCTqBPbiJatxndnaJPyJI5OVZNG4zV/C93DxjGSD9HE8hl9878JDsS9QSwECHgMKAAAAAACDaNtcAAAAAAAAAAAAAAAABAAYAAAAAAAAABAA7UEAAAAAc3JjL1VUBQADRso/anV4CwABBAAAAAAEAAAAAFBLAQIeAwoAAAAAAIxo21wAAAAAAAAAAAAAAAAVABgAAAAAAAAAEADtQT4AAABzcmMvZ29hbG9zX2FzY2Vuc2lvbi9VVAUAA1jKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACACEaNtcRrm2IHIFAAAIDgAAJQAYAAAAAAABAAAApIGNAAAAc3JjL2dvYWxvc19hc2NlbnNpb24vYWdlbnRfZm91bmRyeS5weVVUBQADR8o/anV4CwABBAAAAAAEAAAAAFBLAQIeAxQAAAAIAIRo21y3yZZ+4QMAAC0JAAAkABgAAAAAAAEAAACkgV4GAABzcmMvZ29hbG9zX2FzY2Vuc2lvbi9ub2RlX3J1bnRpbWUucHlVVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACACEaNtc0raXrEYEAACsCwAAIAAYAAAAAAABAAAApIGdCgAAc3JjL2dvYWxvc19hc2NlbnNpb24vYWdpX2pvYnMucHlVVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACACEaNtcT+NkQqAHAAD1GAAAJgAYAAAAAAABAAAApIE9DwAAc3JjL2dvYWxvc19hc2NlbnNpb24vd2Vic2l0ZV9wYXJpdHkucHlVVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACACMaNtcJFS9sP0BAAArBQAAIAAYAAAAAAABAAAApIE9FwAAc3JjL2dvYWxvc19hc2NlbnNpb24vX19pbml0X18ucHlVVAUAA1jKP2p1eAsAAQQAAAAABAAAAABQSwECHgMKAAAAAACEaNtcAAAAAAAAAAAAAAAACAAYAAAAAAAAABAA7UGUGQAAc2NyaXB0cy9VVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACADZaNtcfqOpeBkBAADHAQAAIQAYAAAAAAABAAAApIHWGQAAc2NyaXB0cy9ydW5fYWdlbnRfZm91bmRyeV9kZW1vLnB5VVQFAAPpyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DFAAAAAgA2WjbXBXMFS0TAQAAxAEAACAAGAAAAAAAAQAAAKSBShsAAHNjcmlwdHMvcnVuX25vZGVfdGhlYXRyZV9kZW1vLnB5VVQFAAPpyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DFAAAAAgA2WjbXPy5m8sGAQAAngEAABwAGAAAAAAAAQAAAKSBtxwAAHNjcmlwdHMvcnVuX2FnaV9qb2JzX2RlbW8ucHlVVAUAA+nKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACADZaNtcms/IRfwAAACWAQAAJQAYAAAAAAABAAAApIETHgAAc2NyaXB0cy9ydW5fd2Vic2l0ZV9jb2RlX3Bhcml0eV92My5weVVUBQAD6co/anV4CwABBAAAAAAEAAAAAFBLAQIeAwoAAAAAAIRo21wAAAAAAAAAAAAAAAAGABgAAAAAAAAAEADtQW4fAAB0ZXN0cy9VVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACADPaNtcgjqf0+YAAAB/AQAAGwAYAAAAAAABAAAApIGuHwAAdGVzdHMvdGVzdF9hZ2VudF9mb3VuZHJ5LnB5VVQFAAPVyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DFAAAAAgAz2jbXHaQwGz6AAAAnwEAABoAGAAAAAAAAQAAAKSB6SAAAHRlc3RzL3Rlc3Rfbm9kZV9ydW50aW1lLnB5VVQFAAPVyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DFAAAAAgAz2jbXJD84f3cAAAAkQEAABYAGAAAAAAAAQAAAKSBNyIAAHRlc3RzL3Rlc3RfYWdpX2pvYnMucHlVVAUAA9XKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACADPaNtc5uXGZ7kAAABdAQAAJAAYAAAAAAABAAAApIFjIwAAdGVzdHMvdGVzdF93ZWJzaXRlX2NvZGVfcGFyaXR5X3YzLnB5VVQFAAPVyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DCgAAAAAAg2jbXAAAAAAAAAAAAAAAAAUAGAAAAAAAAAAQAO1BeiQAAGRvY3MvVVQFAANGyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DCgAAAAAAhGjbXAAAAAAAAAAAAAAAABQAGAAAAAAAAAAQAO1BuSQAAGRvY3MvaW1wbGVtZW50YXRpb24vVVQFAANHyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DFAAAAAgAhGjbXKBZ0mShAgAA3QQAAC0AGAAAAAAAAQAAAKSBByUAAGRvY3MvaW1wbGVtZW50YXRpb24vV0VCU0lURV9DT0RFX1BBUklUWV9WMy5tZFVUBQADR8o/anV4CwABBAAAAAAEAAAAAFBLAQIeAwoAAAAAAIRo21wAAAAAAAAAAAAAAAAHABgAAAAAAAAAEADtQQ8oAABwdWJsaWMvVVQFAANHyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DFAAAAAgAhGjbXJ7ozQBDBQAAxAoAAB0AGAAAAAAAAQAAAKSBUCgAAHB1YmxpYy9jYXBhYmlsaXR5LXBhcml0eS5odG1sVVQFAANHyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DCgAAAAAAg2jbXAAAAAAAAAAAAAAAAAgAGAAAAAAAAAAQAO1B6i0AAHJlcG9ydHMvVVQFAANGyj9qdXgLAAEEAAAAAAQAAAAAUEsBAh4DCgAAAAAAhGjbXAAAAAAAAAAAAAAAAA0AGAAAAAAAAAAQAO1BLC4AAGlzc3VlLWJvZGllcy9VVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwECHgMUAAAACACEaNtczO6bgyYBAAAiAgAAJgAYAAAAAAABAAAApIFzLgAAaXNzdWUtYm9kaWVzL3dlYnNpdGUtY29kZS1wYXJpdHktdjMubWRVVAUAA0fKP2p1eAsAAQQAAAAABAAAAABQSwUGAAAAABkAGQBCCQAA+S8AAAAA"""
+          data = base64.b64decode(blob)
+          with zipfile.ZipFile(io.BytesIO(data)) as z:
+              z.extractall(".")
+          print("Installed GoalOS Website-Code Parity V3 pack.")
+          PY
+
+      - name: Patch README with parity section
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          readme = Path("README.md")
+          text = readme.read_text(encoding="utf-8") if readme.exists() else "# GoalOS AGIALPHA Ascension — Sovereign Machine Economy\n"
+          marker_start = "<!-- GOALOS_WEBSITE_CODE_PARITY_V3_START -->"
+          marker_end = "<!-- GOALOS_WEBSITE_CODE_PARITY_V3_END -->"
+          section = f"""\n{marker_start}\n\n## Website-Code Parity V3\n\nThe public website now has repository-backed implementation parity for the current public-alpha capability surface.\n\nEvery major website claim is mapped to code, tests, scripts, reports, Evidence Dockets, or issue bodies:\n\n- META-Agentic Institution Foundry → `src/goalos_ascension/agent_foundry.py`\n- AGI Alpha Node Theatre → `src/goalos_ascension/node_runtime.py`\n- AGI Jobs v0/v2 Work OS → `src/goalos_ascension/agi_jobs.py`\n- Mission OS / Proof Console → `src/goalos_ascension/mission_os.py` and `src/goalos_ascension/kernel.py`\n- Frontier Release Room → `src/goalos_ascension/frontier_release.py`\n- Multi-Agent Institution → `src/goalos_ascension/coordination.py`\n- Proof Run 001 → `src/goalos_ascension/proof_run.py`\n- Website-code parity audit → `src/goalos_ascension/website_parity.py`\n\nOpen the parity report:\n\n```text\nreports/website-code-parity-v3.json\n```\n\nOpen the public page:\n\n```text\nhttps://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capability-parity.html\n```\n\nBoundary: local public-alpha reference implementation only. No wallet, no transaction, no production activation, no user-fund authorization, no mainnet activation, no achieved AGI/ASI claim. Human review remains required.\n\n{marker_end}\n"""
+          if marker_start in text and marker_end in text:
+              before = text.split(marker_start)[0]
+              after = text.split(marker_end, 1)[1]
+              text = before + section + after
+          else:
+              lines = text.splitlines()
+              insert_at = 1 if lines and lines[0].startswith("#") else 0
+              lines.insert(insert_at, section)
+              text = "\n".join(lines) + "\n"
+          readme.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Run implementation demos, tests, and parity audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pytest -q
+          python scripts/run_agent_foundry_demo.py
+          python scripts/run_node_theatre_demo.py
+          python scripts/run_agi_jobs_demo.py
+          python scripts/run_proof_run_001.py
+          python scripts/run_website_code_parity_v3.py
+          python - <<'PY'
+          from pathlib import Path
+          import json, datetime
+          Path("reports").mkdir(exist_ok=True)
+          install = {
+            "status": "installed_and_validated",
+            "generated_at": datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z",
+            "workflow": "goalos-website-code-parity-v3-autopilot",
+            "tests": "pytest passed before this report was written",
+            "boundary": {
+              "production_authority": False,
+              "external_actions_authorized": False,
+              "wallet_or_mainnet": False,
+              "human_review_required": True
+            }
+          }
+          Path("reports/website-code-parity-v3-install-report.json").write_text(json.dumps(install, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit parity implementation
+        if: ${{ inputs.commit_changes == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md \
+            src/goalos_ascension/agent_foundry.py \
+            src/goalos_ascension/agi_jobs.py \
+            src/goalos_ascension/node_runtime.py \
+            src/goalos_ascension/website_parity.py \
+            src/goalos_ascension/__init__.py \
+            scripts/run_agent_foundry_demo.py \
+            scripts/run_node_theatre_demo.py \
+            scripts/run_agi_jobs_demo.py \
+            scripts/run_website_code_parity_v3.py \
+            tests/test_agent_foundry.py \
+            tests/test_node_runtime.py \
+            tests/test_agi_jobs.py \
+            tests/test_website_code_parity_v3.py \
+            docs/implementation/WEBSITE_CODE_PARITY_V3.md \
+            public/capability-parity.html \
+            reports/meta-agentic-foundry-demo.json \
+            reports/agi-alpha-node-theatre-demo.json \
+            reports/agi-jobs-ledger-demo.json \
+            reports/website-code-parity-v3.json \
+            reports/website-code-parity-v3-install-report.json \
+            reports/proof-run-001-reference-report.json \
+            evidence/proof-run-001/proof-run-001-docket.json \
+            evidence/proof-run-001/proof-run-001-report.json \
+            issue-bodies/website-code-parity-v3.md
+          if git diff --cached --quiet; then
+            echo "No parity changes to commit."
+          else
+            git commit -m "Add GoalOS Website-Code Parity V3 implementation"
+            git push
+          fi
+
+      - name: Create parity tracking issue
+        if: ${{ inputs.create_tracking_issue == 'true' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'Website-Code Parity V3 — repository implementation matches public website';
+            const body = [
+              '## Goal',
+              'Keep the public website capability surface matched by repository code, tests, reports, scripts, and Evidence Dockets.',
+              '',
+              '## Review checklist',
+              '- [ ] Inspect `reports/website-code-parity-v3.json`',
+              '- [ ] Confirm `public/capability-parity.html` loads',
+              '- [ ] Review `src/goalos_ascension/agent_foundry.py`',
+              '- [ ] Review `src/goalos_ascension/node_runtime.py`',
+              '- [ ] Review `src/goalos_ascension/agi_jobs.py`',
+              '- [ ] Confirm tests passed in the workflow',
+              '- [ ] Confirm no wallet, transaction, mainnet, production, or user-fund authority is granted',
+              '',
+              'This issue was created automatically by the GoalOS Website-Code Parity V3 workflow.'
+            ].join('\n');
+            const existing = await github.rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, state: 'open', per_page: 100 });
+            if (!existing.data.some(issue => issue.title === title)) {
+              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
+            }
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Release already exists: $RELEASE_TAG"
+          else
+            cat > /tmp/release_notes.md <<'EOF'
+          GoalOS Website-Code Parity V3
+
+          This release adds repository-backed implementation parity for the public website capability surface.
+
+          Highlights:
+          - META-Agentic Institution Foundry reference implementation
+          - AGI Alpha Node Theatre reference implementation
+          - AGI Jobs v0/v2 lifecycle reference implementation
+          - Website-code parity audit
+          - Expanded tests and executable scripts
+          - Proof Run 001 reference artifact refresh
+          - Capability parity public page
+
+          Boundary: public-alpha local reference implementation only. No wallet, no transaction, no production authorization, no user-fund authorization, no mainnet activation, and no achieved AGI/ASI claim.
+          EOF
+            gh release create "$RELEASE_TAG" --title "GoalOS Website-Code Parity V3" --notes-file /tmp/release_notes.md
+          fi
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages == 'true' }}
+        uses: actions/deploy-pages@v4
