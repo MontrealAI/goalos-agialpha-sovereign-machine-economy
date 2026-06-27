@@ -1,47 +1,122 @@
 [
   {
-    "title": "Home",
-    "url": "index.html",
-    "description": "Home"
+    "title": "Agi Alpha Node V0",
+    "url": "agi-alpha-node-v0.html"
   },
   {
-    "title": "Proof Console",
-    "url": "console.html",
-    "description": "Proof Console"
+    "title": "Agi Alpha Thesis",
+    "url": "agi-alpha-thesis.html"
+  },
+  {
+    "title": "Agi Jobs V0 V2",
+    "url": "agi-jobs-v0-v2.html"
+  },
+  {
+    "title": "Agialpha Control Rail",
+    "url": "agialpha-control-rail.html"
+  },
+  {
+    "title": "Console",
+    "url": "console.html"
+  },
+  {
+    "title": "Coordination Console",
+    "url": "coordination-console.html"
+  },
+  {
+    "title": "Document Series",
+    "url": "document-series.html"
+  },
+  {
+    "title": "Evaluation Program",
+    "url": "evaluation-program.html"
+  },
+  {
+    "title": "Falsification Box",
+    "url": "falsification-box.html"
+  },
+  {
+    "title": "Frontier Release Case Study",
+    "url": "frontier-release-case-study.html"
+  },
+  {
+    "title": "Frontier Release Doctrine",
+    "url": "frontier-release-doctrine.html"
   },
   {
     "title": "Frontier Release Room",
-    "url": "frontier-release-room.html",
-    "description": "Frontier Release Room"
+    "url": "frontier-release-room.html"
   },
   {
-    "title": "Case Study",
-    "url": "frontier-release-case-study.html",
-    "description": "Case Study"
+    "title": "Historical Command Center",
+    "url": "historical-command-center.html"
   },
   {
-    "title": "Architecture",
-    "url": "architecture.html",
-    "description": "Architecture"
+    "title": "Holy Grail Candidate",
+    "url": "holy-grail-candidate.html"
   },
   {
-    "title": "Evidence",
-    "url": "evidence.html",
-    "description": "Evidence"
+    "title": "Index",
+    "url": "index.html"
   },
   {
-    "title": "Trust Center",
-    "url": "trust.html",
-    "description": "Trust Center"
-  },
-  {
-    "title": "Product",
-    "url": "product.html",
-    "description": "Product"
+    "title": "Launch Narrative",
+    "url": "launch-narrative.html"
   },
   {
     "title": "Launch",
-    "url": "launch.html",
-    "description": "Launch"
+    "url": "launch.html"
+  },
+  {
+    "title": "Meta Agentic Alpha Agi",
+    "url": "meta-agentic-alpha-agi.html"
+  },
+  {
+    "title": "Mission Os Canon",
+    "url": "mission-os-canon.html"
+  },
+  {
+    "title": "Multi Agent Institution",
+    "url": "multi-agent-institution.html"
+  },
+  {
+    "title": "Paper To Product",
+    "url": "paper-to-product.html"
+  },
+  {
+    "title": "Product",
+    "url": "product.html"
+  },
+  {
+    "title": "Proof Metrics Dashboard",
+    "url": "proof-metrics-dashboard.html"
+  },
+  {
+    "title": "Proof Mission Slots",
+    "url": "proof-mission-slots.html"
+  },
+  {
+    "title": "Proof Of Evolution",
+    "url": "proof-of-evolution.html"
+  },
+  {
+    "title": "Proof Run 001",
+    "url": "proof-run-001.html"
+  },
+  {
+    "title": "Research Spine",
+    "url": "research-spine.html"
+  },
+  {
+    "title": "Reviewer Path",
+    "url": "reviewer-path.html"
+  },
+  {
+    "title": "Trust",
+    "url": "trust.html"
+  },
+  {
+    "title": "Validator Seats",
+    "url": "validator-seats.html"
   }
 ]

@@ -161,3 +161,15 @@ This repository now exposes the unified GoalOS stack:
 Boundary: public-alpha proof architecture. Not achieved AGI, ASI, empirical SOTA, production authorization, legal approval, user-fund authorization, mainnet activation, or guaranteed outcome.
 
 <!-- GOALOS-HISTORICAL-MASTER-END -->
+
+<!-- GOALOS-LATEST-WEBSITE:START -->
+
+## GoalOS Latest Website Update
+
+The live website has been refreshed to the latest public-alpha stack: Historical Command Center, Frontier Release Room, Proof Console, META-Agentic α-AGI, AGI Alpha Node, AGI Jobs, Research Spine, Document Series, Launch Narrative, Validator Seats, Proof Mission Slots, Proof Metrics Dashboard, and Falsification Box.
+
+**Operating law:** AI creates output. GoalOS creates proof.
+
+**Boundary:** public-alpha proof architecture; no achieved AGI/ASI claim, no production authorization, no legal approval, no user-fund authorization, no mainnet activation, and no guaranteed outcomes.
+
+<!-- GOALOS-LATEST-WEBSITE:END -->
