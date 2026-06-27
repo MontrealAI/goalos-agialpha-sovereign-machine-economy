@@ -1,0 +1,22 @@
+name: Replay report
+description: Report whether you could reproduce an artifact or proof run
+title: "Replay Report: "
+labels: ["replay", "validation"]
+body:
+  - type: textarea
+    id: command
+    attributes:
+      label: Commands run
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options: [reproduced, partially reproduced, failed]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

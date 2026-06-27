@@ -1,0 +1,22 @@
+name: Validator review
+description: Review an Evidence Docket or claim boundary
+title: "Validator Review: "
+labels: ["validator-review", "evidence"]
+body:
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options: [accept, reject, revise]
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence reviewed
+    validations:
+      required: true
+  - type: textarea
+    id: issues
+    attributes:
+      label: Unsupported claims or risks

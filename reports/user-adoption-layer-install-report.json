@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-27T15:48:55Z",
+  "installed_pages": [
+    "start-here.html",
+    "try-goalos.html",
+    "evidence-room.html",
+    "proof-run-001-live.html",
+    "validator-room.html",
+    "proof-mission-slots.html",
+    "proof-metrics-dashboard.html",
+    "what-goalos-does.html",
+    "glossary.html",
+    "run-locally.html",
+    "reviewer-path.html",
+    "falsification-box.html"
+  ],
+  "readme_patched": true,
+  "index_patched": true
+}

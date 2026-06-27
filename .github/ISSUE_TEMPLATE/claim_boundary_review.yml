@@ -1,0 +1,15 @@
+name: Claim-boundary review
+description: Flag unsupported or risky public claims
+title: "Claim Boundary Review: "
+labels: ["claim-boundary", "trust"]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim or wording to review
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommended change

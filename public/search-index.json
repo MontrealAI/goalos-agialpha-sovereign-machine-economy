@@ -1,122 +1,62 @@
 [
   {
-    "title": "Agi Alpha Node V0",
-    "url": "agi-alpha-node-v0.html"
+    "title": "Start Here",
+    "url": "start-here.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Agi Alpha Thesis",
-    "url": "agi-alpha-thesis.html"
+    "title": "Try Goalos",
+    "url": "try-goalos.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Agi Jobs V0 V2",
-    "url": "agi-jobs-v0-v2.html"
+    "title": "Evidence Room",
+    "url": "evidence-room.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Agialpha Control Rail",
-    "url": "agialpha-control-rail.html"
+    "title": "Proof Run 001 Live",
+    "url": "proof-run-001-live.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Console",
-    "url": "console.html"
-  },
-  {
-    "title": "Coordination Console",
-    "url": "coordination-console.html"
-  },
-  {
-    "title": "Document Series",
-    "url": "document-series.html"
-  },
-  {
-    "title": "Evaluation Program",
-    "url": "evaluation-program.html"
-  },
-  {
-    "title": "Falsification Box",
-    "url": "falsification-box.html"
-  },
-  {
-    "title": "Frontier Release Case Study",
-    "url": "frontier-release-case-study.html"
-  },
-  {
-    "title": "Frontier Release Doctrine",
-    "url": "frontier-release-doctrine.html"
-  },
-  {
-    "title": "Frontier Release Room",
-    "url": "frontier-release-room.html"
-  },
-  {
-    "title": "Historical Command Center",
-    "url": "historical-command-center.html"
-  },
-  {
-    "title": "Holy Grail Candidate",
-    "url": "holy-grail-candidate.html"
-  },
-  {
-    "title": "Index",
-    "url": "index.html"
-  },
-  {
-    "title": "Launch Narrative",
-    "url": "launch-narrative.html"
-  },
-  {
-    "title": "Launch",
-    "url": "launch.html"
-  },
-  {
-    "title": "Meta Agentic Alpha Agi",
-    "url": "meta-agentic-alpha-agi.html"
-  },
-  {
-    "title": "Mission Os Canon",
-    "url": "mission-os-canon.html"
-  },
-  {
-    "title": "Multi Agent Institution",
-    "url": "multi-agent-institution.html"
-  },
-  {
-    "title": "Paper To Product",
-    "url": "paper-to-product.html"
-  },
-  {
-    "title": "Product",
-    "url": "product.html"
-  },
-  {
-    "title": "Proof Metrics Dashboard",
-    "url": "proof-metrics-dashboard.html"
+    "title": "Validator Room",
+    "url": "validator-room.html",
+    "category": "User Adoption"
   },
   {
     "title": "Proof Mission Slots",
-    "url": "proof-mission-slots.html"
+    "url": "proof-mission-slots.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Proof Of Evolution",
-    "url": "proof-of-evolution.html"
+    "title": "Proof Metrics Dashboard",
+    "url": "proof-metrics-dashboard.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Proof Run 001",
-    "url": "proof-run-001.html"
+    "title": "What Goalos Does",
+    "url": "what-goalos-does.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Research Spine",
-    "url": "research-spine.html"
+    "title": "Glossary",
+    "url": "glossary.html",
+    "category": "User Adoption"
+  },
+  {
+    "title": "Run Locally",
+    "url": "run-locally.html",
+    "category": "User Adoption"
   },
   {
     "title": "Reviewer Path",
-    "url": "reviewer-path.html"
+    "url": "reviewer-path.html",
+    "category": "User Adoption"
   },
   {
-    "title": "Trust",
-    "url": "trust.html"
-  },
-  {
-    "title": "Validator Seats",
-    "url": "validator-seats.html"
+    "title": "Falsification Box",
+    "url": "falsification-box.html",
+    "category": "User Adoption"
   }
 ]

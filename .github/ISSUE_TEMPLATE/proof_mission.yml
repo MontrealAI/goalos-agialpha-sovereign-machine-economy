@@ -1,0 +1,22 @@
+name: Proof mission
+description: Propose a bounded proof mission for GoalOS
+title: "Proof Mission: "
+labels: ["proof-mission", "user-adoption"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What decision should this mission support?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence available
+      description: What public-safe sources or artifacts can be used?
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk class
+      options: [public-safe, consequential, high-consequence]

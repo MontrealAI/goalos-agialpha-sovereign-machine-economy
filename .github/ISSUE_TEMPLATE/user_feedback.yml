@@ -1,0 +1,12 @@
+name: User feedback
+description: Suggest a usability improvement
+title: "User Feedback: "
+labels: ["user-feedback", "usability"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What was confusing or helpful?
+    validations:
+      required: true

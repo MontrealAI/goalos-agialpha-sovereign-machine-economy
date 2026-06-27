@@ -1,5 +1,26 @@
 
 
+<!-- GOALOS_USER_ADOPTION_LAYER_START -->
+## User Adoption Layer
+
+GoalOS is now organized for visitors, reviewers, validators, pilot partners, and developers.
+
+Start here:
+
+- [Start Here](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/start-here.html)
+- [Try GoalOS](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/try-goalos.html)
+- [Evidence Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evidence-room.html)
+- [Proof Run 001 Live](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-live.html)
+- [Validator Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/validator-room.html)
+- [Proof Mission Slots](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-slots.html)
+- [Run Locally](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/run-locally.html)
+- [Falsification Box](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/falsification-box.html)
+
+For reviewers: inspect the Evidence Room, run the local parity audit, then file a validator, replay, or claim-boundary issue.
+<!-- GOALOS_USER_ADOPTION_LAYER_END -->
+
+
+
 <!-- GOALOS_WEBSITE_CODE_PARITY_V3_START -->
 
 ## Website-Code Parity V3
