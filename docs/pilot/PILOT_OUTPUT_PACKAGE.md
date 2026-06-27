@@ -1,3 +1,3 @@
 # Pilot Output Package
 
-Each pilot should return: executive brief, Evidence Docket, verifier report, risk ledger, governed decision state, action graph, Chronicle entry, capability package, and claim boundary.
+Mission Contract, Claims Matrix, Evidence Docket, Verifier Report, Risk Ledger, Governed Decision State, Action Graph, Chronicle Entry, Capability Package.

@@ -1,0 +1,32 @@
+name: Public-safe proof mission
+description: Propose a public-safe proof mission.
+title: "[Proof mission]: "
+labels: ["proof-mission", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use public-safe descriptions only. Private or regulated work requires a separate written agreement.
+  - type: textarea
+    id: objective
+    attributes:
+      label: Public-safe objective
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision this mission should support
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Allowed public sources
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm this issue does not include personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true

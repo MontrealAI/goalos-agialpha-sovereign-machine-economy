@@ -1,5 +1,9 @@
 # Simple Validator Report
 
-Verdict: revise.
+Recommendation: accept / reject / revise
 
-Reason: replay instructions are present but external reviewer has not run them yet.
+Evidence checked:
+Unsupported claims:
+Replay result:
+Risk notes:
+Boundary notes:

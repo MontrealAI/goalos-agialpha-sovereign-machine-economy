@@ -138,5 +138,45 @@
     "title": "Demo Safety",
     "url": "demo-safety.html",
     "category": "Autonomous Demos V4"
+  },
+  {
+    "title": "For New Users",
+    "url": "for-new-users.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "For Reviewers",
+    "url": "for-reviewers.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "No Data No Funds",
+    "url": "no-data-no-funds.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "Help Center",
+    "url": "help-center.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "Operator Checklist",
+    "url": "operator-checklist.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "Faq",
+    "url": "faq.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "Quick Tour",
+    "url": "quick-tour.html",
+    "category": "User Adoption V3"
+  },
+  {
+    "title": "Site Map",
+    "url": "site-map.html",
+    "category": "User Adoption V3"
   }
 ]

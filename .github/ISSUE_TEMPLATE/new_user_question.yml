@@ -1,0 +1,23 @@
+name: New user question
+description: Ask a public-safe question without sharing private data.
+title: "[New user question]: "
+labels: ["user-friendly", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public-safe questions only. Do not include personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask using public-safe information only.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, funds, private keys, seed phrases, or trade secrets.
+          required: true

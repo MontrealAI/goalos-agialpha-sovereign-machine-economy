@@ -1,0 +1,25 @@
+name: Reviewer feedback
+description: File accept / reject / revise feedback on a public artifact.
+title: "[Reviewer feedback]: "
+labels: ["review", "evidence"]
+body:
+  - type: dropdown
+    id: recommendation
+    attributes:
+      label: Recommendation
+      options: ["accept", "reject", "revise"]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Public-safe review notes
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm I am not submitting private, personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true

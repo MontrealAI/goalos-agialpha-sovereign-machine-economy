@@ -1,5 +1,10 @@
 # How to Review an Evidence Docket
 
-Check: manifest, claims matrix, environment, baselines, proof packets, evaluator notes, selection certificate, cost ledger, risk ledger, replay path, public/private boundary, and claim boundary.
+1. Read the claim boundary.
+2. Check the claims matrix.
+3. Inspect evidence and baselines.
+4. Check replay instructions.
+5. Check cost/risk ledger.
+6. File accept, reject, or revise.
 
-Mark unsupported claims explicitly.
+Do not submit private data or secrets in public review.
