@@ -1211,3 +1211,7 @@ The public demo at `public/capability-compounding-lab.html` shows how a GoalOS p
 
 <!-- GOALOS_CAPABILITY_COMPOUNDING_LAB_V2_END -->
 
+## Sovereign Experience Stream Lab V1
+
+**Proof becomes governed experience.** The public demo at [`/sovereign-experience-stream-lab.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/sovereign-experience-stream-lab.html) shows how a proof run becomes a replayable, reward-governed experience stream for memory, router updates, temporal options, and safer future missions. Browser-local only: no user data, no user funds, no wallet, no transaction, no network call, human review required.
+

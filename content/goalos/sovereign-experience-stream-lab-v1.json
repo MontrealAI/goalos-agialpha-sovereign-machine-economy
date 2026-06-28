@@ -1,0 +1,18 @@
+{
+  "name": "GoalOS Sovereign Experience Stream Lab V1",
+  "page": "public/sovereign-experience-stream-lab.html",
+  "public_thesis": "Proof becomes governed experience.",
+  "files": [
+    "public/sovereign-experience-stream-lab.html",
+    "public/assets/goalos-experience-stream-lab-v1.css",
+    "public/assets/goalos-experience-stream-lab-v1.js"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

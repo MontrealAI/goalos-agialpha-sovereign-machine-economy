@@ -1,0 +1,21 @@
+name: Sovereign Experience Stream Lab feedback
+description: Review the browser-local GoalOS Sovereign Experience Stream Lab.
+title: "[Experience Lab] "
+labels: [demo, review, user-feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the Sovereign Experience Stream Lab. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, or trade-secret data.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting user data, confidential data, wallet data, funds, credentials, or private keys.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked, what was confusing, what should improve?

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Sovereign Experience Stream Lab — Proof Becomes Governed Experience</title>
+  <meta name="description" content="Browser-local GoalOS demo: proof becomes governed experience for memory, reward ledgers, world models, temporal options, and router updates." />
+  <link rel="stylesheet" href="assets/goalos-experience-stream-lab-v1.css" />
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home"><span class="mark">α</span><span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span></a>
+    <nav>
+      <a href="start-here.html">Start</a>
+      <a href="multi-agent-institution.html">Institution</a>
+      <a href="proof-gradient-lab.html">Proof Gradient</a>
+      <a href="evidence-docket-theatre.html">Docket Theatre</a>
+      <a href="proof-to-action-command-room.html">Proof → Action</a>
+      <a href="capability-compounding-lab.html">Compounding</a>
+      <a class="active" href="sovereign-experience-stream-lab.html">Experience Stream</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="heroText">
+        <p class="eyebrow"><span></span>PUBLIC DEMO / BROWSER-LOCAL / NO DATA</p>
+        <h1>Proof becomes<br><em>governed</em><br><i>experience.</i></h1>
+        <p class="lead">A single proof run is useful. A sovereign experience stream is how an institution learns. Watch accepted work become memory, reward governance, router updates, temporal options, and safer future missions.</p>
+        <div class="actions">
+          <button id="runBtn" class="primary">Run experience cycle</button>
+          <button id="stressBtn">Stress reward hacking</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <div class="boundary"><strong>Default deny:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</div>
+      </div>
+      <aside class="heroVisual" aria-label="Sovereign experience control plane visual">
+        <div class="modeSwitch"><button id="execMode" class="selected">Executive</button><button id="techMode">Technical</button></div>
+        <svg id="controlPlane" viewBox="0 0 760 520" role="img" aria-label="Sovereign experience stream control plane">
+          <defs>
+            <radialGradient id="coreGlow" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#fff38c"/><stop offset=".45" stop-color="#64f8dc"/><stop offset="1" stop-color="#9e8cff"/></radialGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect width="760" height="520" rx="28" fill="rgba(255,255,255,.02)"/>
+          <g class="fallback">
+            <circle cx="380" cy="250" r="70" fill="url(#coreGlow)" opacity=".95" filter="url(#glow)"/>
+            <text x="380" y="260" text-anchor="middle" fill="#06101a" font-size="48" font-weight="900">α</text>
+            <text x="380" y="325" text-anchor="middle" fill="#e9f0ff" font-size="15" font-weight="800" letter-spacing="3">SOVEREIGN EXPERIENCE STREAM</text>
+            <g fill="none" stroke="rgba(100,248,220,.55)" stroke-width="2" stroke-dasharray="8 10">
+              <path d="M120 155 C220 60 540 60 640 155"/>
+              <path d="M120 345 C220 455 540 455 640 345"/>
+              <path d="M95 260 C180 140 580 140 665 260"/>
+            </g>
+            <g fill="rgba(8,16,32,.95)" stroke="#64f8dc" stroke-width="2">
+              <circle cx="130" cy="155" r="38"/><circle cx="245" cy="105" r="38"/><circle cx="515" cy="105" r="38"/><circle cx="630" cy="155" r="38"/>
+              <circle cx="130" cy="345" r="38"/><circle cx="245" cy="405" r="38"/><circle cx="515" cy="405" r="38"/><circle cx="630" cy="345" r="38"/>
+            </g>
+            <g fill="#fff" font-size="15" font-weight="900" text-anchor="middle"><text x="130" y="160">JOB</text><text x="245" y="110">ACT</text><text x="515" y="110">OBS</text><text x="630" y="160">VAL</text><text x="130" y="350">RISK</text><text x="245" y="410">REPLAY</text><text x="515" y="410">REWARD</text><text x="630" y="350">ROUTER</text></g>
+          </g>
+        </svg>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="experience metrics">
+      <div><strong id="integrity">52</strong><span>experience integrity</span></div>
+      <div><strong id="events">0</strong><span>replayable events</span></div>
+      <div><strong id="rewardRisk">44</strong><span>reward-hacking risk</span></div>
+      <div><strong id="policyState">blocked</strong><span>router update</span></div>
+      <div><strong id="optionState">L1</strong><span>option maturity</span></div>
+    </section>
+
+    <section class="labGrid">
+      <aside class="panel controls">
+        <h2><span>01</span> Compose the experience</h2>
+        <label>Mission preset</label>
+        <select id="scenario">
+          <option value="repo">Repository launch readiness</option>
+          <option value="frontier">Frontier release governance</option>
+          <option value="institution">Multi-agent institution review</option>
+          <option value="science">Scientific discovery triage</option>
+          <option value="pilot">Proof mission pilot readiness</option>
+        </select>
+        <label>Experience controls</label>
+        <div class="toggles" id="toggles"></div>
+        <label>Learning permeability</label>
+        <input type="range" id="permeability" min="0" max="100" value="42" />
+        <label>Validator pressure</label>
+        <input type="range" id="validator" min="0" max="100" value="78" />
+        <p class="plain"><strong>Plain English:</strong> not every accepted output can train the institution. Experience must be replayable, safe, provenance-preserving, and reviewed before it can influence future routing.</p>
+      </aside>
+
+      <section class="panel theatre">
+        <h2><span>02</span> Experience stream theatre</h2>
+        <div class="gateRail" id="gateRail"></div>
+        <div class="streamBox">
+          <div class="laneTitle">Atomic event</div>
+          <pre id="eventTuple">eₜ = (state, action, observation, reward, validator, cost, risk, memory)</pre>
+          <div class="pipeline" id="pipeline"></div>
+        </div>
+        <div class="chronicle" id="chronicle" aria-live="polite"><p class="good">Ready. Browser-local experience control plane initialized.</p></div>
+      </section>
+
+      <aside class="panel decision">
+        <h2><span>03</span> Decision chamber</h2>
+        <div class="ring" id="ring"><strong id="score">52</strong><span>integrity</span></div>
+        <div class="state" id="decisionState">HOLD_NO_REPLAYED_EXPERIENCE</div>
+        <div class="rows">
+          <p><span>Policy update</span><strong id="policyLabel">blocked</strong></p>
+          <p><span>Critical violations</span><strong id="critical">0</strong></p>
+          <p><span>External actions</span><strong>0</strong></p>
+          <p><span>Network calls</span><strong>0</strong></p>
+        </div>
+        <button id="docketBtn" class="primary wide">Download experience docket</button>
+        <button id="rewardBtn" class="wide">Download reward ledger</button>
+        <button id="routerBtn" class="wide">Download router update proposal</button>
+        <button id="optionBtn" class="wide">Download temporal option card</button>
+        <button id="briefBtn" class="wide">Download review brief</button>
+      </aside>
+    </section>
+
+    <section class="explainer">
+      <article><h3>Why this matters</h3><p>A proof run proves what happened once. A sovereign experience stream preserves what happened across runs so future routing, reward governance, world models, temporal options, and safety policies can improve without silently learning from poisoned or unverifiable traces.</p></article>
+      <article><h3>Validator ≠ reward</h3><p>A validator can accept a run today. A grounded reward tracks consequences over time: cost, safety, reproducibility, delayed outcome, and usefulness. GoalOS separates acceptance from learning.</p></article>
+      <article><h3>Learning is gated</h3><p>The router update remains blocked until provenance, replay, reward ledger, risk ledger, quarantine, and human boundary gates pass. Score is advisory. Gates are mandatory.</p></article>
+    </section>
+  </main>
+
+  <script src="assets/goalos-experience-stream-lab-v1.js"></script>
+</body>
+</html>

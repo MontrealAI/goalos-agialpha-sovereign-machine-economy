@@ -212,5 +212,10 @@
     "title": "Capability Compounding Lab V2",
     "url": "capability-compounding-lab.html",
     "description": "Verified work becomes reusable capability."
+  },
+  {
+    "title": "Sovereign Experience Stream Lab",
+    "url": "sovereign-experience-stream-lab.html",
+    "description": "Proof becomes governed experience: browser-local GoalOS demo for experience streams, reward ledgers, router updates, temporal options, and human review."
   }
 ]
