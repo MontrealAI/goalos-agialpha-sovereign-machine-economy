@@ -1,0 +1,40 @@
+{
+  "schema": "goalos.proof_to_action_command_room.v1",
+  "generated_at": "2026-06-28T15:37:46Z",
+  "browser_local_reference": true,
+  "mission": "Repository launch readiness",
+  "loop": [
+    "Objective",
+    "Mission Contract",
+    "Claims Matrix",
+    "Autonomous Work",
+    "Verification",
+    "Evidence Docket",
+    "Governed Decision State",
+    "Action Graph",
+    "Chronicle",
+    "Capability Package"
+  ],
+  "governed_decision_state": {
+    "state": "HUMAN_REVIEW_READY_ACTION_GRAPH_READY",
+    "claim_boundary": "public-alpha reference demo only",
+    "authority": "human review required",
+    "external_actions": 0
+  },
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "artifacts": [
+    "Evidence Docket JSON",
+    "Action Graph JSON",
+    "Chronicle Entry JSON",
+    "Capability Package JSON",
+    "Executive Brief Markdown"
+  ],
+  "digest": "sha256:175da4d60dfdee6198d13978943474d65d0f5a0b531831414126103aa1bb6d9a"
+}

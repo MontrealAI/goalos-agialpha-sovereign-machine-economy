@@ -1,0 +1,23 @@
+name: Proof-to-Action Command Room Feedback
+description: Review the browser-local Proof-to-Action Command Room demo.
+title: "Proof-to-Action feedback: "
+labels: ["proof-to-action", "review", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the Proof-to-Action Command Room. Do not submit personal data, customer data, confidential data, credentials, private keys, wallet data, funds, regulated data, or trade secrets.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked, what failed, what was unclear, or what should be improved?
+    validations:
+      required: true

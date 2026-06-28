@@ -193,5 +193,19 @@
     "title": "Evidence Docket Theatre",
     "url": "evidence-docket-theatre.html",
     "description": "A browser-local proof room that turns public-safe claims into review-ready Evidence Dockets."
+  },
+  {
+    "title": "Proof-to-Action Command Room",
+    "url": "proof-to-action-command-room.html",
+    "description": "Browser-local GoalOS demo: Objective to Evidence Docket to Governed Decision State to Action Graph to Chronicle to Capability Package.",
+    "tags": [
+      "goalos",
+      "mission-os",
+      "governed-decision-state",
+      "evidence-docket",
+      "action-graph",
+      "chronicle",
+      "capability-package"
+    ]
   }
 ]

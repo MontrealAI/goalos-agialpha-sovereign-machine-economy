@@ -1171,3 +1171,19 @@ GoalOS now includes a browser-local Evidence Docket Theatre at [`/evidence-docke
 
 Boundary: no user data, no user funds, no wallet, no transaction, no external action, and human review remains required.
 
+
+
+<!-- GOALOS_PROOF_TO_ACTION_COMMAND_ROOM_V1_README_START -->
+## Proof-to-Action Command Room
+
+The repository now includes a browser-local **Proof-to-Action Command Room**:
+
+- Website: `public/proof-to-action-command-room.html`
+- Live page: `/proof-to-action-command-room.html`
+- Demo report: `reports/proof-to-action-command-room-v1-demo-run.json`
+- QA report: `reports/proof-to-action-command-room-v1-qa.json`
+
+This page demonstrates the Mission OS loop: Objective → Mission Contract → Evidence Docket → Governed Decision State → Action Graph → Chronicle → Capability Package.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, and human review required.
+<!-- GOALOS_PROOF_TO_ACTION_COMMAND_ROOM_V1_README_END -->
