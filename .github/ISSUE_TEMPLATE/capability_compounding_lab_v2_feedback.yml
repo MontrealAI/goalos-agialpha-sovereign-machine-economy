@@ -1,0 +1,23 @@
+name: Capability Compounding Lab V2 feedback
+description: Public-safe feedback on the browser-local Capability Compounding Lab V2 demo.
+title: "[Capability Compounding Lab V2] "
+labels: ["demo", "capability-compounding", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the Capability Compounding Lab V2. Do not submit personal data, customer data, confidential data, credentials, wallet information, private keys, seed phrases, trade secrets, or funds.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What should improve?
+      description: Public-safe feedback only.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, health, children’s, privileged, trade-secret, or proprietary data.
+          required: true

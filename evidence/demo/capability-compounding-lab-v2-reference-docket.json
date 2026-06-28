@@ -1,0 +1,23 @@
+{
+  "schema": "goalos.capability_compounding_lab.v2.reference_docket",
+  "generated_at": "2026-06-28T00:00:00Z",
+  "claim": "Verified work becomes reusable capability.",
+  "loop": [
+    "Mission",
+    "Work",
+    "Proof",
+    "Validation",
+    "Chronicle",
+    "Capability",
+    "Harder Mission"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "status": "reference_demo"
+}

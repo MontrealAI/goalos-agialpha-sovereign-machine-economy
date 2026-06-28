@@ -1202,3 +1202,11 @@ Open: [`capability-compounding-lab.html`](https://montrealai.github.io/goalos-ag
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 
+<!-- GOALOS_CAPABILITY_COMPOUNDING_LAB_V2_START -->
+## Capability Compounding Lab V2
+
+**Verified work becomes reusable capability.**
+
+The public demo at `public/capability-compounding-lab.html` shows how a GoalOS proof cycle becomes Chronicle memory, a reusable Capability Package, and a safer harder-mission path. It is browser-local: no user data, no user funds, no wallet, no transaction, no network call, no production authority, and human review required.
+
+<!-- GOALOS_CAPABILITY_COMPOUNDING_LAB_V2_END -->

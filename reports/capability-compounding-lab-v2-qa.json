@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-28T16:50:07.063711+00:00",
+  "checks": [
+    {
+      "path": "public/capability-compounding-lab.html",
+      "ok": true,
+      "label": "public/capability-compounding-lab.html"
+    },
+    {
+      "path": "public/assets/goalos-capability-compounding-lab-v2.css",
+      "ok": true,
+      "label": "public/assets/goalos-capability-compounding-lab-v2.css"
+    },
+    {
+      "path": "public/assets/goalos-capability-compounding-lab-v2.js",
+      "ok": true,
+      "label": "public/assets/goalos-capability-compounding-lab-v2.js"
+    },
+    {
+      "path": "docs/demos/CAPABILITY_COMPOUNDING_LAB_V2.md",
+      "ok": true,
+      "label": "docs/demos/CAPABILITY_COMPOUNDING_LAB_V2.md"
+    },
+    {
+      "path": "evidence/demo/capability-compounding-lab-v2-reference-docket.json",
+      "ok": true,
+      "label": "evidence/demo/capability-compounding-lab-v2-reference-docket.json"
+    }
+  ],
+  "errors": [],
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "no_transaction": true,
+  "human_review_required": true
+}
