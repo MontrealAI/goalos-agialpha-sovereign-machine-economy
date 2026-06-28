@@ -1,0 +1,23 @@
+name: Proof Gradient Lab feedback
+description: Public-safe feedback on the browser-local Proof Gradient Lab.
+title: "Proof Gradient Lab feedback: "
+labels: ["proof-gradient", "feedback", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, credentials, wallet data, private keys, seed phrases, funds, or regulated records.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What was clear, confusing, impressive, or missing?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, confidential, regulated, wallet, credential, payment, or customer data.
+          required: true

@@ -1,3 +1,16 @@
+
+<!-- GOALOS_PROOF_GRADIENT_LAB_V1 -->
+
+## Proof Gradient Lab — No proof, no evolution
+
+A new browser-local public demonstration is available:
+
+- [Proof Gradient Lab](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-gradient-lab.html)
+
+It demonstrates the core GoalOS / AEP-001 idea: score is advisory, hard gates are mandatory, and no candidate capability earns evolution without proof, evaluation, rollback readiness, scope authorization, canary posture, and challenge clearance.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no external action, human review required.
+
 <!-- GOALOS_LEGAL_PRIVACY_SHIELD_START -->
 <!-- GOALOS_AUTONOMOUS_DEMO_V4_README_START --><!-- GOALOS_USER_FRIENDLY_V3_README_START -->
 ## User-Friendly Operating Layer V3 — usable institution

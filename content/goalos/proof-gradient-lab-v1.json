@@ -1,0 +1,12 @@
+{
+  "title": "Proof Gradient Lab",
+  "url": "proof-gradient-lab.html",
+  "status": "public-alpha browser-local demo",
+  "capabilities": [
+    "selection gate",
+    "evidence docket export",
+    "selection certificate export",
+    "evolution ledger entry export",
+    "proof card export"
+  ]
+}

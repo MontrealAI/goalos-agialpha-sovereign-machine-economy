@@ -1,0 +1,4 @@
+Public-safe demo objectives:
+- Improve an Evidence Docket review loop.
+- Package a reusable validator checklist.
+- Convert a proof-run trace into a capability package.

@@ -183,5 +183,10 @@
     "title": "Multi-Agent Institution Lab",
     "url": "multi-agent-institution.html",
     "description": "Browser-local proof-governed multi-agent institution simulator with Evidence Docket download."
+  },
+  {
+    "title": "Proof Gradient Lab",
+    "url": "proof-gradient-lab.html",
+    "description": "Browser-local demonstration of Aim, Act, Prove, Evolve and the Selection Gate."
   }
 ]
