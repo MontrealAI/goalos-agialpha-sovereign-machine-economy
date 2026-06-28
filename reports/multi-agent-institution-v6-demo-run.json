@@ -1,6 +1,6 @@
 {
   "schema": "goalos.multi_agent_institution.demo_run.v6",
-  "generated_at": "2026-06-28T13:06:50Z",
+  "generated_at": "2026-06-28T13:07:32Z",
   "mission": {
     "name": "browser-local multi-agent institution demo",
     "objective": "Compare unstructured swarm activity against proof-governed institutional work",
@@ -62,5 +62,5 @@
     "coordination_overhead": 31
   },
   "decision_state": "READY_FOR_VALIDATOR_REVIEW",
-  "artifact_hash": "sha256:056fd6c539d8c51ea5816a41ca7a45e1839150248a9ea490112100d0e8597ce4"
+  "artifact_hash": "sha256:d6e7a7dfcab87d9091d1c0984b45a760fa4e8318d4b3125d204132e62bd856c3"
 }
