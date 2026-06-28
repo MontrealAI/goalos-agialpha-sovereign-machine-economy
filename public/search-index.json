@@ -217,5 +217,10 @@
     "title": "Sovereign Experience Stream Lab",
     "url": "sovereign-experience-stream-lab.html",
     "description": "Proof becomes governed experience: browser-local GoalOS demo for experience streams, reward ledgers, router updates, temporal options, and human review."
+  },
+  {
+    "title": "Proof-Settlement Chronicle Lab",
+    "url": "proof-settlement-chronicle-lab.html",
+    "description": "No ProofBundle, no settlement. Browser-local GoalOS proof-settlement simulation."
   }
 ]

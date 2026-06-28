@@ -1215,3 +1215,11 @@ The public demo at `public/capability-compounding-lab.html` shows how a GoalOS p
 
 **Proof becomes governed experience.** The public demo at [`/sovereign-experience-stream-lab.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/sovereign-experience-stream-lab.html) shows how a proof run becomes a replayable, reward-governed experience stream for memory, router updates, temporal options, and safer future missions. Browser-local only: no user data, no user funds, no wallet, no transaction, no network call, human review required.
 
+## Proof-Settlement Chronicle Lab V1
+
+**No ProofBundle, no settlement.** The browser-local Proof-Settlement Chronicle Lab demonstrates the safe public lifecycle: Request -> Escrow -> Execute -> Proof -> Validate -> Settle -> Chronicle. It is simulation-only: no user data, no user funds, no wallet, no transaction, no network call, no production authority, and human review required.
+
+- Website: `public/proof-settlement-chronicle-lab.html`
+- QA report: `reports/proof-settlement-chronicle-lab-v1-qa.json`
+- Reference docket: `evidence/demo/proof-settlement-chronicle-lab-v1-reference-docket.json`
+

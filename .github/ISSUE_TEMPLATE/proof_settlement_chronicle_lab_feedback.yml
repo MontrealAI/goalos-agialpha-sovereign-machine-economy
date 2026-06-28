@@ -1,0 +1,26 @@
+name: Proof-Settlement Chronicle Lab feedback
+description: Review or improve the GoalOS proof-settlement demo.
+title: "[Proof-Settlement Lab] "
+labels: ["proof-settlement", "demo", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, credentials, private keys, seed phrases, wallet signatures, payment data, regulated records, or trade secrets.
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Reviewer verdict
+      options:
+        - Accept
+        - Reject
+        - Revise
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Review notes
+      description: What worked, what failed, what should improve?
+    validations:
+      required: true

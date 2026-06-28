@@ -1,0 +1,21 @@
+{
+  "schema": "goalos.proof_settlement_chronicle_lab.reference_docket.v1",
+  "generated_at": "2026-06-28T18:28:15Z",
+  "decision_state": "SIMULATED_SETTLEMENT_READY",
+  "rules": [
+    "no ProofBundle no settlement",
+    "no replay no settlement",
+    "no authority no autonomy"
+  ],
+  "boundary": {
+    "name": "GoalOS Proof-Settlement Chronicle Lab V1",
+    "page": "public/proof-settlement-chronicle-lab.html",
+    "thesis": "No ProofBundle, no settlement.",
+    "browser_local": true,
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "human_review_required": true
+  }
+}
