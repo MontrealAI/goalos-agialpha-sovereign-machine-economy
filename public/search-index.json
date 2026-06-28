@@ -207,5 +207,10 @@
       "chronicle",
       "capability-package"
     ]
+  },
+  {
+    "title": "Capability Compounding Lab",
+    "url": "capability-compounding-lab.html",
+    "description": "Browser-local demo showing verified work becoming reusable capability."
   }
 ]

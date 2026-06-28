@@ -1,0 +1,14 @@
+{
+  "schema": "goalos.capability_compounding_lab.v1.reference_docket",
+  "generated_at": "2026-06-28T16:08:59Z",
+  "status": "reference_demo",
+  "claim": "Verified work can become reusable capability only after proof gates pass.",
+  "boundary": [
+    "no user data",
+    "no user funds",
+    "no wallet",
+    "no transaction",
+    "no network call",
+    "human review required"
+  ]
+}

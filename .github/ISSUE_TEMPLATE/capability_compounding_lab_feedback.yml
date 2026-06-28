@@ -1,0 +1,25 @@
+name: Capability Compounding Lab feedback
+description: Public-safe feedback for the browser-local Capability Compounding Lab
+title: "Capability Compounding Lab feedback: "
+labels: ["demo", "user-feedback", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the GoalOS Capability Compounding Lab.
+
+        Do **not** include personal data, customer data, confidential information, credentials, private keys, wallet details, regulated data, trade secrets, or user funds.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm this issue does not include personal, customer, confidential, credential, wallet, regulated, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What was clear, confusing, impressive, or missing?
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+{
+  "schema": "goalos.capability_compounding_lab.v1.demo_run",
+  "generated_at": "2026-06-28T16:08:59Z",
+  "status": "passed",
+  "demo": "capability-compounding-lab.html",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "gates": [
+    "mission_contract",
+    "claims_matrix",
+    "evidence_docket",
+    "replay_path",
+    "validator_report",
+    "cost_risk_ledger",
+    "claim_boundary",
+    "chronicle_entry",
+    "capability_package",
+    "rollback_plan",
+    "human_review"
+  ],
+  "decision_state": "CAPABILITY_READY_FOR_HUMAN_REVIEW_REFERENCE"
+}

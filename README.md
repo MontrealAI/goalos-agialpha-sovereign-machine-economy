@@ -1187,3 +1187,18 @@ This page demonstrates the Mission OS loop: Objective → Mission Contract → E
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, and human review required.
 <!-- GOALOS_PROOF_TO_ACTION_COMMAND_ROOM_V1_README_END -->
+
+## Capability Compounding Lab
+
+**Verified work becomes reusable capability.**
+
+The browser-local Capability Compounding Lab demonstrates the GoalOS compounding loop:
+
+```text
+Mission → Work → Proof → Validation → Chronicle → Capability Package → Harder Mission
+```
+
+Open: [`capability-compounding-lab.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capability-compounding-lab.html)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+

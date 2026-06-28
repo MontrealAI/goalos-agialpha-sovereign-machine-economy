@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070914" />
+  <title>GoalOS Capability Compounding Lab — Verified Work Becomes Reusable Capability</title>
+  <meta name="description" content="A browser-local GoalOS demo showing how verified work becomes Chronicle memory, reusable capability, and a harder future mission." />
+  <link rel="stylesheet" href="assets/goalos-capability-compounding-lab-v1.css" />
+</head>
+<body>
+  <canvas id="aura" aria-hidden="true"></canvas>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="GoalOS home"><span class="mark">α</span><span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span></a>
+      <nav aria-label="GoalOS navigation">
+        <a href="start-here.html">Start</a>
+        <a href="multi-agent-institution.html">Institution</a>
+        <a href="proof-gradient-lab.html">Proof Gradient</a>
+        <a href="evidence-docket-theatre.html">Docket Theatre</a>
+        <a href="proof-to-action-command-room.html">Proof → Action</a>
+        <a class="active" href="capability-compounding-lab.html">Compounding Lab</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow"><span></span>PUBLIC DEMO / BROWSER-LOCAL / NO DATA</p>
+          <h1>Verified work becomes <em>reusable capability.</em></h1>
+          <p class="lead">Run one proof cycle, seal it into Chronicle memory, package the accepted work as a reusable capability, then apply it to a harder mission. This is the GoalOS compounding loop made visible.</p>
+          <div class="hero-actions">
+            <button class="primary" id="runCycle">Run compounding cycle</button>
+            <button class="secondary" id="stressCycle">Stress test proof debt</button>
+            <button class="ghost" id="resetCycle">Reset</button>
+          </div>
+          <div class="boundary"><strong>Default deny:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</div>
+        </div>
+        <aside class="orbital-card" aria-label="Compounding flywheel visualization">
+          <div class="mode-toggle" role="group" aria-label="Mode">
+            <button id="executiveMode" class="active">Executive</button>
+            <button id="technicalMode">Technical</button>
+          </div>
+          <svg id="flywheel" viewBox="0 0 620 520" role="img" aria-label="GoalOS capability compounding flywheel"></svg>
+        </aside>
+      </section>
+
+      <section class="metrics-strip" aria-label="Live compounding metrics">
+        <div><strong id="readiness">41</strong><span>readiness</span></div>
+        <div><strong id="reuseLift">0%</strong><span>reuse lift</span></div>
+        <div><strong id="proofDebt">59</strong><span>proof debt</span></div>
+        <div><strong id="maturity">L1</strong><span>capability maturity</span></div>
+        <div><strong id="harderMission">blocked</strong><span>harder mission</span></div>
+      </section>
+
+      <section class="lab-grid">
+        <aside class="panel controls">
+          <div class="panel-head"><span class="step">01</span><h2>Compose the mission</h2></div>
+          <label class="field"><span>Mission preset</span><select id="scenario">
+            <option value="launch">Repository launch readiness</option>
+            <option value="frontier">Frontier release governance</option>
+            <option value="institution">Multi-agent institution review</option>
+            <option value="pilot">Proof mission pilot readiness</option>
+            <option value="science">Scientific discovery triage</option>
+          </select></label>
+          <label class="field"><span>Mission objective</span><textarea id="objective" rows="5"></textarea></label>
+          <div class="sliders">
+            <label>Mission difficulty <input type="range" id="difficulty" min="1" max="10" value="6"><b id="difficultyValue">6</b></label>
+            <label>Validator quorum <input type="range" id="quorum" min="1" max="7" value="3"><b id="quorumValue">3</b></label>
+            <label>Reuse pressure <input type="range" id="reusePressure" min="1" max="10" value="7"><b id="reuseValue">7</b></label>
+          </div>
+          <h3>Mandatory gates</h3>
+          <div class="gate-list" id="gateList"></div>
+        </aside>
+
+        <section class="panel theatre">
+          <div class="panel-head"><span class="step">02</span><h2>Watch capability compound</h2></div>
+          <div class="stage-tabs" id="stageTabs"></div>
+          <div class="runway" id="runway" aria-label="Compounding stage details"></div>
+          <div class="two-col">
+            <div class="mini-panel">
+              <h3>One-off AI output</h3>
+              <p>Persuasive text may be useful, but it does not automatically become trusted institutional memory.</p>
+              <div class="bar"><span id="oneOffBar"></span></div>
+              <small id="oneOffText">Output generated. Proof debt remains high.</small>
+            </div>
+            <div class="mini-panel gold">
+              <h3>GoalOS capability</h3>
+              <p>Accepted proof becomes Chronicle memory and a reusable capability package for harder future missions.</p>
+              <div class="bar"><span id="goalosBar"></span></div>
+              <small id="goalosText">Awaiting proof gates.</small>
+            </div>
+          </div>
+        </section>
+
+        <aside class="panel decision">
+          <div class="panel-head"><span class="step">03</span><h2>Decision chamber</h2></div>
+          <div class="score-ring" id="scoreRing"><div><strong id="score">41</strong><span>score</span></div></div>
+          <div class="decision-state"><span>Governed decision state</span><strong id="decisionState">HOLD_PENDING_EVIDENCE</strong></div>
+          <dl class="status-list">
+            <div><dt>External actions</dt><dd>0</dd></div>
+            <div><dt>Network calls</dt><dd>0</dd></div>
+            <div><dt>Wallet / funds</dt><dd>none</dd></div>
+            <div><dt>Human boundary</dt><dd>required</dd></div>
+          </dl>
+          <div class="downloads">
+            <button id="downloadDocket" class="primary">Download Evidence Docket</button>
+            <button id="downloadCapability" class="secondary">Capability Package</button>
+            <button id="downloadChronicle" class="secondary">Chronicle Entry</button>
+            <button id="downloadReport" class="ghost">Compounding Report</button>
+            <button id="downloadCard" class="ghost">Proof Card SVG</button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="insights">
+        <article class="panel">
+          <h2>Plain-English meaning</h2>
+          <p>A normal AI system gives you an answer. GoalOS asks whether that answer can be proved, reviewed, recorded, reused, and safely applied to a harder mission. If not, the system stops at output. If yes, the work becomes institutional capability.</p>
+        </article>
+        <article class="panel technical-only hidden">
+          <h2>Advanced lens</h2>
+          <pre id="equations"></pre>
+        </article>
+        <article class="panel">
+          <h2>Chronicle / live trace</h2>
+          <div class="terminal" id="chronicle"></div>
+        </article>
+      </section>
+    </main>
+  </div>
+  <script src="assets/goalos-capability-compounding-lab-v1.js"></script>
+</body>
+</html>
