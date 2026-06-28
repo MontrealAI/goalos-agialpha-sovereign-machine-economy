@@ -1134,3 +1134,20 @@ No token sale. No offer. No custody. No wallet support. No user-fund authorizati
 See: [docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md](docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md) and the website page `/agialpha-token-boundary.html`.
 
 <!-- GOALOS_AGIALPHA_TOKEN_BOUNDARY_END -->
+
+<!-- GOALOS_MULTI_AGENT_INSTITUTION_V6_START -->
+
+## Multi-Agent Institution Experience V6 — Not a swarm. An institution.
+
+The public website now includes a browser-local, no-data/no-funds interactive Multi-Agent Institution Lab:
+
+- Live page: `public/multi-agent-institution.html`
+- Assets: `public/assets/goalos-institution-v6.css`, `public/assets/goalos-institution-v6.js`
+- Documentation: `docs/institution/MULTI_AGENT_INSTITUTION_EXPERIENCE_V6.md`
+- Audit: `reports/multi-agent-institution-v6-qa.json`
+
+The page lets non-technical and advanced users run a proof flight, compare an unstructured swarm against a proof-governed institution, inspect proof gates, generate a local Evidence Docket, and download a review brief — without model calls, wallets, transactions, backend calls, or user-data submission.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no production authority, human review required.
+
+<!-- GOALOS_MULTI_AGENT_INSTITUTION_V6_END -->

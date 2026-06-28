@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-28T13:06:51Z",
+  "page": "public/multi-agent-institution.html",
+  "checks": {
+    "browser_local": true,
+    "no_network_api_in_demo_js": true,
+    "no_storage_or_wallet_api": true,
+    "no_user_data_boundary": true,
+    "no_user_funds_boundary": true,
+    "human_review_required": true,
+    "docket_download": true,
+    "advanced_mode": true,
+    "nontechnical_mode": true
+  },
+  "errors": []
+}

@@ -1,0 +1,23 @@
+name: Multi-Agent Institution feedback
+description: Public-safe feedback for the browser-local Multi-Agent Institution Lab
+title: "Multi-Agent Institution feedback: "
+labels: ["feedback", "multi-agent-institution", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, funds, private keys, seed phrases, or trade secrets.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be clearer, more useful, or more delightful?
+    validations:
+      required: true
