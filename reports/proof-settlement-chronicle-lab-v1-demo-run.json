@@ -1,6 +1,6 @@
 {
   "schema": "goalos.proof_settlement_chronicle_lab.demo_run.v1",
-  "generated_at": "2026-06-28T19:09:19Z",
+  "generated_at": "2026-06-28T19:10:40Z",
   "status": "passed",
   "decision_state": "SIMULATED_SETTLEMENT_READY",
   "alpha_work_units_simulated": 41.92,
