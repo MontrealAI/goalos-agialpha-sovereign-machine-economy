@@ -1,6 +1,6 @@
 {
   "schema": "goalos.proof_to_action_command_room.v1",
-  "generated_at": "2026-06-28T15:37:46Z",
+  "generated_at": "2026-06-28T15:38:45Z",
   "browser_local_reference": true,
   "mission": "Repository launch readiness",
   "loop": [
@@ -36,5 +36,5 @@
     "Capability Package JSON",
     "Executive Brief Markdown"
   ],
-  "digest": "sha256:175da4d60dfdee6198d13978943474d65d0f5a0b531831414126103aa1bb6d9a"
+  "digest": "sha256:7102a645c5fd53f7c0d93451231ee38fd17e0e69a8b2f4c434d5af6695600380"
 }
