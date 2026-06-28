@@ -1,6 +1,6 @@
 {
   "schema": "goalos.capability_compounding_lab.v2.demo_run",
-  "generated_at": "2026-06-28T16:50:07.036106+00:00",
+  "generated_at": "2026-06-28T16:51:58.124282+00:00",
   "claim": "Verified work becomes reusable capability.",
   "loop": [
     "Mission",

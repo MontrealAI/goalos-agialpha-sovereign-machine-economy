@@ -1,7 +1,7 @@
 {
   "status": "installed",
   "version": "v2",
-  "generated_at": "2026-06-28T16:50:05.620639+00:00",
+  "generated_at": "2026-06-28T16:51:57.919802+00:00",
   "required_files": [
     "public/capability-compounding-lab.html",
     "public/assets/goalos-capability-compounding-lab-v2.css",
