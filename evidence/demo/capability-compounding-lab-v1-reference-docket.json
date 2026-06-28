@@ -1,6 +1,6 @@
 {
   "schema": "goalos.capability_compounding_lab.v1.reference_docket",
-  "generated_at": "2026-06-28T16:08:59Z",
+  "generated_at": "2026-06-28T16:10:06Z",
   "status": "reference_demo",
   "claim": "Verified work can become reusable capability only after proof gates pass.",
   "boundary": [

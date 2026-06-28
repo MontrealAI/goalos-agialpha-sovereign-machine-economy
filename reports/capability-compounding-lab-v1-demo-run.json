@@ -1,6 +1,6 @@
 {
   "schema": "goalos.capability_compounding_lab.v1.demo_run",
-  "generated_at": "2026-06-28T16:08:59Z",
+  "generated_at": "2026-06-28T16:10:06Z",
   "status": "passed",
   "demo": "capability-compounding-lab.html",
   "browser_local": true,
