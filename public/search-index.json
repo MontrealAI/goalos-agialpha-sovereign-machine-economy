@@ -188,5 +188,10 @@
     "title": "Proof Gradient Lab",
     "url": "proof-gradient-lab.html",
     "description": "Browser-local demonstration of Aim, Act, Prove, Evolve and the Selection Gate."
+  },
+  {
+    "title": "Evidence Docket Theatre",
+    "url": "evidence-docket-theatre.html",
+    "description": "A browser-local proof room that turns public-safe claims into review-ready Evidence Dockets."
   }
 ]

@@ -1164,3 +1164,10 @@ The page lets non-technical and advanced users run a proof flight, compare an un
 Boundary: no user data, no user funds, no wallet, no transaction, no production authority, human review required.
 
 <!-- GOALOS_MULTI_AGENT_INSTITUTION_V6_END -->
+
+## Evidence Docket Theatre V2 — A proof page is not a marketing page
+
+GoalOS now includes a browser-local Evidence Docket Theatre at [`/evidence-docket-theatre.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evidence-docket-theatre.html). It lets visitors convert a public-safe claim into a review-ready proof room: claims matrix, baselines, proof packets, evaluator notes, risk/cost ledgers, replay path, governed decision state, and reusable capability package.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no external action, and human review remains required.
+

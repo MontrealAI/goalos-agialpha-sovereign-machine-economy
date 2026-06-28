@@ -1,0 +1,35 @@
+name: Evidence Docket Theatre feedback
+description: Public-safe feedback on the Evidence Docket Theatre demo.
+title: "Evidence Docket Theatre feedback: "
+labels: ["evidence-docket", "public-demo", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, funds, payment data, or trade secrets.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Reviewer role
+      options:
+        - New visitor
+        - Reviewer
+        - Validator
+        - Developer
+        - Pilot partner
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Public-safe feedback
+      description: What was clear, unclear, useful, or missing?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
