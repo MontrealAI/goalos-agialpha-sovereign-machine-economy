@@ -3,7 +3,7 @@
 Decision state: `REVIEW_READY`
 Readiness: `100`
 Gates passed: `10/10`
-Generated: `2026-06-29T12:29:18Z`
+Generated: `2026-06-29T12:30:18Z`
 
 This is a review-ready proof room if all gates pass. If any gate is blocked, the docket records exactly what must be remediated.
 

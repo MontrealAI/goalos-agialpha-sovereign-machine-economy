@@ -1,6 +1,6 @@
 {
   "schema": "goalos.proof_run_001.docket_room.v2",
-  "generated_at": "2026-06-29T12:29:18Z",
+  "generated_at": "2026-06-29T12:30:18Z",
   "mission": "Verify the current public-alpha repository and website as a review-ready proof architecture surface.",
   "decision_state": "REVIEW_READY",
   "readiness": 100,
@@ -39,7 +39,7 @@
       "passed": true,
       "why": "No Evidence Docket, no strong claim.",
       "details": {
-        "count": 33
+        "count": 35
       }
     },
     {
@@ -48,7 +48,7 @@
       "passed": true,
       "why": "Generated reports make the public site inspectable.",
       "details": {
-        "count": 117
+        "count": 119
       }
     },
     {
@@ -144,8 +144,8 @@
     "pages_missing": [],
     "code_modules_present": 13,
     "code_modules_missing": [],
-    "evidence_json_count": 33,
-    "report_json_count": 117,
+    "evidence_json_count": 35,
+    "report_json_count": 119,
     "review_docs_count": 24
   },
   "claim_boundary": "## GoalOS public-alpha boundary\n\nGoalOS is a public-alpha proof architecture.\n\nNo user data. No user funds. GoalOS does not want user data. GoalOS does not want user funds. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, health, children’s, privileged, trade-secret, or proprietary data through public channels.\n\nThe public website and demos are browser-local public demonstrations: no wallet, no transaction, no network call, no production authority, and human review required.\n\nGoalOS does not claim achieved AGI, not achieved ASI, empirical SOTA, production authorization, legal approval, user-fund authorization, mainnet activation, not investment advice, trading advice, tax advice, or guaranteed outcomes."
