@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "checked_files": [
+  "checked_markdown_files": [
     "README.md",
     "docs/00_INSTITUTIONAL_EXECUTIVE_BRIEF.md",
     "docs/ACTION_GRAPH.md",
@@ -93,10 +93,22 @@
     "docs/VALIDATOR_MESH.md",
     "docs/WEBSITE_AUTOPILOT.md",
     "docs/WEBSITE_AUTOPILOT_ARCHITECTURE.md",
-    "docs/WEBSITE_EDITOR_GUIDE.md"
+    "docs/WEBSITE_EDITOR_GUIDE.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "PRIVACY.md",
+    "DATA_BOUNDARY.md",
+    "DISCLAIMER.md",
+    "TOKEN_BOUNDARY.md"
   ],
   "required_docs": [
     "README.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "PRIVACY.md",
+    "DATA_BOUNDARY.md",
+    "DISCLAIMER.md",
+    "TOKEN_BOUNDARY.md",
     "docs/README.md",
     "docs/INDEX.md",
     "docs/START_HERE.md",
@@ -122,7 +134,28 @@
     "docs/CHANGELOG_GUIDE.md",
     "docs/REPOSITORY_SETTINGS.md"
   ],
-  "issues": [],
+  "required_diagrams": [
+    "docs/diagrams/goalos-core-loop.mmd",
+    "docs/diagrams/aep-object-lifecycle.mmd",
+    "docs/diagrams/evidence-docket-flow.mmd",
+    "docs/diagrams/public-private-proof-boundary.mmd",
+    "docs/diagrams/website-user-journey.mmd",
+    "docs/diagrams/developer-local-run.mmd",
+    "docs/diagrams/reviewer-path.mmd",
+    "docs/diagrams/token-boundary.mmd"
+  ],
+  "required_templates": [
+    ".github/ISSUE_TEMPLATE/new_user_question.yml",
+    ".github/ISSUE_TEMPLATE/documentation_feedback.yml",
+    ".github/ISSUE_TEMPLATE/demo_bug_report.yml",
+    ".github/ISSUE_TEMPLATE/evidence_docket_review.yml",
+    ".github/ISSUE_TEMPLATE/external_reviewer_report.yml",
+    ".github/ISSUE_TEMPLATE/proof_mission_proposal.yml",
+    ".github/ISSUE_TEMPLATE/security_boundary_report.yml",
+    ".github/ISSUE_TEMPLATE/token_or_market_boundary.yml",
+    ".github/pull_request_template.md",
+    ".github/workflows/goalos-docs-quality.yml"
+  ],
   "boundary_phrases": [
     "No user data",
     "No user funds",
@@ -140,6 +173,9 @@
     "\\bguaranteed return\\b",
     "\\bachieved AGI\\b",
     "\\bachieved ASI\\b",
-    "\\bempirical SOTA\\b"
-  ]
+    "\\bempirical SOTA\\b",
+    "\\bavailable from (this repository|the repository|us|maintainers)\\b"
+  ],
+  "issue_template_confirmation": "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds.",
+  "issues": []
 }
