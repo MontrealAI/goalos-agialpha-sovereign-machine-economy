@@ -1,0 +1,30 @@
+name: Open-Ended Work Engine Lab feedback
+description: Report feedback on the browser-local Open-Ended Work Engine Lab.
+title: "[Open-Ended Work Engine] "
+labels: ["feedback", "demo", "open-ended-work-engine"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing this public-alpha demo. Do not submit personal data, customer data, confidential data, credentials, wallet information, private keys, seed phrases, payment data, or trade secrets.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: What did you click or change?
+    validations:
+      required: false

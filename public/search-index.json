@@ -312,5 +312,10 @@
       "proof",
       "capability"
     ]
+  },
+  {
+    "title": "Open-Ended Work Engine Lab",
+    "url": "open-ended-work-engine.html",
+    "description": "Generate tasks. Gate descendants. Keep open-endedness tethered to proof."
   }
 ]

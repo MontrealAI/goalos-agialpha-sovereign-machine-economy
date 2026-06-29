@@ -1443,3 +1443,17 @@ Live page: [GoalOS Value Realization Control Room V1](https://montrealai.github.
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 <!-- /GOALOS_VALUE_REALIZATION_CONTROL_ROOM_V1 -->
+
+
+<!-- GOALOS_OPEN_ENDED_WORK_ENGINE_V1 -->
+## GoalOS Open-Ended Work Engine Lab V1
+
+**Generate tasks. Gate descendants. Keep open-endedness tethered to proof.**
+
+The Open-Ended Work Engine Lab is a browser-local public demo showing how GoalOS can generate mission candidates, validator challenges, workflows, proof templates, curricula, and capability candidates while admitting only descendants that pass replay, validation, risk, and boundary gates.
+
+- Website: [`public/open-ended-work-engine.html`](public/open-ended-work-engine.html)
+- Demo docs: [`docs/demos/OPEN_ENDED_WORK_ENGINE_LAB_V1.md`](docs/demos/OPEN_ENDED_WORK_ENGINE_LAB_V1.md)
+- Reviewer guide: [`docs/reviewer/HOW_TO_REVIEW_OPEN_ENDED_WORK_ENGINE_LAB.md`](docs/reviewer/HOW_TO_REVIEW_OPEN_ENDED_WORK_ENGINE_LAB.md)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.

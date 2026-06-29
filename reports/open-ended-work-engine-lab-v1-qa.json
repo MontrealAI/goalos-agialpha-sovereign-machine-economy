@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T18:41:31Z",
+  "errors": [],
+  "warnings": [],
+  "browserLocal": true,
+  "noNetworkCall": true,
+  "noUserData": true,
+  "noUserFunds": true,
+  "walletOrMainnet": false,
+  "humanReviewRequired": true
+}
