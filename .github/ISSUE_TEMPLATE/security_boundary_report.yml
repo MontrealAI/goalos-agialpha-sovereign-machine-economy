@@ -1,0 +1,42 @@
+name: Security Boundary Report
+description: Public-safe GoalOS intake template.
+title: "[SECURITY-BOUNDARY-REPORT]: "
+labels: ["public-alpha", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Keep this public-safe: no private data, no credentials, no wallet information, no funds, and no unsupported claims.
+  - type: checkboxes
+    id: boundary-confirmation
+    attributes:
+      label: Required public-safe confirmation
+      options:
+        - label: "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds."
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the question, report, mission, or review in bounded language.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public-safe evidence or links
+      description: Link only to public-safe repository paths, website pages, commands, or screenshots with no sensitive data.
+    validations:
+      required: false
+  - type: dropdown
+    id: requested-outcome
+    attributes:
+      label: Requested outcome
+      options:
+        - Accept
+        - Reject
+        - Revise
+        - Dissent
+        - Question only
+    validations:
+      required: true

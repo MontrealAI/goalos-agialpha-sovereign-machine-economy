@@ -1,0 +1,6 @@
+flowchart LR
+  Clone --> Install
+  Install --> Tests[Run tests]
+  Tests --> DocsQA[Run docs QA]
+  DocsQA --> Reports[Inspect reports]
+  Reports --> Site[Open local site]

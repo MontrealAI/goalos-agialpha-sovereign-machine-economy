@@ -1,34 +1,16 @@
 # Contributing
 
-Thank you for improving GoalOS AGIALPHA Ascension.
+Thank you for helping make GoalOS clearer, safer, and more reviewable. You can improve docs, propose browser-local demos, report bugs, strengthen validators, and clarify evidence paths.
 
-## Contribution standard
+## Safety rules
 
-A contribution should improve at least one of:
+Do not post sensitive data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds. Preserve claim-bounded language and public/private proof boundaries.
 
-- mission clarity;
-- evidence quality;
-- validator usefulness;
-- operator safety;
-- website clarity;
-- schema precision;
-- reproducibility;
-- claim-boundary discipline.
+## Run docs QA
 
-## Before opening a pull request
+```bash
+python scripts/goalos_docs_quality.py
+```
 
-- Run `python scripts/validate_repo.py`.
-- Run `python scripts/build_site.py`.
-- Run `python scripts/verify_site.py`.
-- Ensure no unsupported claims were introduced.
-- Add or update examples if a schema changes.
-
-## Pull request proof card
-
-Every substantial pull request should answer:
-
-1. What changed?
-2. Why does it matter?
-3. What evidence supports the change?
-4. What risk did it introduce?
-5. How can it be rolled back?
+Use issue templates for questions, demo bugs, proof missions, evidence review, and token/market boundary questions.
+> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.

@@ -1,0 +1,9 @@
+flowchart TB
+  Private[Private Intelligence / Private Data] -->|stays private| PrivateVault[Private Boundary]
+  PrivateVault -. commitments only .-> PublicProof[Public Proof]
+  PublicProof --> Hashes
+  PublicProof --> Commitments
+  PublicProof --> Attestations
+  PublicProof --> Dockets
+  PublicProof --> Receipts
+  PublicProof --> Pointers

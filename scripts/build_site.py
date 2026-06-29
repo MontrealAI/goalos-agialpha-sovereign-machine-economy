@@ -49,7 +49,7 @@ def section_html(section: dict) -> str:
 
 
 def nav_html(manifest: dict) -> str:
-    priority = ["index", "start", "mission-os", "evidence", "trust-center", "claim-boundary", "repository-map"]
+    priority = ["index", "start", "website-autopilot", "demo-ecosystem-registry", "proof-experience-atlas", "proof-ledger", "proof-run-001-docket", "external-reviewer-replay-room", "proof-mission-forge", "proof-mission-control", "no-data-no-funds", "agialpha-token-boundary", "repository-map"]
     pages = manifest["pages"]
     ordered = [p for slug in priority for p in pages if p["slug"] == slug]
     return "".join(f'<a href="{page_href(p["slug"])}">{esc(p["nav"])}</a>' for p in ordered)

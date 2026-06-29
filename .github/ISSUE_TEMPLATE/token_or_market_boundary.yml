@@ -1,36 +1,42 @@
-name: Token / Market Boundary Correction
-about: Report an incorrect token-boundary statement. Do not request wallet, price, trading, tax, bridge, liquidity, or transaction support.
-title: "Token boundary correction: "
-labels: ["legal-boundary", "token-boundary", "human-review-required"]
+name: Token Or Market Boundary
+description: Public-safe GoalOS intake template.
+title: "[TOKEN-OR-MARKET-BOUNDARY]: "
+labels: ["public-alpha", "needs-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this only to report an incorrect statement in the repository or website.
-
-        Do not submit personal data, wallet addresses you do not want public, private keys, seed phrases, transaction support requests, price questions, trading questions, tax questions, legal questions, exchange/listing requests, bridge requests, or token recovery requests.
-
-        $AGIALPHA is not available from GoalOS, this website, this repository, GitHub Issues, GitHub Discussions, pull requests, public demos, or public proof runs.
-  - type: input
-    id: page
+        Thank you. Keep this public-safe: no private data, no credentials, no wallet information, no funds, and no unsupported claims.
+  - type: checkboxes
+    id: boundary-confirmation
     attributes:
-      label: Page or file with the issue
-      description: Provide the public page or repository file path.
+      label: Required public-safe confirmation
+      options:
+        - label: "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds."
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the question, report, mission, or review in bounded language.
     validations:
       required: true
   - type: textarea
-    id: correction
+    id: evidence
     attributes:
-      label: Suggested correction
-      description: Describe the correction without including personal, confidential, credential, payment, wallet-secret, or regulated data.
+      label: Public-safe evidence or links
+      description: Link only to public-safe repository paths, website pages, commands, or screenshots with no sensitive data.
+    validations:
+      required: false
+  - type: dropdown
+    id: requested-outcome
+    attributes:
+      label: Requested outcome
+      options:
+        - Accept
+        - Reject
+        - Revise
+        - Dissent
+        - Question only
     validations:
       required: true
-  - type: checkboxes
-    id: boundary
-    attributes:
-      label: Boundary confirmation
-      options:
-        - label: I am not requesting wallet, trading, bridge, exchange, liquidity, transaction, tax, investment, or legal support.
-          required: true
-        - label: I did not include personal data, confidential data, private keys, seed phrases, payment data, or regulated data.
-          required: true
