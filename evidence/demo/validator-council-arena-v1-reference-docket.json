@@ -1,6 +1,6 @@
 {
   "schema": "goalos.validator_council_arena.v1",
-  "generatedAt": "2026-06-29T18:59:37.608016+00:00",
+  "generatedAt": "2026-06-29T19:00:51.705696+00:00",
   "claim": "The current public-alpha repository has sufficient public pages, code artifacts, reports, no-data/no-funds boundaries, replay instructions, and reviewer paths to be submitted for external human review.",
   "decisionState": "VALIDATION_REVIEW_READY",
   "readiness": 96,
@@ -17,5 +17,5 @@
     "humanReview": true
   },
   "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
-  "docketHash": "sha256:88577a10798c40ff6cb7dbf025fa4f0264ef68c75b7dabf3bf210daeaab0dae3"
+  "docketHash": "sha256:ef73d408c6d1f21e43a4e5e2c37114c6218dc252f882a8d181fdd9ca0c3985cc"
 }
