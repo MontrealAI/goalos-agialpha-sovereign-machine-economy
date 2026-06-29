@@ -1464,3 +1464,13 @@ Boundary: no user data, no user funds, no wallet, no transaction, no network cal
 Public demo: [`validator-council-arena.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/validator-council-arena.html)
 
 This browser-local arena demonstrates commit-reveal validation, validator quorum, dissent preservation, challenge windows, replay checks, and public/private proof boundaries. Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+<!-- GOALOS_ACTION_REASON_TRACE_CONTRACT_V1 -->
+
+## Action-Reason Trace Contract V1
+
+**Every action must carry a reason.** The browser-local Action-Reason Trace Contract demonstrates how GoalOS binds action intent to permission scope, expected observation, actual observation, validator status, cost/risk, rollback, evidence pointer, and human review.
+
+Open: `public/action-reason-trace-contract.html`
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority; human review required.

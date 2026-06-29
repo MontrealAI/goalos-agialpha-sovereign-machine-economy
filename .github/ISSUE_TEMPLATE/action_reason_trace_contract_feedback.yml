@@ -1,0 +1,23 @@
+name: Action-Reason Trace Contract feedback
+description: Public-safe feedback about the Action-Reason Trace Contract demo.
+title: "Action-Reason Trace feedback: "
+labels: ["demo", "review", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, credentials, wallet data, private keys, seed phrases, funds, or trade secrets.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked, what failed, or what should be clearer?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I did not include personal, customer, confidential, credential, wallet, fund, private-key, seed-phrase, or trade-secret data.
+          required: true

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Action-Reason Trace Contract — No Action Without Reason</title>
+  <meta name="description" content="A browser-local GoalOS demo showing how external actions become governable only when every action carries reason, scope, observation, validation, rollback, and evidence." />
+  <link rel="stylesheet" href="assets/goalos-action-reason-trace-v1.css" />
+</head>
+<body>
+  <a class="skip" href="#lab">Skip to lab</a>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="topbar" aria-label="GoalOS navigation">
+    <a class="brand" href="index.html" aria-label="GoalOS home"><span class="sigil">α</span><span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span></a>
+    <nav>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="evolution-ledger-control-room.html">Evolution Ledger</a>
+      <a href="validator-council-arena.html">Validator Council</a>
+      <a class="active" href="action-reason-trace-contract.html">Action Trace</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> public demo / browser-local / no data</p>
+        <h1>Every action must carry a <em>reason</em>.</h1>
+        <p class="lead">GoalOS makes external action governable by binding reason, permission scope, expected observation, actual observation, validator status, cost/risk, rollback, and evidence into one trace contract.</p>
+        <div class="cta-row">
+          <button id="runBtn" class="primary">Run action trace</button>
+          <button id="stressBtn">Stress unsafe action</button>
+          <button id="resetBtn" class="ghost">Reset</button>
+        </div>
+        <p class="boundary"><b>Default deny:</b> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</p>
+      </div>
+      <div class="hero-panel" aria-label="Action reason trace visualization">
+        <div class="mode-toggle" role="group" aria-label="Mode">
+          <button id="execMode" class="selected">Executive</button>
+          <button id="techMode">Technical</button>
+        </div>
+        <svg id="traceSvg" viewBox="0 0 760 500" role="img" aria-label="Action trace rail from reason to chronicle">
+          <defs>
+            <linearGradient id="glow" x1="0" x2="1"><stop offset="0" stop-color="#fff176"/><stop offset=".5" stop-color="#64ffd2"/><stop offset="1" stop-color="#9b8cff"/></linearGradient>
+            <filter id="soft"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect x="20" y="20" width="720" height="460" rx="28" fill="rgba(9,14,28,.74)" stroke="rgba(255,255,255,.18)"/>
+          <text x="56" y="68" class="svg-title">ACTION-REASON TRACE</text>
+          <g id="nodes"></g>
+          <path id="rail" d="M90 250 C 180 90, 300 410, 380 250 S 570 90, 670 250" fill="none" stroke="url(#glow)" stroke-width="4" opacity=".9" filter="url(#soft)"/>
+          <text x="56" y="438" class="svg-note">No action may leave the institution without scope, observation, validation, rollback, and evidence.</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Current action readiness metrics">
+      <article><strong id="readiness">72</strong><span>readiness</span></article>
+      <article><strong id="traceScore">0.74</strong><span>trace integrity</span></article>
+      <article><strong id="riskScore">LOW</strong><span>risk state</span></article>
+      <article><strong id="decisionState">HOLD_REVIEW</strong><span>decision</span></article>
+    </section>
+
+    <section id="lab" class="lab-grid">
+      <article class="card controls">
+        <div class="step">01</div>
+        <h2>Configure the action</h2>
+        <label>Scenario
+          <select id="scenarioSelect"></select>
+        </label>
+        <label>Action intent
+          <textarea id="actionIntent" rows="6" spellcheck="true"></textarea>
+        </label>
+        <div class="two">
+          <label>Risk class
+            <select id="riskClass"><option>LOW</option><option selected>MEDIUM</option><option>HIGH</option><option>CRITICAL</option></select>
+          </label>
+          <label>Tool surface
+            <select id="toolSurface"><option>read-only repository</option><option>patch proposal</option><option>browser workflow</option><option>database write</option><option>funds / wallet</option></select>
+          </label>
+        </div>
+        <label>Reversibility <output id="revOut">72</output>
+          <input id="reversibility" type="range" min="0" max="100" value="72" />
+        </label>
+        <label>Validator coverage <output id="valOut">76</output>
+          <input id="validatorCoverage" type="range" min="0" max="100" value="76" />
+        </label>
+        <label>Evidence completeness <output id="evOut">82</output>
+          <input id="evidenceCompleteness" type="range" min="0" max="100" value="82" />
+        </label>
+      </article>
+
+      <article class="card trace">
+        <div class="step">02</div>
+        <h2>Watch reason become action state</h2>
+        <div class="trace-lanes" id="traceLanes"></div>
+        <div class="terminal" id="terminal" aria-live="polite"></div>
+        <div id="technicalPanel" class="technical hidden">
+          <h3>Action-Reason Trace Contract</h3>
+          <pre id="contractFormula"></pre>
+        </div>
+      </article>
+
+      <article class="card gate-card">
+        <div class="step">03</div>
+        <h2>Selection Gate</h2>
+        <div id="gateList" class="gate-list"></div>
+        <div class="downloads">
+          <button data-download="trace">Download trace contract</button>
+          <button data-download="actionGraph">Download action graph</button>
+          <button data-download="rollback">Download rollback playbook</button>
+          <button data-download="evidenceMap">Download evidence map</button>
+          <button data-download="brief">Download review brief</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="explain">
+      <h2>Why this matters</h2>
+      <div class="explain-grid">
+        <article><h3>Action is not authority.</h3><p>A model may propose. An agent may attempt. An institution must bind every action to permission, evidence, risk, validator status, and rollback.</p></article>
+        <article><h3>Observation closes the loop.</h3><p>Expected observation and actual observation must both be recorded. If they diverge, the action must be revised, rolled back, or escalated.</p></article>
+        <article><h3>External action remains review-bound.</h3><p>This public demo never performs real external action. It demonstrates the control logic that would make future action auditable.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>GoalOS Action-Reason Trace Contract V1</span>
+    <span>No user data · No funds · No wallet · No transaction · Browser-local</span>
+  </footer>
+  <script src="assets/goalos-action-reason-trace-v1.js"></script>
+</body>
+</html>

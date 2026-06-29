@@ -322,5 +322,10 @@
     "title": "Validator Council Arena",
     "url": "validator-council-arena.html",
     "description": "Commit-reveal validation, quorum, dissent, challenge windows, replay, and public/private proof boundaries."
+  },
+  {
+    "title": "Action-Reason Trace Contract",
+    "url": "action-reason-trace-contract.html",
+    "description": "Browser-local GoalOS demo: every external action carries reason, scope, observation, validation, rollback, and evidence."
   }
 ]
