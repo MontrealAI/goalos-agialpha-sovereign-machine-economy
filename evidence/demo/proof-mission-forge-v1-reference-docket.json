@@ -1,6 +1,6 @@
 {
   "schema": "goalos.proof_mission_forge.reference_docket.v1",
-  "generated_at": "2026-06-29T02:32:09.043712+00:00",
+  "generated_at": "2026-06-29T02:32:44.971927+00:00",
   "mission_id": "GMF-REFERENCE-001",
   "objective": "Evaluate public repository and website readiness for Proof Run 001 using only public-safe artifacts.",
   "mission_contract": {
@@ -48,5 +48,5 @@
     "human_review_required": true
   },
   "governed_decision_state": "MISSION_REVIEW_READY_TEMPLATE",
-  "docket_hash": "43a59c4c5ae9551e6cdc69d70e31b785157c7c0f4f7f8747b9d6cf3332695e09"
+  "docket_hash": "30771067796db9e3b09480b94ed458ee78bcd1c4cd9b7419b3c42e4ba1bae014"
 }
