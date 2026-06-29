@@ -1,0 +1,154 @@
+# Repository Preflight Inventory v2
+
+Generated: 2026-06-29. This is an inventory, not a pass/fail verdict.
+
+- **generated_at**: 2026-06-29T00:00:00Z
+- **generator**: /tmp/upgrade_docs.py
+- **root_files_present**: 27
+- **docs_files_present**: 280
+- **public_pages_present**: 128
+- **scripts_present**: 114
+- **src_modules_present**: 15
+- **tests_present**: 13
+- **reports_present**: 163
+- **evidence_artifacts_present**: 55
+- **replay_paths_present**: 1
+- **workflows_present**: 46
+- **issue_templates_present**: 47
+- **pr_template_present**: True
+- **license_file**: LICENSE
+- **security_file**: SECURITY.md
+- **contributing_file**: CONTRIBUTING.md
+- **privacy_legal_token_boundary_files**: 7
+- **known_website_entry_points**: 6
+- **known_proof_demo_review_pages**: 33
+- **missing_recommended_docs**: 3
+- **missing_recommended_templates**: 1
+- **duplicate_or_stale_docs**: Several v1/v2 demo docs coexist; keep public URLs stable and prefer canonical docs/DEMO_ECOSYSTEM.md.
+- **broken_looking_links**: See reports/docs-quality.json for deterministic link scan.
+- **unsupported_strong_claims**: No new strong claims added by this inventory; existing content should continue to be scanned.
+- **token_boundary_risks**: Token pages exist; boundary docs must keep public-contract identification only and no sale/custody/support language.
+- **no_data_no_funds_boundary_gaps**: Issue templates require public-safe confirmation after this upgrade.
+- **pages_not_listed_in_registry**: See content/goalos/demo-ecosystem-registry.json coverage.
+
+## Known public pages
+- `public/404.html`
+- `public/action-reason-trace-contract.html`
+- `public/adoption.html`
+- `public/agent-constellation-demo.html`
+- `public/agents.html`
+- `public/agi-alpha-node-v0.html`
+- `public/agi-alpha-thesis.html`
+- `public/agi-jobs-v0-v2.html`
+- `public/agialpha-control-rail.html`
+- `public/agialpha-token-boundary.html`
+- `public/architecture.html`
+- `public/capability-compounding-lab.html`
+- `public/capability-parity.html`
+- `public/capability-stack.html`
+- `public/claim-boundary.html`
+- `public/commercial-evidence.html`
+- `public/console.html`
+- `public/coordination-console.html`
+- `public/data-boundary.html`
+- `public/data-room.html`
+- `public/demo-ecosystem-registry.html`
+- `public/demo-gallery.html`
+- `public/demo-launcher.html`
+- `public/demo-safety.html`
+- `public/docket-builder.html`
+- `public/document-series.html`
+- `public/enterprise.html`
+- `public/evaluation-program.html`
+- `public/evaluation.html`
+- `public/evidence-docket-theatre.html`
+- `public/evidence-room.html`
+- `public/evidence-to-scale.html`
+- `public/evidence.html`
+- `public/evolution-ledger-control-room.html`
+- `public/executive-brief.html`
+- `public/external-reviewer-replay-room.html`
+- `public/falsification-box.html`
+- `public/falsification-gauntlet.html`
+- `public/faq.html`
+- `public/for-new-users.html`
+- `public/for-reviewers.html`
+- `public/frontier-release-case-study.html`
+- `public/frontier-release-doctrine.html`
+- `public/frontier-release-room.html`
+- `public/glossary.html`
+- `public/governance.html`
+- `public/help-center.html`
+- `public/historical-command-center.html`
+- `public/holy-grail-candidate.html`
+- `public/independent-validation.html`
+- `public/index.html`
+- `public/institutional-deployment-wedge.html`
+- `public/investment-token-boundary.html`
+- `public/jobs.html`
+- `public/launch-narrative.html`
+- `public/launch.html`
+- `public/legal.html`
+- `public/local-autopilot-demo.html`
+- `public/meta-agentic-alpha-agi.html`
+- `public/metrics.html`
+- `public/mission-os-canon.html`
+- `public/mission-os.html`
+- `public/multi-agent-institution.html`
+- `public/no-data-no-funds.html`
+- `public/node.html`
+- `public/open-ended-work-engine.html`
+- `public/operator-checklist.html`
+- `public/operators.html`
+- `public/paper-to-product.html`
+- `public/pathfinder.html`
+- `public/pilot-program.html`
+- `public/pilot-proof.html`
+- `public/privacy.html`
+- `public/product.html`
+- `public/proof-backed-upgrade-rights-room.html`
+- `public/proof-card-studio.html`
+- `public/proof-carrying-artifact-foundry.html`
+- `public/proof-economy.html`
+- `public/proof-experience-atlas.html`
+- `public/proof-flight-demo.html`
+- `public/proof-gradient-lab.html`
+- `public/proof-ledger.html`
+- `public/proof-metrics-dashboard.html`
+- `public/proof-mission-control.html`
+- `public/proof-mission-forge.html`
+- `public/proof-mission-slots.html`
+- `public/proof-of-evolution.html`
+- `public/proof-run-001-docket.html`
+- `public/proof-run-001-execution-room.html`
+- `public/proof-run-001-live.html`
+- `public/proof-run-001.html`
+- `public/proof-settlement-chronicle-lab.html`
+- `public/proof-to-action-command-room.html`
+- `public/proof-velocity.html`
+- `public/public-metrics-ledger.html`
+- `public/quick-tour.html`
+- `public/real-task-benchmark-bridge.html`
+- `public/release-gates.html`
+- `public/repository-map.html`
+- `public/research-spine.html`
+- `public/responsible-use.html`
+- `public/reviewer-path.html`
+- `public/roadmap.html`
+- `public/run-locally.html`
+- `public/schema-registry.html`
+- `public/security-boundary.html`
+- `public/security.html`
+- `public/site-map.html`
+- `public/source-lineage.html`
+- `public/sovereign-experience-stream-lab.html`
+- `public/standards.html`
+- `public/start-here.html`
+- `public/start.html`
+- `public/strategic-evidence-scorecard.html`
+- `public/terms.html`
+- `public/token.html`
+- `public/troubleshooting.html`
+- `public/trust-boundary.html`
+- `public/trust-center.html`
+- `public/trust.html`

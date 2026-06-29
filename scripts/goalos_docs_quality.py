@@ -33,8 +33,11 @@ REQUIRED_DOCS = [
     "docs/PROOF_RUN_001.md",
     "docs/PROOF_LEDGER.md",
     "docs/DEMO_ECOSYSTEM.md",
+    "docs/WEBSITE_MAP.md",
     "docs/MISSION_FORGE.md",
+    "docs/MISSION_CONTROL.md",
     "docs/EXTERNAL_REVIEW.md",
+    "docs/VALIDATOR_GUIDE.md",
     "docs/REPLAY.md",
     "docs/CLAIM_BOUNDARY.md",
     "docs/NO_DATA_NO_FUNDS.md",
@@ -57,6 +60,10 @@ REQUIRED_DIAGRAMS = [
     "docs/diagrams/developer-local-run.mmd",
     "docs/diagrams/reviewer-path.mmd",
     "docs/diagrams/token-boundary.mmd",
+    "docs/diagrams/proof-settlement-loop.mmd",
+    "docs/diagrams/proof-gradient-selection-law.mmd",
+    "docs/diagrams/action-reason-trace-contract.mmd",
+    "docs/diagrams/institutional-deployment-wedge.mmd",
 ]
 
 REQUIRED_TEMPLATES = [
@@ -68,6 +75,7 @@ REQUIRED_TEMPLATES = [
     ".github/ISSUE_TEMPLATE/proof_mission_proposal.yml",
     ".github/ISSUE_TEMPLATE/security_boundary_report.yml",
     ".github/ISSUE_TEMPLATE/token_or_market_boundary.yml",
+    ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml",
     ".github/pull_request_template.md",
     ".github/workflows/goalos-docs-quality.yml",
 ]
@@ -259,7 +267,13 @@ else:
     add("missing_required_file", registry.relative_to(ROOT), "Machine-readable demo registry is missing")
 
 report = {
-    "status": "pass" if not issues else "fail",
+    "status": "passed" if not issues else "failed",
+    "missing_files": [issue for issue in issues if issue["kind"].startswith("missing")],
+    "broken_links": [issue for issue in issues if "link" in issue["kind"]],
+    "missing_sections": [issue for issue in issues if "readme" in issue["kind"]],
+    "boundary_issues": [issue for issue in issues if "boundary" in issue["kind"] or "forbidden" in issue["kind"]],
+    "risky_phrases": [issue for issue in issues if issue["kind"] == "forbidden_phrase"],
+    "recommendations": ["Keep strong claims tied to Evidence Dockets.", "Keep demos browser-local and public-safe.", "Run required local checks before release."],
     "checked_markdown_files": [str(path.relative_to(ROOT)) for path in markdown_files],
     "public_html_pages_found": len(public_html_pages),
     "demo_registry_entries": registry_demo_count,

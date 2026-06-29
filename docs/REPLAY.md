@@ -1,19 +1,8 @@
 # Replay
 
-Replay is the reviewer path for checking whether a docket can be inspected again.
+Replay means a reviewer can follow documented steps to regenerate or inspect the public-safe evidence path. Replay does not require private data, wallets, funds, secrets, or production authority. No replay, no settlement.
 
-```mermaid
-flowchart LR
-  Docket[Open Docket] --> Matrix[Inspect Claims Matrix]
-  Matrix --> Evidence[Check Evidence]
-  Evidence --> Replay
-  Replay --> Baselines[Review Baselines]
-  Baselines --> Verdict{Verdict}
-  Verdict --> Accept
-  Verdict --> Reject
-  Verdict --> Revise
-  Verdict --> Dissent
-```
+## Public-alpha boundary
 
-Run local checks, compare generated reports, cite commands, and record differences. Do not request secrets, wallets, private data, or live transactions.
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+

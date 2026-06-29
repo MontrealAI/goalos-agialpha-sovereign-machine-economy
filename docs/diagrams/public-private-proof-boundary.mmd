@@ -1,9 +1,6 @@
-flowchart TB
-  Private[Private Intelligence / Private Data] -->|stays private| PrivateVault[Private Boundary]
-  PrivateVault -. commitments only .-> PublicProof[Public Proof]
-  PublicProof --> Hashes
-  PublicProof --> Commitments
-  PublicProof --> Attestations
-  PublicProof --> Dockets
-  PublicProof --> Receipts
-  PublicProof --> Pointers
+flowchart LR
+  Private["Off-chain private intelligence"] --> Commit["Hashes and commitments"]
+  Private --> Pointers["Public-safe evidence pointers"]
+  Commit --> Public["Public proof: attestations, dockets, receipts"]
+  Pointers --> Public
+  Public --> Review["Reviewer inspection without private data"]

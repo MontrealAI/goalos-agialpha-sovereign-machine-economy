@@ -1,16 +1,16 @@
 name: External Reviewer Report
-description: Public-safe GoalOS intake template.
-title: "[EXTERNAL-REVIEWER-REPORT]: "
-labels: ["public-alpha", "needs-review"]
+description: Public-safe external reviewer report for GoalOS public-alpha.
+title: "[External Reviewer Report] "
+labels: ["public-alpha", "needs-human-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you. Keep this public-safe: no private data, no credentials, no wallet information, no funds, and no unsupported claims.
+        Public-safe reminder: do not paste private data, customer data, credentials, wallet information, private keys, seed phrases, payment details, trade secrets, proprietary data, or user funds. No funds. No wallet/private-key support. Human review required.
   - type: checkboxes
-    id: boundary-confirmation
+    id: public_safe_confirmation
     attributes:
-      label: Required public-safe confirmation
+      label: Public-safe confirmation
       options:
         - label: "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds."
           required: true
@@ -18,25 +18,21 @@ body:
     id: summary
     attributes:
       label: Summary
-      description: Describe the question, report, mission, or review in bounded language.
+      description: Use public-safe, synthetic, or already-public details only.
+      placeholder: What should a maintainer or reviewer understand?
     validations:
       required: true
   - type: textarea
-    id: evidence
+    id: expected_outcome
     attributes:
-      label: Public-safe evidence or links
-      description: Link only to public-safe repository paths, website pages, commands, or screenshots with no sensitive data.
+      label: Expected outcome
+      description: What result would resolve this issue?
     validations:
-      required: false
-  - type: dropdown
-    id: requested-outcome
+      required: true
+  - type: textarea
+    id: boundary_notes
     attributes:
-      label: Requested outcome
-      options:
-        - Accept
-        - Reject
-        - Revise
-        - Dissent
-        - Question only
+      label: Boundary notes
+      description: Note any claim-boundary, no-data/no-funds, token-boundary, or human-review concern.
     validations:
       required: true

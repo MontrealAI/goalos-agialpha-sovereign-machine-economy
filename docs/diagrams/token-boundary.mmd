@@ -1,6 +1,7 @@
 flowchart LR
-  ID[Public contract identification only] --> ThirdParty[Third-party context]
-  ThirdParty --> NotAvailable[Not available from repo / site / maintainers]
-  NotAvailable --> NoCustody[No custody]
-  NoCustody --> NoWallet[No wallet support]
-  NoWallet --> NoAdvice[No investment / trading / tax / legal advice]
+  N0["Public contract identification only"] --> N1["Third party context"]
+  N1["Third party context"] --> N2["Not available from us"]
+  N2["Not available from us"] --> N3["No custody"]
+  N3["No custody"] --> N4["No wallet"]
+  N4["No wallet"] --> N5["No advice"]
+  N5["No advice"] --> N6["User responsibility"]

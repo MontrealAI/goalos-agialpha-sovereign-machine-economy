@@ -1,10 +1,8 @@
 flowchart LR
-  Docket[Open Docket] --> Matrix[Inspect Claims Matrix]
-  Matrix --> Evidence[Check Evidence]
-  Evidence --> Replay
-  Replay --> Baselines[Review Baselines]
-  Baselines --> Verdict{Verdict}
-  Verdict --> Accept
-  Verdict --> Reject
-  Verdict --> Revise
-  Verdict --> Dissent
+  N0["Open Docket"] --> N1["Inspect Claims Matrix"]
+  N1["Inspect Claims Matrix"] --> N2["Check Evidence"]
+  N2["Check Evidence"] --> N3["Replay"]
+  N3["Replay"] --> N4["Review Baselines"]
+  N4["Review Baselines"] --> N5["Cost Risk"]
+  N5["Cost Risk"] --> N6["Verdict"]
+  N6["Verdict"] --> N7["Accept Reject Revise Dissent"]

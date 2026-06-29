@@ -1,15 +1,6 @@
-# Reviewer Guide
+# Mission Control
 
-Inspect an Evidence Docket by checking the Claims Matrix, baselines, proof packets, validator reports, cost/risk ledger, replay path, and Governed Decision State. Verdicts: accept, reject, request revision, or dissent.
-
-## Reviewer honesty box
-
-- What would change your mind?
-- What would falsify the claim?
-- Which evidence is missing?
-- Which claim is over-broad?
-- Which baseline should be stronger?
-- Which gate should block promotion?
+Mission Control organizes public-alpha missions after proposal: triage, scope, evidence requirements, validator routing, canary readiness, challenge window, rollback readiness, and governed decision state.
 
 ## Public-alpha boundary
 

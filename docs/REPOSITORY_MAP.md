@@ -1,16 +1,8 @@
-# Repository map
+# Repository Map
 
-| Path | Purpose |
-|---|---|
-| `public/` | Static website pages and browser-local demos |
-| `docs/` | Human-readable documentation |
-| `evidence/` | Evidence Dockets and proof artifacts |
-| `reports/` | QA and validation reports |
-| `replay/` | Replay instructions and review paths, if present |
-| `scripts/` | Deterministic generators and auditors |
-| `src/` | Reference implementation, if present |
-| `tests/` | Unit tests and validation tests, if present |
-| `.github/workflows/` | Autonomous GitHub Actions |
-| `.github/ISSUE_TEMPLATE/` | Public-safe intake templates |
-| `content/goalos/` | Machine-readable site and registry content |
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
+`public/` contains static website pages. `docs/` contains human docs. `content/goalos/` contains machine-readable registries. `scripts/` contains deterministic QA and generation scripts. `src/` contains Python modules. `tests/` contains unit tests. `reports/` contains generated reports.
+
+## Public-alpha boundary
+
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+

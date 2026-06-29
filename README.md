@@ -2,56 +2,111 @@
 
 **AI creates output. GoalOS creates proof.**
 
-[![Docs Quality](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-docs-quality.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-docs-quality.yml) [![Pages Deploy](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-latest-website-complete-update-autopilot.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-latest-website-complete-update-autopilot.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Public Alpha](https://img.shields.io/badge/status-public--alpha-7c3aed) ![No Data No Funds](https://img.shields.io/badge/no%20user%20data%20%2F%20funds-required-critical) ![Human Review](https://img.shields.io/badge/human%20review-required-0f766e) ![Last Commit](https://img.shields.io/github/last-commit/MontrealAI/goalos-agialpha-sovereign-machine-economy)
+[![Docs Quality](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-docs-quality.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-docs-quality.yml) [![Pages Deploy](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-latest-website-complete-update-autopilot.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-latest-website-complete-update-autopilot.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Public Alpha](https://img.shields.io/badge/status-public--alpha-7c3aed) ![No User Data](https://img.shields.io/badge/no%20user%20data-required-critical) ![No User Funds](https://img.shields.io/badge/no%20user%20funds-required-critical) ![Human Review Required](https://img.shields.io/badge/human%20review-required-0f766e) ![Browser Local Demos](https://img.shields.io/badge/demos-browser--local-0369a1)
 
-<p align="center"><a href="https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html"><strong>Visit the Website</strong></a> · <a href="docs/START_HERE.md">Start Here</a> · <a href="docs/PROOF_RUN_001.md">Proof Run 001</a> · <a href="docs/PROOF_LEDGER.md">Public Proof Ledger</a> · <a href="docs/DEMO_ECOSYSTEM.md">Demo Ecosystem Registry</a> · <a href="docs/EXTERNAL_REVIEW.md">External Reviewer Replay Room</a> · <a href="docs/NO_DATA_NO_FUNDS.md">No Data / No Funds</a> · <a href="docs/TOKEN_BOUNDARY.md">Token Boundary</a></p>
+**Visit the Website:** https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
 
-## 30-second explanation
-
-GoalOS is a public-alpha repository for making autonomous AI work reviewable. It organizes objectives into Mission Contracts, evidence into Evidence Dockets, review into validator paths, and outcomes into Governed Decision States. It is designed to prove bounded work, not to claim AGI achievement, production authorization, financial return, or legal conclusions.
-
-## 3-minute explanation
-
-A model can answer. An agent can act. An institution must prove. GoalOS treats every strong claim as a review object: define the claim, list baselines, collect proof packets, run validators, preserve replay paths, record cost/risk, and only then describe a governed decision. Private intelligence stays private. Public proof becomes inspectable through hashes, commitments, dockets, receipts, reports, and pointers.
-
-
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
-
-
-## Start here
-
-| Visitor | Best first link | What you get |
-|---|---|---|
-| Non-technical | [Start Here](docs/START_HERE.md) | Plain-language paths and safety boundaries |
-| Website visitor | [Live website](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html) | Browser-local public-alpha journey |
-| Reviewer | [Reviewer Guide](docs/REVIEWER_GUIDE.md) | How to inspect, replay, accept, reject, revise, or dissent |
-| Developer | [Developer Guide](docs/DEVELOPER_GUIDE.md) | Accurate local commands and troubleshooting |
-| Institution | [External Review](docs/EXTERNAL_REVIEW.md) | Evaluation path without private data or fund movement |
+**Start in under 60 seconds:** [Start Here](docs/START_HERE.md) · [Proof Run 001 Docket](docs/PROOF_RUN_001.md) · [Public Proof Ledger](docs/PROOF_LEDGER.md) · [Demo Ecosystem Registry](docs/DEMO_ECOSYSTEM.md) · [External Reviewer Replay Room](docs/EXTERNAL_REVIEW.md) · [No Data / No Funds / Token Boundary](docs/NO_DATA_NO_FUNDS.md)
 
 ## What this repository is / is not
 
-| This repository is | This repository is not |
-|---|---|
-| A public-alpha proof and documentation surface | A production authority system |
-| A static website and deterministic QA workspace | A wallet, exchange, broker, custodian, or token sale |
-| A place to inspect Evidence Dockets and validator paths | A place to submit private data, credentials, funds, or secrets |
-| A review-ready research and demo repository | A claim of AGI achievement, ASI, state-of-the-art empirical performance, legal compliance, or investment return |
+### What this is
+
+GoalOS is a public-alpha, claim-bounded repository for making autonomous AI work inspectable. It connects objectives, Mission Contracts, proof packets, validator reports, replay paths, cost/risk ledgers, and Governed Decision States.
+
+### What this is not
+
+It is not a production authority system, wallet, exchange, broker, custodian, token sale, legal opinion, financial recommendation, tax opinion, medical or cybersecurity advice, or a claim that AGI or ASI has been achieved, state-of-the-art empirical performance, production certification, mainnet authorization, or guaranteed ROI.
+
+## 30-second explanation
+
+A model can answer. An agent can act. An institution must prove. GoalOS turns AI work into a review object: claim, evidence, validator, replay, decision, rollback.
+
+## 3-minute explanation
+
+Do not put intelligence on-chain. Put proof of intelligence on-chain. GoalOS keeps private intelligence private while making public proof inspectable through hashes, attestations, dockets, receipts, and pointers. No Evidence Docket, no strong empirical claim. No ProofBundle, no settlement. No replay, no settlement. Score is advisory. Gates are mandatory.
 
 ## What users can do right now
 
-- Visit the [website](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html).
-- Follow the [public demo journey](docs/DEMO_ECOSYSTEM.md).
-- Read [Proof Run 001](docs/PROOF_RUN_001.md).
-- Inspect the [Public Proof Ledger](docs/PROOF_LEDGER.md).
-- Propose a public-safe mission using [Mission Forge](docs/MISSION_FORGE.md).
+| Action | Link | Boundary |
+|---|---|---|
+| Start safely | [Start Here](docs/START_HERE.md) | Read before trying demos |
+| Try browser-local demos | [Demo Ecosystem](docs/DEMO_ECOSYSTEM.md) | No accounts, wallets, or funds |
+| Review evidence | [Proof Run 001](docs/PROOF_RUN_001.md) | Human review required |
+| Challenge a claim | [Reviewer Guide](docs/REVIEWER_GUIDE.md) | Accept, reject, revise, or dissent |
+| Run checks | [Developer Guide](docs/DEVELOPER_GUIDE.md) | Deterministic local QA |
+
+## Choose your path
+
+| I am... | Go to | Outcome |
+|---|---|---|
+| non-technical | [Non-Technical Guide](docs/NON_TECHNICAL_GUIDE.md) | Know what to click and what not to paste |
+| trying demos | [Demo Ecosystem](docs/DEMO_ECOSYSTEM.md) | Route from page to proof artifact |
+| reviewing evidence | [Reviewer Guide](docs/REVIEWER_GUIDE.md) | Inspect docket, replay, verdict |
+| proposing a proof mission | [Mission Forge](docs/MISSION_FORGE.md) | Public-safe mission proposal |
+| a developer | [Developer Guide](docs/DEVELOPER_GUIDE.md) | Local commands and tests |
+| an external reviewer | [External Review](docs/EXTERNAL_REVIEW.md) | Independent review path |
+| an institution | [Architecture](docs/ARCHITECTURE.md) | Public/private proof model |
+
+## Core doctrine
+
+- AI creates output. GoalOS creates proof.
+- No proof, no evolution. No eval, no propagation. No rollback, no release.
+- Private intelligence stays private. Public proof becomes inspectable.
+- The deliverable is a Governed Decision State, not merely a document.
+- Verified work becomes reusable capability only under proof, governance, review, and risk boundaries.
+
+## Repository map
+
+See [Repository Map](docs/REPOSITORY_MAP.md). Key folders: `public/`, `docs/`, `content/goalos/`, `scripts/`, `src/`, `tests/`, `reports/`, `.github/workflows/`, `.github/ISSUE_TEMPLATE/`.
+
+## Public website map
+
+See [Website Map](docs/WEBSITE_MAP.md). Public routes include Start, Atlas, Registry, Proof Ledger, Proof Run 001, Reviewer Room, Mission Forge, Mission Control, Trust Boundary, and Token Boundary.
+
+## Public demo journey
+
+Start at the website, then use Start Here, Atlas, Registry, Proof Ledger, Mission Forge, Mission Control, Proof Run 001, and External Reviewer Replay Room.
+
+## Demo ecosystem
+
+See [Demo Ecosystem Registry](docs/DEMO_ECOSYSTEM.md) and [`content/goalos/demo-ecosystem-registry.json`](content/goalos/demo-ecosystem-registry.json).
+
+<details><summary>Major browser-local demo families</summary>
+
+Start Here; Website Operating System; Proof Experience Atlas; Demo Ecosystem Registry; Public Proof Ledger; Proof Run 001 Docket; Proof Run 001 Execution Room; Proof Mission Forge; Proof Mission Control; External Reviewer Replay Room; Multi-Agent Institution; Proof Gradient Lab; Evidence Docket Theatre; Proof-to-Action Command Room; Capability Compounding Lab; Proof-Settlement Chronicle Lab; Falsification Gauntlet; Real-Task Benchmark Bridge; Proof-Carrying Artifact Foundry; Evolution Ledger Control Room; Proof-Backed Upgrade Rights Room; Institutional Deployment Wedge; Open-Ended Work Engine; Validator Council Arena; Action-Reason Trace Contract; Frontier Release Room; Proof Console; Try GoalOS; Docket Builder; Proof Flight; Agent Constellation; Proof Card Studio.
+
+</details>
+
+## Proof Run 001
+
+[Proof Run 001](docs/PROOF_RUN_001.md) is the canonical public-alpha evidence walkthrough for claims matrix, proof packets, validator packet, replay path, and governed decision state.
+
+## Evidence and reports
+
+## Evidence Dockets and reports
+
+Use [Proof Ledger](docs/PROOF_LEDGER.md), [Replay](docs/REPLAY.md), `public/downloads/proof-run-001/`, and `reports/`.
 
 ## What reviewers can inspect
 
-- Claims matrix, proof packets, validator reports, replay steps, cost/risk ledgers, and governed decision state notes.
-- Public pages such as [Proof Run 001 Docket](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html), [Proof Ledger](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-ledger.html), and [External Reviewer Replay Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html).
-- Repository outputs under `evidence/`, `reports/`, `replay/`, `content/goalos/`, and `docs/`.
+Reviewers can inspect Claims Matrix files, baselines, proof packets, validator reports, cost/risk ledgers, replay paths, and Governed Decision State outputs.
+
+## How to review or challenge a docket
+
+Use the reviewer path to accept, reject, request revision, or dissent.
+
+## Reviewer / validator path
+
+Open a docket, inspect the Claims Matrix, check evidence, run replay, inspect baselines, inspect cost/risk, then accept, reject, request revision, or file dissent. See [Validator Guide](docs/VALIDATOR_GUIDE.md).
 
 ## What developers can run locally
+
+Developers can run deterministic documentation QA, repository validation, site build, site verification, unit tests, and a local static server.
+
+## How to run locally
+
+## Local developer quickstart
 
 ```bash
 python scripts/goalos_docs_quality.py
@@ -59,93 +114,62 @@ python scripts/validate_repo.py
 python scripts/build_site.py
 python scripts/verify_site.py
 python -m unittest discover -s tests
-```
-
-See [Developer Guide](docs/DEVELOPER_GUIDE.md).
-
-## Repository map
-
-See [Repository Map](docs/REPOSITORY_MAP.md). Key surfaces: `public/` website pages, `docs/` human-readable docs, `evidence/` dockets, `reports/` QA outputs, `scripts/` deterministic checks, `tests/` tests, and `.github/workflows/` GitHub Actions.
-
-## Public demo journey
-
-Start at [Start Here](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/start-here.html), then use [Proof Experience Atlas](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-experience-atlas.html), [Demo Ecosystem Registry](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/demo-ecosystem-registry.html), [Proof Ledger](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-ledger.html), [Mission Forge](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-forge.html), [Mission Control](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-control.html), [Proof Run 001](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html), and [External Reviewer Replay Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html).
-
-## Evidence and reports
-
-- [Evidence directory](evidence/README.md)
-- [Docs quality report](reports/docs-quality.json)
-- [Documentation upgrade report](reports/repository-documentation-upgrade-v1.json)
-- [Demo registry JSON](content/goalos/demo-ecosystem-registry.json)
-
-## How to propose a proof mission
-
-Use [Mission Forge](docs/MISSION_FORGE.md) and the `proof_mission_proposal` issue template. Keep the mission bounded, replayable, public-safe, and reviewable. Do not include sensitive data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds.
-
-## How to review or challenge a docket
-
-Use [Reviewer Guide](docs/REVIEWER_GUIDE.md) and [Replay](docs/REPLAY.md). File accept, reject, revise, or dissent feedback with the evidence docket review or external reviewer report issue template.
-
-## How to run locally
-
-```bash
-git clone https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy.git
-cd goalos-agialpha-sovereign-machine-economy
-python scripts/goalos_docs_quality.py
-python scripts/build_site.py
 python -m http.server 8000 --directory public
 ```
 
-Open `http://localhost:8000`.
+## GitHub Web UI maintainer instructions
+
+See [Repository Settings](docs/REPOSITORY_SETTINGS.md) for Actions, Pages, artifacts, releases, social preview, branch settings, and safe issue/PR review.
+
+## Claim boundary
+
+## Claim boundaries
+
+See [Claim Boundary](docs/CLAIM_BOUNDARY.md). Strong empirical claims require Evidence Dockets.
+
+## Legal / privacy / token boundary
+
+## No data / no funds / privacy boundary
+
+See [No Data / No Funds](docs/NO_DATA_NO_FUNDS.md), [Privacy](PRIVACY.md), and [Data Boundary](DATA_BOUNDARY.md).
+
+## $AGIALPHA public-market token boundary
+
+See [Token Boundary](TOKEN_BOUNDARY.md) and [docs Token Boundary](docs/TOKEN_BOUNDARY.md). Public contract address may be shown only as public-contract identification. $AGIALPHA is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation.
+
+## Security and responsible disclosure
+
+See [Security](SECURITY.md). Do not post secrets, credentials, exploit payloads, private keys, seed phrases, wallet screenshots with sensitive details, or user funds.
+
+## How to propose a proof mission
+
+Use Mission Forge to propose a bounded public-safe proof mission with evidence needs, validators, risk, rollback, and human review.
 
 ## How to contribute safely
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md). Preserve claim boundaries, avoid unsupported claims, and never post private data or fund-transfer material.
+## Contributing safely
 
-<details><summary><strong>Claim boundary</strong></summary>
-
-No Evidence Docket, no strong empirical claim. No proof, no evolution. No eval, no propagation. No rollback, no release. This repository does not claim AGI achievement, ASI achievement, state-of-the-art empirical performance, production certification, mainnet authorization, legal advice, tax advice, security assurance, or investment return.
-
-</details>
-
-<details><summary><strong>Legal / privacy / token boundary</strong></summary>
-
-See [PRIVACY.md](PRIVACY.md), [DATA_BOUNDARY.md](DATA_BOUNDARY.md), [DISCLAIMER.md](DISCLAIMER.md), and [TOKEN_BOUNDARY.md](TOKEN_BOUNDARY.md). $AGIALPHA public contract address is public-contract identification only. $AGIALPHA is not available from this repository, website, maintainers, GitHub Issues, demos, or docs.
-
-</details>
+See [Contributing](CONTRIBUTING.md). Preserve public/private proof boundaries and claim boundaries.
 
 ## Citation / research canon
 
-Use [CITATION.cff](CITATION.cff), [REFERENCES.md](REFERENCES.md), and the [Research Spine](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/research-spine.html). Cite repository artifacts by path and commit when reviewing.
+## Research canon
+
+See [References](REFERENCES.md), [Research Spine](docs/research/RESEARCH_SPINE.md), and standards in `standards/`.
 
 ## Release / roadmap
 
-See [Roadmap](docs/ROADMAP.md), [Release Checklist](docs/RELEASE_CHECKLIST.md), and [Proof Run 001 Release Checklist](docs/PROOF_RUN_001_RELEASE_CHECKLIST.md). Current status: public-alpha, review-ready where evidence exists, not production authorized.
+## Roadmap
+
+See [Roadmap](docs/ROADMAP.md). Current posture: public-alpha release readiness, not production readiness.
+
+## Releases
+
+See [Release Checklist](docs/RELEASE_CHECKLIST.md) and [Proof Run 001 Release Checklist](docs/PROOF_RUN_001_RELEASE_CHECKLIST.md).
 
 ## Maintainer checklist
 
-- Run docs QA and required local checks.
-- Confirm no unsupported claim, user-data path, user-funds path, wallet path, transaction path, or production authority was introduced.
-- Confirm public pages still build and verify.
-- Confirm issue/PR templates preserve boundary confirmations.
-
-<!-- GOALOS_WEBSITE_EXPERIENCE_OS_V2_START -->
-## Website Experience OS V2
-
-The public website is now organized as a complete proof journey, not a loose list of demos.
-
-Primary paths:
-
-| Path | Purpose |
-|---|---|
-| [Start](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html) | Main public front door. |
-| [Website Operating System](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/website-operating-system.html) | Complete navigation map. |
-| [Pathfinder](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/pathfinder.html) | Role-based route for new users, reviewers, mission authors, developers, and institutions. |
-| [Demo Ecosystem Registry](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/demo-ecosystem-registry.html) | Canonical route registry for demos, inputs, outputs, gates, and next states. |
-| [Public Proof Ledger](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-ledger.html) | Registry of dockets, reports, and proof surfaces. |
-| [Proof Run 001 Docket](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html) | First repository-readiness Evidence Docket. |
-| [External Reviewer Replay Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html) | Independent review and replay path. |
-
-Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
-<!-- GOALOS_WEBSITE_EXPERIENCE_OS_V2_END -->
-
+- Run docs QA, repo validation, site build, site verification, and unit tests.
+- Confirm no user data, funds, wallets, transactions, unsupported claims, or weakened boundaries.
+- Confirm reports and artifacts are generated.
+- Confirm human review required remains visible.

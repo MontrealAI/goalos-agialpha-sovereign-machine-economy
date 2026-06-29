@@ -1,4 +1,8 @@
-# Security policy
+# Security and Responsible Disclosure
 
-Report vulnerabilities responsibly. Do not post secrets, credentials, private keys, seed phrases, exploit payloads, wallet data, user funds, or sensitive third-party target details in public issues. Do not test external targets. This public repository does not provide custody, wallet support, live transaction support, security assurance, or production authorization.
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
+Report vulnerabilities without posting secrets or exploit payloads publicly. If GitHub private vulnerability reporting is enabled, use it. Otherwise file a security boundary issue with only public-safe details. Do not test external targets. Do not include credentials, private keys, seed phrases, wallet screenshots with sensitive details, customer data, or user funds.
+
+## Public-alpha boundary
+
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+

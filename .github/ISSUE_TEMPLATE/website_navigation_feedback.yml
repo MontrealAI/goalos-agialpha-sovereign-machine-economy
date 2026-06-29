@@ -1,14 +1,12 @@
-name: Token Or Market Boundary
-description: Public-safe token or market boundary for GoalOS public-alpha.
-title: "[Token Or Market Boundary] "
+name: Website Navigation Feedback
+description: Public-safe website navigation feedback for GoalOS public-alpha.
+title: "[Website Navigation Feedback] "
 labels: ["public-alpha", "needs-human-review"]
 body:
   - type: markdown
     attributes:
       value: |
         Public-safe reminder: do not paste private data, customer data, credentials, wallet information, private keys, seed phrases, payment details, trade secrets, proprietary data, or user funds. No funds. No wallet/private-key support. Human review required.
-      description: "$AGIALPHA is not available from the repo/site/maintainers. No investment, trading, wallet, bridge, exchange, liquidity, support, or market requests. Third-party market questions are outside repository support; users are responsible for their own review."
-
   - type: checkboxes
     id: public_safe_confirmation
     attributes:
