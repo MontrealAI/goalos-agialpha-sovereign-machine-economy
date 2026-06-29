@@ -1,8 +1,10 @@
 {
   "status": "pass",
-  "generated_at_utc": "2026-06-26T18:45:20.022777+00:00",
-  "pages_checked": 39,
+  "generated_at_utc": "2026-06-29T20:07:08.753926+00:00",
+  "pages_checked": 126,
   "expected_pages": 39,
   "errors": [],
-  "warnings": []
+  "warnings": [
+    "extra generated pages: 404.html, action-reason-trace-contract.html, agent-constellation-demo.html, agi-alpha-node-v0.html, agi-alpha-thesis.html, agi-jobs-v0-v2.html, agialpha-control-rail.html, agialpha-token-boundary.html, architecture.html, capability-compounding-lab.html, capability-parity.html, console.html, coordination-console.html, data-boundary.html, demo-ecosystem-registry.html, demo-gallery.html, demo-launcher.html, demo-safety.html, docket-builder.html, document-series.html, evaluation-program.html, evidence-docket-theatre.html, evolution-ledger-control-room.html, external-reviewer-replay-room.html, falsification-box.html, falsification-gauntlet.html, for-new-users.html, for-reviewers.html, frontier-release-case-study.html, frontier-release-doctrine.html, frontier-release-room.html, glossary.html, help-center.html, historical-command-center.html, holy-grail-candidate.html, institutional-deployment-wedge.html, investment-token-boundary.html, launch-narrative.html, legal.html, local-autopilot-demo.html, meta-agentic-alpha-agi.html, mission-os-canon.html, multi-agent-institution.html, no-data-no-funds.html, open-ended-work-engine.html, operator-checklist.html, paper-to-product.html, privacy.html, product.html, proof-backed-upgrade-rights-room.html, proof-card-studio.html, proof-carrying-artifact-foundry.html, proof-experience-atlas.html, proof-flight-demo.html, proof-gradient-lab.html, proof-ledger.html, proof-metrics-dashboard.html, proof-mission-control.html, proof-mission-forge.html, proof-mission-slots.html, proof-of-evolution.html, proof-run-001-docket.html, proof-run-001-execution-room.html, proof-run-001-live.html, proof-run-001.html, proof-settlement-chronicle-lab.html, proof-to-action-command-room.html, quick-tour.html, real-task-benchmark-bridge.html, research-spine.html, responsible-use.html, reviewer-path.html, run-locally.html, security-boundary.html, site-map.html, sovereign-experience-stream-lab.html, start-here.html, terms.html, token.html, trust.html, try-goalos.html, validator-council-arena.html, validator-room.html, validator-seats.html, value-realization-control-room.html, website-operating-system.html, what-goalos-does.html"
+  ]
 }

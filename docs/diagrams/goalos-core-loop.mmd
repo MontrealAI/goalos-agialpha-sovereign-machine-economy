@@ -1,0 +1,9 @@
+flowchart LR
+  Objective --> MissionContract[Mission Contract]
+  MissionContract --> AutonomousWork[Autonomous Work]
+  AutonomousWork --> Verification
+  Verification --> EvidenceDocket[Evidence Docket]
+  EvidenceDocket --> GDS[Governed Decision State]
+  GDS --> ActionGraph[Action Graph]
+  ActionGraph --> Chronicle
+  Chronicle --> Capability[Reusable Capability]

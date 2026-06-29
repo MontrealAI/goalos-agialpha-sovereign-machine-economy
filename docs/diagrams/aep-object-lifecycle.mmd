@@ -1,0 +1,8 @@
+flowchart LR
+  GoalOSCommit --> RunCommitment
+  RunCommitment --> ProofPacket
+  ProofPacket --> EvalAttestation
+  EvalAttestation --> SelectionCertificate
+  SelectionCertificate --> RolloutReceipt
+  RolloutReceipt --> RollbackReceipt
+  RollbackReceipt --> EvolutionLedgerEntry

@@ -1,0 +1,8 @@
+flowchart LR
+  Claim --> ClaimsMatrix[Claims Matrix]
+  ClaimsMatrix --> Baselines
+  Baselines --> ProofPackets[Proof Packets]
+  ProofPackets --> ValidatorReports[Validator Reports]
+  ValidatorReports --> CostRiskLedger[Cost / Risk Ledger]
+  CostRiskLedger --> ReplayPath[Replay Path]
+  ReplayPath --> GDS[Governed Decision State]

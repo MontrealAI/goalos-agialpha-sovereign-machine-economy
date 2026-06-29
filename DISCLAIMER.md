@@ -1,21 +1,7 @@
-# GoalOS Legal Disclaimer and Claim Boundary
+# Disclaimer
 
-GoalOS is a public-alpha proof architecture. It does **not** claim achieved AGI, achieved ASI, superintelligence, empirical SOTA, production authorization, legal approval, financial advice, investment advice, medical advice, tax advice, cybersecurity certification, mainnet activation, user-fund authorization, token offering, guaranteed outcomes, guaranteed revenue, or guaranteed compliance.
+We do not want user data. We do not want user funds. Do not submit personal/customer/confidential/regulated/credential/wallet/payment/private-key/seed-phrase/trade-secret data.
 
-The stronger claim is narrower and defensible:
+$AGIALPHA public contract address is identification only. $AGIALPHA is not available from us. We do not sell, distribute, custody, broker, recommend, market, list, support, provide liquidity for, or make available $AGIALPHA. We do not provide investment, trading, tax, legal, exchange, bridge, liquidity, wallet, or regulatory advice. Third parties are responsible for their own review and compliance.
 
-> GoalOS provides a proof architecture for autonomous AI work.
-
-Empirical claims require real tasks, Evidence Dockets, baselines, replay logs, validator reports, cost/risk ledgers, delayed outcomes, and independent review.
-
-<!-- GOALOS_PUBLIC_ALPHA_BOUNDARY_V2:START -->
-## GoalOS public-alpha boundary
-
-GoalOS is a public-alpha proof architecture.
-
-No user data. No user funds. GoalOS does not want user data. GoalOS does not want user funds. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, health, children’s, privileged, trade-secret, or proprietary data through public channels.
-
-The public website and demos are browser-local public demonstrations: no wallet, no transaction, no network call, no production authority, and human review required.
-
-GoalOS does not claim achieved AGI, not achieved ASI, empirical SOTA, production authorization, legal approval, user-fund authorization, mainnet activation, not investment advice, trading advice, tax advice, or guaranteed outcomes.
-<!-- GOALOS_PUBLIC_ALPHA_BOUNDARY_V2:END -->
+> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.

@@ -1,0 +1,10 @@
+flowchart LR
+  Docket[Open Docket] --> Matrix[Inspect Claims Matrix]
+  Matrix --> Evidence[Check Evidence]
+  Evidence --> Replay
+  Replay --> Baselines[Review Baselines]
+  Baselines --> Verdict{Verdict}
+  Verdict --> Accept
+  Verdict --> Reject
+  Verdict --> Revise
+  Verdict --> Dissent

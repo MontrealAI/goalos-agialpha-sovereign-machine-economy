@@ -1,23 +1,42 @@
-name: New user question
-description: Ask a public-safe question without sharing private data.
-title: "[New user question]: "
-labels: ["user-friendly", "question"]
+name: New User Question
+description: Public-safe GoalOS intake template.
+title: "[NEW-USER-QUESTION]: "
+labels: ["public-alpha", "needs-review"]
 body:
   - type: markdown
     attributes:
       value: |
-        Public-safe questions only. Do not include personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
-  - type: textarea
-    id: question
+        Thank you. Keep this public-safe: no private data, no credentials, no wallet information, no funds, and no unsupported claims.
+  - type: checkboxes
+    id: boundary-confirmation
     attributes:
-      label: Question
-      description: Ask using public-safe information only.
+      label: Required public-safe confirmation
+      options:
+        - label: "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds."
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the question, report, mission, or review in bounded language.
     validations:
       required: true
-  - type: checkboxes
-    id: boundary
+  - type: textarea
+    id: evidence
     attributes:
-      label: Boundary confirmation
+      label: Public-safe evidence or links
+      description: Link only to public-safe repository paths, website pages, commands, or screenshots with no sensitive data.
+    validations:
+      required: false
+  - type: dropdown
+    id: requested-outcome
+    attributes:
+      label: Requested outcome
       options:
-        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, funds, private keys, seed phrases, or trade secrets.
-          required: true
+        - Accept
+        - Reject
+        - Revise
+        - Dissent
+        - Question only
+    validations:
+      required: true
