@@ -1,6 +1,6 @@
 {
   "schema": "goalos.public_proof_ledger.v1",
-  "generated_at": "2026-06-29T03:07:27.729458Z",
+  "generated_at": "2026-06-29T03:08:26.749043Z",
   "boundary": {
     "no_user_data": true,
     "no_user_funds": true,
@@ -11,7 +11,7 @@
   },
   "totals": {
     "dockets": 30,
-    "reports": 108,
+    "reports": 111,
     "pages": 32,
     "review_paths": 24,
     "missing": 0
@@ -1053,6 +1053,27 @@
       "type": "report",
       "status": "pass",
       "path": "reports/proof-velocity.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Public Proof Ledger V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/public-proof-ledger-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Public Proof Ledger V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/public-proof-ledger-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Public Proof Ledger V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/public-proof-ledger-v1-qa.json",
       "summary": "Registered public artifact generated from repository evidence."
     },
     {

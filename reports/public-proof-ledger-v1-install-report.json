@@ -1,10 +1,10 @@
 {
   "status": "installed",
-  "generated_at": "2026-06-29T03:07:27.729458Z",
-  "entries": 193,
+  "generated_at": "2026-06-29T03:08:26.749043Z",
+  "entries": 196,
   "totals": {
     "dockets": 30,
-    "reports": 108,
+    "reports": 111,
     "pages": 32,
     "review_paths": 24,
     "missing": 0
