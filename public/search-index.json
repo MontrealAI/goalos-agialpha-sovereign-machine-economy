@@ -272,5 +272,10 @@
     "title": "Demo Ecosystem Registry",
     "url": "demo-ecosystem-registry.html",
     "description": "Canonical routing matrix for GoalOS demos."
+  },
+  {
+    "title": "Proof-Carrying Artifact Foundry",
+    "url": "proof-carrying-artifact-foundry.html",
+    "description": "Browser-local demo showing how raw output becomes reusable capability only after proof, evaluation, rollback, scope, and replay gates pass."
   }
 ]

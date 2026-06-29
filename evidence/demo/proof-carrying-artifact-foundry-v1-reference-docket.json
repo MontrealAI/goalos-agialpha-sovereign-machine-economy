@@ -1,0 +1,37 @@
+{
+  "schema": "goalos.proof_carrying_artifact_foundry.reference_run.v1",
+  "generatedAt": "2026-06-29T13:05:36.152737+00:00",
+  "artifactId": "pca-reference-repository-readiness-review",
+  "artifactClass": "capability",
+  "title": "Repository Launch Readiness Review capability package",
+  "publicAlpha": true,
+  "browserLocal": true,
+  "noUserData": true,
+  "noUserFunds": true,
+  "noWallet": true,
+  "noTransaction": true,
+  "noNetworkCall": true,
+  "humanReviewRequired": true,
+  "gates": {
+    "proofValid": true,
+    "evalPass": true,
+    "baselineCompared": true,
+    "rollbackReady": true,
+    "scopeAuthorized": true,
+    "challengeCleared": true,
+    "privacyBoundary": true,
+    "replayPath": true
+  },
+  "decisionState": "ACTIVE_REVIEW_READY",
+  "readiness": 100,
+  "selectionCertificate": {
+    "decision": "review_ready_not_production_authorized",
+    "scope": "public-alpha-review",
+    "promotionAuthorized": false
+  },
+  "rollbackReceipt": {
+    "rollbackReady": true,
+    "rollbackTarget": "previous-safe-artifact-version",
+    "productionRollback": false
+  }
+}

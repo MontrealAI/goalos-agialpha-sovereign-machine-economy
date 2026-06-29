@@ -1,0 +1,39 @@
+name: Proof-Carrying Artifact Foundry feedback
+description: Report feedback on the browser-local Proof-Carrying Artifact Foundry demo.
+title: "[Proof-Carrying Artifact Foundry] "
+labels: ["proof-carrying-artifact", "public-alpha", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the GoalOS Proof-Carrying Artifact Foundry.
+
+        Do not submit personal data, customer data, credentials, secrets, wallet information, private keys, seed phrases, payment data, confidential data, regulated data, or trade secrets.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Review verdict
+      options:
+        - Accept for public-alpha review
+        - Hold pending proof
+        - Hold pending rollback
+        - Hold pending replay
+        - Reject privacy-boundary failure
+        - UX / visual issue
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What should be improved?
+    validations:
+      required: true

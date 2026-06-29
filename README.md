@@ -1379,3 +1379,16 @@ The Real-Task Benchmark Bridge is a browser-local public demonstration that show
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 <!-- GOALOS_REAL_TASK_BENCHMARK_BRIDGE_V1_END -->
+
+<!-- GOALOS_PROOF_CARRYING_ARTIFACT_FOUNDRY_V1_START -->
+## GoalOS Proof-Carrying Artifact Foundry V1
+
+The Artifact Foundry is a browser-local public demonstration of the AEP-001 principle that the central reusable object is not the agent or the model, but the **Proof-Carrying Artifact**.
+
+- Live page: `public/proof-carrying-artifact-foundry.html`
+- Public URL: `https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-carrying-artifact-foundry.html`
+- Doctrine: score is advisory; gates are mandatory.
+- Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+The page lets users transform a raw artifact candidate into a proof-carrying artifact with proof history, eval gate, baseline comparison, rollback target, scope authorization, challenge window, replay path, Selection Certificate, Rollback Receipt, and Evolution Ledger entry.
+<!-- GOALOS_PROOF_CARRYING_ARTIFACT_FOUNDRY_V1_END -->
