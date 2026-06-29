@@ -1,0 +1,42 @@
+{
+  "name": "GoalOS Value Realization Control Room V1",
+  "url": "value-realization-control-room.html",
+  "canonical_url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/value-realization-control-room.html",
+  "one_line": "Verified work becomes allocable capacity.",
+  "category": "capacity allocation / value realization / adoption bridge",
+  "inputs": [
+    "scenario",
+    "candidate capability",
+    "verified work strength",
+    "reusability",
+    "governance",
+    "risk",
+    "allocation policy",
+    "proof gates"
+  ],
+  "outputs": [
+    "Value Realization Ledger",
+    "Capacity Allocation Plan",
+    "Strategic Capability Asset Map",
+    "Sovereign Invention Reserve Entry",
+    "Reviewer Brief"
+  ],
+  "gates": [
+    "Evidence Docket",
+    "Validator review",
+    "Capability package",
+    "Value ledger",
+    "Capacity allocation policy",
+    "Risk/legal boundary",
+    "No-data/no-funds boundary",
+    "Human review"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "wallet_or_mainnet": false,
+    "network_calls": false,
+    "human_review_required": true
+  },
+  "generated_at": "2026-06-29T18:09:21+00:00"
+}

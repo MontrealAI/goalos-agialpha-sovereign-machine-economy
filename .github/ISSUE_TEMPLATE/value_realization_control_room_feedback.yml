@@ -1,0 +1,25 @@
+name: GoalOS Value Realization Control Room feedback
+description: Report feedback for the browser-local value realization demo.
+title: "[Value Realization] "
+labels: ["feedback", "demo", "value-realization"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the GoalOS Value Realization Control Room.
+
+        Do not submit personal data, customer data, confidential data, credentials, wallet information, funds, private keys, seed phrases, or trade secrets.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved?
+    validations:
+      required: true

@@ -1,0 +1,28 @@
+{
+  "title": "GoalOS Value Realization Control Room V1 Reference Docket",
+  "generated_at": "2026-06-29T18:09:21+00:00",
+  "claim": "Accepted proof can be represented as review-ready value realization and capacity allocation without user data, funds, wallets, transactions, or network calls.",
+  "decision_state": "VALUE_REALIZATION_REVIEW_READY",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "artifacts": [
+    "Value Realization Ledger",
+    "Capacity Allocation Plan",
+    "Strategic Capability Asset Map",
+    "Sovereign Invention Reserve Entry",
+    "Reviewer Brief"
+  ],
+  "gates": {
+    "evidence_docket": true,
+    "validator_review": true,
+    "capability_package": true,
+    "value_ledger": true,
+    "allocation_policy": true,
+    "risk_boundary": true,
+    "no_data_no_funds": true,
+    "human_review": true
+  }
+}

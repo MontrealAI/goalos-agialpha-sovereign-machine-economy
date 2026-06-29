@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Value Realization Control Room — Verified Work Becomes Allocable Capacity</title>
+  <meta name="description" content="A browser-local GoalOS public demo showing how accepted evidence becomes value realization, capacity allocation, and harder future missions without user data, funds, wallets, or network calls.">
+  <meta property="og:title" content="GoalOS Value Realization Control Room">
+  <meta property="og:description" content="Verified work becomes allocable capacity. A browser-local public demo of GoalOS value realization and capacity allocation governance.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-value-realization-control-room-v1.css">
+</head>
+<body>
+  <a class="skip" href="#lab">Skip to lab</a>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home"><span class="mark">α</span><span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span></a>
+    <nav aria-label="Primary navigation">
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+      <a href="institutional-deployment-wedge.html">Deployment Wedge</a>
+      <a class="active" href="value-realization-control-room.html">Value Room</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Public demo / browser-local / no data</p>
+        <h1>Verified work becomes <em>allocable capacity.</em></h1>
+        <p class="lede">Run a proof-cleared capability through a value realization ledger, choose a capacity allocation policy, stress the governance boundary, and see whether the institution earns the right to reinvest into harder future missions.</p>
+        <div class="hero-actions">
+          <button id="runCycle" class="primary">Run value cycle</button>
+          <button id="stressValue" class="secondary">Stress governance</button>
+          <button id="resetRoom" class="ghost">Reset</button>
+        </div>
+        <div class="boundary" role="note">No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
+      </div>
+      <div class="hero-visual" aria-label="Value realization flywheel preview">
+        <div class="mode-tabs" role="tablist" aria-label="Mode">
+          <button class="mode active" data-mode="executive" role="tab">Executive</button>
+          <button class="mode" data-mode="technical" role="tab">Technical</button>
+        </div>
+        <svg class="flywheel" viewBox="0 0 720 520" role="img" aria-labelledby="svgTitle svgDesc">
+          <title id="svgTitle">GoalOS value realization flywheel</title>
+          <desc id="svgDesc">Verified work moves into reusable capability, value realization, capacity allocation, strategic reserves, and harder future missions under governance gates.</desc>
+          <defs>
+            <radialGradient id="coreGlow" cx="50%" cy="48%" r="55%"><stop offset="0%" stop-color="#fff27a"/><stop offset="42%" stop-color="#74ffd4"/><stop offset="78%" stop-color="#8aa7ff"/><stop offset="100%" stop-color="#201247"/></radialGradient>
+            <linearGradient id="arc" x1="0" x2="1"><stop offset="0%" stop-color="#6affd3"/><stop offset="50%" stop-color="#ffe972"/><stop offset="100%" stop-color="#a88cff"/></linearGradient>
+          </defs>
+          <rect x="18" y="18" width="684" height="484" rx="32" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.20)"/>
+          <g class="orbit orbit-a"><ellipse cx="360" cy="260" rx="250" ry="122" fill="none" stroke="url(#arc)" stroke-width="1.5" stroke-dasharray="7 9" opacity=".7"/></g>
+          <g class="orbit orbit-b"><ellipse cx="360" cy="260" rx="154" ry="228" fill="none" stroke="#6affd3" stroke-width="1.3" stroke-dasharray="4 11" opacity=".45" transform="rotate(32 360 260)"/></g>
+          <circle cx="360" cy="260" r="64" fill="url(#coreGlow)" opacity=".95"/>
+          <text x="360" y="251" text-anchor="middle" class="alpha">α</text>
+          <text x="360" y="287" text-anchor="middle" class="core-label">VALUE RAIL</text>
+          <g id="svgNodes"></g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Current state metrics">
+      <article><strong id="readiness">74</strong><span>Readiness</span></article>
+      <article><strong id="capacityGain">31%</strong><span>Capacity gain</span></article>
+      <article><strong id="allocationEff">0.68</strong><span>Allocation efficiency</span></article>
+      <article><strong id="riskIndex">18</strong><span>Risk pressure</span></article>
+      <article><strong id="decisionState">HOLD_HUMAN_REVIEW</strong><span>Decision state</span></article>
+    </section>
+
+    <section id="lab" class="lab-grid">
+      <aside class="panel controls">
+        <div class="panel-head"><span>01</span><h2>Configure the value path</h2></div>
+        <label>Value scenario
+          <select id="scenarioSelect"></select>
+        </label>
+        <label>Candidate capability
+          <textarea id="capabilityText" rows="5"></textarea>
+        </label>
+        <div class="pair">
+          <label>Verified work strength <output id="verifiedOut">78</output>
+            <input id="verified" type="range" min="0" max="100" value="78">
+          </label>
+          <label>Reusability <output id="reuseOut">64</output>
+            <input id="reuse" type="range" min="0" max="100" value="64">
+          </label>
+        </div>
+        <div class="pair">
+          <label>Governance quality <output id="govOut">82</output>
+            <input id="governance" type="range" min="0" max="100" value="82">
+          </label>
+          <label>Risk pressure <output id="riskOut">18</output>
+            <input id="risk" type="range" min="0" max="100" value="18">
+          </label>
+        </div>
+        <label>Capacity allocation policy
+          <select id="allocationPolicy">
+            <option value="balanced">Balanced proof commons</option>
+            <option value="validator">Validator capacity first</option>
+            <option value="compute">Compute / tooling reserve</option>
+            <option value="invention">Sovereign invention reserve</option>
+            <option value="public-good">Public-good proof infrastructure</option>
+          </select>
+        </label>
+        <div class="toggles" id="gateToggles" aria-label="Mandatory gates"></div>
+      </aside>
+
+      <section class="panel theatre">
+        <div class="panel-head"><span>02</span><h2>Watch value become capacity</h2></div>
+        <div class="pipeline" id="pipeline"></div>
+        <div class="split">
+          <div class="lane public">
+            <h3>Value Realization Ledger</h3>
+            <p>Accepted proof may become cost reduction, internal tool, strategic asset, capability library entry, or proof mission revenue — only after gates pass.</p>
+          </div>
+          <div class="lane reserve">
+            <h3>Capacity Allocation Policy</h3>
+            <p>Verified gains are allocated into compute, data, tools, security, validators, research, robotics, labs, strategic reserves, or public proof commons.</p>
+          </div>
+        </div>
+        <pre id="terminal" class="terminal" aria-live="polite">Ready. Choose a scenario and run the value cycle.</pre>
+      </section>
+
+      <aside class="panel decision">
+        <div class="panel-head"><span>03</span><h2>Selection Gate</h2></div>
+        <div class="donut" aria-label="Readiness meter"><span id="donutValue">74</span></div>
+        <div class="verdict" id="verdict">HOLD_HUMAN_REVIEW</div>
+        <div id="gateLedger" class="gate-ledger"></div>
+        <div class="downloads">
+          <button data-download="ledger">Download value ledger</button>
+          <button data-download="allocation">Download allocation plan</button>
+          <button data-download="assetmap">Download asset map</button>
+          <button data-download="reserve">Download reserve entry</button>
+          <button data-download="brief">Download reviewer brief</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <article><h2>Why this demo matters</h2><p>A proof system should not stop at “accepted.” The next institutional question is what accepted work is allowed to become: sold, licensed, kept internal, sandboxed, open-sourced, retired, or reinvested into capacity.</p></article>
+      <article><h2>Plain-English rule</h2><p>A report is consumed once. A capability can compound. GoalOS turns accepted proof into a governed value ledger so the institution can decide what to reuse, what to reserve, and what must remain review-only.</p></article>
+      <article><h2>Advanced rule</h2><p>Capacity allocation is gated by proof integrity, replayability, validator review, claim boundary, legal/risk posture, rollback readiness, and public/private separation. If gates fail, value realization is held or rejected.</p></article>
+    </section>
+  </main>
+
+  <script src="assets/goalos-value-realization-control-room-v1.js"></script>
+</body>
+</html>

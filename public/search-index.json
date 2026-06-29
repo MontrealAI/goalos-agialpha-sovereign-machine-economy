@@ -300,5 +300,17 @@
       "institution",
       "adoption"
     ]
+  },
+  {
+    "title": "GoalOS Value Realization Control Room V1",
+    "url": "value-realization-control-room.html",
+    "description": "Verified work becomes allocable capacity.",
+    "tags": [
+      "value",
+      "capacity",
+      "allocation",
+      "proof",
+      "capability"
+    ]
   }
 ]

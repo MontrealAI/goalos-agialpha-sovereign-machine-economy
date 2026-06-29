@@ -1432,3 +1432,14 @@ The Institutional Deployment Wedge is a browser-local public demo showing how a 
 - Reference docket: `evidence/deployment-wedge/institutional-deployment-wedge-v1-reference-docket.json`
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+
+<!-- GOALOS_VALUE_REALIZATION_CONTROL_ROOM_V1 -->
+## GoalOS Value Realization Control Room V1
+
+**Verified work becomes allocable capacity.** This browser-local public demo shows how accepted evidence can become a Value Realization Ledger, Capacity Allocation Policy, Strategic Capability Asset Map, Sovereign Invention Reserve entry, and harder future mission path.
+
+Live page: [GoalOS Value Realization Control Room V1](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/value-realization-control-room.html)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+<!-- /GOALOS_VALUE_REALIZATION_CONTROL_ROOM_V1 -->
