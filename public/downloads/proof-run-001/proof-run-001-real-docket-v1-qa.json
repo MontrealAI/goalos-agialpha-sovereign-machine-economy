@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "generated_at": "2026-06-29T03:17:39Z",
+  "generated_at": "2026-06-29T03:20:21Z",
   "readiness_score": 90,
   "decision_state": "HOLD_PENDING_REMEDIATION",
   "gates_passed": 9,

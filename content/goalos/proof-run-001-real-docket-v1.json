@@ -1,6 +1,6 @@
 {
   "schema": "goalos.proof_run_001.real_docket.v1",
-  "generated_at": "2026-06-29T03:17:39Z",
+  "generated_at": "2026-06-29T03:20:21Z",
   "mission_contract": {
     "objective": "Audit the public-alpha repository for website/code/evidence/boundary readiness and emit a reviewable Proof Run 001 Evidence Docket.",
     "decision_to_support": "Should the current public-alpha surface be considered ready for external reviewer inspection?",
@@ -73,7 +73,7 @@
         "token.html"
       ],
       "missing_required": [],
-      "all_html_count": 114
+      "all_html_count": 115
     },
     "code": {
       "existing_required": [
@@ -94,8 +94,8 @@
       "missing_required": []
     },
     "artifacts": {
-      "evidence_json_count": 30,
-      "report_json_count": 111,
+      "evidence_json_count": 32,
+      "report_json_count": 113,
       "sample_evidence": [
         "evidence/benchmarks/example-baseline-result.json",
         "evidence/commercial/example-commercial-evidence-record.json",
@@ -120,8 +120,10 @@
         "evidence/pilots/example-pilot-outcome-docket.json",
         "evidence/proof-ledger/public-proof-ledger-v1-reference-ledger.json",
         "evidence/proof-missions/proof-mission-control-v1-reference-docket.json",
+        "evidence/proof-run-001/06_governed_decision_state.json",
         "evidence/proof-run-001/proof-run-001-docket.json",
         "evidence/proof-run-001/proof-run-001-execution-room-reference-docket.json",
+        "evidence/proof-run-001/proof-run-001-real-docket-v1.json",
         "evidence/proof-run-001/proof-run-001-report.json",
         "evidence/proof-velocity/events/example-proof-velocity-event.json",
         "evidence/reviewer-replay/external-reviewer-replay-room-v1-reference-docket.json",
@@ -215,7 +217,7 @@
           "-q"
         ],
         "returncode": 0,
-        "stdout": "..................                                                       [100%]\n18 passed in 0.22s\n",
+        "stdout": "..................                                                       [100%]\n18 passed in 0.25s\n",
         "stderr": ""
       }
     }
@@ -246,13 +248,13 @@
         "id": "evidence_artifacts",
         "name": "Evidence artifacts exist",
         "passed": true,
-        "note": "evidence_json_count=30"
+        "note": "evidence_json_count=32"
       },
       {
         "id": "audit_reports",
         "name": "Audit reports exist",
         "passed": true,
-        "note": "report_json_count=111"
+        "note": "report_json_count=113"
       },
       {
         "id": "boundary",
@@ -319,7 +321,7 @@
   },
   "chronicle_entry": {
     "event": "Proof Run 001 real repository-readiness docket generated",
-    "timestamp": "2026-06-29T03:17:39Z",
+    "timestamp": "2026-06-29T03:20:21Z",
     "status": "HOLD_PENDING_REMEDIATION"
   },
   "capability_package": {
