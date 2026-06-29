@@ -1,0 +1,33 @@
+{
+  "schema": "goalos.proof_run_001.execution_room.reference.v1",
+  "generated_at": "2026-06-28T21:19:58Z",
+  "status": "reference_only_pending_real_run",
+  "mission": "Repository Launch Readiness",
+  "required_artifacts": [
+    "Mission Contract",
+    "Claims Matrix",
+    "Evidence Docket",
+    "Replay Checklist",
+    "Validator Packet",
+    "Cost/Risk Ledger",
+    "Governed Decision State",
+    "Chronicle Entry",
+    "Capability Package"
+  ],
+  "claim_boundary": [
+    "not achieved AGI",
+    "not achieved ASI",
+    "not empirical SOTA",
+    "not production authorization",
+    "not mainnet activation",
+    "not user-fund authorization"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

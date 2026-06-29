@@ -227,5 +227,10 @@
     "title": "Falsification Gauntlet",
     "url": "falsification-gauntlet.html",
     "summary": "Strong claims survive baselines: browser-local claim-bound proof demo."
+  },
+  {
+    "title": "Proof Run 001 Execution Room",
+    "url": "proof-run-001-execution-room.html",
+    "summary": "The bridge from public-alpha architecture to the first real Evidence Docket."
   }
 ]

@@ -1,4 +1,17 @@
 
+<!-- GOALOS_PROOF_RUN_001_EXECUTION_ROOM_V1 -->
+
+## Proof Run 001 Execution Room
+
+The next empirical step is Proof Run 001: a real bounded mission with an Evidence Docket, replay path, validator review, cost/risk ledger, governed decision state, Chronicle entry, and reusable capability package.
+
+- Website: [`proof-run-001-execution-room.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-execution-room.html)
+- Doc: [`docs/proof-runs/PROOF_RUN_001_EXECUTION_ROOM_V1.md`](docs/proof-runs/PROOF_RUN_001_EXECUTION_ROOM_V1.md)
+- Reference docket: [`evidence/proof-run-001/proof-run-001-execution-room-reference-docket.json`](evidence/proof-run-001/proof-run-001-execution-room-reference-docket.json)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+
 <!-- GOALOS_FALSIFICATION_GAUNTLET_V1 -->
 
 ## GoalOS Falsification Gauntlet V1 — Strong Claims Survive Baselines

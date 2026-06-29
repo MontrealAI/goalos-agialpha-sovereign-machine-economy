@@ -1,0 +1,19 @@
+name: Proof Run 001 execution room feedback
+description: Review the Proof Run 001 Execution Room public demo and docket path.
+title: "[Proof Run 001] Execution Room feedback"
+labels: ["proof-run-001", "review", "public-alpha"]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe boundary
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, wallet, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be accepted, rejected, or revised?
+    validations:
+      required: true
