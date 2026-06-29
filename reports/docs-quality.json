@@ -101,6 +101,8 @@
     "DISCLAIMER.md",
     "TOKEN_BOUNDARY.md"
   ],
+  "public_html_pages_found": 126,
+  "demo_registry_entries": 126,
   "required_docs": [
     "README.md",
     "CONTRIBUTING.md",
