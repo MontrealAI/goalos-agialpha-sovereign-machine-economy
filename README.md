@@ -1474,3 +1474,17 @@ This browser-local arena demonstrates commit-reveal validation, validator quorum
 Open: `public/action-reason-trace-contract.html`
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority; human review required.
+
+<!-- GOALOS-WEBSITE-EXPERIENCE-OS-V1:START -->
+## Website Experience OS V1 — complete navigation layer
+
+The public website now has a complete, browser-local navigation and routeability layer:
+
+- **Homepage:** [`public/index.html`](public/index.html)
+- **Website Operating Map:** [`public/website-operating-system.html`](public/website-operating-system.html)
+- **Canonical Demo Registry:** [`public/demo-ecosystem-registry.html`](public/demo-ecosystem-registry.html)
+- **Route data:** [`public/assets/goalos-site-index-data-v1.js`](public/assets/goalos-site-index-data-v1.js)
+- **QA report:** [`reports/website-experience-os-v1-qa.json`](reports/website-experience-os-v1-qa.json)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+<!-- GOALOS-WEBSITE-EXPERIENCE-OS-V1:END -->

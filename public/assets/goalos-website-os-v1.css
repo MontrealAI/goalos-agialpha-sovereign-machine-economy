@@ -1,0 +1,114 @@
+
+:root{
+  --g-bg:#050914; --g-panel:rgba(255,255,255,.075); --g-panel2:rgba(255,255,255,.115);
+  --g-line:rgba(255,255,255,.18); --g-text:#f7f4ea; --g-muted:#b9c4d6;
+  --g-gold:#ffe877; --g-green:#68ffd3; --g-blue:#8ad8ff; --g-violet:#b8a6ff;
+  --g-red:#ff6b9a; --g-shadow:0 24px 90px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body.goalos-home{
+  margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  color:var(--g-text); background:
+    radial-gradient(circle at 20% 15%, rgba(104,255,211,.18), transparent 28%),
+    radial-gradient(circle at 80% 20%, rgba(138,216,255,.16), transparent 30%),
+    radial-gradient(circle at 50% 90%, rgba(184,166,255,.10), transparent 28%),
+    linear-gradient(180deg,#0b1d2a,#030711 58%,#02040b);
+  min-height:100vh;
+}
+body.goalos-home:before,.goalos-shell-grid:before{
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.38; z-index:-2;
+  background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:34px 34px;
+}
+.goalos-shell-grid:after,body.goalos-home:after{
+  content:"GOALOS"; position:fixed; left:-.06em; bottom:-.28em; font-size:20vw; letter-spacing:-.08em;
+  color:rgba(255,255,255,.035); pointer-events:none; z-index:-1; font-weight:1000;
+}
+a{color:inherit}
+.goalos-wrap{width:min(1320px,calc(100% - 40px)); margin:0 auto}
+.goalos-mega-nav{
+  position:sticky; top:20px; z-index:30; margin:28px auto 0; width:min(1320px,calc(100% - 40px));
+  display:flex; align-items:center; gap:18px; justify-content:space-between; padding:18px 22px;
+  border:1px solid var(--g-line); border-radius:24px; background:rgba(5,9,20,.82);
+  box-shadow:var(--g-shadow); backdrop-filter: blur(18px);
+}
+.goalos-brand{display:flex; gap:14px; align-items:center; text-decoration:none}
+.goalos-mark{width:42px;height:42px;border-radius:14px;background:radial-gradient(circle at 35% 30%,var(--g-gold),var(--g-green) 34%,var(--g-blue) 61%,var(--g-violet)); display:grid; place-items:center; color:#071019; font-weight:1000}
+.goalos-brand b{font-size:15px; letter-spacing:.25em}
+.goalos-brand span{display:block; font-size:10px; color:var(--g-muted); letter-spacing:.34em; margin-top:3px}
+.goalos-nav-links{display:flex; flex-wrap:wrap; gap:7px; justify-content:flex-end}
+.goalos-nav-links a,.goalos-nav-links button{
+  border:1px solid transparent; background:transparent; color:var(--g-text); text-decoration:none;
+  padding:10px 11px; border-radius:999px; font-size:13px; font-weight:800; cursor:pointer;
+}
+.goalos-nav-links a:hover,.goalos-nav-links button:hover{background:rgba(255,255,255,.08); border-color:var(--g-line)}
+.goalos-hero{padding:110px 0 56px; display:grid; grid-template-columns:1.1fr .9fr; gap:64px; align-items:center}
+.goalos-kicker{color:var(--g-gold); letter-spacing:.42em; text-transform:uppercase; font-weight:1000; font-size:13px}
+.goalos-hero h1{font-size:clamp(56px,8vw,132px); line-height:.86; letter-spacing:-.075em; margin:20px 0}
+.goalos-grad{font-family:Georgia,serif; font-style:italic; font-weight:700; letter-spacing:-.07em; background:linear-gradient(90deg,var(--g-gold),var(--g-green),var(--g-blue),var(--g-violet)); -webkit-background-clip:text; background-clip:text; color:transparent}
+.goalos-lede{font-size:clamp(20px,2.2vw,32px); line-height:1.12; font-weight:900; max-width:820px}
+.goalos-copy{font-size:17px; line-height:1.7; color:var(--g-muted); max-width:850px}
+.goalos-actions{display:flex; flex-wrap:wrap; gap:12px; margin-top:26px}
+.goalos-btn{
+  border:1px solid var(--g-line); background:rgba(255,255,255,.11); color:var(--g-text); text-decoration:none;
+  border-radius:999px; padding:14px 18px; font-weight:1000; display:inline-flex; align-items:center; gap:8px;
+}
+.goalos-btn.primary{background:linear-gradient(90deg,var(--g-gold),var(--g-green)); color:#061017; border:0}
+.goalos-btn:hover{transform:translateY(-1px)}
+.goalos-visual{
+  min-height:420px; border:1px solid var(--g-line); border-radius:34px; background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035));
+  box-shadow:var(--g-shadow); position:relative; overflow:hidden; display:grid; place-items:center;
+}
+.goalos-orbit{width:min(390px,80%); aspect-ratio:1; border-radius:50%; border:1px dashed rgba(255,232,119,.38); position:relative; display:grid; place-items:center}
+.goalos-core{width:142px; aspect-ratio:1; border-radius:50%; display:grid; place-items:center; font-size:82px; color:#061017; font-weight:1000; background:radial-gradient(circle at 35% 35%,var(--g-gold),var(--g-green) 38%,var(--g-blue) 70%,var(--g-violet)); box-shadow:0 0 70px rgba(104,255,211,.5)}
+.goalos-node{position:absolute; width:50px; height:50px; border-radius:50%; display:grid; place-items:center; border:1px solid rgba(104,255,211,.55); background:#07101f; color:var(--g-text); font-size:12px; font-weight:1000}
+.goalos-node:nth-child(2){top:0; left:50%; transform:translate(-50%,-50%)} .goalos-node:nth-child(3){top:18%; right:0; transform:translate(50%,-50%)} .goalos-node:nth-child(4){bottom:18%; right:0; transform:translate(50%,50%)} .goalos-node:nth-child(5){bottom:0; left:50%; transform:translate(-50%,50%)} .goalos-node:nth-child(6){bottom:18%; left:0; transform:translate(-50%,50%)} .goalos-node:nth-child(7){top:18%; left:0; transform:translate(-50%,-50%)}
+.goalos-stat-row{display:grid; grid-template-columns:repeat(6,1fr); border:1px solid var(--g-line); border-radius:24px; overflow:hidden; margin:20px 0 72px; background:rgba(255,255,255,.07)}
+.goalos-stat{padding:22px 22px; border-right:1px solid var(--g-line)} .goalos-stat:last-child{border-right:0}
+.goalos-stat b{display:block; color:var(--g-gold); font-size:42px; line-height:1} .goalos-stat span{font-size:11px; letter-spacing:.25em; text-transform:uppercase; color:var(--g-muted); font-weight:1000}
+.goalos-section{padding:42px 0}
+.goalos-section-head{display:flex; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:22px}
+.goalos-section h2{font-size:clamp(36px,5vw,72px); line-height:.92; letter-spacing:-.06em; margin:0}
+.goalos-section p{color:var(--g-muted)}
+.goalos-card,.goalos-panel{
+  border:1px solid var(--g-line); border-radius:26px; background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.045));
+  box-shadow:0 18px 60px rgba(0,0,0,.18); overflow:hidden;
+}
+.goalos-panel{padding:30px}
+.goalos-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+.goalos-card{padding:24px; min-height:180px; display:flex; flex-direction:column; justify-content:space-between}
+.goalos-card small{color:var(--g-gold); letter-spacing:.32em; font-weight:1000; text-transform:uppercase}
+.goalos-card h3{font-size:28px; line-height:1; letter-spacing:-.04em; margin:12px 0 10px}
+.goalos-card p{font-size:15px; line-height:1.5; color:#d7dfec; margin:0 0 20px}
+.goalos-card a{color:var(--g-green); font-weight:1000; text-decoration:none}
+.goalos-journey{display:grid; grid-template-columns:repeat(4,1fr); gap:14px}
+.goalos-step{padding:18px; border:1px solid var(--g-line); border-radius:18px; background:rgba(255,255,255,.06)}
+.goalos-step b{color:var(--g-gold)}
+.goalos-step h3{margin:.5em 0 .25em; font-size:20px}
+.goalos-step p{font-size:14px; margin:0}
+.goalos-boundary{border-color:rgba(255,107,154,.45); background:linear-gradient(145deg,rgba(255,107,154,.13),rgba(255,255,255,.035))}
+.goalos-footer{padding:70px 0 120px; color:var(--g-muted)}
+.goalos-floating{position:fixed; right:18px; bottom:18px; z-index:9999; display:flex; gap:10px; align-items:center}
+.goalos-float-btn{border:1px solid var(--g-line); background:linear-gradient(135deg,var(--g-gold),var(--g-green)); color:#051018; border-radius:999px; padding:12px 16px; font-weight:1000; box-shadow:var(--g-shadow); cursor:pointer}
+.goalos-palette{position:fixed; inset:0; z-index:10000; display:none; align-items:flex-start; justify-content:center; padding:9vh 20px; background:rgba(2,4,11,.72); backdrop-filter:blur(12px)}
+.goalos-palette.open{display:flex}
+.goalos-palette-box{width:min(900px,100%); max-height:82vh; overflow:hidden; border:1px solid var(--g-line); border-radius:28px; background:#07101f; box-shadow:var(--g-shadow)}
+.goalos-palette-head{padding:18px; border-bottom:1px solid var(--g-line); display:flex; gap:12px}
+.goalos-palette-head input{flex:1; border:1px solid var(--g-line); border-radius:14px; padding:14px; background:#0b1325; color:var(--g-text); font-size:16px}
+.goalos-palette-head button{border:1px solid var(--g-line); border-radius:14px; background:rgba(255,255,255,.08); color:var(--g-text); font-weight:1000; padding:0 14px}
+.goalos-results{max-height:62vh; overflow:auto; padding:12px}
+.goalos-result{display:block; padding:14px; border-radius:16px; text-decoration:none; border:1px solid transparent}
+.goalos-result:hover{background:rgba(255,255,255,.08); border-color:var(--g-line)}
+.goalos-result b{display:block; color:var(--g-text)} .goalos-result span{display:block; color:var(--g-muted); font-size:13px; margin-top:5px}
+.goalos-result small{color:var(--g-gold); letter-spacing:.16em; text-transform:uppercase; font-weight:1000}
+.goalos-skip{position:absolute; left:-9999px; top:8px; background:var(--g-gold); color:#051018; padding:10px; z-index:10001}
+.goalos-skip:focus{left:8px}
+.goalos-route-table{width:100%; border-collapse:collapse; font-size:14px}
+.goalos-route-table th,.goalos-route-table td{padding:12px; border-bottom:1px solid var(--g-line); text-align:left; vertical-align:top}
+.goalos-route-table th{color:var(--g-gold); text-transform:uppercase; letter-spacing:.16em; font-size:11px}
+.goalos-filter-row{display:flex; gap:10px; flex-wrap:wrap; margin:20px 0}
+.goalos-filter-row input,.goalos-filter-row select{background:#0b1325; color:var(--g-text); border:1px solid var(--g-line); border-radius:999px; padding:12px 14px}
+@media (max-width: 980px){.goalos-hero{grid-template-columns:1fr}.goalos-grid{grid-template-columns:1fr}.goalos-journey{grid-template-columns:1fr 1fr}.goalos-stat-row{grid-template-columns:repeat(2,1fr)}.goalos-nav-links{display:none}.goalos-mega-nav{top:8px}.goalos-visual{min-height:300px}}
+@media (max-width: 560px){.goalos-wrap{width:min(100% - 22px,1320px)}.goalos-journey{grid-template-columns:1fr}.goalos-stat-row{grid-template-columns:1fr}.goalos-hero h1{font-size:58px}.goalos-panel{padding:20px}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

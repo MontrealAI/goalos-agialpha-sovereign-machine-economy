@@ -1,0 +1,1681 @@
+window.GOALOS_SITE_INDEX = {
+  "generated_at": "2026-06-29T19:48:08Z",
+  "version": "v1",
+  "title": "GoalOS Website Experience OS",
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "routes": [
+    {
+      "name": "Action-Reason Trace Contract",
+      "href": "action-reason-trace-contract.html",
+      "url": "action-reason-trace-contract.html",
+      "category": "Action",
+      "description": "Every action must carry a reason.",
+      "audience": "builder",
+      "tags": [
+        "action",
+        "trace"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "$AGIALPHA Control Rail",
+      "href": "agialpha-control-rail.html",
+      "url": "agialpha-control-rail.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "$AGIALPHA Token Boundary",
+      "href": "token.html",
+      "url": "token.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "AGI ALPHA Thesis",
+      "href": "agi-alpha-thesis.html",
+      "url": "agi-alpha-thesis.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "AGI Alpha Node v0",
+      "href": "agi-alpha-node-v0.html",
+      "url": "agi-alpha-node-v0.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "AGI Jobs Ledger · GoalOS Ascension",
+      "href": "jobs.html",
+      "url": "jobs.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "AGI Jobs v0 (v2)",
+      "href": "agi-jobs-v0-v2.html",
+      "url": "agi-jobs-v0-v2.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Adoption Playbook · GoalOS Ascension",
+      "href": "adoption.html",
+      "url": "adoption.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Agent Foundry · GoalOS Ascension",
+      "href": "agents.html",
+      "url": "agents.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Architecture",
+      "href": "architecture.html",
+      "url": "architecture.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Capability Stack · GoalOS Ascension",
+      "href": "capability-stack.html",
+      "url": "capability-stack.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Claim Boundary · GoalOS Ascension",
+      "href": "claim-boundary.html",
+      "url": "claim-boundary.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Commercial Evidence · GoalOS Ascension",
+      "href": "commercial-evidence.html",
+      "url": "commercial-evidence.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Coordination Console",
+      "href": "coordination-console.html",
+      "url": "coordination-console.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Data Room · GoalOS Ascension",
+      "href": "data-room.html",
+      "url": "data-room.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Demo Gallery — GoalOS",
+      "href": "demo-gallery.html",
+      "url": "demo-gallery.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Demo Launcher — GoalOS",
+      "href": "demo-launcher.html",
+      "url": "demo-launcher.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Demo Safety Boundary — GoalOS",
+      "href": "demo-safety.html",
+      "url": "demo-safety.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Enterprise Readiness · GoalOS Ascension",
+      "href": "enterprise.html",
+      "url": "enterprise.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Evaluation Program",
+      "href": "evaluation-program.html",
+      "url": "evaluation-program.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Evaluation · GoalOS Ascension",
+      "href": "evaluation.html",
+      "url": "evaluation.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Evidence",
+      "href": "evidence.html",
+      "url": "evidence.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Evidence to Scale · GoalOS Ascension",
+      "href": "evidence-to-scale.html",
+      "url": "evidence-to-scale.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Executive Brief · GoalOS Ascension",
+      "href": "executive-brief.html",
+      "url": "executive-brief.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Falsification Box — GoalOS",
+      "href": "falsification-box.html",
+      "url": "falsification-box.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "For New Users — GoalOS",
+      "href": "for-new-users.html",
+      "url": "for-new-users.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "For Reviewers — GoalOS",
+      "href": "for-reviewers.html",
+      "url": "for-reviewers.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "For Reviewers — GoalOS",
+      "href": "reviewer-path.html",
+      "url": "reviewer-path.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Frontier Release Case Study",
+      "href": "frontier-release-case-study.html",
+      "url": "frontier-release-case-study.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Frontier Release Doctrine",
+      "href": "frontier-release-doctrine.html",
+      "url": "frontier-release-doctrine.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "GoalOS Capability Parity",
+      "href": "capability-parity.html",
+      "url": "capability-parity.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "GoalOS Document Series",
+      "href": "document-series.html",
+      "url": "document-series.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "GoalOS Historical Command Center",
+      "href": "historical-command-center.html",
+      "url": "historical-command-center.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "GoalOS Launch Narrative",
+      "href": "launch-narrative.html",
+      "url": "launch-narrative.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Governance · GoalOS Ascension",
+      "href": "governance.html",
+      "url": "governance.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Holy Grail Candidate",
+      "href": "holy-grail-candidate.html",
+      "url": "holy-grail-candidate.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Independent Validation · GoalOS Ascension",
+      "href": "independent-validation.html",
+      "url": "independent-validation.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Launch",
+      "href": "launch.html",
+      "url": "launch.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "META-AGENTIC α-AGI",
+      "href": "meta-agentic-alpha-agi.html",
+      "url": "meta-agentic-alpha-agi.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Mission OS Canon",
+      "href": "mission-os-canon.html",
+      "url": "mission-os-canon.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Mission OS · GoalOS Ascension",
+      "href": "mission-os.html",
+      "url": "mission-os.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Node Runtime · GoalOS Ascension",
+      "href": "node.html",
+      "url": "node.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Operating Metrics · GoalOS Ascension",
+      "href": "metrics.html",
+      "url": "metrics.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Operator Checklist — GoalOS",
+      "href": "operator-checklist.html",
+      "url": "operator-checklist.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Operator Console Blueprint · GoalOS Ascension",
+      "href": "operators.html",
+      "url": "operators.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Page not found",
+      "href": "404.html",
+      "url": "404.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Paper to Product",
+      "href": "paper-to-product.html",
+      "url": "paper-to-product.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Pilot Program · GoalOS Ascension",
+      "href": "pilot-program.html",
+      "url": "pilot-program.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Pilot Proof · GoalOS Ascension",
+      "href": "pilot-proof.html",
+      "url": "pilot-proof.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Product Surface",
+      "href": "product.html",
+      "url": "product.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Proof Economy · GoalOS Ascension",
+      "href": "proof-economy.html",
+      "url": "proof-economy.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Proof Run 001",
+      "href": "proof-run-001.html",
+      "url": "proof-run-001.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Proof Run 001 Live — GoalOS",
+      "href": "proof-run-001-live.html",
+      "url": "proof-run-001-live.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Proof Velocity · GoalOS Ascension",
+      "href": "proof-velocity.html",
+      "url": "proof-velocity.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Proof-of-Evolution",
+      "href": "proof-of-evolution.html",
+      "url": "proof-of-evolution.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Public Metrics Ledger · GoalOS Ascension",
+      "href": "public-metrics-ledger.html",
+      "url": "public-metrics-ledger.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Release Gates · GoalOS Ascension",
+      "href": "release-gates.html",
+      "url": "release-gates.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Repository Map · GoalOS Ascension",
+      "href": "repository-map.html",
+      "url": "repository-map.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Research Spine",
+      "href": "research-spine.html",
+      "url": "research-spine.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Responsible Use — GoalOS",
+      "href": "responsible-use.html",
+      "url": "responsible-use.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Roadmap · GoalOS Ascension",
+      "href": "roadmap.html",
+      "url": "roadmap.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Schema Registry · GoalOS Ascension",
+      "href": "schema-registry.html",
+      "url": "schema-registry.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Security Boundary — GoalOS",
+      "href": "security-boundary.html",
+      "url": "security-boundary.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Security · GoalOS Ascension",
+      "href": "security.html",
+      "url": "security.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Site Map — GoalOS",
+      "href": "site-map.html",
+      "url": "site-map.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Source Lineage · GoalOS Ascension",
+      "href": "source-lineage.html",
+      "url": "source-lineage.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Standards · GoalOS Ascension",
+      "href": "standards.html",
+      "url": "standards.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Start Here · GoalOS Ascension",
+      "href": "start.html",
+      "url": "start.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Strategic Evidence Scorecard · GoalOS Ascension",
+      "href": "strategic-evidence-scorecard.html",
+      "url": "strategic-evidence-scorecard.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Terms of Use — GoalOS",
+      "href": "terms.html",
+      "url": "terms.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Troubleshooting · GoalOS Ascension",
+      "href": "troubleshooting.html",
+      "url": "troubleshooting.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Trust Center",
+      "href": "trust.html",
+      "url": "trust.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Trust Center · GoalOS Ascension",
+      "href": "trust-center.html",
+      "url": "trust-center.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Try GoalOS — Browser-local Demo",
+      "href": "quick-tour.html",
+      "url": "quick-tour.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Validator Seats",
+      "href": "validator-seats.html",
+      "url": "validator-seats.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Website Autopilot · GoalOS Ascension",
+      "href": "website-autopilot.html",
+      "url": "website-autopilot.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "What GoalOS Does — GoalOS",
+      "href": "what-goalos-does.html",
+      "url": "what-goalos-does.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
+      "name": "Institutional Deployment Wedge",
+      "href": "institutional-deployment-wedge.html",
+      "url": "institutional-deployment-wedge.html",
+      "category": "Adoption",
+      "description": "Start with one workflow. Earn the right to scale.",
+      "audience": "institution",
+      "tags": [
+        "adoption",
+        "deployment"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Value Realization Control Room",
+      "href": "value-realization-control-room.html",
+      "url": "value-realization-control-room.html",
+      "category": "Adoption",
+      "description": "Verified work becomes allocable capacity.",
+      "audience": "institution",
+      "tags": [
+        "value",
+        "capacity"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Evolution Ledger Control Room",
+      "href": "evolution-ledger-control-room.html",
+      "url": "evolution-ledger-control-room.html",
+      "category": "Advanced Demos",
+      "description": "The ledger remembers proof, not secrets.",
+      "audience": "advanced",
+      "tags": [
+        "ledger",
+        "evolution"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Open-Ended Work Engine",
+      "href": "open-ended-work-engine.html",
+      "url": "open-ended-work-engine.html",
+      "category": "Advanced Demos",
+      "description": "Generate tasks. Gate descendants.",
+      "audience": "advanced",
+      "tags": [
+        "open-ended",
+        "generation"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof-Backed Upgrade Rights Room",
+      "href": "proof-backed-upgrade-rights-room.html",
+      "url": "proof-backed-upgrade-rights-room.html",
+      "category": "Advanced Demos",
+      "description": "Useful artifacts earn limited, governed upgrade rights.",
+      "audience": "advanced",
+      "tags": [
+        "upgrade",
+        "rights"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof-Carrying Artifact Foundry",
+      "href": "proof-carrying-artifact-foundry.html",
+      "url": "proof-carrying-artifact-foundry.html",
+      "category": "Advanced Demos",
+      "description": "The artifact earns authority.",
+      "audience": "advanced",
+      "tags": [
+        "artifact",
+        "selection"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Real-Task Benchmark Bridge",
+      "href": "real-task-benchmark-bridge.html",
+      "url": "real-task-benchmark-bridge.html",
+      "category": "Benchmark",
+      "description": "Move from demos to real-task benchmarks with equal-budget baselines.",
+      "audience": "advanced",
+      "tags": [
+        "benchmark",
+        "baselines"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Capability Compounding Lab",
+      "href": "capability-compounding-lab.html",
+      "url": "capability-compounding-lab.html",
+      "category": "Core Demos",
+      "description": "Verified work becomes reusable capability.",
+      "audience": "builder",
+      "tags": [
+        "capability",
+        "chronicle"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Evidence Docket Theatre",
+      "href": "evidence-docket-theatre.html",
+      "url": "evidence-docket-theatre.html",
+      "category": "Core Demos",
+      "description": "A proof page is not a marketing page.",
+      "audience": "reviewer",
+      "tags": [
+        "docket",
+        "claims"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Falsification Gauntlet",
+      "href": "falsification-gauntlet.html",
+      "url": "falsification-gauntlet.html",
+      "category": "Core Demos",
+      "description": "Strong claims survive baselines.",
+      "audience": "reviewer",
+      "tags": [
+        "falsification",
+        "baselines"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Multi-Agent Institution",
+      "href": "multi-agent-institution.html",
+      "url": "multi-agent-institution.html",
+      "category": "Core Demos",
+      "description": "Not a swarm. An institution.",
+      "audience": "new-user",
+      "tags": [
+        "multi-agent",
+        "institution"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Gradient Lab",
+      "href": "proof-gradient-lab.html",
+      "url": "proof-gradient-lab.html",
+      "category": "Core Demos",
+      "description": "No proof, no evolution. Score is advisory; gates are mandatory.",
+      "audience": "advanced",
+      "tags": [
+        "proof-gradient",
+        "gates"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof-Settlement Chronicle Lab",
+      "href": "proof-settlement-chronicle-lab.html",
+      "url": "proof-settlement-chronicle-lab.html",
+      "category": "Core Demos",
+      "description": "No ProofBundle, no settlement.",
+      "audience": "advanced",
+      "tags": [
+        "settlement",
+        "chronicle"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof-to-Action Command Room",
+      "href": "proof-to-action-command-room.html",
+      "url": "proof-to-action-command-room.html",
+      "category": "Core Demos",
+      "description": "The deliverable is a governed decision state.",
+      "audience": "builder",
+      "tags": [
+        "action",
+        "decision"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Sovereign Experience Stream Lab",
+      "href": "sovereign-experience-stream-lab.html",
+      "url": "sovereign-experience-stream-lab.html",
+      "category": "Core Demos",
+      "description": "Proof becomes governed experience.",
+      "audience": "advanced",
+      "tags": [
+        "experience",
+        "memory"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Run Locally",
+      "href": "run-locally.html",
+      "url": "run-locally.html",
+      "category": "Developer",
+      "description": "How to inspect and run local scripts.",
+      "audience": "developer",
+      "tags": [
+        "local",
+        "developer"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Evidence Room",
+      "href": "evidence-room.html",
+      "url": "evidence-room.html",
+      "category": "Evidence",
+      "description": "Public front door to dockets, reports, and review paths.",
+      "audience": "reviewer",
+      "tags": [
+        "evidence"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Metrics Dashboard",
+      "href": "proof-metrics-dashboard.html",
+      "url": "proof-metrics-dashboard.html",
+      "category": "Evidence",
+      "description": "Public scorecard for proof maturity and review status.",
+      "audience": "reviewer",
+      "tags": [
+        "metrics"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Run 001 Docket",
+      "href": "proof-run-001-docket.html",
+      "url": "proof-run-001-docket.html",
+      "category": "Evidence",
+      "description": "The first repository-readiness Evidence Docket and review path.",
+      "audience": "reviewer",
+      "tags": [
+        "docket",
+        "proof-run"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Run 001 Execution Room",
+      "href": "proof-run-001-execution-room.html",
+      "url": "proof-run-001-execution-room.html",
+      "category": "Evidence",
+      "description": "Rehearse the first public proof run: gates, replay, validator packet, and docket.",
+      "audience": "reviewer",
+      "tags": [
+        "proof-run",
+        "execution"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Public Proof Ledger",
+      "href": "proof-ledger.html",
+      "url": "proof-ledger.html",
+      "category": "Evidence",
+      "description": "One ledger for every proof surface, docket, report, and review path.",
+      "audience": "reviewer",
+      "tags": [
+        "ledger",
+        "evidence"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Frontier Release Room",
+      "href": "frontier-release-room.html",
+      "url": "frontier-release-room.html",
+      "category": "Frontier",
+      "description": "Evidence-governed release, restriction, rollback, and trusted-access decisions.",
+      "audience": "institution",
+      "tags": [
+        "frontier",
+        "release"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Console",
+      "href": "console.html",
+      "url": "console.html",
+      "category": "Frontier",
+      "description": "Interactive proof console and command-center surface.",
+      "audience": "builder",
+      "tags": [
+        "console"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Agent Constellation Demo",
+      "href": "agent-constellation-demo.html",
+      "url": "agent-constellation-demo.html",
+      "category": "Hands-On",
+      "description": "Watch proof-gated agent roles form an institution.",
+      "audience": "new-user",
+      "tags": [
+        "agent",
+        "constellation"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Docket Builder",
+      "href": "docket-builder.html",
+      "url": "docket-builder.html",
+      "category": "Hands-On",
+      "description": "Build a sample Evidence Docket locally in the browser.",
+      "audience": "builder",
+      "tags": [
+        "docket",
+        "builder"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Local Autopilot Demo",
+      "href": "local-autopilot-demo.html",
+      "url": "local-autopilot-demo.html",
+      "category": "Hands-On",
+      "description": "Run local scripts and audits.",
+      "audience": "developer",
+      "tags": [
+        "local",
+        "autopilot"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Card Studio",
+      "href": "proof-card-studio.html",
+      "url": "proof-card-studio.html",
+      "category": "Hands-On",
+      "description": "Generate a local proof card SVG.",
+      "audience": "new-user",
+      "tags": [
+        "proof-card"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Flight Demo",
+      "href": "proof-flight-demo.html",
+      "url": "proof-flight-demo.html",
+      "category": "Hands-On",
+      "description": "Run a local proof flight and download a sample docket.",
+      "audience": "new-user",
+      "tags": [
+        "demo",
+        "flight"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Try GoalOS",
+      "href": "try-goalos.html",
+      "url": "try-goalos.html",
+      "category": "Hands-On",
+      "description": "Run a browser-local guided demo.",
+      "audience": "new-user",
+      "tags": [
+        "demo"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Mission Control",
+      "href": "proof-mission-control.html",
+      "url": "proof-mission-control.html",
+      "category": "Mission",
+      "description": "Operating board for mission readiness, blocked gates, and proof run status.",
+      "audience": "builder",
+      "tags": [
+        "mission",
+        "control"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Mission Forge",
+      "href": "proof-mission-forge.html",
+      "url": "proof-mission-forge.html",
+      "category": "Mission",
+      "description": "Turn an objective into a public-safe proof mission package.",
+      "audience": "builder",
+      "tags": [
+        "mission",
+        "forge"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Mission Slots",
+      "href": "proof-mission-slots.html",
+      "url": "proof-mission-slots.html",
+      "category": "Mission",
+      "description": "Public-safe founding proof mission slots.",
+      "audience": "institution",
+      "tags": [
+        "mission",
+        "pilot"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "External Reviewer Replay Room",
+      "href": "external-reviewer-replay-room.html",
+      "url": "external-reviewer-replay-room.html",
+      "category": "Review",
+      "description": "Independent review path: replay, baselines, dissent, verdict.",
+      "audience": "reviewer",
+      "tags": [
+        "review",
+        "replay"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Validator Council Arena",
+      "href": "validator-council-arena.html",
+      "url": "validator-council-arena.html",
+      "category": "Review",
+      "description": "Trust is not one judge. It is a validator council.",
+      "audience": "reviewer",
+      "tags": [
+        "validator",
+        "council"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Validator Room",
+      "href": "validator-room.html",
+      "url": "validator-room.html",
+      "category": "Review",
+      "description": "How validators inspect and file review reports.",
+      "audience": "reviewer",
+      "tags": [
+        "validator"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Demo Ecosystem Registry",
+      "href": "demo-ecosystem-registry.html",
+      "url": "demo-ecosystem-registry.html",
+      "category": "Start",
+      "description": "Canonical registry of demo engines, workflow roles, inputs, outputs, gates, and transitions.",
+      "audience": "advanced",
+      "tags": [
+        "registry",
+        "routing"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "FAQ",
+      "href": "faq.html",
+      "url": "faq.html",
+      "category": "Start",
+      "description": "Frequently asked questions.",
+      "audience": "new-user",
+      "tags": [
+        "faq"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Glossary",
+      "href": "glossary.html",
+      "url": "glossary.html",
+      "category": "Start",
+      "description": "Plain-English definitions for GoalOS terms.",
+      "audience": "new-user",
+      "tags": [
+        "glossary"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Help Center",
+      "href": "help-center.html",
+      "url": "help-center.html",
+      "category": "Start",
+      "description": "User help and common paths.",
+      "audience": "new-user",
+      "tags": [
+        "help"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Home",
+      "href": "index.html",
+      "url": "index.html",
+      "category": "Start",
+      "description": "The institutional front door: proof-governed autonomous AI work.",
+      "audience": "new-user",
+      "tags": [
+        "start"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Proof Experience Atlas",
+      "href": "proof-experience-atlas.html",
+      "url": "proof-experience-atlas.html",
+      "category": "Start",
+      "description": "One guided public journey through the proof demos.",
+      "audience": "new-user",
+      "tags": [
+        "atlas",
+        "demo"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Start Here",
+      "href": "start-here.html",
+      "url": "start-here.html",
+      "category": "Start",
+      "description": "A three-minute orientation for new users.",
+      "audience": "new-user",
+      "tags": [
+        "guide"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Data Boundary",
+      "href": "data-boundary.html",
+      "url": "data-boundary.html",
+      "category": "Trust",
+      "description": "Do not submit personal, customer, confidential, or regulated data.",
+      "audience": "trust",
+      "tags": [
+        "boundary"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Investment / Token Boundary",
+      "href": "investment-token-boundary.html",
+      "url": "investment-token-boundary.html",
+      "category": "Trust",
+      "description": "No investment, trading, custody, wallet, or token-sale posture.",
+      "audience": "trust",
+      "tags": [
+        "token",
+        "boundary"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Legal",
+      "href": "legal.html",
+      "url": "legal.html",
+      "category": "Trust",
+      "description": "Legal, privacy, public-alpha, and claim-boundary posture.",
+      "audience": "trust",
+      "tags": [
+        "legal"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "No Data / No Funds",
+      "href": "no-data-no-funds.html",
+      "url": "no-data-no-funds.html",
+      "category": "Trust",
+      "description": "The public-alpha boundary: no user data, no user funds, no wallet.",
+      "audience": "trust",
+      "tags": [
+        "boundary",
+        "privacy"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Privacy Notice",
+      "href": "privacy.html",
+      "url": "privacy.html",
+      "category": "Trust",
+      "description": "Privacy notice and zero-user-data posture.",
+      "audience": "trust",
+      "tags": [
+        "privacy"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Token Boundary",
+      "href": "agialpha-token-boundary.html",
+      "url": "agialpha-token-boundary.html",
+      "category": "Trust",
+      "description": "Public contract address only. Not available from us.",
+      "audience": "trust",
+      "tags": [
+        "token"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
+      "name": "Website Operating Map",
+      "href": "website-operating-system.html",
+      "url": "website-operating-system.html",
+      "category": "Start",
+      "description": "The complete navigation map for the GoalOS website.",
+      "audience": "new-user",
+      "tags": [
+        "navigation",
+        "map"
+      ],
+      "status": "planned",
+      "canonical": true
+    }
+  ]
+};
