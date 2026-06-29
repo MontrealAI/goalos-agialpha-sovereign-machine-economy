@@ -2,7 +2,7 @@
   "schema": "goalos.qa_report.v1",
   "name": "Proof-Carrying Artifact Foundry V1",
   "status": "passed",
-  "generatedAt": "2026-06-29T13:05:36.179356+00:00",
+  "generatedAt": "2026-06-29T13:08:15.581731+00:00",
   "browserLocal": true,
   "noNetworkCall": true,
   "noUserData": true,

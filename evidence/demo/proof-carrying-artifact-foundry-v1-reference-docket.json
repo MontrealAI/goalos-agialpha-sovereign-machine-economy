@@ -1,6 +1,6 @@
 {
   "schema": "goalos.proof_carrying_artifact_foundry.reference_run.v1",
-  "generatedAt": "2026-06-29T13:05:36.152737+00:00",
+  "generatedAt": "2026-06-29T13:08:15.553850+00:00",
   "artifactId": "pca-reference-repository-readiness-review",
   "artifactClass": "capability",
   "title": "Repository Launch Readiness Review capability package",
