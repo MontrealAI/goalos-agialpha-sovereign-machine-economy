@@ -242,5 +242,10 @@
     "title": "Proof Mission Forge",
     "url": "proof-mission-forge.html",
     "description": "Turn a public-safe objective into a Mission Contract, Claims Matrix, Evidence Docket plan, validator packet, and GitHub-ready issue draft."
+  },
+  {
+    "title": "Proof Mission Control",
+    "url": "proof-mission-control.html",
+    "description": "Turn public-safe proof missions into reviewable operating state."
   }
 ]

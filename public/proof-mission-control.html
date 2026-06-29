@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Proof Mission Control — From Objective to First Docket</title>
+  <meta name="description" content="A browser-local operating board that turns public-safe proof missions into Mission Contracts, Evidence Docket plans, validator packets, and Proof Run 001 readiness." />
+  <link rel="stylesheet" href="assets/goalos-proof-mission-control-v1.css" />
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav" aria-label="GoalOS navigation">
+      <a class="brand" href="index.html" aria-label="GoalOS home"><span class="mark">α</span><span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span></a>
+      <div class="navlinks">
+        <a href="start-here.html">Start</a>
+        <a href="proof-experience-atlas.html">Atlas</a>
+        <a href="proof-mission-forge.html">Mission Forge</a>
+        <a href="proof-run-001-execution-room.html">Proof Run 001</a>
+        <a class="active" href="proof-mission-control.html">Mission Control</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow"><span></span> Public operations / browser-local / no data</p>
+        <h1>Turn proof missions into <em>reviewable operating state.</em></h1>
+        <p class="lead">The Proof Mission Control board is the public operating room between a forged objective and a real Evidence Docket. It shows what is ready, what is blocked, what reviewers need, and what can move toward Proof Run 001.</p>
+        <div class="cta-row">
+          <button class="primary" id="runBoard">Run mission readiness board</button>
+          <button id="stressBoard">Stress the queue</button>
+          <button id="resetBoard">Reset</button>
+        </div>
+        <div class="boundary"><b>Default deny:</b> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</div>
+      </div>
+      <aside class="hero-card" aria-label="Proof mission control fallback diagram">
+        <div class="mode-toggle" role="group" aria-label="Display mode"><button class="active" id="execMode">Executive</button><button id="techMode">Technical</button></div>
+        <svg id="missionSvg" viewBox="0 0 760 520" role="img" aria-label="Mission lifecycle from objective to docket and review">
+          <defs><radialGradient id="g" cx="50%" cy="50%"><stop offset="0" stop-color="#fff48f"/><stop offset=".45" stop-color="#64ffd1"/><stop offset="1" stop-color="#8c78ff"/></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+          <rect width="760" height="520" rx="26" fill="#0b1224"/>
+          <g opacity=".25" stroke="#8ab7ff"><path d="M80 120H680M80 220H680M80 320H680M80 420H680M160 60V470M300 60V470M460 60V470M600 60V470"/></g>
+          <circle cx="380" cy="258" r="76" fill="url(#g)" opacity=".92" filter="url(#glow)"/><text x="380" y="246" text-anchor="middle" fill="#07101e" font-size="28" font-weight="900">MISSION</text><text x="380" y="282" text-anchor="middle" fill="#07101e" font-size="24" font-weight="900">CONTROL</text>
+          <g fill="#101b33" stroke="#63ffd4" stroke-width="2"><rect x="68" y="100" width="150" height="64" rx="18"/><rect x="542" y="100" width="150" height="64" rx="18"/><rect x="68" y="354" width="150" height="64" rx="18"/><rect x="542" y="354" width="150" height="64" rx="18"/></g>
+          <g fill="#f8f4e8" font-size="17" font-weight="800" text-anchor="middle"><text x="143" y="137">MISSION</text><text x="617" y="137">DOCKET</text><text x="143" y="392">VALIDATORS</text><text x="617" y="392">DECISION</text></g>
+          <g stroke="#ffe56e" stroke-width="3" fill="none"><path d="M220 132 C280 95 338 110 360 190"/><path d="M540 132 C480 95 422 110 400 190"/><path d="M220 386 C280 426 338 408 360 326"/><path d="M540 386 C480 426 422 408 400 326"/></g>
+          <text x="380" y="485" text-anchor="middle" fill="#ffe56e" font-size="18" font-weight="900">Objective → Docket → Replay → Review → Decision → Chronicle</text>
+        </svg>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Mission control metrics">
+      <div><strong id="readiness">42</strong><span>readiness</span></div>
+      <div><strong id="readyMissions">1</strong><span>ready mission</span></div>
+      <div><strong id="blockedMissions">3</strong><span>blocked items</span></div>
+      <div><strong id="reviewersNeeded">4</strong><span>review seats</span></div>
+      <div><strong id="decisionState">HOLD</strong><span>decision state</span></div>
+    </section>
+
+    <section class="grid3">
+      <article class="panel controls">
+        <div class="num">01</div><h2>Choose the mission lane</h2>
+        <label>Mission preset<select id="preset"></select></label>
+        <label>Operating posture<select id="posture"><option value="public-alpha">Public-alpha rehearsal</option><option value="review-ready">Reviewer-ready package</option><option value="launch-gate">Proof Run 001 launch gate</option></select></label>
+        <label>Risk class<select id="risk"><option value="low">Low — public-safe</option><option value="medium">Medium — requires review</option><option value="high">High — human authority only</option></select></label>
+        <div class="checks" id="checks"></div>
+      </article>
+
+      <article class="panel board">
+        <div class="num">02</div><h2>Mission operating board</h2>
+        <div class="lanes" id="lanes"></div>
+        <div class="trace" id="trace"><b>Chronicle / Live Trace</b><pre id="log">Awaiting mission readiness run.</pre></div>
+      </article>
+
+      <article class="panel chamber">
+        <div class="num">03</div><h2>Decision chamber</h2>
+        <div class="ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="48"></circle><circle id="ring" cx="60" cy="60" r="48"></circle></svg><div><strong id="ringScore">42</strong><span>READINESS</span></div></div>
+        <div class="verdict" id="verdict">HOLD — mission package is not yet ready for public proof.</div>
+        <dl><dt>Mission contract</dt><dd id="vMission">pending</dd><dt>Evidence docket</dt><dd id="vDocket">pending</dd><dt>Replay path</dt><dd id="vReplay">pending</dd><dt>Validator review</dt><dd id="vReview">pending</dd></dl>
+        <button class="download" id="downloadDocket">Download mission docket</button>
+        <button class="download" id="downloadPacket">Download validator packet</button>
+        <button class="download" id="downloadIssue">Copy GitHub issue draft</button>
+      </article>
+    </section>
+
+    <section class="explain">
+      <div><h2>Why this page matters</h2><p>GoalOS already has a public demo journey. Mission Control turns that journey into operating discipline: every proposed mission gets a lane, a gate state, a reviewer path, and a docket plan. It is the bridge from impressive demos to Proof Run 001.</p></div>
+      <div><h2>Plain-English rule</h2><p>A mission is not ready because it sounds important. It is ready when the objective is bounded, the proof artifacts are named, replay is possible, reviewers know what to inspect, and the claim boundary is visible.</p></div>
+      <div><h2>Advanced rule</h2><p>Readiness is a function of Mission Contract completeness, Evidence Docket coverage, baseline presence, replayability, validator quorum, cost/risk ledger status, and public/private boundary integrity. Score is advisory. Gates are mandatory.</p></div>
+    </section>
+  </main>
+  <script src="assets/goalos-proof-mission-control-v1.js"></script>
+</body>
+</html>

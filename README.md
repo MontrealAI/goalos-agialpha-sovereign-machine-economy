@@ -1271,3 +1271,14 @@ The Proof Mission Forge is the public-safe intake bridge from ordinary objective
 - Boundary: no user data, no user funds, no wallet, no transaction, no network call, human review required.
 - Purpose: convert public-safe objectives into review-ready proof missions for Proof Run 001 and future mission slots.
 <!-- /GOALOS_PROOF_MISSION_FORGE_V1 -->
+
+<!-- GOALOS_PROOF_MISSION_CONTROL_V1 -->
+## Proof Mission Control V1
+
+GoalOS now includes a public operating board for turning public-safe proof missions into reviewable state.
+
+- [Proof Mission Control](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-control.html)
+- [Proof Mission Forge](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-forge.html)
+- [Proof Run 001 Execution Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-execution-room.html)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no production authority, human review required.

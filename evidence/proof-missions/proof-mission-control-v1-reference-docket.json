@@ -1,0 +1,37 @@
+{
+  "kind": "GoalOSProofMissionControlReferenceDocket",
+  "version": "v1",
+  "generated_at": "2026-06-29T02:43:17.299663+00:00",
+  "mission": "Repository Launch Readiness",
+  "purpose": "Reference public-safe mission control docket for Proof Run 001 preparation.",
+  "lifecycle": [
+    "Objective",
+    "Mission Contract",
+    "Evidence Docket Plan",
+    "Replay Checklist",
+    "Validator Packet",
+    "Governed Decision State",
+    "Chronicle"
+  ],
+  "gates": {
+    "Mission Contract": true,
+    "Claims Matrix": true,
+    "Evidence Docket Plan": true,
+    "Baseline Matrix": false,
+    "Replay Checklist": true,
+    "Validator Packet": false,
+    "Cost/Risk Ledger": true,
+    "Claim Boundary": true,
+    "No Data / No Funds": true,
+    "Human Review": true
+  },
+  "decision_state": "HOLD_VALIDATOR_PACKET_REQUIRED",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "no_transaction": true,
+  "no_network_call": true,
+  "human_review_required": true,
+  "claim_boundary": "Public-alpha reference docket. Not production authority. Not external validation."
+}

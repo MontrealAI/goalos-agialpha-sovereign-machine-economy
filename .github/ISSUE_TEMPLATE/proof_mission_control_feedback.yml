@@ -1,0 +1,23 @@
+name: Proof Mission Control feedback
+description: Public-safe feedback for the GoalOS Proof Mission Control board.
+title: "Proof Mission Control feedback: "
+labels: ["proof-mission", "user-feedback", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Do not submit personal data, customer data, confidential data, credentials, private keys, seed phrases, wallet signatures, payment data, regulated data, trade secrets, or user funds.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What was confusing, useful, impressive, or missing?
+    validations:
+      required: true
