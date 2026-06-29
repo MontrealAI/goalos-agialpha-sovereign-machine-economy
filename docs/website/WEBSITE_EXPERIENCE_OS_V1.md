@@ -1,6 +1,6 @@
 # GoalOS Website Experience OS V1
 
-Generated: 2026-06-29T19:48:08Z
+Generated: 2026-06-29T19:49:43Z
 
 This layer makes the public site coherent, navigable, and review-ready.
 

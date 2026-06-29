@@ -1,5 +1,5 @@
 window.GOALOS_SITE_INDEX = {
-  "generated_at": "2026-06-29T19:48:08Z",
+  "generated_at": "2026-06-29T19:49:43Z",
   "version": "v1",
   "title": "GoalOS Website Experience OS",
   "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
@@ -448,6 +448,19 @@ window.GOALOS_SITE_INDEX = {
       "canonical": false
     },
     {
+      "name": "GoalOS Website Operating Map",
+      "href": "site-map.html",
+      "url": "site-map.html",
+      "category": "Additional",
+      "description": "Additional public page discovered in the repository.",
+      "audience": "all",
+      "tags": [
+        "discovered"
+      ],
+      "status": "live",
+      "canonical": false
+    },
+    {
       "name": "Governance · GoalOS Ascension",
       "href": "governance.html",
       "url": "governance.html",
@@ -828,19 +841,6 @@ window.GOALOS_SITE_INDEX = {
       "name": "Security · GoalOS Ascension",
       "href": "security.html",
       "url": "security.html",
-      "category": "Additional",
-      "description": "Additional public page discovered in the repository.",
-      "audience": "all",
-      "tags": [
-        "discovered"
-      ],
-      "status": "live",
-      "canonical": false
-    },
-    {
-      "name": "Site Map — GoalOS",
-      "href": "site-map.html",
-      "url": "site-map.html",
       "category": "Additional",
       "description": "Additional public page discovered in the repository.",
       "audience": "all",
@@ -1584,6 +1584,20 @@ window.GOALOS_SITE_INDEX = {
       "canonical": true
     },
     {
+      "name": "Website Operating Map",
+      "href": "website-operating-system.html",
+      "url": "website-operating-system.html",
+      "category": "Start",
+      "description": "The complete navigation map for the GoalOS website.",
+      "audience": "new-user",
+      "tags": [
+        "navigation",
+        "map"
+      ],
+      "status": "live",
+      "canonical": true
+    },
+    {
       "name": "Data Boundary",
       "href": "data-boundary.html",
       "url": "data-boundary.html",
@@ -1661,20 +1675,6 @@ window.GOALOS_SITE_INDEX = {
         "token"
       ],
       "status": "live",
-      "canonical": true
-    },
-    {
-      "name": "Website Operating Map",
-      "href": "website-operating-system.html",
-      "url": "website-operating-system.html",
-      "category": "Start",
-      "description": "The complete navigation map for the GoalOS website.",
-      "audience": "new-user",
-      "tags": [
-        "navigation",
-        "map"
-      ],
-      "status": "planned",
       "canonical": true
     }
   ]

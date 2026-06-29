@@ -34,6 +34,7 @@
   <url><loc>./document-series.html</loc></url>
   <url><loc>./historical-command-center.html</loc></url>
   <url><loc>./launch-narrative.html</loc></url>
+  <url><loc>./site-map.html</loc></url>
   <url><loc>./governance.html</loc></url>
   <url><loc>./holy-grail-candidate.html</loc></url>
   <url><loc>./independent-validation.html</loc></url>
@@ -64,7 +65,6 @@
   <url><loc>./schema-registry.html</loc></url>
   <url><loc>./security-boundary.html</loc></url>
   <url><loc>./security.html</loc></url>
-  <url><loc>./site-map.html</loc></url>
   <url><loc>./source-lineage.html</loc></url>
   <url><loc>./standards.html</loc></url>
   <url><loc>./start.html</loc></url>
@@ -119,6 +119,7 @@
   <url><loc>./index.html</loc></url>
   <url><loc>./proof-experience-atlas.html</loc></url>
   <url><loc>./start-here.html</loc></url>
+  <url><loc>./website-operating-system.html</loc></url>
   <url><loc>./data-boundary.html</loc></url>
   <url><loc>./investment-token-boundary.html</loc></url>
   <url><loc>./legal.html</loc></url>
