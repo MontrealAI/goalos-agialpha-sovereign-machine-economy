@@ -1,3 +1,16 @@
+<!-- GOALOS_DEMO_REGISTRY_FALSIFICATION_V12 -->
+## GoalOS Demo Ecosystem Registry + Falsification Gauntlet V1.2
+
+The public demo ecosystem now has a canonical routing matrix:
+
+- Website: `public/demo-ecosystem-registry.html`
+- Falsification hotfix: `public/falsification-gauntlet.html`
+- Registry JSON: `content/goalos/demo-ecosystem-registry-v1.json`
+- QA: `reports/demo-registry-falsification-v1-2-qa.json`
+
+V1.2 makes Falsification Gauntlet stress mode claim-sensitive: narrower, bounded, replayable, low-overhead claims now score differently from broad, vague, overclaiming claims.
+
+
 
 
 ## Proof Experience Atlas

@@ -1,0 +1,23 @@
+name: Demo registry or falsification feedback
+description: Report feedback on the GoalOS demo registry or Falsification Gauntlet.
+title: "[Demo Registry / Falsification] "
+labels: ["feedback", "demo-registry", "falsification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, secrets, credentials, private keys, wallet information, payment information, or confidential material.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, confidential, credential, wallet, payment, or regulated data.
+          required: true

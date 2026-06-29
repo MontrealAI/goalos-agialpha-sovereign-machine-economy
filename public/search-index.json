@@ -267,5 +267,10 @@
     "title": "Real-Task Benchmark Bridge",
     "url": "real-task-benchmark-bridge.html",
     "description": "Browser-local demo showing how GoalOS moves from demos to real-task evidence with baselines, replay, ledgers, validators, and review."
+  },
+  {
+    "title": "Demo Ecosystem Registry",
+    "url": "demo-ecosystem-registry.html",
+    "description": "Canonical routing matrix for GoalOS demos."
   }
 ]
