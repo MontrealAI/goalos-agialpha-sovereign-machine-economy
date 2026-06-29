@@ -232,5 +232,10 @@
     "title": "Proof Run 001 Execution Room",
     "url": "proof-run-001-execution-room.html",
     "summary": "The bridge from public-alpha architecture to the first real Evidence Docket."
+  },
+  {
+    "title": "Proof Experience Atlas",
+    "url": "proof-experience-atlas.html",
+    "description": "Unified browser-local path through the best GoalOS public demos."
   }
 ]

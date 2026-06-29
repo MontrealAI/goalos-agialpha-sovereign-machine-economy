@@ -1,0 +1,12 @@
+{
+  "status": "installed",
+  "page": "public/proof-experience-atlas.html",
+  "installed_at": "2026-06-29T02:23:02.178136+00:00",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "human_review_required": true
+  }
+}

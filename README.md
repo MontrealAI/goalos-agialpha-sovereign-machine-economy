@@ -1,4 +1,16 @@
 
+
+## Proof Experience Atlas
+
+The public website now includes the **Proof Experience Atlas**: a unified, browser-local path through the best GoalOS demonstrations.
+
+Start here: [`/proof-experience-atlas.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-experience-atlas.html)
+
+It maps: Multi-Agent Institution → Proof Gradient Lab → Evidence Docket Theatre → Proof-to-Action Command Room → Capability Compounding Lab → Sovereign Experience Stream Lab → Proof-Settlement Chronicle Lab → Falsification Gauntlet → Proof Run 001 Execution Room.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+
 <!-- GOALOS_PROOF_RUN_001_EXECUTION_ROOM_V1 -->
 
 ## Proof Run 001 Execution Room

@@ -1,0 +1,21 @@
+name: Proof Experience Atlas feedback
+description: Public-safe feedback on the Proof Experience Atlas. Do not submit private data.
+title: "[Atlas feedback]: "
+labels: ["proof-experience-atlas", "feedback", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Do not submit personal data, customer data, confidential data, regulated data, credentials, private keys, seed phrases, wallet data, payment data, or funds.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should improve?

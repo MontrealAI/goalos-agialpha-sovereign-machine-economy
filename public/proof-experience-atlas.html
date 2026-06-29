@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Proof Experience Atlas — From output to proof</title>
+  <meta name="description" content="A browser-local guided map of the best GoalOS public demos: from multi-agent institution to Proof Run 001." />
+  <link rel="stylesheet" href="assets/goalos-proof-experience-atlas-v1.css" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span><span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav>
+      <a href="start-here.html">Start</a>
+      <a href="multi-agent-institution.html">Institution</a>
+      <a href="proof-gradient-lab.html">Gradient</a>
+      <a href="evidence-docket-theatre.html">Docket</a>
+      <a href="proof-run-001-execution-room.html">Proof Run 001</a>
+      <a class="active" href="proof-experience-atlas.html">Atlas</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow"><span></span> public demo atlas / browser-local / no data</p>
+        <h1>From AI output to institutional proof.</h1>
+        <p class="lede">The Proof Experience Atlas is the user-friendly map of GoalOS: eight public demonstrations, one guided path, one no-data/no-funds boundary, and one next step — Proof Run 001.</p>
+        <div class="cta-row">
+          <button id="runTour" class="primary">Run the 90-second tour</button>
+          <button id="downloadDocket">Download atlas docket</button>
+          <a class="button" href="proof-run-001-execution-room.html">Open Proof Run 001</a>
+        </div>
+        <div class="boundary"><strong>Default deny:</strong> No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
+      </div>
+      <aside class="orbital-card" aria-label="Proof experience visual map">
+        <div class="mode-toggle" role="group" aria-label="Audience mode">
+          <button class="mode active" data-mode="executive">Executive</button>
+          <button class="mode" data-mode="technical">Technical</button>
+        </div>
+        <svg id="atlasSvg" viewBox="0 0 620 520" role="img" aria-label="GoalOS proof experience atlas">
+          <defs>
+            <radialGradient id="g" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#fff78a"/><stop offset=".35" stop-color="#6fffd2"/><stop offset="1" stop-color="#8d78ff"/></radialGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect x="0" y="0" width="620" height="520" rx="28" fill="rgba(8,12,24,.56)" stroke="rgba(255,255,255,.12)"/>
+          <circle cx="310" cy="260" r="72" fill="url(#g)" opacity=".92" filter="url(#glow)"/>
+          <text x="310" y="250" text-anchor="middle" class="svgAlpha">α</text>
+          <text x="310" y="285" text-anchor="middle" class="svgSub">GOALOS</text>
+          <g class="orbits">
+            <ellipse cx="310" cy="260" rx="210" ry="96" />
+            <ellipse cx="310" cy="260" rx="160" ry="190" transform="rotate(38 310 260)"/>
+            <ellipse cx="310" cy="260" rx="160" ry="190" transform="rotate(-38 310 260)"/>
+          </g>
+          <g id="nodes"></g>
+          <path d="M120 260 C170 70, 450 70, 500 260 C450 450, 170 450, 120 260" fill="none" stroke="#fff16b" stroke-width="3" stroke-dasharray="8 12" opacity=".3"/>
+        </svg>
+      </aside>
+    </section>
+
+    <section class="path-panel">
+      <div class="metric"><b id="readiness">74</b><span>experience readiness</span></div>
+      <div class="metric"><b>9</b><span>public stations</span></div>
+      <div class="metric"><b>36</b><span>downloadable artifacts</span></div>
+      <div class="metric"><b>0</b><span>external actions</span></div>
+      <div class="metric"><b>1</b><span>human boundary</span></div>
+    </section>
+
+    <section class="choose">
+      <div class="section-kicker">choose your path</div>
+      <h2>One system. Four ways to enter.</h2>
+      <div class="role-grid">
+        <button class="role active" data-role="new">I am new</button>
+        <button class="role" data-role="reviewer">I want to review</button>
+        <button class="role" data-role="builder">I want to build</button>
+        <button class="role" data-role="institution">I represent an institution</button>
+      </div>
+      <div id="roleAdvice" class="advice"></div>
+    </section>
+
+    <section class="journey">
+      <div class="section-kicker">the best public demonstrations</div>
+      <h2>Run the GoalOS idea from first principles to first proof.</h2>
+      <div id="stationGrid" class="station-grid"></div>
+    </section>
+
+    <section class="theatre">
+      <div class="control-room">
+        <div class="section-kicker">live guided tour</div>
+        <h2 id="tourTitle">Ready to run the proof experience.</h2>
+        <p id="tourCopy">Click the tour button. The Atlas will walk through the public demos in order, generate a review route, and produce a local docket for inspection.</p>
+        <div class="gate-grid" id="gateGrid"></div>
+        <div class="cta-row small">
+          <button id="downloadRoute">Download reviewer route</button>
+          <button id="copySummary">Copy executive summary</button>
+        </div>
+      </div>
+      <div class="chronicle">
+        <div class="section-kicker">chronicle</div>
+        <pre id="chronicle">00:00 Atlas ready. Browser-local. No data leaves this page.</pre>
+      </div>
+    </section>
+
+    <section class="translation">
+      <div>
+        <div class="section-kicker">what proof means here</div>
+        <h2>Proof means evidence-bearing work.</h2>
+        <p>For normal users, proof means evidence you can inspect. For institutions, proof means an audit-ready Evidence Docket. For protocol readers, proof means commitments, attestations, replay paths, validator reports, and ledger-ready receipts.</p>
+      </div>
+      <div class="translation-grid">
+        <div><strong>Output</strong><span>sounds useful</span></div>
+        <div><strong>Evidence</strong><span>can be inspected</span></div>
+        <div><strong>Decision state</strong><span>can be reviewed</span></div>
+        <div><strong>Capability</strong><span>can be reused</span></div>
+      </div>
+    </section>
+
+    <section class="final-card">
+      <p class="eyebrow"><span></span> next move</p>
+      <h2>The Atlas makes the website usable as one coherent proof journey.</h2>
+      <p>Every station remains browser-local and claim-bounded. No user data. No user funds. No wallet. No transaction. The next empirical step remains Proof Run 001: a real bounded mission, public Evidence Docket, replay path, validator review, cost/risk ledger, governed decision state, Chronicle entry, and reusable capability package.</p>
+      <div class="cta-row"><a class="button primary" href="proof-run-001-execution-room.html">Open the Execution Room</a><a class="button" href="evidence-room.html">Inspect Evidence Room</a></div>
+    </section>
+  </main>
+
+  <script src="assets/goalos-proof-experience-atlas-v1.js"></script>
+</body>
+</html>
