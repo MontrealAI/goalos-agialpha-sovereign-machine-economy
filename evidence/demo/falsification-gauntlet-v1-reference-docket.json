@@ -1,6 +1,6 @@
 {
   "schema": "goalos.falsification_gauntlet.v1",
-  "generated_at": "2026-06-29T02:00:16.951269Z",
+  "generated_at": "2026-06-29T02:01:44.311048Z",
   "claim": "A claim should be promoted only after baselines, replay, privacy, cost/risk, validators, claim boundary, delayed-outcome plan, and human review are present.",
   "baseline_scores": {
     "B0": 31,
