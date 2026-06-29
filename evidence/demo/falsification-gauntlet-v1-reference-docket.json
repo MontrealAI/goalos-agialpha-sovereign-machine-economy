@@ -1,0 +1,23 @@
+{
+  "schema": "goalos.falsification_gauntlet.v1",
+  "generated_at": "2026-06-29T02:00:16.951269Z",
+  "claim": "A claim should be promoted only after baselines, replay, privacy, cost/risk, validators, claim boundary, delayed-outcome plan, and human review are present.",
+  "baseline_scores": {
+    "B0": 31,
+    "B1": 38,
+    "B2": 46,
+    "B3": 58,
+    "B4": 65,
+    "B5": 71,
+    "B6": 76
+  },
+  "decision_state": "HOLD_DELAYED_OUTCOME_PLAN_REQUIRED",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

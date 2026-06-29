@@ -222,5 +222,10 @@
     "title": "Proof-Settlement Chronicle Lab",
     "url": "proof-settlement-chronicle-lab.html",
     "description": "No ProofBundle, no settlement. Browser-local GoalOS proof-settlement simulation."
+  },
+  {
+    "title": "Falsification Gauntlet",
+    "url": "falsification-gauntlet.html",
+    "summary": "Strong claims survive baselines: browser-local claim-bound proof demo."
   }
 ]

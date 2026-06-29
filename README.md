@@ -1,4 +1,16 @@
 
+<!-- GOALOS_FALSIFICATION_GAUNTLET_V1 -->
+
+## GoalOS Falsification Gauntlet V1 — Strong Claims Survive Baselines
+
+New public demo: [`/falsification-gauntlet.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/falsification-gauntlet.html)
+
+This browser-local page demonstrates that GoalOS claims are not promoted by rhetoric. A claim must survive Evidence Docket checks, baselines, replay, cost/risk ledgers, validator notes, privacy boundaries, delayed-outcome planning, and human review.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority.
+
+
+
 <!-- GOALOS_PROOF_GRADIENT_LAB_V1 -->
 
 ## Proof Gradient Lab — No proof, no evolution

@@ -1,0 +1,20 @@
+{
+  "id": "goalos-falsification-gauntlet-v1",
+  "page": "falsification-gauntlet.html",
+  "title": "GoalOS Falsification Gauntlet V1",
+  "thesis": "Strong claims survive baselines.",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "downloads": [
+    "falsification report",
+    "baseline matrix",
+    "Evidence Docket",
+    "reviewer brief"
+  ]
+}

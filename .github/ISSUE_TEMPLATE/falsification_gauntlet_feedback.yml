@@ -1,0 +1,25 @@
+name: Falsification Gauntlet feedback
+description: Review or improve the GoalOS Falsification Gauntlet public demo.
+title: "[Falsification Gauntlet] "
+labels: ["demo", "falsification", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the GoalOS Falsification Gauntlet.
+
+        Do **not** submit personal data, customer data, confidential information, credentials, wallet information, funds, private keys, seed phrases, or trade secrets.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe boundary
+      options:
+        - label: I confirm this issue contains no personal, confidential, regulated, credential, wallet, payment, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should improve?
+    validations:
+      required: true

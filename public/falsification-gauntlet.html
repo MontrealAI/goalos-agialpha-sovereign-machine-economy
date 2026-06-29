@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="GoalOS Falsification Gauntlet: a browser-local public demo showing that strong claims survive baselines, replay, safety, privacy, and human review." />
+  <title>GoalOS Falsification Gauntlet — Strong Claims Survive Baselines</title>
+  <link rel="stylesheet" href="assets/goalos-falsification-gauntlet-v1.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <main class="shell">
+    <nav class="nav" aria-label="GoalOS demonstration navigation">
+      <a class="brand" href="index.html"><span class="sigil">α</span><span><strong>GoalOS</strong><small>AGIALPHA Ascension</small></span></a>
+      <div class="links">
+        <a href="start-here.html">Start</a>
+        <a href="multi-agent-institution.html">Institution</a>
+        <a href="proof-gradient-lab.html">Proof Gradient</a>
+        <a href="evidence-docket-theatre.html">Docket Theatre</a>
+        <a href="proof-to-action-command-room.html">Proof → Action</a>
+        <a href="capability-compounding-lab.html">Compounding</a>
+        <a href="sovereign-experience-stream-lab.html">Experience</a>
+        <a class="active" href="falsification-gauntlet.html">Gauntlet</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>PUBLIC DEMO / BROWSER-LOCAL / CLAIM-BOUND</p>
+        <h1>Strong claims survive <em>baselines.</em></h1>
+        <p class="lead">A system that cannot fail cannot prove. Run a public-safe claim through baselines, replay, validators, cost/risk ledgers, privacy boundaries, and falsification tests.</p>
+        <div class="hero-actions">
+          <button id="runGauntlet" class="btn primary">Run falsification gauntlet</button>
+          <button id="stressClaim" class="btn">Stress claim</button>
+          <button id="resetDemo" class="btn subtle">Reset</button>
+        </div>
+        <p class="boundary"><strong>Default deny:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</p>
+      </div>
+      <aside class="hero-visual" aria-label="Falsification gauntlet visual chamber">
+        <div class="mode-toggle" role="group" aria-label="Mode selector"><button class="mode active" data-mode="exec">Executive</button><button class="mode" data-mode="technical">Technical</button></div>
+        <svg id="gauntletSvg" viewBox="0 0 760 520" role="img" aria-label="Baseline gauntlet diagram">
+          <defs>
+            <radialGradient id="coreGlow" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#fff0a2"/><stop offset="0.45" stop-color="#60ffd6"/><stop offset="1" stop-color="#8d7bff"/></radialGradient>
+          </defs>
+          <rect x="0" y="0" width="760" height="520" rx="34" fill="rgba(255,255,255,.04)" />
+          <g opacity=".45" stroke="rgba(255,255,255,.12)">
+            <path d="M60 120 H700"/><path d="M60 210 H700"/><path d="M60 300 H700"/><path d="M60 390 H700"/>
+            <path d="M145 60 V460"/><path d="M295 60 V460"/><path d="M465 60 V460"/><path d="M615 60 V460"/>
+          </g>
+          <circle cx="380" cy="260" r="70" fill="url(#coreGlow)" opacity=".92"/>
+          <text x="380" y="252" text-anchor="middle" font-size="32" font-weight="900" fill="#07111f">CLAIM</text>
+          <text x="380" y="285" text-anchor="middle" font-size="15" font-weight="800" fill="#07111f">must survive</text>
+          <g id="fallbackNodes" fill="#0b1424" stroke="#66ffd6" stroke-width="2">
+            <circle cx="380" cy="82" r="30"/><circle cx="620" cy="162" r="30"/><circle cx="620" cy="358" r="30"/><circle cx="380" cy="438" r="30"/><circle cx="140" cy="358" r="30"/><circle cx="140" cy="162" r="30"/>
+          </g>
+          <g font-size="13" fill="#f6fbff" text-anchor="middle" font-weight="800">
+            <text x="380" y="87">BASE</text><text x="620" y="167">REPLAY</text><text x="620" y="363">RISK</text><text x="380" y="443">PRIV</text><text x="140" y="363">COST</text><text x="140" y="167">VAL</text>
+          </g>
+          <g stroke="#ffe98b" stroke-width="2" opacity=".65">
+            <path d="M380 112 Q500 120 592 148"/><path d="M620 192 Q650 260 620 328"/><path d="M592 372 Q500 430 410 438"/><path d="M350 438 Q245 430 168 372"/><path d="M140 328 Q110 260 140 192"/><path d="M168 148 Q245 90 350 82"/>
+          </g>
+        </svg>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Gauntlet metrics">
+      <div><strong id="scoreValue">42</strong><span>Claim readiness</span></div>
+      <div><strong id="baselineValue">B5</strong><span>Best surviving baseline</span></div>
+      <div><strong id="falsifiersValue">7</strong><span>Falsifiers active</span></div>
+      <div><strong id="decisionValue">HOLD</strong><span>Decision state</span></div>
+      <div><strong>0</strong><span>External actions</span></div>
+    </section>
+
+    <section class="workbench">
+      <article class="panel compose">
+        <div class="panel-head"><span>01</span><div><h2>Choose the claim</h2><p>Start with a public-safe claim. The gauntlet decides whether it can be promoted, held, rejected, or revised.</p></div></div>
+        <label class="label" for="scenarioSelect">Claim scenario</label>
+        <select id="scenarioSelect" class="input">
+          <option value="repoLaunch">Repository launch readiness</option>
+          <option value="multiAgent">Multi-agent coordination</option>
+          <option value="frontierRelease">Frontier release governance</option>
+          <option value="capability">Capability compounding</option>
+          <option value="settlement">Proof-settlement loop</option>
+        </select>
+        <label class="label" for="claimText">Claim under test</label>
+        <textarea id="claimText" class="input textarea"></textarea>
+        <div class="switch-grid" id="gateControls" aria-label="Mandatory proof gates"></div>
+      </article>
+
+      <article class="panel theatre">
+        <div class="panel-head"><span>02</span><div><h2>Baseline gauntlet</h2><p>A strong claim must beat relevant baselines and survive negative controls under equal constraints.</p></div></div>
+        <div class="ladder" id="baselineLadder"></div>
+        <div class="gauntlet-row" id="falsifierCards"></div>
+        <div class="terminal" id="terminal" aria-live="polite"></div>
+      </article>
+
+      <article class="panel decision">
+        <div class="panel-head"><span>03</span><div><h2>Decision chamber</h2><p>Score is advisory. Gates are mandatory. Human review remains required.</p></div></div>
+        <div class="ring" id="scoreRing"><strong id="ringScore">42</strong><span>readiness</span></div>
+        <div class="decision-box"><span>Governed decision state</span><strong id="decisionState">HOLD_PENDING_GAUNTLET</strong></div>
+        <div class="status-list" id="statusList"></div>
+        <div class="downloads">
+          <button class="btn primary" id="downloadReport">Download falsification report</button>
+          <button class="btn" id="downloadMatrix">Download baseline matrix</button>
+          <button class="btn" id="downloadDocket">Download Evidence Docket</button>
+          <button class="btn subtle" id="downloadBrief">Download reviewer brief</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="explain">
+      <article>
+        <h3>Plain English</h3>
+        <p>A claim is not strong because it sounds impressive. It is strong when it survives replay, baselines, safety, privacy, cost, validator review, and delayed-outcome checks.</p>
+      </article>
+      <article>
+        <h3>Advanced view</h3>
+        <p><code>D_real = success × verified_work / cost × (1 - critical_risk) × (1 - coordination_overhead)</code>. If baselines win, replay fails, or the privacy boundary breaks, the claim is not promoted.</p>
+      </article>
+      <article>
+        <h3>Boundary</h3>
+        <p>This demo is browser-local. It does not collect data, move funds, connect wallets, call models, or authorize production actions.</p>
+      </article>
+    </section>
+  </main>
+  <script src="assets/goalos-falsification-gauntlet-v1.js"></script>
+</body>
+</html>
