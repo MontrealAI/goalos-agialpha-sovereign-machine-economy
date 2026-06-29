@@ -1,6 +1,6 @@
 {
   "schema": "goalos.falsification_gauntlet.v1_1.demo_run",
-  "generated_at": "2026-06-29T03:28:40Z",
+  "generated_at": "2026-06-29T03:29:21Z",
   "status": "passed",
   "fixes": [
     "custom claim text preserved during stress",
