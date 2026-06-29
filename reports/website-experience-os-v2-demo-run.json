@@ -1,9 +1,9 @@
 {
   "status": "passed",
-  "generatedAt": "2026-06-29T22:22:45Z",
+  "generatedAt": "2026-06-29T22:24:07Z",
   "docket": {
     "docketId": "GOALOS-WEBSITE-EXPERIENCE-OS-V2",
-    "generatedAt": "2026-06-29T22:22:45Z",
+    "generatedAt": "2026-06-29T22:24:07Z",
     "claim": "The GoalOS public-alpha website has a unified navigation, route registry, role-based Pathfinder, site map, and visible no-data/no-funds boundary.",
     "boundary": [
       "No user data",

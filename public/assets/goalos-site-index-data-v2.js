@@ -1,8 +1,8 @@
 window.GOALOS_SITE_META = {
-  "generatedAt": "2026-06-29T22:22:45Z",
+  "generatedAt": "2026-06-29T22:24:07Z",
   "generator": "scripts/install_website_experience_os_v2.py",
   "routeCount": 130,
-  "liveRouteCount": 128,
+  "liveRouteCount": 129,
   "coreDemoCount": 21,
   "boundary": [
     "No user data",
@@ -81,7 +81,7 @@ window.GOALOS_SITE_ROUTES = [
     "category": "start",
     "audience": "all users",
     "role": "navigation",
-    "status": "expected",
+    "status": "live",
     "inputs": [
       "User role",
       "goal",
@@ -2137,7 +2137,7 @@ window.GOALOS_SITE_ROUTES = [
   {
     "path": "trust-boundary.html",
     "title": "Trust Boundary",
-    "description": "No user data, no user funds, no wallet, no transaction, human review required.",
+    "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
     "category": "trust",
     "audience": "all users",
     "role": "trust",

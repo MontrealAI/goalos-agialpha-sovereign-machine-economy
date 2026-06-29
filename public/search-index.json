@@ -14,6 +14,13 @@
     "status": "live"
   },
   {
+    "title": "GoalOS Pathfinder",
+    "url": "pathfinder.html",
+    "description": "Choose a role and get the right route through the institution.",
+    "category": "start",
+    "status": "live"
+  },
+  {
     "title": "Site Map",
     "url": "site-map.html",
     "description": "Every public page in one place.",
@@ -520,7 +527,7 @@
   {
     "title": "Trust Boundary",
     "url": "trust-boundary.html",
-    "description": "No user data, no user funds, no wallet, no transaction, human review required.",
+    "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
     "category": "trust",
     "status": "live"
   },

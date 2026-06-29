@@ -1,6 +1,6 @@
 # GoalOS Website Experience OS V2
 
-Generated: 2026-06-29T22:22:45Z
+Generated: 2026-06-29T22:24:07Z
 
 ## Purpose
 
@@ -26,5 +26,5 @@ No user data. No user funds. No wallet. No transaction. No network call. No prod
 ## Route count
 
 - Total routes: 130
-- Live routes: 128
+- Live routes: 129
 - Core journey stations: 17
