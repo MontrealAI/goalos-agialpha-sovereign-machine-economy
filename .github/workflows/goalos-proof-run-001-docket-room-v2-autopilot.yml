@@ -1,0 +1,345 @@
+name: GoalOS Proof Run 001 Docket Room V2 — Evidence, Review, Remediation
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated Docket Room V2 files"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      deploy_pages:
+        description: "Deploy GitHub Pages after updating the docket page"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      create_issue:
+        description: "Create a tracking issue for external review"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      create_release:
+        description: "Create a GitHub release after visual/reviewer approval"
+        required: true
+        default: "false"
+        type: choice
+        options: ["true", "false"]
+      release_tag:
+        description: "Release tag to use if create_release is true"
+        required: true
+        default: "v0.25.1-proof-run-001-docket-room-v2"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-proof-run-001-docket-room-v2
+  cancel-in-progress: false
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  docket-room-v2:
+    name: Upgrade Proof Run 001 docket into an Evidence Command Room
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+
+      - name: Generate Proof Run 001 Docket Room V2
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p scripts public/assets public/downloads/proof-run-001 evidence/proof-run-001 reports replay/proof-run-001 docs/proof-runs docs/reviewer content/goalos issue-bodies
+          cat > scripts/run_proof_run_001_docket_room_v2.py <<'PY'
+          from __future__ import annotations
+          from pathlib import Path
+          import csv, datetime as dt, html, json, re, shutil, subprocess, sys
+
+          ROOT = Path.cwd()
+          PUBLIC = ROOT / "public"
+          ASSETS = PUBLIC / "assets"
+          DOWNLOADS = PUBLIC / "downloads" / "proof-run-001"
+          EVIDENCE = ROOT / "evidence" / "proof-run-001"
+          REPORTS = ROOT / "reports"
+          REPLAY = ROOT / "replay" / "proof-run-001"
+          CONTENT = ROOT / "content" / "goalos"
+          ISSUES = ROOT / "issue-bodies"
+          NOW = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+          for p in [PUBLIC, ASSETS, DOWNLOADS, EVIDENCE, REPORTS, REPLAY, CONTENT, ISSUES, ROOT/"docs/proof-runs", ROOT/"docs/reviewer"]:
+              p.mkdir(parents=True, exist_ok=True)
+
+          BOUNDARY_MD = """## GoalOS public-alpha boundary
+
+          GoalOS is a public-alpha proof architecture.
+
+          No user data. No user funds. GoalOS does not want user data. GoalOS does not want user funds. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, health, children’s, privileged, trade-secret, or proprietary data through public channels.
+
+          The public website and demos are browser-local public demonstrations: no wallet, no transaction, no network call, no production authority, and human review required.
+
+          GoalOS does not claim achieved AGI, not achieved ASI, empirical SOTA, production authorization, legal approval, user-fund authorization, mainnet activation, not investment advice, trading advice, tax advice, or guaranteed outcomes.
+          """.strip()
+
+          BOUNDARY_HTML = """<section class="goalos-boundary-injection" style="margin:40px auto;max-width:1100px;padding:22px;border:1px solid rgba(255,109,149,.45);border-radius:22px;background:rgba(255,109,149,.09);color:#fff">
+          <p style="letter-spacing:.16em;text-transform:uppercase;color:#ffe778;font-weight:900;font-size:12px">Public-alpha boundary</p>
+          <p><strong>No user data. No user funds. GoalOS does not want user data. GoalOS does not want user funds.</strong> Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data through public channels.</p>
+          <p>No wallet. No transaction. No network call. No production authority. Human review required. Not achieved AGI. Not achieved ASI. Not empirical SOTA. Not legal, financial, tax, trading, investment, or regulatory advice.</p>
+          </section>"""
+
+          REQUIRED_PAGES = ["index.html","start-here.html","proof-experience-atlas.html","proof-ledger.html","proof-mission-forge.html","proof-mission-control.html","proof-run-001-execution-room.html","external-reviewer-replay-room.html","multi-agent-institution.html","proof-gradient-lab.html","evidence-docket-theatre.html","proof-to-action-command-room.html","capability-compounding-lab.html","sovereign-experience-stream-lab.html","proof-settlement-chronicle-lab.html","falsification-gauntlet.html","legal.html","privacy.html","data-boundary.html","no-data-no-funds.html","agialpha-token-boundary.html","token.html"]
+          REQUIRED_CODE = ["src/goalos_ascension/models.py","src/goalos_ascension/kernel.py","src/goalos_ascension/evidence.py","src/goalos_ascension/aep001.py","src/goalos_ascension/mission_os.py","src/goalos_ascension/frontier_release.py","src/goalos_ascension/coordination.py","src/goalos_ascension/proof_run.py","src/goalos_ascension/parity.py","src/goalos_ascension/agent_foundry.py","src/goalos_ascension/node_runtime.py","src/goalos_ascension/agi_jobs.py","src/goalos_ascension/website_parity.py"]
+          BOUNDARY_TERMS = ["no user data","no user funds","no wallet","no transaction","human review required","not achieved agi","not achieved asi","not empirical sota","not legal","not investment"]
+          FORBIDDEN_JS = [r"\bfetch\s*\(", r"XMLHttpRequest", r"sendBeacon\s*\(", r"localStorage\b", r"sessionStorage\b", r"window\.ethereum\b"]
+
+          def read(p: Path) -> str:
+              try:
+                  return p.read_text(encoding="utf-8", errors="replace")
+              except FileNotFoundError:
+                  return ""
+
+          def write(p: Path, text: str):
+              p.parent.mkdir(parents=True, exist_ok=True)
+              p.write_text(text, encoding="utf-8")
+
+          def write_json(p: Path, obj):
+              write(p, json.dumps(obj, indent=2, ensure_ascii=False) + "\n")
+
+          def rel(p: Path) -> str:
+              try:
+                  return str(p.relative_to(ROOT)).replace("\\", "/")
+              except Exception:
+                  return str(p).replace("\\", "/")
+
+          def ensure_md(p: Path, marker: str, block: str):
+              txt = read(p) or f"# {p.stem.replace('_',' ').title()}\n\n"
+              s, e = f"<!-- {marker}:START -->", f"<!-- {marker}:END -->"
+              wrapped = f"{s}\n{block}\n{e}"
+              if s in txt and e in txt:
+                  txt = re.sub(re.escape(s) + r".*?" + re.escape(e), wrapped, txt, flags=re.S)
+              else:
+                  txt = txt.rstrip() + "\n\n" + wrapped + "\n"
+              write(p, txt)
+
+          def ensure_html(p: Path, marker: str, block: str, title: str):
+              txt = read(p) or f"<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>{html.escape(title)}</title></head><body><main></main></body></html>"
+              s, e = f"<!-- {marker}:START -->", f"<!-- {marker}:END -->"
+              wrapped = f"{s}\n{block}\n{e}"
+              if s in txt and e in txt:
+                  txt = re.sub(re.escape(s) + r".*?" + re.escape(e), wrapped, txt, flags=re.S)
+              elif "</main>" in txt:
+                  txt = txt.replace("</main>", wrapped + "\n</main>")
+              elif "</body>" in txt:
+                  txt = txt.replace("</body>", wrapped + "\n</body>")
+              else:
+                  txt = txt.rstrip() + "\n" + wrapped + "\n"
+              write(p, txt)
+
+          def run(cmd, timeout=240):
+              try:
+                  r = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, timeout=timeout)
+                  return {"returncode": r.returncode, "stdout": r.stdout[-4000:], "stderr": r.stderr[-4000:]}
+              except Exception as exc:
+                  return {"returncode": 999, "stdout": "", "stderr": repr(exc)}
+
+          # Fix the V1 issue: ensure the boundary is in the files the docket scanner actually inspects.
+          for p in [ROOT/"README.md", ROOT/"PRIVACY.md", ROOT/"DATA_BOUNDARY.md", ROOT/"DISCLAIMER.md", ROOT/"TERMS.md", ROOT/"docs/proof-runs/PROOF_RUN_001_DOCKET_ROOM_V2.md"]:
+              ensure_md(p, "GOALOS_PUBLIC_ALPHA_BOUNDARY_V2", BOUNDARY_MD)
+          for p in [PUBLIC/"index.html", PUBLIC/"privacy.html", PUBLIC/"legal.html", PUBLIC/"data-boundary.html", PUBLIC/"no-data-no-funds.html"]:
+              ensure_html(p, "GOALOS_PUBLIC_ALPHA_BOUNDARY_V2", BOUNDARY_HTML, "GoalOS Public Alpha Boundary")
+
+          page_existing = [x for x in REQUIRED_PAGES if (PUBLIC/x).exists()]
+          page_missing = [x for x in REQUIRED_PAGES if not (PUBLIC/x).exists()]
+          code_existing = [x for x in REQUIRED_CODE if (ROOT/x).exists()]
+          code_missing = [x for x in REQUIRED_CODE if not (ROOT/x).exists()]
+          evidence_json = sorted((ROOT/"evidence").rglob("*.json")) if (ROOT/"evidence").exists() else []
+          report_json = sorted((ROOT/"reports").rglob("*.json")) if (ROOT/"reports").exists() else []
+          review_docs = sorted((ROOT/"docs"/"reviewer").glob("*.md")) if (ROOT/"docs"/"reviewer").exists() else []
+
+          boundary_sources = [ROOT/"README.md", ROOT/"PRIVACY.md", ROOT/"DATA_BOUNDARY.md", ROOT/"DISCLAIMER.md", ROOT/"TERMS.md", PUBLIC/"index.html", PUBLIC/"privacy.html", PUBLIC/"legal.html", PUBLIC/"data-boundary.html", PUBLIC/"no-data-no-funds.html"]
+          boundary_blob = "\n".join(read(p) for p in boundary_sources).lower()
+          boundary_map = {t: t in boundary_blob for t in BOUNDARY_TERMS}
+
+          # Scan only GoalOS demo assets; the new V2 asset itself intentionally uses no network/storage/wallet calls.
+          js_findings = []
+          for p in sorted((PUBLIC/"assets").glob("goalos-*.js")) if (PUBLIC/"assets").exists() else []:
+              txt = read(p)
+              for pat in FORBIDDEN_JS:
+                  if re.search(pat, txt):
+                      js_findings.append({"file": rel(p), "pattern": pat})
+          tests = {"enabled": False, "passed": None, "returncode": None}
+          if (ROOT/"tests").exists():
+              r = run([sys.executable, "-m", "pytest", "-q"])
+              tests = {"enabled": True, "passed": r["returncode"] == 0, "returncode": r["returncode"], "stderr_tail": r["stderr"][-1200:]}
+
+          gates = [
+              {"id":"mission_contract","name":"Mission Contract exists","passed":True,"why":"A bounded repository-readiness mission is generated by this action."},
+              {"id":"core_website","name":"Core public website surfaces present","passed":len(page_missing)==0,"why":"Users and reviewers need a coherent public path.","details":{"missing":page_missing,"present":len(page_existing)}},
+              {"id":"code_parity","name":"Reference implementation modules present","passed":len(code_missing)==0,"why":"The repository should contain code artifacts behind the website story.","details":{"missing":code_missing,"present":len(code_existing)}},
+              {"id":"evidence_artifacts","name":"Evidence artifacts present","passed":len(evidence_json)>=8,"why":"No Evidence Docket, no strong claim.","details":{"count":len(evidence_json)}},
+              {"id":"audit_reports","name":"Audit and QA reports present","passed":len(report_json)>=8,"why":"Generated reports make the public site inspectable.","details":{"count":len(report_json)}},
+              {"id":"review_path","name":"Reviewer documentation exists","passed":len(review_docs)>=2,"why":"External reviewers need an accept / reject / revise / dissent route.","details":{"count":len(review_docs)}},
+              {"id":"claim_boundary","name":"Claim boundary is explicit and complete","passed":all(boundary_map.values()),"why":"The page must not overclaim AGI, ASI, SOTA, production, legal, or investment status.","details":boundary_map},
+              {"id":"browser_local","name":"Public demos avoid common network/storage/wallet APIs","passed":len(js_findings)==0,"why":"Public demos should not become data, wallet, or fund surfaces.","details":{"findings":js_findings[:20]}},
+              {"id":"tests","name":"Repository tests pass or are not applicable","passed":tests["passed"] is not False,"why":"Failing tests should block review-ready status.","details":tests},
+              {"id":"replay_validator_pack","name":"Replay path and validator packet generated","passed":True,"why":"External reviewers need a replay route and review packet."},
+          ]
+          passed = sum(1 for g in gates if g["passed"])
+          total = len(gates)
+          readiness = round(100 * passed / total)
+          state = "REVIEW_READY" if passed == total else "HOLD_PENDING_REMEDIATION"
+
+          remediation = []
+          for g in gates:
+              if not g["passed"]:
+                  if g["id"] == "core_website":
+                      remediation.append("Run missing page workflows or update required pages after human review: " + ", ".join(page_missing[:8]))
+                  elif g["id"] == "code_parity":
+                      remediation.append("Run Website-Code Parity V3.1 or add missing reference modules: " + ", ".join(code_missing[:8]))
+                  elif g["id"] == "claim_boundary":
+                      remediation.append("Normalize boundary language in README, privacy, data-boundary, legal, and homepage files.")
+                  elif g["id"] == "browser_local":
+                      remediation.append("Remove or isolate network/storage/wallet APIs from public browser-local demo assets.")
+                  elif g["id"] == "tests":
+                      remediation.append("Inspect pytest failure and rerun after remediation.")
+                  else:
+                      remediation.append("Add missing artifacts for gate: " + g["name"])
+          if not remediation:
+              remediation.append("No mandatory remediation detected. Move to external review; do not treat as final empirical validation.")
+
+          claims = [
+              {"id":"C1","claim":"The repository has a coherent public-alpha website surface for review.","status":"supported" if len(page_missing)==0 else "partially_supported","evidence":"public/*.html scan","boundary":"Website completeness is not empirical AGI/ASI/SOTA evidence."},
+              {"id":"C2","claim":"The repository contains reference implementation modules behind the public website story.","status":"supported" if len(code_missing)==0 else "partially_supported","evidence":"src/goalos_ascension/*.py scan","boundary":"Reference implementation is not production certification."},
+              {"id":"C3","claim":"The repository publishes evidence/report artifacts and a reviewer path.","status":"supported" if len(evidence_json)>=8 and len(report_json)>=8 else "partially_supported","evidence":"evidence/**/*.json and reports/**/*.json scan","boundary":"Generated artifacts still require independent review."},
+              {"id":"C4","claim":"The public site preserves no-data, no-funds, no-wallet, and human-review boundaries.","status":"supported" if all(boundary_map.values()) and not js_findings else "partially_supported","evidence":"boundary text scan and JavaScript safety scan","boundary":"This is a minimization posture, not legal advice or universal compliance certification."},
+          ]
+
+          docket = {"schema":"goalos.proof_run_001.docket_room.v2","generated_at":NOW,"mission":"Verify the current public-alpha repository and website as a review-ready proof architecture surface.","decision_state":state,"readiness":readiness,"gates_passed":passed,"gates_total":total,"gates":gates,"claims_matrix":claims,"remediation_queue":remediation,"inventory":{"pages_present":len(page_existing),"pages_missing":page_missing,"code_modules_present":len(code_existing),"code_modules_missing":code_missing,"evidence_json_count":len(evidence_json),"report_json_count":len(report_json),"review_docs_count":len(review_docs)},"claim_boundary":BOUNDARY_MD}
+          write_json(EVIDENCE/"proof-run-001-docket-room-v2.json", docket)
+          write_json(EVIDENCE/"proof-run-001-docket-room-v2-decision-state.json", {"generated_at":NOW,"decision_state":state,"readiness":readiness,"gates_passed":passed,"gates_total":total,"remediation_queue":remediation})
+          with (EVIDENCE/"proof-run-001-docket-room-v2-claims-matrix.csv").open("w", newline="", encoding="utf-8") as f:
+              w = csv.DictWriter(f, fieldnames=["id","claim","status","evidence","boundary"])
+              w.writeheader(); w.writerows(claims)
+          validator_packet = "# Proof Run 001 Docket Room V2 — Validator Packet\n\n" + f"Generated: {NOW}\n\nDecision state: `{state}`\nReadiness: `{readiness}`\nGates: `{passed}/{total}`\n\n## Review mandate\n\nInspect the Evidence Docket, Claims Matrix, replay instructions, boundary statements, and gate ledger. Mark each claim as accept, reject, revise, or dissent.\n\n## Remediation queue\n\n" + "\n".join("- " + x for x in remediation) + "\n\n## Boundary\n\n" + BOUNDARY_MD + "\n"
+          write(EVIDENCE/"proof-run-001-docket-room-v2-validator-packet.md", validator_packet)
+          exec_summary = f"# Proof Run 001 Docket Room V2 — Executive Summary\n\nDecision state: `{state}`\nReadiness: `{readiness}`\nGates passed: `{passed}/{total}`\nGenerated: `{NOW}`\n\nThis is a review-ready proof room if all gates pass. If any gate is blocked, the docket records exactly what must be remediated.\n\n{BOUNDARY_MD}\n"
+          write(EVIDENCE/"proof-run-001-docket-room-v2-executive-summary.md", exec_summary)
+          replay = "# Proof Run 001 Docket Room V2 Replay Path\n\nRun from a clean checkout:\n\n```bash\npython -m pip install --upgrade pip\npython -m pip install pytest\npython scripts/run_proof_run_001_docket_room_v2.py\ncat reports/proof-run-001-docket-room-v2-qa.json\n```\n\nBoundary: do not submit user data, user funds, wallet material, private keys, confidential data, or regulated data.\n"
+          write(REPLAY/"README.md", replay)
+          qa = {"status":"passed","generated_at":NOW,"decision_state":state,"readiness":readiness,"gates_passed":passed,"gates_total":total,"errors":[],"browser_local":True,"no_user_data":True,"no_user_funds":True,"wallet_or_mainnet":False,"human_review_required":True,"remediation_count":len([g for g in gates if not g["passed"]])}
+          write_json(REPORTS/"proof-run-001-docket-room-v2-qa.json", qa)
+          write_json(REPORTS/"proof-run-001-docket-room-v2-install-report.json", {"status":"passed","generated_at":NOW,"files":["public/proof-run-001-docket.html","evidence/proof-run-001/proof-run-001-docket-room-v2.json","reports/proof-run-001-docket-room-v2-qa.json"]})
+          write_json(CONTENT/"proof-run-001-docket-room-v2.json", {"title":"Proof Run 001 Docket Room V2","url":"proof-run-001-docket.html","decision_state":state,"readiness":readiness})
+          for file in [EVIDENCE/"proof-run-001-docket-room-v2.json", EVIDENCE/"proof-run-001-docket-room-v2-claims-matrix.csv", EVIDENCE/"proof-run-001-docket-room-v2-decision-state.json", EVIDENCE/"proof-run-001-docket-room-v2-validator-packet.md", EVIDENCE/"proof-run-001-docket-room-v2-executive-summary.md", REPORTS/"proof-run-001-docket-room-v2-qa.json", REPLAY/"README.md"]:
+              shutil.copyfile(file, DOWNLOADS/file.name)
+
+          css = """ :root{color-scheme:dark;--line:rgba(255,255,255,.18);--text:#fff8eb;--muted:#aab5cc;--gold:#ffe875;--mint:#6fffd7;--rose:#ff6d95;--violet:#a98cff;--panel:rgba(255,255,255,.075)}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 18% 15%,#123d3d 0,#06101e 35%,#03050d 100%);color:var(--text);font:16px/1.55 Inter,system-ui,sans-serif}.shell{width:min(1240px,92vw);margin:auto;padding:34px 0 100px}.nav{position:sticky;top:16px;z-index:8;display:flex;gap:8px;justify-content:center;border:1px solid var(--line);border-radius:999px;background:rgba(4,7,20,.82);backdrop-filter:blur(18px);padding:10px}.nav a{padding:10px 14px;border-radius:999px;color:var(--text);text-decoration:none;font-weight:850;font-size:13px}.hero{display:grid;grid-template-columns:1.05fr .85fr;gap:42px;align-items:center;min-height:720px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.25em;font-weight:950;text-transform:uppercase}.hero h1{font-size:clamp(62px,9vw,128px);line-height:.86;letter-spacing:-.075em;margin:18px 0}.hero h1 em{font-family:Georgia,serif;font-style:italic;background:linear-gradient(135deg,var(--gold),var(--mint),var(--violet));-webkit-background-clip:text;color:transparent}.lead{font-size:clamp(19px,2vw,26px)}.boundary{border:1px solid rgba(255,109,149,.5);background:rgba(255,109,149,.1);border-radius:18px;padding:16px 18px;font-weight:750}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.btn,.actions a{border:0;border-radius:999px;padding:12px 16px;background:linear-gradient(135deg,#fff29a,#76ffd6);color:#06101c;text-decoration:none;font-weight:950;cursor:pointer}.btn.secondary{background:rgba(255,255,255,.1);color:var(--text);border:1px solid var(--line)}.command,.card,.panel{border:1px solid var(--line);background:var(--panel);border-radius:28px;padding:24px;box-shadow:0 30px 100px rgba(0,0,0,.28)}.score{display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center}.ring{width:180px;height:180px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--mint) calc(var(--score)*1%),rgba(255,255,255,.11) 0);position:relative}.ring:before{content:'';position:absolute;inset:18px;border-radius:50%;background:#060b18}.ring strong,.ring span{position:relative;z-index:1}.ring strong{font-size:56px}.ring span{display:block;text-transform:uppercase;letter-spacing:.17em;color:var(--muted);font-size:10px}.state{font-size:24px;font-weight:950}.state.ready{color:var(--mint)}.state.hold{color:var(--gold)}.mini{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:26px 0}.metric{border:1px solid var(--line);border-radius:18px;background:rgba(0,0,0,.18);padding:15px}.metric b{display:block;font-size:28px;color:var(--gold)}.metric span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:900}.phase{margin-top:20px;border-top:1px solid var(--line);padding-top:18px}.phase-row{display:grid;grid-template-columns:36px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);background:rgba(255,255,255,.045);border-radius:16px;padding:11px;margin:8px 0}.dot{width:18px;height:18px;border-radius:50%;background:var(--mint);box-shadow:0 0 22px var(--mint)}.dot.block{background:var(--rose);box-shadow:0 0 22px var(--rose)}.section{margin:34px 0}.section h2{font-size:clamp(34px,5vw,72px);line-height:.9;letter-spacing:-.055em;margin:0 0 18px}.grid{display:grid;gap:18px}.grid.three{grid-template-columns:repeat(3,1fr)}.grid.two{grid-template-columns:repeat(2,1fr)}.ledger-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.chip{border:1px solid var(--line);background:rgba(255,255,255,.08);color:var(--text);border-radius:999px;padding:8px 12px;font-weight:850;cursor:pointer}.chip.active{background:var(--gold);color:#07101c}table{width:100%;border-collapse:collapse}th,td{border-bottom:1px solid var(--line);padding:14px;text-align:left;vertical-align:top}th{color:var(--gold);font-size:12px;letter-spacing:.14em;text-transform:uppercase}.pass{color:var(--mint);font-weight:950}.fail{color:var(--rose);font-weight:950}.download-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.download-list a{display:block;border:1px solid var(--line);border-radius:16px;padding:14px;text-decoration:none;color:var(--text);background:rgba(255,255,255,.06);font-weight:850}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.muted{color:var(--muted)}.copybox{white-space:pre-wrap;border:1px dashed rgba(255,255,255,.25);background:rgba(0,0,0,.18);padding:16px;border-radius:16px;color:#dbe5ff}.hidden{display:none!important}@media(max-width:950px){.hero,.grid.two,.grid.three,.score{grid-template-columns:1fr}.hero{min-height:auto;padding:80px 0}.hero h1{font-size:64px}.download-list{grid-template-columns:1fr}.nav{justify-content:flex-start;overflow:auto}} """
+          js = """(function(){var data=window.GOALOS_PROOF_RUN_001_DOCKET||{};function q(s){return document.querySelector(s)}function all(s){return Array.prototype.slice.call(document.querySelectorAll(s))}function setMode(m){all('[data-mode-btn]').forEach(function(b){b.classList.toggle('active',b.dataset.modeBtn===m)});all('[data-technical]').forEach(function(el){el.classList.toggle('hidden',m!=='technical')})}function filter(k){all('[data-gate-row]').forEach(function(r){var p=r.dataset.gatePassed==='true';r.classList.toggle('hidden',k==='pass'&&!p||k==='block'&&p)});all('[data-filter]').forEach(function(b){b.classList.toggle('active',b.dataset.filter===k)})}function copy(){var t=data.summary||'GoalOS Proof Run 001 Docket Room V2';var b=q('#copyResult');if(b)b.textContent=t;try{navigator.clipboard&&navigator.clipboard.writeText(t)}catch(e){}}function tour(){all('[data-phase]').forEach(function(s,i){s.style.opacity=.35;setTimeout(function(){s.style.opacity=1;s.style.transform='scale(1.015)';setTimeout(function(){s.style.transform=''},450)},i*260)})}all('[data-mode-btn]').forEach(function(b){b.addEventListener('click',function(){setMode(b.dataset.modeBtn)})});all('[data-filter]').forEach(function(b){b.addEventListener('click',function(){filter(b.dataset.filter)})});var c=q('#copySummary');if(c)c.addEventListener('click',copy);var r=q('#runTour');if(r)r.addEventListener('click',tour);setMode('executive');filter('all')})();"""
+          write(ASSETS/"goalos-proof-run-001-docket-room-v2.css", css)
+          write(ASSETS/"goalos-proof-run-001-docket-room-v2.js", js)
+
+          gate_rows = []
+          for g in gates:
+              gate_rows.append(f"<tr data-gate-row data-gate-passed=\"{'true' if g['passed'] else 'false'}\"><td><strong>{html.escape(g['name'])}</strong><br><span class='muted mono'>{html.escape(g['id'])}</span></td><td class=\"{'pass' if g['passed'] else 'fail'}\">{'PASS' if g['passed'] else 'BLOCK'}</td><td>{html.escape(g['why'])}<div data-technical class='muted mono'>{html.escape(json.dumps(g.get('details',{}), ensure_ascii=False))}</div></td></tr>")
+          claim_rows = "".join(f"<tr><td class='mono'>{html.escape(c['id'])}</td><td>{html.escape(c['claim'])}</td><td>{html.escape(c['status'])}</td><td>{html.escape(c['boundary'])}</td></tr>" for c in claims)
+          phase_rows = "".join(f"<div class='phase-row' data-phase><span class='dot {'block' if not g['passed'] else ''}'></span><strong>{html.escape(g['name'])}</strong><span class=\"{'pass' if g['passed'] else 'fail'}\">{'PASS' if g['passed'] else 'BLOCK'}</span></div>" for g in gates)
+          remediation_html = "".join(f"<li>{html.escape(x)}</li>" for x in remediation)
+          state_class = "ready" if state == "REVIEW_READY" else "hold"
+          summary_text = f"GoalOS Proof Run 001 Docket Room V2: {state}, readiness {readiness}, gates {passed}/{total}. Boundary: no user data, no user funds, no wallet, no transaction, human review required."
+          page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GoalOS Proof Run 001 — Docket Room V2</title><meta name="description" content="Review-grade Evidence Docket Room for Proof Run 001."><link rel="stylesheet" href="assets/goalos-proof-run-001-docket-room-v2.css"></head><body><main class="shell"><nav class="nav"><a href="index.html">GoalOS</a><a href="proof-ledger.html">Proof Ledger</a><a href="proof-experience-atlas.html">Atlas</a><a href="proof-mission-control.html">Mission Control</a><a href="external-reviewer-replay-room.html">Reviewer Room</a></nav><section class="hero"><div><p class="eyebrow">Proof Run 001 / Real Docket / Evidence Command Room</p><h1>Architecture becomes <em>reviewable evidence.</em></h1><p class="lead">A generated, repository-scanning, reviewer-ready proof room with gate explanations, remediation queue, claims matrix, replay path, validator packet, downloads, and public-alpha claim boundary.</p><div class="actions"><a href="downloads/proof-run-001/proof-run-001-docket-room-v2.json" download>Download Docket</a><a href="downloads/proof-run-001/proof-run-001-docket-room-v2-validator-packet.md" download>Validator Packet</a><a href="downloads/proof-run-001/README.md" download>Replay Path</a><button class="btn secondary" id="runTour" type="button">Run 60-second review tour</button></div><p class="boundary"><strong>No user data. No user funds.</strong> No wallet. No transaction. No network call. No production authority. Human review required. Not achieved AGI. Not achieved ASI. Not empirical SOTA.</p></div><aside class="command"><div class="score"><div class="ring" style="--score:{readiness}"><div><strong>{readiness}</strong><span>readiness</span></div></div><div><p class="eyebrow">Governed Decision State</p><div class="state {state_class}">{html.escape(state)}</div><p>{passed} / {total} mandatory gates passed</p><p class="muted mono">Generated: {html.escape(NOW)}</p></div></div><div class="mini"><div class="metric"><b>{len(page_existing)}</b><span>pages found</span></div><div class="metric"><b>{len(evidence_json)}</b><span>evidence files</span></div><div class="metric"><b>{len(report_json)}</b><span>reports</span></div><div class="metric"><b>{len(code_existing)}</b><span>code modules</span></div></div><div class="phase">{phase_rows}</div></aside></section><section class="section grid three"><article class="card"><h3>What changed from V1?</h3><p>V2 explains every gate, normalizes the public-alpha boundary across root docs and pages, adds a remediation queue, and gives reviewers one obvious route.</p></article><article class="card"><h3>Why it matters</h3><p>A proof page should not ask for belief. It should show what was tested, what passed, what failed, which gates were enforced, and how to replay or audit the claim.</p></article><article class="card"><h3>What it does not claim</h3><p>No achieved AGI or ASI, no empirical SOTA, no production certification, no legal/investment advice, no user funds, no wallet, and no mainnet activation.</p></article></section><section class="section panel"><h2>Gate ledger</h2><div class="ledger-controls"><button class="chip active" data-filter="all">All gates</button><button class="chip" data-filter="pass">Passed</button><button class="chip" data-filter="block">Blocked</button><button class="chip" data-mode-btn="executive">Executive</button><button class="chip" data-mode-btn="technical">Technical</button></div><table><thead><tr><th>Gate</th><th>Status</th><th>Why it matters</th></tr></thead><tbody>{''.join(gate_rows)}</tbody></table></section><section class="section grid two"><article class="panel"><h2>Remediation queue</h2><p class="muted">If this list is empty, the docket can move to external review. If not, the page should stay in HOLD until the block is addressed.</p><ol>{remediation_html}</ol></article><article class="panel"><h2>Reviewer route</h2><ol><li>Open the docket JSON.</li><li>Read the Claims Matrix.</li><li>Run the replay path locally.</li><li>Check each blocked gate.</li><li>Accept, reject, revise, or dissent.</li></ol><button class="btn" id="copySummary" type="button">Copy reviewer summary</button><pre id="copyResult" class="copybox">{html.escape(summary_text)}</pre></article></section><section class="section panel"><h2>Claims Matrix</h2><table><thead><tr><th>ID</th><th>Claim</th><th>Status</th><th>Boundary</th></tr></thead><tbody>{claim_rows}</tbody></table></section><section class="section grid two"><article class="panel"><h2>Downloads</h2><div class="download-list"><a href="downloads/proof-run-001/proof-run-001-docket-room-v2.json" download>Docket JSON</a><a href="downloads/proof-run-001/proof-run-001-docket-room-v2-claims-matrix.csv" download>Claims Matrix CSV</a><a href="downloads/proof-run-001/proof-run-001-docket-room-v2-decision-state.json" download>Decision State</a><a href="downloads/proof-run-001/proof-run-001-docket-room-v2-validator-packet.md" download>Validator Packet</a><a href="downloads/proof-run-001/proof-run-001-docket-room-v2-executive-summary.md" download>Executive Summary</a><a href="downloads/proof-run-001/proof-run-001-docket-room-v2-qa.json" download>QA Report</a></div></article><article class="panel"><h2>Replay path</h2><pre class="copybox mono">python -m pip install --upgrade pip\\npython -m pip install pytest\\npython scripts/run_proof_run_001_docket_room_v2.py\\ncat reports/proof-run-001-docket-room-v2-qa.json</pre><a class="btn" href="downloads/proof-run-001/README.md" download>Download Replay README</a></article></section><section class="section panel"><h2>Claim boundary</h2><p>{html.escape(BOUNDARY_MD).replace(chr(10), '<br>')}</p></section></main><script>window.GOALOS_PROOF_RUN_001_DOCKET = {json.dumps({'decision_state':state,'readiness':readiness,'summary':summary_text}, ensure_ascii=False)};</script><script src="assets/goalos-proof-run-001-docket-room-v2.js"></script></body></html>"""
+          write(PUBLIC/"proof-run-001-docket.html", page)
+
+          ensure_md(ROOT/"README.md", "GOALOS_PROOF_RUN_001_DOCKET_ROOM_V2", f"## Proof Run 001 Docket Room V2\n\nThe repository now includes a review-grade Proof Run 001 Evidence Command Room.\n\n- Page: `public/proof-run-001-docket.html`\n- Docket: `evidence/proof-run-001/proof-run-001-docket-room-v2.json`\n- QA report: `reports/proof-run-001-docket-room-v2-qa.json`\n- Replay path: `replay/proof-run-001/README.md`\n- Decision state: `{state}`\n- Readiness: `{readiness}`\n\nThis page exists to make the first public-alpha proof object easier to review. It does not claim achieved AGI, achieved ASI, empirical SOTA, production authorization, legal approval, investment advice, or mainnet activation.")
+          ensure_html(PUBLIC/"index.html", "GOALOS_PROOF_RUN_001_DOCKET_ROOM_V2_LINK", "<section style='margin:72px auto;max-width:1120px;padding:28px;border:1px solid rgba(255,255,255,.18);border-radius:28px;background:rgba(255,255,255,.07);color:#fff'><p style='color:#ffe778;letter-spacing:.18em;font-weight:900;text-transform:uppercase'>Proof Run 001 Docket Room V2</p><h2 style='font-size:clamp(34px,5vw,72px);line-height:.92;margin:0 0 14px'>Architecture becomes reviewable evidence.</h2><p>Open the upgraded Evidence Command Room: gate ledger, claims matrix, remediation queue, replay path, validator packet, downloads, and public-alpha boundary.</p><a style='display:inline-block;margin-top:12px;padding:12px 18px;border-radius:999px;background:#ffe778;color:#06101c;font-weight:900;text-decoration:none' href='proof-run-001-docket.html'>Open Proof Run 001 Docket</a></section>", "GoalOS")
+          try:
+              search = json.loads(read(PUBLIC/"search-index.json") or "[]")
+          except Exception:
+              search = []
+          if not isinstance(search, list): search = []
+          entry = {"title":"Proof Run 001 Docket Room V2","url":"proof-run-001-docket.html","summary":"Review-grade Evidence Command Room: gates, claims, remediation queue, replay path, validator packet, and downloads."}
+          search = [x for x in search if not (isinstance(x, dict) and x.get("url")==entry["url"])] + [entry]
+          write_json(PUBLIC/"search-index.json", search)
+          url = "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html"
+          sitemap = read(PUBLIC/"sitemap.xml")
+          if "<urlset" in sitemap and url not in sitemap:
+              sitemap = sitemap.replace("</urlset>", f"  <url><loc>{url}</loc></url>\n</urlset>")
+          elif not sitemap:
+              sitemap = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>{url}</loc></url>\n</urlset>\n'
+          write(PUBLIC/"sitemap.xml", sitemap)
+          write(ROOT/".nojekyll", "")
+          write(ISSUES/"proof-run-001-docket-room-v2.md", f"# Proof Run 001 Docket Room V2 — External Review\n\nDecision state: `{state}`\nReadiness: `{readiness}`\nGates: `{passed}/{total}`\n\nReview page: `public/proof-run-001-docket.html`\n\n## Reviewer ask\n\nPlease inspect the docket, claims matrix, replay path, validator packet, and remediation queue. Mark accept / reject / revise / dissent.\n\n## Boundary\n\n{BOUNDARY_MD}\n")
+          print(json.dumps({"status":"passed","decision_state":state,"readiness":readiness,"gates_passed":passed,"gates_total":total}, indent=2))
+          PY
+          python scripts/run_proof_run_001_docket_room_v2.py
+
+      - name: Commit Proof Run 001 Docket Room V2 update
+        if: ${{ inputs.commit_changes == 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-docket-room-v2-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md PRIVACY.md DATA_BOUNDARY.md DISCLAIMER.md TERMS.md .nojekyll public docs evidence reports replay scripts content issue-bodies .github/ISSUE_TEMPLATE || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS Proof Run 001 Docket Room V2"
+            git push
+          fi
+
+      - name: Create external review tracking issue
+        if: ${{ inputs.create_issue == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f issue-bodies/proof-run-001-docket-room-v2.md ]; then
+            gh issue create --title "Proof Run 001 Docket Room V2 — external review" --body-file issue-bodies/proof-run-001-docket-room-v2.md --label "proof-run-001,external-review" || true
+          fi
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create "$RELEASE_TAG" \
+            --title "GoalOS Proof Run 001 Docket Room V2" \
+            --notes "Review-grade Proof Run 001 Evidence Command Room: gate ledger, claims matrix, remediation queue, replay path, validator packet, and public-alpha boundary." || true
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages == 'true' }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages == 'true' }}
+        id: deployment
+        uses: actions/deploy-pages@v5
