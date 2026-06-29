@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "generated_at": "2026-06-29T12:54:49Z",
+  "generated_at": "2026-06-29T12:55:36Z",
   "registry_entries": 26,
   "falsification_hotfix": "v1.2 claim-sensitive stress path installed",
   "browser_local": true,
