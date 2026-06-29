@@ -1,0 +1,41 @@
+name: External Reviewer Replay
+description: Review a GoalOS Evidence Docket, replay path, or claim boundary.
+title: "External Reviewer Replay: "
+labels: [review, evidence, replay]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, funds, or trade secrets.
+  - type: textarea
+    id: review_object
+    attributes:
+      label: What did you review?
+      description: Name the docket, page, report, or replay path.
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options:
+        - accept for human review
+        - reject
+        - revise
+        - dissent
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: What passed, failed, or needs revision?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I did not include personal, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, customer, or trade-secret data.
+          required: true

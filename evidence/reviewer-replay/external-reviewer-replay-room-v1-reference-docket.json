@@ -1,0 +1,21 @@
+{
+  "schema": "goalos.external_reviewer_replay.demo_run.v1",
+  "generated_at": "2026-06-29T02:55:24Z",
+  "review_object": "Proof Run 001 rehearsal docket",
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "gates": {
+    "evidence_docket": true,
+    "replay_path": true,
+    "baselines": true,
+    "cost_risk_ledger": true,
+    "claim_boundary": true,
+    "validator_notes": true,
+    "dissent_channel": true
+  },
+  "decision_state": "REVIEW_READY"
+}

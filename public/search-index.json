@@ -247,5 +247,10 @@
     "title": "Proof Mission Control",
     "url": "proof-mission-control.html",
     "description": "Turn public-safe proof missions into reviewable operating state."
+  },
+  {
+    "title": "External Reviewer Replay Room",
+    "url": "external-reviewer-replay-room.html",
+    "description": "Independent review path for Evidence Dockets, replay, baselines, validator notes, claim boundaries, and dissent."
   }
 ]

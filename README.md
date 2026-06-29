@@ -1282,3 +1282,12 @@ GoalOS now includes a public operating board for turning public-safe proof missi
 - [Proof Run 001 Execution Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-execution-room.html)
 
 Boundary: no user data, no user funds, no wallet, no transaction, no production authority, human review required.
+
+
+<!-- GOALOS_EXTERNAL_REVIEWER_REPLAY_ROOM_V1 -->
+## External Reviewer Replay Room
+
+Independent review is now a first-class public path. Open the browser-local **External Reviewer Replay Room** to inspect Evidence Dockets, replay checklists, validator notes, baselines, cost/risk ledgers, claim boundaries, and dissent.
+
+- Website: [`/external-reviewer-replay-room.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html)
+- Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.

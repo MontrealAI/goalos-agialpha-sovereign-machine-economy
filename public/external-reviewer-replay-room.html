@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS External Reviewer Replay Room — Independent Review Path</title>
+  <meta name="description" content="A browser-local GoalOS review room for replay, validator reports, dissent, claim boundaries, and Evidence Docket inspection. No user data, no funds, no wallet, no network call." />
+  <link rel="stylesheet" href="assets/goalos-reviewer-replay-v1.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home"><span class="mark">α</span><span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span></a>
+    <nav>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-mission-control.html">Mission Control</a>
+      <a href="proof-run-001-execution-room.html">Proof Run 001</a>
+      <a href="evidence-room.html">Evidence Room</a>
+      <a class="active" href="external-reviewer-replay-room.html">Reviewer Replay</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="copy">
+        <p class="eyebrow"><span></span> PUBLIC REVIEW / BROWSER-LOCAL / NO DATA</p>
+        <h1>Independent review makes proof real.</h1>
+        <p class="lede">A claim becomes stronger only when someone else can inspect the docket, run the replay path, challenge the boundary, and file accept, reject, revise, or dissent.</p>
+        <div class="cta-row">
+          <button id="runReview" class="primary">Run reviewer path</button>
+          <button id="stressReplay" class="secondary">Stress missing replay</button>
+          <button id="resetRoom" class="ghost">Reset</button>
+        </div>
+        <div class="boundary"><strong>Default deny:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</div>
+      </div>
+      <div class="visual" aria-label="Reviewer replay visualization">
+        <div class="mode-toggle"><button data-mode="executive" class="active">Executive</button><button data-mode="technical">Technical</button></div>
+        <svg id="reviewSvg" viewBox="0 0 760 480" role="img" aria-label="Evidence Docket to reviewer replay graph">
+          <defs>
+            <radialGradient id="g" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#ffe870"/><stop offset="45%" stop-color="#66ffd1"/><stop offset="100%" stop-color="#7f83ff"/></radialGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect x="0" y="0" width="760" height="480" rx="28" fill="rgba(255,255,255,.035)" stroke="rgba(255,255,255,.15)"/>
+          <g opacity=".25" stroke="#7aa7ff"><path d="M80 120H680M80 210H680M80 300H680M80 390H680M170 70V430M300 70V430M460 70V430M590 70V430"/></g>
+          <circle cx="380" cy="240" r="74" fill="url(#g)" filter="url(#glow)" opacity=".96"/>
+          <text x="380" y="230" text-anchor="middle" fill="#061018" font-size="32" font-weight="900">REPLAY</text>
+          <text x="380" y="260" text-anchor="middle" fill="#061018" font-size="16" font-weight="800">ROOM</text>
+          <g id="nodes" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">
+            <g><circle cx="380" cy="88" r="31" fill="#101827" stroke="#66ffd1"/><text x="380" y="93">DOCKET</text></g>
+            <g><circle cx="590" cy="150" r="31" fill="#101827" stroke="#ffe870"/><text x="590" y="155">REPLAY</text></g>
+            <g><circle cx="635" cy="315" r="31" fill="#101827" stroke="#ff8bd1"/><text x="635" y="320">DISSENT</text></g>
+            <g><circle cx="380" cy="394" r="31" fill="#101827" stroke="#8fa3ff"/><text x="380" y="399">VERDICT</text></g>
+            <g><circle cx="125" cy="315" r="31" fill="#101827" stroke="#ffe870"/><text x="125" y="320">BASE</text></g>
+            <g><circle cx="170" cy="150" r="31" fill="#101827" stroke="#66ffd1"/><text x="170" y="155">CLAIMS</text></g>
+          </g>
+          <g id="links" stroke="#66ffd1" stroke-width="3" opacity=".75"><path d="M380 119V164"/><path d="M431 186L560 160"/><path d="M440 282L608 304"/><path d="M380 314V363"/><path d="M320 276L155 306"/><path d="M320 195L196 163"/></g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Reviewer replay status">
+      <div><strong id="readiness">52</strong><span>review readiness</span></div>
+      <div><strong id="replayState">pending</strong><span>replay state</span></div>
+      <div><strong id="dissentCount">1</strong><span>dissent channel</span></div>
+      <div><strong id="decisionState">HOLD</strong><span>decision state</span></div>
+    </section>
+
+    <section class="workspace">
+      <aside class="panel control">
+        <h2><span>01</span> Select review object</h2>
+        <label>Review package</label>
+        <select id="scenario">
+          <option value="proof-run">Proof Run 001 rehearsal docket</option>
+          <option value="mission-control">Proof Mission Control readiness</option>
+          <option value="falsification">Falsification Gauntlet claim</option>
+          <option value="compounding">Capability Compounding Lab docket</option>
+        </select>
+        <label>Reviewer posture</label>
+        <select id="posture">
+          <option value="adversarial">Adversarial but fair</option>
+          <option value="replay">Replay-first</option>
+          <option value="claim-boundary">Claim-boundary focused</option>
+          <option value="executive">Executive usability</option>
+        </select>
+        <h3>Mandatory review gates</h3>
+        <div id="gates" class="gates"></div>
+      </aside>
+
+      <section class="panel theatre">
+        <h2><span>02</span> Watch independent review assemble</h2>
+        <div class="timeline" id="timeline"></div>
+        <div class="log" id="log" aria-live="polite"></div>
+      </section>
+
+      <aside class="panel decision">
+        <h2><span>03</span> Reviewer verdict</h2>
+        <div class="dial"><div id="dialFill"></div><strong id="dialScore">52</strong><span>review readiness</span></div>
+        <div class="verdict" id="verdictBox">The claim is held pending replay, validator notes, and claim-boundary review.</div>
+        <div class="downloads">
+          <button id="downloadReport">Download reviewer report</button>
+          <button id="downloadReplay">Download replay checklist</button>
+          <button id="downloadAttestation">Download validator attestation</button>
+          <button id="downloadDissent">Download dissent memo</button>
+          <button id="copyIssue">Copy GitHub-ready review issue</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <div>
+        <h2>Why this matters</h2>
+        <p>A proof system becomes credible when an independent reviewer can inspect it without asking for private data, wallets, or trust. This page turns review into a guided, public-safe path: docket, replay, baselines, cost/risk, claim boundary, dissent, and verdict.</p>
+      </div>
+      <div>
+        <h2>Plain English</h2>
+        <p>A good reviewer does not ask “does this sound impressive?” They ask: can I replay it, challenge it, see what failed, and know exactly what is not claimed?</p>
+      </div>
+      <div>
+        <h2>Technical note</h2>
+        <p>The browser demo exports deterministic JSON/Markdown artifacts only. It does not call a model, API, wallet, storage API, analytics service, or external network endpoint.</p>
+      </div>
+    </section>
+  </main>
+  <script src="assets/goalos-reviewer-replay-v1.js"></script>
+</body>
+</html>
