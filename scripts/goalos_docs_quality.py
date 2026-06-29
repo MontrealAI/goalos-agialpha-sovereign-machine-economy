@@ -134,6 +134,8 @@ for rel in REQUIRED_DOCS + REQUIRED_DIAGRAMS + REQUIRED_TEMPLATES:
         add("missing_required_file", rel, "Required public-alpha repository file is missing")
 
 markdown_files = [ROOT / "README.md"] + sorted((ROOT / "docs").glob("*.md"))
+# Keep the acceptance-scope check intentionally focused on README.md and docs/*.md,
+# then add publication-critical root policy files so boundary regressions are caught.
 markdown_files += [ROOT / name for name in ["CONTRIBUTING.md", "SECURITY.md", "PRIVACY.md", "DATA_BOUNDARY.md", "DISCLAIMER.md", "TOKEN_BOUNDARY.md"]]
 markdown_files = [path for path in markdown_files if path.exists()]
 combined = "\n".join(read(path) for path in markdown_files)
@@ -172,12 +174,20 @@ for rel in REQUIRED_TEMPLATES:
         if TEMPLATE_CONFIRMATION not in text:
             add("missing_issue_template_confirmation", rel, "Missing required public-safe data/funds confirmation")
 
+public_html_pages = sorted((ROOT / "public").glob("*.html"))
 registry = ROOT / "content/goalos/demo-ecosystem-registry.json"
+registry_demo_count = 0
 if registry.exists():
     try:
         data = json.loads(read(registry))
         if not isinstance(data.get("demos"), list) or not data["demos"]:
             add("invalid_demo_registry", registry.relative_to(ROOT), "Registry must include a non-empty demos list")
+        else:
+            registry_demo_count = len(data["demos"])
+            registry_paths = {item.get("path") for item in data["demos"] if isinstance(item, dict)}
+            missing_from_registry = [str(path.relative_to(ROOT)) for path in public_html_pages if str(path.relative_to(ROOT)) not in registry_paths]
+            if missing_from_registry:
+                add("incomplete_demo_registry", registry.relative_to(ROOT), "Public HTML pages missing from registry: " + ", ".join(missing_from_registry[:10]))
     except json.JSONDecodeError as exc:
         add("invalid_json", registry.relative_to(ROOT), f"Demo registry JSON is invalid: {exc}")
 else:
@@ -186,6 +196,8 @@ else:
 report = {
     "status": "pass" if not issues else "fail",
     "checked_markdown_files": [str(path.relative_to(ROOT)) for path in markdown_files],
+    "public_html_pages_found": len(public_html_pages),
+    "demo_registry_entries": registry_demo_count,
     "required_docs": REQUIRED_DOCS,
     "required_diagrams": REQUIRED_DIAGRAMS,
     "required_templates": REQUIRED_TEMPLATES,

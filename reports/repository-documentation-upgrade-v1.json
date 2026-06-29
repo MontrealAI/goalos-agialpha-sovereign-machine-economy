@@ -3,14 +3,14 @@
   "generated_at": "2026-06-29",
   "upgrade": "repository-documentation-upgrade-v1",
   "changed_files": [
-    "scripts/goalos_docs_quality.py",
-    "reports/docs-quality.json",
-    "reports/repository-documentation-upgrade-v1.json",
-    "reports/repo-validation.json",
-    "reports/site-qa.json",
+    "public/site-status.json",
     "reports/autopilot-summary.md",
+    "reports/docs-quality.json",
     "reports/proof-run-001-reference-report.json",
-    "public/site-status.json"
+    "reports/repo-validation.json",
+    "reports/repository-documentation-upgrade-v1.json",
+    "reports/site-qa.json",
+    "scripts/goalos_docs_quality.py"
   ],
   "docs_created_or_verified": [
     "README.md",
@@ -78,27 +78,27 @@
     {
       "command": "python scripts/goalos_docs_quality.py",
       "status": "pass",
-      "output": "reports/docs-quality.json"
+      "notes": "Docs-quality report generated with boundary, local-link, issue-template, public-page, and demo-registry coverage checks."
     },
     {
       "command": "python scripts/validate_repo.py",
-      "status": "pass_with_warnings",
-      "output": "reports/repo-validation.json"
+      "status": "pass",
+      "notes": "Repository validation passed; warnings were reported by the existing validator but did not fail the check."
     },
     {
       "command": "python scripts/build_site.py",
       "status": "pass",
-      "output": "public/ generated pages"
+      "notes": "Generated static site pages in public/."
     },
     {
       "command": "python scripts/verify_site.py",
       "status": "pass",
-      "output": "reports/site-qa.json"
+      "notes": "Site QA passed and wrote reports/site-qa.json."
     },
     {
       "command": "python -m unittest discover -s tests",
       "status": "pass",
-      "output": "14 tests passed"
+      "notes": "14 tests passed."
     }
   ],
   "boundaries_verified": [
@@ -108,8 +108,8 @@
     "No transaction",
     "Human review required",
     "public-alpha",
-    "$AGIALPHA public contract identification only",
-    "$AGIALPHA not available from us"
+    "public contract identification only",
+    "not available from us"
   ],
   "docs_quality_improvements": [
     "Expanded required-file coverage to root legal/privacy/token docs.",
@@ -119,5 +119,10 @@
     "Added demo registry JSON structural validation.",
     "Added unsafe token-availability phrasing scan."
   ],
-  "next_recommended_move": "Review and classify the generated demo registry entries by priority demo journey so the longest registry can be filtered into audience-specific views. Preserve claim boundaries and public-alpha language."
+  "next_recommended_move": "Review generated reports in GitHub, then open a small follow-up PR if maintainers want deeper nested-doc link checking.",
+  "docs_quality_enhancements": [
+    "Counts public/*.html pages and demo registry entries.",
+    "Fails if public HTML pages are missing from content/goalos/demo-ecosystem-registry.json.",
+    "Keeps local-only, deterministic execution without network, secrets, wallets, or API keys."
+  ]
 }
