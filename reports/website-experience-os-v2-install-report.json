@@ -1,0 +1,31 @@
+{
+  "status": "installed",
+  "generatedAt": "2026-06-29T22:22:45Z",
+  "routes": 130,
+  "liveRoutes": 128,
+  "coreJourneyStations": 17,
+  "changedFiles": [
+    "public/index.html",
+    "public/website-operating-system.html",
+    "public/pathfinder.html",
+    "public/demo-ecosystem-registry.html",
+    "public/site-map.html",
+    "public/trust-boundary.html",
+    "public/assets/goalos-website-os-v2.css",
+    "public/assets/goalos-website-os-v2.js",
+    "public/assets/goalos-site-index-data-v2.js",
+    "public/search-index.json",
+    "public/sitemap.xml",
+    "README.md"
+  ],
+  "boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required"
+  ],
+  "noRemovalPolicy": "No public pages are deleted by this installer. Existing top-level public pages are indexed and preserved."
+}

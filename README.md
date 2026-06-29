@@ -128,3 +128,24 @@ See [Roadmap](docs/ROADMAP.md), [Release Checklist](docs/RELEASE_CHECKLIST.md), 
 - Confirm no unsupported claim, user-data path, user-funds path, wallet path, transaction path, or production authority was introduced.
 - Confirm public pages still build and verify.
 - Confirm issue/PR templates preserve boundary confirmations.
+
+<!-- GOALOS_WEBSITE_EXPERIENCE_OS_V2_START -->
+## Website Experience OS V2
+
+The public website is now organized as a complete proof journey, not a loose list of demos.
+
+Primary paths:
+
+| Path | Purpose |
+|---|---|
+| [Start](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html) | Main public front door. |
+| [Website Operating System](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/website-operating-system.html) | Complete navigation map. |
+| [Pathfinder](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/pathfinder.html) | Role-based route for new users, reviewers, mission authors, developers, and institutions. |
+| [Demo Ecosystem Registry](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/demo-ecosystem-registry.html) | Canonical route registry for demos, inputs, outputs, gates, and next states. |
+| [Public Proof Ledger](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-ledger.html) | Registry of dockets, reports, and proof surfaces. |
+| [Proof Run 001 Docket](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html) | First repository-readiness Evidence Docket. |
+| [External Reviewer Replay Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html) | Independent review and replay path. |
+
+Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+<!-- GOALOS_WEBSITE_EXPERIENCE_OS_V2_END -->
+
