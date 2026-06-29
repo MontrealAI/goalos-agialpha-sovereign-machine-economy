@@ -83,6 +83,52 @@ BOUNDARY_PHRASES = [
     "not available from us",
 ]
 
+
+README_REQUIRED_PHRASES = [
+    "Visit the Website",
+    "30-second explanation",
+    "3-minute explanation",
+    "What this repository is / is not",
+    "What users can do right now",
+    "What reviewers can inspect",
+    "What developers can run locally",
+    "Repository map",
+    "Public demo journey",
+    "Evidence and reports",
+    "How to propose a proof mission",
+    "How to review or challenge a docket",
+    "How to run locally",
+    "How to contribute safely",
+    "Claim boundary",
+    "Legal / privacy / token boundary",
+    "Citation / research canon",
+    "Release / roadmap",
+    "Maintainer checklist",
+]
+
+REQUIRED_PUBLIC_PAGES = [
+    "index.html",
+    "start-here.html",
+    "website-operating-system.html",
+    "demo-ecosystem-registry.html",
+    "proof-experience-atlas.html",
+    "proof-ledger.html",
+    "proof-run-001-docket.html",
+    "external-reviewer-replay-room.html",
+    "proof-mission-forge.html",
+    "proof-mission-control.html",
+    "no-data-no-funds.html",
+    "agialpha-token-boundary.html",
+]
+
+WORKFLOW_FORBIDDEN = [
+    r"secrets\.",
+    r"window\.ethereum",
+    r"private[-_ ]?key",
+    r"auto[-_ ]?merge",
+    r"git push",
+]
+
 TEMPLATE_CONFIRMATION = (
     "I am not submitting personal data, customer data, confidential data, regulated data, "
     "credentials, wallet information, private keys, seed phrases, payment information, "
@@ -144,6 +190,15 @@ for phrase in BOUNDARY_PHRASES:
     if phrase not in combined:
         add("missing_boundary_phrase", "README.md/docs", f"Missing boundary phrase: {phrase}")
 
+readme_text = read(ROOT / "README.md") if (ROOT / "README.md").exists() else ""
+for phrase in README_REQUIRED_PHRASES:
+    if phrase not in readme_text:
+        add("missing_readme_front_door_section", "README.md", f"README front door is missing: {phrase}")
+
+for page in REQUIRED_PUBLIC_PAGES:
+    if not (ROOT / "public" / page).exists():
+        add("missing_public_navigation_page", "public", f"Required public navigation page is missing: {page}")
+
 for path in markdown_files:
     text = read(path)
     rel_path = path.relative_to(ROOT)
@@ -174,6 +229,16 @@ for rel in REQUIRED_TEMPLATES:
         if TEMPLATE_CONFIRMATION not in text:
             add("missing_issue_template_confirmation", rel, "Missing required public-safe data/funds confirmation")
 
+workflow_path = ROOT / ".github/workflows/goalos-docs-quality.yml"
+if workflow_path.exists():
+    workflow_text = read(workflow_path)
+    for required in ["workflow_dispatch", "pull_request", "actions/checkout@v4", "actions/setup-python@v5", "actions/upload-artifact@v4", "python scripts/goalos_docs_quality.py"]:
+        if required not in workflow_text:
+            add("unsafe_or_incomplete_docs_quality_workflow", workflow_path.relative_to(ROOT), f"Docs quality workflow missing expected safe element: {required}")
+    for pattern in WORKFLOW_FORBIDDEN:
+        if re.search(pattern, workflow_text, flags=re.IGNORECASE):
+            add("unsafe_docs_quality_workflow", workflow_path.relative_to(ROOT), f"Docs quality workflow includes unsafe pattern: {pattern}")
+
 public_html_pages = sorted((ROOT / "public").glob("*.html"))
 registry = ROOT / "content/goalos/demo-ecosystem-registry.json"
 registry_demo_count = 0
@@ -201,6 +266,8 @@ report = {
     "required_docs": REQUIRED_DOCS,
     "required_diagrams": REQUIRED_DIAGRAMS,
     "required_templates": REQUIRED_TEMPLATES,
+    "required_readme_front_door_phrases": README_REQUIRED_PHRASES,
+    "required_public_navigation_pages": REQUIRED_PUBLIC_PAGES,
     "boundary_phrases": BOUNDARY_PHRASES,
     "forbidden_patterns": FORBIDDEN,
     "issue_template_confirmation": TEMPLATE_CONFIRMATION,
