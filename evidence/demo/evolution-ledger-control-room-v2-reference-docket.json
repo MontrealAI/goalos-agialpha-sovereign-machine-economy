@@ -1,6 +1,6 @@
 {
   "title": "GoalOS Evolution Ledger Control Room V2 Reference Docket",
-  "generated_at": "2026-06-29T14:54:49.633487+00:00",
+  "generated_at": "2026-06-29T14:58:07.688401+00:00",
   "claim": "The public demo shows that private intelligence stays private while public proof commitments become challengeable institutional memory.",
   "sequence": [
     "GoalOSCommit",
@@ -53,5 +53,5 @@
     "production_authority": false,
     "human_review_required": true
   },
-  "docket_hash": "f4d728a6a5b54515f1d16f25657801b811a2d8664267f342715ea8f6630e19a6"
+  "docket_hash": "17a3c7aa6067f2edda58409d2795f474fc6bc5e43a114c97442d8d8fbae490d4"
 }

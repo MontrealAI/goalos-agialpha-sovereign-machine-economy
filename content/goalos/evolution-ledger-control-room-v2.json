@@ -1,7 +1,7 @@
 {
   "name": "GoalOS Evolution Ledger Control Room V2",
   "status": "installed",
-  "generated_at": "2026-06-29T14:54:49.600763+00:00",
+  "generated_at": "2026-06-29T14:58:07.619388+00:00",
   "public_page": "public/evolution-ledger-control-room.html",
   "fixes": [
     "high-contrast gate labels",
