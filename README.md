@@ -1413,3 +1413,9 @@ New public demo: [Proof-Backed Upgrade Rights Room](https://montrealai.github.io
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 
+
+<!-- GOALOS_EVOLUTION_LEDGER_CONTROL_ROOM_V2_LINK -->
+
+### Evolution Ledger Control Room V2
+
+- [Evolution Ledger Control Room V2](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evolution-ledger-control-room.html) — browser-local demo: the ledger remembers proof, not secrets.

@@ -1,130 +1,208 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GoalOS Evolution Ledger Room — Proof, Not Secrets</title>
-  <meta name="description" content="A browser-local GoalOS public demo: the ledger remembers proof, not secrets. Run a public proof ledger sequence without user data, funds, wallet, transaction, or network calls." />
-  <meta property="og:title" content="GoalOS Evolution Ledger Room" />
-  <meta property="og:description" content="The ledger remembers proof, not secrets. A browser-local demonstration of public commitments, private intelligence boundaries, selection certificates, challenge windows, and rollback receipts." />
-  <link rel="stylesheet" href="assets/goalos-evolution-ledger-room-v1.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GoalOS Evolution Ledger Control Room — Proof, Not Secrets</title>
+  <meta name="description" content="A browser-local GoalOS demo showing how private intelligence stays private while public proof commitments become challengeable institutional memory.">
+  <meta property="og:title" content="GoalOS Evolution Ledger Control Room">
+  <meta property="og:description" content="The ledger remembers proof, not secrets. Browser-local, no wallet, no user data, no transaction.">
+  <link rel="stylesheet" href="assets/goalos-evolution-ledger-control-room-v2.css">
 </head>
 <body>
-  <main class="shell">
-    <nav class="topbar" aria-label="Primary">
-      <a class="brand" href="index.html" aria-label="GoalOS home"><span class="mark">α</span><span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span></a>
-      <div class="links">
-        <a href="proof-experience-atlas.html">Atlas</a>
-        <a href="proof-ledger.html">Proof Ledger</a>
-        <a href="evidence-docket-theatre.html">Docket Theatre</a>
-        <a href="proof-carrying-artifact-foundry.html">Artifact Foundry</a>
-        <a class="active" href="evolution-ledger-control-room.html">Evolution Ledger</a>
-      </div>
+  <a class="skip" href="#lab">Skip to lab</a>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar" aria-label="GoalOS navigation">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="brand-mark">α</span>
+      <span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="evidence-docket-theatre.html">Docket Theatre</a>
+      <a href="proof-backed-upgrade-rights-room.html">Upgrade Rights</a>
+      <a class="active" href="evolution-ledger-control-room.html">Evolution Ledger</a>
     </nav>
+  </header>
 
+  <main>
     <section class="hero">
-      <div class="heroText">
-        <p class="eyebrow"><span></span> PUBLIC DEMO / BROWSER-LOCAL / NO DATA</p>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Browser-local public demo / no wallet / no data</p>
         <h1>The ledger remembers <em>proof</em>, not secrets.</h1>
-        <p class="lead">Run the AEP-style public proof sequence: commit, run root, proof root, evaluator attestation, selection certificate, rollout receipt, rollback receipt. Private intelligence stays private; public proof becomes challengeable.</p>
-        <div class="actions">
-          <button id="runBtn" class="primary">Run ledger sequence</button>
-          <button id="stressBtn" class="secondary">Stress privacy / rollback</button>
-          <button id="resetBtn" class="ghost">Reset</button>
+        <p class="lead">Run a public proof rail where private intelligence stays private and only public-safe commitments, attestations, selection records, challenge windows, and rollback receipts become durable institutional memory.</p>
+        <div class="hero-actions">
+          <button id="runTop" class="primary">Run ledger sequence</button>
+          <button id="stressTop" class="ghost">Stress privacy / rollback</button>
+          <button id="restoreTop" class="ghost">Restore gates</button>
         </div>
-        <div class="boundary"><b>Default deny:</b> no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required.</div>
+        <div class="boundary">No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
       </div>
-      <aside class="oracle" aria-label="Ledger readiness">
-        <div class="modeToggle" role="group" aria-label="View mode">
-          <button id="executiveMode" class="active">Executive</button>
-          <button id="technicalMode">Technical</button>
+
+      <aside class="hero-panel" aria-label="Current ledger state">
+        <div class="mode-toggle" role="group" aria-label="Display mode">
+          <button data-mode="executive" class="mode active">Executive</button>
+          <button data-mode="technical" class="mode">Technical</button>
         </div>
-        <svg id="readinessSvg" viewBox="0 0 220 220" role="img" aria-label="Ledger readiness gauge">
-          <defs>
-            <linearGradient id="g" x1="0" x2="1"><stop stop-color="#74ffd7"/><stop offset=".55" stop-color="#fff07a"/><stop offset="1" stop-color="#a58cff"/></linearGradient>
-          </defs>
-          <circle cx="110" cy="110" r="76" class="gaugeBg"/>
-          <circle id="gauge" cx="110" cy="110" r="76" class="gauge"/>
-          <text id="readiness" x="110" y="104" text-anchor="middle">72</text>
-          <text x="110" y="130" text-anchor="middle" class="caption">LEDGER READINESS</text>
-        </svg>
-        <h2 id="decisionState">HOLD_CHALLENGE_WINDOW</h2>
-        <p id="decisionExplain">Public commitments exist, but challenge and rollback gates must clear before evolution rights become review-ready.</p>
+        <div class="readiness-ring" aria-label="Gate readiness">
+          <svg viewBox="0 0 140 140" role="img" aria-label="Ledger readiness meter">
+            <circle class="ring-bg" cx="70" cy="70" r="54"></circle>
+            <circle id="ring" class="ring" cx="70" cy="70" r="54"></circle>
+          </svg>
+          <div class="ring-text"><strong id="readiness">100</strong><span>readiness</span></div>
+        </div>
+        <h2 id="decisionHero">LEDGER_REVIEW_READY</h2>
+        <p id="decisionWhy">All hard gates are ready for human review. No private intelligence is exposed.</p>
+        <div class="mini-stats">
+          <div><strong id="gateCount">10/10</strong><span>gates</span></div>
+          <div><strong id="pubCount">7</strong><span>public objects</span></div>
+          <div><strong id="privCount">5</strong><span>private classes</span></div>
+        </div>
       </aside>
     </section>
 
-    <section class="strip" aria-label="Metrics">
-      <div><b id="commitCount">7</b><span>ledger objects</span></div>
-      <div><b id="gateCount">7 / 10</b><span>hard gates</span></div>
-      <div><b id="privateState">sealed</b><span>private intelligence</span></div>
-      <div><b id="challengeState">open</b><span>challenge window</span></div>
-      <div><b id="evolutionRight">blocked</b><span>evolution right</span></div>
+    <section class="proof-rail" aria-label="Evolution ledger proof rail">
+      <div class="rail-card">
+        <div class="rail-title">
+          <span class="badge">01</span>
+          <h2>Public proof rail</h2>
+          <p>Commitments are durable. Private intelligence is not published.</p>
+        </div>
+        <div id="rail" class="rail" aria-live="polite">
+          <noscript>Enable JavaScript to run the browser-local ledger animation.</noscript>
+          <svg viewBox="0 0 1200 340" class="fallback-svg" role="img" aria-label="Evolution Ledger proof rail">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6affdc"/><stop offset=".5" stop-color="#ffe56a"/><stop offset="1" stop-color="#a994ff"/></linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <rect x="20" y="20" width="1160" height="300" rx="28" fill="rgba(8,15,30,.82)" stroke="rgba(255,255,255,.16)"/>
+            <path d="M120 162 C270 60, 420 260, 570 160 S880 80, 1030 168" fill="none" stroke="url(#g)" stroke-width="4" opacity=".75" filter="url(#glow)"/>
+            <g fill="#0e1a32" stroke="#6affdc" stroke-width="3">
+              <rect x="70" y="122" width="140" height="78" rx="22"/><rect x="220" y="122" width="140" height="78" rx="22"/><rect x="370" y="122" width="140" height="78" rx="22"/><rect x="520" y="122" width="170" height="78" rx="22"/><rect x="700" y="122" width="210" height="78" rx="22"/><rect x="920" y="122" width="180" height="78" rx="22"/>
+            </g>
+            <g fill="#f7fbff" font-family="Inter, system-ui" font-size="22" font-weight="800" text-anchor="middle">
+              <text x="140" y="169">GoalOSCommit</text><text x="290" y="169">RunRoot</text><text x="440" y="169">ProofRoot</text><text x="605" y="169">EvalAttestation</text><text x="805" y="169">SelectionCert</text><text x="1010" y="169">Rollback</text>
+            </g>
+          </svg>
+        </div>
+      </div>
     </section>
 
-    <section class="grid">
-      <aside class="panel controls">
-        <div class="stepNum">01</div>
-        <h2>Configure the public proof rail</h2>
-        <label>Scenario</label>
-        <select id="scenario">
-          <option value="artifact">Proof-carrying artifact promotion</option>
-          <option value="proofrun">Proof Run 001 public docket</option>
-          <option value="benchmark">Real-task benchmark bridge</option>
-          <option value="settlement">Proof-settlement chronicle</option>
-        </select>
-        <label>Candidate artifact</label>
-        <textarea id="claimText">Promote a proof-carrying workflow artifact from candidate to canary after public-safe proof roots, evaluator attestations, challenge window, and rollback receipt are ready.</textarea>
-        <label>Risk class</label>
-        <select id="riskClass">
-          <option>LOW</option><option selected>MEDIUM</option><option>HIGH</option>
-        </select>
-        <label>Validator quorum</label>
-        <input id="quorum" type="range" min="1" max="7" value="4" />
-        <div class="toggleGrid" id="toggles"></div>
+    <section id="lab" class="lab-grid">
+      <aside class="control-card">
+        <div class="section-heading">
+          <span class="badge">02</span>
+          <div>
+            <h2>Configure the ledger</h2>
+            <p>Choose a public-safe scenario and test the hard gates.</p>
+          </div>
+        </div>
+
+        <label class="field">
+          <span>Scenario</span>
+          <select id="scenario">
+            <option value="artifact">Proof-carrying artifact promotion</option>
+            <option value="mission">Mission OS proof-to-action run</option>
+            <option value="settlement">AGI Jobs settlement-ready ProofBundle</option>
+            <option value="frontier">Frontier release governance packet</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Candidate artifact</span>
+          <textarea id="candidate" maxlength="900">Promote a proof-carrying workflow artifact from candidate to canary after public-safe proof roots, evaluator attestations, challenge window, validator quorum, and rollback receipt are ready.</textarea>
+        </label>
+
+        <div class="field two">
+          <label><span>Risk class</span><select id="risk"><option>LOW</option><option selected>MEDIUM</option><option>HIGH</option></select></label>
+          <label><span>Scope</span><select id="scope"><option>review-only</option><option selected>canary</option><option>limited</option></select></label>
+        </div>
+
+        <label class="field range-field">
+          <span>Validator quorum <strong id="quorumOut">3</strong></span>
+          <input id="quorum" type="range" min="1" max="7" value="3">
+        </label>
+
+        <div class="gate-toggles" id="toggles" aria-label="Hard gate toggles"></div>
+
+        <div class="control-actions">
+          <button id="run" class="primary">Run ledger sequence</button>
+          <button id="stress" class="ghost">Stress privacy / rollback</button>
+          <button id="restore" class="ghost">Restore gates</button>
+        </div>
       </aside>
 
-      <section class="panel theatre">
-        <div class="stepNum">02</div>
-        <h2>Watch proof become challengeable state</h2>
-        <div class="ledgerMap" id="ledgerMap" aria-label="Ledger object graph">
-          <div class="node n1">JobCommit</div><div class="edge"></div>
-          <div class="node n2">RunRoot</div><div class="edge"></div>
-          <div class="node n3">ProofRoot</div><div class="edge"></div>
-          <div class="node n4">EvalAttestation</div><div class="edge"></div>
-          <div class="node n5">SelectionCertificate</div><div class="edge"></div>
-          <div class="node n6">RolloutReceipt</div><div class="edge"></div>
-          <div class="node n7">RollbackReceipt</div>
+      <section class="visual-card">
+        <div class="section-heading">
+          <span class="badge">03</span>
+          <div>
+            <h2>Watch proof become challengeable state</h2>
+            <p>On-chain public proof is separated from off-chain private intelligence.</p>
+          </div>
         </div>
-        <div class="split">
-          <div class="box public"><h3>On-chain / public proof</h3><p>Commit hashes, proof roots, eval roots, public-safe docket manifest, selection decision, rollout/rollback receipts, challenge status.</p></div>
-          <div class="box private"><h3>Off-chain / private intelligence</h3><p>Private prompts, private context, raw traces, customer data, sensitive tool outputs, privileged evaluator workpapers.</p></div>
+
+        <div class="lane-grid">
+          <article class="lane public">
+            <h3>Public proof</h3>
+            <ul id="publicList"></ul>
+          </article>
+          <article class="lane private">
+            <h3>Private intelligence</h3>
+            <ul id="privateList"></ul>
+          </article>
         </div>
-        <pre id="terminal" class="terminal">Ready. Public proof rail is waiting for a ledger sequence.</pre>
+
+        <div class="console" aria-live="polite">
+          <pre id="consoleText">Ready. Click “Run ledger sequence” to assemble a public-safe Evolution Ledger entry.</pre>
+        </div>
+
+        <div class="technical technical-panel hidden">
+          <h3>Formal gate law</h3>
+          <pre>Promote(U) iff ProofValid(U) ∧ EvalPass(U) ∧ Risk(U)≤ρ ∧ RollbackReady(U) ∧ CanaryReady(U) ∧ ScopeAuthorized(U) ∧ ChallengeWindowCleared(U)</pre>
+        </div>
       </section>
 
-      <aside class="panel chamber">
-        <div class="stepNum">03</div>
-        <h2>Selection Gate</h2>
-        <div id="gateLedger" class="gateLedger"></div>
+      <aside class="decision-card">
+        <div class="section-heading">
+          <span class="badge">04</span>
+          <div>
+            <h2>Selection Gate</h2>
+            <p>Score is advisory. Gates are mandatory.</p>
+          </div>
+        </div>
+        <div id="gateLedger" class="gate-ledger"></div>
         <div class="downloads">
-          <button data-download="publicEntry">Download public ledger entry</button>
-          <button data-download="selectionCert">Download selection certificate</button>
-          <button data-download="rollbackReceipt">Download rollback receipt</button>
-          <button data-download="boundaryMap">Download boundary map</button>
-          <button data-download="reviewBrief">Download review brief</button>
+          <button data-download="ledger">Download public ledger entry</button>
+          <button data-download="selection">Download selection certificate</button>
+          <button data-download="rollback">Download rollback receipt</button>
+          <button data-download="boundary">Download boundary map</button>
+          <button data-download="brief">Download reviewer brief</button>
         </div>
       </aside>
     </section>
 
     <section class="explain">
-      <h2>Why this matters</h2>
-      <div class="cards">
-        <article><h3>Blockchain-native, not crypto-first</h3><p>The demo shows the ledger as compact public accountability: commitments, attestations, challenge windows, and rollback receipts. It does not expose private intelligence.</p></article>
-        <article><h3>Challengeable evolution</h3><p>Evolution rights do not appear because a model sounds persuasive. They appear only when proof, eval, scope, challenge, and rollback gates clear.</p></article>
-        <article><h3>Institutional memory</h3><p>The ledger is the memory spine for what may be challenged, rolled back, adopted, or reused later.</p></article>
-      </div>
+      <article>
+        <h2>What this demonstrates</h2>
+        <p><strong>The ledger is not where intelligence lives.</strong> The ledger is where commitments, hashes, attestations, challenge windows, selection decisions, and rollback receipts become durable enough for review.</p>
+      </article>
+      <article>
+        <h2>Why it matters</h2>
+        <p>Private prompts, traces, customer data, workpapers, secrets, and sensitive tool outputs stay private. Public proof stays minimal, challengeable, and review-ready.</p>
+      </article>
+      <article>
+        <h2>What blocks evolution</h2>
+        <p>Missing proof roots, missing evaluator attestations, weak validator quorum, absent rollback, open challenge windows, or a broken public/private boundary.</p>
+      </article>
     </section>
   </main>
-  <script src="assets/goalos-evolution-ledger-room-v1.js"></script>
+
+  <footer>
+    <strong>GoalOS Evolution Ledger Control Room V2</strong>
+    <span>Browser-local public demonstration. No user data. No wallet. No transaction. Human review required.</span>
+  </footer>
+
+  <script src="assets/goalos-evolution-ledger-control-room-v2.js"></script>
 </body>
 </html>

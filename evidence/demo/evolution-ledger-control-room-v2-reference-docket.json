@@ -1,0 +1,57 @@
+{
+  "title": "GoalOS Evolution Ledger Control Room V2 Reference Docket",
+  "generated_at": "2026-06-29T14:54:49.633487+00:00",
+  "claim": "The public demo shows that private intelligence stays private while public proof commitments become challengeable institutional memory.",
+  "sequence": [
+    "GoalOSCommit",
+    "RunRoot",
+    "ProofRoot",
+    "EvalAttestation",
+    "SelectionCertificate",
+    "ChallengeWindow",
+    "RolloutReceipt",
+    "RollbackReceipt"
+  ],
+  "public_proof": [
+    "commitHash",
+    "policyRoot",
+    "riskClass",
+    "proofHash",
+    "evidenceURI",
+    "evalRoot",
+    "signatureBundle",
+    "selectionDecision",
+    "challengeWindow",
+    "rollbackTarget"
+  ],
+  "private_intelligence": [
+    "private prompts",
+    "raw traces",
+    "customer data",
+    "sensitive tool outputs",
+    "privileged workpapers"
+  ],
+  "hard_gates": {
+    "GoalOSCommit": true,
+    "RunRoot": true,
+    "ProofRoot": true,
+    "EvalAttestation": true,
+    "SelectionCertificate": true,
+    "RollbackReceipt": true,
+    "PublicPrivateBoundary": true,
+    "ChallengeWindow": true,
+    "ValidatorQuorum": true,
+    "HumanReview": true
+  },
+  "decision_state": "LEDGER_REVIEW_READY",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "production_authority": false,
+    "human_review_required": true
+  },
+  "docket_hash": "f4d728a6a5b54515f1d16f25657801b811a2d8664267f342715ea8f6630e19a6"
+}

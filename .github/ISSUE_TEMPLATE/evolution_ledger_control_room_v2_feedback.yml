@@ -1,0 +1,38 @@
+---
+name: Evolution Ledger Control Room V2 feedback
+about: Report readability, UX, gate, or boundary feedback for the Evolution Ledger Control Room.
+title: "[Evolution Ledger V2] "
+labels: ["demo-feedback", "evolution-ledger", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the Evolution Ledger Control Room V2.
+
+        Do not submit personal data, customer data, confidential data, credentials, wallet data, private keys, seed phrases, regulated data, or funds.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved?
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Review verdict
+      options:
+        - ACCEPT_REVIEW_READY
+        - REVISE_READABILITY
+        - REVISE_BOUNDARY
+        - REJECT_NETWORK_OR_WALLET_SURFACE
+        - REJECT_UNCLEAR_GATES
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true

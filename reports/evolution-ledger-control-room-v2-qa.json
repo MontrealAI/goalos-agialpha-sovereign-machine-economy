@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T14:54:49.659946+00:00",
+  "errors": [],
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "accessibility_checks": {
+    "high_contrast_controls": "passed",
+    "static_fallback_svg": true,
+    "focus_visible": true,
+    "reduced_motion": true
+  }
+}
