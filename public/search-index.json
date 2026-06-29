@@ -259,8 +259,8 @@
     "description": "Unified registry for GoalOS public proof surfaces, dockets, reports, review paths, and Proof Run 001 readiness."
   },
   {
-    "title": "Proof Run 001 Real Evidence Docket",
+    "title": "Proof Run 001 Docket Room V2",
     "url": "proof-run-001-docket.html",
-    "summary": "Repository-readiness Evidence Docket with gates, claims matrix, replay path, validator packet, and governed decision state."
+    "summary": "Review-grade Evidence Command Room: gates, claims, remediation queue, replay path, validator packet, and downloads."
   }
 ]

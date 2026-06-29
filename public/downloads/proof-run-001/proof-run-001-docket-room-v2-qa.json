@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T12:29:18Z",
+  "decision_state": "REVIEW_READY",
+  "readiness": 100,
+  "gates_passed": 10,
+  "gates_total": 10,
+  "errors": [],
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "remediation_count": 0
+}

@@ -1325,3 +1325,30 @@ The public Falsification Gauntlet now preserves custom edited claims during stre
 - Rule: strong claims survive baselines, replay, privacy, safety, cost/risk, delayed-outcome, and human-review gates.
 
 <!-- /GOALOS:FALSIFICATION_GAUNTLET_V1_1 -->
+
+<!-- GOALOS_PUBLIC_ALPHA_BOUNDARY_V2:START -->
+## GoalOS public-alpha boundary
+
+GoalOS is a public-alpha proof architecture.
+
+No user data. No user funds. GoalOS does not want user data. GoalOS does not want user funds. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, health, children’s, privileged, trade-secret, or proprietary data through public channels.
+
+The public website and demos are browser-local public demonstrations: no wallet, no transaction, no network call, no production authority, and human review required.
+
+GoalOS does not claim achieved AGI, not achieved ASI, empirical SOTA, production authorization, legal approval, user-fund authorization, mainnet activation, not investment advice, trading advice, tax advice, or guaranteed outcomes.
+<!-- GOALOS_PUBLIC_ALPHA_BOUNDARY_V2:END -->
+
+<!-- GOALOS_PROOF_RUN_001_DOCKET_ROOM_V2:START -->
+## Proof Run 001 Docket Room V2
+
+The repository now includes a review-grade Proof Run 001 Evidence Command Room.
+
+- Page: `public/proof-run-001-docket.html`
+- Docket: `evidence/proof-run-001/proof-run-001-docket-room-v2.json`
+- QA report: `reports/proof-run-001-docket-room-v2-qa.json`
+- Replay path: `replay/proof-run-001/README.md`
+- Decision state: `REVIEW_READY`
+- Readiness: `100`
+
+This page exists to make the first public-alpha proof object easier to review. It does not claim achieved AGI, achieved ASI, empirical SOTA, production authorization, legal approval, investment advice, or mainnet activation.
+<!-- GOALOS_PROOF_RUN_001_DOCKET_ROOM_V2:END -->
