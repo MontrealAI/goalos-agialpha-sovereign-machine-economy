@@ -277,5 +277,10 @@
     "title": "Proof-Carrying Artifact Foundry",
     "url": "proof-carrying-artifact-foundry.html",
     "description": "Browser-local demo showing how raw output becomes reusable capability only after proof, evaluation, rollback, scope, and replay gates pass."
+  },
+  {
+    "title": "Evolution Ledger Control Room",
+    "url": "evolution-ledger-control-room.html",
+    "description": "The ledger remembers proof, not secrets. Browser-local public demo of commitments, attestations, selection certificates, challenge windows, and rollback receipts."
   }
 ]

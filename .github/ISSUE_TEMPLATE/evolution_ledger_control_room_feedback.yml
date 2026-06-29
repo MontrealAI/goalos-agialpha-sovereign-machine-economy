@@ -1,0 +1,23 @@
+name: Evolution Ledger Control Room feedback
+description: Review or report feedback on the browser-local Evolution Ledger Control Room.
+title: "Evolution Ledger Control Room feedback: "
+labels: ["review", "evolution-ledger", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, credentials, wallet information, funds, private keys, seed phrases, or trade secrets.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What did you test? What passed, failed, or needs clarification?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I did not include personal, customer, confidential, credential, wallet, payment, private-key, seed-phrase, or regulated data.
+          required: true

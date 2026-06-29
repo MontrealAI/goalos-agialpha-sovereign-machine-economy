@@ -1,0 +1,34 @@
+{
+  "id": "EVOLUTION-LEDGER-ROOM-V1-REFERENCE",
+  "generated_at": "2026-06-29T13:21:46Z",
+  "claim": "Promote a proof-carrying workflow artifact from candidate to canary after public-safe proof roots, evaluator attestations, challenge window, and rollback receipt are ready.",
+  "public_sequence": [
+    "GoalOSCommit",
+    "RunRoot",
+    "ProofRoot",
+    "EvalAttestation",
+    "SelectionCertificate",
+    "RolloutReceipt",
+    "RollbackReceipt"
+  ],
+  "hard_gates": [
+    "proof_root",
+    "eval_attestation",
+    "selection_certificate",
+    "rollback_receipt",
+    "public_private_boundary",
+    "challenge_window",
+    "validator_quorum",
+    "human_review"
+  ],
+  "decision_state": "HOLD_CHALLENGE_WINDOW",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "digest": "8fbdb3d88dfcdd22d47e6e92793056b854db8b81db8131ee03be2df114911a6e"
+}

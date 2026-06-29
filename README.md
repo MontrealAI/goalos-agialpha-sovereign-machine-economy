@@ -1392,3 +1392,14 @@ The Artifact Foundry is a browser-local public demonstration of the AEP-001 prin
 
 The page lets users transform a raw artifact candidate into a proof-carrying artifact with proof history, eval gate, baseline comparison, rollback target, scope authorization, challenge window, replay path, Selection Certificate, Rollback Receipt, and Evolution Ledger entry.
 <!-- GOALOS_PROOF_CARRYING_ARTIFACT_FOUNDRY_V1_END -->
+
+
+## Evolution Ledger Control Room V1
+
+**The ledger remembers proof, not secrets.**
+
+A browser-local public demo showing the AEP-style sequence: GoalOSCommit → RunRoot → ProofRoot → EvalAttestation → SelectionCertificate → RolloutReceipt → RollbackReceipt.
+
+Open: `public/evolution-ledger-control-room.html`
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
