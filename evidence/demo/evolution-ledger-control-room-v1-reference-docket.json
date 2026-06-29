@@ -1,6 +1,6 @@
 {
   "id": "EVOLUTION-LEDGER-ROOM-V1-REFERENCE",
-  "generated_at": "2026-06-29T13:21:46Z",
+  "generated_at": "2026-06-29T13:23:31Z",
   "claim": "Promote a proof-carrying workflow artifact from candidate to canary after public-safe proof roots, evaluator attestations, challenge window, and rollback receipt are ready.",
   "public_sequence": [
     "GoalOSCommit",
