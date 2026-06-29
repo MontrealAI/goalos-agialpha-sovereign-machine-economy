@@ -1,0 +1,26 @@
+{
+  "id": "proof-backed-upgrade-rights-room-v1-demo-run",
+  "generated_at": "2026-06-29T14:28:03.576855Z",
+  "objective": "Demonstrate how a proof-backed upgrade right is earned by an artifact only after mandatory proof gates pass.",
+  "decision_state": "HOLD_CHALLENGE_WINDOW_OPEN",
+  "proof_gradient_score": 72,
+  "gates": {
+    "proof_history": true,
+    "eval_pass": true,
+    "baseline_comparison": true,
+    "scope_authorized": true,
+    "canary_ready": true,
+    "rollback_ready": true,
+    "challenge_window_cleared": false,
+    "public_private_boundary": true,
+    "human_review_path": true
+  },
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

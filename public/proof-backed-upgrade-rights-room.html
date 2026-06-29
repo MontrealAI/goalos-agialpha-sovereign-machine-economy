@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Proof-Backed Upgrade Rights Room — Earn the Right to Scale</title>
+  <meta name="description" content="A browser-local public demo showing how proof earns limited, rollbackable upgrade rights in GoalOS. No user data. No wallet. No transaction.">
+  <meta property="og:title" content="GoalOS Proof-Backed Upgrade Rights Room">
+  <meta property="og:description" content="The artifact earns authority. Proof-backed upgrade rights make reusable capability governed, scoped, review-ready, and rollbackable.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-proof-backed-upgrade-rights-v1.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="shell nav">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-carrying-artifact-foundry.html">Artifact Foundry</a>
+      <a href="evolution-ledger-control-room.html">Evolution Ledger</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="shell hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> public demo / browser-local / no data</p>
+        <h1>Earn the right <em>to scale.</em></h1>
+        <p class="lede">
+          A proof-backed upgrade right is the limited, governed permission for an artifact,
+          workflow, router, tool, policy, or capability package to influence future work.
+        </p>
+        <div class="cta-row">
+          <button id="runReview" class="primary">Run upgrade review</button>
+          <button id="stressRollout" class="secondary">Stress rollout</button>
+          <button id="resetRoom" class="ghost">Reset</button>
+        </div>
+        <div class="boundary">
+          <b>Default deny:</b> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Upgrade right status">
+        <div class="mode-toggle" role="tablist" aria-label="View mode">
+          <button id="execMode" class="active">Executive</button>
+          <button id="techMode">Technical</button>
+        </div>
+        <div class="ring-wrap">
+          <svg viewBox="0 0 160 160" class="ring" aria-hidden="true">
+            <circle cx="80" cy="80" r="58" class="track"></circle>
+            <circle id="ringProgress" cx="80" cy="80" r="58" class="progress"></circle>
+          </svg>
+          <div class="ring-label"><strong id="scoreLabel">72</strong><span>upgrade readiness</span></div>
+        </div>
+        <h2 id="decisionState">HOLD_CANARY_REQUIRED</h2>
+        <p id="decisionText">The artifact is promising but remains review-limited until all mandatory gates pass.</p>
+        <div class="status-grid">
+          <div><b id="passedGates">7/9</b><span>gates</span></div>
+          <div><b id="scopeLabel">canary</b><span>scope</span></div>
+          <div><b id="riskLabel">42</b><span>risk</span></div>
+          <div><b id="rollbackLabel">34</b><span>rollback debt</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="shell metric-strip" aria-label="Upgrade right metrics">
+      <div><b id="mQuality">84%</b><span>Evidence integrity</span></div>
+      <div><b id="mValue">71%</b><span>Verified value</span></div>
+      <div><b id="mTransfer">63%</b><span>Transfer</span></div>
+      <div><b id="mCost">31</b><span>Cost pressure</span></div>
+      <div><b id="mChallenge">open</b><span>Challenge window</span></div>
+    </section>
+
+    <section class="shell lab-grid">
+      <section class="panel controls">
+        <div class="panel-head"><span>01</span><div><h2>Compose the candidate</h2><p>Plain language is enough. Nothing leaves the browser.</p></div></div>
+
+        <label>Artifact candidate</label>
+        <textarea id="artifactText" rows="4">Repository Launch Readiness Pack: a reusable capability package for turning GoalOS public-alpha architecture into a review-ready Evidence Docket and Proof Run 001 path.</textarea>
+
+        <div class="two">
+          <div>
+            <label>Artifact class</label>
+            <select id="artifactClass">
+              <option value="capability">Capability package</option>
+              <option value="workflow">Workflow</option>
+              <option value="router">Router / coordination policy</option>
+              <option value="tool">Tool contract</option>
+              <option value="policy">Governance policy</option>
+            </select>
+          </div>
+          <div>
+            <label>Requested scope</label>
+            <select id="scope">
+              <option value="review">Review-only</option>
+              <option value="canary" selected>Canary</option>
+              <option value="limited">Limited production</option>
+              <option value="network">Network-wide</option>
+            </select>
+          </div>
+        </div>
+
+        <label>Evidence integrity <output id="evidenceOut">84</output></label>
+        <input id="evidence" type="range" min="0" max="100" value="84">
+        <label>Verified value <output id="valueOut">71</output></label>
+        <input id="value" type="range" min="0" max="100" value="71">
+        <label>Transferability <output id="transferOut">63</output></label>
+        <input id="transfer" type="range" min="0" max="100" value="63">
+        <label>Rollback debt <output id="rollbackOut">34</output></label>
+        <input id="rollback" type="range" min="0" max="100" value="34">
+
+        <div class="gates" aria-label="Mandatory gates">
+          <label><input type="checkbox" data-gate="proof" checked> Proof history exists</label>
+          <label><input type="checkbox" data-gate="eval" checked> Eval pass</label>
+          <label><input type="checkbox" data-gate="baseline" checked> Baseline comparison</label>
+          <label><input type="checkbox" data-gate="scope" checked> Scope authorized</label>
+          <label><input type="checkbox" data-gate="canary" checked> Canary ready</label>
+          <label><input type="checkbox" data-gate="rollback" checked> Rollback ready</label>
+          <label><input type="checkbox" data-gate="challenge"> Challenge window cleared</label>
+          <label><input type="checkbox" data-gate="privacy" checked> Public/private boundary</label>
+          <label><input type="checkbox" data-gate="human" checked> Human review path</label>
+        </div>
+      </section>
+
+      <section class="panel visual">
+        <div class="panel-head"><span>02</span><div><h2>Watch authority become bounded</h2><p>Score is advisory. Gates are mandatory.</p></div></div>
+        <div id="constellation" class="constellation" aria-label="Proof-backed upgrade right visual">
+          <svg viewBox="0 0 760 430" role="img" aria-label="Upgrade right lifecycle diagram">
+            <defs>
+              <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#fff686"/>
+                <stop offset="48%" stop-color="#6ef3c5"/>
+                <stop offset="100%" stop-color="#8c7cff"/>
+              </radialGradient>
+            </defs>
+            <rect width="760" height="430" rx="28" fill="#050915"/>
+            <g opacity=".24" stroke="#9fb4d9"><path d="M80 220H680M380 50V380M120 110L640 330M640 110L120 330"/></g>
+            <circle cx="380" cy="215" r="58" fill="url(#orb)" opacity=".92"/>
+            <text x="380" y="221" text-anchor="middle" font-size="42" font-weight="900" fill="#06100d">α</text>
+            <g class="node n1"><circle cx="136" cy="88" r="32"/><text x="136" y="94">COM</text></g>
+            <g class="node n2"><circle cx="262" cy="72" r="32"/><text x="262" y="78">RUN</text></g>
+            <g class="node n3"><circle cx="500" cy="72" r="32"/><text x="500" y="78">PRF</text></g>
+            <g class="node n4"><circle cx="624" cy="88" r="32"/><text x="624" y="94">EVAL</text></g>
+            <g class="node n5"><circle cx="664" cy="238" r="32"/><text x="664" y="244">SEL</text></g>
+            <g class="node n6"><circle cx="512" cy="354" r="32"/><text x="512" y="360">CAN</text></g>
+            <g class="node n7"><circle cx="248" cy="354" r="32"/><text x="248" y="360">ROLL</text></g>
+            <g class="node n8"><circle cx="96" cy="238" r="32"/><text x="96" y="244">REV</text></g>
+          </svg>
+        </div>
+
+        <div class="flight">
+          <div class="stage active" data-stage="Commit">Commit</div>
+          <div class="stage" data-stage="Execute">Execute</div>
+          <div class="stage" data-stage="Prove">Prove</div>
+          <div class="stage" data-stage="Evaluate">Evaluate</div>
+          <div class="stage" data-stage="Select">Select</div>
+          <div class="stage" data-stage="Canary">Canary</div>
+          <div class="stage" data-stage="Monitor">Monitor</div>
+          <div class="stage" data-stage="Evolve">Evolve</div>
+        </div>
+
+        <div class="tech-block hidden" id="techBlock">
+          <h3>Selection equation</h3>
+          <pre id="equationBlock">Promote(U) iff ProofValid ∧ EvalPass ∧ PG(U) ≥ θ ∧ Risk ≤ ρ ∧ RollbackReady ∧ CanaryReady ∧ ScopeAuthorized ∧ ChallengeWindowCleared.</pre>
+        </div>
+      </section>
+
+      <section class="panel decision">
+        <div class="panel-head"><span>03</span><div><h2>Inspect the upgrade right</h2><p>The right is limited, review-ready, and rollbackable.</p></div></div>
+        <div class="right-card">
+          <p class="label">Terminal disposition</p>
+          <h3 id="rightTitle">Canary upgrade right is not yet cleared.</h3>
+          <p id="rightBody">Challenge window remains open. The artifact may be reviewed but should not influence future work yet.</p>
+        </div>
+        <ul id="gateList" class="gate-list"></ul>
+        <div class="downloads">
+          <button id="downloadRight">Download upgrade right</button>
+          <button id="downloadCert">Selection certificate</button>
+          <button id="downloadRollback">Rollback receipt</button>
+          <button id="downloadBrief">Reviewer brief</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="shell explainer">
+      <div>
+        <h2>What this demonstrates</h2>
+        <p>
+          GoalOS does not let a useful-looking artifact automatically become institutional memory.
+          It must earn a proof-backed upgrade right: scoped, evaluated, monitored, challengeable,
+          and rollbackable.
+        </p>
+      </div>
+      <div class="cards">
+        <article><b>Not authority by vibe</b><span>A high score cannot bypass proof, evals, scope, rollback, canary, or challenge gates.</span></article>
+        <article><b>Not a token sale</b><span>This demo has no wallet, no transaction, no funds, no settlement, and no financial advice.</span></article>
+        <article><b>Not private data on-chain</b><span>The ledger stores public-safe commitments and receipts, not private intelligence or customer data.</span></article>
+        <article><b>Not automatic autonomy</b><span>Even when review-ready, the result remains human-review-bound in this public-alpha demo.</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="shell footer">
+    <p>GoalOS AGIALPHA Ascension — Proof-backed upgrade rights demo. Browser-local. Claim-bounded. Human-review required.</p>
+  </footer>
+
+  <script src="assets/goalos-proof-backed-upgrade-rights-v1.js"></script>
+</body>
+</html>

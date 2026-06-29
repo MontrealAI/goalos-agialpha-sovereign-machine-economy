@@ -1403,3 +1403,13 @@ A browser-local public demo showing the AEP-style sequence: GoalOSCommit → Run
 Open: `public/evolution-ledger-control-room.html`
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+<!-- GOALOS_PROOF_BACKED_UPGRADE_RIGHTS_ROOM_V1 -->
+## Proof-Backed Upgrade Rights Room
+
+New public demo: [Proof-Backed Upgrade Rights Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-backed-upgrade-rights-room.html)
+
+**Thesis:** the artifact earns authority. A useful output becomes reusable institutional capability only after proof, evaluation, baseline, scope, canary, rollback, challenge, privacy, and human-review gates pass.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+

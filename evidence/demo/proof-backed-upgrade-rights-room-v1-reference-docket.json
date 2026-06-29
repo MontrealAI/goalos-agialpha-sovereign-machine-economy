@@ -1,0 +1,35 @@
+{
+  "docket_id": "proof-backed-upgrade-rights-room-v1-reference",
+  "claim": "A reusable artifact earns limited upgrade authority only after proof, evaluation, baseline, scope, canary, rollback, challenge, privacy, and human-review gates pass.",
+  "generated_at": "2026-06-29T13:21:59.816026Z",
+  "status": "public-safe-reference",
+  "boundary": {
+    "browser_local": true,
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "gates": [
+    "proof_history",
+    "eval_pass",
+    "baseline_comparison",
+    "scope_authorization",
+    "canary_ready",
+    "rollback_ready",
+    "challenge_window",
+    "public_private_boundary",
+    "human_review_path"
+  ],
+  "not_claimed": [
+    "achieved AGI",
+    "achieved ASI",
+    "production authorization",
+    "legal approval",
+    "investment return",
+    "wallet support",
+    "transaction execution"
+  ]
+}

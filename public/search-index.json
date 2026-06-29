@@ -282,5 +282,10 @@
     "title": "Evolution Ledger Control Room",
     "url": "evolution-ledger-control-room.html",
     "description": "The ledger remembers proof, not secrets. Browser-local public demo of commitments, attestations, selection certificates, challenge windows, and rollback receipts."
+  },
+  {
+    "title": "Proof-Backed Upgrade Rights Room",
+    "url": "proof-backed-upgrade-rights-room.html",
+    "description": "A browser-local demo showing how artifacts earn limited, rollbackable authority after proof gates pass."
   }
 ]

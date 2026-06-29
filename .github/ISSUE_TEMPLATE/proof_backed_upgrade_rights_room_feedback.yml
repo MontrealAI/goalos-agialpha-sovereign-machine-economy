@@ -1,0 +1,32 @@
+name: Proof-Backed Upgrade Rights Room feedback
+description: Public-safe feedback about the Proof-Backed Upgrade Rights Room.
+title: "[Upgrade Rights Room] "
+labels: ["feedback", "proof-backed-upgrade-right", "public-safe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Do not submit personal data, customer data, secrets, credentials, private keys, seed phrases, payment information, confidential data, regulated records, or user funds.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Reviewer role
+      options:
+        - New user
+        - Reviewer
+        - Validator
+        - Developer
+        - Pilot partner
+        - Other
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked, what failed, what should improve?
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I did not include personal data, customer data, confidential data, credentials, private keys, seed phrases, payment information, wallet data, or trade secrets.
+          required: true
