@@ -1,0 +1,6 @@
+{
+  "title": "Falsification Gauntlet V1.1",
+  "url": "falsification-gauntlet.html",
+  "status": "hotfix-ready",
+  "fix": "stress preserves custom claims"
+}

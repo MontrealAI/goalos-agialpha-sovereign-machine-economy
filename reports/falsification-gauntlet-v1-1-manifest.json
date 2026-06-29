@@ -1,0 +1,17 @@
+{
+  "schema": "goalos.falsification_gauntlet.v1_1.manifest",
+  "files": [
+    ".github/ISSUE_TEMPLATE/falsification_gauntlet_hotfix_feedback.yml",
+    "docs/demos/FALSIFICATION_GAUNTLET_V1_1.md",
+    "docs/reviewer/HOW_TO_REVIEW_FALSIFICATION_GAUNTLET_V1_1.md",
+    "examples/falsification-gauntlet/public-safe-scenarios.md",
+    "issue-bodies/falsification-gauntlet-v1-1.md",
+    "public/assets/goalos-falsification-gauntlet-v1-1.css",
+    "public/assets/goalos-falsification-gauntlet-v1-1.js",
+    "public/falsification-gauntlet.html",
+    "scripts/goalos_falsification_gauntlet_v1_1_audit.py",
+    "scripts/install_falsification_gauntlet_v1_1.py",
+    "scripts/run_falsification_gauntlet_v1_1_demo.py"
+  ],
+  "status": "ready"
+}

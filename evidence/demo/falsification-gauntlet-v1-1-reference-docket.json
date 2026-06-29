@@ -1,0 +1,17 @@
+{
+  "schema": "goalos.falsification_gauntlet.v1_1.demo_run",
+  "generated_at": "2026-06-29T03:28:40Z",
+  "status": "passed",
+  "fixes": [
+    "custom claim text preserved during stress",
+    "stress changes baseline matrix",
+    "stress changes decision state",
+    "downloads use custom claim"
+  ],
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "decision_state_under_stress": "REJECT_BASELINES_WIN"
+}

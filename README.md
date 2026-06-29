@@ -1312,3 +1312,16 @@ The repository now includes a real public-alpha repository-readiness Evidence Do
 
 Boundary: no user data, no user funds, no wallet, no transaction, no production authority, human review required.
 <!-- GOALOS_PROOF_RUN_001_REAL_DOCKET_V1:END -->
+
+
+<!-- GOALOS:FALSIFICATION_GAUNTLET_V1_1 -->
+
+## Falsification Gauntlet V1.1 — user-feedback hotfix
+
+The public Falsification Gauntlet now preserves custom edited claims during stress tests and visibly changes readiness, baselines, falsifiers, and Governed Decision State.
+
+- Live page: [`/falsification-gauntlet.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/falsification-gauntlet.html)
+- Boundary: browser-local, no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+- Rule: strong claims survive baselines, replay, privacy, safety, cost/risk, delayed-outcome, and human-review gates.
+
+<!-- /GOALOS:FALSIFICATION_GAUNTLET_V1_1 -->

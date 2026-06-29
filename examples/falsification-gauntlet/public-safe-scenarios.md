@@ -1,4 +1,4 @@
-# Public-safe Falsification Scenarios
+# Public-safe scenarios
 
 - Repository launch readiness
 - Multi-agent coordination
@@ -6,4 +6,4 @@
 - Capability compounding
 - Proof-settlement loop
 
-Do not use private, customer, personal, regulated, credential, wallet, payment, or trade-secret information.
+Do not enter personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.

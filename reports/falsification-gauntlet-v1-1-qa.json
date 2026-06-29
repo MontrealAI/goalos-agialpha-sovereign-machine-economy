@@ -1,0 +1,19 @@
+{
+  "schema": "goalos.falsification_gauntlet.v1_1.qa",
+  "generated_at": "2026-06-29T03:28:42Z",
+  "status": "passed",
+  "errors": [],
+  "checks": {
+    "preserves_custom_claim": true,
+    "stress_modifies_baselines": true,
+    "same_public_link": true,
+    "new_asset_loaded": true,
+    "no_data_boundary": true
+  },
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true
+}

@@ -1,0 +1,19 @@
+name: Falsification Gauntlet V1.1 feedback
+description: Report usability feedback for the Falsification Gauntlet stress-test page.
+title: "Falsification Gauntlet V1.1 feedback: "
+labels: [demo, review, user-feedback]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe boundary
+      options:
+        - label: I am not submitting personal data, customer data, confidential data, wallet data, funds, private keys, seed phrases, or trade secrets.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked, what failed, and what did you expect?
+    validations:
+      required: true
