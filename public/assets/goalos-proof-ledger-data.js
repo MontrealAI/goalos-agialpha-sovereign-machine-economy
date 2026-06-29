@@ -1,0 +1,1465 @@
+window.GOALOS_PUBLIC_PROOF_LEDGER = {
+  "schema": "goalos.public_proof_ledger.v1",
+  "generated_at": "2026-06-29T03:07:27.729458Z",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "totals": {
+    "dockets": 30,
+    "reports": 108,
+    "pages": 32,
+    "review_paths": 24,
+    "missing": 0
+  },
+  "stations": [
+    {
+      "title": "Multi-Agent Institution",
+      "thesis": "Not a swarm. An institution.",
+      "href": "multi-agent-institution.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof Gradient Lab",
+      "thesis": "No proof, no evolution.",
+      "href": "proof-gradient-lab.html",
+      "status": "live"
+    },
+    {
+      "title": "Evidence Docket Theatre",
+      "thesis": "A proof page is not a marketing page.",
+      "href": "evidence-docket-theatre.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof-to-Action Command Room",
+      "thesis": "The deliverable is a governed decision state.",
+      "href": "proof-to-action-command-room.html",
+      "status": "live"
+    },
+    {
+      "title": "Capability Compounding Lab",
+      "thesis": "Verified work becomes reusable capability.",
+      "href": "capability-compounding-lab.html",
+      "status": "live"
+    },
+    {
+      "title": "Sovereign Experience Stream Lab",
+      "thesis": "Proof becomes governed experience.",
+      "href": "sovereign-experience-stream-lab.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof-Settlement Chronicle Lab",
+      "thesis": "No ProofBundle, no settlement.",
+      "href": "proof-settlement-chronicle-lab.html",
+      "status": "live"
+    },
+    {
+      "title": "Falsification Gauntlet",
+      "thesis": "Strong claims survive baselines.",
+      "href": "falsification-gauntlet.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof Experience Atlas",
+      "thesis": "One guided public proof journey.",
+      "href": "proof-experience-atlas.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof Mission Forge",
+      "thesis": "Turn objective into docket.",
+      "href": "proof-mission-forge.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof Mission Control",
+      "thesis": "Public mission operating board.",
+      "href": "proof-mission-control.html",
+      "status": "live"
+    },
+    {
+      "title": "Proof Run 001 Execution Room",
+      "thesis": "Architecture becomes first docket.",
+      "href": "proof-run-001-execution-room.html",
+      "status": "live"
+    },
+    {
+      "title": "External Reviewer Replay Room",
+      "thesis": "Independent review makes proof real.",
+      "href": "external-reviewer-replay-room.html",
+      "status": "live"
+    }
+  ],
+  "entries": [
+    {
+      "title": "Multi-Agent Institution",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "multi-agent-institution.html",
+      "summary": "Not a swarm. An institution."
+    },
+    {
+      "title": "Proof Gradient Lab",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-gradient-lab.html",
+      "summary": "No proof, no evolution."
+    },
+    {
+      "title": "Evidence Docket Theatre",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "evidence-docket-theatre.html",
+      "summary": "A proof page is not a marketing page."
+    },
+    {
+      "title": "Proof-to-Action Command Room",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-to-action-command-room.html",
+      "summary": "The deliverable is a governed decision state."
+    },
+    {
+      "title": "Capability Compounding Lab",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "capability-compounding-lab.html",
+      "summary": "Verified work becomes reusable capability."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "sovereign-experience-stream-lab.html",
+      "summary": "Proof becomes governed experience."
+    },
+    {
+      "title": "Proof-Settlement Chronicle Lab",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-settlement-chronicle-lab.html",
+      "summary": "No ProofBundle, no settlement."
+    },
+    {
+      "title": "Falsification Gauntlet",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "falsification-gauntlet.html",
+      "summary": "Strong claims survive baselines."
+    },
+    {
+      "title": "Proof Experience Atlas",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-experience-atlas.html",
+      "summary": "One guided public proof journey."
+    },
+    {
+      "title": "Proof Mission Forge",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-mission-forge.html",
+      "summary": "Turn objective into docket."
+    },
+    {
+      "title": "Proof Mission Control",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-mission-control.html",
+      "summary": "Public mission operating board."
+    },
+    {
+      "title": "Proof Run 001 Execution Room",
+      "type": "page",
+      "group": "page",
+      "status": "live",
+      "path": "proof-run-001-execution-room.html",
+      "summary": "Architecture becomes first docket."
+    },
+    {
+      "title": "External Reviewer Replay Room",
+      "type": "page",
+      "group": "review",
+      "status": "live",
+      "path": "external-reviewer-replay-room.html",
+      "summary": "Independent review makes proof real."
+    },
+    {
+      "title": "Example Baseline Result",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/benchmarks/example-baseline-result.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Commercial Evidence Record",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/commercial/example-commercial-evidence-record.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Autonomous Demo Pack",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/autonomous-demo-pack.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V1 Reference Docket",
+      "type": "docket",
+      "status": "reference_demo",
+      "path": "evidence/demo/capability-compounding-lab-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V2 Reference Docket",
+      "type": "docket",
+      "status": "reference_demo",
+      "path": "evidence/demo/capability-compounding-lab-v2-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Docket Theatre V2 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/evidence-docket-theatre-v2-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Falsification Gauntlet V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/falsification-gauntlet-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Multi Agent Institution V6 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/multi-agent-institution-v6-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Experience Atlas V1 Reference Docket",
+      "type": "docket",
+      "status": "generated",
+      "path": "evidence/demo/proof-experience-atlas-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Gradient Lab V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/proof-gradient-lab-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Forge V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/proof-mission-forge-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Settlement Chronicle Lab V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/proof-settlement-chronicle-lab-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof To Action Command Room V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/proof-to-action-command-room-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/demo/sovereign-experience-stream-lab-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Coordination Run 001 Genesis Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/dockets/coordination-run-001-genesis-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Frontier Release Public Source Docket 001",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/dockets/frontier-release-public-source-docket-001.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Genesis Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/dockets/proof-run-001-genesis-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Fair Value Support Record",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/fair-value/example-fair-value-support-record.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Customer Discovery Signal",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/market/example-customer-discovery-signal.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Design Partner Signal",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/market/example-design-partner-signal.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Pilot Outcome Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/pilots/example-pilot-outcome-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Public Proof Ledger V1 Reference Ledger",
+      "type": "docket",
+      "status": "generated-by-install-script",
+      "path": "evidence/proof-ledger/public-proof-ledger-v1-reference-ledger.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Control V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/proof-missions/proof-mission-control-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/proof-run-001/proof-run-001-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Execution Room Reference Docket",
+      "type": "docket",
+      "status": "reference_only_pending_real_run",
+      "path": "evidence/proof-run-001/proof-run-001-execution-room-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Report",
+      "type": "docket",
+      "status": "passed",
+      "path": "evidence/proof-run-001/proof-run-001-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Proof Velocity Event",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/proof-velocity/events/example-proof-velocity-event.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "External Reviewer Replay Room V1 Reference Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/reviewer-replay/external-reviewer-replay-room-v1-reference-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Strategic Scale Docket",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/strategic-scale/example-strategic-scale-docket.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Example Independent Validation Record",
+      "type": "docket",
+      "status": "registered",
+      "path": "evidence/validation/example-independent-validation-record.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Aep001 Conformance",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/aep001-conformance.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Agi Alpha Node Theatre Demo",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/agi-alpha-node-theatre-demo.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Agi Jobs Ledger Demo",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/agi-jobs-ledger-demo.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Agialpha Token Boundary Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/agialpha-token-boundary-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Agialpha Token Boundary QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/agialpha-token-boundary-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Artifact Digests",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/artifact-digests.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Ascension Visual Parity V4 Install",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/ascension-visual-parity-v4-install.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Ascension Visual Parity V4 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/ascension-visual-parity-v4-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Ascension Visual Parity V4 Validation",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/ascension-visual-parity-v4-validation.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Autonomous Demo Layer V4 Install Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/autonomous-demo-layer-v4-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Autonomous Demo Layer V4 Manifest",
+      "type": "report",
+      "status": "pack_ready",
+      "path": "reports/autonomous-demo-layer-v4-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Autonomous Demo Layer V4 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/autonomous-demo-layer-v4-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Autonomous Demo Run Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/autonomous-demo-run-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/capability-compounding-lab-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V1 Install Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/capability-compounding-lab-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V1 Manifest",
+      "type": "report",
+      "status": "prepared",
+      "path": "reports/capability-compounding-lab-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/capability-compounding-lab-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V2 Demo Run",
+      "type": "report",
+      "status": "reference_demo_generated",
+      "path": "reports/capability-compounding-lab-v2-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V2 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/capability-compounding-lab-v2-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V2 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/capability-compounding-lab-v2-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Compounding Lab V2 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/capability-compounding-lab-v2-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Parity Audit",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/capability-parity-audit.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Capability Parity V2 Install Report",
+      "type": "report",
+      "status": "installed_from_pack",
+      "path": "reports/capability-parity-v2-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Claim Scan",
+      "type": "report",
+      "status": "pass",
+      "path": "reports/claim-scan.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Coordination Run 001",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/coordination-run-001.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Demo Settlement",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/demo-settlement.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Document Series Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/document-series-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Docket Theatre V2 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/evidence-docket-theatre-v2-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Docket Theatre V2 Install Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/evidence-docket-theatre-v2-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Docket Theatre V2 Manifest",
+      "type": "report",
+      "status": "ready",
+      "path": "reports/evidence-docket-theatre-v2-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Docket Theatre V2 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/evidence-docket-theatre-v2-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Maturity Score",
+      "type": "report",
+      "status": "pass",
+      "path": "reports/evidence-maturity-score.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Evidence Room Index",
+      "type": "report",
+      "status": "ready",
+      "path": "reports/evidence-room-index.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "External Reviewer Replay Room V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/external-reviewer-replay-room-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "External Reviewer Replay Room V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/external-reviewer-replay-room-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "External Reviewer Replay Room V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/external-reviewer-replay-room-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "External Reviewer Replay Room V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/external-reviewer-replay-room-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Falsification Gauntlet V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/falsification-gauntlet-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Falsification Gauntlet V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/falsification-gauntlet-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Falsification Gauntlet V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/falsification-gauntlet-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Falsification Gauntlet V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/falsification-gauntlet-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Frontier Release Case Study Sources",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/frontier-release-case-study-sources.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Frontier Release Room QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/frontier-release-room-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Frontier Release Room V2 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/frontier-release-room-v2-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Goalos Historical Master QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/goalos-historical-master-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Goalos Historical Master Run",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/goalos-historical-master-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Goalos Historical Master Workflow",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/goalos-historical-master-workflow.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Goalos Latest Website Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/goalos-latest-website-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Goalos Latest Website Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/goalos-latest-website-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Goalos Latest Website QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/goalos-latest-website-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Historical Opportunity Upgrade",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/historical-opportunity-upgrade.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Institutional Scorecard",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/institutional-scorecard.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Interactive Console QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/interactive-console-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Legal Privacy Shield Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/legal-privacy-shield-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Legal Privacy Shield QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/legal-privacy-shield-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Meta Agentic Foundry Demo",
+      "type": "report",
+      "status": "ready_for_human_review",
+      "path": "reports/meta-agentic-foundry-demo.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Mission Os Demo",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/mission-os-demo.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Multi Agent Institution V6 Demo Run",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/multi-agent-institution-v6-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Multi Agent Institution V6 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/multi-agent-institution-v6-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Multi Agent Institution V6 Manifest",
+      "type": "report",
+      "status": "packaged",
+      "path": "reports/multi-agent-institution-v6-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Multi Agent Institution V6 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/multi-agent-institution-v6-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Multi Agent Leverage Scorecard",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/multi-agent-leverage-scorecard.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "No Data No Funds Public Channel Audit",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/no-data-no-funds-public-channel-audit.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Optimal Holy Grail Leverage Scorecard",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/optimal-holy-grail-leverage-scorecard.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Paper Leverage Scorecard",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/paper-leverage-scorecard.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Experience Atlas V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-experience-atlas-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Experience Atlas V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/proof-experience-atlas-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Experience Atlas V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/proof-experience-atlas-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Experience Atlas V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-experience-atlas-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Gradient Lab V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/proof-gradient-lab-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Gradient Lab V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/proof-gradient-lab-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Gradient Lab V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-gradient-lab-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Control V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-mission-control-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Control V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/proof-mission-control-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Control V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-mission-control-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Forge V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-mission-forge-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Forge V1 Install Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-mission-forge-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Forge V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/proof-mission-forge-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Mission Forge V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-mission-forge-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Execution Room V1 Demo Run",
+      "type": "report",
+      "status": "generated",
+      "path": "reports/proof-run-001-execution-room-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Execution Room V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/proof-run-001-execution-room-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Execution Room V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-run-001-execution-room-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Run 001 Reference Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-run-001-reference-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Settlement Chronicle Lab V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-settlement-chronicle-lab-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Settlement Chronicle Lab V1 Install Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-settlement-chronicle-lab-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Settlement Chronicle Lab V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/proof-settlement-chronicle-lab-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Settlement Chronicle Lab V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-settlement-chronicle-lab-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof To Action Command Room V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-to-action-command-room-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof To Action Command Room V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/proof-to-action-command-room-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof To Action Command Room V1 Manifest",
+      "type": "report",
+      "status": "packaged",
+      "path": "reports/proof-to-action-command-room-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof To Action Command Room V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/proof-to-action-command-room-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Proof Velocity",
+      "type": "report",
+      "status": "pass",
+      "path": "reports/proof-velocity.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Repo Validation",
+      "type": "report",
+      "status": "pass",
+      "path": "reports/repo-validation.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Site QA",
+      "type": "report",
+      "status": "pass",
+      "path": "reports/site-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab V1 Demo Run",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/sovereign-experience-stream-lab-v1-demo-run.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab V1 Install Report",
+      "type": "report",
+      "status": "installed",
+      "path": "reports/sovereign-experience-stream-lab-v1-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab V1 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/sovereign-experience-stream-lab-v1-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab V1 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/sovereign-experience-stream-lab-v1-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Strategic Evidence Scorecard",
+      "type": "report",
+      "status": "pass",
+      "path": "reports/strategic-evidence-scorecard.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "User Adoption Layer Install Report",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/user-adoption-layer-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "User Adoption Layer Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/user-adoption-layer-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "User Adoption Layer QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/user-adoption-layer-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "User Friendly Operating Layer V3 Install Report",
+      "type": "report",
+      "status": "pack_ready",
+      "path": "reports/user-friendly-operating-layer-v3-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "User Friendly Operating Layer V3 Manifest",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/user-friendly-operating-layer-v3-manifest.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "User Friendly Operating Layer V3 QA",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/user-friendly-operating-layer-v3-qa.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Website Code Parity V3 Install Report",
+      "type": "report",
+      "status": "installed_and_validated",
+      "path": "reports/website-code-parity-v3-install-report.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "Website Code Parity V3",
+      "type": "report",
+      "status": "passed",
+      "path": "reports/website-code-parity-v3.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "World Critical Opportunity Scorecard",
+      "type": "report",
+      "status": "registered",
+      "path": "reports/world-critical-opportunity-scorecard.json",
+      "summary": "Registered public artifact generated from repository evidence."
+    },
+    {
+      "title": "External Reviewer Replay Room V1",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/EXTERNAL_REVIEWER_REPLAY_ROOM_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Check Claim Boundary",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_CHECK_CLAIM_BOUNDARY.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To File A Validator Report",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_FILE_A_VALIDATOR_REPORT.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review An Evidence Docket",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_AN_EVIDENCE_DOCKET.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Capability Compounding Lab",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Capability Compounding Lab V2",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB_V2.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Evidence Docket Theatre",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_EVIDENCE_DOCKET_THEATRE.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Falsification Gauntlet",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_FALSIFICATION_GAUNTLET.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Proof Gradient Lab",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_PROOF_GRADIENT_LAB.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Proof Mission Forge",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_PROOF_MISSION_FORGE.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Proof Run 001 Execution Room",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_PROOF_RUN_001_EXECUTION_ROOM.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Proof Settlement Chronicle Lab",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_PROOF_SETTLEMENT_CHRONICLE_LAB.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Proof To Action Command Room",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_PROOF_TO_ACTION_COMMAND_ROOM.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Sovereign Experience Stream Lab",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_SOVEREIGN_EXPERIENCE_STREAM_LAB.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Review Without Submitting Data",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_REVIEW_WITHOUT_SUBMITTING_DATA.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Run Replay",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_RUN_REPLAY.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Use External Reviewer Replay Room",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_USE_EXTERNAL_REVIEWER_REPLAY_ROOM.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Use Proof Experience Atlas",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_USE_PROOF_EXPERIENCE_ATLAS.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Use Proof Mission Control",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_USE_PROOF_MISSION_CONTROL.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "How To Use Public Proof Ledger",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/HOW_TO_USE_PUBLIC_PROOF_LEDGER.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Readme",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/README.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Replay Review Template",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/REPLAY_REVIEW_TEMPLATE.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Validator Report Template",
+      "type": "review",
+      "status": "available",
+      "path": "docs/reviewer/VALIDATOR_REPORT_TEMPLATE.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Autonomous Demos",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/AUTONOMOUS_DEMOS.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Capability Compounding Lab V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/CAPABILITY_COMPOUNDING_LAB_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Capability Compounding Lab V2",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/CAPABILITY_COMPOUNDING_LAB_V2.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Demo Boundary",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/DEMO_BOUNDARY.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Demo Operator Guide",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/DEMO_OPERATOR_GUIDE.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Evidence Docket Theatre V2",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/EVIDENCE_DOCKET_THEATRE_V2.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Falsification Gauntlet V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/FALSIFICATION_GAUNTLET_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Experience Atlas V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/PROOF_EXPERIENCE_ATLAS_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Gradient Lab V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/PROOF_GRADIENT_LAB_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Mission Forge V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/PROOF_MISSION_FORGE_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Settlement Chronicle Lab V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/PROOF_SETTLEMENT_CHRONICLE_LAB_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof To Action Command Room V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/PROOF_TO_ACTION_COMMAND_ROOM_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Public Proof Ledger V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/PUBLIC_PROOF_LEDGER_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/demos/SOVEREIGN_EXPERIENCE_STREAM_LAB_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Run 001 Docket Structure",
+      "type": "page",
+      "status": "available",
+      "path": "docs/proof-runs/PROOF_RUN_001_DOCKET_STRUCTURE.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Run 001 Execution Plan",
+      "type": "page",
+      "status": "available",
+      "path": "docs/proof-runs/PROOF_RUN_001_EXECUTION_PLAN.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Run 001 Execution Room V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/proof-runs/PROOF_RUN_001_EXECUTION_ROOM_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Run 001 Implementation Runbook",
+      "type": "page",
+      "status": "available",
+      "path": "docs/proof-runs/PROOF_RUN_001_IMPLEMENTATION_RUNBOOK.md",
+      "summary": "Human-readable review or demo documentation."
+    },
+    {
+      "title": "Proof Mission Control V1",
+      "type": "page",
+      "status": "available",
+      "path": "docs/proof-missions/PROOF_MISSION_CONTROL_V1.md",
+      "summary": "Human-readable review or demo documentation."
+    }
+  ]
+};

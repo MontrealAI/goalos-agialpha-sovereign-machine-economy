@@ -1291,3 +1291,12 @@ Independent review is now a first-class public path. Open the browser-local **Ex
 
 - Website: [`/external-reviewer-replay-room.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html)
 - Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+## Public Proof Ledger V1
+
+GoalOS now includes a browser-local Public Proof Ledger: a unified registry for Evidence Dockets, QA reports, public demo pages, reviewer paths, and Proof Run 001 readiness.
+
+- Website: `proof-ledger.html`
+- Rule: No Evidence Docket, no strong claim.
+- Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+

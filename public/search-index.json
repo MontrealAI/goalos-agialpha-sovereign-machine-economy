@@ -252,5 +252,10 @@
     "title": "External Reviewer Replay Room",
     "url": "external-reviewer-replay-room.html",
     "description": "Independent review path for Evidence Dockets, replay, baselines, validator notes, claim boundaries, and dissent."
+  },
+  {
+    "title": "Public Proof Ledger",
+    "url": "proof-ledger.html",
+    "description": "Unified registry for GoalOS public proof surfaces, dockets, reports, review paths, and Proof Run 001 readiness."
   }
 ]

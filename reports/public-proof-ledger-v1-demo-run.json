@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T03:07:27.768652Z",
+  "demo": "public-proof-ledger-v1",
+  "entries": 193,
+  "stations": 13,
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "summary": "Public Proof Ledger generated a unified browser-local registry for GoalOS public proof surfaces."
+}

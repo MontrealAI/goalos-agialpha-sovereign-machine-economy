@@ -1,0 +1,28 @@
+name: Public Proof Ledger feedback
+description: Review or improve the GoalOS Public Proof Ledger.
+title: "Public Proof Ledger feedback: "
+labels: ["proof-ledger", "review", "public-safe"]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe boundary
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+        - label: I understand GoalOS does not want user data or user funds through public channels.
+          required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Feedback type
+      options: [accept, reject, revise, dissent, usability improvement]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Keep this public-safe. Link to public files only.
+    validations:
+      required: true
