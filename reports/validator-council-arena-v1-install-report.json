@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "installedAt": "2026-06-29T18:59:37.556294+00:00",
+  "page": "public/validator-council-arena.html",
+  "browserLocal": true,
+  "noUserData": true,
+  "noUserFunds": true,
+  "walletOrMainnet": false,
+  "humanReviewRequired": true
+}

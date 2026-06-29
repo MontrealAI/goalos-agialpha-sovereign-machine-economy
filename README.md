@@ -1457,3 +1457,10 @@ The Open-Ended Work Engine Lab is a browser-local public demo showing how GoalOS
 - Reviewer guide: [`docs/reviewer/HOW_TO_REVIEW_OPEN_ENDED_WORK_ENGINE_LAB.md`](docs/reviewer/HOW_TO_REVIEW_OPEN_ENDED_WORK_ENGINE_LAB.md)
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+
+## GoalOS Validator Council Arena V1 — Trust is not one judge
+
+Public demo: [`validator-council-arena.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/validator-council-arena.html)
+
+This browser-local arena demonstrates commit-reveal validation, validator quorum, dissent preservation, challenge windows, replay checks, and public/private proof boundaries. Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.

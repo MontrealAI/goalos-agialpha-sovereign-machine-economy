@@ -317,5 +317,10 @@
     "title": "Open-Ended Work Engine Lab",
     "url": "open-ended-work-engine.html",
     "description": "Generate tasks. Gate descendants. Keep open-endedness tethered to proof."
+  },
+  {
+    "title": "Validator Council Arena",
+    "url": "validator-council-arena.html",
+    "description": "Commit-reveal validation, quorum, dissent, challenge windows, replay, and public/private proof boundaries."
   }
 ]

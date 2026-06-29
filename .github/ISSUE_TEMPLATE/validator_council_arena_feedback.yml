@@ -1,0 +1,21 @@
+name: Validator Council Arena feedback
+description: Public-safe feedback for the GoalOS Validator Council Arena demo
+title: "Validator Council Arena feedback: "
+labels: ["feedback", "validator-council", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not submit personal, customer, confidential, regulated, credential, wallet, private-key, seed-phrase, payment, or trade-secret data."
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, regulated, credential, wallet, funds, private-key, seed-phrase, payment, or trade-secret data.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+    validations:
+      required: true
