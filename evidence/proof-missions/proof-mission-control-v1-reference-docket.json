@@ -1,7 +1,7 @@
 {
   "kind": "GoalOSProofMissionControlReferenceDocket",
   "version": "v1",
-  "generated_at": "2026-06-29T02:43:17.299663+00:00",
+  "generated_at": "2026-06-29T02:44:22.392084+00:00",
   "mission": "Repository Launch Readiness",
   "purpose": "Reference public-safe mission control docket for Proof Run 001 preparation.",
   "lifecycle": [
