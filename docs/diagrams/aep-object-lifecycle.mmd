@@ -1,8 +1,8 @@
 flowchart LR
-  GoalOSCommit --> RunCommitment
-  RunCommitment --> ProofPacket
-  ProofPacket --> EvalAttestation
-  EvalAttestation --> SelectionCertificate
-  SelectionCertificate --> RolloutReceipt
-  RolloutReceipt --> RollbackReceipt
-  RollbackReceipt --> EvolutionLedgerEntry
+  N0["GoalOSCommit"] --> N1["RunCommitment"]
+  N1["RunCommitment"] --> N2["ProofPacket"]
+  N2["ProofPacket"] --> N3["EvalAttestation"]
+  N3["EvalAttestation"] --> N4["SelectionCertificate"]
+  N4["SelectionCertificate"] --> N5["RolloutReceipt"]
+  N5["RolloutReceipt"] --> N6["RollbackReceipt"]
+  N6["RollbackReceipt"] --> N7["EvolutionLedgerEntry"]

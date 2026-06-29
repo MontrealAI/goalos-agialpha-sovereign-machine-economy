@@ -1,15 +1,6 @@
-# Reviewer Guide
+# Validator Guide
 
-Inspect an Evidence Docket by checking the Claims Matrix, baselines, proof packets, validator reports, cost/risk ledger, replay path, and Governed Decision State. Verdicts: accept, reject, request revision, or dissent.
-
-## Reviewer honesty box
-
-- What would change your mind?
-- What would falsify the claim?
-- Which evidence is missing?
-- Which claim is over-broad?
-- Which baseline should be stronger?
-- Which gate should block promotion?
+Validators should preserve public/private boundaries, reproduce replay steps where possible, record missing evidence, compare baselines, inspect cost/risk, and publish public-safe validator reports. Never request secrets, wallets, user funds, customer data, or confidential data.
 
 ## Public-alpha boundary
 

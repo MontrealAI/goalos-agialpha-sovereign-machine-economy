@@ -1,5 +1,15 @@
 {
-  "status": "pass",
+  "status": "passed",
+  "missing_files": [],
+  "broken_links": [],
+  "missing_sections": [],
+  "boundary_issues": [],
+  "risky_phrases": [],
+  "recommendations": [
+    "Keep strong claims tied to Evidence Dockets.",
+    "Keep demos browser-local and public-safe.",
+    "Run required local checks before release."
+  ],
   "checked_markdown_files": [
     "README.md",
     "docs/00_INSTITUTIONAL_EXECUTIVE_BRIEF.md",
@@ -47,6 +57,7 @@
     "docs/LAUNCH_CARD.md",
     "docs/LAUNCH_NARRATIVE.md",
     "docs/META_AGENTIC_COUNCIL.md",
+    "docs/MISSION_CONTROL.md",
     "docs/MISSION_FORGE.md",
     "docs/MISSION_OS.md",
     "docs/MODEL_RISK_MANAGEMENT.md",
@@ -90,10 +101,12 @@
     "docs/TRUST_AND_ASSURANCE_READINESS.md",
     "docs/TRUST_CENTER_BLUEPRINT.md",
     "docs/USER_EXPERIENCE_PRINCIPLES.md",
+    "docs/VALIDATOR_GUIDE.md",
     "docs/VALIDATOR_MESH.md",
     "docs/WEBSITE_AUTOPILOT.md",
     "docs/WEBSITE_AUTOPILOT_ARCHITECTURE.md",
     "docs/WEBSITE_EDITOR_GUIDE.md",
+    "docs/WEBSITE_MAP.md",
     "CONTRIBUTING.md",
     "SECURITY.md",
     "PRIVACY.md",
@@ -101,8 +114,8 @@
     "DISCLAIMER.md",
     "TOKEN_BOUNDARY.md"
   ],
-  "public_html_pages_found": 126,
-  "demo_registry_entries": 126,
+  "public_html_pages_found": 128,
+  "demo_registry_entries": 128,
   "required_docs": [
     "README.md",
     "CONTRIBUTING.md",
@@ -122,8 +135,11 @@
     "docs/PROOF_RUN_001.md",
     "docs/PROOF_LEDGER.md",
     "docs/DEMO_ECOSYSTEM.md",
+    "docs/WEBSITE_MAP.md",
     "docs/MISSION_FORGE.md",
+    "docs/MISSION_CONTROL.md",
     "docs/EXTERNAL_REVIEW.md",
+    "docs/VALIDATOR_GUIDE.md",
     "docs/REPLAY.md",
     "docs/CLAIM_BOUNDARY.md",
     "docs/NO_DATA_NO_FUNDS.md",
@@ -144,7 +160,11 @@
     "docs/diagrams/website-user-journey.mmd",
     "docs/diagrams/developer-local-run.mmd",
     "docs/diagrams/reviewer-path.mmd",
-    "docs/diagrams/token-boundary.mmd"
+    "docs/diagrams/token-boundary.mmd",
+    "docs/diagrams/proof-settlement-loop.mmd",
+    "docs/diagrams/proof-gradient-selection-law.mmd",
+    "docs/diagrams/action-reason-trace-contract.mmd",
+    "docs/diagrams/institutional-deployment-wedge.mmd"
   ],
   "required_templates": [
     ".github/ISSUE_TEMPLATE/new_user_question.yml",
@@ -155,6 +175,7 @@
     ".github/ISSUE_TEMPLATE/proof_mission_proposal.yml",
     ".github/ISSUE_TEMPLATE/security_boundary_report.yml",
     ".github/ISSUE_TEMPLATE/token_or_market_boundary.yml",
+    ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml",
     ".github/pull_request_template.md",
     ".github/workflows/goalos-docs-quality.yml"
   ],

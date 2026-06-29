@@ -1,6 +1,6 @@
 flowchart LR
-  Clone --> Install
-  Install --> Tests[Run tests]
-  Tests --> DocsQA[Run docs QA]
-  DocsQA --> Reports[Inspect reports]
-  Reports --> Site[Open local site]
+  N0["Clone"] --> N1["Install"]
+  N1["Install"] --> N2["Run tests"]
+  N2["Run tests"] --> N3["Run docs QA"]
+  N3["Run docs QA"] --> N4["Inspect reports"]
+  N4["Inspect reports"] --> N5["Serve public site"]

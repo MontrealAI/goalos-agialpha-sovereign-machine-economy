@@ -3368,5 +3368,29 @@
       "nextState": "PUBLIC_ALPHA_REVIEW",
       "id": "GOALOS-ROUTE-130"
     }
-  ]
+  ],
+  "documentationUpgradeV2": {
+    "generated_at": "2026-06-29T00:00:00Z",
+    "generator": "/tmp/upgrade_docs.py",
+    "docs": [
+      "docs/START_HERE.md",
+      "docs/REVIEWER_GUIDE.md",
+      "docs/VALIDATOR_GUIDE.md",
+      "docs/REPLAY.md"
+    ],
+    "boundary_docs": [
+      "docs/NO_DATA_NO_FUNDS.md",
+      "docs/TOKEN_BOUNDARY.md",
+      "docs/CLAIM_BOUNDARY.md"
+    ],
+    "proof_run_paths": [
+      "proof-run-001-docket.html",
+      "proof-run-001-execution-room.html"
+    ],
+    "reviewer_paths": [
+      "external-reviewer-replay-room.html",
+      "reviewer-path.html",
+      "validator-room.html"
+    ]
+  }
 }

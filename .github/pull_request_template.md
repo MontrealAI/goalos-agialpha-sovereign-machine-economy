@@ -1,35 +1,35 @@
-## Summary
+# Summary
 
-## Type of change
-- [ ] Documentation
-- [ ] Public website
-- [ ] Evidence/report
-- [ ] Script/test
-- [ ] Other
-
-## Public pages changed
-
-## Docs changed
-
-## Evidence/reports changed
+## Why this change exists
 
 ## User impact
 
-## Reviewer path
+## Public pages changed
 
-## Boundary checks
-- [ ] No user data
-- [ ] No user funds
-- [ ] No wallet/transaction path
-- [ ] No unsupported claims
-- [ ] No production, audit, legal, tax, security, ROI, or mainnet claim without repository evidence
-- [ ] Human review required language is preserved where high-impact action is discussed
+## Documentation changed
+
+## Evidence/reports changed
+
+## Demos changed
 
 ## Screenshots if UI changed
 
-## Local QA commands run
-- [ ] `python scripts/goalos_docs_quality.py`
-- [ ] `python scripts/validate_repo.py`
-- [ ] `python scripts/build_site.py`
-- [ ] `python scripts/verify_site.py`
-- [ ] `python -m unittest discover -s tests`
+## Local checks run
+
+## Docs QA result
+
+## Boundary checklist
+
+- [ ] No user data.
+- [ ] No user funds.
+- [ ] No wallet / transaction path.
+- [ ] No unsupported AGI/ASI/SOTA claims.
+- [ ] No investment/trading/legal/tax advice.
+- [ ] No weakened privacy boundary.
+- [ ] No removed claim boundary.
+- [ ] No new network calls in browser demos.
+- [ ] Human review required preserved.
+
+## Reviewer notes
+
+## Rollback notes

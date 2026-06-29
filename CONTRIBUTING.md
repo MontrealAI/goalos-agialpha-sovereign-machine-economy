@@ -1,16 +1,8 @@
 # Contributing
 
-Thank you for helping make GoalOS clearer, safer, and more reviewable. You can improve docs, propose browser-local demos, report bugs, strengthen validators, and clarify evidence paths.
+Thank you for improving GoalOS. Contributions should be small, reviewable, public-safe, and claim-bounded. You can improve docs, examples, schemas, validator reports, QA checks, and browser-local demos. Run `python scripts/goalos_docs_quality.py` before opening a PR. Use public-safe screenshots only. Write bounded language: “designed to,” “public-alpha demonstrates,” and “requires Evidence Dockets.” Preserve public/private proof boundaries.
 
-## Safety rules
+## Public-alpha boundary
 
-Do not post sensitive data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds. Preserve claim-bounded language and public/private proof boundaries.
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
 
-## Run docs QA
-
-```bash
-python scripts/goalos_docs_quality.py
-```
-
-Use issue templates for questions, demo bugs, proof missions, evidence review, and token/market boundary questions.
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.

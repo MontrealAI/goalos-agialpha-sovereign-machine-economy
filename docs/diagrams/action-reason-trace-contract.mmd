@@ -1,0 +1,10 @@
+flowchart LR
+  N0["Objective"] --> N1["Permission Scope"]
+  N1["Permission Scope"] --> N2["Reason"]
+  N2["Reason"] --> N3["Action"]
+  N3["Action"] --> N4["Expected Observation"]
+  N4["Expected Observation"] --> N5["Actual Observation"]
+  N5["Actual Observation"] --> N6["Validator"]
+  N6["Validator"] --> N7["Cost Risk"]
+  N7["Cost Risk"] --> N8["Rollback"]
+  N8["Rollback"] --> N9["Evidence Pointer"]

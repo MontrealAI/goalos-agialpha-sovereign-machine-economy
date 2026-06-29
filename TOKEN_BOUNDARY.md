@@ -1,7 +1,8 @@
-# Token boundary
+# $AGIALPHA Token Boundary
 
-We do not want user data. We do not want user funds. Do not submit personal/customer/confidential/regulated/credential/wallet/payment/private-key/seed-phrase/trade-secret data.
+$AGIALPHA public contract address may be shown only as public-contract identification. $AGIALPHA is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation. The project does not sell, distribute, custody, broker, recommend, market, list, support, provide liquidity for, or make available $AGIALPHA. No wallet support, bridge support, exchange support, trading advice, investment advice, legal advice, tax advice, financial advice, market making, liquidity support, recommendation, or regulatory advice. Third parties are solely responsible for their own review and compliance.
 
-$AGIALPHA public contract address is identification only. $AGIALPHA is not available from us. We do not sell, distribute, custody, broker, recommend, market, list, support, provide liquidity for, or make available $AGIALPHA. We do not provide investment, trading, tax, legal, exchange, bridge, liquidity, wallet, or regulatory advice. Third parties are responsible for their own review and compliance.
+## Public-alpha boundary
 
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+

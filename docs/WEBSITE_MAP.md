@@ -1,15 +1,6 @@
-# Reviewer Guide
+# Website Map
 
-Inspect an Evidence Docket by checking the Claims Matrix, baselines, proof packets, validator reports, cost/risk ledger, replay path, and Governed Decision State. Verdicts: accept, reject, request revision, or dissent.
-
-## Reviewer honesty box
-
-- What would change your mind?
-- What would falsify the claim?
-- Which evidence is missing?
-- Which claim is over-broad?
-- Which baseline should be stronger?
-- Which gate should block promotion?
+Primary public paths: `/index.html`, `/start.html`, `/website-operating-system.html`, `/demo-ecosystem-registry.html`, `/proof-ledger.html`, `/proof-run-001-docket.html`, `/external-reviewer-replay-room.html`, `/proof-mission-forge.html`, `/proof-mission-control.html`, `/trust-boundary.html`, `/agialpha-token-boundary.html`.
 
 ## Public-alpha boundary
 

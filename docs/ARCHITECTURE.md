@@ -2,27 +2,12 @@
 
 ```mermaid
 flowchart LR
-  Objective --> MissionContract[Mission Contract]
-  MissionContract --> AutonomousWork[Autonomous Work]
-  AutonomousWork --> Verification
-  Verification --> EvidenceDocket[Evidence Docket]
-  EvidenceDocket --> GDS[Governed Decision State]
-  GDS --> ActionGraph[Action Graph]
-  ActionGraph --> Chronicle
-  Chronicle --> Capability[Reusable Capability]
+  Objective --> Mission[Mission Contract] --> Work[Autonomous Work] --> Verify[Verification] --> Docket[Evidence Docket] --> State[Governed Decision State] --> Chronicle[Chronicle]
 ```
 
-GoalOS organizes work into Mission Contracts, proof packets, Evidence Dockets, validator reports, Governed Decision States, Action Graphs, Chronicle entries, and reusable capabilities.
+GoalOS is designed around proof-carrying work: objective, bounded permission scope, reason, action, evidence, validator, risk, rollback, and reusable capability.
 
-```mermaid
-flowchart LR
-  GoalOSCommit --> RunCommitment
-  RunCommitment --> ProofPacket
-  ProofPacket --> EvalAttestation
-  EvalAttestation --> SelectionCertificate
-  SelectionCertificate --> RolloutReceipt
-  RolloutReceipt --> RollbackReceipt
-  RollbackReceipt --> EvolutionLedgerEntry
-```
+## Public-alpha boundary
 
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+

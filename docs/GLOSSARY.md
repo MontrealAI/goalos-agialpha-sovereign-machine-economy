@@ -1,8 +1,8 @@
 # Glossary
 
-- Evidence Docket: public-safe packet of claim, evidence, validators, replay, and limitations.
-- Governed Decision State: recorded decision posture after evidence review.
-- Proof Packet: bounded artifact supporting a claim.
-- Validator Report: review output from deterministic or human validation.
-- Simulated settlement: non-live settlement representation; no funds move.
-> Boundary: public-alpha only. No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No investment, trading, tax, legal, wallet, exchange, bridge, liquidity, or regulatory advice.
+Evidence Docket: public-safe evidence package. ProofBundle: proof artifact set. Governed Decision State: bounded decision record. Replay path: steps for inspection. Validator report: public-safe review. Cost/risk ledger: constraints and tradeoffs.
+
+## Public-alpha boundary
+
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+
