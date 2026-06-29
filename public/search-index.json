@@ -262,5 +262,10 @@
     "title": "Proof Run 001 Docket Room V2",
     "url": "proof-run-001-docket.html",
     "summary": "Review-grade Evidence Command Room: gates, claims, remediation queue, replay path, validator packet, and downloads."
+  },
+  {
+    "title": "Real-Task Benchmark Bridge",
+    "url": "real-task-benchmark-bridge.html",
+    "description": "Browser-local demo showing how GoalOS moves from demos to real-task evidence with baselines, replay, ledgers, validators, and review."
   }
 ]

@@ -1,0 +1,37 @@
+name: Real-Task Benchmark Bridge Feedback
+description: Report feedback on the browser-local Real-Task Benchmark Bridge.
+title: "[Benchmark Bridge] "
+labels: ["benchmark", "feedback", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the GoalOS Real-Task Benchmark Bridge.
+
+        Do not submit personal data, customer data, confidential data, credentials, wallet data, payment data, private keys, seed phrases, or trade secrets.
+  - type: dropdown
+    id: reviewer_type
+    attributes:
+      label: Reviewer type
+      options:
+        - New user
+        - Technical reviewer
+        - Validator
+        - Pilot partner
+        - Maintainer
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing? Which gate should improve?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I am not submitting personal, customer, confidential, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true

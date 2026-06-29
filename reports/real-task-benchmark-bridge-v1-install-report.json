@@ -1,0 +1,14 @@
+{
+  "status": "installed",
+  "id": "real-task-benchmark-bridge-v1",
+  "generated_at": "2026-06-29T12:41:09.622540+00:00",
+  "page": "public/real-task-benchmark-bridge.html",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

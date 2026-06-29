@@ -1352,3 +1352,17 @@ The repository now includes a review-grade Proof Run 001 Evidence Command Room.
 
 This page exists to make the first public-alpha proof object easier to review. It does not claim achieved AGI, achieved ASI, empirical SOTA, production authorization, legal approval, investment advice, or mainnet activation.
 <!-- GOALOS_PROOF_RUN_001_DOCKET_ROOM_V2:END -->
+
+<!-- GOALOS_REAL_TASK_BENCHMARK_BRIDGE_V1_START -->
+## GoalOS Real-Task Benchmark Bridge V1
+
+**From demos to real-task evidence.**
+
+The Real-Task Benchmark Bridge is a browser-local public demonstration that shows how a GoalOS claim moves from architecture and demos toward empirical evidence: task family, real-task manifest, equal-budget baselines, ProofBundle / Evidence Docket, replay path, cost/risk ledgers, validator report, delayed-outcome plan, and external review path.
+
+- Website: `public/real-task-benchmark-bridge.html`
+- Docs: `docs/demos/REAL_TASK_BENCHMARK_BRIDGE_V1.md`
+- QA: `reports/real-task-benchmark-bridge-v1-qa.json`
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+<!-- GOALOS_REAL_TASK_BENCHMARK_BRIDGE_V1_END -->

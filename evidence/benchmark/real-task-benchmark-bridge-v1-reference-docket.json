@@ -1,0 +1,52 @@
+{
+  "id": "real-task-benchmark-bridge-v1-reference-docket",
+  "generated_at": "2026-06-29T12:41:09.648580+00:00",
+  "claim": "GoalOS requires real tasks, equal-budget baselines, ProofBundles, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review before promoting strong empirical claims.",
+  "status": "reference_demo",
+  "decision_state": "HOLD_EXTERNAL_REVIEW_REQUIRED",
+  "baselines": [
+    {
+      "id": "B0",
+      "name": "single agent",
+      "score": 49
+    },
+    {
+      "id": "B1",
+      "name": "report-only",
+      "score": 57
+    },
+    {
+      "id": "B2",
+      "name": "static workflow",
+      "score": 64
+    },
+    {
+      "id": "B3",
+      "name": "unstructured swarm",
+      "score": 59
+    },
+    {
+      "id": "B4",
+      "name": "fixed crew",
+      "score": 74
+    },
+    {
+      "id": "B5",
+      "name": "routed constellation",
+      "score": 86
+    },
+    {
+      "id": "B6",
+      "name": "GoalOS proof-governed",
+      "score": 92
+    }
+  ],
+  "boundary": {
+    "browser_local": true,
+    "no_network_call": true,
+    "no_user_data": true,
+    "no_user_funds": true,
+    "wallet_or_mainnet": false,
+    "human_review_required": true
+  }
+}
