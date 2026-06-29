@@ -1,6 +1,6 @@
 {
   "id": "proof-backed-upgrade-rights-room-v1-demo-run",
-  "generated_at": "2026-06-29T14:28:03.576855Z",
+  "generated_at": "2026-06-29T14:34:09.562100Z",
   "objective": "Demonstrate how a proof-backed upgrade right is earned by an artifact only after mandatory proof gates pass.",
   "decision_state": "HOLD_CHALLENGE_WINDOW_OPEN",
   "proof_gradient_score": 72,
