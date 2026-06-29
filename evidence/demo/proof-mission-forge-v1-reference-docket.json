@@ -1,0 +1,52 @@
+{
+  "schema": "goalos.proof_mission_forge.reference_docket.v1",
+  "generated_at": "2026-06-29T02:32:09.043712+00:00",
+  "mission_id": "GMF-REFERENCE-001",
+  "objective": "Evaluate public repository and website readiness for Proof Run 001 using only public-safe artifacts.",
+  "mission_contract": {
+    "decision_to_support": "Proceed to Proof Run 001 rehearsal",
+    "risk_class": "low",
+    "source_boundary": "public repository + public website only"
+  },
+  "claims_matrix": [
+    {
+      "claim": "Mission is public-safe",
+      "status": "template-supported",
+      "required_evidence": "data boundary"
+    },
+    {
+      "claim": "Mission is reviewable",
+      "status": "template-supported",
+      "required_evidence": "validator packet"
+    },
+    {
+      "claim": "Mission is replay-ready",
+      "status": "requires-human-review",
+      "required_evidence": "replay instructions"
+    }
+  ],
+  "docket_plan": [
+    "00_manifest",
+    "01_claims_matrix",
+    "02_mission_contract",
+    "03_environment_boundary",
+    "04_baselines",
+    "05_proof_packets",
+    "06_replay_instructions",
+    "07_validator_reports",
+    "08_cost_risk_ledger",
+    "09_decision_state",
+    "10_chronicle_entry",
+    "11_capability_package"
+  ],
+  "public_boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "governed_decision_state": "MISSION_REVIEW_READY_TEMPLATE",
+  "docket_hash": "43a59c4c5ae9551e6cdc69d70e31b785157c7c0f4f7f8747b9d6cf3332695e09"
+}

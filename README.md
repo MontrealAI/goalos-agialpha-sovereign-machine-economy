@@ -1260,3 +1260,14 @@ The public demo at `public/capability-compounding-lab.html` shows how a GoalOS p
 - QA report: `reports/proof-settlement-chronicle-lab-v1-qa.json`
 - Reference docket: `evidence/demo/proof-settlement-chronicle-lab-v1-reference-docket.json`
 
+
+
+<!-- GOALOS_PROOF_MISSION_FORGE_V1 -->
+## GoalOS Proof Mission Forge V1 — turn an objective into a proof mission
+
+The Proof Mission Forge is the public-safe intake bridge from ordinary objectives to GoalOS proof missions. It runs entirely in the browser and generates a Mission Contract, Claims Matrix, Evidence Docket plan, validator packet, and GitHub-ready issue draft.
+
+- Website: [`/proof-mission-forge.html`](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-forge.html)
+- Boundary: no user data, no user funds, no wallet, no transaction, no network call, human review required.
+- Purpose: convert public-safe objectives into review-ready proof missions for Proof Run 001 and future mission slots.
+<!-- /GOALOS_PROOF_MISSION_FORGE_V1 -->

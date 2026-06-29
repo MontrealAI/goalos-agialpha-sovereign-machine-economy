@@ -1,0 +1,12 @@
+{
+  "schema": "goalos.proof_mission_forge.audit.v1",
+  "generated_at": "2026-06-29T02:32:11.119023+00:00",
+  "status": "passed",
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "errors": []
+}

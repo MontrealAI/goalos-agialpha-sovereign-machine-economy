@@ -1,0 +1,28 @@
+name: Proof Mission Forge feedback
+description: Provide public-safe feedback on the Proof Mission Forge page.
+title: "[Proof Mission Forge] "
+labels: ["proof-mission", "user-feedback", "public-alpha"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the GoalOS Proof Mission Forge.
+
+        Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm this issue contains no personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data.
+          required: true
+        - label: I understand GoalOS does not accept user data or user funds through public channels.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be clearer, safer, or more useful?
+      placeholder: Keep this public-safe.
+    validations:
+      required: true

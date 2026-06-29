@@ -237,5 +237,10 @@
     "title": "Proof Experience Atlas",
     "url": "proof-experience-atlas.html",
     "description": "Unified browser-local path through the best GoalOS public demos."
+  },
+  {
+    "title": "Proof Mission Forge",
+    "url": "proof-mission-forge.html",
+    "description": "Turn a public-safe objective into a Mission Contract, Claims Matrix, Evidence Docket plan, validator packet, and GitHub-ready issue draft."
   }
 ]

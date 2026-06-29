@@ -1,0 +1,11 @@
+{
+  "schema": "goalos.proof_mission_forge.install_report.v1",
+  "generated_at": "2026-06-29T02:32:09.013383+00:00",
+  "status": "passed",
+  "missing": [],
+  "page": "public/proof-mission-forge.html",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "human_review_required": true
+}

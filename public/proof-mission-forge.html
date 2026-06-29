@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GoalOS Proof Mission Forge — Turn an objective into a proof mission</title>
+  <meta name="description" content="A browser-local GoalOS mission forge that turns a public-safe objective into a Mission Contract, Claims Matrix, Evidence Docket plan, validator packet, and GitHub-ready issue draft.">
+  <link rel="stylesheet" href="assets/goalos-proof-mission-forge-v1.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="nav">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><strong>GOALOS</strong><em>AGIALPHA ASCENSION</em></span>
+    </a>
+    <nav>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-run-001-execution-room.html">Proof Run 001</a>
+      <a href="evidence-docket-theatre.html">Docket Theatre</a>
+      <a href="validator-room.html">Validator Room</a>
+      <a class="pill" href="proof-mission-forge.html">Mission Forge</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>Public-safe mission intake / browser-local / no data leaves your device</p>
+        <h1>Turn an objective into a <i>proof mission.</i></h1>
+        <p class="lead">
+          GoalOS starts with one disciplined move: convert an ordinary objective into a Mission Contract,
+          Claims Matrix, Evidence Docket plan, validator packet, and review-ready issue draft.
+        </p>
+        <div class="cta-row">
+          <button id="runForgeTop" class="primary">Forge the proof mission</button>
+          <button id="safePreset" class="secondary">Load public-safe example</button>
+          <button id="copyIssueTop" class="secondary">Copy GitHub issue</button>
+        </div>
+        <div class="boundary">
+          <b>Default deny:</b> do not enter personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, or trade-secret data. Nothing is submitted. No network call. No wallet. No transaction.
+        </div>
+      </div>
+
+      <div class="orbital-panel" aria-label="Mission forge visual">
+        <div class="mode-toggle" role="group" aria-label="View mode">
+          <button data-mode="executive" class="active">Executive</button>
+          <button data-mode="technical">Technical</button>
+        </div>
+        <svg id="forgeSvg" viewBox="0 0 620 460" role="img" aria-label="GoalOS proof mission assembly loop">
+          <defs>
+            <radialGradient id="coreGrad" cx="50%" cy="45%" r="60%">
+              <stop offset="0%" stop-color="#fff383"/>
+              <stop offset="45%" stop-color="#5ff4cc"/>
+              <stop offset="80%" stop-color="#8ea7ff"/>
+              <stop offset="100%" stop-color="#9f7bff"/>
+            </radialGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <rect x="0" y="0" width="620" height="460" rx="28" fill="rgba(5,10,24,.68)" stroke="rgba(255,255,255,.18)"/>
+          <g class="ring"><circle cx="310" cy="230" r="150"/><circle cx="310" cy="230" r="104"/></g>
+          <circle cx="310" cy="230" r="62" fill="url(#coreGrad)" filter="url(#glow)"/>
+          <text x="310" y="224" text-anchor="middle" class="core-small">MISSION</text>
+          <text x="310" y="258" text-anchor="middle" class="core-alpha">α</text>
+          <g id="stageNodes"></g>
+          <path id="flowPath" d="M310 76 C440 105 500 210 460 330 C386 420 236 415 165 325 C95 230 165 100 310 76" fill="none" stroke="rgba(112,246,205,.28)" stroke-width="2" stroke-dasharray="7 9"/>
+        </svg>
+        <div class="legend">
+          <span><b class="ok"></b> Contract</span>
+          <span><b class="warn"></b> Evidence</span>
+          <span><b class="hold"></b> Human review</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <div><strong id="readiness">42</strong><span>mission readiness</span></div>
+      <div><strong id="docketStatus">draft</strong><span>docket state</span></div>
+      <div><strong id="riskState">low</strong><span>risk class</span></div>
+      <div><strong id="missingCount">4</strong><span>missing gates</span></div>
+      <div><strong>0</strong><span>external actions</span></div>
+      <div><strong>1</strong><span>human boundary</span></div>
+    </section>
+
+    <section class="workspace">
+      <aside class="card composer">
+        <div class="step"><span>01</span><div><h2>Compose the objective</h2><p>Plain language is enough. Keep it public-safe.</p></div></div>
+        <label>Mission preset</label>
+        <select id="preset">
+          <option value="repo">Repository launch readiness</option>
+          <option value="frontier">Frontier release governance review</option>
+          <option value="demo">Public demo series review</option>
+          <option value="pilot">Proof mission pilot readiness</option>
+          <option value="custom">Custom public-safe objective</option>
+        </select>
+
+        <label>Objective</label>
+        <textarea id="objective" maxlength="900">Evaluate whether the GoalOS public-alpha repository and website are ready for Proof Run 001 by checking claim boundaries, evidence surfaces, code parity reports, user paths, and replay readiness.</textarea>
+        <div class="char"><span id="chars">0</span>/900</div>
+
+        <div class="grid2">
+          <div>
+            <label>Decision to support</label>
+            <select id="decision">
+              <option>Proceed to Proof Run 001 rehearsal</option>
+              <option>Hold pending validator review</option>
+              <option>Open public-safe pilot mission slots</option>
+              <option>Revise claim boundary before launch</option>
+            </select>
+          </div>
+          <div>
+            <label>Risk class</label>
+            <select id="risk">
+              <option value="low">Low / public-safe</option>
+              <option value="moderate">Moderate / review needed</option>
+              <option value="high">High / private agreement required</option>
+            </select>
+          </div>
+        </div>
+
+        <label>Allowed source boundary</label>
+        <select id="sources">
+          <option value="public">Public repository + public website only</option>
+          <option value="public-docs">Public repository + public papers + website</option>
+          <option value="operator">Operator-provided public-safe files only</option>
+          <option value="none">No external sources; template only</option>
+        </select>
+
+        <label>Output package</label>
+        <div class="checks">
+          <label><input type="checkbox" data-gate="contract" checked> Mission Contract</label>
+          <label><input type="checkbox" data-gate="claims" checked> Claims Matrix</label>
+          <label><input type="checkbox" data-gate="docket" checked> Evidence Docket plan</label>
+          <label><input type="checkbox" data-gate="baselines" checked> Baseline ladder</label>
+          <label><input type="checkbox" data-gate="replay" checked> Replay checklist</label>
+          <label><input type="checkbox" data-gate="validators"> Validator packet</label>
+          <label><input type="checkbox" data-gate="risk" checked> Cost/risk ledger</label>
+          <label><input type="checkbox" data-gate="boundary" checked> Claim/data/funds boundary</label>
+        </div>
+
+        <div class="actions">
+          <button id="runForge" class="primary">Forge package</button>
+          <button id="stress" class="secondary">Stress mission</button>
+          <button id="reset" class="ghost">Reset</button>
+        </div>
+      </aside>
+
+      <section class="card theatre">
+        <div class="step"><span>02</span><div><h2>Watch GoalOS forge the mission</h2><p>Every stage must become inspectable before the mission is review-ready.</p></div></div>
+        <div id="pipeline" class="pipeline"></div>
+        <div class="console" id="console" aria-live="polite">
+          <p><b>00:00:00</b> Mission Forge ready. Choose a public-safe objective and run the forge.</p>
+        </div>
+        <div class="downloads">
+          <button id="downloadContract">Download Mission Contract</button>
+          <button id="downloadDocket">Download Evidence Docket</button>
+          <button id="downloadValidator">Download Validator Packet</button>
+          <button id="downloadBrief">Download Executive Brief</button>
+        </div>
+      </section>
+
+      <aside class="card decision-card">
+        <div class="step"><span>03</span><div><h2>Review the state</h2><p>GoalOS blocks unsafe, underspecified, or unreviewable missions.</p></div></div>
+        <div class="score-ring">
+          <svg viewBox="0 0 120 120">
+            <circle cx="60" cy="60" r="49" class="base"/>
+            <circle cx="60" cy="60" r="49" class="prog" id="scoreCircle"/>
+          </svg>
+          <strong id="scoreText">42</strong>
+          <span>readiness</span>
+        </div>
+        <div class="decision" id="decisionState">DRAFT_NEEDS_VALIDATOR_PACKET</div>
+        <ul class="state-list" id="stateList"></ul>
+        <button id="copyIssue" class="primary wide">Copy GitHub-ready mission issue</button>
+        <button id="copySummary" class="secondary wide">Copy executive summary</button>
+        <p class="tiny">No submission occurs. Copy/paste only after confirming the issue contains no restricted data.</p>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <div class="card">
+        <h2>Why this page matters</h2>
+        <p>
+          GoalOS becomes practical when a user can move from “I have an objective” to “I have a bounded proof mission.”
+          This page is the intake bridge between public demos and Proof Run 001.
+        </p>
+        <div class="tiles">
+          <div><b>Non-technical path</b><span>Choose a preset, click forge, download the package.</span></div>
+          <div><b>Reviewer path</b><span>Inspect missing evidence, baselines, replay, and claim boundary.</span></div>
+          <div><b>Advanced path</b><span>Review generated JSON, gates, risk status, and validator packet.</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>What this is not</h2>
+        <p>
+          This is not a data intake form, wallet flow, transaction interface, legal advice, financial advice, token activity,
+          production authorization, or external action system.
+        </p>
+        <p class="quote">GoalOS keeps intelligence private and makes proof inspectable.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>GoalOS Proof Mission Forge V1</span>
+    <span>No user data · no user funds · no wallet · no transaction · human review required</span>
+  </footer>
+
+  <script src="assets/goalos-proof-mission-forge-v1.js"></script>
+</body>
+</html>
