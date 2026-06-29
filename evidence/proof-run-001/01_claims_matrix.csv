@@ -1,0 +1,7 @@
+claim,status,evidence,boundary
+The repository has a broad public website surface for review.,supported,Page scan,Website presence is not empirical AGI/ASI/SOTA proof.
+The repository has local implementation modules behind the website story.,supported,Code module scan,"Reference implementation is public-alpha, not production certification."
+The repository has evidence and report artifacts.,supported,Artifact scan,Generated artifacts are not independent external validation.
+"The public boundary says no user data, no user funds, no wallet, no transaction, and human review required.",needs_revision,Boundary scan,Boundary text is not jurisdiction-specific legal advice.
+The public demos avoid common browser network/storage/wallet APIs.,supported,Static JS scan,Static scan is not formal security certification.
+Repository tests pass.,supported,pytest,Passing tests are not production certification.

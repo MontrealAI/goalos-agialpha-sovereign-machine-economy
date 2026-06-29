@@ -1,0 +1,6 @@
+{
+  "state": "HOLD_PENDING_REMEDIATION",
+  "readiness_score": 90,
+  "human_review_required": true,
+  "next_action": "Resolve blocked gates and rerun"
+}

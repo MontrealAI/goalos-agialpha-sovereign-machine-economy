@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "generated_at": "2026-06-27T14:23:55Z",
-  "docket_hash": "sha256:7ea8cbb2b0f5bb1727c077a5afc43089b0fd45f94d38e7691dda1f861cedab1e",
+  "generated_at": "2026-06-29T03:17:40Z",
+  "docket_hash": "sha256:8ee1f34613128f14f4bb2f5281233ef092fb8760f39423d1e585b965d11e8051",
   "human_review_required": true,
   "production_authority": false,
   "external_actions_authorized": false,

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T03:17:39Z",
+  "readiness_score": 90,
+  "decision_state": "HOLD_PENDING_REMEDIATION",
+  "gates_passed": 9,
+  "gates_total": 10,
+  "errors": []
+}
