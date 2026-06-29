@@ -287,5 +287,18 @@
     "title": "Proof-Backed Upgrade Rights Room",
     "url": "proof-backed-upgrade-rights-room.html",
     "description": "A browser-local demo showing how artifacts earn limited, rollbackable authority after proof gates pass."
+  },
+  {
+    "title": "Institutional Deployment Wedge",
+    "url": "institutional-deployment-wedge.html",
+    "description": "Start with one workflow. Earn the right to scale.",
+    "tags": [
+      "deployment",
+      "proof",
+      "canary",
+      "rollback",
+      "institution",
+      "adoption"
+    ]
   }
 ]

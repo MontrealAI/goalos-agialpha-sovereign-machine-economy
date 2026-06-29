@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Institutional Deployment Wedge — Earn the Right to Scale</title>
+  <meta name="description" content="A browser-local GoalOS demo showing how one repeatable workflow earns the right to scale through evidence, selection gates, canary monitoring, and rollbackable expansion.">
+  <meta property="og:title" content="GoalOS Institutional Deployment Wedge">
+  <meta property="og:description" content="Start with one workflow. Earn the right to scale.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-institutional-deployment-wedge-v1.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar" aria-label="GoalOS navigation">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="sigil">α</span>
+      <span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav>
+      <a href="start-here.html">Start</a>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-mission-forge.html">Mission Forge</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="copy">
+        <p class="eyebrow"><span></span> Public demo / browser-local / no data</p>
+        <h1>Start with one workflow. <em>Earn the right to scale.</em></h1>
+        <p class="lead">GoalOS shows how a repeatable institutional workflow moves from objective to evidence, selection, canary monitoring, and rollbackable expansion — without asking users for data, wallets, funds, or trust by default.</p>
+        <div class="actions">
+          <button id="runWedge" class="primary">Run deployment wedge</button>
+          <button id="stressWedge" class="secondary">Stress rollout risk</button>
+          <button id="resetWedge" class="ghost">Reset</button>
+        </div>
+        <div class="boundary">
+          <b>Default deny:</b> no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Deployment wedge status">
+        <div class="mode-switch" role="tablist" aria-label="View mode">
+          <button id="execMode" class="active" aria-selected="true">Executive</button>
+          <button id="techMode" aria-selected="false">Technical</button>
+        </div>
+        <div class="dial" aria-live="polite">
+          <svg viewBox="0 0 180 180" aria-hidden="true">
+            <circle class="track" cx="90" cy="90" r="68"></circle>
+            <circle id="readyArc" class="arc" cx="90" cy="90" r="68"></circle>
+          </svg>
+          <div><strong id="readiness">46</strong><span>readiness</span></div>
+        </div>
+        <h2 id="decisionState">MISSION_DRAFT_REQUIRED</h2>
+        <p id="decisionExplain">Choose a repeatable workflow, then generate a claim-bounded deployment wedge.</p>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Deployment metrics">
+      <div><strong id="maturity">L1</strong><span>conformance</span></div>
+      <div><strong id="proofDebt">54</strong><span>proof debt</span></div>
+      <div><strong id="canary">blocked</strong><span>canary</span></div>
+      <div><strong id="rollback">required</strong><span>rollback</span></div>
+      <div><strong id="external">0</strong><span>external actions</span></div>
+    </section>
+
+    <section class="workspace">
+      <article class="panel control">
+        <div class="step"><span>01</span><h2>Choose the workflow</h2></div>
+        <label for="scenario">Repeatable workflow</label>
+        <select id="scenario">
+          <option value="repo">Repository launch readiness</option>
+          <option value="enterprise">Enterprise AI adoption review</option>
+          <option value="procurement">AI procurement / vendor diligence</option>
+          <option value="frontier">Frontier release governance</option>
+          <option value="policy">Public policy option review</option>
+          <option value="security">Defensive security readiness</option>
+          <option value="science">Scientific discovery triage</option>
+        </select>
+
+        <label for="objective">Objective</label>
+        <textarea id="objective" maxlength="900">Convert one public-alpha repository workflow into a claim-bounded deployment wedge with Mission Contract, Evidence Docket plan, Selection Gate, canary monitor, rollback playbook, and reviewer packet.</textarea>
+
+        <div class="grid-2">
+          <div>
+            <label for="repeatability">Repeatability</label>
+            <input id="repeatability" type="range" min="0" max="100" value="72">
+          </div>
+          <div>
+            <label for="impact">Decision impact</label>
+            <input id="impact" type="range" min="0" max="100" value="68">
+          </div>
+          <div>
+            <label for="evidence">Evidence availability</label>
+            <input id="evidence" type="range" min="0" max="100" value="58">
+          </div>
+          <div>
+            <label for="validators">Validator readiness</label>
+            <input id="validators" type="range" min="0" max="100" value="44">
+          </div>
+          <div>
+            <label for="rollbackLevel">Rollback maturity</label>
+            <input id="rollbackLevel" type="range" min="0" max="100" value="42">
+          </div>
+          <div>
+            <label for="risk">Risk class</label>
+            <select id="risk">
+              <option value="low">LOW</option>
+              <option value="medium" selected>MEDIUM</option>
+              <option value="high">HIGH</option>
+              <option value="critical">CRITICAL</option>
+            </select>
+          </div>
+        </div>
+
+        <h3>Mandatory gates</h3>
+        <div id="gateControls" class="toggle-list"></div>
+      </article>
+
+      <article class="panel theatre">
+        <div class="step"><span>02</span><h2>Watch one workflow earn scale</h2></div>
+        <div class="wedge-visual" id="wedgeVisual">
+          <svg viewBox="0 0 880 460" role="img" aria-label="Institutional deployment wedge">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0%" stop-color="#62ffd2"/>
+                <stop offset="60%" stop-color="#fff182"/>
+                <stop offset="100%" stop-color="#b79cff"/>
+              </linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <rect x="10" y="10" width="860" height="440" rx="28" fill="rgba(9,14,28,.68)" stroke="rgba(255,255,255,.18)"/>
+            <text x="42" y="58" class="svg-title">Institutional Deployment Wedge</text>
+            <text x="42" y="84" class="svg-sub">One repeatable workflow earns the right to scale.</text>
+            <g id="rail">
+              <path d="M94 342 C220 270, 310 244, 434 202 C560 158, 652 114, 784 74" fill="none" stroke="url(#g1)" stroke-width="5" filter="url(#glow)"/>
+              <path d="M94 372 C220 300, 310 274, 434 232 C560 188, 652 144, 784 104" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2" stroke-dasharray="8 9"/>
+            </g>
+            <g id="nodes">
+              <g class="node active" data-node="0"><circle cx="94" cy="342" r="28"/><text x="94" y="347">1</text><title>Choose repeatable workflow</title></g>
+              <g class="node" data-node="1"><circle cx="210" cy="287" r="28"/><text x="210" y="292">2</text><title>Convert to GoalOSCommit</title></g>
+              <g class="node" data-node="2"><circle cx="318" cy="247" r="28"/><text x="318" y="252">3</text><title>Execute bounded agents</title></g>
+              <g class="node" data-node="3"><circle cx="434" cy="202" r="28"/><text x="434" y="207">4</text><title>Capture Evidence Docket</title></g>
+              <g class="node" data-node="4"><circle cx="552" cy="160" r="28"/><text x="552" y="165">5</text><title>Run Selection Gate</title></g>
+              <g class="node" data-node="5"><circle cx="668" cy="116" r="28"/><text x="668" y="121">6</text><title>Canary and monitor</title></g>
+              <g class="node" data-node="6"><circle cx="784" cy="74" r="28"/><text x="784" y="79">7</text><title>Rollbackable expansion</title></g>
+            </g>
+            <g class="labels">
+              <text x="42" y="410">1 workflow</text>
+              <text x="224" y="364">commit</text>
+              <text x="344" y="326">bounded run</text>
+              <text x="460" y="284">docket</text>
+              <text x="578" y="240">selection gate</text>
+              <text x="690" y="194">canary</text>
+              <text x="720" y="132">scale right</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="trace" id="trace" aria-live="polite">
+          <p>00:00 Ready. Choose a workflow and run the deployment wedge.</p>
+        </div>
+
+        <div class="insight" id="insightBox">
+          <h3>Plain English</h3>
+          <p>GoalOS does not start by giving autonomy to everything. It starts with one repeatable workflow, proves it, canaries it, monitors it, and earns a limited, rollbackable right to expand.</p>
+        </div>
+      </article>
+
+      <aside class="panel decision">
+        <div class="step"><span>03</span><h2>Selection Gate</h2></div>
+        <div id="gateLedger" class="gate-ledger"></div>
+        <div class="download-stack">
+          <button id="downloadPlan">Download deployment plan</button>
+          <button id="downloadCommit">Download GoalOSCommit</button>
+          <button id="downloadDocket">Download Evidence Docket plan</button>
+          <button id="downloadCanary">Download canary monitor</button>
+          <button id="downloadRollback">Download rollback playbook</button>
+          <button id="downloadBrief">Download reviewer brief</button>
+          <button id="copyIssue">Copy GitHub-ready pilot issue</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <div>
+        <p class="eyebrow"><span></span> The institutional deployment wedge</p>
+        <h2>Not unrestricted autonomy. Governed improvement.</h2>
+        <p>The first adoption path is one repeatable workflow: define the objective, convert it into a GoalOSCommit, execute bounded agents, capture an Evidence Docket, run the Selection Gate, canary the artifact, monitor outcomes, and expand only with rollback.</p>
+      </div>
+      <div class="law">
+        <b>Operating law</b>
+        <code>Choose workflow → Commit → Execute → Docket → Selection Gate → Canary → Rollbackable expansion</code>
+        <p>The product is the proof-backed upgrade right: a limited, evidence-backed, review-ready permission for a workflow or artifact to influence future work.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>GoalOS Institutional Deployment Wedge V1</span>
+    <span>No data. No wallet. No transaction. Browser-local public demo.</span>
+  </footer>
+
+  <script src="assets/goalos-institutional-deployment-wedge-v1.js"></script>
+</body>
+</html>

@@ -1419,3 +1419,16 @@ Boundary: no user data, no user funds, no wallet, no transaction, no network cal
 ### Evolution Ledger Control Room V2
 
 - [Evolution Ledger Control Room V2](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evolution-ledger-control-room.html) — browser-local demo: the ledger remembers proof, not secrets.
+
+
+## GoalOS Institutional Deployment Wedge V1
+
+**Start with one workflow. Earn the right to scale.**
+
+The Institutional Deployment Wedge is a browser-local public demo showing how a repeatable workflow becomes a proof-backed, canary-ready, rollbackable adoption path.
+
+- Website: `public/institutional-deployment-wedge.html`
+- QA: `reports/institutional-deployment-wedge-v1-qa.json`
+- Reference docket: `evidence/deployment-wedge/institutional-deployment-wedge-v1-reference-docket.json`
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.

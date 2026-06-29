@@ -1,0 +1,33 @@
+{
+  "artifact": "institutional-deployment-wedge-v1-reference-docket",
+  "generatedAt": "2026-06-29T16:00:09Z",
+  "page": "institutional-deployment-wedge.html",
+  "thesis": "Start with one workflow. Earn the right to scale.",
+  "loop": [
+    "Choose workflow",
+    "GoalOSCommit",
+    "Bounded execution",
+    "Evidence Docket",
+    "Selection Gate",
+    "Canary",
+    "Rollbackable expansion"
+  ],
+  "decisionStates": [
+    "MISSION_DRAFT_REQUIRED",
+    "EVIDENCE_DOCKET_REQUIRED",
+    "HOLD_REPLAY_REQUIRED",
+    "HOLD_ROLLBACK_REQUIRED",
+    "HOLD_CANARY_REQUIRED",
+    "CANARY_READY",
+    "ROLLBACKABLE_EXPANSION_READY"
+  ],
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "noProductionAuthority": true,
+    "humanReviewRequired": true
+  }
+}
