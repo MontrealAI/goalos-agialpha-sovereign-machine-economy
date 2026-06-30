@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checked_files": 546,
+  "checked_files": 554,
   "blockers": [],
   "blocker_count": 0,
-  "allowed_boundary_contexts": 614
+  "allowed_boundary_contexts": 653
 }

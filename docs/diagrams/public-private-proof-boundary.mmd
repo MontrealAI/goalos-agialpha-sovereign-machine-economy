@@ -1,6 +1,2 @@
 flowchart LR
-  Private["Off-chain private intelligence"] --> Commit["Hashes and commitments"]
-  Private --> Pointers["Public-safe evidence pointers"]
-  Commit --> Public["Public proof: attestations, dockets, receipts"]
-  Pointers --> Public
-  Public --> Review["Reviewer inspection without private data"]
+  Private["Private intelligence stays private"] --> Commitments["Public proof commitments"] --> Inspectable["Hashes, attestations, dockets, receipts, pointers are inspectable"]

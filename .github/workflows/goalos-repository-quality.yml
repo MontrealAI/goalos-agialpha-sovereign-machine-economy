@@ -1,0 +1,31 @@
+name: GoalOS Repository Quality
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Compile Python
+        run: python -m compileall -q scripts src tests
+      - name: Validate repository
+        run: python scripts/validate_repo.py
+      - name: Verify site
+        run: python scripts/verify_site.py
+      - name: Docs quality
+        run: python scripts/goalos_docs_quality.py
+      - name: Upload quality reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: repository-quality-reports
+          path: reports/

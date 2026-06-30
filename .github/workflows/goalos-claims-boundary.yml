@@ -1,0 +1,25 @@
+name: GoalOS Claims Boundary
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  claims-boundary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate claim boundaries
+        run: python scripts/validate_claims.py
+      - name: Upload claim scan
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: claim-scan
+          path: reports/claim-scan.json

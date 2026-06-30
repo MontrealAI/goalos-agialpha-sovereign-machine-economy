@@ -1,6 +1,5 @@
 flowchart LR
-  Inputs["ProofValid + EvalPass + RiskThreshold + RollbackReady + CanaryReady + ScopeAuthorized + ChallengeWindowCleared"] --> Gate{"Mandatory gates cleared?"}
-  Gate -->|yes| Promote["Promote"]
-  Gate -->|not yet| Hold["Hold"]
-  Gate -->|failed| Reject["Reject"]
-  Gate -->|regression| Rollback["Rollback"]
+  Gates["ProofValid + EvalPass + PG threshold + Risk threshold + RollbackReady + CanaryReady + ScopeAuthorized + ChallengeWindowCleared"] --> Promote["Promote"]
+  Gates --> Hold["Hold"]
+  Gates --> Reject["Reject"]
+  Gates --> Rollback["Rollback"]

@@ -1,0 +1,9 @@
+flowchart LR
+  N0["Source"] --> N1["Generator"]
+  N1["Generator"] --> N2["QA"]
+  N2["QA"] --> N3["Human Review"]
+  N3["Human Review"] --> N4["Publish"]
+  N4["Publish"] --> N5["Reports"]
+  N5["Reports"] --> N6["Docket"]
+  N6["Docket"] --> N7["Reviewer Feedback"]
+  N7["Reviewer Feedback"] --> N8["Next Source"]
