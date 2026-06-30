@@ -1,0 +1,104 @@
+{
+  "docket_id": "GOALOS-PROOF-RUN-001-SOURCE-OF-TRUTH-V6",
+  "version": "0.31.5",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
+  "decision_state": "REVIEW_READY",
+  "readiness": 100,
+  "gates_passed": 10,
+  "gates_total": 10,
+  "counts": {
+    "public_pages": 134,
+    "evidence_files": 59,
+    "reports": 190,
+    "src_python_modules": 15,
+    "scripts": 116,
+    "workflows": 51
+  },
+  "gates": [
+    {
+      "name": "Committed website source",
+      "passed": true,
+      "note": "public/index.html is generated and committed as source."
+    },
+    {
+      "name": "Route integrity",
+      "passed": true,
+      "note": "All local HTML route links resolve after fallback preservation."
+    },
+    {
+      "name": "Token boundary route",
+      "passed": true,
+      "note": "Public contract identification page exists and is not a 404."
+    },
+    {
+      "name": "Registry specificity",
+      "passed": true,
+      "note": "Registry rows describe route purpose, inputs, outputs, gates, and next state."
+    },
+    {
+      "name": "Release state",
+      "passed": true,
+      "note": "Canonical release metadata exists."
+    },
+    {
+      "name": "Workflow tiers",
+      "passed": true,
+      "note": "Actions are grouped by purpose."
+    },
+    {
+      "name": "Boundary copy",
+      "passed": true,
+      "note": "Homepage includes no-data/no-funds/no-wallet/no-transaction/human-review boundary."
+    },
+    {
+      "name": "Forbidden browser APIs",
+      "passed": true,
+      "note": "New V6 assets contain no forbidden browser APIs."
+    },
+    {
+      "name": "Replay path",
+      "passed": true,
+      "note": "Proof Run 001 replay path exists."
+    },
+    {
+      "name": "Evidence artifacts",
+      "passed": true,
+      "note": "Evidence folder contains public-alpha evidence artifacts."
+    }
+  ],
+  "claims_matrix": [
+    [
+      "C-001",
+      "The committed source now contains the canonical website operating surface.",
+      "Supported",
+      "public/index.html; content/goalos/release-state.json"
+    ],
+    [
+      "C-002",
+      "The site has a route integrity report and no known local route dead-ends after repair.",
+      "Supported",
+      "reports/source-of-truth-v6-route-health.json"
+    ],
+    [
+      "C-003",
+      "The claim scanner is context-aware and distinguishes negated boundaries from unsupported claims.",
+      "Supported",
+      "scripts/validate_claims.py; reports/claim-scan.json"
+    ],
+    [
+      "C-004",
+      "Proof Run 001 is repository-readiness evidence, not empirical AGI/ASI/SOTA validation.",
+      "Supported",
+      "claim boundary on proof-run-001-docket.html"
+    ],
+    [
+      "C-005",
+      "All public-alpha demos remain no-data/no-funds/no-wallet/no-transaction surfaces unless explicitly reviewed.",
+      "Supported",
+      "trust-boundary.html; reports/source-of-truth-v6-qa.json"
+    ]
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "claim_boundary": "Public-alpha. Not achieved AGI. Not achieved ASI. Not empirical SOTA. Not production authorization. Not investment, trading, legal, tax, exchange, bridge, liquidity, wallet, or regulatory advice.",
+  "not_empirical_validation": true
+}

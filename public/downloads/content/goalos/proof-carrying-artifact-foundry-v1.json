@@ -1,0 +1,22 @@
+{
+  "schema": "goalos.public_demo.v1",
+  "name": "Proof-Carrying Artifact Foundry V1",
+  "url": "proof-carrying-artifact-foundry.html",
+  "tagline": "The artifact earns authority.",
+  "coreIdea": "Raw output becomes reusable capability only when it becomes a proof-carrying artifact.",
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "humanReviewRequired": true
+  },
+  "downloads": [
+    "artifact_json",
+    "selection_certificate",
+    "rollback_receipt",
+    "evolution_ledger_entry",
+    "reviewer_brief"
+  ]
+}

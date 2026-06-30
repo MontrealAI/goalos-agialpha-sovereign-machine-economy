@@ -1,0 +1,7 @@
+{
+  "version": "0.31.5",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
+  "qa_report": "reports/source-of-truth-v6-qa.json",
+  "proof_docket": "evidence/proof-run-001/proof-run-001-source-of-truth-v6.json",
+  "route_registry": "content/goalos/demo-ecosystem-registry.json"
+}

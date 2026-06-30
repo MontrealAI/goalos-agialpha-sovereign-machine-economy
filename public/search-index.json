@@ -1,806 +1,1614 @@
-[
-  {
-    "title": "Action-Reason Trace Contract",
-    "url": "action-reason-trace-contract.html",
-    "category": "action",
-    "description": "Every high-impact action must carry reason, scope, observation, validation, rollback, and evidence."
-  },
-  {
-    "title": "404",
-    "url": "404.html",
-    "category": "additional",
-    "description": "GoalOS public route for 404; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Adoption",
-    "url": "adoption.html",
-    "category": "additional",
-    "description": "GoalOS public route for Adoption; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Agents",
-    "url": "agents.html",
-    "category": "additional",
-    "description": "GoalOS public route for Agents; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Agi Alpha Node V0",
-    "url": "agi-alpha-node-v0.html",
-    "category": "additional",
-    "description": "GoalOS public route for Agi Alpha Node V0; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Agi Alpha Thesis",
-    "url": "agi-alpha-thesis.html",
-    "category": "additional",
-    "description": "GoalOS public route for Agi Alpha Thesis; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Agi Jobs V0 V2",
-    "url": "agi-jobs-v0-v2.html",
-    "category": "additional",
-    "description": "GoalOS public route for Agi Jobs V0 V2; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Architecture",
-    "url": "architecture.html",
-    "category": "additional",
-    "description": "GoalOS public route for Architecture; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Capability Parity",
-    "url": "capability-parity.html",
-    "category": "additional",
-    "description": "GoalOS public route for Capability Parity; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Capability Stack",
-    "url": "capability-stack.html",
-    "category": "additional",
-    "description": "GoalOS public route for Capability Stack; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Console",
-    "url": "console.html",
-    "category": "additional",
-    "description": "GoalOS public route for Console; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Coordination Console",
-    "url": "coordination-console.html",
-    "category": "additional",
-    "description": "GoalOS public route for Coordination Console; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Docs",
-    "url": "docs.html",
-    "category": "additional",
-    "description": "GoalOS public route for Docs; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Document Series",
-    "url": "document-series.html",
-    "category": "additional",
-    "description": "GoalOS public route for Document Series; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Enterprise",
-    "url": "enterprise.html",
-    "category": "additional",
-    "description": "GoalOS public route for Enterprise; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Evaluation",
-    "url": "evaluation.html",
-    "category": "additional",
-    "description": "GoalOS public route for Evaluation; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Evaluation Program",
-    "url": "evaluation-program.html",
-    "category": "additional",
-    "description": "GoalOS public route for Evaluation Program; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Executive Brief",
-    "url": "executive-brief.html",
-    "category": "additional",
-    "description": "GoalOS public route for Executive Brief; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Falsification Box",
-    "url": "falsification-box.html",
-    "category": "additional",
-    "description": "GoalOS public route for Falsification Box; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Faq",
-    "url": "faq.html",
-    "category": "additional",
-    "description": "GoalOS public route for Faq; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "For New Users",
-    "url": "for-new-users.html",
-    "category": "additional",
-    "description": "GoalOS public route for For New Users; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Frontier Release Case Study",
-    "url": "frontier-release-case-study.html",
-    "category": "additional",
-    "description": "GoalOS public route for Frontier Release Case Study; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Frontier Release Doctrine",
-    "url": "frontier-release-doctrine.html",
-    "category": "additional",
-    "description": "GoalOS public route for Frontier Release Doctrine; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Glossary",
-    "url": "glossary.html",
-    "category": "additional",
-    "description": "GoalOS public route for Glossary; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Governance",
-    "url": "governance.html",
-    "category": "additional",
-    "description": "GoalOS public route for Governance; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Help Center",
-    "url": "help-center.html",
-    "category": "additional",
-    "description": "GoalOS public route for Help Center; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Historical Command Center",
-    "url": "historical-command-center.html",
-    "category": "additional",
-    "description": "GoalOS public route for Historical Command Center; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Holy Grail Candidate",
-    "url": "holy-grail-candidate.html",
-    "category": "additional",
-    "description": "GoalOS public route for Holy Grail Candidate; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Independent Validation",
-    "url": "independent-validation.html",
-    "category": "additional",
-    "description": "GoalOS public route for Independent Validation; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Jobs",
-    "url": "jobs.html",
-    "category": "additional",
-    "description": "GoalOS public route for Jobs; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Launch",
-    "url": "launch.html",
-    "category": "additional",
-    "description": "GoalOS public route for Launch; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Launch Narrative",
-    "url": "launch-narrative.html",
-    "category": "additional",
-    "description": "GoalOS public route for Launch Narrative; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Meta Agentic Alpha Agi",
-    "url": "meta-agentic-alpha-agi.html",
-    "category": "additional",
-    "description": "GoalOS public route for Meta Agentic Alpha Agi; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Metrics",
-    "url": "metrics.html",
-    "category": "additional",
-    "description": "GoalOS public route for Metrics; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Node",
-    "url": "node.html",
-    "category": "additional",
-    "description": "GoalOS public route for Node; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Operator Checklist",
-    "url": "operator-checklist.html",
-    "category": "additional",
-    "description": "GoalOS public route for Operator Checklist; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Operators",
-    "url": "operators.html",
-    "category": "additional",
-    "description": "GoalOS public route for Operators; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Paper To Product",
-    "url": "paper-to-product.html",
-    "category": "additional",
-    "description": "GoalOS public route for Paper To Product; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Pilot Program",
-    "url": "pilot-program.html",
-    "category": "additional",
-    "description": "GoalOS public route for Pilot Program; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Product",
-    "url": "product.html",
-    "category": "additional",
-    "description": "GoalOS public route for Product; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Public Metrics Ledger",
-    "url": "public-metrics-ledger.html",
-    "category": "additional",
-    "description": "GoalOS public route for Public Metrics Ledger; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Quick Tour",
-    "url": "quick-tour.html",
-    "category": "additional",
-    "description": "GoalOS public route for Quick Tour; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Release Gates",
-    "url": "release-gates.html",
-    "category": "additional",
-    "description": "GoalOS public route for Release Gates; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Repository Map",
-    "url": "repository-map.html",
-    "category": "additional",
-    "description": "GoalOS public route for Repository Map; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Research Spine",
-    "url": "research-spine.html",
-    "category": "additional",
-    "description": "GoalOS public route for Research Spine; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Responsible Use",
-    "url": "responsible-use.html",
-    "category": "additional",
-    "description": "GoalOS public route for Responsible Use; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Roadmap",
-    "url": "roadmap.html",
-    "category": "additional",
-    "description": "GoalOS public route for Roadmap; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Run Locally",
-    "url": "run-locally.html",
-    "category": "additional",
-    "description": "GoalOS public route for Run Locally; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Schema Registry",
-    "url": "schema-registry.html",
-    "category": "additional",
-    "description": "GoalOS public route for Schema Registry; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Search",
-    "url": "search.html",
-    "category": "additional",
-    "description": "GoalOS public route for Search; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Security",
-    "url": "security.html",
-    "category": "additional",
-    "description": "GoalOS public route for Security; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Site Health",
-    "url": "site-health.html",
-    "category": "additional",
-    "description": "GoalOS public route for Site Health; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Site Map",
-    "url": "site-map.html",
-    "category": "additional",
-    "description": "GoalOS public route for Site Map; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Source Lineage",
-    "url": "source-lineage.html",
-    "category": "additional",
-    "description": "GoalOS public route for Source Lineage; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Sovereign Experience Stream",
-    "url": "sovereign-experience-stream.html",
-    "category": "additional",
-    "description": "GoalOS public route for Sovereign Experience Stream; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Standards",
-    "url": "standards.html",
-    "category": "additional",
-    "description": "GoalOS public route for Standards; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Start",
-    "url": "start.html",
-    "category": "additional",
-    "description": "GoalOS public route for Start; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Terms",
-    "url": "terms.html",
-    "category": "additional",
-    "description": "GoalOS public route for Terms; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Troubleshooting",
-    "url": "troubleshooting.html",
-    "category": "additional",
-    "description": "GoalOS public route for Troubleshooting; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Try Goalos",
-    "url": "try-goalos.html",
-    "category": "additional",
-    "description": "GoalOS public route for Try Goalos; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Website Autopilot",
-    "url": "website-autopilot.html",
-    "category": "additional",
-    "description": "GoalOS public route for Website Autopilot; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "What Goalos Does",
-    "url": "what-goalos-does.html",
-    "category": "additional",
-    "description": "GoalOS public route for What Goalos Does; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Institutional Deployment Wedge",
-    "url": "institutional-deployment-wedge.html",
-    "category": "adoption",
-    "description": "Start with one workflow and earn the right to scale."
-  },
-  {
-    "title": "Value Realization Control Room",
-    "url": "value-realization-control-room.html",
-    "category": "adoption",
-    "description": "Show verified work becoming allocable capacity."
-  },
-  {
-    "title": "Evolution Ledger Control Room",
-    "url": "evolution-ledger-control-room.html",
-    "category": "advanced demo",
-    "description": "Show that the ledger remembers proof, not secrets."
-  },
-  {
-    "title": "Open-Ended Work Engine",
-    "url": "open-ended-work-engine.html",
-    "category": "advanced demo",
-    "description": "Generate tasks and gate descendants."
-  },
-  {
-    "title": "Proof-Backed Upgrade Rights Room",
-    "url": "proof-backed-upgrade-rights-room.html",
-    "category": "advanced demo",
-    "description": "Show how artifacts earn limited, governed upgrade rights."
-  },
-  {
-    "title": "Proof-Carrying Artifact Foundry",
-    "url": "proof-carrying-artifact-foundry.html",
-    "category": "advanced demo",
-    "description": "Turn raw output into scoped, rollbackable, proof-carrying artifacts."
-  },
-  {
-    "title": "Real-Task Benchmark Bridge",
-    "url": "real-task-benchmark-bridge.html",
-    "category": "benchmark",
-    "description": "Bridge demos toward real-task benchmark evidence."
-  },
-  {
-    "title": "Capability Compounding Lab",
-    "url": "capability-compounding-lab.html",
-    "category": "core demo",
-    "description": "Show how accepted proof becomes reusable capability."
-  },
-  {
-    "title": "Evidence Docket Theatre",
-    "url": "evidence-docket-theatre.html",
-    "category": "core demo",
-    "description": "Convert a claim into a review-ready Evidence Docket."
-  },
-  {
-    "title": "Falsification Gauntlet",
-    "url": "falsification-gauntlet.html",
-    "category": "core demo",
-    "description": "Stress claims against baselines, replay, cost/risk, and claim boundaries."
-  },
-  {
-    "title": "Multi-Agent Institution",
-    "url": "multi-agent-institution.html",
-    "category": "core demo",
-    "description": "Compare raw swarms with proof-governed institutions."
-  },
-  {
-    "title": "Proof Gradient Lab",
-    "url": "proof-gradient-lab.html",
-    "category": "core demo",
-    "description": "Show that scores are advisory and gates are mandatory."
-  },
-  {
-    "title": "Proof-Settlement Chronicle Lab",
-    "url": "proof-settlement-chronicle-lab.html",
-    "category": "core demo",
-    "description": "Demonstrate no ProofBundle, no settlement, no replay, no settlement."
-  },
-  {
-    "title": "Proof-to-Action Command Room",
-    "url": "proof-to-action-command-room.html",
-    "category": "core demo",
-    "description": "Turn evidence into a Governed Decision State and Action Graph."
-  },
-  {
-    "title": "Sovereign Experience Stream Lab",
-    "url": "sovereign-experience-stream-lab.html",
-    "category": "core demo",
-    "description": "Turn accepted proof into governed experience streams."
-  },
-  {
-    "title": "Agent Constellation Demo",
-    "url": "agent-constellation-demo.html",
-    "category": "demo",
-    "description": "GoalOS public route for Agent Constellation Demo; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Demo Gallery",
-    "url": "demo-gallery.html",
-    "category": "demo",
-    "description": "GoalOS public route for Demo Gallery; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Demo Launcher",
-    "url": "demo-launcher.html",
-    "category": "demo",
-    "description": "GoalOS public route for Demo Launcher; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Demo Safety",
-    "url": "demo-safety.html",
-    "category": "demo",
-    "description": "GoalOS public route for Demo Safety; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Frontier Release Room",
-    "url": "frontier-release-room.html",
-    "category": "demo",
-    "description": "GoalOS public route for Frontier Release Room; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Local Autopilot Demo",
-    "url": "local-autopilot-demo.html",
-    "category": "demo",
-    "description": "GoalOS public route for Local Autopilot Demo; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Commercial Evidence",
-    "url": "commercial-evidence.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Commercial Evidence; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Docket Builder",
-    "url": "docket-builder.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Docket Builder; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Evidence",
-    "url": "evidence.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Evidence; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Evidence Room",
-    "url": "evidence-room.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Evidence Room; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Evidence To Scale",
-    "url": "evidence-to-scale.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Evidence To Scale; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Pilot Proof",
-    "url": "pilot-proof.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Pilot Proof; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Card Studio",
-    "url": "proof-card-studio.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Card Studio; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Economy",
-    "url": "proof-economy.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Economy; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Experience Atlas",
-    "url": "proof-experience-atlas.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Experience Atlas; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Flight Demo",
-    "url": "proof-flight-demo.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Flight Demo; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Metrics Dashboard",
-    "url": "proof-metrics-dashboard.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Metrics Dashboard; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Mission Slots",
-    "url": "proof-mission-slots.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Mission Slots; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Of Evolution",
-    "url": "proof-of-evolution.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Of Evolution; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Run 001",
-    "url": "proof-run-001.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Run 001; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Run 001 Docket",
-    "url": "proof-run-001-docket.html",
-    "category": "evidence",
-    "description": "Repository-readiness Evidence Docket generated from current source, gates, reports, and routes."
-  },
-  {
-    "title": "Proof Run 001 Live",
-    "url": "proof-run-001-live.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Run 001 Live; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Velocity",
-    "url": "proof-velocity.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Proof Velocity; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Public Proof Ledger",
-    "url": "proof-ledger.html",
-    "category": "evidence",
-    "description": "Unified evidence registry for dockets, reports, routes, and reviewer paths."
-  },
-  {
-    "title": "Public Proof Ledger",
-    "url": "public-proof-ledger.html",
-    "category": "evidence",
-    "description": "Legacy alias for the unified proof ledger."
-  },
-  {
-    "title": "Strategic Evidence Scorecard",
-    "url": "strategic-evidence-scorecard.html",
-    "category": "evidence",
-    "description": "GoalOS public route for Strategic Evidence Scorecard; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Agialpha Control Rail",
-    "url": "agialpha-control-rail.html",
-    "category": "mission",
-    "description": "GoalOS public route for Agialpha Control Rail; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Mission Os",
-    "url": "mission-os.html",
-    "category": "mission",
-    "description": "GoalOS public route for Mission Os; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Mission Os Canon",
-    "url": "mission-os-canon.html",
-    "category": "mission",
-    "description": "GoalOS public route for Mission Os Canon; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Proof Mission Control",
-    "url": "proof-mission-control.html",
-    "category": "mission",
-    "description": "Readiness board for proof missions and Proof Run 001 progress."
-  },
-  {
-    "title": "Proof Mission Forge",
-    "url": "proof-mission-forge.html",
-    "category": "mission",
-    "description": "Turn a plain-language objective into a public-safe proof mission package."
-  },
-  {
-    "title": "Proof Run 001 Execution Room",
-    "url": "proof-run-001-execution-room.html",
-    "category": "mission",
-    "description": "Browser-local rehearsal for assembling the first public proof package."
-  },
-  {
-    "title": "Website Operating System",
-    "url": "website-operating-system.html",
-    "category": "navigation",
-    "description": "Complete operating map for the public proof site."
-  },
-  {
-    "title": "Demo Ecosystem Registry",
-    "url": "demo-ecosystem-registry.html",
-    "category": "registry",
-    "description": "Routeable registry of demos, inputs, artifacts, gates, and next states."
-  },
-  {
-    "title": "External Reviewer Replay Room",
-    "url": "external-reviewer-replay-room.html",
-    "category": "review",
-    "description": "Independent reviewer path for replay, dissent, revision, and verdict."
-  },
-  {
-    "title": "For Reviewers",
-    "url": "for-reviewers.html",
-    "category": "review",
-    "description": "GoalOS public route for For Reviewers; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Reviewer Path",
-    "url": "reviewer-path.html",
-    "category": "review",
-    "description": "GoalOS public route for Reviewer Path; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Validator Council Arena",
-    "url": "validator-council-arena.html",
-    "category": "review",
-    "description": "Commit-reveal validation, challenge, dissent, and council verdict."
-  },
-  {
-    "title": "Validator Room",
-    "url": "validator-room.html",
-    "category": "review",
-    "description": "GoalOS public route for Validator Room; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Validator Seats",
-    "url": "validator-seats.html",
-    "category": "review",
-    "description": "GoalOS public route for Validator Seats; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "GoalOS Home",
-    "url": "index.html",
-    "category": "start",
-    "description": "Institutional front door for GoalOS AGIALPHA Ascension."
-  },
-  {
-    "title": "Pathfinder",
-    "url": "pathfinder.html",
-    "category": "start",
-    "description": "Role-based route selector for users, reviewers, builders, and institutions."
-  },
-  {
-    "title": "Start Here",
-    "url": "start-here.html",
-    "category": "start",
-    "description": "Plain-language first step for new visitors."
-  },
-  {
-    "title": "$AGIALPHA Token Boundary",
-    "url": "token-boundary.html",
-    "category": "trust",
-    "description": "Public contract identification only; not available from GoalOS."
-  },
-  {
-    "title": "Agialpha Token Boundary",
-    "url": "agialpha-token-boundary.html",
-    "category": "trust",
-    "description": "GoalOS public route for Agialpha Token Boundary; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Claim Boundary",
-    "url": "claim-boundary.html",
-    "category": "trust",
-    "description": "GoalOS public route for Claim Boundary; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Data Boundary",
-    "url": "data-boundary.html",
-    "category": "trust",
-    "description": "GoalOS public route for Data Boundary; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Data Room",
-    "url": "data-room.html",
-    "category": "trust",
-    "description": "GoalOS public route for Data Room; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Investment Token Boundary",
-    "url": "investment-token-boundary.html",
-    "category": "trust",
-    "description": "GoalOS public route for Investment Token Boundary; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Legal",
-    "url": "legal.html",
-    "category": "trust",
-    "description": "GoalOS public route for Legal; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "No Data No Funds",
-    "url": "no-data-no-funds.html",
-    "category": "trust",
-    "description": "GoalOS public route for No Data No Funds; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Privacy",
-    "url": "privacy.html",
-    "category": "trust",
-    "description": "GoalOS public route for Privacy; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Security Boundary",
-    "url": "security-boundary.html",
-    "category": "trust",
-    "description": "GoalOS public route for Security Boundary; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Token",
-    "url": "token.html",
-    "category": "trust",
-    "description": "GoalOS public route for Token; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Trust",
-    "url": "trust.html",
-    "category": "trust",
-    "description": "GoalOS public route for Trust; preserved as part of the source-of-truth website map."
-  },
-  {
-    "title": "Trust Boundary",
-    "url": "trust-boundary.html",
-    "category": "trust",
-    "description": "No-data, no-funds, no-wallet, no-transaction, human-review boundary."
-  },
-  {
-    "title": "Trust Center",
-    "url": "trust-center.html",
-    "category": "trust",
-    "description": "GoalOS public route for Trust Center; preserved as part of the source-of-truth website map."
-  }
-]
+{
+  "version": "v0.32.0-final-hardening-v7",
+  "generated_at": "2026-06-30T18:05:16Z",
+  "items": [
+    {
+      "path": "adoption.html",
+      "title": "Adoption Playbook · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Adoption Playbook · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "agi-alpha-thesis.html",
+      "title": "AGI ALPHA Thesis",
+      "category": "additional",
+      "description": "Additional route: AGI ALPHA Thesis. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "jobs.html",
+      "title": "AGI Jobs Ledger · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: AGI Jobs Ledger · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs v0 (v2)",
+      "category": "additional",
+      "description": "Additional route: AGI Jobs v0 (v2). Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "architecture.html",
+      "title": "Architecture · GoalOS",
+      "category": "additional",
+      "description": "Additional route: Architecture · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "coordination-console.html",
+      "title": "Coordination Console",
+      "category": "additional",
+      "description": "Additional route: Coordination Console. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "demo-gallery.html",
+      "title": "Demo Gallery — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Demo Gallery — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "demo-launcher.html",
+      "title": "Demo Launcher — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Demo Launcher — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "demo-safety.html",
+      "title": "Demo Safety Boundary — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Demo Safety Boundary — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "enterprise.html",
+      "title": "Enterprise Readiness · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Enterprise Readiness · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "category": "additional",
+      "description": "Additional route: Evaluation Program. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "evaluation.html",
+      "title": "Evaluation · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Evaluation · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "executive-brief.html",
+      "title": "Executive Brief · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Executive Brief · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "faq.html",
+      "title": "FAQ · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: FAQ · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "for-new-users.html",
+      "title": "For New Users — GoalOS",
+      "category": "additional",
+      "description": "Additional route: For New Users — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "category": "additional",
+      "description": "Additional route: Frontier Release Case Study. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "category": "additional",
+      "description": "Additional route: Frontier Release Doctrine. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "category": "additional",
+      "description": "Additional route: Frontier Release Room. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "glossary.html",
+      "title": "Glossary — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Glossary — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "document-series.html",
+      "title": "GoalOS Document Series",
+      "category": "additional",
+      "description": "Additional route: GoalOS Document Series. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "historical-command-center.html",
+      "title": "GoalOS Historical Command Center",
+      "category": "additional",
+      "description": "Additional route: GoalOS Historical Command Center. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "launch-narrative.html",
+      "title": "GoalOS Launch Narrative",
+      "category": "additional",
+      "description": "Additional route: GoalOS Launch Narrative. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "console.html",
+      "title": "GoalOS Proof Console",
+      "category": "additional",
+      "description": "Additional route: GoalOS Proof Console. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-gradient-lab.html",
+      "title": "GoalOS Proof Gradient Lab — No proof, no evolution",
+      "category": "additional",
+      "description": "Core demo: proof gates decide what may improve; score is advisory, gates are mandatory.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-settlement-chronicle-lab.html",
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "category": "additional",
+      "description": "Additional route: GoalOS Proof-Settlement Chronicle Lab. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Proof roots, attestations, challenge window",
+      "generated_outputs": "Ledger entry; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "ProofRoot, EvalAttestation, challenge, quorum",
+      "next_state": "LEDGER_REVIEW_READY",
+      "workflow_role": "ledger module",
+      "system_page": false
+    },
+    {
+      "path": "proof-to-action-command-room.html",
+      "title": "GoalOS Proof-to-Action Command Room — Governed Decision State",
+      "category": "additional",
+      "description": "Core demo: transform objective and evidence into a governed decision state, action graph, Chronicle entry, and capability package.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "sovereign-experience-stream-lab.html",
+      "title": "GoalOS Sovereign Experience Stream Lab — Proof Becomes Governed Experience",
+      "category": "additional",
+      "description": "Additional route: GoalOS Sovereign Experience Stream Lab — Proof Becomes Governed Experience. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "governance.html",
+      "title": "Governance · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Governance · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "help-center.html",
+      "title": "Help Center — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Help Center — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "category": "additional",
+      "description": "Additional route: Holy Grail Candidate. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "independent-validation.html",
+      "title": "Independent Validation · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Independent Validation · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "launch.html",
+      "title": "Launch Package · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Launch Package · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Local Autopilot Demo — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "metrics.html",
+      "title": "Operating Metrics · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Operating Metrics · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "operator-checklist.html",
+      "title": "Operator Checklist — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Operator Checklist — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "operators.html",
+      "title": "Operator Console Blueprint · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Operator Console Blueprint · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "paper-to-product.html",
+      "title": "Paper to Product",
+      "category": "additional",
+      "description": "Additional route: Paper to Product. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "pilot-program.html",
+      "title": "Pilot Program · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Pilot Program · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "pilot-proof.html",
+      "title": "Pilot Proof · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Pilot Proof · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "product.html",
+      "title": "Product · GoalOS",
+      "category": "additional",
+      "description": "Additional route: Product · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-card-studio.html",
+      "title": "Proof Card Studio — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Proof Card Studio — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-economy.html",
+      "title": "Proof Economy · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Proof Economy · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-flight-demo.html",
+      "title": "Proof Flight Demo — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Proof Flight Demo — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Proof Metrics Dashboard — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-velocity.html",
+      "title": "Proof Velocity · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Proof Velocity · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "release-gates.html",
+      "title": "Release Gates · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Release Gates · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "research-spine.html",
+      "title": "Research Spine",
+      "category": "additional",
+      "description": "Additional route: Research Spine. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "responsible-use.html",
+      "title": "Responsible Use — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Responsible Use — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "run-locally.html",
+      "title": "Run Locally — GoalOS",
+      "category": "additional",
+      "description": "Additional route: Run Locally — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "security.html",
+      "title": "Security · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Security · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "source-lineage.html",
+      "title": "Source Lineage · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Source Lineage · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream Lab · GoalOS",
+      "category": "additional",
+      "description": "Additional route: Sovereign Experience Stream Lab · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "standards.html",
+      "title": "Standards · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Standards · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "troubleshooting.html",
+      "title": "Troubleshooting · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Troubleshooting · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "quick-tour.html",
+      "title": "Try GoalOS — Browser-local Demo",
+      "category": "additional",
+      "description": "Additional route: Try GoalOS — Browser-local Demo. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "try-goalos.html",
+      "title": "Try GoalOS — Browser-local Demo",
+      "category": "additional",
+      "description": "Additional route: Try GoalOS — Browser-local Demo. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "website-autopilot.html",
+      "title": "Website Autopilot · GoalOS Ascension",
+      "category": "additional",
+      "description": "Additional route: Website Autopilot · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "what-goalos-does.html",
+      "title": "What GoalOS Does — GoalOS",
+      "category": "additional",
+      "description": "Additional route: What GoalOS Does — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "capability-stack.html",
+      "title": "Capability Stack · GoalOS Ascension",
+      "category": "advanced-demo",
+      "description": "Advanced Demo route: Capability Stack · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Artifact candidate, proof history, scope",
+      "generated_outputs": "Artifact JSON; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "Proof, eval, baseline, rollback, scope",
+      "next_state": "UPGRADE_REVIEW_READY",
+      "workflow_role": "capability-package generator",
+      "system_page": false
+    },
+    {
+      "path": "action-reason-trace-contract.html",
+      "title": "GoalOS Action-Reason Trace Contract — No Action Without Reason",
+      "category": "advanced-demo",
+      "description": "Action-governance demo: every high-impact action must carry reason, scope, observation, validation, rollback, and evidence.",
+      "expected_inputs": "Action intent, scope, observation, risk",
+      "generated_outputs": "Trace contract; action graph; rollback playbook",
+      "proof_gates_or_checks": "Scope, reason, observation, validator, rollback",
+      "next_state": "ACTION_REVIEW_READY",
+      "workflow_role": "action-governance module",
+      "system_page": false
+    },
+    {
+      "path": "capability-compounding-lab.html",
+      "title": "GoalOS Capability Compounding Lab — Verified Work Becomes Reusable Capability",
+      "category": "advanced-demo",
+      "description": "Core demo: accepted proof becomes reusable capability that can improve harder future missions.",
+      "expected_inputs": "Artifact candidate, proof history, scope",
+      "generated_outputs": "Artifact JSON; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "Proof, eval, baseline, rollback, scope",
+      "next_state": "UPGRADE_REVIEW_READY",
+      "workflow_role": "capability-package generator",
+      "system_page": false
+    },
+    {
+      "path": "capability-parity.html",
+      "title": "GoalOS Capability Parity",
+      "category": "advanced-demo",
+      "description": "Advanced Demo route: GoalOS Capability Parity. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Artifact candidate, proof history, scope",
+      "generated_outputs": "Artifact JSON; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "Proof, eval, baseline, rollback, scope",
+      "next_state": "UPGRADE_REVIEW_READY",
+      "workflow_role": "capability-package generator",
+      "system_page": false
+    },
+    {
+      "path": "open-ended-work-engine.html",
+      "title": "GoalOS Open-Ended Work Engine Lab — Generate Tasks. Gate Descendants.",
+      "category": "advanced-demo",
+      "description": "Advanced Demo route: GoalOS Open-Ended Work Engine Lab — Generate Tasks. Gate Descendants.. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-backed-upgrade-rights-room.html",
+      "title": "GoalOS Proof-Backed Upgrade Rights Room — Earn the Right to Scale",
+      "category": "advanced-demo",
+      "description": "Advanced Demo route: GoalOS Proof-Backed Upgrade Rights Room — Earn the Right to Scale. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Artifact candidate, proof history, scope",
+      "generated_outputs": "Artifact JSON; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "Proof, eval, baseline, rollback, scope",
+      "next_state": "UPGRADE_REVIEW_READY",
+      "workflow_role": "capability-package generator",
+      "system_page": false
+    },
+    {
+      "path": "proof-carrying-artifact-foundry.html",
+      "title": "GoalOS Proof-Carrying Artifact Foundry — Make Reusable Intelligence Earn Authority",
+      "category": "advanced-demo",
+      "description": "Advanced demo: transform raw output into a scoped, rollbackable, proof-carrying artifact.",
+      "expected_inputs": "Artifact candidate, proof history, scope",
+      "generated_outputs": "Artifact JSON; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "Proof, eval, baseline, rollback, scope",
+      "next_state": "UPGRADE_REVIEW_READY",
+      "workflow_role": "capability-package generator",
+      "system_page": false
+    },
+    {
+      "path": "proof-of-evolution.html",
+      "title": "Proof-of-Evolution",
+      "category": "advanced-demo",
+      "description": "Advanced Demo route: Proof-of-Evolution. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "falsification-box.html",
+      "title": "Falsification Box — GoalOS",
+      "category": "benchmark",
+      "description": "Benchmark route: Falsification Box — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Claim text; baseline pressure; replay/privacy toggles",
+      "generated_outputs": "Stress result; baseline matrix; Evidence Docket",
+      "proof_gates_or_checks": "Specificity, replayability, baselines, overhead, privacy",
+      "next_state": "REVIEW_READY / REJECT_BASELINES_WIN",
+      "workflow_role": "scoring module",
+      "system_page": false
+    },
+    {
+      "path": "falsification-gauntlet.html",
+      "title": "GoalOS Falsification Gauntlet V1.2 — Claim-Sensitive Stress",
+      "category": "benchmark",
+      "description": "Benchmark demo: stress claims against baselines, replay, overhead, privacy, and human-review gates.",
+      "expected_inputs": "Claim text; baseline pressure; replay/privacy toggles",
+      "generated_outputs": "Stress result; baseline matrix; Evidence Docket",
+      "proof_gates_or_checks": "Specificity, replayability, baselines, overhead, privacy",
+      "next_state": "REVIEW_READY / REJECT_BASELINES_WIN",
+      "workflow_role": "scoring module",
+      "system_page": false
+    },
+    {
+      "path": "real-task-benchmark-bridge.html",
+      "title": "GoalOS Real-Task Benchmark Bridge — From Demos to Evidence",
+      "category": "benchmark",
+      "description": "Benchmark demo: bridge demos into real-task benchmark readiness with equal-budget baselines and replay.",
+      "expected_inputs": "Task family, claim, baseline ladder",
+      "generated_outputs": "Benchmark plan; baseline matrix; reviewer brief",
+      "proof_gates_or_checks": "Real task, equal-budget baselines, replay",
+      "next_state": "EMPIRICAL_BRIDGE_READY",
+      "workflow_role": "benchmark module",
+      "system_page": false
+    },
+    {
+      "path": "agent-constellation-demo.html",
+      "title": "Agent Constellation Demo — GoalOS",
+      "category": "core-demo",
+      "description": "Core Demo route: Agent Constellation Demo — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "agents.html",
+      "title": "Agent Foundry · GoalOS Ascension",
+      "category": "core-demo",
+      "description": "Core Demo route: Agent Foundry · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "agi-alpha-node-v0.html",
+      "title": "AGI Alpha Node v0",
+      "category": "core-demo",
+      "description": "Core Demo route: AGI Alpha Node v0. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "institutional-deployment-wedge.html",
+      "title": "GoalOS Institutional Deployment Wedge — Earn the Right to Scale",
+      "category": "core-demo",
+      "description": "Core Demo route: GoalOS Institutional Deployment Wedge — Earn the Right to Scale. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "multi-agent-institution.html",
+      "title": "GoalOS Multi-Agent Institution — Not a Swarm. An Institution.",
+      "category": "core-demo",
+      "description": "Core demo: large multi-agent systems coordinate to maximum effect when they become proof-governed institutions.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "meta-agentic-alpha-agi.html",
+      "title": "META-AGENTIC α-AGI",
+      "category": "core-demo",
+      "description": "Core Demo route: META-AGENTIC α-AGI. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "node.html",
+      "title": "Node Runtime · GoalOS Ascension",
+      "category": "core-demo",
+      "description": "Core Demo route: Node Runtime · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "commercial-evidence.html",
+      "title": "Commercial Evidence · GoalOS Ascension",
+      "category": "evidence",
+      "description": "Evidence route: Commercial Evidence · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "docket-builder.html",
+      "title": "Evidence Docket Builder — GoalOS",
+      "category": "evidence",
+      "description": "Evidence route: Evidence Docket Builder — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Repository source, reports, evidence, workflows, routes",
+      "generated_outputs": "Docket JSON; claims matrix; validator packet",
+      "proof_gates_or_checks": "Route integrity, downloads, claim scan, docs QA",
+      "next_state": "REVIEW_READY / HOLD_REMEDIATION",
+      "workflow_role": "receipt/audit module",
+      "system_page": false
+    },
+    {
+      "path": "evidence.html",
+      "title": "Evidence Layer · GoalOS Ascension",
+      "category": "evidence",
+      "description": "Evidence route: Evidence Layer · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "evidence-room.html",
+      "title": "Evidence Room · GoalOS Ascension",
+      "category": "evidence",
+      "description": "Evidence route: Evidence Room · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "evidence-to-scale.html",
+      "title": "Evidence to Scale · GoalOS Ascension",
+      "category": "evidence",
+      "description": "Evidence route: Evidence to Scale · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "evidence-docket-theatre.html",
+      "title": "GoalOS Evidence Docket Theatre — A proof page is not a marketing page",
+      "category": "evidence",
+      "description": "Core demo: convert a public-safe claim into a review-ready Evidence Docket.",
+      "expected_inputs": "Repository source, reports, evidence, workflows, routes",
+      "generated_outputs": "Docket JSON; claims matrix; validator packet",
+      "proof_gates_or_checks": "Route integrity, downloads, claim scan, docs QA",
+      "next_state": "REVIEW_READY / HOLD_REMEDIATION",
+      "workflow_role": "receipt/audit module",
+      "system_page": false
+    },
+    {
+      "path": "evolution-ledger-control-room.html",
+      "title": "GoalOS Evolution Ledger Control Room — Proof, Not Secrets",
+      "category": "evidence",
+      "description": "Advanced demo: public ledger remembers proof, attestations, challenge windows, and rollback receipts, not secrets.",
+      "expected_inputs": "Proof roots, attestations, challenge window",
+      "generated_outputs": "Ledger entry; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "ProofRoot, EvalAttestation, challenge, quorum",
+      "next_state": "LEDGER_REVIEW_READY",
+      "workflow_role": "ledger module",
+      "system_page": false
+    },
+    {
+      "path": "proof-run-001-execution-room.html",
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "category": "evidence",
+      "description": "Evidence route: GoalOS Proof Run 001 Execution Room. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Repository source, reports, evidence, workflows, routes",
+      "generated_outputs": "Docket JSON; claims matrix; validator packet",
+      "proof_gates_or_checks": "Route integrity, downloads, claim scan, docs QA",
+      "next_state": "REVIEW_READY / HOLD_REMEDIATION",
+      "workflow_role": "receipt/audit module",
+      "system_page": false
+    },
+    {
+      "path": "proof-ledger.html",
+      "title": "GoalOS Public Proof Ledger — Evidence Registry",
+      "category": "evidence",
+      "description": "Public proof ledger and evidence registry for dockets, reports, routes, and review assets.",
+      "expected_inputs": "Proof roots, attestations, challenge window",
+      "generated_outputs": "Ledger entry; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "ProofRoot, EvalAttestation, challenge, quorum",
+      "next_state": "LEDGER_REVIEW_READY",
+      "workflow_role": "ledger module",
+      "system_page": false
+    },
+    {
+      "path": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "category": "evidence",
+      "description": "Evidence route: Proof Run 001. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Repository source, reports, evidence, workflows, routes",
+      "generated_outputs": "Docket JSON; claims matrix; validator packet",
+      "proof_gates_or_checks": "Route integrity, downloads, claim scan, docs QA",
+      "next_state": "REVIEW_READY / HOLD_REMEDIATION",
+      "workflow_role": "receipt/audit module",
+      "system_page": false
+    },
+    {
+      "path": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket · GoalOS",
+      "category": "evidence",
+      "description": "Review-grade Evidence Docket for repository readiness: gates, downloads, replay path, validator packet, and decision state.",
+      "expected_inputs": "Repository source, reports, evidence, workflows, routes",
+      "generated_outputs": "Docket JSON; claims matrix; validator packet",
+      "proof_gates_or_checks": "Route integrity, downloads, claim scan, docs QA",
+      "next_state": "REVIEW_READY / HOLD_REMEDIATION",
+      "workflow_role": "receipt/audit module",
+      "system_page": false
+    },
+    {
+      "path": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live — GoalOS",
+      "category": "evidence",
+      "description": "Evidence route: Proof Run 001 Live — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Repository source, reports, evidence, workflows, routes",
+      "generated_outputs": "Docket JSON; claims matrix; validator packet",
+      "proof_gates_or_checks": "Route integrity, downloads, claim scan, docs QA",
+      "next_state": "REVIEW_READY / HOLD_REMEDIATION",
+      "workflow_role": "receipt/audit module",
+      "system_page": false
+    },
+    {
+      "path": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger · GoalOS Ascension",
+      "category": "evidence",
+      "description": "Evidence route: Public Metrics Ledger · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Proof roots, attestations, challenge window",
+      "generated_outputs": "Ledger entry; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "ProofRoot, EvalAttestation, challenge, quorum",
+      "next_state": "LEDGER_REVIEW_READY",
+      "workflow_role": "ledger module",
+      "system_page": false
+    },
+    {
+      "path": "public-proof-ledger.html",
+      "title": "Public Proof Ledger · GoalOS",
+      "category": "evidence",
+      "description": "Evidence route: Public Proof Ledger · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Proof roots, attestations, challenge window",
+      "generated_outputs": "Ledger entry; selection certificate; rollback receipt",
+      "proof_gates_or_checks": "ProofRoot, EvalAttestation, challenge, quorum",
+      "next_state": "LEDGER_REVIEW_READY",
+      "workflow_role": "ledger module",
+      "system_page": false
+    },
+    {
+      "path": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard · GoalOS Ascension",
+      "category": "evidence",
+      "description": "Evidence route: Strategic Evidence Scorecard · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "agialpha-control-rail.html",
+      "title": "$AGIALPHA Control Rail",
+      "category": "mission",
+      "description": "Mission route: $AGIALPHA Control Rail. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-mission-control.html",
+      "title": "GoalOS Proof Mission Control — From Objective to First Docket",
+      "category": "mission",
+      "description": "Public mission operating board showing readiness, blocked gates, evidence gaps, and review state.",
+      "expected_inputs": "Objective, decision target, risk class",
+      "generated_outputs": "Mission Contract; docket plan; validator packet",
+      "proof_gates_or_checks": "Scope, replay, evidence, validator review",
+      "next_state": "MISSION_REVIEW_READY",
+      "workflow_role": "orchestration layer",
+      "system_page": false
+    },
+    {
+      "path": "proof-mission-forge.html",
+      "title": "GoalOS Proof Mission Forge — Turn an objective into a proof mission",
+      "category": "mission",
+      "description": "Browser-local mission intake that turns an objective into a Mission Contract and Evidence Docket plan.",
+      "expected_inputs": "Objective, decision target, risk class",
+      "generated_outputs": "Mission Contract; docket plan; validator packet",
+      "proof_gates_or_checks": "Scope, replay, evidence, validator review",
+      "next_state": "MISSION_REVIEW_READY",
+      "workflow_role": "orchestration layer",
+      "system_page": false
+    },
+    {
+      "path": "value-realization-control-room.html",
+      "title": "GoalOS Value Realization Control Room — Verified Work Becomes Allocable Capacity",
+      "category": "mission",
+      "description": "Mission route: GoalOS Value Realization Control Room — Verified Work Becomes Allocable Capacity. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "mission-os-canon.html",
+      "title": "Mission OS Canon",
+      "category": "mission",
+      "description": "Mission route: Mission OS Canon. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Objective, decision target, risk class",
+      "generated_outputs": "Mission Contract; docket plan; validator packet",
+      "proof_gates_or_checks": "Scope, replay, evidence, validator review",
+      "next_state": "MISSION_REVIEW_READY",
+      "workflow_role": "orchestration layer",
+      "system_page": false
+    },
+    {
+      "path": "mission-os.html",
+      "title": "Mission OS · GoalOS Ascension",
+      "category": "mission",
+      "description": "Mission route: Mission OS · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Objective, decision target, risk class",
+      "generated_outputs": "Mission Contract; docket plan; validator packet",
+      "proof_gates_or_checks": "Scope, replay, evidence, validator review",
+      "next_state": "MISSION_REVIEW_READY",
+      "workflow_role": "orchestration layer",
+      "system_page": false
+    },
+    {
+      "path": "proof-mission-slots.html",
+      "title": "Proof Mission Slots — GoalOS",
+      "category": "mission",
+      "description": "Mission route: Proof Mission Slots — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Objective, decision target, risk class",
+      "generated_outputs": "Mission Contract; docket plan; validator packet",
+      "proof_gates_or_checks": "Scope, replay, evidence, validator review",
+      "next_state": "MISSION_REVIEW_READY",
+      "workflow_role": "orchestration layer",
+      "system_page": false
+    },
+    {
+      "path": "demo-ecosystem-registry.html",
+      "title": "Demo Ecosystem Registry · GoalOS",
+      "category": "navigation",
+      "description": "Routeable registry of demo engines with expected inputs, artifacts, proof gates, states, and workflow roles.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "docs.html",
+      "title": "GoalOS docs. · GoalOS",
+      "category": "navigation",
+      "description": "Navigation route: GoalOS docs. · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "proof-experience-atlas.html",
+      "title": "GoalOS Proof Experience Atlas — From output to proof",
+      "category": "navigation",
+      "description": "Navigation route: GoalOS Proof Experience Atlas — From output to proof. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "repository-map.html",
+      "title": "Repository Map · GoalOS Ascension",
+      "category": "navigation",
+      "description": "Navigation route: Repository Map · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "roadmap.html",
+      "title": "Roadmap · GoalOS Ascension",
+      "category": "navigation",
+      "description": "Navigation route: Roadmap · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "schema-registry.html",
+      "title": "Schema Registry · GoalOS Ascension",
+      "category": "navigation",
+      "description": "Navigation route: Schema Registry · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "website-operating-system.html",
+      "title": "Website Operating System · GoalOS",
+      "category": "navigation",
+      "description": "Canonical operating map for routes, demos, evidence rooms, reviewer paths, mission tools, and trust pages.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "for-reviewers.html",
+      "title": "For Reviewers — GoalOS",
+      "category": "review",
+      "description": "Review route: For Reviewers — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Docket, replay path, validator notes, dissent",
+      "generated_outputs": "Reviewer report; attestation; dissent memo",
+      "proof_gates_or_checks": "Commit-reveal, replay, quorum, dissent",
+      "next_state": "REVIEW_READY / DISSENT",
+      "workflow_role": "validator module",
+      "system_page": false
+    },
+    {
+      "path": "reviewer-path.html",
+      "title": "For Reviewers — GoalOS",
+      "category": "review",
+      "description": "Review route: For Reviewers — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Docket, replay path, validator notes, dissent",
+      "generated_outputs": "Reviewer report; attestation; dissent memo",
+      "proof_gates_or_checks": "Commit-reveal, replay, quorum, dissent",
+      "next_state": "REVIEW_READY / DISSENT",
+      "workflow_role": "validator module",
+      "system_page": false
+    },
+    {
+      "path": "external-reviewer-replay-room.html",
+      "title": "GoalOS External Reviewer Replay Room — Independent Review Path",
+      "category": "review",
+      "description": "Independent reviewer path: inspect the docket, replay, challenge, accept, reject, revise, or dissent.",
+      "expected_inputs": "Docket, replay path, validator notes, dissent",
+      "generated_outputs": "Reviewer report; attestation; dissent memo",
+      "proof_gates_or_checks": "Commit-reveal, replay, quorum, dissent",
+      "next_state": "REVIEW_READY / DISSENT",
+      "workflow_role": "validator module",
+      "system_page": false
+    },
+    {
+      "path": "validator-council-arena.html",
+      "title": "GoalOS Validator Council Arena — Commit, Reveal, Challenge",
+      "category": "review",
+      "description": "Review demo: commit-reveal, challenge, dissent, quorum, diversity, and validator accountability.",
+      "expected_inputs": "Docket, replay path, validator notes, dissent",
+      "generated_outputs": "Reviewer report; attestation; dissent memo",
+      "proof_gates_or_checks": "Commit-reveal, replay, quorum, dissent",
+      "next_state": "REVIEW_READY / DISSENT",
+      "workflow_role": "validator module",
+      "system_page": false
+    },
+    {
+      "path": "validator-room.html",
+      "title": "Validator Room — GoalOS",
+      "category": "review",
+      "description": "Review route: Validator Room — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Docket, replay path, validator notes, dissent",
+      "generated_outputs": "Reviewer report; attestation; dissent memo",
+      "proof_gates_or_checks": "Commit-reveal, replay, quorum, dissent",
+      "next_state": "REVIEW_READY / DISSENT",
+      "workflow_role": "validator module",
+      "system_page": false
+    },
+    {
+      "path": "validator-seats.html",
+      "title": "Validator Seats",
+      "category": "review",
+      "description": "Review route: Validator Seats. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Docket, replay path, validator notes, dissent",
+      "generated_outputs": "Reviewer report; attestation; dissent memo",
+      "proof_gates_or_checks": "Commit-reveal, replay, quorum, dissent",
+      "next_state": "REVIEW_READY / DISSENT",
+      "workflow_role": "validator module",
+      "system_page": false
+    },
+    {
+      "path": "index.html",
+      "title": "GoalOS AGIALPHA Ascension · GoalOS",
+      "category": "start",
+      "description": "Primary institutional front door: start here, choose a path, open the proof journey, and confirm the public-alpha boundary.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "pathfinder.html",
+      "title": "GoalOS Pathfinder · GoalOS",
+      "category": "start",
+      "description": "Role-based guide for new users, reviewers, mission proposers, developers, institutions, and boundary reviewers.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "start-here.html",
+      "title": "Start Here · GoalOS",
+      "category": "start",
+      "description": "Start route: Start Here · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "start.html",
+      "title": "Start Here · GoalOS Ascension",
+      "category": "start",
+      "description": "Start route: Start Here · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": false
+    },
+    {
+      "path": "token-boundary.html",
+      "title": "$AGIALPHA boundary. · GoalOS",
+      "category": "trust-boundary",
+      "description": "Public contract identification boundary for $AGIALPHA: not available from us, no custody, no wallet support, no advice.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "agialpha-token-boundary.html",
+      "title": "$AGIALPHA Public-Market Boundary",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: $AGIALPHA Public-Market Boundary. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "token.html",
+      "title": "$AGIALPHA Token Boundary",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: $AGIALPHA Token Boundary. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "claim-boundary.html",
+      "title": "Claim Boundary · GoalOS Ascension",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Claim Boundary · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "data-boundary.html",
+      "title": "Data Boundary · GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Data Boundary · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "data-room.html",
+      "title": "Data Room · GoalOS Ascension",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Data Room · GoalOS Ascension. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "legal.html",
+      "title": "Legal Shield — GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Legal Shield — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "no-data-no-funds.html",
+      "title": "No Data / No Funds · GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: No Data / No Funds · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "privacy.html",
+      "title": "Privacy · GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Privacy · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "trust-boundary.html",
+      "title": "Proof-native. Not data-hungry. Not wallet-first. · GoalOS",
+      "category": "trust-boundary",
+      "description": "Public-alpha trust boundary: no user data, no funds, no wallet, no transaction, no production authority, human review required.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "security-boundary.html",
+      "title": "Security Boundary — GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Security Boundary — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "terms.html",
+      "title": "Terms of Use — GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Terms of Use — GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "investment-token-boundary.html",
+      "title": "Token & Investment Boundary",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Token & Investment Boundary. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "trust.html",
+      "title": "Trust Center",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Trust Center. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "trust-center.html",
+      "title": "Trust Center · GoalOS",
+      "category": "trust-boundary",
+      "description": "Trust Boundary route: Trust Center · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe visitor context",
+      "generated_outputs": "Boundary guidance",
+      "proof_gates_or_checks": "No data, no funds, no wallet, no advice",
+      "next_state": "BOUNDARY_VISIBLE",
+      "workflow_role": "trust module",
+      "system_page": false
+    },
+    {
+      "path": "404.html",
+      "title": "Page not found. · GoalOS",
+      "category": "system",
+      "description": "System route: Page not found. · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "path": "search.html",
+      "title": "Search GoalOS. · GoalOS",
+      "category": "system",
+      "description": "System route: Search GoalOS. · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "path": "site-health.html",
+      "title": "Site Health · GoalOS",
+      "category": "system",
+      "description": "Release-health surface for route integrity, public downloads, docs, claim boundaries, and source-of-truth QA.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "path": "site-map.html",
+      "title": "Site Map · GoalOS",
+      "category": "system",
+      "description": "Complete public site map that keeps every route discoverable without exposing archival scaffolding as the main journey.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    }
+  ]
+}

@@ -1,0 +1,3389 @@
+{
+  "meta": {
+    "generatedAt": "2026-06-29T22:24:07Z",
+    "generator": "scripts/install_website_experience_os_v2.py",
+    "routeCount": 130,
+    "liveRouteCount": 129,
+    "coreDemoCount": 21,
+    "boundary": [
+      "No user data",
+      "No user funds",
+      "No wallet",
+      "No transaction",
+      "No network call",
+      "No production authority",
+      "Human review required"
+    ],
+    "canonicalJourney": [
+      "Start Here",
+      "Proof Experience Atlas",
+      "Demo Ecosystem Registry",
+      "Public Proof Ledger",
+      "Proof Mission Forge",
+      "Proof Mission Control",
+      "Proof Run 001 Docket",
+      "External Reviewer Replay Room"
+    ]
+  },
+  "routes": [
+    {
+      "path": "index.html",
+      "title": "Home",
+      "description": "Turn AI work into verified capability.",
+      "category": "start",
+      "audience": "new users",
+      "role": "homepage",
+      "status": "live",
+      "inputs": [
+        "User intent",
+        "site path"
+      ],
+      "outputs": [
+        "Route to Start / Atlas / Registry / Docket"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "USER_PATH_SELECTED",
+      "id": "GOALOS-ROUTE-001"
+    },
+    {
+      "path": "demo-ecosystem-registry.html",
+      "title": "Demo Ecosystem Registry",
+      "description": "The canonical registry of demos, routes, inputs, outputs, gates, and next states.",
+      "category": "start",
+      "audience": "advanced users",
+      "role": "registry",
+      "status": "live",
+      "inputs": [
+        "Search query",
+        "workflow category"
+      ],
+      "outputs": [
+        "Route matrix",
+        "canonical URL list"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "ROUTE_DISCOVERED",
+      "id": "GOALOS-ROUTE-002"
+    },
+    {
+      "path": "pathfinder.html",
+      "title": "GoalOS Pathfinder",
+      "description": "Choose a role and get the right route through the institution.",
+      "category": "start",
+      "audience": "all users",
+      "role": "navigation",
+      "status": "live",
+      "inputs": [
+        "User role",
+        "goal",
+        "preferred route"
+      ],
+      "outputs": [
+        "Recommended route",
+        "page links"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "ROUTE_SELECTED",
+      "id": "GOALOS-ROUTE-003"
+    },
+    {
+      "path": "site-map.html",
+      "title": "Site Map",
+      "description": "Every public page in one place.",
+      "category": "start",
+      "audience": "all users",
+      "role": "navigation",
+      "status": "live",
+      "inputs": [
+        "User role",
+        "goal",
+        "preferred route"
+      ],
+      "outputs": [
+        "Recommended route",
+        "page links"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "ROUTE_SELECTED",
+      "id": "GOALOS-ROUTE-004"
+    },
+    {
+      "path": "start-here.html",
+      "title": "Start Here",
+      "description": "The simplest path for first-time visitors.",
+      "category": "start",
+      "audience": "new users",
+      "role": "onboarding",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-005"
+    },
+    {
+      "path": "website-operating-system.html",
+      "title": "Website Operating System",
+      "description": "One map for the full GoalOS website.",
+      "category": "start",
+      "audience": "all users",
+      "role": "navigation",
+      "status": "live",
+      "inputs": [
+        "User role",
+        "goal",
+        "preferred route"
+      ],
+      "outputs": [
+        "Recommended route",
+        "page links"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "ROUTE_SELECTED",
+      "id": "GOALOS-ROUTE-006"
+    },
+    {
+      "path": "pilot-proof.html",
+      "title": "Pilot Proof",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-007"
+    },
+    {
+      "path": "proof-economy.html",
+      "title": "Proof Economy",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-008"
+    },
+    {
+      "path": "proof-experience-atlas.html",
+      "title": "Proof Experience Atlas",
+      "description": "A guided tour through the public proof journey.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "journey",
+      "status": "live",
+      "inputs": [
+        "User role",
+        "proof journey station"
+      ],
+      "outputs": [
+        "Ordered proof journey"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PROOF_JOURNEY_SELECTED",
+      "id": "GOALOS-ROUTE-009"
+    },
+    {
+      "path": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-010"
+    },
+    {
+      "path": "proof-mission-slots.html",
+      "title": "Proof Mission Slots",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-011"
+    },
+    {
+      "path": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-012"
+    },
+    {
+      "path": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket",
+      "description": "The first repository-readiness Evidence Docket.",
+      "category": "evidence",
+      "audience": "reviewers",
+      "role": "docket",
+      "status": "live",
+      "inputs": [
+        "Claim under review",
+        "claims matrix",
+        "evidence packets",
+        "review boundary"
+      ],
+      "outputs": [
+        "Evidence Docket",
+        "Claims Matrix",
+        "Review Checklist",
+        "Governed Decision State"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "DOCKET_REVIEW_READY",
+      "id": "GOALOS-ROUTE-013"
+    },
+    {
+      "path": "proof-run-001-execution-room.html",
+      "title": "Proof Run 001 Execution Room",
+      "description": "The operating room for the first public proof run.",
+      "category": "evidence",
+      "audience": "reviewers",
+      "role": "execution",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-014"
+    },
+    {
+      "path": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-015"
+    },
+    {
+      "path": "proof-velocity.html",
+      "title": "Proof Velocity",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-016"
+    },
+    {
+      "path": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger",
+      "description": "Evidence, proof, ledger, or docket page.",
+      "category": "evidence",
+      "audience": "all users",
+      "role": "evidence",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-017"
+    },
+    {
+      "path": "proof-ledger.html",
+      "title": "Public Proof Ledger",
+      "description": "A registry of public dockets, reports, pages, and review assets.",
+      "category": "evidence",
+      "audience": "reviewers",
+      "role": "ledger",
+      "status": "live",
+      "inputs": [
+        "Proof roots",
+        "attestations",
+        "selection certificate",
+        "rollback receipt"
+      ],
+      "outputs": [
+        "Public Ledger Entry",
+        "Selection Certificate",
+        "Rollback Receipt",
+        "Boundary Map"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "LEDGER_REVIEW_READY",
+      "id": "GOALOS-ROUTE-018"
+    },
+    {
+      "path": "external-reviewer-replay-room.html",
+      "title": "External Reviewer Replay Room",
+      "description": "Replay, challenge, accept, reject, revise, or dissent.",
+      "category": "review",
+      "audience": "reviewers",
+      "role": "review",
+      "status": "live",
+      "inputs": [
+        "Evidence Docket",
+        "claims matrix",
+        "replay path",
+        "validator notes"
+      ],
+      "outputs": [
+        "Reviewer Report",
+        "Replay Checklist",
+        "Dissent Memo",
+        "Verdict"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ACCEPT_REJECT_REVISE_OR_DISSENT",
+      "id": "GOALOS-ROUTE-019"
+    },
+    {
+      "path": "for-reviewers.html",
+      "title": "For Reviewers",
+      "description": "Reviewer, validator, or independent inspection page.",
+      "category": "review",
+      "audience": "all users",
+      "role": "review",
+      "status": "live",
+      "inputs": [
+        "Evidence Docket",
+        "claims matrix",
+        "replay path",
+        "validator notes"
+      ],
+      "outputs": [
+        "Reviewer Report",
+        "Replay Checklist",
+        "Dissent Memo",
+        "Verdict"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ACCEPT_REJECT_REVISE_OR_DISSENT",
+      "id": "GOALOS-ROUTE-020"
+    },
+    {
+      "path": "reviewer-path.html",
+      "title": "Reviewer Path",
+      "description": "Reviewer, validator, or independent inspection page.",
+      "category": "review",
+      "audience": "all users",
+      "role": "review",
+      "status": "live",
+      "inputs": [
+        "Evidence Docket",
+        "claims matrix",
+        "replay path",
+        "validator notes"
+      ],
+      "outputs": [
+        "Reviewer Report",
+        "Replay Checklist",
+        "Dissent Memo",
+        "Verdict"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ACCEPT_REJECT_REVISE_OR_DISSENT",
+      "id": "GOALOS-ROUTE-021"
+    },
+    {
+      "path": "validator-council-arena.html",
+      "title": "Validator Council Arena",
+      "description": "Trust is not one judge. It is a validator council.",
+      "category": "review",
+      "audience": "validators",
+      "role": "validator",
+      "status": "live",
+      "inputs": [
+        "ProofBundle",
+        "replay trace",
+        "validator quorum",
+        "dissent status"
+      ],
+      "outputs": [
+        "Validator Attestation",
+        "Challenge Record",
+        "Dissent Memo",
+        "Evidence Docket"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "VALIDATION_REVIEW_READY",
+      "id": "GOALOS-ROUTE-022"
+    },
+    {
+      "path": "validator-room.html",
+      "title": "Validator Room",
+      "description": "Reviewer, validator, or independent inspection page.",
+      "category": "review",
+      "audience": "all users",
+      "role": "review",
+      "status": "live",
+      "inputs": [
+        "Evidence Docket",
+        "claims matrix",
+        "replay path",
+        "validator notes"
+      ],
+      "outputs": [
+        "Reviewer Report",
+        "Replay Checklist",
+        "Dissent Memo",
+        "Verdict"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ACCEPT_REJECT_REVISE_OR_DISSENT",
+      "id": "GOALOS-ROUTE-023"
+    },
+    {
+      "path": "validator-seats.html",
+      "title": "Validator Seats",
+      "description": "Reviewer, validator, or independent inspection page.",
+      "category": "review",
+      "audience": "all users",
+      "role": "review",
+      "status": "live",
+      "inputs": [
+        "Evidence Docket",
+        "claims matrix",
+        "replay path",
+        "validator notes"
+      ],
+      "outputs": [
+        "Reviewer Report",
+        "Replay Checklist",
+        "Dissent Memo",
+        "Verdict"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ACCEPT_REJECT_REVISE_OR_DISSENT",
+      "id": "GOALOS-ROUTE-024"
+    },
+    {
+      "path": "mission-os.html",
+      "title": "Mission Os",
+      "description": "Mission creation, mission control, or proof-mission path.",
+      "category": "mission",
+      "audience": "all users",
+      "role": "mission",
+      "status": "live",
+      "inputs": [
+        "Plain-language objective",
+        "risk class",
+        "source boundary",
+        "required evidence"
+      ],
+      "outputs": [
+        "Mission Contract",
+        "Evidence Docket plan",
+        "Validator Packet",
+        "GitHub-ready issue"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "MISSION_READY_FOR_REVIEW",
+      "id": "GOALOS-ROUTE-025"
+    },
+    {
+      "path": "proof-mission-control.html",
+      "title": "Proof Mission Control",
+      "description": "A public operating board for proof mission readiness.",
+      "category": "mission",
+      "audience": "mission authors",
+      "role": "mission",
+      "status": "live",
+      "inputs": [
+        "Plain-language objective",
+        "risk class",
+        "source boundary",
+        "required evidence"
+      ],
+      "outputs": [
+        "Mission Contract",
+        "Evidence Docket plan",
+        "Validator Packet",
+        "GitHub-ready issue"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "MISSION_READY_FOR_REVIEW",
+      "id": "GOALOS-ROUTE-026"
+    },
+    {
+      "path": "proof-mission-forge.html",
+      "title": "Proof Mission Forge",
+      "description": "Turn an objective into a proof mission.",
+      "category": "mission",
+      "audience": "mission authors",
+      "role": "mission",
+      "status": "live",
+      "inputs": [
+        "Plain-language objective",
+        "risk class",
+        "source boundary",
+        "required evidence"
+      ],
+      "outputs": [
+        "Mission Contract",
+        "Evidence Docket plan",
+        "Validator Packet",
+        "GitHub-ready issue"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "MISSION_READY_FOR_REVIEW",
+      "id": "GOALOS-ROUTE-027"
+    },
+    {
+      "path": "capability-compounding-lab.html",
+      "title": "Capability Compounding Lab",
+      "description": "Verified work becomes reusable capability.",
+      "category": "core demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-028"
+    },
+    {
+      "path": "evidence-docket-theatre.html",
+      "title": "Evidence Docket Theatre",
+      "description": "A proof page is not a marketing page.",
+      "category": "core demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-029"
+    },
+    {
+      "path": "falsification-gauntlet.html",
+      "title": "Falsification Gauntlet",
+      "description": "Strong claims survive baselines.",
+      "category": "core demo",
+      "audience": "reviewers",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-030"
+    },
+    {
+      "path": "multi-agent-institution.html",
+      "title": "Multi-Agent Institution",
+      "description": "Not a swarm. An institution.",
+      "category": "core demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-031"
+    },
+    {
+      "path": "proof-gradient-lab.html",
+      "title": "Proof Gradient Lab",
+      "description": "No proof, no evolution.",
+      "category": "core demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-032"
+    },
+    {
+      "path": "proof-settlement-chronicle-lab.html",
+      "title": "Proof-Settlement Chronicle Lab",
+      "description": "No ProofBundle, no settlement.",
+      "category": "core demo",
+      "audience": "advanced users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-033"
+    },
+    {
+      "path": "proof-to-action-command-room.html",
+      "title": "Proof-to-Action Command Room",
+      "description": "The deliverable is a governed decision state.",
+      "category": "core demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-034"
+    },
+    {
+      "path": "sovereign-experience-stream-lab.html",
+      "title": "Sovereign Experience Stream Lab",
+      "description": "Proof becomes governed experience.",
+      "category": "core demo",
+      "audience": "advanced users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-035"
+    },
+    {
+      "path": "action-reason-trace-contract.html",
+      "title": "Action-Reason Trace Contract",
+      "description": "Every action must carry a reason.",
+      "category": "advanced demo",
+      "audience": "advanced users",
+      "role": "action",
+      "status": "live",
+      "inputs": [
+        "Objective",
+        "permission scope",
+        "reason",
+        "expected observation"
+      ],
+      "outputs": [
+        "Trace Contract",
+        "Action Graph",
+        "Rollback Playbook",
+        "Evidence Pointer Map"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ACTION_REVIEW_READY",
+      "id": "GOALOS-ROUTE-036"
+    },
+    {
+      "path": "data-room.html",
+      "title": "Data Room",
+      "description": "Interactive public-alpha GoalOS demonstration.",
+      "category": "advanced demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-037"
+    },
+    {
+      "path": "demo-gallery.html",
+      "title": "Demo Gallery",
+      "description": "Interactive public-alpha GoalOS demonstration.",
+      "category": "advanced demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-038"
+    },
+    {
+      "path": "demo-launcher.html",
+      "title": "Demo Launcher",
+      "description": "Interactive public-alpha GoalOS demonstration.",
+      "category": "advanced demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-039"
+    },
+    {
+      "path": "demo-safety.html",
+      "title": "Demo Safety",
+      "description": "Interactive public-alpha GoalOS demonstration.",
+      "category": "advanced demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-040"
+    },
+    {
+      "path": "evidence-room.html",
+      "title": "Evidence Room",
+      "description": "Interactive public-alpha GoalOS demonstration.",
+      "category": "advanced demo",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-041"
+    },
+    {
+      "path": "evolution-ledger-control-room.html",
+      "title": "Evolution Ledger Control Room",
+      "description": "The ledger remembers proof, not secrets.",
+      "category": "advanced demo",
+      "audience": "advanced users",
+      "role": "ledger",
+      "status": "live",
+      "inputs": [
+        "Proof roots",
+        "attestations",
+        "selection certificate",
+        "rollback receipt"
+      ],
+      "outputs": [
+        "Public Ledger Entry",
+        "Selection Certificate",
+        "Rollback Receipt",
+        "Boundary Map"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "LEDGER_REVIEW_READY",
+      "id": "GOALOS-ROUTE-042"
+    },
+    {
+      "path": "open-ended-work-engine.html",
+      "title": "Open-Ended Work Engine",
+      "description": "Generate tasks. Gate descendants.",
+      "category": "advanced demo",
+      "audience": "advanced users",
+      "role": "engine",
+      "status": "live",
+      "inputs": [
+        "Seed objective",
+        "generation scenario",
+        "validator gates",
+        "risk boundary"
+      ],
+      "outputs": [
+        "Generated Mission Set",
+        "Validator Lattice",
+        "Proof Template Pack"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ENGINE_REVIEW_READY",
+      "id": "GOALOS-ROUTE-043"
+    },
+    {
+      "path": "proof-backed-upgrade-rights-room.html",
+      "title": "Proof-Backed Upgrade Rights Room",
+      "description": "The artifact earns an upgrade right.",
+      "category": "advanced demo",
+      "audience": "institutions",
+      "role": "upgrade",
+      "status": "live",
+      "inputs": [
+        "Candidate artifact",
+        "requested scope",
+        "proof gates",
+        "challenge window"
+      ],
+      "outputs": [
+        "Upgrade Right JSON",
+        "Selection Certificate",
+        "Rollback Receipt"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "UPGRADE_RIGHT_REVIEW_READY",
+      "id": "GOALOS-ROUTE-044"
+    },
+    {
+      "path": "proof-carrying-artifact-foundry.html",
+      "title": "Proof-Carrying Artifact Foundry",
+      "description": "The central object is the Proof-Carrying Artifact.",
+      "category": "advanced demo",
+      "audience": "advanced users",
+      "role": "artifact",
+      "status": "live",
+      "inputs": [
+        "Artifact candidate",
+        "proof history",
+        "scope",
+        "rollback target"
+      ],
+      "outputs": [
+        "Proof-Carrying Artifact JSON",
+        "Selection Certificate",
+        "Rollback Receipt"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "ARTIFACT_REVIEW_READY",
+      "id": "GOALOS-ROUTE-045"
+    },
+    {
+      "path": "real-task-benchmark-bridge.html",
+      "title": "Real-Task Benchmark Bridge",
+      "description": "Demos become benchmark-ready evidence.",
+      "category": "benchmark",
+      "audience": "reviewers",
+      "role": "benchmark",
+      "status": "live",
+      "inputs": [
+        "Task family",
+        "claim under test",
+        "baseline ladder",
+        "replay requirements"
+      ],
+      "outputs": [
+        "Benchmark Plan",
+        "Baseline Matrix CSV",
+        "Evidence Docket Plan"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "EMPIRICAL_BRIDGE_READY",
+      "id": "GOALOS-ROUTE-046"
+    },
+    {
+      "path": "institutional-deployment-wedge.html",
+      "title": "Institutional Deployment Wedge",
+      "description": "Start with one workflow. Earn the right to scale.",
+      "category": "adoption",
+      "audience": "institutions",
+      "role": "adoption",
+      "status": "live",
+      "inputs": [
+        "Repeatable workflow",
+        "evidence readiness",
+        "canary plan",
+        "rollback maturity"
+      ],
+      "outputs": [
+        "Deployment Plan",
+        "GoalOSCommit",
+        "Canary Monitor",
+        "Rollback Playbook"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "CANARY_READY",
+      "id": "GOALOS-ROUTE-047"
+    },
+    {
+      "path": "value-realization-control-room.html",
+      "title": "Value Realization Control Room",
+      "description": "Verified work becomes allocable capacity.",
+      "category": "adoption",
+      "audience": "institutions",
+      "role": "value",
+      "status": "live",
+      "inputs": [
+        "Capability candidate",
+        "verified work strength",
+        "allocation policy",
+        "risk pressure"
+      ],
+      "outputs": [
+        "Value Realization Ledger",
+        "Capacity Allocation Plan",
+        "Reviewer Brief"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "VALUE_REALIZATION_REVIEW_READY",
+      "id": "GOALOS-ROUTE-048"
+    },
+    {
+      "path": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "description": "An evidence-governed decision room for frontier release governance.",
+      "category": "frontier",
+      "audience": "reviewers",
+      "role": "frontier",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-049"
+    },
+    {
+      "path": "agent-constellation-demo.html",
+      "title": "Agent Constellation Demo",
+      "description": "See how roles, validators, and proof gates coordinate.",
+      "category": "hands-on",
+      "audience": "all users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-050"
+    },
+    {
+      "path": "docket-builder.html",
+      "title": "Docket Builder",
+      "description": "Build a public-safe Evidence Docket draft in the browser.",
+      "category": "hands-on",
+      "audience": "mission authors",
+      "role": "docket",
+      "status": "live",
+      "inputs": [
+        "Claim under review",
+        "claims matrix",
+        "evidence packets",
+        "review boundary"
+      ],
+      "outputs": [
+        "Evidence Docket",
+        "Claims Matrix",
+        "Review Checklist",
+        "Governed Decision State"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "DOCKET_REVIEW_READY",
+      "id": "GOALOS-ROUTE-051"
+    },
+    {
+      "path": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo",
+      "description": "Run a local proof autopilot demonstration.",
+      "category": "hands-on",
+      "audience": "developers",
+      "role": "local",
+      "status": "live",
+      "inputs": [
+        "Local runtime context",
+        "no-secrets environment"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-052"
+    },
+    {
+      "path": "proof-card-studio.html",
+      "title": "Proof Card Studio",
+      "description": "Create a public-safe proof card.",
+      "category": "hands-on",
+      "audience": "all users",
+      "role": "card",
+      "status": "live",
+      "inputs": [
+        "Proof card content",
+        "claim boundary"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-053"
+    },
+    {
+      "path": "console.html",
+      "title": "Proof Console",
+      "description": "Interactive proof console for GoalOS public-alpha workflows.",
+      "category": "hands-on",
+      "audience": "all users",
+      "role": "console",
+      "status": "live",
+      "inputs": [
+        "Mission preset",
+        "proof gate route"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-054"
+    },
+    {
+      "path": "proof-flight-demo.html",
+      "title": "Proof Flight Demo",
+      "description": "Watch a proof flight execute through gates.",
+      "category": "hands-on",
+      "audience": "new users",
+      "role": "demo",
+      "status": "live",
+      "inputs": [
+        "Scenario preset",
+        "gate toggles",
+        "risk controls",
+        "browser-local run"
+      ],
+      "outputs": [
+        "Evidence Docket sample",
+        "review brief",
+        "proof artifacts"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary",
+        "Replay path",
+        "Evidence Docket",
+        "Risk boundary"
+      ],
+      "nextState": "HUMAN_REVIEW_REQUIRED",
+      "id": "GOALOS-ROUTE-055"
+    },
+    {
+      "path": "try-goalos.html",
+      "title": "Try GoalOS",
+      "description": "Start a safe browser-local GoalOS experience.",
+      "category": "hands-on",
+      "audience": "new users",
+      "role": "try",
+      "status": "live",
+      "inputs": [
+        "Public-safe demo choice"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-056"
+    },
+    {
+      "path": "agi-alpha-node-v0.html",
+      "title": "AGI Alpha Node v0",
+      "description": "The sovereign node theatre and node-runtime concept surface.",
+      "category": "legacy / canon",
+      "audience": "advanced users",
+      "role": "node",
+      "status": "live",
+      "inputs": [
+        "Node runtime concept"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-057"
+    },
+    {
+      "path": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs v0/v2",
+      "description": "The AGI Jobs proof-settlement work OS concept surface.",
+      "category": "legacy / canon",
+      "audience": "advanced users",
+      "role": "jobs",
+      "status": "live",
+      "inputs": [
+        "Job/settlement concept"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-058"
+    },
+    {
+      "path": "meta-agentic-alpha-agi.html",
+      "title": "META-Agentic \u03b1\u2011AGI",
+      "description": "The meta-agentic origin surface reimplemented under GoalOS.",
+      "category": "legacy / canon",
+      "audience": "advanced users",
+      "role": "canon",
+      "status": "live",
+      "inputs": [
+        "Legacy system concept"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-059"
+    },
+    {
+      "path": "docs/",
+      "title": "Docs",
+      "description": "Repository documentation, guides, and review paths.",
+      "category": "docs",
+      "audience": "developers",
+      "role": "docs",
+      "status": "live",
+      "inputs": [
+        "Reader role",
+        "documentation path"
+      ],
+      "outputs": [
+        "Guide",
+        "checklist",
+        "safe contribution path"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "GUIDE_SELECTED",
+      "id": "GOALOS-ROUTE-060"
+    },
+    {
+      "path": "document-series.html",
+      "title": "Document Series",
+      "description": "Research, documentation, or canon page.",
+      "category": "docs",
+      "audience": "all users",
+      "role": "docs",
+      "status": "live",
+      "inputs": [
+        "Reader role",
+        "documentation path"
+      ],
+      "outputs": [
+        "Guide",
+        "checklist",
+        "safe contribution path"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "GUIDE_SELECTED",
+      "id": "GOALOS-ROUTE-061"
+    },
+    {
+      "path": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "description": "Research, documentation, or canon page.",
+      "category": "docs",
+      "audience": "all users",
+      "role": "docs",
+      "status": "live",
+      "inputs": [
+        "Reader role",
+        "documentation path"
+      ],
+      "outputs": [
+        "Guide",
+        "checklist",
+        "safe contribution path"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "GUIDE_SELECTED",
+      "id": "GOALOS-ROUTE-062"
+    },
+    {
+      "path": "mission-os-canon.html",
+      "title": "Mission OS Canon",
+      "description": "The Proof OS for autonomous AI work.",
+      "category": "docs",
+      "audience": "researchers",
+      "role": "mission-os",
+      "status": "live",
+      "inputs": [
+        "Objective-to-proof concept"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-063"
+    },
+    {
+      "path": "paper-to-product.html",
+      "title": "Paper to Product",
+      "description": "How the papers map into repository and website surfaces.",
+      "category": "docs",
+      "audience": "researchers",
+      "role": "research",
+      "status": "live",
+      "inputs": [
+        "Paper/canon question"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-064"
+    },
+    {
+      "path": "proof-of-evolution.html",
+      "title": "Proof-of-Evolution Constitution",
+      "description": "AEP-001: proof before evolution.",
+      "category": "docs",
+      "audience": "researchers",
+      "role": "aep",
+      "status": "live",
+      "inputs": [
+        "Protocol concept",
+        "object lifecycle"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-065"
+    },
+    {
+      "path": "research-spine.html",
+      "title": "Research Spine",
+      "description": "The paper-to-product canon for GoalOS.",
+      "category": "docs",
+      "audience": "researchers",
+      "role": "research",
+      "status": "live",
+      "inputs": [
+        "Paper/canon question"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-066"
+    },
+    {
+      "path": "token-boundary.html",
+      "title": "$AGIALPHA Boundary",
+      "description": "Public contract identification only. Not available from us.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "expected",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-067"
+    },
+    {
+      "path": "agialpha-token-boundary.html",
+      "title": "Agialpha Token Boundary",
+      "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-068"
+    },
+    {
+      "path": "claim-boundary.html",
+      "title": "Claim Boundary",
+      "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-069"
+    },
+    {
+      "path": "data-boundary.html",
+      "title": "Data Boundary",
+      "description": "What not to submit, and why.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-070"
+    },
+    {
+      "path": "investment-token-boundary.html",
+      "title": "Investment Token Boundary",
+      "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-071"
+    },
+    {
+      "path": "legal.html",
+      "title": "Legal / Disclaimer",
+      "description": "Public-alpha, claim-bounded legal and safety notices.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-072"
+    },
+    {
+      "path": "no-data-no-funds.html",
+      "title": "No Data / No Funds",
+      "description": "The public-alpha operating boundary.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-073"
+    },
+    {
+      "path": "privacy.html",
+      "title": "Privacy",
+      "description": "No user data boundary.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-074"
+    },
+    {
+      "path": "security-boundary.html",
+      "title": "Security Boundary",
+      "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-075"
+    },
+    {
+      "path": "token.html",
+      "title": "Token",
+      "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-076"
+    },
+    {
+      "path": "trust-boundary.html",
+      "title": "Trust Boundary",
+      "description": "Trust, privacy, legal, data, token, or public-alpha boundary page.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-077"
+    },
+    {
+      "path": "trust-center.html",
+      "title": "Trust Center",
+      "description": "Boundaries, privacy, security, token, and human review.",
+      "category": "trust",
+      "audience": "all users",
+      "role": "trust",
+      "status": "live",
+      "inputs": [
+        "Policy question",
+        "public-alpha boundary",
+        "no-data/no-funds confirmation"
+      ],
+      "outputs": [
+        "Boundary understanding",
+        "safe next step"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "No wallet",
+        "No transaction",
+        "No advice"
+      ],
+      "nextState": "BOUNDARY_CONFIRMED",
+      "id": "GOALOS-ROUTE-078"
+    },
+    {
+      "path": "404.html",
+      "title": "404",
+      "description": "Public page: 404.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-079"
+    },
+    {
+      "path": "adoption.html",
+      "title": "Adoption",
+      "description": "Public page: Adoption.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-080"
+    },
+    {
+      "path": "agents.html",
+      "title": "Agents",
+      "description": "Public page: Agents.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-081"
+    },
+    {
+      "path": "agi-alpha-thesis.html",
+      "title": "Agi Alpha Thesis",
+      "description": "Public page: Agi Alpha Thesis.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-082"
+    },
+    {
+      "path": "agialpha-control-rail.html",
+      "title": "Agialpha Control Rail",
+      "description": "Public page: Agialpha Control Rail.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-083"
+    },
+    {
+      "path": "architecture.html",
+      "title": "Architecture",
+      "description": "Public page: Architecture.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-084"
+    },
+    {
+      "path": "capability-parity.html",
+      "title": "Capability Parity",
+      "description": "Public page: Capability Parity.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-085"
+    },
+    {
+      "path": "capability-stack.html",
+      "title": "Capability Stack",
+      "description": "Public page: Capability Stack.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-086"
+    },
+    {
+      "path": "commercial-evidence.html",
+      "title": "Commercial Evidence",
+      "description": "Public page: Commercial Evidence.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-087"
+    },
+    {
+      "path": "coordination-console.html",
+      "title": "Coordination Console",
+      "description": "Public page: Coordination Console.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-088"
+    },
+    {
+      "path": "enterprise.html",
+      "title": "Enterprise",
+      "description": "Public page: Enterprise.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-089"
+    },
+    {
+      "path": "evaluation.html",
+      "title": "Evaluation",
+      "description": "Public page: Evaluation.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-090"
+    },
+    {
+      "path": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "description": "Public page: Evaluation Program.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-091"
+    },
+    {
+      "path": "evidence.html",
+      "title": "Evidence",
+      "description": "Public page: Evidence.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-092"
+    },
+    {
+      "path": "evidence-to-scale.html",
+      "title": "Evidence To Scale",
+      "description": "Public page: Evidence To Scale.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-093"
+    },
+    {
+      "path": "executive-brief.html",
+      "title": "Executive Brief",
+      "description": "Public page: Executive Brief.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-094"
+    },
+    {
+      "path": "falsification-box.html",
+      "title": "Falsification Box",
+      "description": "Public page: Falsification Box.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-095"
+    },
+    {
+      "path": "faq.html",
+      "title": "Faq",
+      "description": "Public page: Faq.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-096"
+    },
+    {
+      "path": "for-new-users.html",
+      "title": "For New Users",
+      "description": "Public page: For New Users.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-097"
+    },
+    {
+      "path": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "description": "Public page: Frontier Release Case Study.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-098"
+    },
+    {
+      "path": "glossary.html",
+      "title": "Glossary",
+      "description": "Public page: Glossary.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-099"
+    },
+    {
+      "path": "governance.html",
+      "title": "Governance",
+      "description": "Public page: Governance.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-100"
+    },
+    {
+      "path": "help-center.html",
+      "title": "Help Center",
+      "description": "Public page: Help Center.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-101"
+    },
+    {
+      "path": "historical-command-center.html",
+      "title": "Historical Command Center",
+      "description": "Public page: Historical Command Center.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-102"
+    },
+    {
+      "path": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "description": "Public page: Holy Grail Candidate.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-103"
+    },
+    {
+      "path": "independent-validation.html",
+      "title": "Independent Validation",
+      "description": "Public page: Independent Validation.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-104"
+    },
+    {
+      "path": "jobs.html",
+      "title": "Jobs",
+      "description": "Public page: Jobs.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-105"
+    },
+    {
+      "path": "launch.html",
+      "title": "Launch",
+      "description": "Public page: Launch.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-106"
+    },
+    {
+      "path": "launch-narrative.html",
+      "title": "Launch Narrative",
+      "description": "Public page: Launch Narrative.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-107"
+    },
+    {
+      "path": "metrics.html",
+      "title": "Metrics",
+      "description": "Public page: Metrics.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-108"
+    },
+    {
+      "path": "node.html",
+      "title": "Node",
+      "description": "Public page: Node.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-109"
+    },
+    {
+      "path": "operator-checklist.html",
+      "title": "Operator Checklist",
+      "description": "Public page: Operator Checklist.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-110"
+    },
+    {
+      "path": "operators.html",
+      "title": "Operators",
+      "description": "Public page: Operators.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-111"
+    },
+    {
+      "path": "pilot-program.html",
+      "title": "Pilot Program",
+      "description": "Public page: Pilot Program.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-112"
+    },
+    {
+      "path": "product.html",
+      "title": "Product",
+      "description": "Public page: Product.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-113"
+    },
+    {
+      "path": "quick-tour.html",
+      "title": "Quick Tour",
+      "description": "Public page: Quick Tour.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-114"
+    },
+    {
+      "path": "release-gates.html",
+      "title": "Release Gates",
+      "description": "Public page: Release Gates.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-115"
+    },
+    {
+      "path": "repository-map.html",
+      "title": "Repository Map",
+      "description": "Public page: Repository Map.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-116"
+    },
+    {
+      "path": "responsible-use.html",
+      "title": "Responsible Use",
+      "description": "Public page: Responsible Use.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-117"
+    },
+    {
+      "path": "roadmap.html",
+      "title": "Roadmap",
+      "description": "Public page: Roadmap.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-118"
+    },
+    {
+      "path": "run-locally.html",
+      "title": "Run Locally",
+      "description": "Public page: Run Locally.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-119"
+    },
+    {
+      "path": "schema-registry.html",
+      "title": "Schema Registry",
+      "description": "Public page: Schema Registry.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-120"
+    },
+    {
+      "path": "security.html",
+      "title": "Security",
+      "description": "Public page: Security.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-121"
+    },
+    {
+      "path": "source-lineage.html",
+      "title": "Source Lineage",
+      "description": "Public page: Source Lineage.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-122"
+    },
+    {
+      "path": "standards.html",
+      "title": "Standards",
+      "description": "Public page: Standards.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-123"
+    },
+    {
+      "path": "start.html",
+      "title": "Start",
+      "description": "Public page: Start.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-124"
+    },
+    {
+      "path": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard",
+      "description": "Public page: Strategic Evidence Scorecard.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-125"
+    },
+    {
+      "path": "terms.html",
+      "title": "Terms",
+      "description": "Public page: Terms.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-126"
+    },
+    {
+      "path": "troubleshooting.html",
+      "title": "Troubleshooting",
+      "description": "Public page: Troubleshooting.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-127"
+    },
+    {
+      "path": "trust.html",
+      "title": "Trust",
+      "description": "Public page: Trust.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-128"
+    },
+    {
+      "path": "website-autopilot.html",
+      "title": "Website Autopilot",
+      "description": "Public page: Website Autopilot.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-129"
+    },
+    {
+      "path": "what-goalos-does.html",
+      "title": "What Goalos Does",
+      "description": "Public page: What Goalos Does.",
+      "category": "additional",
+      "audience": "all users",
+      "role": "page",
+      "status": "live",
+      "inputs": [
+        "Public-safe user intent"
+      ],
+      "outputs": [
+        "Public-safe page output"
+      ],
+      "gates": [
+        "No user data",
+        "No user funds",
+        "Human review required",
+        "Claim boundary"
+      ],
+      "nextState": "PUBLIC_ALPHA_REVIEW",
+      "id": "GOALOS-ROUTE-130"
+    }
+  ]
+}

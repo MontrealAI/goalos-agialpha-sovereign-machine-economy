@@ -19,3 +19,11 @@ body:
     attributes:
       label: Feedback
       description: What worked, what was confusing, what should improve?
+
+  - type: checkboxes
+    id: public_safe_boundary_v7
+    attributes:
+      label: Public-safe boundary confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true

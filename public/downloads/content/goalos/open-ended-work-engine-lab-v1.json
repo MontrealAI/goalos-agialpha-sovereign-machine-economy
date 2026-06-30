@@ -1,0 +1,49 @@
+{
+  "id": "goalos-open-ended-work-engine-lab-v1",
+  "title": "GoalOS Open-Ended Work Engine Lab V1",
+  "canonical_url": "open-ended-work-engine.html",
+  "thesis": "Generate tasks. Gate descendants. Keep open-endedness tethered to proof.",
+  "workflow_category": "open-ended work generation",
+  "expected_inputs": [
+    "public-safe seed objective",
+    "generation scenario",
+    "novelty/learnability/risk sliders",
+    "proof gate toggles"
+  ],
+  "generated_outputs": [
+    "generated-object docket",
+    "mission set",
+    "validator lattice",
+    "proof template pack",
+    "reviewer brief"
+  ],
+  "proof_gates": [
+    "syntax valid",
+    "sandbox safe",
+    "validator-bound",
+    "replayable",
+    "interesting",
+    "learnable",
+    "non-redundant",
+    "risk-bounded",
+    "improves future work",
+    "public/private boundary",
+    "human review"
+  ],
+  "state_transitions": [
+    "Generate",
+    "Validate",
+    "Prove",
+    "Archive",
+    "Select",
+    "Harder mission"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

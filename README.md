@@ -1,5 +1,20 @@
 # GoalOS AGIALPHA Ascension — Sovereign Machine Economy
 
+<!-- GOALOS_FINAL_HARDENING_V7_START -->
+
+## Current release health — Final Release Hardening V7
+
+Current source-of-truth layer: `v0.32.0-final-hardening-v7`.
+
+Final hardening unifies public downloads, site verification, docs quality, claim scanning, issue-template boundaries, Proof Run 001, and release-state metadata.
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+
+Token boundary: $AGIALPHA public contract address only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.
+
+<!-- GOALOS_FINAL_HARDENING_V7_END -->
+
+
 **AI creates output. GoalOS creates proof.**
 
 [![Docs Quality](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-docs-quality.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-docs-quality.yml) [![Site Quality](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-site-quality.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-site-quality.yml) [![Pages Deploy](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-latest-website-complete-update-autopilot.yml/badge.svg)](https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy/actions/workflows/goalos-latest-website-complete-update-autopilot.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Public Alpha](https://img.shields.io/badge/status-public--alpha-7c3aed) ![No User Data](https://img.shields.io/badge/no%20user%20data-required-critical) ![No User Funds](https://img.shields.io/badge/no%20user%20funds-required-critical) ![Human Review Required](https://img.shields.io/badge/human%20review-required-0f766e) ![Browser Local Demos](https://img.shields.io/badge/demos-browser--local-0369a1)

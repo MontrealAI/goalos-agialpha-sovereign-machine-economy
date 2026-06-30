@@ -6,3 +6,12 @@ contact_links:
   - name: Data boundary
     url: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/data-boundary.html
     about: Do not submit personal, confidential, customer, regulated, credential, or trade-secret data.
+body:
+
+  - type: checkboxes
+    id: public_safe_boundary_v7
+    attributes:
+      label: Public-safe boundary confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true

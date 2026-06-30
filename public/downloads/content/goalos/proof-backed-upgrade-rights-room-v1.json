@@ -1,0 +1,38 @@
+{
+  "id": "proof-backed-upgrade-rights-room-v1",
+  "title": "GoalOS Proof-Backed Upgrade Rights Room V1",
+  "url": "proof-backed-upgrade-rights-room.html",
+  "tagline": "The artifact earns authority.",
+  "boundary": {
+    "browser_local": true,
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "workflow_role": "public demonstration; capability promotion / selection gate",
+  "inputs": [
+    "artifact candidate",
+    "artifact class",
+    "requested scope",
+    "proof gates",
+    "metrics"
+  ],
+  "outputs": [
+    "upgrade right JSON",
+    "selection certificate",
+    "rollback receipt",
+    "reviewer brief"
+  ],
+  "state_transitions": [
+    "DRAFT",
+    "CANDIDATE",
+    "CANARY",
+    "REVIEW_READY",
+    "HELD",
+    "REJECTED",
+    "ROLLBACK_REQUIRED"
+  ]
+}
