@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "generated_at": "2026-06-30T13:00:24+00:00",
+  "generated_at": "2026-06-30T13:01:09+00:00",
   "manual_test_script": [
     "Open index.html and verify premium hero + proof console.",
     "Press / and verify command palette opens.",
