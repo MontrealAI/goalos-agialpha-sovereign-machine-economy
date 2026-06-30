@@ -8,13 +8,12 @@
 
 **Start in under 60 seconds:** [Start Here](docs/START_HERE.md) · [Proof Run 001 Docket](docs/PROOF_RUN_001.md) · [Public Proof Ledger](docs/PROOF_LEDGER.md) · [Demo Ecosystem Registry](docs/DEMO_ECOSYSTEM.md) · [External Reviewer Replay Room](docs/EXTERNAL_REVIEW.md) · [No Data / No Funds / Token Boundary](docs/NO_DATA_NO_FUNDS.md)
 
-## What this repository is / is not
+## What this is
 
-### What this is
 
 GoalOS is a public-alpha, claim-bounded repository for making autonomous AI work inspectable. It connects objectives, Mission Contracts, proof packets, validator reports, replay paths, cost/risk ledgers, and Governed Decision States.
 
-### What this is not
+## What this is not
 
 It is not a production authority system, wallet, exchange, broker, custodian, token sale, legal opinion, financial recommendation, tax opinion, medical or cybersecurity advice, or a claim that AGI or ASI has been achieved, state-of-the-art empirical performance, production certification, mainnet authorization, or guaranteed ROI.
 
@@ -82,8 +81,6 @@ Start Here; Website Operating System; Proof Experience Atlas; Demo Ecosystem Reg
 
 [Proof Run 001](docs/PROOF_RUN_001.md) is the canonical public-alpha evidence walkthrough for claims matrix, proof packets, validator packet, replay path, and governed decision state.
 
-## Evidence and reports
-
 ## Evidence Dockets and reports
 
 Use [Proof Ledger](docs/PROOF_LEDGER.md), [Replay](docs/REPLAY.md), `public/downloads/proof-run-001/`, and `reports/`.
@@ -100,13 +97,9 @@ Use the reviewer path to accept, reject, request revision, or dissent.
 
 Open a docket, inspect the Claims Matrix, check evidence, run replay, inspect baselines, inspect cost/risk, then accept, reject, request revision, or file dissent. See [Validator Guide](docs/VALIDATOR_GUIDE.md).
 
-## What developers can run locally
+## Local developer quickstart
 
 Developers can run deterministic documentation QA, repository validation, site build, site verification, unit tests, and a local static server.
-
-## How to run locally
-
-## Local developer quickstart
 
 ```bash
 python scripts/goalos_docs_quality.py
@@ -121,13 +114,9 @@ python -m http.server 8000 --directory public
 
 See [Repository Settings](docs/REPOSITORY_SETTINGS.md) for Actions, Pages, artifacts, releases, social preview, branch settings, and safe issue/PR review.
 
-## Claim boundary
-
 ## Claim boundaries
 
 See [Claim Boundary](docs/CLAIM_BOUNDARY.md). Strong empirical claims require Evidence Dockets.
-
-## Legal / privacy / token boundary
 
 ## No data / no funds / privacy boundary
 
@@ -145,19 +134,13 @@ See [Security](SECURITY.md). Do not post secrets, credentials, exploit payloads,
 
 Use Mission Forge to propose a bounded public-safe proof mission with evidence needs, validators, risk, rollback, and human review.
 
-## How to contribute safely
-
 ## Contributing safely
 
 See [Contributing](CONTRIBUTING.md). Preserve public/private proof boundaries and claim boundaries.
 
-## Citation / research canon
-
 ## Research canon
 
 See [References](REFERENCES.md), [Research Spine](docs/research/RESEARCH_SPINE.md), and standards in `standards/`.
-
-## Release / roadmap
 
 ## Roadmap
 
