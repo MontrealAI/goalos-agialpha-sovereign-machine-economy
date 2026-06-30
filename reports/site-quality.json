@@ -1,0 +1,381 @@
+{
+  "status": "passed",
+  "html_pages_found": 134,
+  "key_pages": [
+    "index.html",
+    "pathfinder.html",
+    "demo-ecosystem-registry.html",
+    "site-health.html",
+    "proof-ledger.html",
+    "public-proof-ledger.html",
+    "proof-run-001-docket.html",
+    "external-reviewer-replay-room.html",
+    "proof-mission-forge.html",
+    "proof-mission-control.html",
+    "no-data-no-funds.html",
+    "agialpha-token-boundary.html",
+    "404.html"
+  ],
+  "issues": [
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/release-gates.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/capability-stack.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/enterprise.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/schema-registry.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/proof-velocity.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/start.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/proof-economy.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/pilot-program.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/faq.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/evidence-to-scale.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/jobs.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/pilot-proof.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/adoption.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/governance.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/public-metrics-ledger.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/mission-os.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/node.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/source-lineage.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/standards.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/security.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/repository-map.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/operators.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/troubleshooting.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/commercial-evidence.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/strategic-evidence-scorecard.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/evaluation.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/executive-brief.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/website-autopilot.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/claim-boundary.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/evidence-room.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/agents.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/roadmap.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/data-room.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/metrics.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/independent-validation.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    }
+  ],
+  "system_pages": [
+    "public/404.html"
+  ],
+  "boundary_gaps": [
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/release-gates.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/capability-stack.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/enterprise.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/schema-registry.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/proof-velocity.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/start.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/proof-economy.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/pilot-program.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/faq.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/evidence-to-scale.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/jobs.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/pilot-proof.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/adoption.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/governance.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/public-metrics-ledger.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/mission-os.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/node.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/source-lineage.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/standards.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/security.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/repository-map.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/operators.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/troubleshooting.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/commercial-evidence.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/strategic-evidence-scorecard.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/evaluation.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/executive-brief.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/website-autopilot.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/claim-boundary.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/evidence-room.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/agents.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/roadmap.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/data-room.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/metrics.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    },
+    {
+      "kind": "boundary_link_gap",
+      "path": "public/independent-validation.html",
+      "message": "Page lacks direct or linked no-data/no-funds/human-review boundary language"
+    }
+  ],
+  "broken_links": [],
+  "recommendations": [
+    "Keep 404 classified as a system page, not a demo.",
+    "Keep browser demos local-only unless explicitly reviewed."
+  ]
+}

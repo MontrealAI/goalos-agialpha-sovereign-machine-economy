@@ -1,0 +1,6 @@
+flowchart LR
+  A["Generate Candidate"] --> B["Sandbox"] --> C["Validator Bound"] --> D["Replay"] --> E["Risk Gate"] --> F{"Decision"}
+  F --> G["Admit"]
+  F --> H["Quarantine"]
+  F --> I["Reject"]
+  G --> J["Capability Package"]

@@ -1,0 +1,43 @@
+name: Privacy or data boundary concern
+description: Report a public-safe privacy, no-data, or no-funds boundary concern.
+title: "Privacy/data boundary: "
+labels: [privacy-boundary, public-alpha]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public-safe reminder: do not paste personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, screenshots with sensitive content, or user funds. Human review required. No wallet, transaction, legal, tax, trading, or investment support is provided here.
+  - type: input
+    id: location
+    attributes:
+      label: Page, file, or workflow location
+      description: Provide a public URL or repository path without sensitive details.
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Boundary concern
+      description: Describe the concern in public-safe terms. Redact anything sensitive.
+    validations:
+      required: true
+  - type: dropdown
+    id: expected_outcome
+    attributes:
+      label: Expected outcome
+      options:
+        - Clarify no-data/no-funds copy
+        - Remove unsafe field or prompt
+        - Add human-review warning
+        - Escalate for maintainer review
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_safe
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+        - label: I understand this repository does not want user data, user funds, wallet information, private keys, seed phrases, or payment information.
+          required: true

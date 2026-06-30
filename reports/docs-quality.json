@@ -92,6 +92,7 @@
     "docs/ROADMAP.md",
     "docs/SCHEMA_REGISTRY.md",
     "docs/SECURITY_POSTURE.md",
+    "docs/SITE_HEALTH.md",
     "docs/SOVEREIGN_MACHINE_ECONOMY_MODEL.md",
     "docs/STAKEHOLDER_DEMO_SCRIPT.md",
     "docs/START_HERE.md",
@@ -114,8 +115,8 @@
     "DISCLAIMER.md",
     "TOKEN_BOUNDARY.md"
   ],
-  "public_html_pages_found": 128,
-  "demo_registry_entries": 128,
+  "public_html_pages_found": 134,
+  "demo_registry_entries": 134,
   "required_docs": [
     "README.md",
     "CONTRIBUTING.md",
