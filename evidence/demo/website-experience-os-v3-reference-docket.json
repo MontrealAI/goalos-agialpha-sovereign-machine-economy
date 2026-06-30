@@ -1,6 +1,6 @@
 {
   "docket": "website-experience-os-v3",
-  "generatedAt": "2026-06-30T02:38:45Z",
+  "generatedAt": "2026-06-30T02:39:22Z",
   "claim": "The website has a coherent, browser-local navigation and proof journey layer.",
   "boundary": {
     "noUserData": true,
@@ -14,7 +14,7 @@
   },
   "qa": {
     "status": "passed",
-    "generatedAt": "2026-06-30T02:38:45Z",
+    "generatedAt": "2026-06-30T02:39:22Z",
     "routes": 128,
     "coreDemos": 18,
     "noNetworkCall": true,

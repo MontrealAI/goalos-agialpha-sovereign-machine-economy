@@ -1,6 +1,6 @@
 # GoalOS Website Experience OS V3
 
-Generated: 2026-06-30T02:38:45Z
+Generated: 2026-06-30T02:39:22Z
 
 GoalOS Website Experience OS V3 turns the public site into a coherent proof operating surface: homepage, Pathfinder, command palette, demo registry, site map, and trust boundary.
 

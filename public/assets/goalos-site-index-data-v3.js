@@ -1,5 +1,5 @@
 window.GOALOS_SITE_INDEX_V3 = {
-  "generatedAt": "2026-06-30T02:38:45Z",
+  "generatedAt": "2026-06-30T02:39:22Z",
   "baseUrl": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/",
   "boundary": {
     "noUserData": true,
