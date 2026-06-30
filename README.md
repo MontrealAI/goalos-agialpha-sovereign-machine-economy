@@ -170,3 +170,9 @@ The public website now includes a consolidated navigation and proof journey laye
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 
+## GoalOS Website Experience OS V4
+
+The public website has been upgraded into a production-grade public-alpha navigation layer: homepage, proof console, Pathfinder, Demo Ecosystem Registry, Site Map, Trust Boundary, Token Boundary, and command palette.
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+

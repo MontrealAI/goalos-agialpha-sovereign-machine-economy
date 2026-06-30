@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-30T11:49:29Z",
+  "interactions": [
+    "press /",
+    "search routes",
+    "open pathfinder",
+    "open registry",
+    "open token boundary"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

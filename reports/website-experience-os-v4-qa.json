@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-30T11:49:29Z",
+  "version": "v4",
+  "checks": {
+    "required_pages_present": true,
+    "forbidden_browser_apis_absent": true,
+    "local_html_links_resolve": true,
+    "index_has_boundary": true,
+    "token_boundary_not_404": true,
+    "console_dynamic": true
+  },
+  "missing": [],
+  "forbiddenHits": [],
+  "brokenLinks": [],
+  "liveRouteCount": 131,
+  "coreDemoCount": 17,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}
