@@ -1,10 +1,10 @@
 # Repository Excellence V8 Final Report
 
-Generated: 2026-06-30T19:23:29Z
+Generated: 2026-06-30T19:29:10Z
 
 ## Status
 
-Passed local V8 hardening verification. A transient `.pytest_cache` directory initially blocked repository validation and was removed before final verification.
+Passed local V8 hardening verification. The repository validator now checks whether `.pytest_cache` is tracked by Git instead of failing on an ignored local pytest cache created by test runs.
 
 ## QA commands
 
