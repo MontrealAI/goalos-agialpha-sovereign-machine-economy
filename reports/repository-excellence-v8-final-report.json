@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "generated_at": "2026-06-30T19:23:29Z",
+  "generated_at": "2026-06-30T19:29:10Z",
   "files_changed_summary": [
     "README editorial rewrite",
     "V8 release-state and reports",
@@ -21,10 +21,13 @@
     "python scripts/goalos_site_quality.py": "passed: 0 blocking issues"
   },
   "known_limitations": [
-    "Repository warnings remain as review prompts for restricted phrases in bounded contexts; claim scanner reports 0 blockers.",
+    "Repository validation emits review warnings for restricted phrases in bounded contexts; validate_claims.py reports 0 blockers.",
     "The current claim is repository-readiness and proof architecture, not achieved AGI/ASI or empirical SOTA.",
     "Proof Run 001 remains public-alpha evidence requiring independent review."
   ],
   "next_recommended_move": "Human maintainer review, then run GitHub Actions quality workflows before publication.",
-  "boundary": "No user data. No user funds. No wallet. Human review required."
+  "boundary": "No user data. No user funds. No wallet. Human review required.",
+  "files_changed": [
+    "scripts/validate_repo.py"
+  ]
 }

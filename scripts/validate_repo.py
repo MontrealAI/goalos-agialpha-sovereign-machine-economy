@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -70,7 +71,14 @@ def main() -> int:
             errors.append(f"manifest page has no sections: {page.get('slug')}")
     if len(manifest.get("claim_boundary", "")) < 150:
         errors.append("manifest claim boundary is missing or too short")
-    if any(p.name == ".pytest_cache" for p in ROOT.rglob(".pytest_cache")):
+    tracked_pytest_cache = subprocess.run(
+        ["git", "ls-files", ".pytest_cache"],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    ).stdout.strip()
+    if tracked_pytest_cache:
         errors.append(".pytest_cache should not be included in the repository kit")
     text_files = [p for p in ROOT.rglob("*") if p.is_file() and p.suffix.lower() in {".md", ".json", ".yml", ".yaml", ".html", ".py"}]
     for path in text_files:
