@@ -31,7 +31,8 @@
     "privacy_or_data_boundary"
   ],
   "known_limitations": [
-    "Repository contains many historical pages and reports; this pass indexes them rather than deleting or renaming them."
+    "scripts/goalos_site_quality.py now fails on missing public-page boundary language instead of treating it as a warning.",
+    "scripts/verify_site.py still reports existing generated public pages that need embedded claim-boundary language."
   ],
   "next_recommended_move": "Review generated QA reports and decide whether to tighten page-level boundary coverage.",
   "qa_checks_run": [
@@ -41,19 +42,19 @@
     },
     {
       "command": "python scripts/goalos_site_quality.py",
-      "result": "passed"
+      "result": "failed as intended: 35 blocking boundary_link_gap issues; no forbidden JS browser API issues detected"
     },
     {
       "command": "python scripts/validate_repo.py",
-      "result": "passed with warnings; see reports/repo-validation.json"
+      "result": "previously passed with warnings; not rerun after script tightening"
     },
     {
       "command": "python scripts/build_site.py",
-      "result": "passed; generated public pages"
+      "result": "previously passed; not rerun after script tightening"
     },
     {
       "command": "python scripts/verify_site.py",
-      "result": "failed; existing generated pages missing claim-boundary text and short search/start pages"
+      "result": "previously failed on existing generated page claim-boundary coverage and short search/start pages"
     },
     {
       "command": "python -m unittest discover -s tests",
@@ -64,5 +65,6 @@
       "result": "passed"
     }
   ],
-  "site_quality_boundary_warnings": 39
+  "site_quality_boundary_warnings": 0,
+  "site_quality_blocking_boundary_failures": 35
 }
