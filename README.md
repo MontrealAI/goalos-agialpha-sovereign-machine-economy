@@ -173,3 +173,17 @@ See [Release Checklist](docs/RELEASE_CHECKLIST.md) and [Proof Run 001 Release Ch
 - Confirm no user data, funds, wallets, transactions, unsupported claims, or weakened boundaries.
 - Confirm reports and artifacts are generated.
 - Confirm human review required remains visible.
+
+## GoalOS Website Experience OS V3
+
+The public website now includes a consolidated navigation and proof journey layer:
+
+- **Homepage:** `public/index.html`
+- **Pathfinder:** `public/pathfinder.html`
+- **Website Operating System:** `public/website-operating-system.html`
+- **Demo Ecosystem Registry:** `public/demo-ecosystem-registry.html`
+- **Site Map:** `public/site-map.html`
+- **Trust Boundary:** `public/trust-boundary.html`
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+

@@ -1,0 +1,27 @@
+{
+  "docket": "website-experience-os-v3",
+  "generatedAt": "2026-06-30T02:38:45Z",
+  "claim": "The website has a coherent, browser-local navigation and proof journey layer.",
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "noProductionAuthority": true,
+    "humanReviewRequired": true,
+    "tokenBoundary": "$AGIALPHA public contract identification only; not available from us."
+  },
+  "qa": {
+    "status": "passed",
+    "generatedAt": "2026-06-30T02:38:45Z",
+    "routes": 128,
+    "coreDemos": 18,
+    "noNetworkCall": true,
+    "noUserData": true,
+    "noUserFunds": true,
+    "walletOrMainnet": false,
+    "humanReviewRequired": true,
+    "errors": []
+  }
+}
