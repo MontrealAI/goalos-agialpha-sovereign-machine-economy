@@ -1,0 +1,26 @@
+{
+  "status": "passed after V8 fixes",
+  "generated_at": "2026-06-30T18:27:57Z",
+  "files_changed_summary": [
+    "README editorial rewrite",
+    "V8 release-state and reports",
+    "V8 docs/comms/checklist pages",
+    "Mermaid diagrams",
+    "social preview SVGs",
+    ".pytest_cache removed"
+  ],
+  "qa_commands_run": {
+    "python -m pytest -q": "passed: 18 passed",
+    "python -m compileall -q scripts src tests": "passed",
+    "python scripts/validate_repo.py": "failed initially: .pytest_cache should not be included; fixed by removing .pytest_cache",
+    "python scripts/validate_claims.py": "passed: 0 blockers",
+    "python scripts/verify_site.py": "passed: 0 broken links, 0 boundary gaps",
+    "python scripts/goalos_docs_quality.py": "passed",
+    "python scripts/goalos_site_quality.py": "passed"
+  },
+  "known_limitations": [
+    "Architecture and repository-readiness claims only; no achieved AGI/ASI or empirical SOTA claim.",
+    "Proof Run 001 remains public-alpha evidence requiring independent review."
+  ],
+  "next_recommended_move": "Run the required local checks, review the V8 reports, then publish only after human maintainer review."
+}

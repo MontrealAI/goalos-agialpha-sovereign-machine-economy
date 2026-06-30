@@ -1,0 +1,32 @@
+name: Route health report
+description: Report a broken route, navigation gap, or site-map issue.
+title: "[Route health report] "
+labels: ["public-alpha", "human-review-required"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public-alpha only. No user data, no user funds, no wallet information, no private keys, no seed phrases, and no production authority. Human review is required.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the public-safe issue, review, or request.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+      description: What should a maintainer or reviewer do next?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Sensitive-data and funds confirmation
+      options:
+        - label: "I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds."
+          required: true
+        - label: "I understand $AGIALPHA is not available from the repository, website, maintainers, issues, demos, workflows, docs, or public dockets, and I am not requesting trading, investment, wallet, bridge, exchange, legal, tax, or regulatory support."
+          required: true
