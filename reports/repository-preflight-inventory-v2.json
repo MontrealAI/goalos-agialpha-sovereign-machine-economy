@@ -1,8 +1,12 @@
 {
+  "status": "inventory_only",
   "generated_at": "2026-06-30T00:00:00Z",
-  "generator": "/tmp/upgrade_docs.py",
+  "generator": "manual repository preflight audit",
   "root_files_present": [
+    ".editorconfig",
     ".env.example",
+    ".gitignore",
+    ".nojekyll",
     "AGENTS.md",
     "CHANGELOG.md",
     "CITATION.cff",
@@ -76,6 +80,7 @@
     "docs/LAUNCH_CARD.md",
     "docs/LAUNCH_NARRATIVE.md",
     "docs/META_AGENTIC_COUNCIL.md",
+    "docs/MISSION_CONTROL.md",
     "docs/MISSION_FORGE.md",
     "docs/MISSION_OS.md",
     "docs/MODEL_RISK_MANAGEMENT.md",
@@ -119,10 +124,12 @@
     "docs/TRUST_AND_ASSURANCE_READINESS.md",
     "docs/TRUST_CENTER_BLUEPRINT.md",
     "docs/USER_EXPERIENCE_PRINCIPLES.md",
+    "docs/VALIDATOR_GUIDE.md",
     "docs/VALIDATOR_MESH.md",
     "docs/WEBSITE_AUTOPILOT.md",
     "docs/WEBSITE_AUTOPILOT_ARCHITECTURE.md",
     "docs/WEBSITE_EDITOR_GUIDE.md",
+    "docs/WEBSITE_MAP.md",
     "docs/aep/AEP001_IMPLEMENTATION_MAPPING.md",
     "docs/agialpha/AGIALPHA_PROOF_CONTROL_RAIL.md",
     "docs/communications/LAUNCH_NARRATIVE.md",
@@ -250,6 +257,7 @@
     "docs/reviewer/HOW_TO_REVIEW_VALUE_REALIZATION_CONTROL_ROOM.md",
     "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V1.md",
     "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V2.md",
+    "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V3.md",
     "docs/reviewer/HOW_TO_REVIEW_WITHOUT_SUBMITTING_DATA.md",
     "docs/reviewer/HOW_TO_RUN_REPLAY.md",
     "docs/reviewer/HOW_TO_USE_DEMO_ECOSYSTEM_REGISTRY.md",
@@ -310,7 +318,8 @@
     "docs/user/USER_JOURNEYS.md",
     "docs/validators/VALIDATOR_SEAT_INVITATION.md",
     "docs/website/WEBSITE_EXPERIENCE_OS_V1.md",
-    "docs/website/WEBSITE_EXPERIENCE_OS_V2.md"
+    "docs/website/WEBSITE_EXPERIENCE_OS_V2.md",
+    "docs/website/WEBSITE_EXPERIENCE_OS_V3.md"
   ],
   "public_pages_present": [
     "public/404.html",
@@ -728,6 +737,10 @@
     "reports/real-task-benchmark-bridge-v1-qa.json",
     "reports/repo-validation.json",
     "reports/repository-documentation-upgrade-v1.json",
+    "reports/repository-documentation-upgrade-v2.json",
+    "reports/repository-documentation-upgrade-v2.md",
+    "reports/repository-preflight-inventory-v2.json",
+    "reports/repository-preflight-inventory-v2.md",
     "reports/site-qa.json",
     "reports/sovereign-experience-stream-lab-v1-demo-run.json",
     "reports/sovereign-experience-stream-lab-v1-install-report.json",
@@ -753,6 +766,9 @@
     "reports/website-experience-os-v2-demo-run.json",
     "reports/website-experience-os-v2-install-report.json",
     "reports/website-experience-os-v2-qa.json",
+    "reports/website-experience-os-v3-demo-run.json",
+    "reports/website-experience-os-v3-install-report.json",
+    "reports/website-experience-os-v3-qa.json",
     "reports/world-critical-opportunity-scorecard.json"
   ],
   "evidence_artifacts_present": [
@@ -782,6 +798,7 @@
     "evidence/demo/validator-council-arena-v1-reference-docket.json",
     "evidence/demo/value-realization-control-room-v1-reference-docket.json",
     "evidence/demo/website-experience-os-v2-reference-docket.json",
+    "evidence/demo/website-experience-os-v3-reference-docket.json",
     "evidence/deployment-wedge/institutional-deployment-wedge-v1-reference-docket.json",
     "evidence/dockets/coordination-run-001-genesis-docket.json",
     "evidence/dockets/frontier-release-public-source-docket-001.json",
@@ -812,9 +829,7 @@
     "evidence/strategic-scale/example-strategic-scale-docket.json",
     "evidence/validation/example-independent-validation-record.json"
   ],
-  "replay_paths_present": [
-    "replay/proof-run-001/README.md"
-  ],
+  "replay_paths_present": [],
   "workflows_present": [
     ".github/workflows/goalos-action-reason-trace-contract-v1-autopilot.yml",
     ".github/workflows/goalos-agialpha-token-boundary-v2-1-production-autopilot.yml",
@@ -861,7 +876,8 @@
     ".github/workflows/goalos-value-realization-control-room-v1-autopilot.yml",
     ".github/workflows/goalos-website-code-parity-v3-autopilot.yml",
     ".github/workflows/goalos-website-experience-os-v1-autopilot.yml",
-    ".github/workflows/goalos-website-experience-os-v2-autopilot.yml"
+    ".github/workflows/goalos-website-experience-os-v2-autopilot.yml",
+    ".github/workflows/goalos-website-experience-os-v3-autopilot.yml"
   ],
   "issue_templates_present": [
     ".github/ISSUE_TEMPLATE/action_reason_trace_contract_feedback.yml",
@@ -910,7 +926,8 @@
     ".github/ISSUE_TEMPLATE/validator_council_arena_feedback.yml",
     ".github/ISSUE_TEMPLATE/validator_review.yml",
     ".github/ISSUE_TEMPLATE/value_realization_control_room_feedback.yml",
-    ".github/ISSUE_TEMPLATE/website_experience_os_feedback.yml"
+    ".github/ISSUE_TEMPLATE/website_experience_os_feedback.yml",
+    ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml"
   ],
   "pr_template_present": true,
   "license_file": "LICENSE",
@@ -921,16 +938,18 @@
     "DATA_BOUNDARY.md",
     "DISCLAIMER.md",
     "TOKEN_BOUNDARY.md",
-    "docs/CLAIM_BOUNDARY.md",
+    "TERMS.md",
+    "NOTICE.md",
     "docs/NO_DATA_NO_FUNDS.md",
-    "docs/TOKEN_BOUNDARY.md"
+    "docs/TOKEN_BOUNDARY.md",
+    "docs/CLAIM_BOUNDARY.md"
   ],
   "known_website_entry_points": [
     "public/demo-ecosystem-registry.html",
-    "public/for-new-users.html",
     "public/index.html",
+    "public/proof-experience-atlas.html",
+    "public/site-map.html",
     "public/start-here.html",
-    "public/start.html",
     "public/website-operating-system.html"
   ],
   "known_proof_demo_review_pages": [
@@ -968,18 +987,12 @@
     "public/validator-room.html",
     "public/validator-seats.html"
   ],
-  "missing_recommended_docs": [
-    "docs/WEBSITE_MAP.md",
-    "docs/MISSION_CONTROL.md",
-    "docs/VALIDATOR_GUIDE.md"
-  ],
-  "missing_recommended_templates": [
-    ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml"
-  ],
-  "duplicate_or_stale_docs": "Several v1/v2 demo docs coexist; keep public URLs stable and prefer canonical docs/DEMO_ECOSYSTEM.md.",
-  "broken_looking_links": "See reports/docs-quality.json for deterministic link scan.",
-  "unsupported_strong_claims": "No new strong claims added by this inventory; existing content should continue to be scanned.",
-  "token_boundary_risks": "Token pages exist; boundary docs must keep public-contract identification only and no sale/custody/support language.",
-  "no_data_no_funds_boundary_gaps": "Issue templates require public-safe confirmation after this upgrade.",
-  "pages_not_listed_in_registry": "See content/goalos/demo-ecosystem-registry.json coverage."
+  "missing_recommended_docs": [],
+  "missing_recommended_templates": [],
+  "duplicate_or_stale_docs": "Several historical v1/v2 demo and autopilot documents coexist; preserve public URLs and prefer README.md, docs/START_HERE.md, docs/DEMO_ECOSYSTEM.md, docs/PROOF_RUN_001.md, and docs/REVIEWER_GUIDE.md as canonical navigation.",
+  "broken_looking_links": "See reports/docs-quality.json for deterministic local link scan.",
+  "unsupported_strong_claims": "No unsupported strong claims were added by this upgrade; continue scanning all future edits.",
+  "token_boundary_risks": "Token pages exist; keep $AGIALPHA as public-contract identification only with no sale, custody, wallet support, liquidity support, or advice.",
+  "no_data_no_funds_boundary_gaps": "Required public-safe issue-template confirmations are present in the required templates checked by docs QA.",
+  "pages_not_listed_in_sitemap_or_search_index": "Use content/goalos/demo-ecosystem-registry.json and docs-quality coverage for route inventory; public sitemap/search index should be regenerated by site tooling when pages change."
 }

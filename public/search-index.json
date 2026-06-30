@@ -1,898 +1,236 @@
 [
   {
-    "title": "Action-Reason Trace Contract",
-    "url": "action-reason-trace-contract.html",
-    "category": "Action",
-    "description": "Scope, reason, observation, validation, cost/risk, rollback, and evidence pointer.",
-    "thesis": "Every action must carry a reason."
-  },
-  {
-    "title": "$AGIALPHA Control Rail",
-    "url": "agialpha-control-rail.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "$AGIALPHA Public-Market Boundary",
-    "url": "agialpha-token-boundary.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "$AGIALPHA Token Boundary",
-    "url": "token.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "AGI ALPHA Thesis",
-    "url": "agi-alpha-thesis.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "AGI Jobs Ledger · GoalOS Ascension",
-    "url": "jobs.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Adoption Playbook · GoalOS Ascension",
-    "url": "adoption.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Agent Constellation Demo — GoalOS",
-    "url": "agent-constellation-demo.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Agent Foundry · GoalOS Ascension",
-    "url": "agents.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Architecture",
-    "url": "architecture.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Capability Stack · GoalOS Ascension",
-    "url": "capability-stack.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Claim Boundary · GoalOS Ascension",
-    "url": "claim-boundary.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Commercial Evidence · GoalOS Ascension",
-    "url": "commercial-evidence.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Coordination Console",
-    "url": "coordination-console.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Data Room · GoalOS Ascension",
-    "url": "data-room.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Demo Gallery — GoalOS",
-    "url": "demo-gallery.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Demo Launcher — GoalOS",
-    "url": "demo-launcher.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Demo Safety Boundary — GoalOS",
-    "url": "demo-safety.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Enterprise Readiness · GoalOS Ascension",
-    "url": "enterprise.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Evaluation Program",
-    "url": "evaluation-program.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Evaluation · GoalOS Ascension",
-    "url": "evaluation.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Evidence Layer · GoalOS Ascension",
-    "url": "evidence.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Evidence Room · GoalOS Ascension",
-    "url": "evidence-room.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Evidence to Scale · GoalOS Ascension",
-    "url": "evidence-to-scale.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Executive Brief · GoalOS Ascension",
-    "url": "executive-brief.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "FAQ · GoalOS Ascension",
-    "url": "faq.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Falsification Box — GoalOS",
-    "url": "falsification-box.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "For New Users — GoalOS",
-    "url": "for-new-users.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "For Reviewers — GoalOS",
-    "url": "for-reviewers.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "For Reviewers — GoalOS",
-    "url": "reviewer-path.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Frontier Release Case Study",
-    "url": "frontier-release-case-study.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Frontier Release Doctrine",
-    "url": "frontier-release-doctrine.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Glossary — GoalOS",
-    "url": "glossary.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "GoalOS Capability Parity",
-    "url": "capability-parity.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "GoalOS Document Series",
-    "url": "document-series.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "GoalOS Historical Command Center",
-    "url": "historical-command-center.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "GoalOS Launch Narrative",
-    "url": "launch-narrative.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Governance · GoalOS Ascension",
-    "url": "governance.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Help Center — GoalOS",
-    "url": "help-center.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Holy Grail Candidate",
-    "url": "holy-grail-candidate.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Independent Validation · GoalOS Ascension",
-    "url": "independent-validation.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Launch Package · GoalOS Ascension",
-    "url": "launch.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Legal Shield — GoalOS",
-    "url": "legal.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Local Autopilot Demo — GoalOS",
-    "url": "local-autopilot-demo.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Mission OS Canon",
-    "url": "mission-os-canon.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Mission OS · GoalOS Ascension",
-    "url": "mission-os.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Node Runtime · GoalOS Ascension",
-    "url": "node.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Operating Metrics · GoalOS Ascension",
-    "url": "metrics.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Operator Checklist — GoalOS",
-    "url": "operator-checklist.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Operator Console Blueprint · GoalOS Ascension",
-    "url": "operators.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Page not found",
-    "url": "404.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Paper to Product",
-    "url": "paper-to-product.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Pilot Program · GoalOS Ascension",
-    "url": "pilot-program.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Pilot Proof · GoalOS Ascension",
-    "url": "pilot-proof.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Product Surface",
-    "url": "product.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Card Studio — GoalOS",
-    "url": "proof-card-studio.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Economy · GoalOS Ascension",
-    "url": "proof-economy.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Flight Demo — GoalOS",
-    "url": "proof-flight-demo.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Metrics Dashboard — GoalOS",
-    "url": "proof-metrics-dashboard.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Mission Slots — GoalOS",
-    "url": "proof-mission-slots.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Run 001",
-    "url": "proof-run-001.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Run 001 Live — GoalOS",
-    "url": "proof-run-001-live.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof Velocity · GoalOS Ascension",
-    "url": "proof-velocity.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Proof-of-Evolution",
-    "url": "proof-of-evolution.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Public Metrics Ledger · GoalOS Ascension",
-    "url": "public-metrics-ledger.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Release Gates · GoalOS Ascension",
-    "url": "release-gates.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Repository Map · GoalOS Ascension",
-    "url": "repository-map.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Responsible Use — GoalOS",
-    "url": "responsible-use.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Roadmap · GoalOS Ascension",
-    "url": "roadmap.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Run Locally — GoalOS",
-    "url": "run-locally.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Schema Registry · GoalOS Ascension",
-    "url": "schema-registry.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Security Boundary — GoalOS",
-    "url": "security-boundary.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Security · GoalOS Ascension",
-    "url": "security.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Source Lineage · GoalOS Ascension",
-    "url": "source-lineage.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Standards · GoalOS Ascension",
-    "url": "standards.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Start Here · GoalOS Ascension",
-    "url": "start.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Strategic Evidence Scorecard · GoalOS Ascension",
-    "url": "strategic-evidence-scorecard.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Terms of Use — GoalOS",
-    "url": "terms.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Token & Investment Boundary",
-    "url": "investment-token-boundary.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Troubleshooting · GoalOS Ascension",
-    "url": "troubleshooting.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Trust Center",
-    "url": "trust.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Trust Center · GoalOS Ascension",
-    "url": "trust-center.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Try GoalOS — Browser-local Demo",
-    "url": "quick-tour.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Validator Room — GoalOS",
-    "url": "validator-room.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Validator Seats",
-    "url": "validator-seats.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Website Autopilot · GoalOS Ascension",
-    "url": "website-autopilot.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "What GoalOS Does — GoalOS",
-    "url": "what-goalos-does.html",
-    "category": "Additional",
-    "description": "Existing public site page preserved and indexed.",
-    "thesis": "Additional public page."
-  },
-  {
-    "title": "Institutional Deployment Wedge",
-    "url": "institutional-deployment-wedge.html",
-    "category": "Adoption",
-    "description": "Start with one workflow, docket it, canary it, monitor it, rollback if needed.",
-    "thesis": "One workflow earns the right to scale."
-  },
-  {
-    "title": "Value Realization Control Room",
-    "url": "value-realization-control-room.html",
-    "category": "Adoption",
-    "description": "Accepted proof → capability → value ledger → capacity allocation → harder missions.",
-    "thesis": "Verified work becomes allocable capacity."
-  },
-  {
-    "title": "Evolution Ledger Control Room",
-    "url": "evolution-ledger-control-room.html",
-    "category": "Advanced Demo",
-    "description": "Public proof commitments, attestations, selection records, challenge windows, rollback receipts.",
-    "thesis": "The ledger remembers proof, not secrets."
-  },
-  {
-    "title": "Open-Ended Work Engine",
-    "url": "open-ended-work-engine.html",
-    "category": "Advanced Demo",
-    "description": "Open-ended work generation tethered to proof gates.",
-    "thesis": "Generate tasks. Gate descendants."
-  },
-  {
-    "title": "Proof-Backed Upgrade Rights Room",
-    "url": "proof-backed-upgrade-rights-room.html",
-    "category": "Advanced Demo",
-    "description": "Proof, eval, scope, canary, monitoring, rollback, and challenge window.",
-    "thesis": "The artifact earns an upgrade right."
-  },
-  {
-    "title": "Proof-Carrying Artifact Foundry",
-    "url": "proof-carrying-artifact-foundry.html",
-    "category": "Advanced Demo",
-    "description": "Turn raw output into scoped, evaluated, rollbackable proof-carrying artifacts.",
-    "thesis": "The artifact earns authority."
-  },
-  {
-    "title": "Real-Task Benchmark Bridge",
-    "url": "real-task-benchmark-bridge.html",
-    "category": "Benchmark",
-    "description": "Real-task manifest, equal-budget baselines, replay, cost/risk, validators.",
-    "thesis": "Demos become benchmark-ready evidence."
-  },
-  {
-    "title": "Capability Compounding Lab",
-    "url": "capability-compounding-lab.html",
-    "category": "Core Demo",
-    "description": "Mission → proof → Chronicle → capability → harder mission.",
-    "thesis": "Verified work becomes reusable capability."
-  },
-  {
-    "title": "Evidence Docket Theatre",
-    "url": "evidence-docket-theatre.html",
-    "category": "Core Demo",
-    "description": "Turn public-safe claims into reviewable Evidence Dockets.",
-    "thesis": "A proof page is not a marketing page."
-  },
-  {
-    "title": "Falsification Gauntlet",
-    "url": "falsification-gauntlet.html",
-    "category": "Core Demo",
-    "description": "Baselines, stress, replay, privacy, risk, and falsification.",
-    "thesis": "Strong claims survive baselines."
-  },
-  {
-    "title": "Multi-Agent Institution",
-    "url": "multi-agent-institution.html",
-    "category": "Core Demo",
-    "description": "Compare raw swarms to proof-governed institutions.",
-    "thesis": "Not a swarm. An institution."
-  },
-  {
-    "title": "Proof Gradient Lab",
-    "url": "proof-gradient-lab.html",
-    "category": "Core Demo",
-    "description": "Score is advisory; gates are mandatory.",
-    "thesis": "No proof, no evolution."
-  },
-  {
-    "title": "Proof-Settlement Chronicle Lab",
-    "url": "proof-settlement-chronicle-lab.html",
-    "category": "Core Demo",
-    "description": "Request → Escrow → Execute → ProofBundle → Validate → Settle → Chronicle.",
-    "thesis": "No ProofBundle, no settlement."
-  },
-  {
-    "title": "Proof-to-Action Command Room",
-    "url": "proof-to-action-command-room.html",
-    "category": "Core Demo",
-    "description": "Move from objective to docket to decision to action graph.",
-    "thesis": "The deliverable is a governed decision state."
-  },
-  {
-    "title": "Sovereign Experience Stream Lab",
-    "url": "sovereign-experience-stream-lab.html",
-    "category": "Core Demo",
-    "description": "Experience streams, reward ledgers, router proposals, temporal options.",
-    "thesis": "Proof becomes governed experience."
-  },
-  {
-    "title": "Research Spine",
-    "url": "research-spine.html",
-    "category": "Docs",
-    "description": "Research lineage and paper-to-product mapping.",
-    "thesis": "The papers are the canon."
-  },
-  {
-    "title": "Proof Run 001 Docket",
-    "url": "proof-run-001-docket.html",
-    "category": "Evidence",
-    "description": "First real repository-readiness Evidence Docket.",
-    "thesis": "Architecture becomes reviewable evidence."
-  },
-  {
-    "title": "Public Proof Ledger",
-    "url": "proof-ledger.html",
-    "category": "Evidence",
-    "description": "Evidence, reports, pages, and reviewer paths in one public ledger.",
-    "thesis": "One registry for every proof surface."
-  },
-  {
-    "title": "Frontier Release Room",
-    "url": "frontier-release-room.html",
-    "category": "Frontier",
-    "description": "Restriction, access, rollback, and restore decisions under proof gates.",
-    "thesis": "Evidence-governed frontier release decisions."
-  },
-  {
-    "title": "Docket Builder",
-    "url": "docket-builder.html",
-    "category": "Hands-on",
-    "description": "Guided construction of proof artifacts.",
-    "thesis": "Build a public-safe docket."
-  },
-  {
-    "title": "Proof Console",
-    "url": "console.html",
-    "category": "Hands-on",
-    "description": "Interactive command center and proof state visibility.",
-    "thesis": "The console makes proof visible."
-  },
-  {
-    "title": "Try GoalOS",
-    "url": "try-goalos.html",
-    "category": "Hands-on",
-    "description": "Browser-local user entry demo.",
-    "thesis": "Try the proof loop safely."
-  },
-  {
-    "title": "AGI Alpha Node v0",
-    "url": "agi-alpha-node-v0.html",
-    "category": "Legacy / Canon",
-    "description": "Node runtime concept surface.",
-    "thesis": "The sovereign node theatre."
-  },
-  {
-    "title": "AGI Jobs v0/v2",
-    "url": "agi-jobs-v0-v2.html",
-    "category": "Legacy / Canon",
-    "description": "AGI Jobs concept surface.",
-    "thesis": "Proof-bearing machine labor."
-  },
-  {
-    "title": "Meta-Agentic α-AGI",
-    "url": "meta-agentic-alpha-agi.html",
-    "category": "Legacy / Canon",
-    "description": "Original meta-agentic concept surface.",
-    "thesis": "A mind that builds minds."
-  },
-  {
-    "title": "Proof Mission Control",
-    "url": "proof-mission-control.html",
-    "category": "Mission",
-    "description": "Public operating board for Proof Run 001 mission readiness.",
-    "thesis": "See what is ready, blocked, and missing."
-  },
-  {
-    "title": "Proof Mission Forge",
-    "url": "proof-mission-forge.html",
-    "category": "Mission",
-    "description": "Generate a Mission Contract, Evidence Docket plan, validator packet, and issue draft.",
-    "thesis": "Turn an objective into a proof mission."
-  },
-  {
-    "title": "Proof Run 001 Execution Room",
-    "url": "proof-run-001-execution-room.html",
-    "category": "Mission",
-    "description": "Operating room for preparing Proof Run 001.",
-    "thesis": "From architecture to first docket."
-  },
-  {
-    "title": "Demo Ecosystem Registry",
-    "url": "demo-ecosystem-registry.html",
-    "category": "Registry",
-    "description": "Canonical registry for demo engines, inputs, gates, outputs, and state transitions.",
-    "thesis": "Every demo becomes routeable."
-  },
-  {
-    "title": "External Reviewer Replay Room",
-    "url": "external-reviewer-replay-room.html",
-    "category": "Review",
-    "description": "Replay, accept, reject, revise, or dissent.",
-    "thesis": "Independent review makes proof real."
-  },
-  {
-    "title": "Validator Council Arena",
-    "url": "validator-council-arena.html",
-    "category": "Review",
-    "description": "Commit-reveal, challenge, dissent, and validation ceremony.",
-    "thesis": "Trust is not one judge. It is a validator council."
-  },
-  {
     "title": "Home",
     "url": "index.html",
-    "category": "Start",
-    "description": "Institutional homepage and proof journey.",
-    "thesis": "Turn AI work into verified capability."
-  },
-  {
-    "title": "Pathfinder",
-    "url": "pathfinder.html",
-    "category": "Start",
-    "description": "Role-based navigation for users, reviewers, builders, and institutions.",
-    "thesis": "Choose your role; get a proof path."
-  },
-  {
-    "title": "Proof Experience Atlas",
-    "url": "proof-experience-atlas.html",
-    "category": "Start",
-    "description": "Unified tour across the demo ecosystem.",
-    "thesis": "One guided public proof journey."
-  },
-  {
-    "title": "Site Map",
-    "url": "site-map.html",
-    "category": "Start",
-    "description": "Complete route list.",
-    "thesis": "Everything remains discoverable."
+    "headline": "Autonomous AI work, made evidence-bearing.",
+    "text": "GoalOS AGIALPHA Ascension turns ambitious autonomous AI work into bounded missions, evidence dockets, validator reports, release gates, settlement receipts, and reusable capability packages. The next practical frontier is not merely more agents. It is governed, observable, proof-bearing work that an institution can review, reproduce, settle, and reuse. A non-technical operator can launch the repository from GitHub Web UI by pasting one workflow file and pressing Run workflow. Corporate polish, research discipline, public trust posture, machine-readable artifacts, and a clear path from demo to pilot without overstating evidence."
   },
   {
     "title": "Start Here",
-    "url": "start-here.html",
-    "category": "Start",
-    "description": "Beginner route for non-technical users.",
-    "thesis": "Find the right path in 60 seconds."
+    "url": "start.html",
+    "headline": "Create the repository from GitHub.com in minutes.",
+    "text": "No terminal is required. This page is the practical path for creating the repository, running the autonomous action, and publishing the website. You need a GitHub account and permission to create a new repository. Public visibility is easiest for GitHub Pages. Create the repository, set Actions to read/write, set Pages to GitHub Actions, paste the workflow, commit it, then run it. Open reports/site-qa.json, reports/repo-validation.json, reports/claim-scan.json, and the live Pages URL. Add the URL to the repository About section."
   },
   {
-    "title": "Website Operating System",
-    "url": "website-operating-system.html",
-    "category": "Start",
-    "description": "Complete operating map of the website.",
-    "thesis": "The public proof institution map."
+    "title": "Mission OS",
+    "url": "mission-os.html",
+    "headline": "From objective to governed decision state.",
+    "text": "Mission OS converts a high-stakes objective into a bounded contract, evidence plan, validation process, decision state, and reusable capability. Every mission starts with a bounded objective and ends with a reviewable evidence package, not a vague autonomous action. This lets operators explain what the system did, what it relied on, what risks were controlled, and what still needs review."
   },
   {
-    "title": "Data Boundary",
-    "url": "data-boundary.html",
-    "category": "Trust",
-    "description": "Data boundary guidance.",
-    "thesis": "Do not submit private data."
+    "title": "Capability Stack",
+    "url": "capability-stack.html",
+    "headline": "A complete operating model for proof-settled AI work.",
+    "text": "The repository is structured as a stack: user-facing launch experience, mission engine, proof jobs, evidence layer, validation layer, runtime controls, governance, and publication. Each layer has a purpose, artifact, and review gate. The repository can be inspected by executives, developers, reviewers, operators, and governance stakeholders without requiring one audience to read everything."
   },
   {
-    "title": "No Data / No Funds",
-    "url": "no-data-no-funds.html",
-    "category": "Trust",
-    "description": "Public-alpha hard boundary.",
-    "thesis": "No user data. No user funds."
+    "title": "Agent Foundry",
+    "url": "agents.html",
+    "headline": "Agents that manage agents remain governed by proof.",
+    "text": "The META-AGENTIC \u03b1\u2011AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance. Agents are not treated as free-floating personalities. They are accountable work units with roles, permissions, evidence duties, and retirement criteria. No agent output is promoted to capability without an Evidence Docket and validation status."
   },
   {
-    "title": "Privacy",
-    "url": "privacy.html",
-    "category": "Trust",
-    "description": "Privacy notice.",
-    "thesis": "We do not want your data."
+    "title": "AGI Jobs Ledger",
+    "url": "jobs.html",
+    "headline": "Bounded work packets with evidence obligations.",
+    "text": "The AGI Jobs layer turns missions into proof jobs: concrete units of work with owners, tools, traces, acceptance criteria, and settlement requirements. A useful job is small enough to verify and rich enough to produce meaningful work. The ledger gives non-technical reviewers a clean way to see what happened and why it passed or failed."
   },
   {
-    "title": "Trust Boundary",
-    "url": "trust-boundary.html",
-    "category": "Trust",
-    "description": "Privacy, data, token, claim, and public-alpha boundary.",
-    "thesis": "No user data. No user funds."
+    "title": "Node Runtime",
+    "url": "node.html",
+    "headline": "Operator control for autonomous work.",
+    "text": "The Node Runtime maps AGI Alpha Node v0 into a GoalOS operator plane: identity, validator gating, pause/resume, telemetry, release state, and rollback authority. The runtime is designed so operators can stop, review, redirect, or roll back work when the evidence or risk posture requires it. Runtime control is architectural in this repository and does not imply production authorization or user-fund authorization."
+  },
+  {
+    "title": "Evidence Layer",
+    "url": "evidence.html",
+    "headline": "Proof that can be reviewed, reproduced, and challenged.",
+    "text": "Evidence Dockets are the core institutional unit: claims, source provenance, contradiction registers, tool traces, verifier reports, costs, risks, and outcomes. An Evidence Docket should make it easy to understand the work without trusting the agent blindly. No strong public claim should be published unless a docket can carry it."
+  },
+  {
+    "title": "Governance",
+    "url": "governance.html",
+    "headline": "The system remains ambitious because it remains bounded.",
+    "text": "Governance turns proof into controlled decisions: accept, reject, block, defer, request more evidence, release internally, or publish externally. The repository favors boringly clear decision records over vague autonomous behavior. The repo is easier to trust because its claims are intentionally constrained."
+  },
+  {
+    "title": "Trust Center",
+    "url": "trust-center.html",
+    "headline": "A public proof surface for serious reviewers.",
+    "text": "The Trust Center organizes the public proof, standards, claim boundary, QA reports, and operator guidance that make the repository credible. Visitors should be able to find what the system claims, what it does not claim, what artifacts exist, and how validation works. The Trust Center is designed for procurement, board review, partner diligence, and community review."
+  },
+  {
+    "title": "Operator Console Blueprint",
+    "url": "operators.html",
+    "headline": "A clear cockpit for mission control.",
+    "text": "The operator experience is built around visible mission status, evidence completeness, validation state, risk posture, and publication readiness. The intended product experience is a cockpit, not a chat window. Every important status should be readable without opening code."
+  },
+  {
+    "title": "Pilot Program",
+    "url": "pilot-program.html",
+    "headline": "Start with bounded missions that prove the workflow.",
+    "text": "The recommended first deployment is not open-ended autonomy. It is a controlled pilot with bounded missions, clear baselines, validation, and evidence review. Pick work where proof matters and outcomes can be judged. The pilot succeeds when the review process is faster, clearer, safer, and more reusable than ad hoc AI work."
+  },
+  {
+    "title": "Enterprise Readiness",
+    "url": "enterprise.html",
+    "headline": "Built for institutional review, not just developer novelty.",
+    "text": "The repository includes procurement, compliance, risk, board, data-room, and operating-metric surfaces so serious organizations can evaluate it. A technical repo becomes enterprise-readable when it includes governance, operations, assurance, and rollout materials. This is a launch-grade public package; production deployment still requires implementation review, security review, and authorized operating procedures."
+  },
+  {
+    "title": "Standards",
+    "url": "standards.html",
+    "headline": "A shared language for proof-settled work.",
+    "text": "The standards directory defines the artifact contracts and review expectations that keep missions auditable and interoperable. The repository ships with twelve GoalOS standards covering mission contracts, proof jobs, tool traces, evidence dockets, validator reports, Chronicle entries, settlement receipts, agent cards, publication dockets, release gates, and scorecards. Reusable capability requires stable forms. Standards let different agents, validators, and operators understand the same proof objects."
+  },
+  {
+    "title": "Schema Registry",
+    "url": "schema-registry.html",
+    "headline": "Proof artifacts that software can validate.",
+    "text": "JSON schemas make the proof surface machine-readable, testable, and automation-friendly. Schemas do not make claims true. They make proof artifacts structured enough to validate, compare, index, and review. Mission contracts, proof jobs, tool traces, evidence dockets, validator reports, risk ledgers, settlement receipts, capability packages, Chronicle entries, and more."
+  },
+  {
+    "title": "Evaluation",
+    "url": "evaluation.html",
+    "headline": "Evidence before stronger claims.",
+    "text": "The evaluation program defines how missions are compared against baselines, reviewed by validators, tested with delayed outcomes, and documented for reproduction. A strong empirical claim needs task definition, baseline, proof bundle, replay or reproduction path, validator report, cost ledger, risk ledger, and delayed-outcome review. Without an Evidence Docket, the system should not make a strong empirical claim."
+  },
+  {
+    "title": "Proof Economy",
+    "url": "proof-economy.html",
+    "headline": "Verified work becomes reusable capability.",
+    "text": "The Sovereign Machine Economy is modeled as a proof-settled loop: work only becomes reusable economic capacity after evidence and validation. Missions produce proof jobs; proof jobs produce dockets; accepted dockets produce settlement receipts; settled work becomes Chronicle entries and capability packages. This is an architectural model, not a financial return claim, investment offering, or production settlement system."
+  },
+  {
+    "title": "Release Gates",
+    "url": "release-gates.html",
+    "headline": "Do not publish what the evidence cannot carry.",
+    "text": "Release gates protect the public repository by checking site quality, claim boundaries, schema validity, proof reports, and rollback readiness. The action runs site QA, claim scan, repository validation, artifact hashing, scorecard computation, demo mission, and unit tests before deployment. A release without a rollback path should not be treated as complete."
+  },
+  {
+    "title": "Security",
+    "url": "security.html",
+    "headline": "Safety through limits, review, and transparent boundaries.",
+    "text": "The repository avoids implying production security. It provides a public security posture, responsible disclosure process, secrets guidance, and review expectations. Least privilege, no secrets in public proof artifacts, bounded claims, review gates, artifact digests, and human authorization for sensitive transitions. The repository is not a completed external audit and should not be represented as one."
+  },
+  {
+    "title": "Roadmap",
+    "url": "roadmap.html",
+    "headline": "A practical path from public scaffold to serious pilot.",
+    "text": "The roadmap moves from repository launch to pilot mission packs, validator integrations, proof APIs, operator console, trust center, and production hardening. Launch the public proof surface, run controlled pilots, expand validation, implement APIs, add operator UI, then pursue independent review. Each roadmap step needs evidence of usefulness, risk control, cost, and reproducibility before stronger claims."
+  },
+  {
+    "title": "Source Lineage",
+    "url": "source-lineage.html",
+    "headline": "One GoalOS-native surface for prior lineages.",
+    "text": "The repository integrates the previous META-AGENTIC \u03b1\u2011AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline. Agent creation and evaluation become the Agent Foundry; node owner controls become the Node Runtime; jobs and CI discipline become the AGI Jobs Ledger; Mission OS supplies the proof-to-action architecture. The repo preserves a strict distinction between architecture, demonstration, evidence, and production authorization."
+  },
+  {
+    "title": "Repository Map",
+    "url": "repository-map.html",
+    "headline": "Know where everything lives.",
+    "text": "The repository is organized so non-technical operators, developers, reviewers, and executives can find their path quickly. content for website source, docs for operating manuals, standards for artifact rules, schemas for contracts, examples for proof objects, scripts for automation, public for generated website, and reports for QA outputs. START_HERE.md, README.md, CLAIMS.md, docs/NON_TECHNICAL_OPERATOR_MANUAL.md, docs/EXECUTIVE_INSTITUTIONAL_BRIEF.md, and reports/site-qa.json."
+  },
+  {
+    "title": "Launch Package",
+    "url": "launch.html",
+    "headline": "A polished public release surface.",
+    "text": "The launch package includes repository About copy, topics, website copy, demo script, stakeholder guide, and a non-technical GitHub UI path. GoalOS turns autonomous AI work into evidence-bearing institutional capability. goalos, agialpha, sovereign-machine-economy, autonomous-ai, evidence-docket, proof-bundles, validator-mesh, governed-ai, machine-labor, institutional-ai."
+  },
+  {
+    "title": "FAQ",
+    "url": "faq.html",
+    "headline": "Straight answers for non-technical reviewers.",
+    "text": "This FAQ explains what the repository is, what the action does, what the website is, and what the project does not claim. No. It is a launch-grade repository, proof architecture, product scaffold, standards package, and website generator. Production use requires further implementation and review. Yes, in direct commit mode. It creates files, runs QA, commits generated artifacts, and publishes Pages. Use dry run or pull request mode for a safer review path."
+  },
+  {
+    "title": "Executive Brief",
+    "url": "executive-brief.html",
+    "headline": "The boardroom explanation in one page.",
+    "text": "GoalOS is a disciplined way to convert AI output into reviewable work, reviewable work into trusted decisions, and trusted decisions into reusable capability. Organizations are adopting agentic systems faster than their evidence, governance, and audit practices can mature. GoalOS makes proof the operating primitive. What was done? What evidence supports it? What did it cost? What risks remain? Who validated it? Can it be reused?"
+  },
+  {
+    "title": "Claim Boundary",
+    "url": "claim-boundary.html",
+    "headline": "Ambition without unsupported claims.",
+    "text": "This repository is a research, product, and governance scaffold. It does not claim achieved AGI, ASI, superintelligence, empirical SOTA, guaranteed security, guaranteed returns, legal approval, tax approval, production authorization, user-fund authorization, autonomous legal sovereignty, mainnet activation, or civilization-scale capability. It does not claim achieved AGI, ASI, empirical SOTA, production authorization, external audit completion, guaranteed returns, legal approval, tax approval, user-fund authorization, or civilization-scale capability. Real tasks, baselines, Evidence Dockets, replay logs, validator reports, cost and safety ledgers, delayed outcomes, and independent review."
+  },
+  {
+    "title": "Adoption Playbook",
+    "url": "adoption.html",
+    "headline": "How a serious organization would start.",
+    "text": "Adoption should begin with bounded, low-risk proof missions and expand only after evidence quality, operator experience, and review practices are strong. Launch the repository, run a proof mission, review dockets, tune schemas, define validators, and create a pilot scorecard. Add domain-specific mission templates, verifier rosters, operator dashboards, and a private evidence store."
+  },
+  {
+    "title": "Data Room",
+    "url": "data-room.html",
+    "headline": "Diligence-ready public materials.",
+    "text": "The repository includes a data-room index for reviewers who need fast access to architecture, governance, security, claim boundaries, QA reports, standards, and pilot design. Executive brief, trust center, standards registry, security posture, claim boundary, release gates, repository validation, and artifact digest reports. In a real deployment, sensitive inputs, customer data, secrets, credentials, and private validator notes stay out of public Pages."
+  },
+  {
+    "title": "Operating Metrics",
+    "url": "metrics.html",
+    "headline": "Measure proof quality, not just activity.",
+    "text": "GoalOS metrics focus on mission completion quality: evidence completeness, validation pass rate, contradiction resolution, cost, latency, rollback frequency, and capability reuse. Docket completeness, validation latency, rejected claim rate, unresolved risk count, replay success, cost per accepted mission, and capability reuse count. Agent count, message count, and token volume are not proof of institutional value."
+  },
+  {
+    "title": "Website Autopilot",
+    "url": "website-autopilot.html",
+    "headline": "A public site generated from proof-aligned source.",
+    "text": "The website is generated from content/site_manifest.json, checked by automation, and deployed through GitHub Pages. Change content/site_manifest.json, rerun the workflow, and the public pages regenerate. The generated site includes the claim boundary, status JSON, search index, sitemap, and QA checks."
+  },
+  {
+    "title": "Troubleshooting",
+    "url": "troubleshooting.html",
+    "headline": "What to do when GitHub does not behave as expected.",
+    "text": "Most launch issues are settings issues: Pages source, workflow permissions, missing workflow_dispatch, or a typo in the workflow file path. Check that the file path is exactly .github/workflows/goalos-ascension-autopilot.yml, Actions are enabled, workflow permissions are read/write, and Pages source is GitHub Actions. Open Actions, wait for the deploy job to finish, then open Settings \u2192 Pages for the final URL."
+  },
+  {
+    "title": "Evidence to Scale",
+    "url": "evidence-to-scale.html",
+    "headline": "Institutional ambition, tested by evidence.",
+    "text": "The evidence-to-scale layer distinguishes vision from counted proof and blocks strong public claims until source-verifiable artifacts exist. The repository now has market evidence schemas, pilot outcome dockets, proof velocity metrics, public metrics ledgers, and an evidence room index. Product, usage, customer discovery, design partner, pilot, benchmark, commercial, independent validation, fair-value support, and governance evidence are tracked separately."
+  },
+  {
+    "title": "Proof Velocity",
+    "url": "proof-velocity.html",
+    "headline": "Measure how quickly work becomes validated capability.",
+    "text": "Proof velocity measures the time from mission start to Evidence Docket, validation, settlement, Chronicle entry, and reuse. High proof velocity requires bounded missions, complete evidence, validator review, and reusable capability packages. The repository tracks missions completed, dockets created, validator reports, release gates, capability packages, reuse events, and review cycle time."
+  },
+  {
+    "title": "Evidence Room",
+    "url": "evidence-room.html",
+    "headline": "A structured data room for what can be proven.",
+    "text": "The evidence room indexes artifacts, source provenance, confidentiality, public claim permission, and review status. Public pages can show aggregates, hashes, and redacted summaries. Sensitive customer, commercial, or legal records stay private unless publication rights are clear. A stakeholder can see what is built, tested, validated, confidential, and still pending without relying on marketing language."
+  },
+  {
+    "title": "Pilot Proof",
+    "url": "pilot-proof.html",
+    "headline": "Every serious pilot ends with a docket.",
+    "text": "Pilot evidence requires a bounded mission, success criteria, baseline, execution record, validator decision, and follow-up status. The system is designed for named use cases, pre-agreed success criteria, replayable evidence, and post-pilot acceptance records. Pilots are recorded as in progress, completed pending review, validated success, validated mixed, or not validated."
+  },
+  {
+    "title": "Strategic Evidence Scorecard",
+    "url": "strategic-evidence-scorecard.html",
+    "headline": "What can be proven today?",
+    "text": "The scorecard separates institutional infrastructure readiness from external market proof and recommends the public statement that evidence can carry. Institutional infrastructure can be strong while market evidence remains pending. That separation protects trust. The gate requires verified evidence across product, usage, customer, pilot, benchmark, commercial, independent validation, fair-value support, and governance categories."
+  },
+  {
+    "title": "Public Metrics Ledger",
+    "url": "public-metrics-ledger.html",
+    "headline": "Publish the metrics that proof can support.",
+    "text": "The public metrics ledger exposes proof velocity and evidence completeness while keeping sensitive records private. The ledger can publish aggregate mission counts, validation counts, reuse rates, and evidence completeness without revealing private customer records. Private records can be represented by hashes, source classes, and reviewer notes when full disclosure is not appropriate."
+  },
+  {
+    "title": "Independent Validation",
+    "url": "independent-validation.html",
+    "headline": "Internal proof becomes stronger when reviewed independently.",
+    "text": "The validation protocol gives external reviewers a Mission Contract, Claims Matrix, Evidence Docket, Risk Ledger, replay notes, and acceptance criteria. Validators return a decision, confidence level, evidence gaps, reproduction notes, limitations, and publication recommendation. Independent review does not replace judgment, but it improves the evidential quality of serious public claims."
+  },
+  {
+    "title": "Commercial Evidence",
+    "url": "commercial-evidence.html",
+    "headline": "Commercial signals are counted carefully and disclosed responsibly.",
+    "text": "Commercial evidence can include signed records, paid pilots, procurement progression, renewals, and expansion signals, but sensitive details stay private by default. A commercial signal counts only when it has a date, owner, source record, confidentiality level, and public claim permission. Names, revenue amounts, contract terms, and legal records are not published unless permission is clear."
   }
 ]
