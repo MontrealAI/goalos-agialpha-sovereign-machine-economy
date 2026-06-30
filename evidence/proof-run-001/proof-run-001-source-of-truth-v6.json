@@ -1,15 +1,15 @@
 {
   "docket_id": "GOALOS-PROOF-RUN-001-SOURCE-OF-TRUTH-V6",
   "version": "0.31.5",
-  "generated_at_utc": "2026-06-30T15:41:59+00:00",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
   "decision_state": "REVIEW_READY",
   "readiness": 100,
   "gates_passed": 10,
   "gates_total": 10,
   "counts": {
     "public_pages": 134,
-    "evidence_files": 58,
-    "reports": 184,
+    "evidence_files": 59,
+    "reports": 190,
     "src_python_modules": 15,
     "scripts": 116,
     "workflows": 51

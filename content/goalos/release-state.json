@@ -2,7 +2,7 @@
   "version": "0.31.5",
   "release_label": "source-of-truth-v6",
   "recommended_tag": "v0.31.5-source-of-truth-v6",
-  "generated_at_utc": "2026-06-30T15:41:59+00:00",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
   "source_of_truth": "committed public/ source plus reports, evidence, registry, and release-state metadata",
   "public_pages": 134,
   "core_routes": 22,

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T15:41:59+00:00",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
   "routes": [
     {
       "name": "Action-Reason Trace Contract",
@@ -1202,7 +1202,7 @@
       "role": "documentation module",
       "path": "site-health.html",
       "title": "Site Health · GoalOS",
-      "sha16": "bc88b0117adf24b1"
+      "sha16": "991c80fc97cc94a6"
     },
     {
       "name": "Site Map",
@@ -2337,8 +2337,8 @@
       "state": "REVIEW_READY",
       "role": "receipt/audit module",
       "path": "proof-run-001-docket.html",
-      "title": "GoalOS Proof Run 001 — Docket Room V2",
-      "sha16": "33199ac27d31712c"
+      "title": "Proof Run 001 Docket · GoalOS",
+      "sha16": "2a847a3cc388332e"
     },
     {
       "name": "Proof Run 001 Live",

@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "generated_at_utc": "2026-06-30T15:41:59+00:00",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
   "version": "0.31.5",
   "release_label": "source-of-truth-v6",
   "route_health": {
     "status": "passed",
-    "generated_at_utc": "2026-06-30T15:41:59+00:00",
+    "generated_at_utc": "2026-06-30T15:51:11+00:00",
     "public_pages": 134,
     "broken_links": [],
     "token_boundary_present": true,
@@ -18,8 +18,8 @@
   "gates_total": 10,
   "counts": {
     "public_pages": 134,
-    "evidence_files": 58,
-    "reports": 184,
+    "evidence_files": 59,
+    "reports": 190,
     "src_python_modules": 15,
     "scripts": 116,
     "workflows": 51
