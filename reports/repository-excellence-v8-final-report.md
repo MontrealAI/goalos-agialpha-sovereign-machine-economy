@@ -1,10 +1,29 @@
 # Repository Excellence V8 Final Report
 
-Generated: 2026-06-30T18:27:57Z
+Generated: 2026-06-30T19:23:29Z
 
-Status: passed after V8 fixes. `.pytest_cache` was removed and final QA was rerun.
+## Status
+
+Passed local V8 hardening verification. A transient `.pytest_cache` directory initially blocked repository validation and was removed before final verification.
+
+## QA commands
+
+- `python scripts/validate_repo.py`: passed; repository validation passed with 114 review warnings.
+- `python scripts/build_site.py`: passed; generated 39 pages in `public/`.
+- `python scripts/verify_site.py`: passed; 134 public pages, 4,713 checked links, 0 broken links, 0 boundary gaps.
+- `python -m unittest discover -s tests`: passed; 14 tests.
+- `python -m pytest -q`: passed; 18 tests.
+- `python -m compileall -q scripts src tests`: passed.
+- `python scripts/validate_claims.py`: passed; 554 checked files, 0 blockers.
+- `python scripts/goalos_docs_quality.py`: passed; 0 blockers.
+- `python scripts/goalos_site_quality.py`: passed; 0 blocking issues.
 
 ## Known limitations
 
-- Architecture and repository-readiness claims only; no achieved AGI/ASI or empirical SOTA claim.
-- Human review remains required.
+- Repository validation still emits review warnings for restricted phrases in bounded contexts; `validate_claims.py` reports 0 blockers.
+- The current claim is repository-readiness and proof architecture, not achieved AGI/ASI or empirical SOTA.
+- Proof Run 001 remains public-alpha evidence requiring independent review.
+
+## Next recommended move
+
+Human maintainer review, then run GitHub Actions quality workflows before publication.
