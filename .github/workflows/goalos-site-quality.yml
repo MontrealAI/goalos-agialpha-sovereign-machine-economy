@@ -20,6 +20,7 @@ jobs:
       - name: Run site quality checks
         run: python scripts/goalos_site_quality.py
       - name: Upload site quality reports
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: goalos-site-quality-reports

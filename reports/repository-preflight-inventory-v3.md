@@ -12,11 +12,11 @@ Baseline inventory generated locally. It is informational and does not fail the 
 
 ## public_pages
 
-134
+135
 
 ## scripts
 
-114
+115
 
 ## src_modules
 
@@ -28,15 +28,15 @@ Baseline inventory generated locally. It is informational and does not fail the 
 
 ## reports
 
-177
+183
 
 ## workflows
 
-49
+50
 
 ## issue_templates
 
-48
+50
 
 ## pull_request_template_status
 
@@ -80,31 +80,31 @@ True
 
 ## missing_recommended_templates
 
-2
+0
 
 ## duplicate_or_stale_docs
 
-Not exhaustively determined; v1/v2/v3/v4 historical artifacts are intentionally retained where present.
+Historical versioned docs and reports are intentionally retained where present.
 
 ## broken_looking_internal_links
 
-See docs-quality report for local link scan.
+See docs-quality and site-quality reports.
 
 ## unsupported_strong_claims
 
-No new unsupported claims intentionally added; see QA report.
+No unsupported strong claims detected by local QA scope.
 
 ## token_boundary_risks
 
-Token-related public pages exist; boundary docs state public contract identification only and no availability from repository/site/maintainers.
+Token-related public pages are bounded as public contract identification only with no sale/custody/wallet support.
 
 ## no_data_no_funds_boundary_gaps
 
-See site-quality report for page-level boundary-link coverage.
+No blocking gaps in current site-quality report.
 
 ## pages_not_listed_in_sitemap_or_search_index
 
-0
+88
 
 ## generated_at
 

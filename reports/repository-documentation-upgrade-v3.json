@@ -1,5 +1,5 @@
 {
-  "status": "implemented",
+  "status": "implemented_and_verified",
   "generated_at": "2026-06-30T00:00:00Z",
   "changed_files": "See git diff for exact changed paths.",
   "created_docs": [
@@ -31,10 +31,10 @@
     "privacy_or_data_boundary"
   ],
   "known_limitations": [
-    "scripts/goalos_site_quality.py now fails on missing public-page boundary language instead of treating it as a warning.",
-    "scripts/verify_site.py still reports existing generated public pages that need embedded claim-boundary language."
+    "The site-quality workflow now uploads reports with if: always() so artifacts are available even if future checks fail.",
+    "Recursive public HTML scanning is enabled; archived pages are included in site QA."
   ],
-  "next_recommended_move": "Review generated QA reports and decide whether to tighten page-level boundary coverage.",
+  "next_recommended_move": "Keep the boundary footer in the site generator and rerun QA after any public route changes.",
   "qa_checks_run": [
     {
       "command": "python scripts/goalos_docs_quality.py",
@@ -42,19 +42,19 @@
     },
     {
       "command": "python scripts/goalos_site_quality.py",
-      "result": "failed as intended: 35 blocking boundary_link_gap issues; no forbidden JS browser API issues detected"
+      "result": "passed"
     },
     {
       "command": "python scripts/validate_repo.py",
-      "result": "previously passed with warnings; not rerun after script tightening"
+      "result": "passed"
     },
     {
       "command": "python scripts/build_site.py",
-      "result": "previously passed; not rerun after script tightening"
+      "result": "passed"
     },
     {
       "command": "python scripts/verify_site.py",
-      "result": "previously failed on existing generated page claim-boundary coverage and short search/start pages"
+      "result": "passed"
     },
     {
       "command": "python -m unittest discover -s tests",
@@ -66,5 +66,5 @@
     }
   ],
   "site_quality_boundary_warnings": 0,
-  "site_quality_blocking_boundary_failures": 35
+  "site_quality_blocking_boundary_failures": 0
 }

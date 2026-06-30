@@ -1,6 +1,6 @@
 # Repository Documentation Upgrade v3
 
-Status: implemented with blocking site-boundary failures intentionally exposed.
+Status: implemented and verified.
 
 ## Summary
 
@@ -11,23 +11,25 @@ Upgraded repository-readiness documentation surfaces, routeable demo metadata, s
 | Command | Result |
 |---|---|
 | `python scripts/goalos_docs_quality.py` | passed |
-| `python scripts/goalos_site_quality.py` | failed as intended: 35 blocking `boundary_link_gap` issues are now surfaced |
-| `python scripts/validate_repo.py` | previously passed with warnings |
-| `python scripts/build_site.py` | previously passed; generated public pages |
-| `python scripts/verify_site.py` | previously failed on existing generated page claim-boundary coverage and short search/start pages |
+| `python scripts/goalos_site_quality.py` | passed |
+| `python scripts/validate_repo.py` | passed |
+| `python scripts/build_site.py` | passed |
+| `python scripts/verify_site.py` | passed |
 | `python -m unittest discover -s tests` | passed |
 | `python -m compileall scripts src` | passed |
 
 ## Inline review fixes
 
-- Missing no-data/no-funds/human-review boundary copy is now a blocking site-quality failure.
+- The site-quality workflow now uploads reports with `if: always()` so reviewers receive artifacts even when checks fail.
+- Recursive public HTML scanning now includes nested published routes such as archived pages.
+- Missing no-data/no-funds/human-review boundary copy remains a blocking site-quality failure.
 - Local `public/assets/**/*.js` files and locally referenced script assets are scanned for forbidden browser APIs.
-- `fetch(` is now included in forbidden browser network-call detection.
+- `fetch(` is included in forbidden browser network-call detection.
 
-## Known limitations
+## Boundary correction
 
-- Existing public pages need a compact public-alpha boundary footer or equivalent link before `scripts/goalos_site_quality.py` and `scripts/verify_site.py` can pass together.
+Generated and static public pages now include a compact public-alpha Claim Boundary block with no-user-data, no-user-funds, no-wallet, no-transaction, and human-review-required language.
 
 ## Next recommended move
 
-Patch the site generator templates so every generated page includes a compact public-alpha boundary footer and then rerun `python scripts/build_site.py`, `python scripts/goalos_site_quality.py`, and `python scripts/verify_site.py`.
+Keep the boundary footer in `scripts/build_site.py` and rerun docs QA, site QA, repository validation, site verification, and unit tests after any public route changes.

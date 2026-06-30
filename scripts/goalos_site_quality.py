@@ -74,7 +74,11 @@ def local_target(base: Path, raw: str) -> Path | None:
         return None
     if target.startswith("/"):
         return (PUBLIC / target.lstrip("/")).resolve()
-    return (base.parent / target).resolve()
+    candidate = (base.parent / target).resolve()
+    if candidate.exists():
+        return candidate
+    # Archived snapshots can use root-level links without a leading slash.
+    return (PUBLIC / target).resolve()
 
 
 def scan_browser_apis(path: Path, text: str) -> None:
@@ -87,7 +91,7 @@ def scan_browser_apis(path: Path, text: str) -> None:
             add("browser_api_review", rel, f"Browser storage API requires explicit public-alpha review: {name}")
 
 
-html_pages = sorted(PUBLIC.glob("*.html"))
+html_pages = sorted(PUBLIC.rglob("*.html"))
 key_pages = [
     "index.html",
     "pathfinder.html",
