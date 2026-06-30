@@ -1,11 +1,11 @@
 {
   "version": "Repository Excellence V8",
-  "generated_at": "2026-06-30T18:27:57Z",
+  "generated_at": "2026-06-30T19:22:24Z",
   "source_of_truth_layer": "Repository Excellence V8 over v0.32.0-final-hardening-v7",
   "public_pages_count": 134,
-  "reports_count": 196,
+  "reports_count": 205,
   "evidence_files_count": 62,
-  "workflows_count": 52,
+  "workflows_count": 54,
   "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required. Browser-local demos remain browser-local.",
   "token_boundary": "$AGIALPHA public contract identification only. Not available from this repository, website, maintainers, GitHub Issues, demos, workflows, docs, or public dockets. No sale, custody, wallet, bridge, exchange, liquidity, trading, investment, legal, tax, or regulatory advice.",
   "route_health_summary": {

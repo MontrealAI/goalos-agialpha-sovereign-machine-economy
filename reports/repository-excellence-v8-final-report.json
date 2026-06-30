@@ -1,6 +1,6 @@
 {
-  "status": "passed after V8 fixes",
-  "generated_at": "2026-06-30T18:27:57Z",
+  "status": "passed",
+  "generated_at": "2026-06-30T19:23:29Z",
   "files_changed_summary": [
     "README editorial rewrite",
     "V8 release-state and reports",
@@ -10,17 +10,21 @@
     ".pytest_cache removed"
   ],
   "qa_commands_run": {
-    "python -m pytest -q": "passed: 18 passed",
+    "python scripts/validate_repo.py": "passed: Repository validation passed; 114 warnings for review",
+    "python scripts/build_site.py": "passed: generated 39 pages in public/",
+    "python scripts/verify_site.py": "passed: 134 public pages, 4713 links, 0 broken links, 0 boundary gaps",
+    "python -m unittest discover -s tests": "passed: 14 tests",
+    "python -m pytest -q": "passed: 18 tests",
     "python -m compileall -q scripts src tests": "passed",
-    "python scripts/validate_repo.py": "failed initially: .pytest_cache should not be included; fixed by removing .pytest_cache",
-    "python scripts/validate_claims.py": "passed: 0 blockers",
-    "python scripts/verify_site.py": "passed: 0 broken links, 0 boundary gaps",
-    "python scripts/goalos_docs_quality.py": "passed",
-    "python scripts/goalos_site_quality.py": "passed"
+    "python scripts/validate_claims.py": "passed: 554 files checked, 0 blockers",
+    "python scripts/goalos_docs_quality.py": "passed: 0 blockers",
+    "python scripts/goalos_site_quality.py": "passed: 0 blocking issues"
   },
   "known_limitations": [
-    "Architecture and repository-readiness claims only; no achieved AGI/ASI or empirical SOTA claim.",
+    "Repository warnings remain as review prompts for restricted phrases in bounded contexts; claim scanner reports 0 blockers.",
+    "The current claim is repository-readiness and proof architecture, not achieved AGI/ASI or empirical SOTA.",
     "Proof Run 001 remains public-alpha evidence requiring independent review."
   ],
-  "next_recommended_move": "Run the required local checks, review the V8 reports, then publish only after human maintainer review."
+  "next_recommended_move": "Human maintainer review, then run GitHub Actions quality workflows before publication.",
+  "boundary": "No user data. No user funds. No wallet. Human review required."
 }
