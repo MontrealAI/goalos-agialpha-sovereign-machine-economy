@@ -1,0 +1,17 @@
+{
+  "docket_id": "WEBSITE-EXPERIENCE-OS-V5",
+  "generated_at": "2026-06-30T13:00:24+00:00",
+  "claim": "The public website has a production-grade public-alpha navigation and route-integrity layer.",
+  "claim_boundary": "This is a website UX and QA claim, not empirical AGI/ASI/SOTA, production authorization, security certification, or legal/financial advice.",
+  "decision_state": "REVIEW_READY",
+  "evidence": {
+    "qa_report": "reports/website-experience-os-v5-qa.json",
+    "route_health": "reports/website-experience-os-v5-route-health.json",
+    "site_health_page": "public/site-health.html",
+    "registry": "public/demo-ecosystem-registry.html",
+    "site_map": "public/site-map.html",
+    "trust_boundary": "public/trust-boundary.html",
+    "token_boundary": "public/token-boundary.html"
+  },
+  "public_alpha_boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

@@ -176,3 +176,21 @@ The public website has been upgraded into a production-grade public-alpha naviga
 
 Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
 
+<!-- GOALOS_WEBSITE_EXPERIENCE_OS_V5_START -->
+## GoalOS Website Experience OS V5
+
+The public website now has a production UX layer: unified navigation, role-based Pathfinder, searchable Demo Ecosystem Registry, public site map, trust/token boundary pages, route integrity QA, and a browser-local command palette.
+
+Key routes:
+
+- [Website](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html)
+- [Pathfinder](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/pathfinder.html)
+- [Demo Ecosystem Registry](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/demo-ecosystem-registry.html)
+- [Public Proof Ledger](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-ledger.html)
+- [Proof Run 001 Docket](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html)
+- [External Reviewer Replay Room](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-reviewer-replay-room.html)
+- [Trust Boundary](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/trust-boundary.html)
+- [$AGIALPHA Token Boundary](https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/token-boundary.html)
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+<!-- GOALOS_WEBSITE_EXPERIENCE_OS_V5_END -->

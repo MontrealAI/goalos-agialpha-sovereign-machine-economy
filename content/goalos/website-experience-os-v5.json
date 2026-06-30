@@ -1,0 +1,16 @@
+{
+  "version": "v5",
+  "generated_at": "2026-06-30T13:00:24+00:00",
+  "route_count": 134,
+  "core_demo_count": 14,
+  "qa_status": "passed",
+  "entrypoints": [
+    "index.html",
+    "pathfinder.html",
+    "demo-ecosystem-registry.html",
+    "site-map.html",
+    "site-health.html",
+    "trust-boundary.html",
+    "token-boundary.html"
+  ]
+}
