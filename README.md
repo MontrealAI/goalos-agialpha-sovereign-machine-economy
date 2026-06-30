@@ -194,3 +194,24 @@ Key routes:
 
 Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
 <!-- GOALOS_WEBSITE_EXPERIENCE_OS_V5_END -->
+
+
+<!-- GOALOS_SOURCE_OF_TRUTH_V6 -->
+
+## Source-of-Truth V6 — canonical website/repository alignment
+
+GoalOS Source-of-Truth V6 aligns the committed website source, route registry, site health, Proof Run 001 docket, claim scanner, release metadata, and workflow tiers.
+
+Start here:
+
+- Website: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
+- Site Health: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/site-health.html
+- Proof Run 001 Docket: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-docket.html
+- Demo Ecosystem Registry: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/demo-ecosystem-registry.html
+- Token Boundary: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/token-boundary.html
+- Workflow tiers: [WORKFLOWS.md](WORKFLOWS.md)
+- Source-of-Truth V6 docs: [docs/SOURCE_OF_TRUTH_V6.md](docs/SOURCE_OF_TRUTH_V6.md)
+
+Boundary: **No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.**
+
+<!-- /GOALOS_SOURCE_OF_TRUTH_V6 -->

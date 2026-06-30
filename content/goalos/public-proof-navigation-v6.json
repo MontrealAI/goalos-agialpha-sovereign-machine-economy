@@ -1,16 +1,5 @@
 {
-  "version": "0.31.5",
-  "release_label": "source-of-truth-v6",
   "generated_at_utc": "2026-06-30T15:41:59+00:00",
-  "route_schema": [
-    "user action",
-    "mission/event type",
-    "selected demo engine",
-    "required inputs",
-    "proof gates",
-    "output artifact",
-    "next allowed state"
-  ],
   "routes": [
     {
       "name": "Action-Reason Trace Contract",
@@ -62,8 +51,8 @@
       "state": "ROUTE_AVAILABLE",
       "role": "documentation module",
       "path": "404.html",
-      "title": "Page not found · GoalOS",
-      "sha16": "6d3564a3ee26f1c3"
+      "title": "Page Not Found · GoalOS",
+      "sha16": "484e2c911a37f1cb"
     },
     {
       "name": "Adoption",
@@ -316,7 +305,7 @@
       "role": "documentation module",
       "path": "docs.html",
       "title": "Docs · GoalOS",
-      "sha16": "3935f7c735647c27"
+      "sha16": "232c612bcf7ab474"
     },
     {
       "name": "Document Series",
@@ -1167,7 +1156,7 @@
       "role": "documentation module",
       "path": "search.html",
       "title": "Search · GoalOS",
-      "sha16": "0d4c15e7b2c511e0"
+      "sha16": "37af6a3d15b1768e"
     },
     {
       "name": "Security",
@@ -1236,7 +1225,7 @@
       "role": "documentation module",
       "path": "site-map.html",
       "title": "Site Map · GoalOS",
-      "sha16": "0f291fe5f285646a"
+      "sha16": "00a3479451ff99bb"
     },
     {
       "name": "Source Lineage",
@@ -2627,7 +2616,7 @@
       "role": "navigation module",
       "path": "website-operating-system.html",
       "title": "Website Operating System · GoalOS",
-      "sha16": "f21dbb51738896e3"
+      "sha16": "6c50612b8c743950"
     },
     {
       "name": "Demo Ecosystem Registry",
@@ -2650,7 +2639,7 @@
       "role": "orchestration layer",
       "path": "demo-ecosystem-registry.html",
       "title": "Demo Ecosystem Registry · GoalOS",
-      "sha16": "568541f4e9b9fa6b"
+      "sha16": "c20a9dd58bc164c7"
     },
     {
       "name": "External Reviewer Replay Room",
@@ -2881,7 +2870,7 @@
       "role": "trust module",
       "path": "token-boundary.html",
       "title": "$AGIALPHA Token Boundary · GoalOS",
-      "sha16": "8a5f87e1a46feec9"
+      "sha16": "957517782b444ab8"
     },
     {
       "name": "Agialpha Token Boundary",
@@ -2947,7 +2936,7 @@
       "role": "trust module",
       "path": "data-boundary.html",
       "title": "Data Boundary · GoalOS",
-      "sha16": "8273bd16b941397f"
+      "sha16": "5f0eb5bdbaba58c8"
     },
     {
       "name": "Data Room",
@@ -3035,7 +3024,7 @@
       "role": "trust module",
       "path": "no-data-no-funds.html",
       "title": "No Data / No Funds · GoalOS",
-      "sha16": "418220b6fe9ab8f2"
+      "sha16": "2b2789a976781b6f"
     },
     {
       "name": "Privacy",
@@ -3057,7 +3046,7 @@
       "role": "trust module",
       "path": "privacy.html",
       "title": "Privacy · GoalOS",
-      "sha16": "c16e8b34f64aee1a"
+      "sha16": "2d3ffa1866c0c9e0"
     },
     {
       "name": "Security Boundary",
@@ -3145,7 +3134,7 @@
       "role": "trust module",
       "path": "trust-boundary.html",
       "title": "Trust Boundary · GoalOS",
-      "sha16": "c9e440912307a8be"
+      "sha16": "150ba62a00927144"
     },
     {
       "name": "Trust Center",
@@ -3166,9 +3155,8 @@
       "state": "BOUNDARY_READY",
       "role": "trust module",
       "path": "trust-center.html",
-      "title": "Trust Center · GoalOS Ascension",
-      "sha16": "3a5ea608b93c5d2d"
+      "title": "Trust Center · GoalOS",
+      "sha16": "636d6b96ec361eae"
     }
-  ],
-  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+  ]
 }

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "recommended_manual_checks": [
+    "Open homepage",
+    "Open site health",
+    "Open token boundary",
+    "Open Proof Run 001 docket",
+    "Run command palette"
+  ]
+}

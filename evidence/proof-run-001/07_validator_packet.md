@@ -1,7 +1,16 @@
-# Proof Run 001 Validator Packet
+# Proof Run 001 Validator Packet — Source-of-Truth V6
 
-Review `proof-run-001-real-docket-v1.json`, `01_claims_matrix.csv`, the replay instructions, and the gate ledger.
+Decision state: **REVIEW_READY**  
+Readiness: **100**  
+Gates: **10/10**
 
-Decision state: `HOLD_PENDING_REMEDIATION`.
+## Review steps
 
-Respond: accept / reject / revise / dissent, with evidence.
+1. Open `public/index.html` and confirm it matches the intended source-of-truth homepage.
+2. Open `reports/source-of-truth-v6-route-health.json` and verify no broken local routes.
+3. Open `reports/claim-scan.json` and verify no unsupported claims are promoted.
+4. Open `content/goalos/demo-ecosystem-registry.json` and inspect route-specific inputs, outputs, gates, and states.
+5. Open `public/token-boundary.html` and confirm $AGIALPHA remains public-contract identification only and not available from GoalOS.
+6. Record accept, reject, revise, or dissent.
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.

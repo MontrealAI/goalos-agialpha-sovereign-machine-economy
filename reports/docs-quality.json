@@ -1,5 +1,5 @@
 {
-  "status": "passed",
+  "status": "failed",
   "missing_files": [],
   "broken_links": [],
   "missing_sections": [],
@@ -93,6 +93,7 @@
     "docs/SCHEMA_REGISTRY.md",
     "docs/SECURITY_POSTURE.md",
     "docs/SITE_HEALTH.md",
+    "docs/SOURCE_OF_TRUTH_V6.md",
     "docs/SOVEREIGN_MACHINE_ECONOMY_MODEL.md",
     "docs/STAKEHOLDER_DEMO_SCRIPT.md",
     "docs/START_HERE.md",
@@ -116,7 +117,7 @@
     "TOKEN_BOUNDARY.md"
   ],
   "public_html_pages_found": 134,
-  "demo_registry_entries": 134,
+  "demo_registry_entries": 0,
   "required_docs": [
     "README.md",
     "CONTRIBUTING.md",
@@ -245,5 +246,11 @@
     "\\bavailable from (this repository|the repository|us|maintainers)\\b"
   ],
   "issue_template_confirmation": "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds.",
-  "issues": []
+  "issues": [
+    {
+      "kind": "invalid_demo_registry",
+      "path": "content/goalos/demo-ecosystem-registry.json",
+      "message": "Registry must include a non-empty demos list"
+    }
+  ]
 }

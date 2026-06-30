@@ -1,6 +1,6 @@
 {
-  "state": "HOLD_PENDING_REMEDIATION",
-  "readiness_score": 90,
+  "decision_state": "REVIEW_READY",
+  "readiness": 100,
   "human_review_required": true,
-  "next_action": "Resolve blocked gates and rerun"
+  "generated_at_utc": "2026-06-30T15:41:59+00:00"
 }

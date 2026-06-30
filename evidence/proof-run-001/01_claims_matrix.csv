@@ -1,7 +1,6 @@
-claim,status,evidence,boundary
-The repository has a broad public website surface for review.,supported,Page scan,Website presence is not empirical AGI/ASI/SOTA proof.
-The repository has local implementation modules behind the website story.,supported,Code module scan,"Reference implementation is public-alpha, not production certification."
-The repository has evidence and report artifacts.,supported,Artifact scan,Generated artifacts are not independent external validation.
-"The public boundary says no user data, no user funds, no wallet, no transaction, and human review required.",needs_revision,Boundary scan,Boundary text is not jurisdiction-specific legal advice.
-The public demos avoid common browser network/storage/wallet APIs.,supported,Static JS scan,Static scan is not formal security certification.
-Repository tests pass.,supported,pytest,Passing tests are not production certification.
+id,claim,status,evidence
+C-001,The committed source now contains the canonical website operating surface.,Supported,public/index.html; content/goalos/release-state.json
+C-002,The site has a route integrity report and no known local route dead-ends after repair.,Supported,reports/source-of-truth-v6-route-health.json
+C-003,The claim scanner is context-aware and distinguishes negated boundaries from unsupported claims.,Supported,scripts/validate_claims.py; reports/claim-scan.json
+C-004,"Proof Run 001 is repository-readiness evidence, not empirical AGI/ASI/SOTA validation.",Supported,claim boundary on proof-run-001-docket.html
+C-005,All public-alpha demos remain no-data/no-funds/no-wallet/no-transaction surfaces unless explicitly reviewed.,Supported,trust-boundary.html; reports/source-of-truth-v6-qa.json

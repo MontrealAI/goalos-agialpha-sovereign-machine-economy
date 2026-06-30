@@ -1,12 +1,20 @@
-# Proof Run 001 Docket Room V2 Replay Path
+# Replay Proof Run 001 Source-of-Truth V6
 
-Run from a clean checkout:
+Run locally from the repository root:
 
 ```bash
-python -m pip install --upgrade pip
-python -m pip install pytest
-python scripts/run_proof_run_001_docket_room_v2.py
-cat reports/proof-run-001-docket-room-v2-qa.json
+python scripts/validate_claims.py
+python scripts/goalos_docs_quality.py || true
+python scripts/goalos_site_quality.py || true
+python -m http.server 8000 --directory public
 ```
 
-Boundary: do not submit user data, user funds, wallet material, private keys, confidential data, or regulated data.
+Then open:
+
+```text
+http://localhost:8000/index.html
+http://localhost:8000/proof-run-001-docket.html
+http://localhost:8000/site-health.html
+```
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.

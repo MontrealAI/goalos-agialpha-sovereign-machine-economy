@@ -1,0 +1,12 @@
+{
+  "version": "0.31.5",
+  "release_label": "source-of-truth-v6",
+  "recommended_tag": "v0.31.5-source-of-truth-v6",
+  "generated_at_utc": "2026-06-30T15:41:59+00:00",
+  "source_of_truth": "committed public/ source plus reports, evidence, registry, and release-state metadata",
+  "public_pages": 134,
+  "core_routes": 22,
+  "external_actions": 0,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "claim_boundary": "Public-alpha. Not achieved AGI. Not achieved ASI. Not empirical SOTA. Not production authorization. Not investment, trading, legal, tax, exchange, bridge, liquidity, wallet, or regulatory advice."
+}
