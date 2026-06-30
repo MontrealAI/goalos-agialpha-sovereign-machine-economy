@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T00:00:00Z",
+  "generated_at": "2026-06-30T00:00:00Z",
   "status": "passed",
   "changed_files": [
     ".github/ISSUE_TEMPLATE/demo_bug_report.yml",
@@ -174,31 +174,19 @@
     ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml"
   ],
   "qa_checks_run": [
-    {
-      "command": "python scripts/goalos_docs_quality.py",
-      "status": "passed"
-    },
-    {
-      "command": "python scripts/validate_repo.py",
-      "status": "passed",
-      "notes": "Repository validation passed with existing warnings; see reports/repo-validation.json."
-    },
-    {
-      "command": "python scripts/build_site.py",
-      "status": "passed",
-      "notes": "Generated site pages in public/."
-    },
-    {
-      "command": "python scripts/verify_site.py",
-      "status": "passed",
-      "notes": "Passed after preserving claim-boundary/footer language on generated v2 navigation pages."
-    },
-    {
-      "command": "python -m unittest discover -s tests",
-      "status": "passed"
-    }
+    "python scripts/goalos_docs_quality.py",
+    "python scripts/validate_repo.py",
+    "python scripts/build_site.py",
+    "python scripts/verify_site.py",
+    "python -m unittest discover -s tests"
   ],
-  "results": "See reports/docs-quality.json; required checks run after this report.",
+  "results": {
+    "docs_quality": "passed",
+    "repo_validation": "passed with warnings",
+    "site_build": "passed",
+    "site_verify": "passed",
+    "unit_tests": "passed"
+  },
   "known_limitations": [
     "Large pre-existing documentation set includes historical v1/v2 docs; canonical routing now points to v2 public-alpha docs.",
     "No network validation was performed by docs QA by design."
