@@ -1331,7 +1331,7 @@
   },
   {
     "path": "404.html",
-    "title": "Page not found",
+    "title": "Page not found · GoalOS",
     "category": "Additional",
     "role": "existing-page",
     "thesis": "Existing public page preserved.",
@@ -1666,6 +1666,20 @@
     "absoluteUrl": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/standards.html"
   },
   {
+    "path": "start-here.html",
+    "title": "Start Here · GoalOS",
+    "category": "Additional",
+    "role": "existing-page",
+    "thesis": "Existing public page preserved.",
+    "description": "Discovered existing page preserved by V4.",
+    "inputs": "varies",
+    "outputs": "varies",
+    "gates": "public-alpha boundary",
+    "next": "review",
+    "live": true,
+    "absoluteUrl": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/start-here.html"
+  },
+  {
     "path": "start.html",
     "title": "Start Here · GoalOS Ascension",
     "category": "Additional",
@@ -1678,20 +1692,6 @@
     "next": "review",
     "live": true,
     "absoluteUrl": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/start.html"
-  },
-  {
-    "path": "start-here.html",
-    "title": "Start Here — GoalOS",
-    "category": "Additional",
-    "role": "existing-page",
-    "thesis": "Existing public page preserved.",
-    "description": "Discovered existing page preserved by V4.",
-    "inputs": "varies",
-    "outputs": "varies",
-    "gates": "public-alpha boundary",
-    "next": "review",
-    "live": true,
-    "absoluteUrl": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/start-here.html"
   },
   {
     "path": "strategic-evidence-scorecard.html",
