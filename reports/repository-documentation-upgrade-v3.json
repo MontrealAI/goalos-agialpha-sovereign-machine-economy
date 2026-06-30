@@ -32,7 +32,8 @@
   ],
   "known_limitations": [
     "The site-quality workflow now uploads reports with if: always() so artifacts are available even if future checks fail.",
-    "Recursive public HTML scanning is enabled; archived pages are included in site QA."
+    "Recursive public HTML scanning is enabled; archived pages are included in site QA.",
+    "The site generator now preserves every published HTML route in sitemap.xml."
   ],
   "next_recommended_move": "Keep the boundary footer in the site generator and rerun QA after any public route changes.",
   "qa_checks_run": [

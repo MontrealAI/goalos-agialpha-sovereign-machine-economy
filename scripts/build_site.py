@@ -169,6 +169,11 @@ const init=()=>{document.body.dataset.goalos='ready';const links=[...document.qu
     (assets / "social-preview.svg").write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><defs><radialGradient id="g" cx="20%" cy="0%"><stop offset="0" stop-color="#a78bfa"/><stop offset=".4" stop-color="#111126"/><stop offset="1" stop-color="#05050a"/></radialGradient></defs><rect width="1200" height="630" fill="url(#g)"/><circle cx="970" cy="150" r="170" fill="#f8d47a" opacity=".15"/><text x="70" y="120" fill="#f8d47a" font-family="Inter,Arial" font-size="28" font-weight="800" letter-spacing="4">GOALOS AGIALPHA ASCENSION</text><text x="70" y="255" fill="#fffaf0" font-family="Inter,Arial" font-size="78" font-weight="900">Sovereign Machine</text><text x="70" y="345" fill="#fffaf0" font-family="Inter,Arial" font-size="78" font-weight="900">Economy</text><text x="70" y="440" fill="#d9d0e8" font-family="Inter,Arial" font-size="34">AI creates output. GoalOS creates proof.</text><text x="70" y="520" fill="#fffaf0" font-family="Inter,Arial" font-size="28">No proof, no settlement · Public proof, private data</text></svg>''', encoding="utf-8")
 
 
+
+def clean_text(value: str) -> str:
+    """Normalize generated text files so repeated builds do not add trailing whitespace."""
+    return "\n".join(line.rstrip() for line in value.splitlines()) + "\n"
+
 def page_body(page: dict) -> str:
     return "\n".join(section_html(section) for section in page.get("sections", []))
 
@@ -180,7 +185,7 @@ def main() -> int:
     search = []
     for page in manifest["pages"]:
         filename = page_href(page["slug"])
-        document = shell(manifest, page, page_body(page))
+        document = clean_text(shell(manifest, page, page_body(page)))
         (PUBLIC / filename).write_text(document, encoding="utf-8")
         search.append({
             "title": page["title"],
@@ -188,18 +193,16 @@ def main() -> int:
             "headline": page.get("headline", ""),
             "text": page.get("body", "") + " " + " ".join(section.get("text", "") for section in page.get("sections", [])),
         })
-    manifest_urls = [page_href(page["slug"]) for page in manifest["pages"]]
-    important_static_pages = [
-        "pathfinder.html",
-        "demo-ecosystem-registry.html",
-        "agialpha-token-boundary.html",
-        "public-proof-ledger.html",
-        "proof-run-001-docket.html",
-        "external-reviewer-replay-room.html",
-    ]
-    sitemap_urls = manifest_urls + [
-        page for page in important_static_pages if (PUBLIC / page).exists() and page not in manifest_urls
-    ]
+    # Preserve every published HTML route in the sitemap, including static demo
+    # pages and archived public snapshots that are not generated from the
+    # manifest. This keeps reruns from shrinking sitemap.xml to manifest-only
+    # pages and making linked public routes undiscoverable.
+    sitemap_urls = sorted(
+        {path.relative_to(PUBLIC).as_posix() for path in PUBLIC.rglob("*.html")}
+    )
+    if "index.html" in sitemap_urls:
+        sitemap_urls.remove("index.html")
+        sitemap_urls.insert(0, "index.html")
     urls = "\n".join(f"  <url><loc>{url}</loc></url>" for url in sitemap_urls)
     (PUBLIC / "sitemap.xml").write_text(f'''<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}\n</urlset>\n''', encoding="utf-8")
     (PUBLIC / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: sitemap.xml\n", encoding="utf-8")

@@ -21,6 +21,7 @@ Upgraded repository-readiness documentation surfaces, routeable demo metadata, s
 ## Inline review fixes
 
 - The site-quality workflow now uploads reports with `if: always()` so reviewers receive artifacts even when checks fail.
+- The site generator now preserves every published HTML route in `sitemap.xml`, including static demos and archived public pages.
 - Recursive public HTML scanning now includes nested published routes such as archived pages.
 - Missing no-data/no-funds/human-review boundary copy remains a blocking site-quality failure.
 - Local `public/assets/**/*.js` files and locally referenced script assets are scanned for forbidden browser APIs.
