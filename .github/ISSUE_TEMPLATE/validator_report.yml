@@ -1,0 +1,43 @@
+name: Validator report
+description: Submit a public-safe validator report for a claim-bounded Evidence Docket.
+title: "Validator report: "
+labels: [validator-report, public-alpha]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public-safe reminder: do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds. Human review required. No wallet, transaction, legal, tax, trading, or investment support is provided here.
+  - type: input
+    id: docket
+    attributes:
+      label: Evidence Docket or page reviewed
+      description: Link to a repository file or public page only.
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: Validator findings
+      description: Summarize accepted evidence, rejected evidence, missing evidence, and scope limits.
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Expected outcome
+      options:
+        - Accept with scope limits
+        - Request revision
+        - Reject
+        - File dissent
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_safe
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+        - label: I understand this is public-alpha, human review is required, and no user funds or wallet/private-key material should be included.
+          required: true

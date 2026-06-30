@@ -1,1476 +1,236 @@
 [
   {
-    "path": "action-reason-trace-contract.html",
-    "title": "Action-Reason Trace Contract",
-    "category": "Action",
-    "description": "Every action must carry a reason, scope, observation, validation, rollback, and evidence.",
-    "role": "action-governance module",
-    "inputs": "Action intent, tool surface, risk class, evidence completeness",
-    "outputs": "Trace contract, action graph, rollback playbook",
-    "gates": "Scope, reason, observation, validator, rollback, evidence, boundary",
-    "state": "ACTION_REVIEW_READY"
-  },
-  {
-    "path": "agialpha-control-rail.html",
-    "title": "$AGIALPHA Control Rail",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "agialpha-token-boundary.html",
-    "title": "$AGIALPHA Public-Market Boundary",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "token.html",
-    "title": "$AGIALPHA Token Boundary",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "agi-alpha-thesis.html",
-    "title": "AGI ALPHA Thesis",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "jobs.html",
-    "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "adoption.html",
-    "title": "Adoption Playbook \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "agent-constellation-demo.html",
-    "title": "Agent Constellation Demo \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "agents.html",
-    "title": "Agent Foundry \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "architecture.html",
-    "title": "Architecture \u00b7 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "capability-stack.html",
-    "title": "Capability Stack \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "claim-boundary.html",
-    "title": "Claim Boundary \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "commercial-evidence.html",
-    "title": "Commercial Evidence \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "coordination-console.html",
-    "title": "Coordination Console",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "data-room.html",
-    "title": "Data Room \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "demo-gallery.html",
-    "title": "Demo Gallery \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "demo-launcher.html",
-    "title": "Demo Launcher \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "demo-safety.html",
-    "title": "Demo Safety Boundary \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "enterprise.html",
-    "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "evaluation-program.html",
-    "title": "Evaluation Program",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "evaluation.html",
-    "title": "Evaluation \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "docket-builder.html",
-    "title": "Evidence Docket Builder \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "evidence-room.html",
-    "title": "Evidence Room \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "evidence-to-scale.html",
-    "title": "Evidence to Scale \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "evidence.html",
-    "title": "Evidence \u00b7 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "executive-brief.html",
-    "title": "Executive Brief \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "faq.html",
-    "title": "FAQ \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "falsification-box.html",
-    "title": "Falsification Box \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "for-new-users.html",
-    "title": "For New Users \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "for-reviewers.html",
-    "title": "For Reviewers \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "reviewer-path.html",
-    "title": "For Reviewers \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "frontier-release-case-study.html",
-    "title": "Frontier Release Case Study",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "frontier-release-doctrine.html",
-    "title": "Frontier Release Doctrine",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "glossary.html",
-    "title": "Glossary \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "capability-parity.html",
-    "title": "GoalOS Capability Parity",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "document-series.html",
-    "title": "GoalOS Document Series",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "historical-command-center.html",
-    "title": "GoalOS Historical Command Center",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "launch-narrative.html",
-    "title": "GoalOS Launch Narrative",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-run-001-execution-room.html",
-    "title": "GoalOS Proof Run 001 Execution Room",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "sovereign-experience-stream-lab.html",
-    "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "trust-center.html",
-    "title": "GoalOS Trust Center \u00b7 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "governance.html",
-    "title": "Governance \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "help-center.html",
-    "title": "Help Center \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "holy-grail-candidate.html",
-    "title": "Holy Grail Candidate",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "independent-validation.html",
-    "title": "Independent Validation \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "launch.html",
-    "title": "Launch \u00b7 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "legal.html",
-    "title": "Legal Shield \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "local-autopilot-demo.html",
-    "title": "Local Autopilot Demo \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "mission-os-canon.html",
-    "title": "Mission OS Canon",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "mission-os.html",
-    "title": "Mission OS \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "node.html",
-    "title": "Node Runtime \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "metrics.html",
-    "title": "Operating Metrics \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "operator-checklist.html",
-    "title": "Operator Checklist \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "operators.html",
-    "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "paper-to-product.html",
-    "title": "Paper to Product",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "pilot-program.html",
-    "title": "Pilot Program \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "pilot-proof.html",
-    "title": "Pilot Proof \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "product.html",
-    "title": "Product \u00b7 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-card-studio.html",
-    "title": "Proof Card Studio \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-economy.html",
-    "title": "Proof Economy \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-flight-demo.html",
-    "title": "Proof Flight Demo \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-metrics-dashboard.html",
-    "title": "Proof Metrics Dashboard \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-mission-slots.html",
-    "title": "Proof Mission Slots \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-run-001.html",
-    "title": "Proof Run 001",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-run-001-live.html",
-    "title": "Proof Run 001 Live \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-velocity.html",
-    "title": "Proof Velocity \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "proof-of-evolution.html",
-    "title": "Proof-of-Evolution",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "public-metrics-ledger.html",
-    "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "release-gates.html",
-    "title": "Release Gates \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "repository-map.html",
-    "title": "Repository Map \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "research-spine.html",
-    "title": "Research Spine",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "responsible-use.html",
-    "title": "Responsible Use \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "roadmap.html",
-    "title": "Roadmap \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "run-locally.html",
-    "title": "Run Locally \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "schema-registry.html",
-    "title": "Schema Registry \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "security-boundary.html",
-    "title": "Security Boundary \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "security.html",
-    "title": "Security \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "source-lineage.html",
-    "title": "Source Lineage \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "standards.html",
-    "title": "Standards \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "start-here.html",
-    "title": "Start Here \u00b7 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "start.html",
-    "title": "Start Here \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "strategic-evidence-scorecard.html",
-    "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "terms.html",
-    "title": "Terms of Use \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "investment-token-boundary.html",
-    "title": "Token & Investment Boundary",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "troubleshooting.html",
-    "title": "Troubleshooting \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "trust.html",
-    "title": "Trust Center",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "quick-tour.html",
-    "title": "Try GoalOS \u2014 Browser-local Demo",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "validator-room.html",
-    "title": "Validator Room \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "validator-seats.html",
-    "title": "Validator Seats",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "website-autopilot.html",
-    "title": "Website Autopilot \u00b7 GoalOS Ascension",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "what-goalos-does.html",
-    "title": "What GoalOS Does \u2014 GoalOS",
-    "category": "Additional / preserved",
-    "description": "Existing public page preserved by Website Experience OS V5.",
-    "role": "preserved page",
-    "inputs": "Page-specific",
-    "outputs": "Page-specific",
-    "gates": "Boundary and route integrity where applicable",
-    "state": "PRESERVED"
-  },
-  {
-    "path": "institutional-deployment-wedge.html",
-    "title": "Institutional Deployment Wedge",
-    "category": "Adoption",
-    "description": "Start with one workflow. Earn the right to scale.",
-    "role": "adoption module",
-    "inputs": "Workflow, repeatability, evidence readiness, rollback maturity",
-    "outputs": "Deployment plan, GoalOSCommit, Evidence Docket plan",
-    "gates": "Mission, evidence, replay, canary, rollback, boundary",
-    "state": "CANARY_READY"
-  },
-  {
-    "path": "value-realization-control-room.html",
-    "title": "Value Realization Control Room",
-    "category": "Adoption",
-    "description": "Verified work becomes allocable capacity under proof and governance.",
-    "role": "adoption module",
-    "inputs": "Capability, verified work score, reusability, governance, risk",
-    "outputs": "Value ledger, capacity plan, strategic asset map",
-    "gates": "Evidence, validator, capability package, value ledger, risk",
-    "state": "VALUE_REVIEW_READY"
-  },
-  {
-    "path": "evolution-ledger-control-room.html",
-    "title": "Evolution Ledger Control Room",
-    "category": "Advanced demos",
-    "description": "The ledger remembers proof, not secrets.",
-    "role": "ledger module",
-    "inputs": "ProofRoot, EvalAttestation, SelectionCertificate, RollbackReceipt",
-    "outputs": "Public ledger entry, selection certificate, boundary map",
-    "gates": "ProofRoot, eval, rollback, challenge, validator quorum, boundary",
-    "state": "LEDGER_REVIEW_READY"
-  },
-  {
-    "path": "open-ended-work-engine.html",
-    "title": "Open-Ended Work Engine",
-    "category": "Advanced demos",
-    "description": "Generate tasks. Gate descendants. Keep open-endedness tethered to proof.",
-    "role": "orchestration layer",
-    "inputs": "Seed objective, generation scenario, proof gates",
-    "outputs": "Mission set, validator lattice, proof template pack",
-    "gates": "Syntax, sandbox, validator-bound, replayable, risk-bounded",
-    "state": "ENGINE_REVIEW_READY"
-  },
-  {
-    "path": "proof-backed-upgrade-rights-room.html",
-    "title": "Proof-Backed Upgrade Rights Room",
-    "category": "Advanced demos",
-    "description": "The artifact earns an upgrade right only after proof, eval, scope, canary, and rollback.",
-    "role": "capability-package generator",
-    "inputs": "Artifact candidate, requested scope, risk class, rollout posture",
-    "outputs": "Upgrade right JSON, selection certificate, rollback receipt",
-    "gates": "Proof, eval, baseline, canary, rollback, scope, challenge",
-    "state": "UPGRADE_REVIEW_READY"
-  },
-  {
-    "path": "proof-carrying-artifact-foundry.html",
-    "title": "Proof-Carrying Artifact Foundry",
-    "category": "Advanced demos",
-    "description": "The artifact earns authority: reusable intelligence must carry proof, scope, version, and rollback.",
-    "role": "capability-package generator",
-    "inputs": "Artifact candidate, artifact class, proof history, scope",
-    "outputs": "Artifact JSON, Selection Certificate, Rollback Receipt",
-    "gates": "Proof history, eval, baseline, rollback, challenge, boundary",
-    "state": "ARTIFACT_REVIEW_READY"
-  },
-  {
-    "path": "real-task-benchmark-bridge.html",
-    "title": "Real-Task Benchmark Bridge",
-    "category": "Advanced demos",
-    "description": "Demos become benchmark-ready evidence through real tasks, equal-budget baselines, and replay.",
-    "role": "benchmark module",
-    "inputs": "Task family, claim, baselines, proof gates",
-    "outputs": "Benchmark plan, baseline matrix, Evidence Docket plan",
-    "gates": "Real task, equal budget, baselines, replay, external review",
-    "state": "BENCHMARK_BRIDGE_READY"
-  },
-  {
-    "path": "capability-compounding-lab.html",
-    "title": "Capability Compounding Lab",
-    "category": "Core demos",
-    "description": "Verified work becomes reusable capability.",
-    "role": "capability-package generator",
-    "inputs": "Mission result, proof gates, reuse lift, proof debt",
-    "outputs": "Capability Package, Chronicle entry, harder mission plan",
-    "gates": "Evidence Docket, validator, Chronicle, reuse, risk",
-    "state": "CAPABILITY_REVIEW_READY"
-  },
-  {
-    "path": "evidence-docket-theatre.html",
-    "title": "Evidence Docket Theatre",
-    "category": "Core demos",
-    "description": "A proof page is not a marketing page. Convert a claim into a review-ready docket.",
-    "role": "receipt/audit module",
-    "inputs": "Claim, sources, baselines, risk/cost context",
-    "outputs": "Claims Matrix, Evidence Docket, reviewer brief",
-    "gates": "Claim support, baselines, replay, risk/cost, boundary",
-    "state": "DOCKET_REVIEW_READY"
-  },
-  {
-    "path": "falsification-gauntlet.html",
-    "title": "Falsification Gauntlet",
-    "category": "Core demos",
-    "description": "Strong claims survive baselines. Stress broad claims and require real falsification conditions.",
-    "role": "scoring module",
-    "inputs": "Claim text, baseline ladder, replay/evidence gates",
-    "outputs": "Falsification report, baseline matrix, docket",
-    "gates": "Baselines, replay, claim boundary, privacy, cost/risk",
-    "state": "CLAIM_REVIEW_READY"
-  },
-  {
-    "path": "multi-agent-institution.html",
-    "title": "Multi-Agent Institution",
-    "category": "Core demos",
-    "description": "Not a swarm. An institution. Compare raw swarms with proof-governed coordination.",
-    "role": "orchestration layer",
-    "inputs": "Mission preset, agent topology, risk posture",
-    "outputs": "Evidence Docket, institution report, review brief",
-    "gates": "Mission contract, evidence, validator, no-data boundary",
-    "state": "INSTITUTION_REVIEW_READY"
-  },
-  {
-    "path": "proof-gradient-lab.html",
-    "title": "Proof Gradient Lab",
-    "category": "Core demos",
-    "description": "No proof, no evolution. Score is advisory; gates are mandatory.",
-    "role": "scoring module",
-    "inputs": "Candidate upgrade, proof strength, risk, rollback status",
-    "outputs": "Selection score, gate ledger, reviewer brief",
-    "gates": "ProofValid, EvalPass, Risk, Rollback, Scope, Challenge",
-    "state": "SELECTION_GATE_READY"
-  },
-  {
-    "path": "proof-settlement-chronicle-lab.html",
-    "title": "Proof-Settlement Chronicle Lab",
-    "category": "Core demos",
-    "description": "No ProofBundle, no settlement. Request \u2192 Escrow \u2192 Execute \u2192 Proof \u2192 Validate \u2192 Settle \u2192 Chronicle.",
-    "role": "receipt/audit module",
-    "inputs": "Job spec, proof bundle, replay path, validation state",
-    "outputs": "Simulated settlement receipt, Chronicle entry, docket",
-    "gates": "ProofBundle, replay, validator, challenge window, boundary",
-    "state": "SETTLEMENT_REVIEW_READY"
-  },
-  {
-    "path": "proof-to-action-command-room.html",
-    "title": "Proof-to-Action Command Room",
-    "category": "Core demos",
-    "description": "The deliverable is a governed decision state, not a document.",
-    "role": "orchestration layer",
-    "inputs": "Objective, docket, action class, risk class",
-    "outputs": "Governed Decision State, Action Graph, Chronicle entry",
-    "gates": "Evidence, validation, risk, rollback, human review",
-    "state": "DECISION_REVIEW_READY"
-  },
-  {
-    "path": "sovereign-experience-stream.html",
-    "title": "Sovereign Experience Stream Lab",
-    "category": "Core demos",
-    "description": "Proof becomes governed experience: memory, reward ledger, router proposals, temporal options.",
-    "role": "capability-package generator",
-    "inputs": "Experience event, reward, validator, risk, memory update",
-    "outputs": "Experience stream entry, router proposal, reviewer brief",
-    "gates": "Provenance, replay, validator reward separation, boundary",
-    "state": "EXPERIENCE_REVIEW_READY"
-  },
-  {
-    "path": "docs.html",
-    "title": "Docs",
-    "category": "Docs",
-    "description": "Documentation hub for users, reviewers, developers, maintainers, and institutions.",
-    "role": "documentation module",
-    "inputs": "User role",
-    "outputs": "Documentation route",
-    "gates": "Docs quality, boundary visibility",
-    "state": "DOCS_READY"
-  },
-  {
-    "path": "proof-run-001-docket.html",
-    "title": "Proof Run 001 Docket",
-    "category": "Evidence",
-    "description": "Repository-readiness Evidence Docket: gates, claims matrix, replay path, validator packet, and decision state.",
-    "role": "reviewer module",
-    "inputs": "Repository scan, claims, gate ledger",
-    "outputs": "Evidence Docket, validator packet, replay path",
-    "gates": "10 mandatory repository-readiness gates",
-    "state": "REVIEW_READY"
-  },
-  {
-    "path": "proof-ledger.html",
-    "title": "Public Proof Ledger",
-    "category": "Evidence",
-    "description": "Unified evidence registry for dockets, reports, pages, and reviewer routes.",
-    "role": "receipt/audit module",
-    "inputs": "Repository artifacts and pages",
-    "outputs": "Public ledger index",
-    "gates": "Docket presence, QA report, route integrity",
-    "state": "LEDGER_REVIEW_READY"
-  },
-  {
-    "path": "public-proof-ledger.html",
-    "title": "Public Proof Ledger",
-    "category": "Evidence",
-    "description": "Unified evidence registry for dockets, reports, pages, and reviewer routes.",
-    "role": "receipt/audit module",
-    "inputs": "Repository artifacts and pages",
-    "outputs": "Public ledger index",
-    "gates": "Docket presence, QA report, route integrity",
-    "state": "LEDGER_REVIEW_READY"
-  },
-  {
-    "path": "frontier-release-room.html",
-    "title": "Frontier Release Room",
-    "category": "Frontier",
-    "description": "Evidence-governed decision room for release, restriction, rollback, and restore decisions.",
-    "role": "orchestration layer",
-    "inputs": "Release scenario, access constraints, evidence state",
-    "outputs": "Docket, review brief, access matrix",
-    "gates": "Identity, capability, safeguards, evidence, validators, rollback",
-    "state": "HOLD_PENDING_REVIEW"
-  },
-  {
-    "path": "console.html",
-    "title": "Proof Console",
-    "category": "Hands-on",
-    "description": "Interactive console for public-safe proof flight and proof route exploration.",
-    "role": "UI demo",
-    "inputs": "Mission preset, proof gates",
-    "outputs": "Proof trace, downloadable artifacts where supported",
-    "gates": "Browser-local, no data, human review",
-    "state": "CONSOLE_READY"
-  },
-  {
-    "path": "try-goalos.html",
-    "title": "Try GoalOS",
-    "category": "Hands-on",
-    "description": "Beginner-friendly browser-local demo path.",
-    "role": "UI demo",
-    "inputs": "Mission preset or user role",
-    "outputs": "Guided demo route",
-    "gates": "No user data, no funds, no wallet",
-    "state": "TRY_READY"
-  },
-  {
-    "path": "agi-alpha-node-v0.html",
-    "title": "AGI Alpha Node v0",
-    "category": "Legacy / canon",
-    "description": "Sovereign node theatre: proof flight, route, authority, and review boundary.",
-    "role": "UI demo",
-    "inputs": "Mission preset, node identity, proof route",
-    "outputs": "Evidence docket, review brief",
-    "gates": "Human review required, no external authority",
-    "state": "LEGACY_CANON"
-  },
-  {
-    "path": "agi-jobs-v0-v2.html",
-    "title": "AGI Jobs v0/v2",
-    "category": "Legacy / canon",
-    "description": "AGI Jobs proof-settlement work OS surface.",
-    "role": "UI demo",
-    "inputs": "Job spec, proof bundle, validator path",
-    "outputs": "Settlement simulation, docket, chronicle",
-    "gates": "No ProofBundle, no settlement; no replay, no settlement",
-    "state": "LEGACY_CANON"
-  },
-  {
-    "path": "meta-agentic-alpha-agi.html",
-    "title": "Meta-Agentic \u03b1\u2011AGI",
-    "category": "Legacy / canon",
-    "description": "Meta-agentic institution foundry surface from the Ascension lineage.",
-    "role": "UI demo",
-    "inputs": "Mission objective, archetype, posture",
-    "outputs": "Institution lineage, proof docket",
-    "gates": "Local-only, no external authority",
-    "state": "LEGACY_CANON"
-  },
-  {
-    "path": "proof-mission-control.html",
-    "title": "Proof Mission Control",
-    "category": "Mission",
-    "description": "Public operating board for proof mission readiness: ready, blocked, missing evidence, and reviewer next steps.",
-    "role": "orchestration layer",
-    "inputs": "Mission preset, gate state, validator/replay readiness",
-    "outputs": "Mission docket, validator packet, mission issue draft",
-    "gates": "Evidence, replay, validator packet, risk/cost, boundary",
-    "state": "MISSION_CONTROL_READY"
-  },
-  {
-    "path": "proof-mission-forge.html",
-    "title": "Proof Mission Forge",
-    "category": "Mission",
-    "description": "Turn an objective into a proof mission: contract, claims matrix, docket plan, validator packet, and GitHub-ready issue.",
-    "role": "orchestration layer",
-    "inputs": "Objective, decision support, risk class, proof gates",
-    "outputs": "Mission Contract, Evidence Docket plan, Validator Packet, GitHub issue draft",
-    "gates": "Mission contract, claims matrix, replay checklist, validator packet, boundary",
-    "state": "MISSION_FORGE_READY"
-  },
-  {
-    "path": "demo-ecosystem-registry.html",
-    "title": "Demo Ecosystem Registry",
-    "category": "Registry",
-    "description": "Routeable index of every public demo: inputs, outputs, gates, states, and workflow role.",
-    "role": "documentation module",
-    "inputs": "Public page inventory",
-    "outputs": "Route registry JSON/table",
-    "gates": "No broken routes, boundary labels",
-    "state": "REGISTRY_READY"
-  },
-  {
-    "path": "site-health.html",
-    "title": "Site Health",
-    "category": "Registry",
-    "description": "Public page health dashboard: routes, checks, reports, dockets, and safety boundary.",
-    "role": "receipt/audit module",
-    "inputs": "QA reports, route scans",
-    "outputs": "Site health report",
-    "gates": "Route, boundary, forbidden API checks",
-    "state": "SITE_HEALTH_READY"
-  },
-  {
-    "path": "site-map.html",
-    "title": "Site Map",
-    "category": "Registry",
-    "description": "Complete public page map, organized by user-facing route and system page.",
-    "role": "navigation module",
-    "inputs": "Public page inventory",
-    "outputs": "Categorized page map",
-    "gates": "Internal link integrity",
-    "state": "SITE_MAP_READY"
-  },
-  {
-    "path": "website-operating-system.html",
-    "title": "Website Operating System",
-    "category": "Registry",
-    "description": "Operating map for the complete GoalOS website ecosystem.",
-    "role": "navigation module",
-    "inputs": "User intent, route category",
-    "outputs": "Route by category",
-    "gates": "Route integrity, boundary visibility",
-    "state": "OPERATING_MAP_READY"
-  },
-  {
-    "path": "external-reviewer-replay-room.html",
-    "title": "External Reviewer Replay Room",
-    "category": "Review",
-    "description": "Independent review path: inspect, replay, challenge, accept, reject, revise, or dissent.",
-    "role": "reviewer module",
-    "inputs": "Docket, claims, baselines, replay checklist",
-    "outputs": "Reviewer report, dissent memo, validator attestation",
-    "gates": "Replay, baselines, claim boundary, privacy boundary",
-    "state": "REVIEW_READY"
-  },
-  {
-    "path": "validator-council-arena.html",
-    "title": "Validator Council Arena",
-    "category": "Review",
-    "description": "Trust is not one judge. It is a validator council with commit, reveal, challenge, attest, decide.",
-    "role": "validator module",
-    "inputs": "Claim, quorum, validator diversity, evidence integrity",
-    "outputs": "Attestation, dissent memo, challenge record, docket",
-    "gates": "Commit-reveal, quorum, diversity, replay, dissent, boundary",
-    "state": "VALIDATION_REVIEW_READY"
-  },
-  {
-    "path": "index.html",
     "title": "Home",
-    "category": "Start",
-    "description": "Institutional front door: proof thesis, dynamic console, core routes, and public-alpha boundary.",
-    "role": "homepage",
-    "inputs": "None",
-    "outputs": "Path selection, proof journey, route map",
-    "gates": "Boundary, route integrity, no external actions",
-    "state": "START"
+    "url": "index.html",
+    "headline": "Autonomous AI work, made evidence-bearing.",
+    "text": "GoalOS AGIALPHA Ascension turns ambitious autonomous AI work into bounded missions, evidence dockets, validator reports, release gates, settlement receipts, and reusable capability packages. The next practical frontier is not merely more agents. It is governed, observable, proof-bearing work that an institution can review, reproduce, settle, and reuse. A non-technical operator can launch the repository from GitHub Web UI by pasting one workflow file and pressing Run workflow. Corporate polish, research discipline, public trust posture, machine-readable artifacts, and a clear path from demo to pilot without overstating evidence."
   },
   {
-    "path": "pathfinder.html",
-    "title": "Pathfinder",
-    "category": "Start",
-    "description": "Role-based guide for new users, reviewers, developers, institutions, and mission proposers.",
-    "role": "adoption module",
-    "inputs": "User role / intent",
-    "outputs": "Recommended route",
-    "gates": "Public-safe path, boundary reminder",
-    "state": "ROUTE_SELECTED"
+    "title": "Start Here",
+    "url": "start.html",
+    "headline": "Create the repository from GitHub.com in minutes.",
+    "text": "No terminal is required. This page is the practical path for creating the repository, running the autonomous action, and publishing the website. You need a GitHub account and permission to create a new repository. Public visibility is easiest for GitHub Pages. Create the repository, set Actions to read/write, set Pages to GitHub Actions, paste the workflow, commit it, then run it. Open reports/site-qa.json, reports/repo-validation.json, reports/claim-scan.json, and the live Pages URL. Add the URL to the repository About section."
   },
   {
-    "path": "proof-experience-atlas.html",
-    "title": "Proof Experience Atlas",
-    "category": "Start",
-    "description": "Guided public proof journey across the GoalOS demos.",
-    "role": "orchestration layer",
-    "inputs": "Role path, tour selection",
-    "outputs": "Atlas docket, route summary",
-    "gates": "No data, no funds, human-review boundary",
-    "state": "ATLAS_READY"
+    "title": "Mission OS",
+    "url": "mission-os.html",
+    "headline": "From objective to governed decision state.",
+    "text": "Mission OS converts a high-stakes objective into a bounded contract, evidence plan, validation process, decision state, and reusable capability. Every mission starts with a bounded objective and ends with a reviewable evidence package, not a vague autonomous action. This lets operators explain what the system did, what it relied on, what risks were controlled, and what still needs review."
   },
   {
-    "path": "search.html",
-    "title": "Search",
-    "category": "Start",
-    "description": "Browser-local route search over pages and demos.",
-    "role": "navigation module",
-    "inputs": "Search query",
-    "outputs": "Matching routes",
-    "gates": "No external calls, no stored queries",
-    "state": "SEARCH_READY"
+    "title": "Capability Stack",
+    "url": "capability-stack.html",
+    "headline": "A complete operating model for proof-settled AI work.",
+    "text": "The repository is structured as a stack: user-facing launch experience, mission engine, proof jobs, evidence layer, validation layer, runtime controls, governance, and publication. Each layer has a purpose, artifact, and review gate. The repository can be inspected by executives, developers, reviewers, operators, and governance stakeholders without requiring one audience to read everything."
   },
   {
-    "path": "404.html",
-    "title": "404 / Route Recovery",
-    "category": "System",
-    "description": "Friendly route recovery page. Preserved but not listed as a normal demo.",
-    "role": "system page",
-    "inputs": "Missing route",
-    "outputs": "Recovery links",
-    "gates": "No data, no funds",
-    "state": "ROUTE_RECOVERY"
+    "title": "Agent Foundry",
+    "url": "agents.html",
+    "headline": "Agents that manage agents remain governed by proof.",
+    "text": "The META-AGENTIC \u03b1\u2011AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance. Agents are not treated as free-floating personalities. They are accountable work units with roles, permissions, evidence duties, and retirement criteria. No agent output is promoted to capability without an Evidence Docket and validation status."
   },
   {
-    "path": "token-boundary.html",
-    "title": "$AGIALPHA Boundary",
-    "category": "Trust",
-    "description": "Public contract identification only; not available from us; no sale, custody, wallet support, or advice.",
-    "role": "trust module",
-    "inputs": "Public contract address",
-    "outputs": "Token-boundary statement",
-    "gates": "No investment/trading/legal/tax advice",
-    "state": "TOKEN_BOUNDARY_VISIBLE"
+    "title": "AGI Jobs Ledger",
+    "url": "jobs.html",
+    "headline": "Bounded work packets with evidence obligations.",
+    "text": "The AGI Jobs layer turns missions into proof jobs: concrete units of work with owners, tools, traces, acceptance criteria, and settlement requirements. A useful job is small enough to verify and rich enough to produce meaningful work. The ledger gives non-technical reviewers a clean way to see what happened and why it passed or failed."
   },
   {
-    "path": "data-boundary.html",
-    "title": "Data Boundary",
-    "category": "Trust",
-    "description": "Do not submit personal, customer, confidential, regulated, credential, wallet, or trade-secret data.",
-    "role": "trust module",
-    "inputs": "None",
-    "outputs": "Data boundary notice",
-    "gates": "No sensitive data submission",
-    "state": "DATA_BOUNDARY_VISIBLE"
+    "title": "Node Runtime",
+    "url": "node.html",
+    "headline": "Operator control for autonomous work.",
+    "text": "The Node Runtime maps AGI Alpha Node v0 into a GoalOS operator plane: identity, validator gating, pause/resume, telemetry, release state, and rollback authority. The runtime is designed so operators can stop, review, redirect, or roll back work when the evidence or risk posture requires it. Runtime control is architectural in this repository and does not imply production authorization or user-fund authorization."
   },
   {
-    "path": "no-data-no-funds.html",
-    "title": "No Data / No Funds",
-    "category": "Trust",
-    "description": "Plain-language page: GoalOS demos are browser-local and request no data or funds.",
-    "role": "trust module",
-    "inputs": "None",
-    "outputs": "No-data/no-funds notice",
-    "gates": "No wallet, no funds, no secrets",
-    "state": "NO_DATA_NO_FUNDS_VISIBLE"
+    "title": "Evidence Layer",
+    "url": "evidence.html",
+    "headline": "Proof that can be reviewed, reproduced, and challenged.",
+    "text": "Evidence Dockets are the core institutional unit: claims, source provenance, contradiction registers, tool traces, verifier reports, costs, risks, and outcomes. An Evidence Docket should make it easy to understand the work without trusting the agent blindly. No strong public claim should be published unless a docket can carry it."
   },
   {
-    "path": "privacy.html",
-    "title": "Privacy",
-    "category": "Trust",
-    "description": "GoalOS does not want user data and does not operate the public site as a data funnel.",
-    "role": "trust module",
-    "inputs": "None",
-    "outputs": "Privacy notice",
-    "gates": "No personal/confidential/regulated data",
-    "state": "PRIVACY_VISIBLE"
+    "title": "Governance",
+    "url": "governance.html",
+    "headline": "The system remains ambitious because it remains bounded.",
+    "text": "Governance turns proof into controlled decisions: accept, reject, block, defer, request more evidence, release internally, or publish externally. The repository favors boringly clear decision records over vague autonomous behavior. The repo is easier to trust because its claims are intentionally constrained."
   },
   {
-    "path": "trust-boundary.html",
-    "title": "Trust Boundary",
-    "category": "Trust",
-    "description": "Public-alpha boundary: no user data, no user funds, no wallet, no production authority.",
-    "role": "trust module",
-    "inputs": "None",
-    "outputs": "Boundary explanation",
-    "gates": "No data/no funds/token/claim boundary",
-    "state": "BOUNDARY_VISIBLE"
+    "title": "Trust Center",
+    "url": "trust-center.html",
+    "headline": "A public proof surface for serious reviewers.",
+    "text": "The Trust Center organizes the public proof, standards, claim boundary, QA reports, and operator guidance that make the repository credible. Visitors should be able to find what the system claims, what it does not claim, what artifacts exist, and how validation works. The Trust Center is designed for procurement, board review, partner diligence, and community review."
+  },
+  {
+    "title": "Operator Console Blueprint",
+    "url": "operators.html",
+    "headline": "A clear cockpit for mission control.",
+    "text": "The operator experience is built around visible mission status, evidence completeness, validation state, risk posture, and publication readiness. The intended product experience is a cockpit, not a chat window. Every important status should be readable without opening code."
+  },
+  {
+    "title": "Pilot Program",
+    "url": "pilot-program.html",
+    "headline": "Start with bounded missions that prove the workflow.",
+    "text": "The recommended first deployment is not open-ended autonomy. It is a controlled pilot with bounded missions, clear baselines, validation, and evidence review. Pick work where proof matters and outcomes can be judged. The pilot succeeds when the review process is faster, clearer, safer, and more reusable than ad hoc AI work."
+  },
+  {
+    "title": "Enterprise Readiness",
+    "url": "enterprise.html",
+    "headline": "Built for institutional review, not just developer novelty.",
+    "text": "The repository includes procurement, compliance, risk, board, data-room, and operating-metric surfaces so serious organizations can evaluate it. A technical repo becomes enterprise-readable when it includes governance, operations, assurance, and rollout materials. This is a launch-grade public package; production deployment still requires implementation review, security review, and authorized operating procedures."
+  },
+  {
+    "title": "Standards",
+    "url": "standards.html",
+    "headline": "A shared language for proof-settled work.",
+    "text": "The standards directory defines the artifact contracts and review expectations that keep missions auditable and interoperable. The repository ships with twelve GoalOS standards covering mission contracts, proof jobs, tool traces, evidence dockets, validator reports, Chronicle entries, settlement receipts, agent cards, publication dockets, release gates, and scorecards. Reusable capability requires stable forms. Standards let different agents, validators, and operators understand the same proof objects."
+  },
+  {
+    "title": "Schema Registry",
+    "url": "schema-registry.html",
+    "headline": "Proof artifacts that software can validate.",
+    "text": "JSON schemas make the proof surface machine-readable, testable, and automation-friendly. Schemas do not make claims true. They make proof artifacts structured enough to validate, compare, index, and review. Mission contracts, proof jobs, tool traces, evidence dockets, validator reports, risk ledgers, settlement receipts, capability packages, Chronicle entries, and more."
+  },
+  {
+    "title": "Evaluation",
+    "url": "evaluation.html",
+    "headline": "Evidence before stronger claims.",
+    "text": "The evaluation program defines how missions are compared against baselines, reviewed by validators, tested with delayed outcomes, and documented for reproduction. A strong empirical claim needs task definition, baseline, proof bundle, replay or reproduction path, validator report, cost ledger, risk ledger, and delayed-outcome review. Without an Evidence Docket, the system should not make a strong empirical claim."
+  },
+  {
+    "title": "Proof Economy",
+    "url": "proof-economy.html",
+    "headline": "Verified work becomes reusable capability.",
+    "text": "The Sovereign Machine Economy is modeled as a proof-settled loop: work only becomes reusable economic capacity after evidence and validation. Missions produce proof jobs; proof jobs produce dockets; accepted dockets produce settlement receipts; settled work becomes Chronicle entries and capability packages. This is an architectural model, not a financial return claim, investment offering, or production settlement system."
+  },
+  {
+    "title": "Release Gates",
+    "url": "release-gates.html",
+    "headline": "Do not publish what the evidence cannot carry.",
+    "text": "Release gates protect the public repository by checking site quality, claim boundaries, schema validity, proof reports, and rollback readiness. The action runs site QA, claim scan, repository validation, artifact hashing, scorecard computation, demo mission, and unit tests before deployment. A release without a rollback path should not be treated as complete."
+  },
+  {
+    "title": "Security",
+    "url": "security.html",
+    "headline": "Safety through limits, review, and transparent boundaries.",
+    "text": "The repository avoids implying production security. It provides a public security posture, responsible disclosure process, secrets guidance, and review expectations. Least privilege, no secrets in public proof artifacts, bounded claims, review gates, artifact digests, and human authorization for sensitive transitions. The repository is not a completed external audit and should not be represented as one."
+  },
+  {
+    "title": "Roadmap",
+    "url": "roadmap.html",
+    "headline": "A practical path from public scaffold to serious pilot.",
+    "text": "The roadmap moves from repository launch to pilot mission packs, validator integrations, proof APIs, operator console, trust center, and production hardening. Launch the public proof surface, run controlled pilots, expand validation, implement APIs, add operator UI, then pursue independent review. Each roadmap step needs evidence of usefulness, risk control, cost, and reproducibility before stronger claims."
+  },
+  {
+    "title": "Source Lineage",
+    "url": "source-lineage.html",
+    "headline": "One GoalOS-native surface for prior lineages.",
+    "text": "The repository integrates the previous META-AGENTIC \u03b1\u2011AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline. Agent creation and evaluation become the Agent Foundry; node owner controls become the Node Runtime; jobs and CI discipline become the AGI Jobs Ledger; Mission OS supplies the proof-to-action architecture. The repo preserves a strict distinction between architecture, demonstration, evidence, and production authorization."
+  },
+  {
+    "title": "Repository Map",
+    "url": "repository-map.html",
+    "headline": "Know where everything lives.",
+    "text": "The repository is organized so non-technical operators, developers, reviewers, and executives can find their path quickly. content for website source, docs for operating manuals, standards for artifact rules, schemas for contracts, examples for proof objects, scripts for automation, public for generated website, and reports for QA outputs. START_HERE.md, README.md, CLAIMS.md, docs/NON_TECHNICAL_OPERATOR_MANUAL.md, docs/EXECUTIVE_INSTITUTIONAL_BRIEF.md, and reports/site-qa.json."
+  },
+  {
+    "title": "Launch Package",
+    "url": "launch.html",
+    "headline": "A polished public release surface.",
+    "text": "The launch package includes repository About copy, topics, website copy, demo script, stakeholder guide, and a non-technical GitHub UI path. GoalOS turns autonomous AI work into evidence-bearing institutional capability. goalos, agialpha, sovereign-machine-economy, autonomous-ai, evidence-docket, proof-bundles, validator-mesh, governed-ai, machine-labor, institutional-ai."
+  },
+  {
+    "title": "FAQ",
+    "url": "faq.html",
+    "headline": "Straight answers for non-technical reviewers.",
+    "text": "This FAQ explains what the repository is, what the action does, what the website is, and what the project does not claim. No. It is a launch-grade repository, proof architecture, product scaffold, standards package, and website generator. Production use requires further implementation and review. Yes, in direct commit mode. It creates files, runs QA, commits generated artifacts, and publishes Pages. Use dry run or pull request mode for a safer review path."
+  },
+  {
+    "title": "Executive Brief",
+    "url": "executive-brief.html",
+    "headline": "The boardroom explanation in one page.",
+    "text": "GoalOS is a disciplined way to convert AI output into reviewable work, reviewable work into trusted decisions, and trusted decisions into reusable capability. Organizations are adopting agentic systems faster than their evidence, governance, and audit practices can mature. GoalOS makes proof the operating primitive. What was done? What evidence supports it? What did it cost? What risks remain? Who validated it? Can it be reused?"
+  },
+  {
+    "title": "Claim Boundary",
+    "url": "claim-boundary.html",
+    "headline": "Ambition without unsupported claims.",
+    "text": "This repository is a research, product, and governance scaffold. It does not claim achieved AGI, ASI, superintelligence, empirical SOTA, guaranteed security, guaranteed returns, legal approval, tax approval, production authorization, user-fund authorization, autonomous legal sovereignty, mainnet activation, or civilization-scale capability. It does not claim achieved AGI, ASI, empirical SOTA, production authorization, external audit completion, guaranteed returns, legal approval, tax approval, user-fund authorization, or civilization-scale capability. Real tasks, baselines, Evidence Dockets, replay logs, validator reports, cost and safety ledgers, delayed outcomes, and independent review."
+  },
+  {
+    "title": "Adoption Playbook",
+    "url": "adoption.html",
+    "headline": "How a serious organization would start.",
+    "text": "Adoption should begin with bounded, low-risk proof missions and expand only after evidence quality, operator experience, and review practices are strong. Launch the repository, run a proof mission, review dockets, tune schemas, define validators, and create a pilot scorecard. Add domain-specific mission templates, verifier rosters, operator dashboards, and a private evidence store."
+  },
+  {
+    "title": "Data Room",
+    "url": "data-room.html",
+    "headline": "Diligence-ready public materials.",
+    "text": "The repository includes a data-room index for reviewers who need fast access to architecture, governance, security, claim boundaries, QA reports, standards, and pilot design. Executive brief, trust center, standards registry, security posture, claim boundary, release gates, repository validation, and artifact digest reports. In a real deployment, sensitive inputs, customer data, secrets, credentials, and private validator notes stay out of public Pages."
+  },
+  {
+    "title": "Operating Metrics",
+    "url": "metrics.html",
+    "headline": "Measure proof quality, not just activity.",
+    "text": "GoalOS metrics focus on mission completion quality: evidence completeness, validation pass rate, contradiction resolution, cost, latency, rollback frequency, and capability reuse. Docket completeness, validation latency, rejected claim rate, unresolved risk count, replay success, cost per accepted mission, and capability reuse count. Agent count, message count, and token volume are not proof of institutional value."
+  },
+  {
+    "title": "Website Autopilot",
+    "url": "website-autopilot.html",
+    "headline": "A public site generated from proof-aligned source.",
+    "text": "The website is generated from content/site_manifest.json, checked by automation, and deployed through GitHub Pages. Change content/site_manifest.json, rerun the workflow, and the public pages regenerate. The generated site includes the claim boundary, status JSON, search index, sitemap, and QA checks."
+  },
+  {
+    "title": "Troubleshooting",
+    "url": "troubleshooting.html",
+    "headline": "What to do when GitHub does not behave as expected.",
+    "text": "Most launch issues are settings issues: Pages source, workflow permissions, missing workflow_dispatch, or a typo in the workflow file path. Check that the file path is exactly .github/workflows/goalos-ascension-autopilot.yml, Actions are enabled, workflow permissions are read/write, and Pages source is GitHub Actions. Open Actions, wait for the deploy job to finish, then open Settings \u2192 Pages for the final URL."
+  },
+  {
+    "title": "Evidence to Scale",
+    "url": "evidence-to-scale.html",
+    "headline": "Institutional ambition, tested by evidence.",
+    "text": "The evidence-to-scale layer distinguishes vision from counted proof and blocks strong public claims until source-verifiable artifacts exist. The repository now has market evidence schemas, pilot outcome dockets, proof velocity metrics, public metrics ledgers, and an evidence room index. Product, usage, customer discovery, design partner, pilot, benchmark, commercial, independent validation, fair-value support, and governance evidence are tracked separately."
+  },
+  {
+    "title": "Proof Velocity",
+    "url": "proof-velocity.html",
+    "headline": "Measure how quickly work becomes validated capability.",
+    "text": "Proof velocity measures the time from mission start to Evidence Docket, validation, settlement, Chronicle entry, and reuse. High proof velocity requires bounded missions, complete evidence, validator review, and reusable capability packages. The repository tracks missions completed, dockets created, validator reports, release gates, capability packages, reuse events, and review cycle time."
+  },
+  {
+    "title": "Evidence Room",
+    "url": "evidence-room.html",
+    "headline": "A structured data room for what can be proven.",
+    "text": "The evidence room indexes artifacts, source provenance, confidentiality, public claim permission, and review status. Public pages can show aggregates, hashes, and redacted summaries. Sensitive customer, commercial, or legal records stay private unless publication rights are clear. A stakeholder can see what is built, tested, validated, confidential, and still pending without relying on marketing language."
+  },
+  {
+    "title": "Pilot Proof",
+    "url": "pilot-proof.html",
+    "headline": "Every serious pilot ends with a docket.",
+    "text": "Pilot evidence requires a bounded mission, success criteria, baseline, execution record, validator decision, and follow-up status. The system is designed for named use cases, pre-agreed success criteria, replayable evidence, and post-pilot acceptance records. Pilots are recorded as in progress, completed pending review, validated success, validated mixed, or not validated."
+  },
+  {
+    "title": "Strategic Evidence Scorecard",
+    "url": "strategic-evidence-scorecard.html",
+    "headline": "What can be proven today?",
+    "text": "The scorecard separates institutional infrastructure readiness from external market proof and recommends the public statement that evidence can carry. Institutional infrastructure can be strong while market evidence remains pending. That separation protects trust. The gate requires verified evidence across product, usage, customer, pilot, benchmark, commercial, independent validation, fair-value support, and governance categories."
+  },
+  {
+    "title": "Public Metrics Ledger",
+    "url": "public-metrics-ledger.html",
+    "headline": "Publish the metrics that proof can support.",
+    "text": "The public metrics ledger exposes proof velocity and evidence completeness while keeping sensitive records private. The ledger can publish aggregate mission counts, validation counts, reuse rates, and evidence completeness without revealing private customer records. Private records can be represented by hashes, source classes, and reviewer notes when full disclosure is not appropriate."
+  },
+  {
+    "title": "Independent Validation",
+    "url": "independent-validation.html",
+    "headline": "Internal proof becomes stronger when reviewed independently.",
+    "text": "The validation protocol gives external reviewers a Mission Contract, Claims Matrix, Evidence Docket, Risk Ledger, replay notes, and acceptance criteria. Validators return a decision, confidence level, evidence gaps, reproduction notes, limitations, and publication recommendation. Independent review does not replace judgment, but it improves the evidential quality of serious public claims."
+  },
+  {
+    "title": "Commercial Evidence",
+    "url": "commercial-evidence.html",
+    "headline": "Commercial signals are counted carefully and disclosed responsibly.",
+    "text": "Commercial evidence can include signed records, paid pilots, procurement progression, renewals, and expansion signals, but sensitive details stay private by default. A commercial signal counts only when it has a date, owner, source record, confidentiality level, and public claim permission. Names, revenue amounts, contract terms, and legal records are not published unless permission is clear."
   }
 ]

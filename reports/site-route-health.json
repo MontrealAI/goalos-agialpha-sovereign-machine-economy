@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "html_pages_found": 135,
+  "key_pages": [
+    "index.html",
+    "pathfinder.html",
+    "demo-ecosystem-registry.html",
+    "site-health.html",
+    "proof-ledger.html",
+    "public-proof-ledger.html",
+    "proof-run-001-docket.html",
+    "external-reviewer-replay-room.html",
+    "proof-mission-forge.html",
+    "proof-mission-control.html",
+    "no-data-no-funds.html",
+    "agialpha-token-boundary.html",
+    "404.html"
+  ],
+  "blocking_issue_count": 0,
+  "issues": [],
+  "system_pages": [
+    "public/404.html"
+  ]
+}
