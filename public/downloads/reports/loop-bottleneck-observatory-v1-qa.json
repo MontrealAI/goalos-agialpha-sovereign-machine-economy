@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "generated_at": "2026-07-01T18:46:44Z",
+  "errors": [],
+  "checked_files": [
+    "public/loop-bottleneck-observatory.html",
+    "public/assets/goalos-loop-bottleneck-observatory-v1.css",
+    "public/assets/goalos-loop-bottleneck-observatory-v1.js",
+    "docs/demos/LOOP_BOTTLENECK_OBSERVATORY_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_LOOP_BOTTLENECK_OBSERVATORY.md",
+    "evidence/demo/loop-bottleneck-observatory-v1-reference-docket.json",
+    "content/goalos/loop-bottleneck-observatory-v1.json"
+  ],
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true
+}

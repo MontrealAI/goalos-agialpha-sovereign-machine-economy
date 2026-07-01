@@ -1,0 +1,8 @@
+{
+  "schema": "goalos.install_report.v1",
+  "name": "Proof-Carrying Artifact Foundry V1",
+  "status": "passed",
+  "installedAt": "2026-06-29T13:08:15.586448+00:00",
+  "page": "public/proof-carrying-artifact-foundry.html",
+  "boundary": "browser-local; no user data; no user funds; no wallet; no transaction; no network call; human review required"
+}

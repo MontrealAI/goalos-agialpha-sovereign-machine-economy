@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T19:49:43Z",
+  "route_count": 126,
+  "live_routes": 126,
+  "planned_routes": 0,
+  "patched_html_pages": [],
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "errors": []
+}

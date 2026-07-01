@@ -1,0 +1,15 @@
+{
+  "schema": "goalos.manifest.v1",
+  "name": "Proof-Carrying Artifact Foundry V1",
+  "files": [
+    "public/proof-carrying-artifact-foundry.html",
+    "public/assets/goalos-proof-carrying-artifact-foundry-v1.css",
+    "public/assets/goalos-proof-carrying-artifact-foundry-v1.js",
+    "docs/demos/PROOF_CARRYING_ARTIFACT_FOUNDRY_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_CARRYING_ARTIFACT_FOUNDRY.md",
+    "examples/proof-carrying-artifact/public-safe-artifact-classes.md",
+    "scripts/install_proof_carrying_artifact_foundry_v1.py",
+    "scripts/run_proof_carrying_artifact_foundry_v1_demo.py",
+    "scripts/goalos_proof_carrying_artifact_foundry_v1_audit.py"
+  ]
+}

@@ -16,19 +16,32 @@
 
 ## Local checks run
 
+- [ ] `python scripts/validate_repo.py`
+- [ ] `python scripts/build_site.py`
+- [ ] `python scripts/verify_site.py`
+- [ ] `python -m unittest discover -s tests`
+- [ ] `python scripts/validate_claims.py`
+- [ ] `python scripts/goalos_docs_quality.py`
+- [ ] `python scripts/goalos_site_quality.py`
+- [ ] `python scripts/goalos_public_downloads.py`
+
 ## Docs QA result
+
+## Site QA result
+
+## Claim scan result
 
 ## Boundary checklist
 
-- [ ] No user data.
-- [ ] No user funds.
-- [ ] No wallet / transaction path.
-- [ ] No unsupported AGI/ASI/SOTA claims.
-- [ ] No investment/trading/legal/tax advice.
-- [ ] No weakened privacy boundary.
-- [ ] No removed claim boundary.
-- [ ] No new network calls in browser demos.
-- [ ] Human review required preserved.
+- [ ] no user data
+- [ ] no user funds
+- [ ] no wallet / transaction
+- [ ] no unsupported AGI/ASI/SOTA claims
+- [ ] no investment/trading/legal/tax advice
+- [ ] no weakened privacy boundary
+- [ ] no removed claim boundary
+- [ ] no new network calls in browser demos
+- [ ] human review required preserved
 
 ## Reviewer notes
 

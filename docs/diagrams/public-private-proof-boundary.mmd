@@ -1,2 +1,4 @@
 flowchart LR
-  Private["Private intelligence stays private"] --> Commitments["Public proof commitments"] --> Inspectable["Hashes, attestations, dockets, receipts, pointers are inspectable"]
+  PrivateIntelligence[Off-chain private intelligence]-->Hashes[Public hashes and commitments]
+  PrivateIntelligence-->Pointers[Attestations and pointers]
+  Hashes-->InspectableProof[Inspectable public proof]

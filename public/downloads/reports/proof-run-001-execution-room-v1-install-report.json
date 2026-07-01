@@ -1,0 +1,11 @@
+{
+  "status": "installed",
+  "generated_at": "2026-06-29T02:14:57Z",
+  "files": [
+    "public/proof-run-001-execution-room.html",
+    "public/assets/goalos-proof-run-001-execution-room-v1.css",
+    "public/assets/goalos-proof-run-001-execution-room-v1.js",
+    "docs/proof-runs/PROOF_RUN_001_EXECUTION_ROOM_V1.md",
+    "evidence/proof-run-001/proof-run-001-execution-room-reference-docket.json"
+  ]
+}

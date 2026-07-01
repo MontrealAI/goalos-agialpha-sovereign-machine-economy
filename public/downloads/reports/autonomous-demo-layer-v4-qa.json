@@ -1,0 +1,11 @@
+{
+  "schema": "goalos.autonomous_demo_layer_v4.qa",
+  "status": "passed",
+  "pages_checked": 8,
+  "errors": [],
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "human_review_required": true
+}

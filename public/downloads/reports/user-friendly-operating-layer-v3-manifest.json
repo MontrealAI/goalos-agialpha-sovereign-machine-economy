@@ -1,0 +1,36 @@
+{
+  "schema": "goalos.user_friendly_operating_layer_v3.manifest",
+  "generated_at": "2026-06-27T19:00:43Z",
+  "pages": [
+    "start-here.html",
+    "for-new-users.html",
+    "for-reviewers.html",
+    "try-goalos.html",
+    "evidence-room.html",
+    "proof-run-001-live.html",
+    "validator-room.html",
+    "proof-mission-slots.html",
+    "proof-metrics-dashboard.html",
+    "what-goalos-does.html",
+    "glossary.html",
+    "run-locally.html",
+    "no-data-no-funds.html",
+    "help-center.html",
+    "reviewer-path.html",
+    "operator-checklist.html",
+    "faq.html",
+    "quick-tour.html",
+    "site-map.html"
+  ],
+  "docs": [
+    "docs/user/START_HERE.md",
+    "docs/user/NO_DATA_NO_FUNDS_GUIDE.md",
+    "docs/user/USER_JOURNEYS.md"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-27T02:25:36+00:00",
+  "title": "GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy Document Series",
+  "purpose": "Document what was accomplished and provide repository-ready docs.",
+  "files": [
+    "docs/series/00_SERIES_INDEX.md",
+    "docs/series/01_EXECUTIVE_OVERVIEW_WHAT_WE_ACCOMPLISHED.md",
+    "docs/series/02_RESEARCH_SPINE_AND_CANON.md",
+    "docs/series/03_REIMPLEMENTATION_MAP_META_AGENTIC_NODE_JOBS_TO_GOALOS.md",
+    "docs/series/04_SOVEREIGN_MACHINE_ECONOMY_ARCHITECTURE.md",
+    "docs/series/05_PROOF_OS_AND_EVIDENCE_DOCKETS.md",
+    "docs/series/06_FRONTIER_RELEASE_ROOM_AND_AI_RELEASE_GOVERNANCE.md",
+    "docs/series/07_MULTI_AGENT_INSTITUTION_COORDINATION.md",
+    "docs/series/08_HOLY_GRAIL_CANDIDATE_AND_PROOF_RUN_001.md",
+    "docs/series/09_AGIALPHA_PROOF_CONTROL_RAIL_AND_SETTLEMENT.md",
+    "docs/series/10_WEBSITE_AND_AUTONOMOUS_GITHUB_ACTIONS.md",
+    "docs/series/11_CLAIM_BOUNDARY_TRUST_SECURITY_GOVERNANCE.md",
+    "docs/series/12_EXECUTION_ROADMAP_NOW_WE_PROVE_IT.md",
+    "docs/series/13_COMMUNICATIONS_AND_PUBLIC_NARRATIVE.md",
+    "docs/series/14_REPOSITORY_OPERATING_MANUAL_FOR_NON_TECHNICAL_OPERATORS.md",
+    "docs/series/15_MASTER_CHECKLIST.md",
+    "docs/series/16_BOARD_MEMO.md",
+    "public/document-series.html"
+  ],
+  "claim_boundary": [
+    "public-alpha proof architecture",
+    "not achieved AGI",
+    "not achieved ASI",
+    "not empirical SOTA",
+    "not production authorization",
+    "not legal approval",
+    "not user-fund authorization",
+    "not mainnet activation",
+    "not guaranteed outcomes"
+  ]
+}

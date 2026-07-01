@@ -1,20 +1,23 @@
 # Site Health
 
-GoalOS site health is a deterministic, local-only route and boundary check for the public-alpha website. It does not use network calls, secrets, wallets, analytics, telemetry, user accounts, or fund movement.
+Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no production authority, browser-local where applicable, and human review required. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, proprietary, or user-funds data. $AGIALPHA is public-contract identification only and is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation. No trading, investment, financial, tax, legal, bridge, exchange, or regulatory advice.
 
-## What it checks
+## Purpose
 
-- Local `.html` links resolve inside `public/`.
-- Key public pages exist: Start, Pathfinder, Registry, Proof Ledger, Proof Run 001, Reviewer Room, Site Health, Trust Boundary, Token Boundary, No Data / No Funds.
-- `404.html` exists and is treated as a system page, not a demo.
-- HTML pages have non-empty titles and viewport metadata.
-- Search index and sitemap files are parseable when present.
-- Boundary language remains visible or linked: no user data, no user funds, and human review required.
+This document is part of the V9 public-alpha institutional launch surface for GoalOS AGIALPHA Ascension. It gives a claim-bounded, review-ready path for users, maintainers, developers, validators, and institutions.
 
-## Command
+## Fast path
 
-```bash
-python scripts/goalos_site_quality.py
-```
+- Website: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
+- Pathfinder: ../public/pathfinder.html
+- Site Health: ../public/site-health.html
+- Proof Run 001: PROOF_RUN_001.md
+- Demo Registry: DEMO_ECOSYSTEM.md
 
-Reports are written to `reports/site-quality.json` and `reports/site-route-health.json`.
+## Operating guidance
+
+1. Keep claims inside evidence boundaries.
+2. Preserve no-data, no-funds, no-wallet, no-transaction boundaries.
+3. Treat scores as advisory and gates as mandatory.
+4. Require replay, validator review, rollback readiness, and dissent paths before any stronger release claim.
+

@@ -1,0 +1,20 @@
+{
+  "selected_agents": [
+    "planner.v0",
+    "tester.v0",
+    "validator.v0"
+  ],
+  "rejected_agents": [
+    "coder.v0",
+    "redteam.v0"
+  ],
+  "route_family": "R0_hamiltonian_baseline",
+  "route_score": -1.59,
+  "proof_debt": 0.0,
+  "settlement_ready": true,
+  "evidence_bundle_hash": "sha256:c69c8bff5dd460e2ee577ad8369f84325d33e674fb7523eadf89183090d55ed4",
+  "notes": [
+    "R0 is the transparent baseline, not a production router.",
+    "Promotion to R1-R5 requires equal-budget evidence and zero critical safety violations."
+  ]
+}

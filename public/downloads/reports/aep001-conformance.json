@@ -1,0 +1,150 @@
+{
+  "aep001_docket_61": {
+    "status": "passed",
+    "missing": [],
+    "required_elements": [
+      "manifest",
+      "claims_matrix",
+      "environment",
+      "baselines",
+      "proof_packets",
+      "evaluator_attestations",
+      "selection_certificate",
+      "safety_ledger",
+      "cost_ledger",
+      "public_report",
+      "replay_path"
+    ]
+  },
+  "reference_run": {
+    "goalos_commit": {
+      "objective": "AEP-001 conformance reference run",
+      "success_criteria": [
+        "Evidence Docket 6.1 elements present",
+        "ProofPacket emitted",
+        "Selection gate evaluated"
+      ],
+      "failure_criteria": [
+        "missing replay path",
+        "unsupported claim",
+        "rollback not specified"
+      ],
+      "constraints": [
+        "public/private proof boundary",
+        "no external action",
+        "human review"
+      ],
+      "authority": "human_review_required",
+      "risk_class": "medium",
+      "budget": {
+        "usd": 0,
+        "mode": "local_reference"
+      },
+      "allowed_tools": [
+        "local_reference_engine"
+      ],
+      "required_evaluators": [
+        "local-reference-validator"
+      ],
+      "approval_rules": [
+        "claim_boundary_pass",
+        "rollback_ready",
+        "human_review_required"
+      ],
+      "data_boundary": "public-safe reference artifacts only",
+      "rollback_obligations": [
+        "revert generated artifacts",
+        "preserve failed docket for review"
+      ],
+      "claim_boundary": [
+        "not achieved AGI",
+        "not production authorization",
+        "not mainnet activation"
+      ],
+      "_hash": "sha256:dca6539c5a7b6db63954abf1af947ddddeb9f0f9827691202e7d94830b26bd03"
+    },
+    "run_commitment": {
+      "goalos_commit_hash": "sha256:dca6539c5a7b6db63954abf1af947ddddeb9f0f9827691202e7d94830b26bd03",
+      "agent_set": [
+        "planner.v0",
+        "coder.v0",
+        "tester.v0",
+        "validator.v0"
+      ],
+      "plan_graph_hash": "sha256:a942fb848e72984e385284d4c87d3c3d5d27863cef1584177136e20a757fcaa2",
+      "artifact_version_roots": [
+        "sha256:50cb32364d5843041ad2f0d3882de33238cced70e50396498c7ddbeefaa16163"
+      ],
+      "tool_permission_root": "sha256:4233e999c085ddd40a9191b3e9fabc0ab6232bff93979454ef2b9904f325f64e",
+      "context_root": "sha256:dd4246aec44668e8a8f0ccf99fcca1cc7c61fcfe5fbb5247bc1d76bff6232712",
+      "policy_root": "sha256:6215ec97fcd094de10e466f8e4c043e830dd91563ecacd319f745d98b993afaf",
+      "runtime_environment": "github-actions-local-python",
+      "budget_limit": {
+        "usd": 0,
+        "external_services": 0
+      },
+      "latency_limit_ms": 10000,
+      "signer_set": [
+        "github-actions[bot]"
+      ],
+      "_hash": "sha256:7fdda37ebd5b1c9a37983a31d9a54543af4a4413c76c0a5d956c4b50b2454d17"
+    },
+    "proof_packet": {
+      "run_id": "aep001-reference-run",
+      "run_commitment_hash": "sha256:7fdda37ebd5b1c9a37983a31d9a54543af4a4413c76c0a5d956c4b50b2454d17",
+      "trace_root": "sha256:1573c57dc006a92ecd22596d01f29bf3ac227f5b63d3d0baf96edaf5b641dad1",
+      "output_hash": "sha256:9a3cb32e82f9fcb3f89569afaa2594508be89d9d622d3c7d40bbb52aee758aea",
+      "policy_decision_root": "sha256:96b6cae80290abe3b161822b7d76ce84465689f996657d99c736180d28daa05b",
+      "tool_history_root": "sha256:4233e999c085ddd40a9191b3e9fabc0ab6232bff93979454ef2b9904f325f64e",
+      "eval_result_root": "sha256:e6c13cd5e12ba60c8d7ff66d7e3f03f02ee6441b3500860ddda8b7ad5f81f121",
+      "cost": {
+        "usd": 0
+      },
+      "latency_ms": 1,
+      "errors": [],
+      "credit_assignment": {
+        "planner.v0": 0.25,
+        "coder.v0": 0.25,
+        "tester.v0": 0.25,
+        "validator.v0": 0.25
+      },
+      "evidence_uri": "evidence/proof-run-001/proof-run-001-docket.json",
+      "signature_bundle": [
+        "local-reference-signature"
+      ],
+      "_hash": "sha256:c690e9ca9262ee600b5cc2b2e75a1abe39ec2909ff85a13ff86fe2c2f46a07cb"
+    },
+    "proof_gradient": {
+      "score": 0.633,
+      "promoted": true,
+      "hard_gates": {
+        "ProofValid": true,
+        "EvalPass": true,
+        "RiskOK": true,
+        "RollbackReady": true,
+        "CanaryReady": true,
+        "ScopeAuthorized": true,
+        "ChallengeWindowCleared": true
+      },
+      "reason": "Promotion candidate: proof, eval, scope, challenge, and rollback gates passed."
+    },
+    "selection_certificate": {
+      "candidate_id": "proof-run-001-reference-capability",
+      "decision": "canary",
+      "scope": "public-alpha-reference",
+      "canary_ready": true,
+      "rollback_target": "previous-public-alpha-site",
+      "challenge_window_cleared": true,
+      "hard_gates": {
+        "ProofValid": true,
+        "EvalPass": true,
+        "RiskOK": true,
+        "RollbackReady": true,
+        "CanaryReady": true,
+        "ScopeAuthorized": true,
+        "ChallengeWindowCleared": true
+      },
+      "_hash": "sha256:8ba69f1db2337c2fa669f3701b1b8fa56df2f16c3f602490723a130f1215e2f8"
+    }
+  }
+}

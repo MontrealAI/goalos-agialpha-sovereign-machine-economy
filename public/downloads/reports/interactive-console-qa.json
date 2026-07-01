@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-26T23:06:06Z",
+  "status": "passed",
+  "console_page": "public/console.html",
+  "local_only": true,
+  "network_calls": 0,
+  "external_authority": "none_granted",
+  "human_review_required": true,
+  "features": [
+    "proof flight",
+    "gate inspector",
+    "live chronicle",
+    "decision chamber",
+    "docket export",
+    "brief export",
+    "access matrix export",
+    "command palette"
+  ]
+}

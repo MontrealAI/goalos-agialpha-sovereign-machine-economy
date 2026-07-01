@@ -1,15 +1,23 @@
 # Launch Narrative
 
-The launch should feel precise, institutional, and ambitious.
+Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no production authority, browser-local where applicable, and human review required. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, proprietary, or user-funds data. $AGIALPHA is public-contract identification only and is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation. No trading, investment, financial, tax, legal, bridge, exchange, or regulatory advice.
 
-## One-line narrative
+## Purpose
 
-GoalOS turns autonomous AI work into evidence-bearing institutional work.
+This document is part of the V9 public-alpha institutional launch surface for GoalOS AGIALPHA Ascension. It gives a claim-bounded, review-ready path for users, maintainers, developers, validators, and institutions.
 
-## Public narrative
+## Fast path
 
-The next wave of AI will not be defined only by bigger models or louder agents. It will be defined by systems that convert model capability into bounded work, bounded work into evidence, evidence into validated decisions, and validated decisions into reusable institutional capability.
+- Website: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
+- Pathfinder: ../public/pathfinder.html
+- Site Health: ../public/site-health.html
+- Proof Run 001: PROOF_RUN_001.md
+- Demo Registry: DEMO_ECOSYSTEM.md
 
-## Launch restraint
+## Operating guidance
 
-Do not overclaim. The power of the launch is the discipline: every strong claim requires an Evidence Docket, a validator report, a risk ledger, or an explicit roadmap label.
+1. Keep claims inside evidence boundaries.
+2. Preserve no-data, no-funds, no-wallet, no-transaction boundaries.
+3. Treat scores as advisory and gates as mandatory.
+4. Require replay, validator review, rollback readiness, and dissent paths before any stronger release claim.
+

@@ -1,5 +1,2 @@
 flowchart LR
-  N0["Root evidence/reports/docs"] --> N1["Public downloads mirror"]
-  N1["Public downloads mirror"] --> N2["Page links"]
-  N2["Page links"] --> N3["Download health QA"]
-  N3["Download health QA"] --> N4["Site health"]
+  RepoArtifacts[reports evidence content docs replay]-->PublicDownloads[public/downloads mirror]-->PagesLinks[deployed GitHub Pages links]-->DownloadHealthReport

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "public_channels": "public-safe only",
+  "no_user_data": true,
+  "no_user_funds": true
+}

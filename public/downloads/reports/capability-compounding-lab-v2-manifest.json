@@ -1,0 +1,21 @@
+{
+  "version": "v2",
+  "page": "public/capability-compounding-lab.html",
+  "purpose": "Fix and enhance the Capability Compounding Lab page; prevent blank hero panels; make compounding visible and downloadable.",
+  "files": [
+    ".github/ISSUE_TEMPLATE/capability_compounding_lab_v2_feedback.yml",
+    "content/goalos/capability-compounding-lab-v2.json",
+    "docs/demos/CAPABILITY_COMPOUNDING_LAB_V2.md",
+    "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB_V2.md",
+    "evidence/demo/capability-compounding-lab-v2-reference-docket.json",
+    "examples/capability-compounding/public-safe-scenarios-v2.md",
+    "issue-bodies/capability-compounding-lab-v2.md",
+    "public/assets/goalos-capability-compounding-lab-v2.css",
+    "public/assets/goalos-capability-compounding-lab-v2.js",
+    "public/capability-compounding-lab.html",
+    "reports/capability-compounding-lab-v2-manifest.json",
+    "scripts/goalos_capability_compounding_lab_v2_audit.py",
+    "scripts/install_capability_compounding_lab_v2.py",
+    "scripts/run_capability_compounding_lab_v2_demo.py"
+  ]
+}

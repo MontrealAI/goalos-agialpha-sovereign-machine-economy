@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "demo": "falsification-gauntlet-v1",
+  "artifacts": [
+    "evidence/demo/falsification-gauntlet-v1-reference-docket.json"
+  ]
+}

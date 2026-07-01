@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-30T13:01:09+00:00",
+  "manual_test_script": [
+    "Open index.html and verify premium hero + proof console.",
+    "Press / and verify command palette opens.",
+    "Search for validator, docket, mission, action, token, benchmark.",
+    "Open token-boundary.html and verify it is not 404.",
+    "Open demo registry and verify page-specific inputs/outputs/gates/states.",
+    "Open site-health.html and verify route integrity status."
+  ]
+}

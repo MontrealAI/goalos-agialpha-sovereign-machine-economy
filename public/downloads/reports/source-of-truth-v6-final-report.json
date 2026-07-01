@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
+  "version": "0.31.5",
+  "release_label": "source-of-truth-v6",
+  "route_health": {
+    "status": "passed",
+    "generated_at_utc": "2026-06-30T15:51:11+00:00",
+    "public_pages": 134,
+    "broken_links": [],
+    "token_boundary_present": true,
+    "homepage_sha16": "306ecbf4f499a142"
+  },
+  "claim_scan_exit": 0,
+  "claim_scan_stdout_tail": "\",\\n  \\\"claim_boundary\\\": \\\"public-alpha. not achieved agi. not achieved asi. not empirical sota. not production authorization. not inve\"\n    },\n    {\n      \"path\": \"evidence/proof-run-001/proof-run-001-source-of-truth-v6.json\",\n      \"pattern\": \"empirical\\\\s+sota\\\\b\",\n      \"context\": \"ry\\\": \\\"public-alpha. not achieved agi. not achieved asi. not empirical sota. not production authorization. not investment, trading, leg\"\n    },\n    {\n      \"path\": \"examples/mission-contract/mission-contract.example.json\",\n      \"pattern\": \"achieved\\\\s+agi\\\\b\",\n      \"context\": \",\\n    \\\"legal advice\\\",\\n    \\\"financial advice\\\",\\n    \\\"claim of achieved agi\\\"\\n  ],\\n  \\\"deliverables\\\": [\\n    \\\"readme\\\",\\n    \\\"start_here\\\",\\n \"\n    },\n    {\n      \"path\": \"examples/mission-contract.example.json\",\n      \"pattern\": \"achieved\\\\s+agi\\\\b\",\n      \"context\": \",\\n    \\\"legal advice\\\",\\n    \\\"financial advice\\\",\\n    \\\"claim of achieved agi\\\"\\n  ],\\n  \\\"deliverables\\\": [\\n    \\\"readme\\\",\\n    \\\"start_here\\\",\\n \"\n    },\n    {\n      \"path\": \"issue-bodies/capability-parity-v2.md\",\n      \"pattern\": \"empirical\\\\s+sota\\\\b\",\n      \"context\": \"r a public-alpha reference system, not production agi, asi, empirical sota, or external validation.\\n\"\n    },\n    {\n      \"path\": \"issue-bodies/proof-run-001-docket-room-v2.md\",\n      \"pattern\": \"achieved\\\\s+agi\\\\b\",\n      \"context\": \"uthority, and human review required.\\n\\ngoalos does not claim achieved agi, not achieved asi, empirical sota, production authorization\"\n    },\n    {\n      \"path\": \"issue-bodies/proof-run-001-docket-room-v2.md\",\n      \"pattern\": \"achieved\\\\s+asi\\\\b\",\n      \"context\": \"n review required.\\n\\ngoalos does not claim achieved agi, not achieved asi, empirical sota, production authorization, legal approval, \"\n    },\n    {\n      \"path\": \"issue-bodies/proof-run-001-docket-room-v2.md\",\n      \"pattern\": \"empirical\\\\s+sota\\\\b\",\n      \"context\": \"red.\\n\\ngoalos does not claim achieved agi, not achieved asi, empirical sota, production authorization, legal approval, user-fund author\"\n    },\n    {\n      \"path\": \"public/action-reason-trace-contract.html\",\n      \"pattern\": \"achieved\\\\s+agi\\\\b\",\n      \"context\": \"tment return, legal advice, tax advice, security assurance, achieved agi/asi, state-of-the-art empirical performance, mainnet author\"\n    },\n    {\n      \"path\": \"public/adoption.html\",\n      \"pattern\": \"achieved\\\\s+agi\\\\b\",\n      \"context\": \"search, product, and governance scaffold. it does not claim achieved agi, asi, superintelligence, empirical sota, guaranteed securit\"\n    },\n    {\n      \"path\": \"public/adoption.html\",\n      \"pattern\": \"achieved\\\\s+agi\\\\b\",\n      \"context\": \". human review required.</p>\\n      <p>goalos does not claim achieved agi, achieved asi, empirical sota, production certification, ma\"\n    },\n    {\n      \"path\": \"public/adoption.html\",\n      \"pattern\": \"achieved\\\\s+asi\\\\b\",\n      \"context\": \" required.</p>\\n      <p>goalos does not claim achieved agi, achieved asi, empirical sota, production certification, mainnet authoriz\"\n    },\n    {\n      \"path\": \"public/adoption.html\",\n      \"pattern\": \"empirical\\\\s+sota\\\\b\",\n      \"context\": \"ld. it does not claim achieved agi, asi, superintelligence, empirical sota, guaranteed security, guaranteed returns, legal approval, t\"\n    },\n    {\n      \"path\": \"public/adoption.html\",\n      \"pattern\": \"empirical\\\\s+sota\\\\b\",\n      \"context\": \"\\n      <p>goalos does not claim achieved agi, achieved asi, empirical sota, production certification, mainnet authorization, legal adv\"\n    },\n    {\n      \"path\": \"public/adoption.html\",\n      \"pattern\": \"guaranteed\\\\s+(?:return|returns|roi|profit|profits|yield)\\\\b\",\n      \"context\": \"si, superintelligence, empirical sota, guaranteed security, guaranteed returns, legal approval, tax approval, production authorization, us\"\n    }\n  ],\n  \"note\": \"Context-aware claim scan. This is a public-alpha guardrail, not legal review, tax advice, investment advice, security certification, or production authorization.\"\n}\n",
+  "decision_state": "REVIEW_READY",
+  "readiness": 100,
+  "files": {
+    "homepage": "public/index.html",
+    "proof_docket": "public/proof-run-001-docket.html",
+    "route_health": "reports/source-of-truth-v6-route-health.json",
+    "qa": "reports/source-of-truth-v6-qa.json",
+    "registry": "content/goalos/demo-ecosystem-registry.json",
+    "release_state": "content/goalos/release-state.json",
+    "workflow_tiers": "WORKFLOWS.md"
+  },
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "claim_boundary": "Public-alpha. Not achieved AGI. Not achieved ASI. Not empirical SOTA. Not production authorization. Not investment, trading, legal, tax, exchange, bridge, liquidity, wallet, or regulatory advice."
+}

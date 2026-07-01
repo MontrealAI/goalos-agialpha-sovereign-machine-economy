@@ -1,5 +1,12 @@
 flowchart LR
-  Gates["ProofValid + EvalPass + PG threshold + Risk threshold + RollbackReady + CanaryReady + ScopeAuthorized + ChallengeWindowCleared"] --> Promote["Promote"]
-  Gates --> Hold["Hold"]
-  Gates --> Reject["Reject"]
-  Gates --> Rollback["Rollback"]
+  ProofValid-->Gate
+  EvalPass-->Gate
+  RiskThreshold-->Gate
+  RollbackReady-->Gate
+  CanaryReady-->Gate
+  ScopeAuthorized-->Gate
+  ChallengeWindowCleared-->Gate
+  Gate-->Promote
+  Gate-->Hold
+  Gate-->Reject
+  Gate-->Rollback

@@ -1,46 +1,30 @@
 name: New User Question
-description: Public-safe new user question for GoalOS public-alpha.
-title: "[New User Question] "
-labels: ["public-alpha", "needs-human-review"]
+description: Public-alpha, claim-bounded issue template. Do not submit private data or funds.
+title: "[new-user-question] "
+labels: [public-alpha, human-review-required]
 body:
   - type: markdown
     attributes:
       value: |
-        Public-safe reminder: do not paste private data, customer data, credentials, wallet information, private keys, seed phrases, payment details, trade secrets, proprietary data, or user funds. No funds. No wallet/private-key support. Human review required.
+        Public-safe reminder: no personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, trade-secret, proprietary, or user-funds data. No funds. No wallet/private-key material. Human review required.
   - type: checkboxes
-    id: public_safe_confirmation
+    id: boundary
     attributes:
-      label: Public-safe confirmation
+      label: Required public-safe confirmation
       options:
-        - label: "I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, or user funds."
+        - label: "I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds."
           required: true
   - type: textarea
-    id: summary
+    id: context
     attributes:
-      label: Summary
-      description: Use public-safe, synthetic, or already-public details only.
-      placeholder: What should a maintainer or reviewer understand?
+      label: Context
+      description: Describe the public-safe issue, feedback, review, or proposal.
     validations:
       required: true
   - type: textarea
     id: expected_outcome
     attributes:
       label: Expected outcome
-      description: What result would resolve this issue?
+      description: What would a good public-alpha, claim-bounded resolution look like?
     validations:
       required: true
-  - type: textarea
-    id: boundary_notes
-    attributes:
-      label: Boundary notes
-      description: Note any claim-boundary, no-data/no-funds, token-boundary, or human-review concern.
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: public_safe_boundary_v7
-    attributes:
-      label: Public-safe boundary confirmation
-      options:
-        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
-          required: true

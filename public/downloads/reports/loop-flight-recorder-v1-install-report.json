@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "demo": "GoalOS Loop Flight Recorder V1",
+  "created": "2026-07-01T18:10:07Z",
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "files": [
+    "public/loop-flight-recorder.html",
+    "public/assets/goalos-loop-flight-recorder-v1.css",
+    "public/assets/goalos-loop-flight-recorder-v1.js"
+  ]
+}

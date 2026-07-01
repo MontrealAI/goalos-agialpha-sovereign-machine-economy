@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-26T23:06:06Z",
+  "historical_opportunity": "frontier_ai_release_governance",
+  "public_claim": "GoalOS provides proof architecture for evidence-governed frontier AI release decisions.",
+  "not_claimed": [
+    "model safety certification",
+    "legal sufficiency",
+    "government authority replacement",
+    "resolution of any specific dispute"
+  ],
+  "core_line": "Do not argue from authority. Argue from the docket.",
+  "readiness": {
+    "website_module": true,
+    "interactive_console": true,
+    "FRG_001_standard": true,
+    "public_source_case_study": true,
+    "public_source_docket": true,
+    "validator_review_pending": true,
+    "real_private_annexes_pending": true
+  }
+}

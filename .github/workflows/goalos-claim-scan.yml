@@ -1,0 +1,20 @@
+name: GoalOS Claim Scan
+on:
+  workflow_dispatch:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  claim-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/validate_claims.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: claim-scan
+          path: reports/claim-scan.json

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-27T16:40:03Z",
+  "token_address": "0xA61a3B3a130a9c20768EEBF97E21515A6046a1fA",
+  "not_available_from_goalos": true,
+  "no_token_sale": true,
+  "no_user_funds": true,
+  "no_wallet_support": true,
+  "third_party_responsibility": true,
+  "errors": [],
+  "checks": {
+    "address_present": true,
+    "not_available_from_us": true,
+    "no_token_sale": true,
+    "no_user_funds": true,
+    "no_wallet_support": true,
+    "third_party_responsibility": true,
+    "no_investment_advice": true
+  }
+}
