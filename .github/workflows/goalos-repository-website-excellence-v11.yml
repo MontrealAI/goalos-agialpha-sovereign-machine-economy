@@ -1,0 +1,66 @@
+name: GoalOS Repository + Website Excellence V11
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy_pages:
+        description: Deploy GitHub Pages after QA and human review of this run
+        required: true
+        default: 'false'
+        type: choice
+        options: ['false','true']
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/**'
+      - 'public/**'
+      - 'scripts/**'
+      - 'content/**'
+      - '.github/workflows/goalos-repository-website-excellence-v11.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+environment:
+  name: github-pages
+  url: ${{ steps.deployment.outputs.page_url }}
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Run deterministic QA
+        run: |
+          python -m compileall -q scripts src tests
+          python -m pytest -q
+          python scripts/validate_claims.py
+          python scripts/verify_site.py
+          python scripts/goalos_docs_quality.py
+          python scripts/goalos_site_quality.py
+          python scripts/goalos_download_health.py
+          python scripts/goalos_workflow_quality.py
+          python scripts/goalos_release_health.py
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: goalos-v11-reports
+          path: reports/*.json
+      - name: Upload Pages artifact
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy_pages == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy_pages == 'true' }}
+    needs: qa
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

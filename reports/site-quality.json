@@ -1,5 +1,6 @@
 {
-  "status": "passed",
-  "public_html_pages": 140,
-  "issues": []
+  "issue_count": 0,
+  "issues": [],
+  "pages_checked": 140,
+  "status": "passed"
 }

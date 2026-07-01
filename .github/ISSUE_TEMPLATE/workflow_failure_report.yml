@@ -1,0 +1,19 @@
+name: Workflow Failure Report
+description: Public-safe workflow failure report.
+title: "[workflow failure report]: "
+labels: [public-alpha]
+body:
+  - type: checkboxes
+    id: sensitive-data-confirmation
+    attributes:
+      label: Sensitive-data confirmation
+      options:
+        - label: "I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds."
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Use public-safe information only. Do not post secrets, private data, wallet data, customer data, exploit payloads, real target security data, or funds information.
+    validations:
+      required: true

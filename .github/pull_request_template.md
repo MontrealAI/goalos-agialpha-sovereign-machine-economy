@@ -1,48 +1,35 @@
-# Summary
+## Summary
 
-## Why this change exists
+## Changed public pages
 
-## User impact
+## Changed docs
 
-## Public pages changed
+## Changed workflows
 
-## Documentation changed
-
-## Evidence/reports changed
-
-## Demos changed
+## Changed evidence/reports
 
 ## Screenshots if UI changed
 
-## Local checks run
-
-- [ ] `python scripts/validate_repo.py`
-- [ ] `python scripts/build_site.py`
-- [ ] `python scripts/verify_site.py`
-- [ ] `python -m unittest discover -s tests`
+## QA commands run
+- [ ] `python -m compileall -q scripts src tests`
+- [ ] `python -m pytest -q`
 - [ ] `python scripts/validate_claims.py`
+- [ ] `python scripts/verify_site.py`
 - [ ] `python scripts/goalos_docs_quality.py`
 - [ ] `python scripts/goalos_site_quality.py`
-- [ ] `python scripts/goalos_public_downloads.py`
-
-## Docs QA result
-
-## Site QA result
-
-## Claim scan result
+- [ ] `python scripts/goalos_download_health.py`
+- [ ] `python scripts/goalos_workflow_quality.py`
+- [ ] `python scripts/goalos_release_health.py`
 
 ## Boundary checklist
-
-- [ ] no user data
-- [ ] no user funds
-- [ ] no wallet / transaction
-- [ ] no unsupported AGI/ASI/SOTA claims
-- [ ] no investment/trading/legal/tax advice
-- [ ] no weakened privacy boundary
-- [ ] no removed claim boundary
-- [ ] no new network calls in browser demos
-- [ ] human review required preserved
-
-## Reviewer notes
+- [ ] No user data.
+- [ ] No user funds.
+- [ ] No wallet/transaction path.
+- [ ] No unsupported AGI/ASI/SOTA claims.
+- [ ] No investment/trading/legal/tax advice.
+- [ ] No new forbidden browser APIs.
+- [ ] No giant inline workflow payloads.
+- [ ] No broken public downloads.
+- [ ] Human review required.
 
 ## Rollback notes

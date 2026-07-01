@@ -1,35 +1,7 @@
 # Replay
 
-Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no production authority, browser-local where applicable, and human review required. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, proprietary, or user-funds data. $AGIALPHA is public-contract identification only and is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation. No trading, investment, financial, tax, legal, bridge, exchange, or regulatory advice.
+Purpose: document replay expectations for proof review. Audience: reviewers and developers. What to do next: verify replay paths and report broken downloads. Related reports/scripts: site verification and download health.
 
-## Purpose
 
-This document is part of the V9 public-alpha institutional launch surface for GoalOS AGIALPHA Ascension. It gives a claim-bounded, review-ready path for users, maintainers, developers, validators, and institutions.
-
-## Fast path
-
-- Website: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
-- Pathfinder: ../public/pathfinder.html
-- Site Health: ../public/site-health.html
-- Proof Run 001: PROOF_RUN_001.md
-- Demo Registry: DEMO_ECOSYSTEM.md
-
-## Operating guidance
-
-1. Keep claims inside evidence boundaries.
-2. Preserve no-data, no-funds, no-wallet, no-transaction boundaries.
-3. Treat scores as advisory and gates as mandatory.
-4. Require replay, validator review, rollback readiness, and dissent paths before any stronger release claim.
-
-## Reviewer honesty box
-
-- What would change your mind?
-- What would falsify the claim?
-- Which evidence is missing?
-- Which claim is over-broad?
-- Which baseline should be stronger?
-- Which gate should block promotion?
-
-## Review steps
-
-Inspect the Evidence Docket, Claims Matrix, baselines, proof packets, cost/risk ledger, replay path, public downloads, and dissent route. For RSI, check determinism, schema-bound artifacts, ECI semantics, baseline comparison, OMNI allocation-only boundary, Move-37 dossier completeness, persistence under shocks, Architect / Validator Council review, and claim-boundary language.
+## Boundary reminder
+No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, trade-secret, proprietary, or user-funds data. $AGIALPHA is public-contract identification only and is not available from this repository, website, maintainers, GitHub Issues, demos, or docs.

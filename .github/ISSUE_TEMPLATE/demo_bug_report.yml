@@ -1,30 +1,19 @@
 name: Demo Bug Report
-description: Public-alpha, claim-bounded issue template. Do not submit private data or funds.
-title: "[demo-bug-report] "
-labels: [public-alpha, human-review-required]
+description: Public-safe demo bug report.
+title: "[demo bug report]: "
+labels: [public-alpha]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Public-safe reminder: no personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, trade-secret, proprietary, or user-funds data. No funds. No wallet/private-key material. Human review required.
   - type: checkboxes
-    id: boundary
+    id: sensitive-data-confirmation
     attributes:
-      label: Required public-safe confirmation
+      label: Sensitive-data confirmation
       options:
         - label: "I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds."
           required: true
   - type: textarea
-    id: context
+    id: summary
     attributes:
-      label: Context
-      description: Describe the public-safe issue, feedback, review, or proposal.
-    validations:
-      required: true
-  - type: textarea
-    id: expected_outcome
-    attributes:
-      label: Expected outcome
-      description: What would a good public-alpha, claim-bounded resolution look like?
+      label: Summary
+      description: Use public-safe information only. Do not post secrets, private data, wallet data, customer data, exploit payloads, real target security data, or funds information.
     validations:
       required: true

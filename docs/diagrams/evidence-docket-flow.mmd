@@ -1,2 +1,8 @@
 flowchart LR
-  Claim-->ClaimsMatrix-->Baselines-->ProofPackets-->ValidatorReports-->CostRiskLedger-->ReplayPath-->GovernedDecisionState
+  n0["Claim"] --> n1["Claims Matrix"]
+  n1["Claims Matrix"] --> n2["Baselines"]
+  n2["Baselines"] --> n3["Proof Packets"]
+  n3["Proof Packets"] --> n4["Validator Reports"]
+  n4["Validator Reports"] --> n5["Cost/Risk Ledger"]
+  n5["Cost/Risk Ledger"] --> n6["Replay Path"]
+  n6["Replay Path"] --> n7["Governed Decision State"]

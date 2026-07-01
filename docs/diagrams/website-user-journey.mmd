@@ -1,2 +1,8 @@
 flowchart LR
-  StartHere-->Pathfinder-->Atlas-->DemoRegistry-->PublicProofLedger-->MissionForge-->MissionControl-->ProofRun001-->ExternalReviewerReplayRoom-->SiteHealth
+  n0["Start"] --> n1["Pathfinder"]
+  n1["Pathfinder"] --> n2["Atlas"]
+  n2["Atlas"] --> n3["Registry"]
+  n3["Registry"] --> n4["Proof Ledger"]
+  n4["Proof Ledger"] --> n5["Proof Run 001"]
+  n5["Proof Run 001"] --> n6["Reviewer Room"]
+  n6["Reviewer Room"] --> n7["Trust Boundary"]
