@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "version": "v0.34.0-site-full-surface-restore-v12",
+  "generated_at": "2026-07-01T23:03:32+00:00",
+  "generator": "install_site_full_surface_restore_v12.py",
+  "public_page_count": 140,
+  "restored_file_count": 0,
+  "restored_files": [],
+  "restored_content_count": 0,
+  "patched_existing_pages": 130,
+  "route_categories": {
+    "Additional / Preserved": 51,
+    "Capability & Economy": 13,
+    "Evidence & Review": 26,
+    "Loop Demos": 3,
+    "Loop \u2192 RSI": 3,
+    "Mission & Work OS": 16,
+    "Navigation & Docs": 14,
+    "Trust & Boundary": 14
+  },
+  "broken_links": [],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract identification only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.",
+  "notes": "No files were removed. Missing pages from restore-public were copied into public. Indexes and navigation surfaces were regenerated from actual routes."
+}

@@ -1,6 +1,11 @@
 {
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+    {
+      "file": "public/demo-ecosystem-registry.html",
+      "issue": "table may overflow mobile without overflow-x:auto"
+    }
+  ],
   "pages_checked": 140,
-  "status": "passed"
+  "status": "failed"
 }
