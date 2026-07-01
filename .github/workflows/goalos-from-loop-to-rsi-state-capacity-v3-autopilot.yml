@@ -1,0 +1,129 @@
+name: GoalOS From Loop to RSI State-Capacity V3 — Build Governance First
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.33.9-from-loop-to-rsi-state-capacity-v3
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-from-loop-to-rsi-state-capacity-v3-pack.zip
+
+jobs:
+  from-loop-to-rsi-state-capacity:
+    name: Install From Loop to RSI State-Capacity Command Room
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+      - name: Unpack page pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile, os
+          zip_path = Path(os.environ['PACK_ZIP'])
+          with zipfile.ZipFile(zip_path) as z:
+              z.extractall(Path.cwd())
+          print(f'unpacked {zip_path}')
+          PY
+      - name: Install route links and registry entries
+        run: python scripts/install_from_loop_to_rsi_state_capacity_v3.py
+      - name: Run deterministic demo
+        run: python scripts/run_from_loop_to_rsi_state_capacity_v3_demo.py
+      - name: Audit browser-local safety
+        run: python scripts/goalos_from_loop_to_rsi_state_capacity_v3_audit.py
+      - name: Commit From Loop to RSI State-Capacity update
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples scripts evidence reports content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS From Loop to RSI State-Capacity Command Room V3"
+            git push
+          fi
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create --title "GoalOS From Loop to RSI State-Capacity V3 — Review" --body-file issue-bodies/from-loop-to-rsi-state-capacity-v3.md --label "demo" --label "rsi" --label "review" || true
+          else
+            echo "gh CLI unavailable; skipping issue creation."
+          fi
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag" reports/from-loop-to-rsi-state-capacity-v3-qa.json reports/from-loop-to-rsi-state-capacity-v3-demo-run.json reports/from-loop-to-rsi-state-capacity-v3-install-report.json evidence/demo/from-loop-to-rsi-state-capacity-v3-reference-docket.json --title "GoalOS From Loop to RSI State-Capacity Command Room V3" --notes "Browser-local public demo: build the governance institution first. No user data, no user funds, no wallet, no transaction, human review required." || true
+          else
+            echo "gh CLI unavailable; skipping release creation."
+          fi
