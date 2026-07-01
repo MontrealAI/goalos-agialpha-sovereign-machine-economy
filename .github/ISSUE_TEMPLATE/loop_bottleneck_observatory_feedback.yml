@@ -1,0 +1,35 @@
+name: Loop Bottleneck Observatory feedback
+description: Public-safe feedback for the GoalOS Loop Bottleneck Observatory demo.
+title: "[Loop Bottleneck Observatory] "
+labels: ["demo", "loop", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing the Loop Bottleneck Observatory. Do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and expected behavior.
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Reviewer verdict
+      options:
+        - Accept
+        - Reject
+        - Revise
+        - Dissent
+        - Bug report
+    validations:
+      required: true

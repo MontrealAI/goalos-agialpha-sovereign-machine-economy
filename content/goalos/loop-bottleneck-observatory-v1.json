@@ -1,0 +1,21 @@
+{
+  "name": "GoalOS Loop Bottleneck Observatory V1",
+  "path": "loop-bottleneck-observatory.html",
+  "category": "loop governance",
+  "tagline": "The bottleneck always moves.",
+  "inputs": [
+    "public-safe objective",
+    "scenario",
+    "risk class",
+    "loop horizon",
+    "gates and sliders"
+  ],
+  "outputs": [
+    "bottleneck report",
+    "loop contract",
+    "trace ledger",
+    "replay pack",
+    "reviewer brief"
+  ],
+  "boundary": "browser-local; no user data; no user funds; no wallet; no transaction; human review required"
+}

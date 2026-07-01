@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "name": "GoalOS Loop Bottleneck Observatory V1",
+  "generated_at": "2026-07-01T18:46:44Z",
+  "changed_files": [
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/README.md",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/content/goalos/demo-ecosystem-registry.json",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/public/demo-ecosystem-registry.html",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/public/index.html",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/public/search-index.json",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/public/site-map.html",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/public/sitemap.xml",
+    "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/public/website-operating-system.html"
+  ],
+  "page": "public/loop-bottleneck-observatory.html",
+  "boundary": "no user data; no user funds; no wallet; no transaction; no network call; human review required"
+}

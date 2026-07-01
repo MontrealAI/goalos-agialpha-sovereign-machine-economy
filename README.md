@@ -176,3 +176,11 @@ It shows how long-running agent loops become review-ready by separating roles, w
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 <!-- GOALOS_LOOP_FLIGHT_RECORDER_V1_END -->
 
+## GoalOS Loop Bottleneck Observatory V1
+
+**The bottleneck always moves.** This browser-local public demo shows how a long-running GoalOS loop exposes its next bottleneck: contract, roles, disk state, trace reading, restartability, evaluator independence, taste rubric, harness overhead, or proof boundary.
+
+Open: [`public/loop-bottleneck-observatory.html`](public/loop-bottleneck-observatory.html)
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+

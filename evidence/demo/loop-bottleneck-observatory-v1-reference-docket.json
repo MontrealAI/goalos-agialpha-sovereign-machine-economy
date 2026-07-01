@@ -1,0 +1,40 @@
+{
+  "schema": "goalos.loop.bottleneck.observatory.v1.reference_docket",
+  "decision_state": "LOOP_REVIEW_READY",
+  "claim": "A long-running GoalOS loop should expose the next bottleneck and emit reviewable state, trace, restart, and docket artifacts.",
+  "not_claimed": [
+    "achieved AGI",
+    "achieved ASI",
+    "empirical SOTA",
+    "production authorization",
+    "wallet or transaction support"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "required_artifacts": [
+    "Loop Contract",
+    "Disk State Pack",
+    "Trace Ledger",
+    "Bottleneck Report",
+    "Evidence Docket Plan",
+    "Reviewer Brief"
+  ],
+  "gates": [
+    "contract before code",
+    "role separation",
+    "write state to disk",
+    "trace reading",
+    "restartability",
+    "independent evaluator",
+    "taste rubric",
+    "harness deletion plan",
+    "public/private proof boundary",
+    "human review"
+  ]
+}
