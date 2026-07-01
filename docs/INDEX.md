@@ -1,20 +1,23 @@
-# Documentation Index
+# Index
 
-- [Start Here](START_HERE.md)
-- [Non-Technical Guide](NON_TECHNICAL_GUIDE.md)
-- [Reviewer Guide](REVIEWER_GUIDE.md)
-- [Validator Guide](VALIDATOR_GUIDE.md)
-- [Developer Guide](DEVELOPER_GUIDE.md)
-- [Architecture](ARCHITECTURE.md)
-- [Repository Map](REPOSITORY_MAP.md)
-- [Website Map](WEBSITE_MAP.md)
-- [Demo Ecosystem](DEMO_ECOSYSTEM.md)
-- [Proof Run 001](PROOF_RUN_001.md)
-- [Proof Ledger](PROOF_LEDGER.md)
-- [No Data / No Funds](NO_DATA_NO_FUNDS.md)
-- [Token Boundary](TOKEN_BOUNDARY.md)
+Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no production authority, browser-local where applicable, and human review required. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, proprietary, or user-funds data. $AGIALPHA is public-contract identification only and is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation. No trading, investment, financial, tax, legal, bridge, exchange, or regulatory advice.
 
-## Public-alpha boundary
+## Purpose
 
-No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+This document is part of the V9 public-alpha institutional launch surface for GoalOS AGIALPHA Ascension. It gives a claim-bounded, review-ready path for users, maintainers, developers, validators, and institutions.
+
+## Fast path
+
+- Website: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
+- Pathfinder: ../public/pathfinder.html
+- Site Health: ../public/site-health.html
+- Proof Run 001: PROOF_RUN_001.md
+- Demo Registry: DEMO_ECOSYSTEM.md
+
+## Operating guidance
+
+1. Keep claims inside evidence boundaries.
+2. Preserve no-data, no-funds, no-wallet, no-transaction boundaries.
+3. Treat scores as advisory and gates as mandatory.
+4. Require replay, validator review, rollback readiness, and dissent paths before any stronger release claim.
 

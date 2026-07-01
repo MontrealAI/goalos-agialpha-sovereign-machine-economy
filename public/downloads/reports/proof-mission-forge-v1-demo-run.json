@@ -1,0 +1,7 @@
+{
+  "schema": "goalos.proof_mission_forge.demo_run.v1",
+  "generated_at": "2026-06-29T02:32:44.972234+00:00",
+  "status": "passed",
+  "reference_docket": "evidence/demo/proof-mission-forge-v1-reference-docket.json",
+  "docket_hash": "30771067796db9e3b09480b94ed458ee78bcd1c4cd9b7419b3c42e4ba1bae014"
+}

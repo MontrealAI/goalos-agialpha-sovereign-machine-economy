@@ -1,8 +1,8 @@
 # Contributing
 
-Thank you for improving GoalOS. Contributions should be small, reviewable, public-safe, and claim-bounded. You can improve docs, examples, schemas, validator reports, QA checks, and browser-local demos. Run `python scripts/goalos_docs_quality.py` before opening a PR. Use public-safe screenshots only. Write bounded language: “designed to,” “public-alpha demonstrates,” and “requires Evidence Dockets.” Preserve public/private proof boundaries.
+Public-alpha boundary: no user data, no user funds, no wallet, no transaction, no production authority, browser-local where applicable, and human review required. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, proprietary, or user-funds data. $AGIALPHA is public-contract identification only and is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation. No trading, investment, financial, tax, legal, bridge, exchange, or regulatory advice.
 
-## Public-alpha boundary
+## Current release
 
-No user data. No user funds. No wallet. No transaction. No production authority. Human review required. Browser-local demos remain browser-local unless a page explicitly says otherwise. Do not submit personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, privileged, trade-secret, or proprietary data. $AGIALPHA public contract identification only; $AGIALPHA is not available from us. No sale, custody, wallet support, bridge support, exchange support, market making, liquidity support, recommendation, trading advice, financial advice, tax advice, legal advice, or regulatory advice. Third parties are solely responsible for their own review and compliance.
+GoalOS AGIALPHA Ascension — Sovereign Machine Economy Public Alpha V9. Formal counsel review is required before regulated or commercial activity.
 

@@ -1,7 +1,1736 @@
 {
   "status": "passed",
-  "checked_files": 554,
   "blockers": [],
-  "blocker_count": 0,
-  "allowed_boundary_contexts": 653
+  "review_signals": [
+    {
+      "file": "docs/FINAL_RELEASE_CHECKLIST.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/PRESS_KIT.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/EXECUTIVE_BRIEF.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/REPOSITORY_EXCELLENCE_V8.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/REPOSITORY_SETTINGS.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/MESSAGE_HOUSE.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/FAQ_FOR_REPORTERS_AND_REVIEWERS.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/COMMUNICATIONS.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/RESEARCH_CANON.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/series/GOALOS_INSTITUTIONAL_DOCUMENT_SERIES_COMPENDIUM.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/series/10_SECURITY_PRIVACY_AND_CLAIM_BOUNDARY.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/privacy/PRIVACY_NOTICE.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/legal/TERMS_OF_USE.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/legal/NO_TOKEN_SALE_NO_USER_FUNDS.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/legal/TOKEN_AND_INVESTMENT_BOUNDARY.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/legal/NO_USER_DATA_STANDARD.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_USE_PROOF_EXPERIENCE_ATLAS.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "docs/user/NO_DATA_NO_FUNDS_GUIDE.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/start.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/executive-brief.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/operators.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/public-metrics-ledger.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/adoption.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/launch.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/strategic-evidence-scorecard.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/enterprise.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/legal.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/faq.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/roadmap.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/mission-os.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/token.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/proof-velocity.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/source-lineage.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/demo-safety.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/evidence-room.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/pilot-program.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/product.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/standards.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/evidence.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/evaluation.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/node.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/data-room.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/agialpha-token-boundary.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/governance.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/pilot-proof.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/evidence-to-scale.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/troubleshooting.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/agents.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/schema-registry.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/proof-mission-slots.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/proof-economy.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/commercial-evidence.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/start-here.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/trust-center.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/website-autopilot.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/reviewer-path.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/independent-validation.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/investment-token-boundary.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/sovereign-experience-stream.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/security.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/from-loop-to-rsi-sovereign-console.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/claim-boundary.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/architecture.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/for-reviewers.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/security-boundary.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/repository-map.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/capability-stack.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/jobs.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/public-proof-ledger.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/metrics.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/release-gates.html",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/downloads/proof-run-001/README.md",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/downloads/proof-run-001/proof-run-001-real-docket-v1.json",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "public/downloads/content/goalos/proof-run-001-real-docket-v1.json",
+      "signal": "sensitive boundary mention"
+    },
+    {
+      "file": "content/goalos/proof-run-001-real-docket-v1.json",
+      "signal": "sensitive boundary mention"
+    }
+  ],
+  "allowed_boundary_negations": [
+    {
+      "file": "README.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "README.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "README.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/FINAL_RELEASE_CHECKLIST.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/FINAL_RELEASE_CHECKLIST.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/PRESS_KIT.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/PRESS_KIT.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/GOVERNED_DECISION_STATES.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/EXECUTIVE_BRIEF.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/EXECUTIVE_BRIEF.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/OPERATOR_PLAYBOOK.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/MISSION_OS.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/REPOSITORY_EXCELLENCE_V8.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/REPOSITORY_EXCELLENCE_V8.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/RELEASE_PROTOCOL.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/NODE_RUNTIME.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/MESSAGE_HOUSE.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/MESSAGE_HOUSE.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/INSTITUTIONAL_CATEGORY_DESIGN.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/INSTITUTIONAL_CATEGORY_DESIGN.md",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "docs/EVIDENCE_DOCKET_STANDARD.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/API_REFERENCE.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/FAQ_FOR_REPORTERS_AND_REVIEWERS.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/FAQ_FOR_REPORTERS_AND_REVIEWERS.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/SOURCE_OF_TRUTH_V6.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/SOURCE_OF_TRUTH_V6.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/SOURCE_OF_TRUTH_V6.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/META_AGENTIC_COUNCIL.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/WEBSITE_AUTOPILOT.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/CAPABILITY_PACKAGES.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/EVALUATION_PROGRAM.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/PROOF_OF_EVOLUTION_ADAPTER.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/PROOF_ECONOMY.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/VALIDATOR_MESH.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/AGI_JOBS_LEDGER.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/SCHEMA_REGISTRY.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/FAQ_NON_TECHNICAL.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/ACTION_GRAPH.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/PUBLICATION_COPY.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/COMMUNICATIONS.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/COMMUNICATIONS.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/RESEARCH_CANON.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/RESEARCH_CANON.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/proof-missions/PROOF_MISSION_CONTROL_V1.md",
+      "phrase": "connect wallet"
+    },
+    {
+      "file": "docs/demos/LOOP_BOTTLENECK_OBSERVATORY_V1.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/demos/LOOP_BOTTLENECK_OBSERVATORY_V1.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/demos/LOOP_BOTTLENECK_OBSERVATORY_V1.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/proof-runs/PROOF_RUN_001_IMPLEMENTATION_RUNBOOK.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/proof-runs/PROOF_RUN_001_IMPLEMENTATION_RUNBOOK.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/proof-runs/PROOF_RUN_001_DOCKET_ROOM_V2.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/proof-runs/PROOF_RUN_001_DOCKET_ROOM_V2.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/proof-runs/PROOF_RUN_001_DOCKET_ROOM_V2.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/series/13_COMMUNICATIONS_AND_PUBLIC_NARRATIVE.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/series/13_COMMUNICATIONS_AND_PUBLIC_NARRATIVE.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/series/08_HOLY_GRAIL_CANDIDATE_AND_PROOF_RUN_001.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/series/08_HOLY_GRAIL_CANDIDATE_AND_PROOF_RUN_001.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/series/08_HOLY_GRAIL_CANDIDATE_AND_PROOF_RUN_001.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/series/series_manifest.json",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/series/series_manifest.json",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/series/series_manifest.json",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/series/01_EXECUTIVE_OVERVIEW_WHAT_WE_ACCOMPLISHED.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/series/11_CLAIM_BOUNDARY_TRUST_SECURITY_GOVERNANCE.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/series/11_CLAIM_BOUNDARY_TRUST_SECURITY_GOVERNANCE.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/series/11_CLAIM_BOUNDARY_TRUST_SECURITY_GOVERNANCE.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/series/00_SERIES_INDEX.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/series/00_SERIES_INDEX.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/series/00_SERIES_INDEX.md",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "docs/implementation/README_PATCH_CAPABILITY_PARITY_V2.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/legal/NO_TOKEN_SALE_NO_USER_FUNDS.md",
+      "phrase": "send funds"
+    },
+    {
+      "file": "docs/legal/TOKEN_AND_INVESTMENT_BOUNDARY.md",
+      "phrase": "send funds"
+    },
+    {
+      "file": "docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md",
+      "phrase": "send funds"
+    },
+    {
+      "file": "docs/communications/LAUNCH_NARRATIVE.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/communications/LAUNCH_NARRATIVE.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/communications/LAUNCH_NARRATIVE.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_CHECK_CLAIM_BOUNDARY.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_CHECK_CLAIM_BOUNDARY.md",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_CHECK_CLAIM_BOUNDARY.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_REVIEW_PROOF_BACKED_UPGRADE_RIGHTS_ROOM.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/institution/ADVANCED_COORDINATION_NOTES.md",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "docs/release/LEGAL_PRIVACY_RELEASE_CHECKLIST.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/user/FAQ.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "docs/doctrine/HOLY_GRAIL_CANDIDATE.md",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/research-spine.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/action-reason-trace-contract.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-run-001.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/start.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/start.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/start.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/start.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/start.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/multi-agent-institution.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/multi-agent-institution.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/executive-brief.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/executive-brief.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/executive-brief.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/executive-brief.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/executive-brief.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/operators.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/operators.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/operators.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/operators.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/operators.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/public-metrics-ledger.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/public-metrics-ledger.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/public-metrics-ledger.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/public-metrics-ledger.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/public-metrics-ledger.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/capability-compounding-lab.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/capability-compounding-lab.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/agi-alpha-thesis.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/help-center.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/adoption.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/adoption.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/adoption.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/adoption.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/adoption.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/launch.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/launch.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/launch.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/launch.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/launch.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/strategic-evidence-scorecard.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/strategic-evidence-scorecard.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/strategic-evidence-scorecard.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/strategic-evidence-scorecard.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/strategic-evidence-scorecard.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/enterprise.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/enterprise.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/enterprise.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/enterprise.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/enterprise.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/legal.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/legal.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/legal.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/trust.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/trust.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/proof-mission-forge.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-run-001-live.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-ledger.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-ledger.html",
+      "phrase": "connect wallet"
+    },
+    {
+      "file": "public/faq.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/faq.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/faq.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/faq.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/faq.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/proof-run-001-execution-room.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-run-001-execution-room.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/proof-run-001-execution-room.html",
+      "phrase": "connect wallet"
+    },
+    {
+      "file": "public/roadmap.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/roadmap.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/roadmap.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/roadmap.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/roadmap.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/document-series.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-flight-demo.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/agent-constellation-demo.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/run-locally.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/run-locally.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/mission-os.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/mission-os.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/mission-os.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/mission-os.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/mission-os.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/agi-jobs-v0-v2.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/token.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/capability-parity.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/frontier-release-case-study.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/agialpha-control-rail.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/demo-gallery.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-velocity.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/proof-velocity.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/proof-velocity.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/proof-velocity.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/proof-velocity.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/operator-checklist.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/quick-tour.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/source-lineage.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/source-lineage.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/source-lineage.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/source-lineage.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/source-lineage.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/local-autopilot-demo.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/demo-safety.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/paper-to-product.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/value-realization-control-room.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/evidence-room.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/evidence-room.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/evidence-room.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/evidence-room.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/evidence-room.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/frontier-release-room.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/pilot-program.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/pilot-program.html",
+      "phrase": "achieved asi"
+    },
+    {
+      "file": "public/pilot-program.html",
+      "phrase": "empirical sota"
+    },
+    {
+      "file": "public/pilot-program.html",
+      "phrase": "guaranteed roi"
+    },
+    {
+      "file": "public/pilot-program.html",
+      "phrase": "guaranteed return"
+    },
+    {
+      "file": "public/product.html",
+      "phrase": "achieved agi"
+    },
+    {
+      "file": "public/product.html",
+      "phrase": "achieved asi"
+    }
+  ],
+  "files_checked": [
+    "README.md",
+    "docs/BRAND_SYSTEM.md",
+    "docs/PUBLIC_DOWNLOADS.md",
+    "docs/BOARD_APPROVAL_CHECKLIST.md",
+    "docs/USER_EXPERIENCE_PRINCIPLES.md",
+    "docs/FINAL_RELEASE_CHECKLIST.md",
+    "docs/INSTITUTIONAL_CAPABILITY_STACK.md",
+    "docs/ECOSYSTEM_ROADMAP.md",
+    "docs/NARRATIVE.md",
+    "docs/DOCUMENT_SERIES.md",
+    "docs/README.md",
+    "docs/RELEASE_CHECKLIST.md",
+    "docs/WEBSITE_AUTOPILOT_ARCHITECTURE.md",
+    "docs/PRESS_KIT.md",
+    "docs/GOVERNED_DECISION_STATES.md",
+    "docs/DEMO_ECOSYSTEM.md",
+    "docs/EXECUTIVE_BRIEF.md",
+    "docs/PUBLIC_WEBSITE_STANDARD.md",
+    "docs/BOARD_LEVEL_BRIEF.md",
+    "docs/OPERATOR_PLAYBOOK.md",
+    "docs/FAQ.md",
+    "docs/OPERATING_METRICS.md",
+    "docs/ENTERPRISE_OPERATING_MODEL.md",
+    "docs/MISSION_OS.md",
+    "docs/REPLAY.md",
+    "docs/WEBSITE_EXPERIENCE.md",
+    "docs/REPOSITORY_EXCELLENCE_V8.md",
+    "docs/CLAIM_BOUNDARY.md",
+    "docs/NON_TECHNICAL_GUIDE.md",
+    "docs/RELEASE_PROTOCOL.md",
+    "docs/STRATEGIC_INSTITUTIONAL_MEMO.md",
+    "docs/MODEL_RISK_MANAGEMENT.md",
+    "docs/CHANGELOG_GUIDE.md",
+    "docs/CAPABILITY_MATRIX.md",
+    "docs/NODE_RUNTIME.md",
+    "docs/SECURITY_POSTURE.md",
+    "docs/REPOSITORY_SETTINGS.md",
+    "docs/MESSAGE_HOUSE.md",
+    "docs/PILOT_PROGRAM.md",
+    "docs/FINAL_RELEASE_HARDENING.md",
+    "docs/PROOF_RUN_001_RELEASE_CHECKLIST.md",
+    "docs/INSTITUTIONAL_CATEGORY_DESIGN.md",
+    "docs/FROM_LOOP_TO_RSI.md",
+    "docs/EVIDENCE_DOCKET_STANDARD.md",
+    "docs/API_REFERENCE.md",
+    "docs/DATA_ROOM_INDEX.md",
+    "docs/FAQ_FOR_REPORTERS_AND_REVIEWERS.md",
+    "docs/WEBSITE_EDITOR_GUIDE.md",
+    "docs/ARCHITECTURE.md",
+    "docs/SOURCE_OF_TRUTH_V6.md",
+    "docs/PROCUREMENT_READINESS.md",
+    "docs/GITHUB_PAGES_TROUBLESHOOTING.md",
+    "docs/OPERATOR_EXPERIENCE_BLUEPRINT.md",
+    "docs/META_AGENTIC_COUNCIL.md",
+    "docs/INTERACTIVE_CONSOLE_OPERATOR_GUIDE.md",
+    "docs/MISSION_CONTROL.md",
+    "docs/PRESS_NOTES.md",
+    "docs/REPOSITORY_REVIEW_CHECKLIST.md",
+    "docs/REPOSITORY_MAP.md",
+    "docs/INDEX.md",
+    "docs/RSI_GOVERNANCE.md",
+    "docs/CORPORATE_NARRATIVE.md",
+    "docs/LAUNCH_NARRATIVE.md",
+    "docs/ENTERPRISE_TRUST_PACKAGE.md",
+    "docs/VALIDATOR_GUIDE.md",
+    "docs/WEBSITE_AUTOPILOT.md",
+    "docs/TRUST_CENTER_BLUEPRINT.md",
+    "docs/CAPABILITY_PACKAGES.md",
+    "docs/NO_DATA_NO_FUNDS.md",
+    "docs/PROOF_RUN_001.md",
+    "docs/PROOF_LEDGER.md",
+    "docs/GITHUB_WEB_UI_GUIDE.md",
+    "docs/NON_TECHNICAL_OPERATOR_MANUAL.md",
+    "docs/EVALUATION_PROGRAM.md",
+    "docs/PROOF_OF_EVOLUTION_ADAPTER.md",
+    "docs/COMPLIANCE_PACKET.md",
+    "docs/PROOF_ECONOMY.md",
+    "docs/ONE_PAGER.md",
+    "docs/REVIEWER_GUIDE.md",
+    "docs/ROADMAP.md",
+    "docs/VALIDATOR_MESH.md",
+    "docs/AGI_JOBS_LEDGER.md",
+    "docs/INSTITUTIONAL_QUALITY_BAR.md",
+    "docs/EXTERNAL_REVIEW.md",
+    "docs/FINAL_RELEASE_HARDENING_V7.md",
+    "docs/LAUNCH_CARD.md",
+    "docs/RELEASE_OPERATING_MANUAL.md",
+    "docs/ADOPTION_PLAYBOOK.md",
+    "docs/PRACTICAL_CAPABILITY_MODEL.md",
+    "docs/MISSION_FORGE.md",
+    "docs/IMPLEMENTATION_PLAN.md",
+    "docs/WEBSITE_MAP.md",
+    "docs/SCHEMA_REGISTRY.md",
+    "docs/FAQ_NON_TECHNICAL.md",
+    "docs/OPEN_SOURCE_MAINTAINER_PLAYBOOK.md",
+    "docs/ACTION_GRAPH.md",
+    "docs/START_HERE.md",
+    "docs/ASSURANCE_MODEL.md",
+    "docs/PUBLICATION_COPY.md",
+    "docs/FOUNDER_NARRATIVE.md",
+    "docs/SOVEREIGN_MACHINE_ECONOMY_MODEL.md",
+    "docs/PRODUCT_PRINCIPLES.md",
+    "docs/DEVELOPER_GUIDE.md",
+    "docs/COMMUNICATIONS.md",
+    "docs/GLOSSARY.md",
+    "docs/TOKEN_BOUNDARY.md",
+    "docs/THREAT_MODEL.md",
+    "docs/EXECUTIVE_INSTITUTIONAL_BRIEF.md",
+    "docs/TRUST_AND_ASSURANCE_READINESS.md",
+    "docs/STAKEHOLDER_DEMO_SCRIPT.md",
+    "docs/RESEARCH_CANON.md",
+    "docs/SITE_HEALTH.md",
+    "docs/INTEGRATION_MAP.md",
+    "docs/00_INSTITUTIONAL_EXECUTIVE_BRIEF.md",
+    "docs/COMMERCIAL_STRATEGY.md",
+    "docs/website/WEBSITE_EXPERIENCE_OS_V4.md",
+    "docs/website/WEBSITE_EXPERIENCE_OS_V2.md",
+    "docs/website/WEBSITE_EXPERIENCE_OS_V3.md",
+    "docs/website/WEBSITE_EXPERIENCE_OS_V5.md",
+    "docs/website/WEBSITE_EXPERIENCE_OS_V1.md",
+    "docs/proof-missions/PROOF_MISSION_CONTROL_V1.md",
+    "docs/demos/EVOLUTION_LEDGER_CONTROL_ROOM_V2.md",
+    "docs/demos/PROOF_BACKED_UPGRADE_RIGHTS_ROOM_V1.md",
+    "docs/demos/EVOLUTION_LEDGER_CONTROL_ROOM_V1.md",
+    "docs/demos/PROOF_GRADIENT_LAB_V1.md",
+    "docs/demos/FROM_LOOP_TO_RSI_STATE_CAPACITY_V3.md",
+    "docs/demos/FALSIFICATION_GAUNTLET_V1_2.md",
+    "docs/demos/CAPABILITY_COMPOUNDING_LAB_V2.md",
+    "docs/demos/DEMO_BOUNDARY.md",
+    "docs/demos/VALUE_REALIZATION_CONTROL_ROOM_V1.md",
+    "docs/demos/PROOF_TO_ACTION_COMMAND_ROOM_V1.md",
+    "docs/demos/AUTONOMOUS_DEMOS.md",
+    "docs/demos/FALSIFICATION_GAUNTLET_V1_1.md",
+    "docs/demos/REAL_TASK_BENCHMARK_BRIDGE_V1.md",
+    "docs/demos/LOOP_BOTTLENECK_OBSERVATORY_V1.md",
+    "docs/demos/EVIDENCE_DOCKET_THEATRE_V2.md",
+    "docs/demos/FROM_LOOP_TO_RSI_GOVERNANCE_V1.md",
+    "docs/demos/PUBLIC_PROOF_LEDGER_V1.md",
+    "docs/demos/ACTION_REASON_TRACE_CONTRACT_V1.md",
+    "docs/demos/VALIDATOR_COUNCIL_ARENA_V1.md",
+    "docs/demos/SOVEREIGN_EXPERIENCE_STREAM_LAB_V1.md",
+    "docs/demos/CAPABILITY_COMPOUNDING_LAB_V1.md",
+    "docs/demos/DEMO_ECOSYSTEM_REGISTRY_V1.md",
+    "docs/demos/LOOP_FLIGHT_RECORDER_V1.md",
+    "docs/demos/INSTITUTIONAL_DEPLOYMENT_WEDGE_V1.md",
+    "docs/demos/OPEN_ENDED_WORK_ENGINE_LAB_V1.md",
+    "docs/demos/PROOF_CARRYING_ARTIFACT_FOUNDRY_V1.md",
+    "docs/demos/FALSIFICATION_GAUNTLET_V1.md",
+    "docs/demos/DEMO_OPERATOR_GUIDE.md",
+    "docs/demos/PROOF_MISSION_FORGE_V1.md",
+    "docs/demos/PROOF_SETTLEMENT_CHRONICLE_LAB_V1.md",
+    "docs/demos/PROOF_EXPERIENCE_ATLAS_V1.md",
+    "docs/demos/LOOP_CONTRACT_LAB_V1.md",
+    "docs/demos/FROM_LOOP_TO_RSI_SOVEREIGN_CONSOLE_V2.md",
+    "docs/proof-runs/PROOF_RUN_001_IMPLEMENTATION_RUNBOOK.md",
+    "docs/proof-runs/PROOF_RUN_001_EXECUTION_ROOM_V1.md",
+    "docs/proof-runs/PROOF_RUN_001_DOCKET_ROOM_V2.md",
+    "docs/proof-runs/PROOF_RUN_001_DOCKET_STRUCTURE.md",
+    "docs/proof-runs/PROOF_RUN_001_EXECUTION_PLAN.md",
+    "docs/series/DOCUMENT_CONTROL.md",
+    "docs/series/13_COMMUNICATIONS_AND_PUBLIC_NARRATIVE.md",
+    "docs/series/09_AGIALPHA_PROOF_CONTROL_RAIL_AND_SETTLEMENT.md",
+    "docs/series/14_PILOT_PROGRAM_AND_EVALUATION_PLAN.md",
+    "docs/series/05_PROOF_OS_AND_EVIDENCE_DOCKETS.md",
+    "docs/series/README.md",
+    "docs/series/12_DEVELOPER_AND_REPOSITORY_GUIDE.md",
+    "docs/series/04_NON_TECHNICAL_OPERATOR_GUIDE.md",
+    "docs/series/14_REPOSITORY_OPERATING_MANUAL_FOR_NON_TECHNICAL_OPERATORS.md",
+    "docs/series/02_RESEARCH_SPINE_AND_CANON.md",
+    "docs/series/07_EVIDENCE_DOCKET_AND_VALIDATION_STANDARD.md",
+    "docs/series/15_PUBLIC_WEBSITE_AND_COMMUNICATIONS_KIT.md",
+    "docs/series/08_HOLY_GRAIL_CANDIDATE_AND_PROOF_RUN_001.md",
+    "docs/series/04_SOVEREIGN_MACHINE_ECONOMY_ARCHITECTURE.md",
+    "docs/series/11_ENTERPRISE_OPERATING_MODEL.md",
+    "docs/series/19_PUBLICATION_CHECKLIST.md",
+    "docs/series/07_MULTI_AGENT_INSTITUTION_COORDINATION.md",
+    "docs/series/06_FRONTIER_RELEASE_ROOM_AND_AI_RELEASE_GOVERNANCE.md",
+    "docs/series/GOALOS_INSTITUTIONAL_DOCUMENT_SERIES_COMPENDIUM.md",
+    "docs/series/15_MASTER_CHECKLIST.md",
+    "docs/series/10_WEBSITE_AND_AUTONOMOUS_GITHUB_ACTIONS.md",
+    "docs/series/17_ROADMAP_OPERATING_METRICS_AND_OKRS.md",
+    "docs/series/COPY_PASTE_GITHUB_STRUCTURE.md",
+    "docs/series/16_PROCUREMENT_DATA_ROOM_AND_BOARD_PACK.md",
+    "docs/series/02_VISION_AND_CATEGORY_NARRATIVE.md",
+    "docs/series/20_ONE_PAGE_BOARD_BRIEF.md",
+    "docs/series/10_SECURITY_PRIVACY_AND_CLAIM_BOUNDARY.md",
+    "docs/series/document_series_qa.json",
+    "docs/series/series_manifest.json",
+    "docs/series/08_AGENT_JOB_NODE_INTEGRATION.md",
+    "docs/series/03_REIMPLEMENTATION_MAP_META_AGENTIC_NODE_JOBS_TO_GOALOS.md",
+    "docs/series/18_FAQ_AND_GLOSSARY.md",
+    "docs/series/01_EXECUTIVE_OVERVIEW_WHAT_WE_ACCOMPLISHED.md",
+    "docs/series/09_TRUST_GOVERNANCE_AND_ASSURANCE.md",
+    "docs/series/01_EXECUTIVE_BRIEF.md",
+    "docs/series/12_EXECUTION_ROADMAP_NOW_WE_PROVE_IT.md",
+    "docs/series/05_ARCHITECTURE_PRIMER.md",
+    "docs/series/16_BOARD_MEMO.md",
+    "docs/series/13_GITHUB_WEB_UI_LAUNCH_GUIDE.md",
+    "docs/series/11_CLAIM_BOUNDARY_TRUST_SECURITY_GOVERNANCE.md",
+    "docs/series/03_PRODUCT_AND_CAPABILITY_OVERVIEW.md",
+    "docs/series/06_PROOF_OPERATING_MODEL.md",
+    "docs/series/00_SERIES_INDEX.md",
+    "docs/research/EVALUATION_PROGRAM_FROM_PAPERS.md",
+    "docs/research/RESEARCH_SPINE.md",
+    "docs/research/PAPER_TO_PRODUCT_MATRIX.md",
+    "docs/implementation/WEBSITE_TO_CODE_TRACEABILITY.md",
+    "docs/implementation/WEBSITE_CODE_PARITY_V3.md",
+    "docs/implementation/IMPLEMENTATION_PARITY_STANDARD.md",
+    "docs/implementation/README_PATCH_CAPABILITY_PARITY_V2.md",
+    "docs/implementation/CAPABILITY_PARITY.md",
+    "docs/frontier-release/ROLLBACK_RESTORE_PROTOCOL.md",
+    "docs/frontier-release/README.md",
+    "docs/frontier-release/RELEASE_NOTES_FRONTIER_RELEASE_ROOM.md",
+    "docs/frontier-release/ANTHROPIC_MYTHOS_OPENAI_SOL_PUBLIC_SOURCE_CASE_STUDY.md",
+    "docs/frontier-release/FRONTIER_RELEASE_ROOM_OPERATOR_GUIDE.md",
+    "docs/frontier-release/FRG-001_FRONTIER_MODEL_RELEASE_EVIDENCE_DOCKET.md",
+    "docs/frontier-release/PUBLIC_PRIVATE_EVIDENCE_MODEL.md",
+    "docs/frontier-release/VALIDATOR_SEAT_MODEL.md",
+    "docs/frontier-release/ACCESS_TIER_MATRIX.md",
+    "docs/frontier-release/BOARD_MEMO_HISTORICAL_OPPORTUNITY.md",
+    "docs/privacy/PRIVACY_NOTICE.md",
+    "docs/design/ASCENSION_VISUAL_PARITY_V4.md",
+    "docs/legal/TERMS_OF_USE.md",
+    "docs/legal/NO_TOKEN_SALE_NO_USER_FUNDS.md",
+    "docs/legal/TOKEN_AND_INVESTMENT_BOUNDARY.md",
+    "docs/legal/AGIALPHA_TOKEN_PUBLIC_MARKET_BOUNDARY.md",
+    "docs/legal/LEGAL_DISCLAIMER.md",
+    "docs/legal/NO_USER_DATA_STANDARD.md",
+    "docs/legal/PILOT_DATA_BOUNDARY.md",
+    "docs/legal/LEGAL_README.md",
+    "docs/communications/LAUNCH_NARRATIVE.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_SETTLEMENT_CHRONICLE_LAB.md",
+    "docs/reviewer/HOW_TO_REVIEW_AN_EVIDENCE_DOCKET.md",
+    "docs/reviewer/HOW_TO_FILE_A_VALIDATOR_REPORT.md",
+    "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V2.md",
+    "docs/reviewer/HOW_TO_CHECK_CLAIM_BOUNDARY.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_MISSION_FORGE.md",
+    "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V5.md",
+    "docs/reviewer/README.md",
+    "docs/reviewer/HOW_TO_REVIEW_REAL_TASK_BENCHMARK_BRIDGE.md",
+    "docs/reviewer/HOW_TO_REVIEW_WITHOUT_SUBMITTING_DATA.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_BACKED_UPGRADE_RIGHTS_ROOM.md",
+    "docs/reviewer/HOW_TO_REVIEW_LOOP_FLIGHT_RECORDER.md",
+    "docs/reviewer/HOW_TO_REVIEW_FALSIFICATION_GAUNTLET_V1_1.md",
+    "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB_V2.md",
+    "docs/reviewer/HOW_TO_REVIEW_FALSIFICATION_GAUNTLET.md",
+    "docs/reviewer/HOW_TO_REVIEW_EVIDENCE_DOCKET_THEATRE.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_TO_ACTION_COMMAND_ROOM.md",
+    "docs/reviewer/HOW_TO_REVIEW_INSTITUTIONAL_DEPLOYMENT_WEDGE.md",
+    "docs/reviewer/HOW_TO_REVIEW_CAPABILITY_COMPOUNDING_LAB.md",
+    "docs/reviewer/HOW_TO_REVIEW_FROM_LOOP_TO_RSI_GOVERNANCE.md",
+    "docs/reviewer/HOW_TO_REVIEW_LOOP_CONTRACT_LAB.md",
+    "docs/reviewer/HOW_TO_USE_EXTERNAL_REVIEWER_REPLAY_ROOM.md",
+    "docs/reviewer/HOW_TO_REVIEW_EVOLUTION_LEDGER_CONTROL_ROOM.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_RUN_001_EXECUTION_ROOM.md",
+    "docs/reviewer/HOW_TO_REVIEW_FINAL_RELEASE_HARDENING_V7.md",
+    "docs/reviewer/EXTERNAL_REVIEWER_REPLAY_ROOM_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_CARRYING_ARTIFACT_FOUNDRY.md",
+    "docs/reviewer/HOW_TO_REVIEW_SOVEREIGN_EXPERIENCE_STREAM_LAB.md",
+    "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V3.md",
+    "docs/reviewer/HOW_TO_RUN_REPLAY.md",
+    "docs/reviewer/HOW_TO_REVIEW_WEBSITE_EXPERIENCE_OS_V4.md",
+    "docs/reviewer/REPLAY_REVIEW_TEMPLATE.md",
+    "docs/reviewer/HOW_TO_USE_PUBLIC_PROOF_LEDGER.md",
+    "docs/reviewer/HOW_TO_USE_DEMO_ECOSYSTEM_REGISTRY.md",
+    "docs/reviewer/HOW_TO_REVIEW_OPEN_ENDED_WORK_ENGINE_LAB.md",
+    "docs/reviewer/HOW_TO_REVIEW_EVOLUTION_LEDGER_CONTROL_ROOM_V2.md",
+    "docs/reviewer/HOW_TO_REVIEW_FROM_LOOP_TO_RSI_SOVEREIGN_CONSOLE.md",
+    "docs/reviewer/HOW_TO_REVIEW_SOURCE_OF_TRUTH_V6.md",
+    "docs/reviewer/HOW_TO_USE_PROOF_MISSION_CONTROL.md",
+    "docs/reviewer/HOW_TO_REVIEW_LOOP_BOTTLENECK_OBSERVATORY.md",
+    "docs/reviewer/HOW_TO_REVIEW_ACTION_REASON_TRACE_CONTRACT.md",
+    "docs/reviewer/HOW_TO_USE_PROOF_EXPERIENCE_ATLAS.md",
+    "docs/reviewer/HOW_TO_REVIEW_VALUE_REALIZATION_CONTROL_ROOM.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_GRADIENT_LAB.md",
+    "docs/reviewer/HOW_TO_REVIEW_VALIDATOR_COUNCIL_ARENA.md",
+    "docs/reviewer/HOW_TO_REVIEW_FROM_LOOP_TO_RSI_STATE_CAPACITY.md",
+    "docs/reviewer/VALIDATOR_REPORT_TEMPLATE.md",
+    "docs/metrics/PUBLIC_PROOF_METRICS.md",
+    "docs/institution/MULTI_AGENT_INSTITUTION_EXPERIENCE_V6.md",
+    "docs/institution/NON_TECHNICAL_USER_GUIDE.md",
+    "docs/institution/ADVANCED_COORDINATION_NOTES.md",
+    "docs/pilot/PILOT_INTAKE_FORM.md",
+    "docs/pilot/PUBLIC_PRIVATE_BOUNDARY.md",
+    "docs/pilot/PILOT_SAFE_INTAKE.md",
+    "docs/pilot/FOUNDING_PROOF_MISSION_INTAKE.md",
+    "docs/pilot/PROOF_MISSION_SLOT_GUIDE.md",
+    "docs/pilot/PILOT_OUTPUT_PACKAGE.md",
+    "docs/release/RELEASE_CHECKLIST.md",
+    "docs/release/LEGAL_PRIVACY_RELEASE_CHECKLIST.md",
+    "docs/release/USER_FRIENDLY_V3_CHECKLIST.md",
+    "docs/agialpha/AGIALPHA_PROOF_CONTROL_RAIL.md",
+    "docs/user/OPERATOR_PLAYBOOK.md",
+    "docs/user/FAQ.md",
+    "docs/user/NO_DATA_NO_FUNDS_GUIDE.md",
+    "docs/user/FIRST_FIVE_CLICKS.md",
+    "docs/user/USER_JOURNEYS.md",
+    "docs/user/USER_ADOPTION_LAYER.md",
+    "docs/user/START_HERE.md",
+    "docs/validators/VALIDATOR_SEAT_INVITATION.md",
+    "docs/doctrine/HOLY_GRAIL_CANDIDATE.md",
+    "docs/coordination/MULTI_AGENT_INSTITUTION.md",
+    "docs/coordination/MAC-001_PROOF_GATED_MULTI_AGENT_COORDINATION.md",
+    "docs/compliance/AGIALPHA_THIRD_PARTY_RESPONSIBILITY_MATRIX.md",
+    "docs/compliance/REGULATORY_RESPONSIBILITY_MATRIX.md",
+    "docs/aep/AEP001_IMPLEMENTATION_MAPPING.md",
+    "docs/evidence/NETWORK_EFFECTS_AND_CAPABILITY_REUSE_METRICS.md",
+    "docs/evidence/README.md",
+    "docs/evidence/PROOF_VELOCITY_METRICS.md",
+    "docs/evidence/STRATEGIC_SCALE_EVIDENCE_DOCKET.md",
+    "docs/evidence/CATEGORY_LEADERSHIP_EVIDENCE_PROGRAM.md",
+    "docs/evidence/ENTERPRISE_TRACTION_EVIDENCE_STANDARD.md",
+    "docs/evidence/CUSTOMER_DISCOVERY_AND_DESIGN_PARTNER_PLAYBOOK.md",
+    "docs/evidence/EVIDENTIAL_STATUS_REPORT.md",
+    "docs/evidence/EV-001_EVIDENCE_TO_SCALE_STANDARD.md",
+    "docs/evidence/PILOT_OUTCOME_DOCKET_STANDARD.md",
+    "docs/evidence/MARKET_EVIDENCE_OPERATING_SYSTEM.md",
+    "docs/evidence/PUBLIC_METRICS_LEDGER_STANDARD.md",
+    "docs/evidence/REVENUE_AND_COMMERCIAL_EVIDENCE_LEDGER.md",
+    "docs/evidence/BOARD_AND_INVESTOR_EVIDENCE_ROOM.md",
+    "docs/evidence/BENCHMARK_AND_BASELINE_PROTOCOL.md",
+    "docs/evidence/EVIDENTIAL_STATUS_DASHBOARD.md",
+    "docs/evidence/GOVERNANCE_FOR_STRATEGIC_CLAIMS.md",
+    "docs/evidence/INDEPENDENT_VALIDATION_PROTOCOL.md",
+    "public/research-spine.html",
+    "public/site-health.html",
+    "public/action-reason-trace-contract.html",
+    "public/proof-run-001.html",
+    "public/start.html",
+    "public/multi-agent-institution.html",
+    "public/executive-brief.html",
+    "public/operators.html",
+    "public/public-metrics-ledger.html",
+    "public/capability-compounding-lab.html",
+    "public/agi-alpha-thesis.html",
+    "public/help-center.html",
+    "public/adoption.html",
+    "public/launch.html",
+    "public/strategic-evidence-scorecard.html",
+    "public/enterprise.html",
+    "public/legal.html",
+    "public/trust.html",
+    "public/proof-mission-forge.html",
+    "public/proof-run-001-live.html",
+    "public/proof-ledger.html",
+    "public/faq.html",
+    "public/proof-run-001-execution-room.html",
+    "public/roadmap.html",
+    "public/no-data-no-funds.html",
+    "public/document-series.html",
+    "public/proof-flight-demo.html",
+    "public/agent-constellation-demo.html",
+    "public/run-locally.html",
+    "public/mission-os.html",
+    "public/agi-jobs-v0-v2.html",
+    "public/token.html",
+    "public/capability-parity.html",
+    "public/frontier-release-case-study.html",
+    "public/agialpha-control-rail.html",
+    "public/demo-gallery.html",
+    "public/proof-velocity.html",
+    "public/website-operating-system.html",
+    "public/operator-checklist.html",
+    "public/quick-tour.html",
+    "public/source-lineage.html",
+    "public/local-autopilot-demo.html",
+    "public/demo-safety.html",
+    "public/paper-to-product.html",
+    "public/value-realization-control-room.html",
+    "public/from-loop-to-rsi-governance.html",
+    "public/evidence-room.html",
+    "public/frontier-release-room.html",
+    "public/pilot-program.html",
+    "public/product.html",
+    "public/falsification-box.html",
+    "public/loop-flight-recorder.html",
+    "public/standards.html",
+    "public/docs.html",
+    "public/evidence.html",
+    "public/evaluation.html",
+    "public/node.html",
+    "public/responsible-use.html",
+    "public/pathfinder.html",
+    "public/what-goalos-does.html",
+    "public/search.html",
+    "public/frontier-release-doctrine.html",
+    "public/proof-experience-atlas.html",
+    "public/meta-agentic-alpha-agi.html",
+    "public/proof-run-001-docket.html",
+    "public/index.html",
+    "public/data-room.html",
+    "public/mission-os-canon.html",
+    "public/coordination-console.html",
+    "public/agialpha-token-boundary.html",
+    "public/governance.html",
+    "public/proof-gradient-lab.html",
+    "public/pilot-proof.html",
+    "public/holy-grail-candidate.html",
+    "public/evidence-to-scale.html",
+    "public/proof-card-studio.html",
+    "public/real-task-benchmark-bridge.html",
+    "public/for-new-users.html",
+    "public/loop-bottleneck-observatory.html",
+    "public/token-boundary.html",
+    "public/historical-command-center.html",
+    "public/data-boundary.html",
+    "public/demo-ecosystem-registry.html",
+    "public/troubleshooting.html",
+    "public/agents.html",
+    "public/404.html",
+    "public/demo-launcher.html",
+    "public/validator-seats.html",
+    "public/institutional-deployment-wedge.html",
+    "public/evaluation-program.html",
+    "public/sovereign-experience-stream-lab.html",
+    "public/proof-settlement-chronicle-lab.html",
+    "public/schema-registry.html",
+    "public/agi-alpha-node-v0.html",
+    "public/privacy.html",
+    "public/proof-mission-slots.html",
+    "public/site-status.json",
+    "public/from-loop-to-rsi-state-capacity.html",
+    "public/falsification-gauntlet.html",
+    "public/proof-mission-control.html",
+    "public/proof-economy.html",
+    "public/commercial-evidence.html",
+    "public/trust-boundary.html",
+    "public/launch-narrative.html",
+    "public/start-here.html",
+    "public/trust-center.html",
+    "public/terms.html",
+    "public/website-autopilot.html",
+    "public/glossary.html",
+    "public/validator-room.html",
+    "public/reviewer-path.html",
+    "public/robots.txt",
+    "public/validator-council-arena.html",
+    "public/console.html",
+    "public/site-map.html",
+    "public/proof-to-action-command-room.html",
+    "public/independent-validation.html",
+    "public/external-reviewer-replay-room.html",
+    "public/search-index.json",
+    "public/investment-token-boundary.html",
+    "public/sovereign-experience-stream.html",
+    "public/evolution-ledger-control-room.html",
+    "public/security.html",
+    "public/from-loop-to-rsi-sovereign-console.html",
+    "public/evidence-docket-theatre.html",
+    "public/claim-boundary.html",
+    "public/architecture.html",
+    "public/for-reviewers.html",
+    "public/docket-builder.html",
+    "public/open-ended-work-engine.html",
+    "public/security-boundary.html",
+    "public/try-goalos.html",
+    "public/loop-contract-lab.html",
+    "public/repository-map.html",
+    "public/proof-carrying-artifact-foundry.html",
+    "public/proof-metrics-dashboard.html",
+    "public/capability-stack.html",
+    "public/proof-backed-upgrade-rights-room.html",
+    "public/jobs.html",
+    "public/public-proof-ledger.html",
+    "public/metrics.html",
+    "public/release-gates.html",
+    "public/proof-of-evolution.html",
+    "public/reports/website-code-parity-v3.json",
+    "public/archive/index-before-website-experience-os-v2.html",
+    "public/downloads/index.html",
+    "public/downloads/proof-run-001/README.md",
+    "public/downloads/proof-run-001/07_validator_packet.md",
+    "public/downloads/proof-run-001/proof-run-001-docket-room-v2.json",
+    "public/downloads/proof-run-001/proof-run-001-docket-room-v2-executive-summary.md",
+    "public/downloads/proof-run-001/06_governed_decision_state.json",
+    "public/downloads/proof-run-001/proof-run-001-final-hardening-v7.json",
+    "public/downloads/proof-run-001/proof-run-001-docket-room-v2-qa.json",
+    "public/downloads/proof-run-001/proof-run-001-real-docket-v1.json",
+    "public/downloads/proof-run-001/proof-run-001-docket-room-v2-decision-state.json",
+    "public/downloads/proof-run-001/proof-run-001-docket-room-v2-validator-packet.md",
+    "public/downloads/proof-run-001/proof-run-001-real-docket-v1-qa.json",
+    "public/downloads/proof-run-001/proof-run-001-final-hardening-v7-validator-packet.md",
+    "public/downloads/proof-run-001/08_executive_summary.md",
+    "public/downloads/content/release-state.json",
+    "public/downloads/content/demo-ecosystem-registry.json",
+    "public/downloads/source-of-truth-v6/demo-ecosystem-registry.json",
+    "public/downloads/docs/DEMO_ECOSYSTEM.md",
+    "public/downloads/docs/REVIEWER_GUIDE.md",
+    "public/downloads/docs/FINAL_RELEASE_HARDENING_V7.md",
+    "public/downloads/docs/START_HERE.md",
+    "public/downloads/docs/DEVELOPER_GUIDE.md",
+    "public/downloads/docs/TOKEN_BOUNDARY.md",
+    "public/downloads/replay/proof-run-001/README.md",
+    "public/downloads/content/goalos/evolution-ledger-control-room-v1.json",
+    "public/downloads/content/goalos/website-experience-os-v2.json",
+    "public/downloads/content/goalos/sovereign-experience-stream-lab-v1.json",
+    "public/downloads/content/goalos/release-state.json",
+    "public/downloads/content/goalos/proof-gradient-lab-v1.json",
+    "public/downloads/content/goalos/historical-master-manifest.json",
+    "public/downloads/content/goalos/user-friendly-routing-v3.json",
+    "public/downloads/content/goalos/public-proof-navigation-v3.json",
+    "public/downloads/content/goalos/proof-run-001-docket-room-v2.json",
+    "public/downloads/content/goalos/action-reason-trace-contract-v1.json",
+    "public/downloads/content/goalos/public-proof-navigation-v7.json",
+    "public/downloads/content/goalos/falsification-gauntlet-v1-1.json",
+    "public/downloads/content/goalos/value-realization-control-room-v1.json",
+    "public/downloads/content/goalos/institutional-deployment-wedge-v1.json",
+    "public/downloads/content/goalos/proof-to-action-command-room-v1.json",
+    "public/downloads/content/goalos/autonomous-demo-index-v4.json",
+    "public/downloads/content/goalos/proof-mission-forge-v1.json",
+    "public/downloads/content/goalos/source-of-truth-v6.json",
+    "public/downloads/content/goalos/public-proof-navigation-v4.json",
+    "public/downloads/content/goalos/open-ended-work-engine-lab-v1.json",
+    "public/downloads/content/goalos/website-experience-os-v5.json",
+    "public/downloads/content/goalos/website-experience-os-v4.json",
+    "public/downloads/content/goalos/public-proof-navigation.json",
+    "public/downloads/content/goalos/real-task-benchmark-bridge-v1.json",
+    "public/downloads/content/goalos/public-proof-navigation-v6.json",
+    "public/downloads/content/goalos/public-proof-ledger-v1.json",
+    "public/downloads/content/goalos/proof-carrying-artifact-foundry-v1.json",
+    "public/downloads/content/goalos/proof-run-001-execution-room-v1.json",
+    "public/downloads/content/goalos/website-experience-os-v3.json",
+    "public/downloads/content/goalos/demo-ecosystem-registry-v1.json",
+    "public/downloads/content/goalos/capability-compounding-lab-v2.json",
+    "public/downloads/content/goalos/validator-council-arena-v1.json",
+    "public/downloads/content/goalos/proof-backed-upgrade-rights-room-v1.json",
+    "public/downloads/content/goalos/agialpha-token-boundary.json",
+    "public/downloads/content/goalos/proof-run-001-real-docket-v1.json",
+    "public/downloads/content/goalos/falsification-gauntlet-v1.json",
+    "public/downloads/content/goalos/proof-experience-atlas-v1.json",
+    "public/downloads/content/goalos/proof-settlement-chronicle-lab-v1.json",
+    "public/downloads/content/goalos/multi-agent-institution-v6.json",
+    "public/downloads/content/goalos/evolution-ledger-control-room-v2.json",
+    "public/downloads/content/goalos/repository-qa-index.json",
+    "public/downloads/content/goalos/proof-mission-control-v1.json",
+    "public/downloads/content/goalos/repository-documentation-index.json",
+    "public/downloads/content/goalos/website-experience-os-v1.json",
+    "public/downloads/content/goalos/demo-ecosystem-registry.json",
+    "public/downloads/content/goalos/evidence-docket-theatre-v2.json",
+    "public/downloads/content/goalos/external-reviewer-replay-room-v1.json",
+    "public/downloads/content/goalos/public-proof-navigation-v5.json",
+    "public/downloads/content/goalos/capability-compounding-lab-v1.json",
+    "public/downloads/docs/series/13_COMMUNICATIONS_AND_PUBLIC_NARRATIVE.md",
+    "public/downloads/docs/series/09_AGIALPHA_PROOF_CONTROL_RAIL_AND_SETTLEMENT.md",
+    "public/downloads/docs/series/05_PROOF_OS_AND_EVIDENCE_DOCKETS.md",
+    "public/downloads/docs/series/14_REPOSITORY_OPERATING_MANUAL_FOR_NON_TECHNICAL_OPERATORS.md",
+    "public/downloads/docs/series/02_RESEARCH_SPINE_AND_CANON.md",
+    "public/downloads/docs/series/08_HOLY_GRAIL_CANDIDATE_AND_PROOF_RUN_001.md",
+    "public/downloads/docs/series/04_SOVEREIGN_MACHINE_ECONOMY_ARCHITECTURE.md",
+    "public/downloads/docs/series/07_MULTI_AGENT_INSTITUTION_COORDINATION.md",
+    "public/downloads/docs/series/06_FRONTIER_RELEASE_ROOM_AND_AI_RELEASE_GOVERNANCE.md",
+    "public/downloads/docs/series/15_MASTER_CHECKLIST.md",
+    "public/downloads/docs/series/10_WEBSITE_AND_AUTONOMOUS_GITHUB_ACTIONS.md",
+    "public/downloads/docs/series/03_REIMPLEMENTATION_MAP_META_AGENTIC_NODE_JOBS_TO_GOALOS.md",
+    "public/downloads/docs/series/01_EXECUTIVE_OVERVIEW_WHAT_WE_ACCOMPLISHED.md",
+    "public/downloads/docs/series/12_EXECUTION_ROADMAP_NOW_WE_PROVE_IT.md",
+    "public/downloads/docs/series/16_BOARD_MEMO.md",
+    "public/downloads/docs/series/11_CLAIM_BOUNDARY_TRUST_SECURITY_GOVERNANCE.md",
+    "public/downloads/docs/series/00_SERIES_INDEX.md",
+    "public/downloads/docs/reviewer/HOW_TO_REVIEW_FINAL_RELEASE_HARDENING_V7.md",
+    "public/downloads/evidence/proof-run-001/07_validator_packet.md",
+    "public/downloads/evidence/proof-run-001/proof-run-001-final-hardening-v7.json",
+    "public/downloads/evidence/proof-run-001/proof-run-001-source-of-truth-v6.json",
+    "public/downloads/evidence/proof-run-001/proof-run-001-final-hardening-v7-validator-packet.md",
+    "content/site_manifest.json",
+    "content/frontier-release-room/sources.json",
+    "content/goalos/from-loop-to-rsi-state-capacity-v3.json",
+    "content/goalos/evolution-ledger-control-room-v1.json",
+    "content/goalos/website-experience-os-v2.json",
+    "content/goalos/sovereign-experience-stream-lab-v1.json",
+    "content/goalos/release-state.json",
+    "content/goalos/proof-gradient-lab-v1.json",
+    "content/goalos/historical-master-manifest.json",
+    "content/goalos/user-friendly-routing-v3.json",
+    "content/goalos/public-proof-navigation-v3.json",
+    "content/goalos/proof-run-001-docket-room-v2.json",
+    "content/goalos/action-reason-trace-contract-v1.json",
+    "content/goalos/public-proof-navigation-v7.json",
+    "content/goalos/falsification-gauntlet-v1-1.json",
+    "content/goalos/value-realization-control-room-v1.json",
+    "content/goalos/institutional-deployment-wedge-v1.json",
+    "content/goalos/loop-bottleneck-observatory-v1.json",
+    "content/goalos/proof-to-action-command-room-v1.json",
+    "content/goalos/autonomous-demo-index-v4.json",
+    "content/goalos/proof-mission-forge-v1.json",
+    "content/goalos/source-of-truth-v6.json",
+    "content/goalos/public-proof-navigation-v4.json",
+    "content/goalos/loop-flight-recorder-v1.json",
+    "content/goalos/open-ended-work-engine-lab-v1.json",
+    "content/goalos/from-loop-to-rsi-governance-v1.json",
+    "content/goalos/website-experience-os-v5.json",
+    "content/goalos/website-experience-os-v4.json",
+    "content/goalos/public-proof-navigation.json",
+    "content/goalos/real-task-benchmark-bridge-v1.json",
+    "content/goalos/public-proof-navigation-v6.json",
+    "content/goalos/public-proof-ledger-v1.json",
+    "content/goalos/proof-carrying-artifact-foundry-v1.json",
+    "content/goalos/proof-run-001-execution-room-v1.json",
+    "content/goalos/website-experience-os-v3.json",
+    "content/goalos/demo-ecosystem-registry-v1.json",
+    "content/goalos/capability-compounding-lab-v2.json",
+    "content/goalos/validator-council-arena-v1.json",
+    "content/goalos/proof-backed-upgrade-rights-room-v1.json",
+    "content/goalos/agialpha-token-boundary.json",
+    "content/goalos/from-loop-to-rsi-sovereign-console-v2.json",
+    "content/goalos/proof-run-001-real-docket-v1.json",
+    "content/goalos/falsification-gauntlet-v1.json",
+    "content/goalos/proof-experience-atlas-v1.json",
+    "content/goalos/proof-settlement-chronicle-lab-v1.json",
+    "content/goalos/multi-agent-institution-v6.json",
+    "content/goalos/evolution-ledger-control-room-v2.json",
+    "content/goalos/repository-qa-index.json",
+    "content/goalos/proof-mission-control-v1.json",
+    "content/goalos/repository-documentation-index.json",
+    "content/goalos/loop-contract-lab-v1.json",
+    "content/goalos/website-experience-os-v1.json",
+    "content/goalos/demo-ecosystem-registry.json",
+    "content/goalos/evidence-docket-theatre-v2.json",
+    "content/goalos/external-reviewer-replay-room-v1.json",
+    "content/goalos/public-proof-navigation-v5.json",
+    "content/goalos/capability-compounding-lab-v1.json"
+  ]
 }

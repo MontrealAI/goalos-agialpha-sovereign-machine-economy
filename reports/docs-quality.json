@@ -1,8 +1,10 @@
 {
   "status": "passed",
+  "checked_files": 115,
   "missing_files": [],
-  "registry_routes": 134,
-  "registry_issue": null,
-  "templates_missing_boundary_confirmation": [],
-  "blockers": []
+  "missing_sections": [],
+  "boundary_issues": [],
+  "risky_phrases": [],
+  "issue_templates_missing_confirmation": [],
+  "recommendations": []
 }

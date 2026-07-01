@@ -1,0 +1,16 @@
+{
+  "name": "GoalOS External Reviewer Replay Room V1",
+  "page": "public/external-reviewer-replay-room.html",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "human_review_required": true,
+  "capabilities": [
+    "reviewer path",
+    "replay checklist",
+    "validator attestation",
+    "dissent memo",
+    "github issue draft",
+    "evidence docket download"
+  ]
+}

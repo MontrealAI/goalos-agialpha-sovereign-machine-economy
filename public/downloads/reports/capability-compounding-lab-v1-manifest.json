@@ -1,0 +1,6 @@
+{
+  "schema": "goalos.capability_compounding_lab.v1.manifest",
+  "status": "prepared",
+  "page": "public/capability-compounding-lab.html",
+  "description": "Browser-local public demo: verified work becomes reusable capability."
+}

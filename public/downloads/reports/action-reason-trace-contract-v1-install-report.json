@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-29T19:05:54.778519+00:00",
+  "files": [
+    "public/action-reason-trace-contract.html",
+    "public/assets/goalos-action-reason-trace-v1.css",
+    "public/assets/goalos-action-reason-trace-v1.js",
+    "docs/demos/ACTION_REASON_TRACE_CONTRACT_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_ACTION_REASON_TRACE_CONTRACT.md",
+    "examples/action-reason-trace/public-safe-action-scenarios.md",
+    "scripts/run_action_reason_trace_contract_v1_demo.py",
+    "scripts/goalos_action_reason_trace_contract_v1_audit.py",
+    "content/goalos/action-reason-trace-contract-v1.json",
+    ".github/ISSUE_TEMPLATE/action_reason_trace_contract_feedback.yml",
+    "issue-bodies/action-reason-trace-contract-v1.md"
+  ],
+  "page": "public/action-reason-trace-contract.html",
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "humanReviewRequired": true
+  }
+}

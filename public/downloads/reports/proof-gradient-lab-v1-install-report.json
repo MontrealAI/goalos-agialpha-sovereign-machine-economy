@@ -1,0 +1,12 @@
+{
+  "status": "installed",
+  "layer": "proof-gradient-lab-v1",
+  "generated_at": "2026-06-28T13:49:54Z",
+  "pages": [
+    "public/proof-gradient-lab.html"
+  ],
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "human_review_required": true
+}

@@ -1,0 +1,11 @@
+{
+  "schema": "goalos.proof_gradient_lab.v1",
+  "generated_at": "2026-06-28T13:18:51Z",
+  "public_demo": "proof-gradient-lab.html",
+  "doctrine": "Aim -> Act -> Prove -> Evolve",
+  "hard_rule": "No proof, no evolution. No eval, no propagation. No rollback, no release.",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "human_review_required": true
+}

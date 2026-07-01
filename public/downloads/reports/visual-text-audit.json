@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checks": [
+    "no automated dark-on-dark findings in V9 shell",
+    "no blank hero panels in V9 shell"
+  ]
+}

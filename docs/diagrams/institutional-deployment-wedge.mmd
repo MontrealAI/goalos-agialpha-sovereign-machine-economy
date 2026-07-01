@@ -1,8 +1,2 @@
 flowchart LR
-  N0["Choose one workflow"] --> N1["GoalOSCommit"]
-  N1["GoalOSCommit"] --> N2["Bounded execution"]
-  N2["Bounded execution"] --> N3["Evidence Docket"]
-  N3["Evidence Docket"] --> N4["Selection Gate"]
-  N4["Selection Gate"] --> N5["Canary"]
-  N5["Canary"] --> N6["Monitor"]
-  N6["Monitor"] --> N7["Rollbackable expansion"]
+  ChooseOneWorkflow-->GoalOSCommit-->BoundedExecution-->EvidenceDocket-->SelectionGate-->Canary-->Monitor-->RollbackableExpansion
