@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-from pathlib import Path
-import json, sys, subprocess
-ROOT=Path(__file__).resolve().parents[1]
-required=['index.html','pathfinder.html','demo-ecosystem-registry.html','site-map.html','site-health.html','trust-boundary.html','token-boundary.html','privacy.html','data-boundary.html','no-data-no-funds.html','docs.html','search.html','404.html','proof-run-001-docket.html']
+from goalos_common_quality import ROOT, public_pages, write_report, FORBIDDEN_APIS
+import re, sys
 issues=[]
-for r in required:
- if not (ROOT/'public'/r).exists(): issues.append({'route':r,'issue':'missing'})
-for f in (ROOT/'public').glob('*.html'):
+for f in public_pages():
  txt=f.read_text(errors='ignore')
- if any(api in txt for api in ['fetch(','XMLHttpRequest','sendBeacon','localStorage','sessionStorage','window.ethereum']): issues.append({'file':f.name,'issue':'forbidden browser API signal'})
- if '../reports' in txt or '../evidence' in txt or '../content' in txt or '../docs' in txt or '../replay' in txt: issues.append({'file':f.name,'issue':'escapes public root'})
-out={'status':'passed' if not issues else 'failed','public_html_pages':len(list((ROOT/'public').glob('*.html'))),'issues':issues}
-(ROOT/'reports/site-quality.json').write_text(json.dumps(out,indent=2)+"\n"); print(ROOT/'reports/site-quality.json'); sys.exit(0 if not issues else 1)
+ low=txt.lower()
+ if '<title>' not in low: issues.append({'file':str(f.relative_to(ROOT)),'issue':'missing title'})
+ if 'no user data' not in low and 'trust-boundary.html' not in low and f.name!='404.html': issues.append({'file':str(f.relative_to(ROOT)),'issue':'missing boundary or trust link'})
+ for api in FORBIDDEN_APIS:
+  if api in txt: issues.append({'file':str(f.relative_to(ROOT)),'issue':f'forbidden browser API signal: {api}'})
+ if re.search(r'color:\s*#0[0-9a-f]{2,5}[^}]{0,120}background[^#]*#0[0-9a-f]{2,5}',txt,re.I): issues.append({'file':str(f.relative_to(ROOT)),'issue':'dark-on-dark heuristic review'})
+ if 'overflow-x:auto' not in txt and '<table' in low: issues.append({'file':str(f.relative_to(ROOT)),'issue':'table may overflow mobile without overflow-x:auto'})
+out={'status':'passed' if not issues else 'failed','pages_checked':len(public_pages()),'issue_count':len(issues),'issues':issues[:500]}
+write_report('site-quality.json',out); sys.exit(0 if not issues else 1)

@@ -1,0 +1,9 @@
+flowchart LR
+  n0["Tests"] --> n1["Docs QA"]
+  n1["Docs QA"] --> n2["Site QA"]
+  n2["Site QA"] --> n3["Link QA"]
+  n3["Link QA"] --> n4["Download QA"]
+  n4["Download QA"] --> n5["Claim Scan"]
+  n5["Claim Scan"] --> n6["Workflow Lint"]
+  n6["Workflow Lint"] --> n7["Human Review"]
+  n7["Human Review"] --> n8["Release"]

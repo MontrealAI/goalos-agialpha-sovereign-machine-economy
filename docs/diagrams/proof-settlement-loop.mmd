@@ -1,2 +1,7 @@
 flowchart LR
-  Request-->Escrow-->Execute-->ProofBundle-->Validate-->Settle-->Chronicle
+  n0["Request"] --> n1["Escrow"]
+  n1["Escrow"] --> n2["Execute"]
+  n2["Execute"] --> n3["ProofBundle"]
+  n3["ProofBundle"] --> n4["Validate"]
+  n4["Validate"] --> n5["Settle"]
+  n5["Settle"] --> n6["Chronicle"]

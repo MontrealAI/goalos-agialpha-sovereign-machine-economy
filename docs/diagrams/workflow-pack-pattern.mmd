@@ -1,0 +1,8 @@
+flowchart LR
+  n0["Workflow YAML"] --> n1[".goalos/packs ZIP"]
+  n1[".goalos/packs ZIP"] --> n2["Unpack"]
+  n2["Unpack"] --> n3["Install"]
+  n3["Install"] --> n4["QA"]
+  n4["QA"] --> n5["Commit"]
+  n5["Commit"] --> n6["Deploy"]
+  n6["Deploy"] --> n7["Release"]

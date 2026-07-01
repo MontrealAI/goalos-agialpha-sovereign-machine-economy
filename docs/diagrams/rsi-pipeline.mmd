@@ -1,0 +1,8 @@
+flowchart LR
+  n0["TARGET"] --> n1["EMIT"]
+  n1["EMIT"] --> n2["FILTER"]
+  n2["FILTER"] --> n3["ATLAS"]
+  n3["ATLAS"] --> n4["TEST-PLAN"]
+  n4["TEST-PLAN"] --> n5["EVAL"]
+  n5["EVAL"] --> n6["INSERT"]
+  n6["INSERT"] --> n7["PROMOTE"]

@@ -1,33 +1,14 @@
 {
-  "currentReleaseName": "GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy Public Alpha V9",
-  "currentReleaseTag": "public-alpha-v9",
-  "releaseDateUTC": "2026-07-01",
-  "websiteVersion": "v9-public-alpha",
-  "repositoryVersion": "v9-public-alpha",
-  "publicAlpha": true,
-  "externalActions": 0,
-  "userDataWanted": false,
-  "userFundsWanted": false,
-  "walletRequired": false,
-  "transactionRequired": false,
-  "productionAuthority": false,
-  "humanReviewRequired": true,
-  "canonicalWebsite": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html",
-  "canonicalRepository": "https://github.com/MontrealAI/goalos-agialpha-sovereign-machine-economy",
-  "proofRunDocketPath": "public/proof-run-001-docket.html",
-  "siteHealthPath": "public/site-health.html",
-  "demoRegistryPath": "public/demo-ecosystem-registry.html",
-  "trustBoundaryPath": "public/trust-boundary.html",
-  "tokenBoundaryPath": "public/token-boundary.html",
-  "docsPath": "docs/START_HERE.md",
-  "workflowsTierDoc": "WORKFLOWS.md",
-  "finalQaReports": [
-    "reports/docs-quality.json",
-    "reports/site-quality.json",
-    "reports/claim-scan.json",
-    "reports/public-download-health.json",
-    "reports/route-health.json"
-  ],
-  "claimBoundarySummary": "Public-alpha, claim-bounded, review-ready. No achieved AGI/ASI/SOTA, production certification, legal, financial, tax, investment, medical, cybersecurity, safety, or regulatory advice claims.",
-  "tokenBoundarySummary": "$AGIALPHA may be referenced only as public-contract identification. It is not available from this repository, website, maintainers, GitHub Issues, demos, or documentation; no sale, custody, wallet support, bridge support, exchange support, trading advice, investment advice, or legal/tax/regulatory advice."
+  "release": "Repository + Website Excellence V11",
+  "status": "public-alpha review-ready",
+  "date": "2026-07-01",
+  "boundary": "No user data. No user funds. No wallet. No transaction. No production authority. Human review required.",
+  "not_claimed": [
+    "achieved AGI",
+    "achieved ASI",
+    "empirical SOTA",
+    "production certification",
+    "mainnet authorization",
+    "investment value"
+  ]
 }

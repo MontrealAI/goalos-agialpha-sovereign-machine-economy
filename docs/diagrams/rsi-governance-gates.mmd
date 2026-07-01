@@ -1,0 +1,11 @@
+flowchart LR
+  n0["Schema"] --> n1["State hash"]
+  n1["State hash"] --> n2["Drift sentinel"]
+  n2["Drift sentinel"] --> n3["ECI"]
+  n3["ECI"] --> n4["Baselines"]
+  n4["Baselines"] --> n5["Risk"]
+  n5["Risk"] --> n6["Persistence"]
+  n6["Persistence"] --> n7["Replay"]
+  n7["Replay"] --> n8["Council"]
+  n8["Council"] --> n9["Dossier"]
+  n9["Dossier"] --> n10["Decision"]

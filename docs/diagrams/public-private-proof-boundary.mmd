@@ -1,4 +1,6 @@
 flowchart LR
-  PrivateIntelligence[Off-chain private intelligence]-->Hashes[Public hashes and commitments]
-  PrivateIntelligence-->Pointers[Attestations and pointers]
-  Hashes-->InspectableProof[Inspectable public proof]
+  n0["Off-chain private intelligence"] --> n1["Public commitments"]
+  n1["Public commitments"] --> n2["Hashes"]
+  n2["Hashes"] --> n3["Attestations"]
+  n3["Attestations"] --> n4["Evidence pointers"]
+  n4["Evidence pointers"] --> n5["Reviewer inspection"]
