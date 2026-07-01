@@ -27,7 +27,7 @@
     "title": "Agent Foundry",
     "url": "agents.html",
     "headline": "Agents that manage agents remain governed by proof.",
-    "text": "The META-AGENTIC α‑AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance. Agents are not treated as free-floating personalities. They are accountable work units with roles, permissions, evidence duties, and retirement criteria. No agent output is promoted to capability without an Evidence Docket and validation status."
+    "text": "The META-AGENTIC \u03b1\u2011AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance. Agents are not treated as free-floating personalities. They are accountable work units with roles, permissions, evidence duties, and retirement criteria. No agent output is promoted to capability without an Evidence Docket and validation status."
   },
   {
     "title": "AGI Jobs Ledger",
@@ -123,7 +123,7 @@
     "title": "Source Lineage",
     "url": "source-lineage.html",
     "headline": "One GoalOS-native surface for prior lineages.",
-    "text": "The repository integrates the previous META-AGENTIC α‑AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline. Agent creation and evaluation become the Agent Foundry; node owner controls become the Node Runtime; jobs and CI discipline become the AGI Jobs Ledger; Mission OS supplies the proof-to-action architecture. The repo preserves a strict distinction between architecture, demonstration, evidence, and production authorization."
+    "text": "The repository integrates the previous META-AGENTIC \u03b1\u2011AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline. Agent creation and evaluation become the Agent Foundry; node owner controls become the Node Runtime; jobs and CI discipline become the AGI Jobs Ledger; Mission OS supplies the proof-to-action architecture. The repo preserves a strict distinction between architecture, demonstration, evidence, and production authorization."
   },
   {
     "title": "Repository Map",
@@ -183,7 +183,7 @@
     "title": "Troubleshooting",
     "url": "troubleshooting.html",
     "headline": "What to do when GitHub does not behave as expected.",
-    "text": "Most launch issues are settings issues: Pages source, workflow permissions, missing workflow_dispatch, or a typo in the workflow file path. Check that the file path is exactly .github/workflows/goalos-ascension-autopilot.yml, Actions are enabled, workflow permissions are read/write, and Pages source is GitHub Actions. Open Actions, wait for the deploy job to finish, then open Settings → Pages for the final URL."
+    "text": "Most launch issues are settings issues: Pages source, workflow permissions, missing workflow_dispatch, or a typo in the workflow file path. Check that the file path is exactly .github/workflows/goalos-ascension-autopilot.yml, Actions are enabled, workflow permissions are read/write, and Pages source is GitHub Actions. Open Actions, wait for the deploy job to finish, then open Settings \u2192 Pages for the final URL."
   },
   {
     "title": "Evidence to Scale",
@@ -291,5 +291,11 @@
     "url": "from-loop-to-rsi-sovereign-console.html",
     "description": "Browser-local From Loop to RSI console: deterministic invention pipeline, OMNI allocation-only, ECI, Move-37 dossier, and Architect/Validator Council gates.",
     "category": "Loop / RSI"
+  },
+  {
+    "title": "From Loop to RSI State-Capacity Command Room V3",
+    "url": "from-loop-to-rsi-state-capacity.html",
+    "description": "Build the governance institution first: deterministic RSI pipeline, ECI evidence, Move-37 dossiers, council review, and governed decision state.",
+    "category": "From Loop to RSI"
   }
 ]

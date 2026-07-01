@@ -205,3 +205,12 @@ A browser-local public demonstration showing how restartable loops become determ
 - Decision states include `RSI_REVIEW_READY`, `MOVE37_DOSSIER_REVIEW_READY`, `REJECT_OMNI_OUTCOME_AUTHORITY`, and `BLOCK_PRIVACY_BOUNDARY`.
 
 <!-- GOALOS_FROM_LOOP_TO_RSI_SOVEREIGN_CONSOLE_V2:END -->
+
+<!-- GOALOS_FROM_LOOP_TO_RSI_STATE_CAPACITY_V3 -->
+## New public demo: From Loop to RSI State-Capacity Command Room V3
+
+**Build the governance institution first.**
+
+Open: [`public/from-loop-to-rsi-state-capacity.html`](public/from-loop-to-rsi-state-capacity.html)
+
+This browser-local demo shows how a long-running agent loop becomes deterministic RSI governance: drift sentinel, ECI evidence, baseline gate, Move-37 dossier, Architect / Validator Council, and governed decision state.

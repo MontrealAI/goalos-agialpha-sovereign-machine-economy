@@ -1,0 +1,63 @@
+{
+  "title": "From Loop to RSI State-Capacity Command Room V3",
+  "route": "from-loop-to-rsi-state-capacity.html",
+  "version": "v0.33.9-from-loop-to-rsi-state-capacity-v3",
+  "generatedAt": "2026-07-01T19:03:19Z",
+  "category": "From Loop to RSI / State-Capacity Governance",
+  "browserLocal": true,
+  "noNetworkCall": true,
+  "boundary": [
+    "no user data",
+    "no user funds",
+    "no wallet",
+    "no transaction",
+    "no production authority",
+    "human review required"
+  ],
+  "inputs": [
+    "RSI scenario",
+    "public-safe objective",
+    "replayability target",
+    "ECI level",
+    "novelty distance",
+    "advantage delta",
+    "shock persistence",
+    "risk pressure",
+    "gate toggles"
+  ],
+  "outputs": [
+    "RSI state JSON",
+    "Move-37 dossier JSON",
+    "ECI ledger JSON",
+    "Architect/Validator Council memo",
+    "90-day pilot plan",
+    "reviewer brief"
+  ],
+  "proofGates": [
+    "schema-bound artifacts",
+    "state hash continuity",
+    "drift sentinel",
+    "executed evidence",
+    "baseline comparison",
+    "OMNI allocation-only",
+    "Move-37 dossier",
+    "shock persistence",
+    "council review",
+    "rollback ready",
+    "public/private boundary",
+    "human review"
+  ],
+  "decisionStates": [
+    "RSI_STATE_CAPACITY_REVIEW_READY",
+    "MOVE37_DOSSIER_REVIEW_READY",
+    "REJECT_SCHEMA_DRIFT",
+    "HOLD_STATE_HASH_REQUIRED",
+    "REJECT_DRIFT_UNDETECTED",
+    "HOLD_EXECUTED_EVIDENCE_REQUIRED",
+    "HOLD_BASELINE_COMPARISON_REQUIRED",
+    "REJECT_OMNI_OUTCOME_AUTHORITY",
+    "HOLD_PERSISTENCE_REQUIRED",
+    "HOLD_COUNCIL_REVIEW_REQUIRED",
+    "BLOCK_PRIVACY_BOUNDARY"
+  ]
+}
