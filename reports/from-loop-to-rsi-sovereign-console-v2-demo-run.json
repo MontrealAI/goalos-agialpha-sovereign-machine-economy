@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "demo": "from-loop-to-rsi-sovereign-console-v2",
-  "generated_at": "2026-07-01T18:59:27Z",
+  "generated_at": "2026-07-01T19:00:13Z",
   "decision_state": "RSI_REVIEW_READY",
   "pipeline": [
     "TARGET",
