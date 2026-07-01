@@ -1,0 +1,150 @@
+name: GoalOS Site Full Surface Restore V12 — Reinstate Every Page
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit restored website files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after restoration
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.34.0-site-full-surface-restore-v12
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-site-full-surface-restore-v12-pack.zip
+
+jobs:
+  restore-site-surface:
+    name: Reinstate pages, rebuild navigation, and deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Verify restoration pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Unpack restoration pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          pack = Path(".goalos/packs/goalos-site-full-surface-restore-v12-pack.zip")
+          with zipfile.ZipFile(pack) as z:
+              z.extractall(Path.cwd())
+          print(f"unpacked {pack}")
+          PY
+
+      - name: Restore missing pages and rebuild site navigation
+        run: python scripts/install_site_full_surface_restore_v12.py
+
+      - name: Run restoration demo report
+        run: python scripts/run_site_full_surface_restore_v12_demo.py
+
+      - name: Audit restored site surface
+        run: python scripts/goalos_site_full_surface_restore_v12_audit.py
+
+      - name: Optional existing site QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -f scripts/goalos_site_quality.py ]; then python scripts/goalos_site_quality.py || true; fi
+          if [ -f scripts/verify_site.py ]; then python scripts/verify_site.py || true; fi
+          if [ -f scripts/validate_claims.py ]; then python scripts/validate_claims.py || true; fi
+
+      - name: Commit restored site surface
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public content docs evidence reports scripts issue-bodies .goalos README.md || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Restore GoalOS full public site surface V12"
+            git push
+          fi
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create               --title "GoalOS Site Full Surface Restore V12 — Review"               --body-file issue-bodies/site-full-surface-restore-v12.md               --label "website"               --label "restoration"               --label "review" || true
+          else
+            echo "gh CLI unavailable; skipping issue creation."
+          fi
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag"               reports/site-full-surface-restore-v12-report.json               reports/site-full-surface-restore-v12-route-health.json               reports/site-full-surface-restore-v12-qa.json               reports/site-full-surface-restore-v12-demo-run.json               evidence/demo/site-full-surface-restore-v12-reference-docket.json               content/goalos/public-proof-navigation-v12.json               --title "GoalOS Site Full Surface Restore V12"               --notes "Restores and indexes the full public GoalOS site surface. No pages removed. No user data, no user funds, no wallet, no transaction, human review required." || true
+          else
+            echo "gh CLI unavailable; skipping release creation."
+          fi
