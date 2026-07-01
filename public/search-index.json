@@ -285,5 +285,11 @@
       "ECI",
       "OMNI"
     ]
+  },
+  {
+    "title": "From Loop to RSI Sovereign Console",
+    "url": "from-loop-to-rsi-sovereign-console.html",
+    "description": "Browser-local From Loop to RSI console: deterministic invention pipeline, OMNI allocation-only, ECI, Move-37 dossier, and Architect/Validator Council gates.",
+    "category": "Loop / RSI"
   }
 ]

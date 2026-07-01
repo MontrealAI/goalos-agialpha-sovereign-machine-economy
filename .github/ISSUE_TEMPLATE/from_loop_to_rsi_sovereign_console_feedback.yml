@@ -1,0 +1,31 @@
+name: From Loop to RSI Sovereign Console feedback
+description: Public-safe feedback for the browser-local Loop to RSI demo.
+title: "[RSI Console] "
+labels: [demo, rsi, public-alpha]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What happened? What expected behavior would be more useful?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - UX / readability
+        - RSI pipeline
+        - OMNI allocation vs authority
+        - Move-37 dossier
+        - Downloads
+        - Boundary / safety
+        - Other

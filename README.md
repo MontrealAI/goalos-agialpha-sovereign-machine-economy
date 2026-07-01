@@ -193,3 +193,15 @@ A browser-local public demo showing how a restartable loop becomes deterministic
 It demonstrates the rule: **search control is not outcome authority**. OMNI-style interestingness may allocate exploration, but promotion still requires risk, evidence, baseline, replay, persistence, dossier, rollback, and human-review gates.
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+<!-- GOALOS_FROM_LOOP_TO_RSI_SOVEREIGN_CONSOLE_V2:START -->
+
+## From Loop to RSI Sovereign Console V2
+
+A browser-local public demonstration showing how restartable loops become deterministic RSI governance: schema-bound artifacts, state hashes, ECI evidence discipline, baseline gates, Move-37 dossiers, and Architect/Validator Council review.
+
+- Public page: `public/from-loop-to-rsi-sovereign-console.html`
+- Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+- Decision states include `RSI_REVIEW_READY`, `MOVE37_DOSSIER_REVIEW_READY`, `REJECT_OMNI_OUTCOME_AUTHORITY`, and `BLOCK_PRIVACY_BOUNDARY`.
+
+<!-- GOALOS_FROM_LOOP_TO_RSI_SOVEREIGN_CONSOLE_V2:END -->

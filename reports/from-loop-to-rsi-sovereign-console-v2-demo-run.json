@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "demo": "from-loop-to-rsi-sovereign-console-v2",
+  "generated_at": "2026-07-01T18:59:27Z",
+  "decision_state": "RSI_REVIEW_READY",
+  "pipeline": [
+    "TARGET",
+    "EMIT",
+    "FILTER",
+    "ATLAS",
+    "TEST-PLAN",
+    "EVAL",
+    "INSERT",
+    "PROMOTE"
+  ],
+  "hard_gates": [
+    "schema",
+    "state_hash",
+    "eci",
+    "baseline",
+    "risk",
+    "persistence",
+    "replay",
+    "omni_allocation_only",
+    "dossier",
+    "council",
+    "boundary"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

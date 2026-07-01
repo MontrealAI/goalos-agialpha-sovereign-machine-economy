@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "installed_at": "2026-07-01T18:59:27Z",
+  "page": "from-loop-to-rsi-sovereign-console.html",
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet": false,
+  "network_call": false,
+  "human_review_required": true,
+  "files": [
+    "from-loop-to-rsi-sovereign-console.html",
+    "public/assets/goalos-from-loop-to-rsi-sovereign-console-v2.css",
+    "public/assets/goalos-from-loop-to-rsi-sovereign-console-v2.js"
+  ]
+}

@@ -1733,6 +1733,49 @@
         "BLOCK_PRIVACY_BOUNDARY"
       ],
       "role": "UI demo / governance module / evidence-docket generator"
+    },
+    {
+      "name": "From Loop to RSI Sovereign Console",
+      "canonical_path": "from-loop-to-rsi-sovereign-console.html",
+      "description": "Loop-to-RSI public demo for deterministic sovereign invention governance.",
+      "workflow_category": "Loop → RSI governance",
+      "expected_inputs": [
+        "objective",
+        "scenario",
+        "novelty",
+        "advantage",
+        "ECI",
+        "risk",
+        "baseline",
+        "persistence",
+        "gate toggles"
+      ],
+      "generated_outputs": [
+        "RSI state",
+        "Move-37 dossier",
+        "ECI ledger",
+        "reviewer brief"
+      ],
+      "proof_gates": [
+        "schema",
+        "state hash",
+        "ECI",
+        "baseline",
+        "risk",
+        "persistence",
+        "replay",
+        "OMNI allocation-only",
+        "dossier",
+        "council",
+        "boundary"
+      ],
+      "state_transitions": [
+        "RSI_REVIEW_READY",
+        "MOVE37_DOSSIER_REVIEW_READY",
+        "REJECT_OMNI_OUTCOME_AUTHORITY",
+        "BLOCK_PRIVACY_BOUNDARY"
+      ],
+      "role": "UI demo / governance console / reviewer module"
     }
   ],
   "demos": [
@@ -3295,6 +3338,220 @@
       "next_state": "BOUNDARY_VISIBLE",
       "workflow_role": "trust module",
       "system_page": false
+    },
+    {
+      "path": "404.html",
+      "title": "Page not found. · GoalOS",
+      "category": "system",
+      "description": "System route: Page not found. · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "path": "search.html",
+      "title": "Search GoalOS. · GoalOS",
+      "category": "system",
+      "description": "System route: Search GoalOS. · GoalOS. Preserved page with V7 route integrity, boundary path, and public-safe navigation.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "path": "site-health.html",
+      "title": "Site Health · GoalOS",
+      "category": "system",
+      "description": "Release-health surface for route integrity, public downloads, docs, claim boundaries, and source-of-truth QA.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "path": "site-map.html",
+      "title": "Site Map · GoalOS",
+      "category": "system",
+      "description": "Complete public site map that keeps every route discoverable without exposing archival scaffolding as the main journey.",
+      "expected_inputs": "Public-safe page visit",
+      "generated_outputs": "Reviewable page and related routes",
+      "proof_gates_or_checks": "Boundary visibility, route integrity, human review",
+      "next_state": "ROUTE_AVAILABLE",
+      "workflow_role": "UI demo",
+      "system_page": true
+    },
+    {
+      "id": "loop-flight-recorder-v1",
+      "name": "GoalOS Loop Flight Recorder V1",
+      "path": "loop-flight-recorder.html",
+      "description": "Restartable long-running agent loops with disk state, trace reading, evaluator separation, bottleneck reporting, and downloadable proof artifacts.",
+      "workflow_category": "loop / long-running agents / proof",
+      "expected_inputs": [
+        "public-safe objective",
+        "scenario",
+        "gate toggles",
+        "taste sliders"
+      ],
+      "generated_outputs": [
+        "loop recorder",
+        "state pack",
+        "Evidence Docket plan",
+        "bottleneck report",
+        "reviewer brief"
+      ],
+      "proof_gates": [
+        "contract before code",
+        "role separation",
+        "write state to disk",
+        "independent evaluator",
+        "trace reading",
+        "restart ready",
+        "public/private boundary"
+      ],
+      "state_transitions": [
+        "LOOP_REVIEW_READY",
+        "REJECT_NO_CONTRACT",
+        "HOLD_STATE_FILES_REQUIRED",
+        "REJECT_SELF_GRADED_LOOP",
+        "BLOCK_PRIVACY_BOUNDARY"
+      ],
+      "role": "UI demo / scoring module / reviewer module / loop-governance module"
+    },
+    {
+      "name": "GoalOS Loop Bottleneck Observatory",
+      "path": "loop-bottleneck-observatory.html",
+      "canonical_url": "loop-bottleneck-observatory.html",
+      "description": "The bottleneck always moves. A browser-local loop demo for contract, state, trace, restart, evaluator, rubric, harness, and proof-boundary gates.",
+      "primary_workflow_category": "loop governance",
+      "expected_inputs": [
+        "public-safe objective",
+        "scenario",
+        "risk class",
+        "loop horizon",
+        "loop gates",
+        "quality sliders"
+      ],
+      "generated_outputs": [
+        "bottleneck report",
+        "loop contract",
+        "trace ledger",
+        "replay pack",
+        "reviewer brief"
+      ],
+      "proof_gates": [
+        "contract before code",
+        "role separation",
+        "disk state",
+        "trace reading",
+        "restartability",
+        "independent evaluator",
+        "taste rubric",
+        "harness deletion plan",
+        "public/private boundary",
+        "human review"
+      ],
+      "state_transitions": [
+        "LOOP_DRAFT",
+        "LOOP_REVIEW_READY",
+        "REJECT_NO_CONTRACT",
+        "HOLD_STATE_FILES_REQUIRED",
+        "REJECT_SELF_GRADED_LOOP",
+        "BLOCK_PRIVACY_BOUNDARY"
+      ],
+      "role": "UI demo / scoring module / reviewer module"
+    },
+    {
+      "name": "From Loop to RSI Governance Lab",
+      "path": "from-loop-to-rsi-governance.html",
+      "canonical_path": "from-loop-to-rsi-governance.html",
+      "description": "Write the loop. Govern recursive improvement. Search control is not outcome authority.",
+      "workflow_category": "Loop / RSI",
+      "expected_inputs": [
+        "objective",
+        "novelty",
+        "advantage",
+        "ECI",
+        "drift risk",
+        "gate toggles"
+      ],
+      "generated_outputs": [
+        "RSI state",
+        "Move-37 dossier",
+        "ECI ledger",
+        "baseline report",
+        "reviewer brief"
+      ],
+      "proof_gates": [
+        "schema",
+        "replay",
+        "state hash",
+        "risk",
+        "evidence",
+        "baseline",
+        "persistence",
+        "dossier",
+        "OMNI no authority",
+        "boundary",
+        "rollback",
+        "human review"
+      ],
+      "state_transitions": [
+        "RSI_REVIEW_READY",
+        "MOVE37_DOSSIER_REVIEW_READY",
+        "REJECT_OMNI_OUTCOME_AUTHORITY",
+        "BLOCK_PRIVACY_BOUNDARY"
+      ],
+      "role": "UI demo / governance module / evidence-docket generator"
+    },
+    {
+      "name": "From Loop to RSI Sovereign Console",
+      "canonical_path": "from-loop-to-rsi-sovereign-console.html",
+      "description": "Loop-to-RSI public demo for deterministic sovereign invention governance.",
+      "workflow_category": "Loop → RSI governance",
+      "expected_inputs": [
+        "objective",
+        "scenario",
+        "novelty",
+        "advantage",
+        "ECI",
+        "risk",
+        "baseline",
+        "persistence",
+        "gate toggles"
+      ],
+      "generated_outputs": [
+        "RSI state",
+        "Move-37 dossier",
+        "ECI ledger",
+        "reviewer brief"
+      ],
+      "proof_gates": [
+        "schema",
+        "state hash",
+        "ECI",
+        "baseline",
+        "risk",
+        "persistence",
+        "replay",
+        "OMNI allocation-only",
+        "dossier",
+        "council",
+        "boundary"
+      ],
+      "state_transitions": [
+        "RSI_REVIEW_READY",
+        "MOVE37_DOSSIER_REVIEW_READY",
+        "REJECT_OMNI_OUTCOME_AUTHORITY",
+        "BLOCK_PRIVACY_BOUNDARY"
+      ],
+      "role": "UI demo / governance console / reviewer module"
     }
   ],
   "system_pages": [
@@ -3346,5 +3603,6 @@
       "workflow_role": "UI demo",
       "system_page": true
     }
-  ]
+  ],
+  "updated_at": "2026-07-01T18:59:27Z"
 }
