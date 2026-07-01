@@ -1,0 +1,27 @@
+{
+  "id": "loop-contract-lab-v1-reference-docket",
+  "title": "GoalOS Loop Contract Lab V1 Reference Docket",
+  "generated_at": "2026-07-01T13:14:17Z",
+  "claim": "A long-running agent loop becomes reviewable when it has role contracts, disk state, readable traces, restart semantics, evaluator independence, and an Evidence Docket plan.",
+  "claim_boundary": "Public-alpha browser-local demonstration. Not a model execution system. Not production authority.",
+  "decision_state": "LOOP_REVIEW_READY",
+  "gates": {
+    "role_separation": true,
+    "contract_first": true,
+    "disk_state": true,
+    "restartable": true,
+    "trace_readable": true,
+    "evaluator_independence": true,
+    "harness_minimal": true,
+    "bottleneck_visible": true,
+    "public_private_boundary": true
+  },
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "artifacts": [
+    "loop contract",
+    "disk-state pack",
+    "Evidence Docket plan",
+    "bottleneck report",
+    "reviewer brief"
+  ]
+}

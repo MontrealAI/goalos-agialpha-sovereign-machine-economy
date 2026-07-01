@@ -1,0 +1,38 @@
+name: GoalOS Loop Contract Lab feedback
+description: Report feedback on the browser-local Loop Contract Lab demo.
+title: "[Loop Contract Lab]: "
+labels: ["website", "demo", "public-alpha", "loop-contract"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the GoalOS Loop Contract Lab.
+        Do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feedback area
+      options:
+        - UX / readability
+        - loop scoring
+        - restart behavior
+        - downloads
+        - documentation
+        - boundary / privacy
+        - bug
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What happened? What did you expect?
+    validations:
+      required: true

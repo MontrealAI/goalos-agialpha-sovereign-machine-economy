@@ -152,3 +152,13 @@ Earlier V3–V7 release-hardening layers are preserved in [CHANGELOG.md](CHANGEL
 - Confirm issue templates and PR template preserve boundaries.
 - Confirm release-state, site-health, proof docket, and reports agree.
 - Require human review before publication.
+
+## GoalOS Loop Contract Lab V1
+
+**Write the loop, not the prompt.**
+
+The Loop Contract Lab adds a browser-local public demo showing how long-running agent work becomes reviewable through role contracts, disk state, readable traces, restart semantics, evaluator independence, Evidence Docket planning, and bottleneck reporting.
+
+Open: `public/loop-contract-lab.html`
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.

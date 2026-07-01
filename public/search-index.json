@@ -232,5 +232,20 @@
     "url": "commercial-evidence.html",
     "headline": "Commercial signals are counted carefully and disclosed responsibly.",
     "text": "Commercial evidence can include signed records, paid pilots, procurement progression, renewals, and expansion signals, but sensitive details stay private by default. A commercial signal counts only when it has a date, owner, source record, confidentiality level, and public claim permission. Names, revenue amounts, contract terms, and legal records are not published unless permission is clear."
+  },
+  {
+    "title": "GoalOS Loop Contract Lab",
+    "url": "loop-contract-lab.html",
+    "description": "Write the loop, not the prompt. Role contracts, disk state, restart, traces, Evidence Docket plan, and bottleneck report.",
+    "category": "core-demo",
+    "tags": [
+      "loop",
+      "contract",
+      "trace",
+      "restart",
+      "evidence",
+      "docket",
+      "agent"
+    ]
   }
 ]

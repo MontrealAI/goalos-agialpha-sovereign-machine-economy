@@ -1,0 +1,41 @@
+{
+  "id": "loop-contract-lab-v1",
+  "title": "GoalOS Loop Contract Lab V1",
+  "path": "loop-contract-lab.html",
+  "tagline": "Write the loop, not the prompt.",
+  "category": "core-demo",
+  "expected_inputs": [
+    "public-safe objective",
+    "scenario",
+    "loop horizon",
+    "gate toggles"
+  ],
+  "generated_outputs": [
+    "Loop Contract",
+    "Disk-state pack",
+    "Evidence Docket plan",
+    "Bottleneck report",
+    "Reviewer brief"
+  ],
+  "proof_gates": [
+    "role separation",
+    "contract first",
+    "disk state",
+    "restartable",
+    "trace readable",
+    "evaluator independence",
+    "harness minimal",
+    "bottleneck visible",
+    "public/private boundary"
+  ],
+  "state_transitions": [
+    "CONTRACT_DRAFT",
+    "CANARY_REVIEW_ONLY",
+    "HOLD_STATE_FILES_REQUIRED",
+    "REJECT_NO_CONTRACT",
+    "LOOP_REVIEW_READY"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "network_calls": 0,
+  "wallet": false
+}
