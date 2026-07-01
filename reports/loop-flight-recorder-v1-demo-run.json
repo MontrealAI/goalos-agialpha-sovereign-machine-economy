@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "demo": "GoalOS Loop Flight Recorder V1",
-  "generated_at": "2026-07-01T18:07:27Z",
+  "generated_at": "2026-07-01T18:10:07Z",
   "simulated_run": {
     "cycles": 3,
     "clean_restarts": 1,
