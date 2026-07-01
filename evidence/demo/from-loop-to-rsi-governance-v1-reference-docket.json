@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "demo": "GoalOS From Loop to RSI Governance Lab V1",
-  "generated_at": "2026-07-01T18:53:53Z",
+  "generated_at": "2026-07-01T18:55:20Z",
   "scenario": "public-safe deterministic RSI governance cycle",
   "pipeline": [
     "TARGET",
