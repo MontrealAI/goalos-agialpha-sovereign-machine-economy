@@ -1690,6 +1690,49 @@
         "BLOCK_PRIVACY_BOUNDARY"
       ],
       "role": "UI demo / scoring module / reviewer module"
+    },
+    {
+      "name": "From Loop to RSI Governance Lab",
+      "path": "from-loop-to-rsi-governance.html",
+      "canonical_path": "from-loop-to-rsi-governance.html",
+      "description": "Write the loop. Govern recursive improvement. Search control is not outcome authority.",
+      "workflow_category": "Loop / RSI",
+      "expected_inputs": [
+        "objective",
+        "novelty",
+        "advantage",
+        "ECI",
+        "drift risk",
+        "gate toggles"
+      ],
+      "generated_outputs": [
+        "RSI state",
+        "Move-37 dossier",
+        "ECI ledger",
+        "baseline report",
+        "reviewer brief"
+      ],
+      "proof_gates": [
+        "schema",
+        "replay",
+        "state hash",
+        "risk",
+        "evidence",
+        "baseline",
+        "persistence",
+        "dossier",
+        "OMNI no authority",
+        "boundary",
+        "rollback",
+        "human review"
+      ],
+      "state_transitions": [
+        "RSI_REVIEW_READY",
+        "MOVE37_DOSSIER_REVIEW_READY",
+        "REJECT_OMNI_OUTCOME_AUTHORITY",
+        "BLOCK_PRIVACY_BOUNDARY"
+      ],
+      "role": "UI demo / governance module / evidence-docket generator"
     }
   ],
   "demos": [

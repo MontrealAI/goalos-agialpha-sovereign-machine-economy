@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "installed": {
+    "title": "From Loop to RSI Governance Lab",
+    "path": "from-loop-to-rsi-governance.html",
+    "description": "Write the loop. Govern recursive improvement. Search control is not outcome authority.",
+    "category": "Loop / RSI",
+    "inputs": [
+      "objective",
+      "novelty",
+      "advantage",
+      "ECI",
+      "drift risk",
+      "gate toggles"
+    ],
+    "outputs": [
+      "RSI state",
+      "Move-37 dossier",
+      "ECI ledger",
+      "baseline report",
+      "reviewer brief"
+    ],
+    "gates": [
+      "schema",
+      "replay",
+      "state hash",
+      "risk",
+      "evidence",
+      "baseline",
+      "persistence",
+      "dossier",
+      "OMNI no authority",
+      "boundary",
+      "rollback",
+      "human review"
+    ],
+    "state": "RSI_REVIEW_READY"
+  },
+  "generated_at": "2026-07-01T18:53:53Z",
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

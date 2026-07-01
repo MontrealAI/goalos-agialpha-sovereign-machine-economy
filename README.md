@@ -184,3 +184,12 @@ Open: [`public/loop-bottleneck-observatory.html`](public/loop-bottleneck-observa
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
 
+## GoalOS From Loop to RSI Governance Lab V1
+
+**Page:** [`public/from-loop-to-rsi-governance.html`](public/from-loop-to-rsi-governance.html)
+
+A browser-local public demo showing how a restartable loop becomes deterministic RSI governance: `TARGET → EMIT → FILTER → ATLAS → TEST-PLAN → EVAL → INSERT → PROMOTE`.
+
+It demonstrates the rule: **search control is not outcome authority**. OMNI-style interestingness may allocate exploration, but promotion still requires risk, evidence, baseline, replay, persistence, dossier, rollback, and human-review gates.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.

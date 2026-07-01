@@ -1,0 +1,56 @@
+{
+  "id": "from-loop-to-rsi-governance-v1",
+  "title": "GoalOS From Loop to RSI Governance Lab V1",
+  "canonical_path": "from-loop-to-rsi-governance.html",
+  "category": "Loop / RSI / Sovereign Invention Governance",
+  "description": "Browser-local demo showing how restartable loops become deterministic RSI governance cycles through replay, ECI, baselines, Move-37 dossiers, and mechanical gates.",
+  "expected_inputs": [
+    "public-safe objective",
+    "scenario",
+    "novelty distance",
+    "advantage delta",
+    "evidence contact score",
+    "drift risk",
+    "gate toggles"
+  ],
+  "generated_outputs": [
+    "RSI state JSON",
+    "Move-37 dossier",
+    "ECI ledger",
+    "baseline report",
+    "reviewer brief"
+  ],
+  "proof_gates": [
+    "schema-bound artifacts",
+    "replay manifest",
+    "state hash continuity",
+    "risk gate",
+    "executed evidence",
+    "baseline comparison",
+    "persistence under shocks",
+    "Move-37 dossier",
+    "OMNI no outcome authority",
+    "public/private boundary",
+    "rollback ready",
+    "human review"
+  ],
+  "state_transitions": [
+    "RSI_REVIEW_READY",
+    "MOVE37_DOSSIER_REVIEW_READY",
+    "REJECT_SCHEMA_DRIFT",
+    "HOLD_REPLAY_REQUIRED",
+    "HOLD_EXECUTED_EVIDENCE_REQUIRED",
+    "REJECT_OMNI_OUTCOME_AUTHORITY",
+    "BLOCK_PRIVACY_BOUNDARY"
+  ],
+  "boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required"
+  ],
+  "version": "v1"
+}
