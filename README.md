@@ -162,3 +162,17 @@ The Loop Contract Lab adds a browser-local public demo showing how long-running 
 Open: `public/loop-contract-lab.html`
 
 Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+
+
+<!-- GOALOS_LOOP_FLIGHT_RECORDER_V1_START -->
+## GoalOS Loop Flight Recorder V1
+
+**Write the loop. Not the prompt.**
+
+New browser-local public demonstration: [`loop-flight-recorder.html`](public/loop-flight-recorder.html).
+
+It shows how long-running agent loops become review-ready by separating roles, writing state to disk, reading traces, restarting cleanly, scoring subjective quality, deleting harness overhead, exposing the next bottleneck, and emitting downloadable review artifacts.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+<!-- GOALOS_LOOP_FLIGHT_RECORDER_V1_END -->
+

@@ -1,0 +1,33 @@
+{
+  "demo": "GoalOS Loop Flight Recorder V1",
+  "status": "reference",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "no_transaction": true,
+  "no_network_call": true,
+  "production_authority": false,
+  "human_review_required": true,
+  "decision_states": [
+    "LOOP_REVIEW_READY",
+    "REJECT_NO_CONTRACT",
+    "HOLD_STATE_FILES_REQUIRED",
+    "REJECT_SELF_GRADED_LOOP",
+    "HOLD_RESTART_REQUIRED",
+    "HOLD_TRACE_READING_REQUIRED",
+    "HOLD_HARNESS_OVERHEAD_DOMINATES",
+    "BLOCK_PRIVACY_BOUNDARY"
+  ],
+  "core_loop": [
+    "Objective",
+    "Role Contracts",
+    "Disk State",
+    "Trace Reading",
+    "Restart",
+    "Evidence Docket",
+    "Bottleneck Report",
+    "Governed Decision State"
+  ],
+  "claim_boundary": "Public-alpha browser-local demonstration. Not production authorization, not achieved AGI/ASI, not empirical SOTA."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "loop-flight-recorder-v1",
+  "title": "GoalOS Loop Flight Recorder V1",
+  "path": "loop-flight-recorder.html",
+  "tagline": "Write the loop. Not the prompt.",
+  "category": "loop / long-running agents / proof",
+  "expected_inputs": [
+    "public-safe objective",
+    "loop scenario",
+    "gate toggles",
+    "taste sliders"
+  ],
+  "generated_outputs": [
+    "loop recorder JSON",
+    "state pack",
+    "Evidence Docket plan",
+    "bottleneck report",
+    "reviewer brief"
+  ],
+  "proof_gates": [
+    "Contract before code",
+    "Separate roles",
+    "Write state to disk",
+    "Independent evaluator",
+    "Trace reading",
+    "Restart ready",
+    "Taste rubric",
+    "Harness lean",
+    "Bottleneck visible",
+    "Public/private boundary"
+  ],
+  "state_transitions": [
+    "LOOP_DRAFT",
+    "LOOP_REVIEW_READY",
+    "REJECT_NO_CONTRACT",
+    "HOLD_STATE_FILES_REQUIRED",
+    "REJECT_SELF_GRADED_LOOP",
+    "BLOCK_PRIVACY_BOUNDARY"
+  ],
+  "boundary": "Public-alpha browser-local demonstration. Not production authorization, not achieved AGI/ASI, not empirical SOTA."
+}

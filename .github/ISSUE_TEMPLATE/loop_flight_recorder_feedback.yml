@@ -1,0 +1,32 @@
+name: GoalOS Loop Flight Recorder Feedback
+description: Report feedback on the browser-local Loop Flight Recorder demo.
+title: "[Loop Flight Recorder]: "
+labels: ["demo", "loop", "feedback"]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What happened?
+      description: Describe the issue or suggestion using public-safe information only.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - UI / readability
+        - Loop scoring
+        - Restart behavior
+        - Downloaded artifacts
+        - Boundary language
+        - Other
+    validations:
+      required: true

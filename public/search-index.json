@@ -247,5 +247,12 @@
       "docket",
       "agent"
     ]
+  },
+  {
+    "title": "GoalOS Loop Flight Recorder V1",
+    "url": "loop-flight-recorder.html",
+    "path": "loop-flight-recorder.html",
+    "description": "Write the loop, not the prompt: restartable agent loops with disk state, trace reading, bottleneck reports, and review artifacts.",
+    "category": "Loop demo"
   }
 ]
