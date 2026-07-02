@@ -130,3 +130,10 @@ The website now includes a browser-local chat/router for visitors. Press `/` or 
 
 Best test questions: `where are the 48 contracts?`, `how do I start?`, `what is RSI?`, `show Proof Run 001`, `what data do you collect?`, and `is $AGIALPHA available from GoalOS?`.
 
+
+
+## Ask GoalOS Concierge V19 — browser-local question routing
+
+Users can ask questions directly on the website and receive an immediate browser-local answer with recommended routes. The concierge answers from the static GoalOS route index and curated proof-path knowledge. It does not call a model, submit a form, connect a wallet, store user data, or make a network request.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.

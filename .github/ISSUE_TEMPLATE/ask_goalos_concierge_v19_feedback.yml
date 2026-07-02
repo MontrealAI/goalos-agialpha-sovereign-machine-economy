@@ -1,0 +1,20 @@
+name: Ask GoalOS Concierge V19 feedback
+description: Report route assistant feedback without personal data.
+title: "Ask GoalOS feedback: "
+labels: ["ask-goalos", "ux", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Public-safe question asked

@@ -1,10 +1,8 @@
-# Ask GoalOS Concierge Example Questions
+# Public-safe Ask GoalOS questions
 
+- Where are the 48 contracts?
 - How do I start?
-- Where are the 48 Ethereum Mainnet contracts?
-- What is the token boundary?
-- What is Loop to RSI?
-- Show me the Evidence Docket.
-- How do validators work?
+- What is RSI?
+- Show Proof Run 001.
 - What data do you collect?
-- Is there a wallet or transaction?
+- Is $AGIALPHA available from GoalOS?
