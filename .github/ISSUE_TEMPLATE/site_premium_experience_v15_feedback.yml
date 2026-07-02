@@ -1,0 +1,19 @@
+name: GoalOS Site Premium Experience V15 feedback
+description: Report website navigation, UX, route, or proof-surface feedback.
+title: "[Site V15] "
+labels: ["website", "ux", "review"]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved?
+    validations:
+      required: true

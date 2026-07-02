@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "version": "v0.37.0-site-premium-experience-v15",
+  "generated_at": "2026-07-02T04:10:37.247719+00:00",
+  "restored_missing_snapshot_files": 0,
+  "generated_files_written": 31,
+  "public_pages": 139,
+  "system_pages": 1,
+  "broken_internal_html_links": [],
+  "forbidden_browser_api_hits": [],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

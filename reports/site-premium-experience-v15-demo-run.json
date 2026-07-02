@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "generated_at": "2026-07-02T04:10:37.295783+00:00",
+  "required_pages": [
+    "index.html",
+    "start-here.html",
+    "pathfinder.html",
+    "site-map.html",
+    "demo-ecosystem-registry.html",
+    "site-health.html",
+    "trust-boundary.html",
+    "token-boundary.html",
+    "from-loop-to-rsi-state-capacity.html"
+  ],
+  "missing": [],
+  "checks": [
+    "homepage opens",
+    "pathfinder opens",
+    "registry opens",
+    "Loop to RSI route opens",
+    "trust/token boundaries open"
+  ]
+}
