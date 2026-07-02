@@ -1,6 +1,6 @@
 window.GOALOS_SITE_INDEX_V13 = {
   "version": "v0.35.0-site-experience-command-center-v13",
-  "generated_at": "2026-07-02T01:29:50.076004Z",
+  "generated_at": "2026-07-02T01:31:28.433485Z",
   "routes": [
     {
       "path": "404.html",
