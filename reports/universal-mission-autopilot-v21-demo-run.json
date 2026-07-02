@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "generated_at": "2026-07-02T19:07:34Z",
+  "objectives": [
+    "I want to understand the 48 Ethereum Mainnet contracts.",
+    "I want to run a public-safe proof mission.",
+    "I want to understand Loop to RSI governance.",
+    "I want to check privacy and token boundaries.",
+    "I am new and want the fastest path to understand GoalOS."
+  ],
+  "expected_states": [
+    "MISSION_REVIEW_READY",
+    "HOLD_HUMAN_REVIEW_REQUIRED",
+    "BLOCK_PRIVATE_DATA_BOUNDARY"
+  ],
+  "artifacts": [
+    "Mission Contract JSON",
+    "Reviewer Brief",
+    "Action Graph"
+  ]
+}

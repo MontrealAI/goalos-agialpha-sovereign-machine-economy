@@ -145,3 +145,10 @@ Tell GoalOS what you want. The browser-local Mission Command page converts a pla
 
 - Public route: `public/mission-command-center.html`
 - No user data. No user funds. No wallet. No transaction. No network call. Human review required.
+
+
+## Universal Mission Autopilot V21
+
+Tell GoalOS what you want in one public-safe text box. The browser-local autopilot generates a Mission Contract, Claims Matrix, Evidence Docket plan, Action Graph, reviewer brief, Chronicle stub, capability package stub, and recommended next route. No user data. No user funds. No wallet. No transaction. No network call. Human review required.
+
+Open: `public/tell-goalos.html`.

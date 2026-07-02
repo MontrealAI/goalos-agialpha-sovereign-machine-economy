@@ -1,0 +1,29 @@
+{
+  "version": "v21",
+  "demos": [
+    {
+      "name": "Universal Mission Autopilot",
+      "url": "tell-goalos.html",
+      "category": "Mission OS",
+      "expected_inputs": [
+        "plain-language objective, public-safe only"
+      ],
+      "generated_outputs": [
+        "Mission Contract JSON",
+        "Claims Matrix",
+        "Evidence Docket Plan",
+        "Action Graph",
+        "Reviewer Brief",
+        "Chronicle Stub",
+        "Capability Package Stub"
+      ],
+      "proof_gates": [
+        "boundary check",
+        "route integrity",
+        "evidence completeness",
+        "human review"
+      ],
+      "next_state": "MISSION_REVIEW_READY"
+    }
+  ]
+}
