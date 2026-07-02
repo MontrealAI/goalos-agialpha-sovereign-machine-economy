@@ -1,0 +1,140 @@
+name: GoalOS Site Immersive Command Center V16 — Complete UX + Route Restoration
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.38.0-site-immersive-command-center-v16
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-site-immersive-command-center-v16-pack.zip
+
+jobs:
+  site-immersive-command-center:
+    name: Install GoalOS Site Immersive Command Center V16
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Unpack V16 site pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import pathlib, zipfile
+          zip_path = pathlib.Path(".goalos/packs/goalos-site-immersive-command-center-v16-pack.zip")
+          with zipfile.ZipFile(zip_path) as z:
+              z.extractall(pathlib.Path.cwd())
+          print(f"unpacked {zip_path}")
+          PY
+
+      - name: Install complete UX, navigation, route restoration, and reports
+        run: python scripts/install_site_immersive_command_center_v16.py
+
+      - name: Run deterministic demo
+        run: python scripts/run_site_immersive_command_center_v16_demo.py
+
+      - name: Audit browser-local safety and route health
+        run: python scripts/goalos_site_immersive_command_center_v16_audit.py
+
+      - name: Commit V16 site update
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs scripts evidence reports content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Upgrade GoalOS Site Immersive Command Center V16"
+            git push
+          fi
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create               --title "GoalOS Site Immersive Command Center V16 — Review"               --body-file issue-bodies/site-immersive-command-center-v16.md               --label "website"               --label "ux"               --label "review" || true
+          else
+            echo "gh CLI unavailable; skipping issue creation."
+          fi
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag"               reports/site-immersive-command-center-v16-qa.json               reports/site-immersive-command-center-v16-route-health.json               reports/site-immersive-command-center-v16-report.json               reports/site-immersive-command-center-v16-demo-run.json               reports/site-immersive-command-center-v16-audit.json               evidence/demo/site-immersive-command-center-v16-reference-docket.json               --title "GoalOS Site Immersive Command Center V16"               --notes "Complete UX, route restoration, browser-local command palette, Site Map, Registry, Site Health, Loop to RSI navigation, and trust/token boundaries. No user data, no user funds, no wallet, no transaction, human review required." || true
+          else
+            echo "gh CLI unavailable; skipping release creation."
+          fi
