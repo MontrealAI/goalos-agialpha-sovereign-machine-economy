@@ -1,0 +1,129 @@
+name: GoalOS Site Experience Command Center V13 — Complete UX + Navigation
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.35.0-site-experience-command-center-v13
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-site-experience-command-center-v13-pack.zip
+
+jobs:
+  site-experience-command-center:
+    name: Restore and upgrade full public site surface
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+      - name: Unpack GoalOS Site Experience Command Center pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          zip_path = Path('.goalos/packs/goalos-site-experience-command-center-v13-pack.zip')
+          with zipfile.ZipFile(zip_path) as z:
+              z.extractall(Path.cwd())
+          print(f'unpacked {zip_path}')
+          PY
+      - name: Install restored site surface and command center
+        run: python scripts/install_site_experience_command_center_v13.py
+      - name: Run deterministic site demo
+        run: python scripts/run_site_experience_command_center_v13_demo.py
+      - name: Audit restored site surface
+        run: python scripts/goalos_site_experience_command_center_v13_audit.py
+      - name: Commit Site Experience Command Center V13
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs reports evidence content .github issue-bodies scripts .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Restore and upgrade GoalOS Site Experience Command Center V13"
+            git push
+          fi
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create --title "GoalOS Site Experience Command Center V13 — Review" --body-file issue-bodies/site-experience-command-center-v13.md --label "website" --label "review" || true
+          else
+            echo "gh CLI unavailable; skipping issue creation."
+          fi
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag" reports/site-experience-command-center-v13-qa.json reports/site-experience-command-center-v13-route-health.json reports/site-experience-command-center-v13-report.json evidence/demo/site-experience-command-center-v13-reference-docket.json --title "GoalOS Site Experience Command Center V13" --notes "Complete UX + navigation restoration. Browser-local command center. No user data, no user funds, no wallet, no transaction, human review required." || true
+          else
+            echo "gh CLI unavailable; skipping release creation."
+          fi
