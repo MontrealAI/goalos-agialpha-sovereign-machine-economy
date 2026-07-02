@@ -1,0 +1,16 @@
+name: GoalOS Universal Mission Composer feedback
+description: Report feedback about the one-box GoalOS interface.
+labels: [website, ux, mission, review]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should improve?

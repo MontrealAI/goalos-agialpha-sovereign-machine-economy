@@ -168,3 +168,7 @@ The primary website path is now a one-box Mission OS interface: users type what 
 ## GoalOS Universal Operating Interface V24
 
 The website now exposes a front-and-center one-box interface: users type what they want, and GoalOS generates a Mission Contract, Evidence Docket plan, Action Graph, Reviewer Brief, route recommendations, and next best page. Ask GoalOS remains available as a browser-local question window across the site. No user data, no user funds, no wallet, no transaction, no network call, no production authority.
+
+## GoalOS Universal Mission Composer V25
+
+The website now places the one-box GoalOS interface front and center: users type what they want, GoalOS generates the proof path, route recommendations, Mission Contract, Evidence Docket plan, Reviewer Brief, Action Graph, and next best page. Ask GoalOS remains available as a browser-local question window across the site. No user data, no funds, no wallet, no transaction, no network call, no production authority.

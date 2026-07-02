@@ -1,0 +1,1065 @@
+{
+  "version": "v25",
+  "generatedAt": "2026-07-02T22:58:04.160155Z",
+  "routes": [
+    {
+      "title": "GoalOS Route Not Found",
+      "href": "404.html",
+      "category": "System",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": true
+    },
+    {
+      "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
+      "href": "action-reason-trace-contract.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Adoption Playbook \u00b7 GoalOS Ascension",
+      "href": "adoption.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Agent Constellation Demo \u2014 GoalOS",
+      "href": "agent-constellation-demo.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Agent Foundry \u00b7 GoalOS Ascension",
+      "href": "agents.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "AGI Alpha Node v0",
+      "href": "agi-alpha-node-v0.html",
+      "category": "Additional",
+      "description": "Open AGI Alpha Node v0 as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "AGI ALPHA Thesis",
+      "href": "agi-alpha-thesis.html",
+      "category": "Additional",
+      "description": "Open AGI ALPHA Thesis as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "AGI Jobs v0 (v2)",
+      "href": "agi-jobs-v0-v2.html",
+      "category": "Additional",
+      "description": "Open AGI Jobs v0 (v2) as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "$AGIALPHA Control Rail",
+      "href": "agialpha-control-rail.html",
+      "category": "Additional",
+      "description": "Open $AGIALPHA Control Rail as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "$AGIALPHA Public-Market Boundary",
+      "href": "agialpha-token-boundary.html",
+      "category": "Trust & Boundary",
+      "description": "Open $AGIALPHA Public-Market Boundary as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Architecture \u00b7 GoalOS",
+      "href": "architecture.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Ask GoalOS \u2014 Route Assistant",
+      "href": "ask-goalos.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+      "href": "capability-compounding-lab.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Capability Parity",
+      "href": "capability-parity.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Capability Stack \u00b7 GoalOS",
+      "href": "capability-stack.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Claim Boundary \u00b7 GoalOS",
+      "href": "claim-boundary.html",
+      "category": "Trust & Boundary",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Commercial Evidence \u00b7 GoalOS",
+      "href": "commercial-evidence.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof Console",
+      "href": "console.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+      "href": "contract-academy.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Coordination Console",
+      "href": "coordination-console.html",
+      "category": "Additional",
+      "description": "Open Coordination Console as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Public proof. Private intelligence.",
+      "href": "data-boundary.html",
+      "category": "Evidence & Review",
+      "description": "Open Public proof. Private intelligence. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "href": "data-room.html",
+      "category": "Trust & Boundary",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Demo Registry",
+      "href": "demo-ecosystem-registry.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Demo Gallery \u2014 GoalOS",
+      "href": "demo-gallery.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Demo Launcher \u2014 GoalOS",
+      "href": "demo-launcher.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Demo Safety Boundary \u2014 GoalOS",
+      "href": "demo-safety.html",
+      "category": "Trust & Boundary",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Evidence Docket Builder \u2014 GoalOS",
+      "href": "docket-builder.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Docs",
+      "href": "docs.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Document Series",
+      "href": "document-series.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "href": "enterprise.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Evaluation Program",
+      "href": "evaluation-program.html",
+      "category": "Additional",
+      "description": "Open Evaluation Program as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "href": "evaluation.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+      "href": "evidence-docket-theatre.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "href": "evidence-room.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "href": "evidence-to-scale.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Evidence Layer \u00b7 GoalOS Ascension",
+      "href": "evidence.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+      "href": "evolution-ledger-control-room.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "href": "executive-brief.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "href": "external-reviewer-replay-room.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Falsification Box \u2014 GoalOS",
+      "href": "falsification-box.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+      "href": "falsification-gauntlet.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "FAQ \u00b7 GoalOS Ascension",
+      "href": "faq.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "For New Users \u2014 GoalOS",
+      "href": "for-new-users.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "href": "for-reviewers.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "href": "from-loop-to-rsi-governance.html",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand how loops become governed recursive invention paths.",
+      "system": false
+    },
+    {
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "href": "from-loop-to-rsi-sovereign-console.html",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand how loops become governed recursive invention paths.",
+      "system": false
+    },
+    {
+      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+      "href": "from-loop-to-rsi-state-capacity.html",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand how loops become governed recursive invention paths.",
+      "system": false
+    },
+    {
+      "title": "Frontier Release Case Study",
+      "href": "frontier-release-case-study.html",
+      "category": "Additional",
+      "description": "Open Frontier Release Case Study as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Frontier Release Doctrine",
+      "href": "frontier-release-doctrine.html",
+      "category": "Additional",
+      "description": "Open Frontier Release Doctrine as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Frontier Release Room",
+      "href": "frontier-release-room.html",
+      "category": "Additional",
+      "description": "Open Frontier Release Room as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Glossary \u2014 GoalOS",
+      "href": "glossary.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "goalos.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "href": "governance.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Help Center \u2014 GoalOS",
+      "href": "help-center.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Historical Command Center",
+      "href": "historical-command-center.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Holy Grail Candidate",
+      "href": "holy-grail-candidate.html",
+      "category": "Additional",
+      "description": "Open Holy Grail Candidate as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "href": "independent-validation.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "index.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "href": "institutional-deployment-wedge.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Token & Investment Boundary",
+      "href": "investment-token-boundary.html",
+      "category": "Trust & Boundary",
+      "description": "Review public-alpha boundaries: no data, no funds, no wallet, no transaction.",
+      "system": false
+    },
+    {
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "href": "jobs.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Launch Narrative",
+      "href": "launch-narrative.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Launch Package \u00b7 GoalOS Ascension",
+      "href": "launch.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Legal Shield \u2014 GoalOS",
+      "href": "legal.html",
+      "category": "Trust & Boundary",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Local Autopilot Demo \u2014 GoalOS",
+      "href": "local-autopilot-demo.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+      "href": "loop-bottleneck-observatory.html",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand how loops become governed recursive invention paths.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+      "href": "loop-contract-lab.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Understand how loops become governed recursive invention paths.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+      "href": "loop-flight-recorder.html",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand how loops become governed recursive invention paths.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+      "href": "mainnet-contract-atlas.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Explore the 48 GoalOS-created Ethereum Mainnet contracts as one institutional proof rail.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+      "href": "mainnet-proof-rail.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "META-AGENTIC \u03b1-AGI",
+      "href": "meta-agentic-alpha-agi.html",
+      "category": "Additional",
+      "description": "Open META-AGENTIC \u03b1-AGI as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "href": "metrics.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "mission-autopilot.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "mission-command-center.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Mission OS Canon",
+      "href": "mission-os-canon.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "href": "mission-os.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "mission.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "href": "multi-agent-institution.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "No data. No funds. No wallet.",
+      "href": "no-data-no-funds.html",
+      "category": "Trust & Boundary",
+      "description": "Open No data. No funds. No wallet. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Node Runtime \u00b7 GoalOS Ascension",
+      "href": "node.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "objective-command-center.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "href": "open-ended-work-engine.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Operator Checklist \u2014 GoalOS",
+      "href": "operator-checklist.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "href": "operators.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Paper to Product",
+      "href": "paper-to-product.html",
+      "category": "Additional",
+      "description": "Open Paper to Product as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Pathfinder",
+      "href": "pathfinder.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Pilot Program \u00b7 GoalOS",
+      "href": "pilot-program.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "href": "pilot-proof.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "We do not want your data.",
+      "href": "privacy.html",
+      "category": "Trust & Boundary",
+      "description": "Open We do not want your data. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Product \u00b7 GoalOS",
+      "href": "product.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "href": "proof-backed-upgrade-rights-room.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof Card Studio \u2014 GoalOS",
+      "href": "proof-card-studio.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "href": "proof-carrying-artifact-foundry.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "href": "proof-economy.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "href": "proof-experience-atlas.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof Flight Demo \u2014 GoalOS",
+      "href": "proof-flight-demo.html",
+      "category": "Loop \u2192 RSI",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "href": "proof-gradient-lab.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+      "href": "proof-ledger.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "href": "proof-metrics-dashboard.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "href": "proof-mission-control.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "href": "proof-mission-forge.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof Mission Slots \u2014 GoalOS",
+      "href": "proof-mission-slots.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof-of-Evolution",
+      "href": "proof-of-evolution.html",
+      "category": "Evidence & Review",
+      "description": "Open Proof-of-Evolution as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "href": "proof-run-001-docket.html",
+      "category": "Evidence & Review",
+      "description": "Review the public evidence docket, gates, claims, and decision state.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "href": "proof-run-001-execution-room.html",
+      "category": "Evidence & Review",
+      "description": "Review the public evidence docket, gates, claims, and decision state.",
+      "system": false
+    },
+    {
+      "title": "Proof Run 001 Live \u2014 GoalOS",
+      "href": "proof-run-001-live.html",
+      "category": "Evidence & Review",
+      "description": "Review the public evidence docket, gates, claims, and decision state.",
+      "system": false
+    },
+    {
+      "title": "Proof Run 001",
+      "href": "proof-run-001.html",
+      "category": "Evidence & Review",
+      "description": "Review the public evidence docket, gates, claims, and decision state.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "href": "proof-settlement-chronicle-lab.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+      "href": "proof-to-action-command-room.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "href": "proof-velocity.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "href": "public-metrics-ledger.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "href": "public-proof-ledger.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "href": "quick-tour.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "href": "real-task-benchmark-bridge.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "href": "release-gates.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Repository Map \u00b7 GoalOS",
+      "href": "repository-map.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Research Spine",
+      "href": "research-spine.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Open Research Spine as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Responsible Use \u2014 GoalOS",
+      "href": "responsible-use.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "href": "reviewer-path.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "href": "roadmap.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Run Locally \u2014 GoalOS",
+      "href": "run-locally.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "href": "schema-registry.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Search",
+      "href": "search.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Security Boundary \u2014 GoalOS",
+      "href": "security-boundary.html",
+      "category": "Trust & Boundary",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Security \u00b7 GoalOS Ascension",
+      "href": "security.html",
+      "category": "Trust & Boundary",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Site Health",
+      "href": "site-health.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Site Map \u2014 All Pages",
+      "href": "site-map.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "href": "source-lineage.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "href": "sovereign-experience-stream-lab.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "href": "sovereign-experience-stream.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "href": "standards.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Start in 60 seconds",
+      "href": "start-here.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Open Start in 60 seconds as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Start Here \u2014 GoalOS",
+      "href": "start.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "href": "strategic-evidence-scorecard.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "tell-goalos.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Terms of Use \u2014 GoalOS",
+      "href": "terms.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "$AGIALPHA is public contract identification only.",
+      "href": "token-boundary.html",
+      "category": "48 Contracts & Proof Rail",
+      "description": "Open $AGIALPHA is public contract identification only. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "$AGIALPHA Token Boundary",
+      "href": "token.html",
+      "category": "Trust & Boundary",
+      "description": "Review public-alpha boundaries: no data, no funds, no wallet, no transaction.",
+      "system": false
+    },
+    {
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "href": "troubleshooting.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Proof-native. Not data-hungry. Not wallet-first.",
+      "href": "trust-boundary.html",
+      "category": "Evidence & Review",
+      "description": "Open Proof-native. Not data-hungry. Not wallet-first. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "Trust Center \u00b7 GoalOS Ascension",
+      "href": "trust-center.html",
+      "category": "Trust & Boundary",
+      "description": "Review public-alpha boundaries: no data, no funds, no wallet, no transaction.",
+      "system": false
+    },
+    {
+      "title": "Trust Center",
+      "href": "trust.html",
+      "category": "Trust & Boundary",
+      "description": "Review public-alpha boundaries: no data, no funds, no wallet, no transaction.",
+      "system": false
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "href": "try-goalos.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS \u2014 Tell GoalOS what you want",
+      "href": "universal-mission-autopilot.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+      "href": "validator-council-arena.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Validator Room \u2014 GoalOS",
+      "href": "validator-room.html",
+      "category": "Evidence & Review",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Validator Seats",
+      "href": "validator-seats.html",
+      "category": "Evidence & Review",
+      "description": "Open Validator Seats as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+      "href": "value-realization-control-room.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Website Autopilot \u00b7 GoalOS",
+      "href": "website-autopilot.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "Website Operating System \u2014 GoalOS",
+      "href": "website-operating-system.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    },
+    {
+      "title": "What GoalOS Does \u2014 GoalOS",
+      "href": "what-goalos-does.html",
+      "category": "Navigation & Mission Interface",
+      "description": "Use the one-box Mission interface or Ask GoalOS route assistant.",
+      "system": false
+    }
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "tokenBoundary": "$AGIALPHA public contract identification only. Not available from GoalOS. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice."
+}

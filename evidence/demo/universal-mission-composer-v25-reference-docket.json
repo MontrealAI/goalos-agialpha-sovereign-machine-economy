@@ -1,0 +1,15 @@
+{
+  "version": "v25",
+  "status": "passed",
+  "title": "GoalOS Universal Mission Composer V25 Reference Docket",
+  "mission": "One-box user objective interface plus Ask GoalOS question window and complete navigation",
+  "gates": [
+    "browser-local",
+    "route-integrity",
+    "boundary-preserved",
+    "all-pages-navigation",
+    "human-review-required"
+  ],
+  "routesIndexed": 150,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

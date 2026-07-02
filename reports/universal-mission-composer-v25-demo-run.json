@@ -1,0 +1,42 @@
+{
+  "version": "v25",
+  "status": "passed",
+  "generatedAt": "2026-07-02T22:58:04.771322Z",
+  "samples": [
+    {
+      "objective": "I want to understand the 48 Ethereum Mainnet contracts.",
+      "intent": "contracts",
+      "decisionState": "CONTRACT_ATLAS_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "I want to run a public-safe proof mission.",
+      "intent": "proof",
+      "decisionState": "PROOF_MISSION_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "I want to understand Loop to RSI governance.",
+      "intent": "rsi",
+      "decisionState": "RSI_REVIEW_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "I want to check privacy, token, and data boundaries.",
+      "intent": "trust",
+      "decisionState": "BOUNDARY_REVIEW_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "I am new and want the fastest path to understand GoalOS.",
+      "intent": "start",
+      "decisionState": "ONBOARDING_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    }
+  ]
+}
