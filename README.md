@@ -123,3 +123,10 @@ Public-alpha boundary: No user data. No user funds. No wallet. No transaction. N
 ## Site Immersive Command Center V16
 
 The public website has been refreshed into a complete browser-local command center: homepage, Start, Pathfinder, Registry, Site Map, Site Health, Search, Loop to RSI route, trust/token boundaries, route QA, and a command palette opened with `/`. No pages are removed; missing public files are restored from the V16 public snapshot when needed.
+
+## Ask GoalOS Concierge V18
+
+The website now includes a browser-local chat/router for visitors. Press `/` or open `ask-goalos.html` to ask plain-language questions and get routed to the right public page. It uses the local route map only: no model call, no network call, no analytics, no wallet, no transaction, and no stored chat.
+
+Best test questions: `where are the 48 contracts?`, `how do I start?`, `what is RSI?`, `show Proof Run 001`, `what data do you collect?`, and `is $AGIALPHA available from GoalOS?`.
+

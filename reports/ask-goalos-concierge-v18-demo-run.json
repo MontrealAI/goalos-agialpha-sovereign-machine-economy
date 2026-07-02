@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "queries": {
+    "where are the 48 contracts?": [
+      {
+        "title": "Mainnet Contract Atlas",
+        "url": "mainnet-contract-atlas.html",
+        "score": 90
+      },
+      {
+        "title": "Mainnet Proof Rail",
+        "url": "mainnet-proof-rail.html",
+        "score": 90
+      },
+      {
+        "title": "Demo Safety Boundary \u2014 GoalOS",
+        "url": "demo-safety.html",
+        "score": 10
+      }
+    ],
+    "how do I start?": [
+      {
+        "title": "Start in 60 Seconds",
+        "url": "start-here.html",
+        "score": 45
+      },
+      {
+        "title": "Start Here \u00b7 GoalOS Ascension",
+        "url": "start.html",
+        "score": 45
+      },
+      {
+        "title": "Command Center",
+        "url": "index.html",
+        "score": 5
+      }
+    ],
+    "what is RSI?": [
+      {
+        "title": "Loop \u2192 RSI Governance Lab",
+        "url": "from-loop-to-rsi-governance.html",
+        "score": 45
+      },
+      {
+        "title": "Loop \u2192 RSI Sovereign Console",
+        "url": "from-loop-to-rsi-sovereign-console.html",
+        "score": 45
+      },
+      {
+        "title": "Loop \u2192 RSI State-Capacity",
+        "url": "from-loop-to-rsi-state-capacity.html",
+        "score": 45
+      }
+    ],
+    "is $AGIALPHA available from GoalOS?": [
+      {
+        "title": "Token Boundary",
+        "url": "token-boundary.html",
+        "score": 60
+      },
+      {
+        "title": "$AGIALPHA Public-Market Boundary",
+        "url": "agialpha-token-boundary.html",
+        "score": 50
+      },
+      {
+        "title": "$AGIALPHA Token Boundary",
+        "url": "token.html",
+        "score": 50
+      }
+    ],
+    "show Proof Run 001": [
+      {
+        "title": "Proof Run 001 Docket",
+        "url": "proof-run-001-docket.html",
+        "score": 55
+      },
+      {
+        "title": "GoalOS Proof Run 001 Execution Room",
+        "url": "proof-run-001-execution-room.html",
+        "score": 55
+      },
+      {
+        "title": "Proof Run 001",
+        "url": "proof-run-001.html",
+        "score": 55
+      }
+    ]
+  },
+  "routeCount": 146,
+  "generatedAt": "2026-07-02T15:23:19.029121Z"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Ask GoalOS Concierge V18 Reference Docket",
+  "status": "passed",
+  "claim": "A browser-local route assistant answers questions from the public site map and routes users to public GoalOS pages without model calls, storage, wallet, transaction, or network calls.",
+  "routesIndexed": 146,
+  "pagesInjected": 144,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

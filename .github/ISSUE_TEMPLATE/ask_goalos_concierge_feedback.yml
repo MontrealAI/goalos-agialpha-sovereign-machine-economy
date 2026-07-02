@@ -1,0 +1,25 @@
+name: Ask GoalOS Concierge Feedback
+description: Report routing or UX feedback for the browser-local GoalOS route assistant.
+title: "Ask GoalOS feedback: "
+labels: [website, ux, concierge]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What did you ask?
+      description: Public-safe wording only.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Where should it have routed you?
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
