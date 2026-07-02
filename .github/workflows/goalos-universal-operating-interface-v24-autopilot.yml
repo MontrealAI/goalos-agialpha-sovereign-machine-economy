@@ -1,0 +1,125 @@
+name: GoalOS Universal Operating Interface V24 — One Box, Ask GoalOS, Complete Navigation
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy public/ to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag
+        required: true
+        type: string
+        default: v0.44.0-universal-operating-interface-v24
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-universal-operating-interface-v24-pack.zip
+
+jobs:
+  universal-operating-interface:
+    name: Install Universal Operating Interface V24
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+      - name: Unpack V24 pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          pack = Path('.goalos/packs/goalos-universal-operating-interface-v24-pack.zip')
+          with zipfile.ZipFile(pack) as z:
+              z.extractall(Path.cwd())
+          print(f'unpacked {pack}')
+          PY
+      - name: Install one-box interface and Ask GoalOS
+        run: python scripts/install_universal_operating_interface_v24.py
+      - name: Run deterministic demo
+        run: python scripts/run_universal_operating_interface_v24_demo.py
+      - name: Audit route integrity and browser-local boundary
+        run: python scripts/goalos_universal_operating_interface_v24_audit.py
+      - name: Commit update
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples reports evidence content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS Universal Operating Interface V24"
+            git push
+          fi
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create --title "GoalOS Universal Operating Interface V24 — Review" --body-file issue-bodies/universal-operating-interface-v24.md --label "website" --label "ux" --label "review" || true
+          fi
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag" reports/universal-operating-interface-v24-install-report.json reports/universal-operating-interface-v24-qa.json reports/universal-operating-interface-v24-route-health.json reports/universal-operating-interface-v24-demo-run.json reports/universal-operating-interface-v24-audit.json evidence/demo/universal-operating-interface-v24-reference-docket.json --title "GoalOS Universal Operating Interface V24" --notes "One-box Mission OS interface plus Ask GoalOS live browser-local route assistant. No user data, no user funds, no wallet, no transaction, no network call, no production authority." || true
+          fi
