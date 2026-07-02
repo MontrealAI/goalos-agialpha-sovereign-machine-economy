@@ -1,0 +1,248 @@
+{
+  "version": "v26",
+  "status": "review_ready",
+  "claim": "Front-and-center Mission Studio plus Ask GoalOS chat, solved use cases, and complete route preservation.",
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "useCases": [
+    {
+      "id": "new-user",
+      "title": "Understand GoalOS in 10 minutes",
+      "persona": "New user / executive",
+      "objective": "I am new and want the fastest path to understand GoalOS.",
+      "why": "Learn the thesis, boundaries, proof loop, and best demos without reading the whole site.",
+      "creates": [
+        "plain-language route",
+        "Mission Contract",
+        "Reviewer summary",
+        "next page"
+      ],
+      "routes": [
+        "start-here.html",
+        "pathfinder.html",
+        "demo-ecosystem-registry.html",
+        "proof-run-001-docket.html"
+      ],
+      "gate": "understand AI creates output; GoalOS creates proof"
+    },
+    {
+      "id": "contracts",
+      "title": "Learn the 48 Ethereum Mainnet contracts",
+      "persona": "Reviewer / builder / institution",
+      "objective": "I want to understand the 48 Ethereum Mainnet contracts.",
+      "why": "Turn the contract surface into a learnable proof rail instead of a raw address list.",
+      "creates": [
+        "contract learning path",
+        "role map",
+        "token boundary",
+        "reviewer brief"
+      ],
+      "routes": [
+        "mainnet-contract-atlas.html",
+        "mainnet-proof-rail.html",
+        "contract-academy.html",
+        "token-boundary.html"
+      ],
+      "gate": "proof on-chain, private intelligence off-chain"
+    },
+    {
+      "id": "proof-mission",
+      "title": "Run a public-safe proof mission",
+      "persona": "Founder / operator / analyst",
+      "objective": "I want to run a public-safe proof mission.",
+      "why": "Move an objective from vague AI output to a reviewable Evidence Docket plan.",
+      "creates": [
+        "mission contract",
+        "claims matrix",
+        "docket plan",
+        "action graph"
+      ],
+      "routes": [
+        "goalos.html",
+        "proof-run-001-docket.html",
+        "console.html",
+        "demo-ecosystem-registry.html"
+      ],
+      "gate": "claim boundary and human review"
+    },
+    {
+      "id": "exec",
+      "title": "Prepare an executive decision brief",
+      "persona": "Executive / board / strategy",
+      "objective": "I want a decision-ready evidence package for an AI initiative before approving action.",
+      "why": "Turn uncertainty into a governed decision state that can be inspected and challenged.",
+      "creates": [
+        "executive brief",
+        "risk ledger",
+        "decision state",
+        "review route"
+      ],
+      "routes": [
+        "goalos.html",
+        "proof-run-001-docket.html",
+        "evidence-docket-theatre.html",
+        "trust-boundary.html"
+      ],
+      "gate": "source provenance and contradiction coverage"
+    },
+    {
+      "id": "procurement",
+      "title": "Evaluate an AI vendor or tool",
+      "persona": "Procurement / legal / security",
+      "objective": "I want to evaluate an AI vendor or tool using evidence, not marketing claims.",
+      "why": "Ask what evidence is required before trusting, buying, integrating, or recommending a tool.",
+      "creates": [
+        "vendor evidence request",
+        "claim matrix",
+        "risk questions",
+        "acceptance criteria"
+      ],
+      "routes": [
+        "proof-metrics-dashboard.html",
+        "claim-boundary.html",
+        "trust-boundary.html",
+        "proof-run-001-docket.html"
+      ],
+      "gate": "no unsupported claims"
+    },
+    {
+      "id": "loop-rsi",
+      "title": "Understand Loop to RSI governance",
+      "persona": "Researcher / advanced user",
+      "objective": "I want to understand how long-running agent loops become deterministic RSI governance.",
+      "why": "Follow the path from loop contracts to replay, bottlenecks, state capacity, and Move-37 dossier discipline.",
+      "creates": [
+        "loop map",
+        "RSI brief",
+        "gate list",
+        "next demo path"
+      ],
+      "routes": [
+        "loop-contract-lab.html",
+        "loop-flight-recorder.html",
+        "loop-bottleneck-observatory.html",
+        "from-loop-to-rsi-state-capacity.html"
+      ],
+      "gate": "OMNI is search control, not outcome authority"
+    },
+    {
+      "id": "privacy",
+      "title": "Check privacy, token, and data boundaries",
+      "persona": "Legal / compliance / cautious user",
+      "objective": "I want to confirm what data, funds, wallet actions, and token claims are not accepted by GoalOS.",
+      "why": "Know exactly what not to submit and what GoalOS does not do.",
+      "creates": [
+        "boundary checklist",
+        "token note",
+        "privacy-safe path",
+        "review route"
+      ],
+      "routes": [
+        "trust-boundary.html",
+        "token-boundary.html",
+        "privacy.html",
+        "data-boundary.html"
+      ],
+      "gate": "no data, no funds, no wallet"
+    },
+    {
+      "id": "reviewer",
+      "title": "Review or replay a proof claim",
+      "persona": "Independent reviewer / auditor",
+      "objective": "I want to independently review a GoalOS claim and know which evidence to inspect.",
+      "why": "Find the claim, docket, route health, downloads, and dissent/review path.",
+      "creates": [
+        "review checklist",
+        "evidence targets",
+        "download pointers",
+        "dissent path"
+      ],
+      "routes": [
+        "proof-run-001-docket.html",
+        "demo-ecosystem-registry.html",
+        "site-health.html",
+        "search.html"
+      ],
+      "gate": "Evidence Docket, replay, boundary"
+    },
+    {
+      "id": "capability",
+      "title": "Turn accepted work into reusable capability",
+      "persona": "Product / operations / institution",
+      "objective": "I want to understand how verified work becomes reusable capability instead of a one-off answer.",
+      "why": "See how proof becomes Chronicle memory, capability package, and a harder future mission.",
+      "creates": [
+        "capability package plan",
+        "reuse rules",
+        "maturity state",
+        "mission ladder"
+      ],
+      "routes": [
+        "capability-compounding-lab.html",
+        "proof-carrying-artifact-foundry.html",
+        "proof-backed-upgrade-rights-room.html",
+        "value-realization-control-room.html"
+      ],
+      "gate": "proof before reuse"
+    },
+    {
+      "id": "website",
+      "title": "Audit website and repository completeness",
+      "persona": "Maintainer / reviewer / developer",
+      "objective": "I want to check whether the website is complete, navigable, current, and claim-bounded.",
+      "why": "Verify route integrity, all-pages navigation, registry completeness, and public boundary coverage.",
+      "creates": [
+        "route-health checklist",
+        "missing-route check",
+        "content quality report",
+        "release review path"
+      ],
+      "routes": [
+        "site-health.html",
+        "site-map.html",
+        "demo-ecosystem-registry.html",
+        "search.html"
+      ],
+      "gate": "all pages discoverable"
+    },
+    {
+      "id": "cyber",
+      "title": "Plan a defensive cybersecurity proof mission",
+      "persona": "Security team / defensive operator",
+      "objective": "I want a defensive, public-safe cybersecurity review path with no secrets, no external scans, no exploit execution, and human review.",
+      "why": "Create a safe defensive mission package without offensive action or sensitive data.",
+      "creates": [
+        "defensive mission contract",
+        "safety invariants",
+        "review checklist",
+        "no-secrets boundary"
+      ],
+      "routes": [
+        "trust-boundary.html",
+        "proof-run-001-docket.html",
+        "demo-ecosystem-registry.html",
+        "data-boundary.html"
+      ],
+      "gate": "defensive, repo-owned, human-reviewed"
+    },
+    {
+      "id": "pilot",
+      "title": "Design a controlled pilot program",
+      "persona": "Institution / enterprise / partner",
+      "objective": "I want to design a controlled pilot where every serious pilot ends with a docket.",
+      "why": "Define mission, success criteria, evidence requirements, review, and follow-up status before action.",
+      "creates": [
+        "pilot mission contract",
+        "success criteria",
+        "evidence requests",
+        "post-pilot review plan"
+      ],
+      "routes": [
+        "pilot-program.html",
+        "commercial-evidence.html",
+        "proof-metrics-dashboard.html",
+        "trust-boundary.html"
+      ],
+      "gate": "bounded mission and acceptance criteria"
+    }
+  ]
+}

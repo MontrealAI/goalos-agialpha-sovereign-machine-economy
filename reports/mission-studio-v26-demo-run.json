@@ -1,0 +1,27 @@
+{
+  "version": "v26",
+  "status": "passed",
+  "generatedAt": "2026-07-02T23:43:25.665121Z",
+  "samples": [
+    {
+      "objective": "I am new and want the fastest path to understand GoalOS.",
+      "expected": "Mission Contract, Evidence Docket plan, route cards, Reviewer Brief, Action Graph, no external actions"
+    },
+    {
+      "objective": "I want to understand the 48 Ethereum Mainnet contracts.",
+      "expected": "Mission Contract, Evidence Docket plan, route cards, Reviewer Brief, Action Graph, no external actions"
+    },
+    {
+      "objective": "I want to run a public-safe proof mission.",
+      "expected": "Mission Contract, Evidence Docket plan, route cards, Reviewer Brief, Action Graph, no external actions"
+    },
+    {
+      "objective": "I want to understand Loop to RSI governance.",
+      "expected": "Mission Contract, Evidence Docket plan, route cards, Reviewer Brief, Action Graph, no external actions"
+    },
+    {
+      "objective": "I want to check privacy, token, and data boundaries.",
+      "expected": "Mission Contract, Evidence Docket plan, route cards, Reviewer Brief, Action Graph, no external actions"
+    }
+  ]
+}

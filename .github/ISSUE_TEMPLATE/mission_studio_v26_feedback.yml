@@ -1,0 +1,12 @@
+name: Mission Studio V26 feedback
+description: Feedback on the GoalOS Mission Studio and Ask GoalOS.
+title: "[V26] "
+labels: ["website", "ux", "review"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+    validations:
+      required: true

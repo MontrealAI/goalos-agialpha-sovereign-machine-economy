@@ -172,3 +172,12 @@ The website now exposes a front-and-center one-box interface: users type what th
 ## GoalOS Universal Mission Composer V25
 
 The website now places the one-box GoalOS interface front and center: users type what they want, GoalOS generates the proof path, route recommendations, Mission Contract, Evidence Docket plan, Reviewer Brief, Action Graph, and next best page. Ask GoalOS remains available as a browser-local question window across the site. No user data, no funds, no wallet, no transaction, no network call, no production authority.
+
+<!-- GOALOS-MISSION-STUDIO-V26 -->
+
+## GoalOS Mission Studio V26
+
+Front-and-center one-box interface plus Ask GoalOS chat and detailed use-case playbooks. A non-technical user types what they want; GoalOS generates a public-safe proof path, Mission Contract, Evidence Docket plan, Reviewer Brief, Action Graph, and next best page.
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+

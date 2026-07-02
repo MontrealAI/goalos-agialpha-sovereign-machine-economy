@@ -1,0 +1,10 @@
+{
+  "version": "v26",
+  "status": "passed",
+  "generatedAt": "2026-07-02T23:43:25.619881Z",
+  "publicPages": 155,
+  "routeClasses": 6,
+  "useCases": 12,
+  "externalActions": 0,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}
