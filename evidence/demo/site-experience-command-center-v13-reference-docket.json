@@ -1,0 +1,13 @@
+{
+  "docket": "site-experience-command-center-v13",
+  "status": "passed",
+  "claim": "Website public surface is complete, navigable, browser-local, and boundary-visible.",
+  "evidence": [
+    "search-index.json",
+    "sitemap.xml",
+    "site-health.html",
+    "route-health report",
+    "demo registry"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

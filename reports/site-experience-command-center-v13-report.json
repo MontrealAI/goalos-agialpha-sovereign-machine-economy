@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "version": "v0.35.0-site-experience-command-center-v13",
+  "summary": "Restored full public surface and upgraded navigation, command palette, registry, site health, and boundary pages.",
+  "routes": 140,
+  "categories": [
+    "Additional / Preserved",
+    "Capability & Economy",
+    "Evidence & Review",
+    "Loop Demos",
+    "Loop \u2192 RSI",
+    "Mission & Work OS",
+    "Navigation & Docs",
+    "Trust & Boundary"
+  ],
+  "restored_missing_files": [],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

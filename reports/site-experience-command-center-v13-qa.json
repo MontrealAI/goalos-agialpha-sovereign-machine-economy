@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "version": "v0.35.0-site-experience-command-center-v13",
+  "generated_at": "2026-07-02T01:29:50.085076Z",
+  "route_count": 140,
+  "restored_missing_count": 0,
+  "broken_link_count": 0,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract address only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.",
+  "forbidden_browser_apis": [
+    "fetch(",
+    "XMLHttpRequest",
+    "sendBeacon",
+    "localStorage",
+    "sessionStorage",
+    "window.ethereum"
+  ]
+}

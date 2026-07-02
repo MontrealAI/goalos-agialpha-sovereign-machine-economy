@@ -98,3 +98,17 @@ Empirical claims require Evidence Dockets, baselines, replay, cost/risk ledgers,
 
 ## Maintainer checklist
 Run QA, inspect reports, verify downloads, review boundary language, confirm no giant inline workflow payloads, and require human review before release.
+
+<!-- GOALOS_SITE_EXPERIENCE_COMMAND_CENTER_V13 -->
+## GoalOS Site Experience Command Center V13
+
+The public website has been restored and upgraded into a complete command center with 140 indexed public pages, a browser-local command palette, full route registry, site health page, Loop → RSI journey, and trust/token boundary pages.
+
+- Website: https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/index.html
+- All pages: `public/site-map.html`
+- Demo registry: `public/demo-ecosystem-registry.html`
+- Site health: `public/site-health.html`
+- Loop → RSI: `public/from-loop-to-rsi-state-capacity.html`
+
+Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+<!-- /GOALOS_SITE_EXPERIENCE_COMMAND_CENTER_V13 -->

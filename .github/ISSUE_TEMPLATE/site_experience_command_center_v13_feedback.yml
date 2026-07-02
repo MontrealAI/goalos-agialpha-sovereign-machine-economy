@@ -1,0 +1,18 @@
+name: Site Experience Command Center V13 feedback
+description: Public-safe feedback for website navigation and route completeness.
+title: "[Site V13] "
+labels: [website, review]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+    validations:
+      required: true
