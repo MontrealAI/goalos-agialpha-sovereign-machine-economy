@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "demo": "GoalOS Objective Command Center V20",
+  "scenarios": [
+    {
+      "objective": "Understand the 48 contracts",
+      "decision": "MISSION_PLAN_REVIEW_READY",
+      "routes": [
+        "mainnet-contract-atlas.html",
+        "mainnet-proof-rail.html"
+      ]
+    },
+    {
+      "objective": "Check token boundary",
+      "decision": "MISSION_PLAN_REVIEW_READY",
+      "routes": [
+        "token-boundary.html",
+        "trust-boundary.html"
+      ]
+    },
+    {
+      "objective": "Send funds from my wallet",
+      "decision": "BLOCK_BOUNDARY_REVISE_INPUT",
+      "routes": [
+        "token-boundary.html",
+        "trust-boundary.html"
+      ]
+    }
+  ],
+  "created_at": "2026-07-02T18:51:01Z"
+}

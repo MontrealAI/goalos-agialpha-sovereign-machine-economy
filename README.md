@@ -137,3 +137,11 @@ Best test questions: `where are the 48 contracts?`, `how do I start?`, `what is 
 Users can ask questions directly on the website and receive an immediate browser-local answer with recommended routes. The concierge answers from the static GoalOS route index and curated proof-path knowledge. It does not call a model, submit a form, connect a wallet, store user data, or make a network request.
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+
+## GoalOS Objective Command Center V20
+
+Tell GoalOS what you want. The browser-local Mission Command page converts a plain-language objective into a Mission Contract, Evidence Docket plan, route map, governed decision state, and downloadable local artifacts.
+
+- Public route: `public/mission-command-center.html`
+- No user data. No user funds. No wallet. No transaction. No network call. Human review required.

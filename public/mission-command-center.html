@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Objective Command Center — Tell GoalOS What You Want</title>
+  <meta name="description" content="Enter a plain-language objective. GoalOS converts it into a Mission Contract, Evidence Docket plan, route map, governed decision state, and downloadable proof artifacts. Browser-local. No data. No wallet.">
+  <link rel="stylesheet" href="assets/goalos-objective-command-center-v20.css">
+</head>
+<body class="goalos-v20">
+  <nav class="g-nav">
+    <a class="brand" href="index.html"><span class="logo"></span><span><strong>GOALOS</strong><span>AGIALPHA ASCENSION</span></span></a>
+    <div class="nav-links">
+      <a href="mission-command-center.html">Mission Command</a>
+      <a href="start-here.html">Start</a>
+      <a href="pathfinder.html">Pathfinder</a>
+      <a href="demo-ecosystem-registry.html">Registry</a>
+      <a href="mainnet-contract-atlas.html">48 Contracts</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+      <a href="ask-goalos.html">Ask GoalOS</a>
+      <a href="site-map.html">All Pages</a>
+    </div>
+  </nav>
+
+  <main class="g-wrap">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">GoalOS Mission Command / Browser-local / No data</div>
+        <h1 class="headline">Tell GoalOS <em>what you want.</em></h1>
+        <p class="dek">GoalOS turns a plain-language objective into a Mission Contract, evidence plan, route map, governed decision state, and downloadable proof artifacts.</p>
+        <p class="subdek">This is the user-facing command layer: describe the outcome, and the console builds the proof path. It routes you to the right pages, dockets, demos, contract atlas, Loop → RSI rooms, trust boundary, and reviewer surfaces.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#console">Open mission box</a>
+          <a class="btn" href="ask-goalos.html">Ask questions instead</a>
+          <a class="btn" href="site-map.html">Browse all pages</a>
+        </div>
+        <div class="boundary"><strong>Public-alpha boundary:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required.</div>
+      </div>
+      <aside class="console" id="console" aria-label="GoalOS Mission Command Console">
+        <div class="console-head"><span class="pill">Sovereign Objective Console</span><span class="pill green">Local only</span></div>
+        <div class="mission-box">
+          <label for="objective">What do you want GoalOS to help you accomplish?</label>
+          <textarea id="objective" class="objective-input" spellcheck="true">I want to understand the 48 Ethereum Mainnet contracts and learn which contracts matter for proof, validation, settlement, Chronicle memory, and the $AGIALPHA boundary.</textarea>
+          <div class="quick-chips" aria-label="Example objective prompts">
+            <button data-prompt="I want to understand the 48 Ethereum Mainnet contracts and the institutional proof rail.">48 contracts</button>
+            <button data-prompt="I want to run a public-safe proof mission and know what evidence is required.">Proof mission</button>
+            <button data-prompt="I want to understand Loop to RSI governance and Move-37 dossier handling.">Loop → RSI</button>
+            <button data-prompt="I am a new user and want the fastest path to understand GoalOS.">Start guide</button>
+            <button data-prompt="I want to check privacy, token, no-data, no-funds, and no-wallet boundaries.">Trust boundary</button>
+          </div>
+          <div class="run-row">
+            <button class="btn primary" id="runMission">Generate proof path</button>
+            <button class="btn" id="simulate">Simulate Mission OS cycle</button>
+            <button class="btn" id="openNext">Open next best page</button>
+          </div>
+        </div>
+        <div class="state-grid">
+          <div class="state-card"><small>Decision</small><strong id="decision">—</strong><span>governed state</span></div>
+          <div class="state-card"><small>Risk</small><strong id="risk">—</strong><span>boundary class</span></div>
+          <div class="state-card"><small>Routes</small><strong id="routes">—</strong><span>recommended</span></div>
+          <div class="state-card"><small>Mission</small><strong id="missionId">—</strong><span>local id</span></div>
+          <div class="state-card"><small>External actions</small><strong>0</strong><span>browser-local</span></div>
+          <div class="state-card"><small>Authority</small><strong>Human</strong><span>review required</span></div>
+        </div>
+        <pre class="terminal" id="terminal">Console initializing…</pre>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h2>From text box to proof path.</h2>
+      <div class="grid">
+        <article class="card"><h3>1. Mission Contract</h3><p>Your plain-language goal becomes bounded work with success criteria, risk class, claim boundary, allowed actions, and human-review requirement.</p></article>
+        <article class="card"><h3>2. Evidence Docket Plan</h3><p>The console lists what must be proven: claims, baselines, verifier checks, replay path, risk ledger, and public/private boundary.</p></article>
+        <article class="card"><h3>3. Route Autopilot</h3><p>GoalOS routes you to the right page: 48-contract atlas, Proof Run 001, Loop → RSI, registry, trust boundary, or reviewer room.</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Recommended pages.</h2>
+      <div id="routeList"></div>
+    </section>
+
+    <section class="section">
+      <h2>Required gates.</h2>
+      <div class="state-grid" id="gateGrid"></div>
+    </section>
+
+    <section class="section">
+      <h2>What GoalOS prepares.</h2>
+      <div class="steps" id="planSteps"></div>
+    </section>
+
+    <section class="section">
+      <h2>Download the local mission package.</h2>
+      <p class="subdek">These artifacts are generated in your browser from the objective text. They are not uploaded, transmitted, stored, or sent to a model.</p>
+      <div class="artifacts">
+        <button class="artifact-btn" id="downloadJson">Mission Contract JSON</button>
+        <button class="artifact-btn" id="downloadMd">Reviewer Brief MD</button>
+        <button class="artifact-btn" id="downloadCsv">Action Graph CSV</button>
+        <a class="artifact-btn" href="demo-ecosystem-registry.html">Open Demo Registry</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating"><a href="mission-command-center.html">Mission Command</a><a href="site-map.html">All pages</a></div>
+  <div class="toast" id="toast"></div>
+  <footer class="g-wrap foot">GoalOS AGIALPHA Ascension — public-alpha proof operating surface. AI creates output. GoalOS creates proof. No user data. No user funds. No wallet. No transaction. Human review required.</footer>
+  <script src="assets/goalos-objective-command-center-v20.js"></script>
+</body>
+</html>

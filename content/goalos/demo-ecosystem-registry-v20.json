@@ -1,0 +1,29 @@
+{
+  "version": "v20",
+  "demos": [
+    {
+      "name": "GoalOS Objective Command Center V20",
+      "canonical_url": "mission-command-center.html",
+      "description": "Plain-language objective box that creates Mission Contract, Evidence Docket plan, route map, governed decision state, and downloadable artifacts.",
+      "workflow_category": "mission_command",
+      "expected_inputs": [
+        "public-safe plain-language objective"
+      ],
+      "generated_outputs": [
+        "mission contract json",
+        "reviewer brief markdown",
+        "action graph csv",
+        "route recommendations"
+      ],
+      "proof_gates": [
+        "no user data",
+        "no user funds",
+        "no wallet",
+        "no transaction",
+        "no network call",
+        "human review required"
+      ],
+      "next_state": "MISSION_PLAN_REVIEW_READY"
+    }
+  ]
+}

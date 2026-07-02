@@ -1,0 +1,23 @@
+name: Objective Command Center feedback
+description: Report feedback for the browser-local Mission Command page.
+title: "Objective Command Center feedback: "
+labels: [feedback, website]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not submit personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What did you try, and what should improve?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm I am not submitting personal, customer, confidential, regulated, credential, wallet, private-key, seed-phrase, payment, trade-secret, proprietary data, or user funds.
+          required: true
