@@ -1,0 +1,29 @@
+
+name: Mainnet Contract Atlas feedback
+description: Report a documentation, route, contract-education, or boundary issue for the GoalOS Mainnet Contract Atlas.
+title: "Mainnet Contract Atlas feedback: "
+labels: ["website", "contracts", "review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reviewing the browser-local Mainnet Contract Atlas. Do not submit personal data, customer data, private keys, seed phrases, wallet credentials, payment information, trade secrets, or confidential information.
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or contract
+      placeholder: mainnet-contract-atlas.html / AEPProofLedger
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be clearer, corrected, or improved?
+    validations:
+      required: true

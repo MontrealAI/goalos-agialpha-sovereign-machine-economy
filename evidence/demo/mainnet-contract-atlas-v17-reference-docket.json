@@ -1,0 +1,10 @@
+{
+  "status": "REVIEW_READY",
+  "claim": "The site contains a browser-local public atlas for the 48 GoalOS-created Ethereum Mainnet contracts and canonical external AGIALPHA boundary.",
+  "evidence": [
+    "content/goalos/mainnet-contracts-v4.4.0.json",
+    "public/mainnet-contract-atlas.html",
+    "reports/mainnet-contract-atlas-v17-qa.json"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

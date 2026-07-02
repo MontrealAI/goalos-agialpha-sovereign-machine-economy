@@ -1,0 +1,863 @@
+{
+  "version": "v17",
+  "routes": [
+    {
+      "title": "GoalOS 404 \u2014 Route not found",
+      "url": "404.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
+      "url": "action-reason-trace-contract.html",
+      "category": "Mainnet Contract Rail",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Adoption Playbook \u00b7 GoalOS Ascension",
+      "url": "adoption.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Agent Constellation Demo \u2014 GoalOS",
+      "url": "agent-constellation-demo.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Agent Foundry \u00b7 GoalOS Ascension",
+      "url": "agents.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "AGI Alpha Node v0",
+      "url": "agi-alpha-node-v0.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "AGI ALPHA Thesis",
+      "url": "agi-alpha-thesis.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "AGI Jobs v0 (v2)",
+      "url": "agi-jobs-v0-v2.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "$AGIALPHA Control Rail",
+      "url": "agialpha-control-rail.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "$AGIALPHA Public-Market Boundary",
+      "url": "agialpha-token-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Architecture \u00b7 GoalOS",
+      "url": "architecture.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+      "url": "capability-compounding-lab.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Capability Parity",
+      "url": "capability-parity.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Capability Stack \u00b7 GoalOS",
+      "url": "capability-stack.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Claim Boundary \u00b7 GoalOS",
+      "url": "claim-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Commercial Evidence \u00b7 GoalOS",
+      "url": "commercial-evidence.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof Console",
+      "url": "console.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+      "url": "contract-academy.html",
+      "category": "Mainnet Contract Rail",
+      "description": "Guided learning path for the 48 Mainnet contracts."
+    },
+    {
+      "title": "Coordination Console",
+      "url": "coordination-console.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Data Boundary \u2014 GoalOS",
+      "url": "data-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "url": "data-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Demo Ecosystem Registry \u2014 GoalOS",
+      "url": "demo-ecosystem-registry.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Demo Gallery \u2014 GoalOS",
+      "url": "demo-gallery.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Demo Launcher \u2014 GoalOS",
+      "url": "demo-launcher.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Demo Safety Boundary \u2014 GoalOS",
+      "url": "demo-safety.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Evidence Docket Builder \u2014 GoalOS",
+      "url": "docket-builder.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Docs \u2014 GoalOS",
+      "url": "docs.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Document Series",
+      "url": "document-series.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "url": "enterprise.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Evaluation Program",
+      "url": "evaluation-program.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "url": "evaluation.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+      "url": "evidence-docket-theatre.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "url": "evidence-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "url": "evidence-to-scale.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Evidence Layer \u00b7 GoalOS Ascension",
+      "url": "evidence.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+      "url": "evolution-ledger-control-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "url": "executive-brief.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "url": "external-reviewer-replay-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Falsification Box \u2014 GoalOS",
+      "url": "falsification-box.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+      "url": "falsification-gauntlet.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "FAQ \u00b7 GoalOS Ascension",
+      "url": "faq.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "For New Users \u2014 GoalOS",
+      "url": "for-new-users.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "url": "for-reviewers.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "url": "from-loop-to-rsi-governance.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "url": "from-loop-to-rsi-sovereign-console.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Frontier Release Case Study",
+      "url": "frontier-release-case-study.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Frontier Release Doctrine",
+      "url": "frontier-release-doctrine.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Frontier Release Room",
+      "url": "frontier-release-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Glossary \u2014 GoalOS",
+      "url": "glossary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "url": "governance.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Help Center \u2014 GoalOS",
+      "url": "help-center.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Historical Command Center",
+      "url": "historical-command-center.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Holy Grail Candidate",
+      "url": "holy-grail-candidate.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "url": "independent-validation.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS AGIALPHA Ascension \u2014 Immersive Command Center V16",
+      "url": "index.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "url": "institutional-deployment-wedge.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Token & Investment Boundary",
+      "url": "investment-token-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "url": "jobs.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Launch Narrative",
+      "url": "launch-narrative.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Launch Package \u00b7 GoalOS Ascension",
+      "url": "launch.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Legal Shield \u2014 GoalOS",
+      "url": "legal.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Local Autopilot Demo \u2014 GoalOS",
+      "url": "local-autopilot-demo.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+      "url": "loop-bottleneck-observatory.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+      "url": "loop-contract-lab.html",
+      "category": "Mainnet Contract Rail",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+      "url": "loop-flight-recorder.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+      "url": "mainnet-contract-atlas.html",
+      "category": "Mainnet Contract Rail",
+      "description": "Interactive browser-local atlas for the 48 GoalOS-created Ethereum Mainnet contracts."
+    },
+    {
+      "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+      "url": "mainnet-proof-rail.html",
+      "category": "Mainnet Contract Rail",
+      "description": "Plain-language contract journey from public proof to Chronicle memory."
+    },
+    {
+      "title": "META-AGENTIC \u03b1-AGI",
+      "url": "meta-agentic-alpha-agi.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "url": "metrics.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Mission OS Canon",
+      "url": "mission-os-canon.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "url": "mission-os.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "url": "multi-agent-institution.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "No Data / No Funds \u2014 GoalOS",
+      "url": "no-data-no-funds.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Node Runtime \u00b7 GoalOS Ascension",
+      "url": "node.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "url": "open-ended-work-engine.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Operator Checklist \u2014 GoalOS",
+      "url": "operator-checklist.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "url": "operators.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Paper to Product",
+      "url": "paper-to-product.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Pathfinder \u2014 GoalOS",
+      "url": "pathfinder.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Pilot Program \u00b7 GoalOS",
+      "url": "pilot-program.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "url": "pilot-proof.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Privacy \u2014 GoalOS",
+      "url": "privacy.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Product \u00b7 GoalOS",
+      "url": "product.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "url": "proof-backed-upgrade-rights-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Card Studio \u2014 GoalOS",
+      "url": "proof-card-studio.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "url": "proof-carrying-artifact-foundry.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "url": "proof-economy.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "url": "proof-experience-atlas.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Flight Demo \u2014 GoalOS",
+      "url": "proof-flight-demo.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "url": "proof-gradient-lab.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+      "url": "proof-ledger.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "url": "proof-metrics-dashboard.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "url": "proof-mission-control.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "url": "proof-mission-forge.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Mission Slots \u2014 GoalOS",
+      "url": "proof-mission-slots.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof-of-Evolution",
+      "url": "proof-of-evolution.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "url": "proof-run-001-docket.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "url": "proof-run-001-execution-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Run 001 Live \u2014 GoalOS",
+      "url": "proof-run-001-live.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Run 001",
+      "url": "proof-run-001.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "url": "proof-settlement-chronicle-lab.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+      "url": "proof-to-action-command-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "url": "proof-velocity.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "url": "public-metrics-ledger.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "url": "public-proof-ledger.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "url": "quick-tour.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "url": "real-task-benchmark-bridge.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "url": "release-gates.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Repository Map \u00b7 GoalOS",
+      "url": "repository-map.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Research Spine",
+      "url": "research-spine.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Responsible Use \u2014 GoalOS",
+      "url": "responsible-use.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "url": "reviewer-path.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "url": "roadmap.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Run Locally \u2014 GoalOS",
+      "url": "run-locally.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "url": "schema-registry.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Search \u2014 GoalOS",
+      "url": "search.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Security Boundary \u2014 GoalOS",
+      "url": "security-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Security \u00b7 GoalOS Ascension",
+      "url": "security.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Site Health \u2014 GoalOS",
+      "url": "site-health.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Site Map \u2014 GoalOS",
+      "url": "site-map.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "url": "source-lineage.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "url": "sovereign-experience-stream-lab.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "url": "sovereign-experience-stream.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "url": "standards.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Start Here \u2014 GoalOS",
+      "url": "start-here.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Start Here \u00b7 GoalOS Ascension",
+      "url": "start.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "url": "strategic-evidence-scorecard.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Terms of Use \u2014 GoalOS",
+      "url": "terms.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Token Boundary \u2014 GoalOS",
+      "url": "token-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "$AGIALPHA Token Boundary",
+      "url": "token.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "url": "troubleshooting.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Trust Boundary \u2014 GoalOS",
+      "url": "trust-boundary.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Trust Center \u00b7 GoalOS Ascension",
+      "url": "trust-center.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Trust Center",
+      "url": "trust.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "url": "try-goalos.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+      "url": "validator-council-arena.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Validator Room \u2014 GoalOS",
+      "url": "validator-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Validator Seats",
+      "url": "validator-seats.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+      "url": "value-realization-control-room.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Website Autopilot \u00b7 GoalOS",
+      "url": "website-autopilot.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "Website Operating System \u2014 GoalOS",
+      "url": "website-operating-system.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    },
+    {
+      "title": "What GoalOS Does \u2014 GoalOS",
+      "url": "what-goalos-does.html",
+      "category": "Existing public page",
+      "description": "GoalOS public proof surface."
+    }
+  ]
+}
