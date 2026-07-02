@@ -1,0 +1,148 @@
+name: GoalOS Universal Mission Composer V25 — One Box + Ask GoalOS
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.45.0-universal-mission-composer-v25
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-universal-mission-composer-v25-pack.zip
+
+jobs:
+  universal-mission-composer:
+    name: Install Universal Mission Composer
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Unpack V25 implementation pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import zipfile
+          with zipfile.ZipFile(Path('.goalos/packs/goalos-universal-mission-composer-v25-pack.zip')) as z:
+              z.extractall(Path.cwd())
+          print('unpacked v25 pack')
+          PY
+
+      - name: Install Universal Mission Composer V25
+        run: python scripts/install_universal_mission_composer_v25.py
+
+      - name: Run deterministic V25 demo
+        run: python scripts/run_universal_mission_composer_v25_demo.py
+
+      - name: Audit V25 browser-local safety and route integrity
+        run: python scripts/goalos_universal_mission_composer_v25_audit.py
+
+      - name: Commit V25 update
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples scripts evidence reports content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS Universal Mission Composer V25"
+            git push
+          fi
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create \
+              --title "GoalOS Universal Mission Composer V25 — Review" \
+              --body-file issue-bodies/universal-mission-composer-v25.md \
+              --label "website" \
+              --label "ux" \
+              --label "review" || true
+          fi
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag" \
+              reports/universal-mission-composer-v25-qa.json \
+              reports/universal-mission-composer-v25-route-health.json \
+              reports/universal-mission-composer-v25-demo-run.json \
+              reports/universal-mission-composer-v25-audit.json \
+              evidence/demo/universal-mission-composer-v25-reference-docket.json \
+              --title "GoalOS Universal Mission Composer V25" \
+              --notes "One-box GoalOS mission interface plus Ask GoalOS browser-local route assistant. No user data, no funds, no wallet, no transaction, no network call, human review required." || true
+          fi
