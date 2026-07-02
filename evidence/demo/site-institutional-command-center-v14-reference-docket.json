@@ -1,0 +1,14 @@
+{
+  "docket": "site-institutional-command-center-v14",
+  "decision_state": "REVIEW_READY",
+  "claim": "The public website route surface is complete, indexed, navigable, polished, and boundary-visible for public-alpha review.",
+  "evidence": [
+    "public/index.html",
+    "public/site-map.html",
+    "public/demo-ecosystem-registry.html",
+    "public/site-health.html",
+    "public/search-index.json",
+    "reports/site-institutional-command-center-v14-qa.json"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "missing": [],
+  "forbidden_api_hits": [],
+  "route_health": "passed",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "human_review_required": true
+}

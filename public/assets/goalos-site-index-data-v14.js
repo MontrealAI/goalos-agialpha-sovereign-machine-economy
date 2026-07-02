@@ -1,0 +1,1263 @@
+window.GOALOS_ROUTES_V14 = [
+  {
+    "path": "index.html",
+    "title": "GoalOS AGIALPHA Ascension — Institutional Command Center",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "start-here.html",
+    "title": "Start Here",
+    "summary": "Start in 60 seconds with plain-language onboarding.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "pathfinder.html",
+    "title": "GoalOS Pathfinder",
+    "summary": "Choose a route by role: new user, reviewer, developer, institution, operator.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "demo-ecosystem-registry.html",
+    "title": "Demo Ecosystem Registry",
+    "summary": "Every public demo mapped to inputs, outputs, proof gates, and next state.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "proof-run-001-docket.html",
+    "title": "Proof Run 001 Docket",
+    "summary": "Repository-readiness evidence docket with gates, reports, and reviewer path.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "from-loop-to-rsi-state-capacity.html",
+    "title": "From Loop to RSI State-Capacity Command Room",
+    "summary": "Show whether the institution is ready to scale recursive invention.",
+    "category": "Loop → RSI",
+    "role": "RSI governance console",
+    "gate": "schema, ECI, baselines, OMNI allocation-only, dossier, council, human review",
+    "next_state": "RSI_REVIEW_READY or HOLD_* gate state"
+  },
+  {
+    "path": "site-map.html",
+    "title": "Site Map — All Pages",
+    "summary": "The complete public surface grouped by route class.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "site-health.html",
+    "title": "Site Health",
+    "summary": "Route counts, missing pages, public-boundary checks, and QA surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "trust-boundary.html",
+    "title": "Trust Boundary",
+    "summary": "No user data, no funds, no wallet, no production authority, human review required.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "token-boundary.html",
+    "title": "Token Boundary",
+    "summary": "$AGIALPHA public contract identification only; not available from us.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "search.html",
+    "title": "GoalOS Search",
+    "summary": "Browser-local command search across public pages.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "agialpha-control-rail.html",
+    "title": "$AGIALPHA Control Rail",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "agi-alpha-thesis.html",
+    "title": "AGI ALPHA Thesis",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "agi-alpha-node-v0.html",
+    "title": "AGI Alpha Node v0",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "agent-constellation-demo.html",
+    "title": "Agent Constellation Demo — GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "agents.html",
+    "title": "Agent Foundry · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "data-room.html",
+    "title": "Data Room · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "demo-gallery.html",
+    "title": "Demo Gallery — GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "demo-safety.html",
+    "title": "Demo Safety Boundary — GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "enterprise.html",
+    "title": "Enterprise Readiness · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "evaluation-program.html",
+    "title": "Evaluation Program",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "evaluation.html",
+    "title": "Evaluation · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "executive-brief.html",
+    "title": "Executive Brief · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "for-new-users.html",
+    "title": "For New Users — GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "frontier-release-case-study.html",
+    "title": "Frontier Release Case Study",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "frontier-release-doctrine.html",
+    "title": "Frontier Release Doctrine",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "frontier-release-room.html",
+    "title": "Frontier Release Room",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "document-series.html",
+    "title": "GoalOS Document Series",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "historical-command-center.html",
+    "title": "GoalOS Historical Command Center",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "institutional-deployment-wedge.html",
+    "title": "GoalOS Institutional Deployment Wedge — Earn the Right to Scale",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "multi-agent-institution.html",
+    "title": "GoalOS Multi-Agent Institution — Not a Swarm. An Institution.",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "governance.html",
+    "title": "Governance · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "holy-grail-candidate.html",
+    "title": "Holy Grail Candidate",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "independent-validation.html",
+    "title": "Independent Validation · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "meta-agentic-alpha-agi.html",
+    "title": "META-AGENTIC α-AGI",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "node.html",
+    "title": "Node Runtime · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "release-gates.html",
+    "title": "Release Gates · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "roadmap.html",
+    "title": "Roadmap · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "schema-registry.html",
+    "title": "Schema Registry · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "source-lineage.html",
+    "title": "Source Lineage · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "sovereign-experience-stream.html",
+    "title": "Sovereign Experience Stream Lab · GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "standards.html",
+    "title": "Standards · GoalOS Ascension",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "quick-tour.html",
+    "title": "Try GoalOS — Browser-local Demo",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "try-goalos.html",
+    "title": "Try GoalOS — Browser-local Demo",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "what-goalos-does.html",
+    "title": "What GoalOS Does — GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "Additional / Preserved",
+    "role": "preserved route",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  },
+  {
+    "path": "capability-compounding-lab.html",
+    "title": "Capability Compounding Lab",
+    "summary": "Verified work becomes reusable capability.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "capability-parity.html",
+    "title": "GoalOS Capability Parity",
+    "summary": "Capability, settlement, value, artifact, or upgrade-rights route.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "proof-settlement-chronicle-lab.html",
+    "title": "GoalOS Proof-Settlement Chronicle Lab",
+    "summary": "Capability, settlement, value, artifact, or upgrade-rights route.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "proof-economy.html",
+    "title": "Proof Economy · GoalOS Ascension",
+    "summary": "Capability, settlement, value, artifact, or upgrade-rights route.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "proof-backed-upgrade-rights-room.html",
+    "title": "Proof-Backed Upgrade Rights Room",
+    "summary": "A proof-carrying artifact earns limited upgrade rights.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "proof-carrying-artifact-foundry.html",
+    "title": "Proof-Carrying Artifact Foundry",
+    "summary": "The artifact earns authority only after gates pass.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "value-realization-control-room.html",
+    "title": "Value Realization Control Room",
+    "summary": "Verified work becomes allocable capacity.",
+    "category": "Capability & Economy",
+    "role": "capability / value route",
+    "gate": "proof validity, eval pass, scope, canary, rollback, challenge window",
+    "next_state": "CAPABILITY_REVIEW_READY"
+  },
+  {
+    "path": "action-reason-trace-contract.html",
+    "title": "Action-Reason Trace Contract",
+    "summary": "Every high-impact action must carry a reason, scope, observation, rollback, and evidence.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "architecture.html",
+    "title": "Architecture · GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "commercial-evidence.html",
+    "title": "Commercial Evidence Room",
+    "summary": "Commercial signals are counted carefully and disclosed responsibly.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "coordination-console.html",
+    "title": "Coordination Console",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "docket-builder.html",
+    "title": "Evidence Docket Builder — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "evidence.html",
+    "title": "Evidence Layer · GoalOS Ascension",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "evidence-room.html",
+    "title": "Evidence Room · GoalOS Ascension",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "evidence-to-scale.html",
+    "title": "Evidence to Scale · GoalOS Ascension",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "evolution-ledger-control-room.html",
+    "title": "Evolution Ledger Control Room",
+    "summary": "The ledger remembers proof, not secrets.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "external-reviewer-replay-room.html",
+    "title": "External Reviewer Replay Room",
+    "summary": "Inspect proof, replay paths, claims, risks, and dissent.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "falsification-box.html",
+    "title": "Falsification Box — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "falsification-gauntlet.html",
+    "title": "Falsification Gauntlet",
+    "summary": "Strong claims survive baselines and stress tests.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "for-reviewers.html",
+    "title": "For Reviewers — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "reviewer-path.html",
+    "title": "For Reviewers — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "evidence-docket-theatre.html",
+    "title": "GoalOS Evidence Docket Theatre — A proof page is not a marketing page",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "console.html",
+    "title": "GoalOS Proof Console",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-gradient-lab.html",
+    "title": "GoalOS Proof Gradient Lab — No proof, no evolution",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-run-001-execution-room.html",
+    "title": "GoalOS Proof Run 001 Execution Room",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-to-action-command-room.html",
+    "title": "GoalOS Proof-to-Action Command Room — Governed Decision State",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-ledger.html",
+    "title": "GoalOS Public Proof Ledger — Evidence Registry",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "sovereign-experience-stream-lab.html",
+    "title": "GoalOS Sovereign Experience Stream Lab — Proof Becomes Governed Experience",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-card-studio.html",
+    "title": "Proof Card Studio — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-experience-atlas.html",
+    "title": "Proof Experience Atlas",
+    "summary": "Guided atlas for proof rooms and public demos.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-flight-demo.html",
+    "title": "Proof Flight Demo — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-metrics-dashboard.html",
+    "title": "Proof Metrics Dashboard",
+    "summary": "Measure proof quality, not just activity.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "metrics.html",
+    "title": "Proof Metrics Dashboard · GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-run-001.html",
+    "title": "Proof Run 001",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-run-001-live.html",
+    "title": "Proof Run 001 Live — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-velocity.html",
+    "title": "Proof Velocity · GoalOS Ascension",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "proof-of-evolution.html",
+    "title": "Proof-of-Evolution",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "public-metrics-ledger.html",
+    "title": "Public Metrics Ledger · GoalOS Ascension",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "public-proof-ledger.html",
+    "title": "Public Proof Ledger",
+    "summary": "Public-safe proof commitments, reports, and ledgers.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "real-task-benchmark-bridge.html",
+    "title": "Real-Task Benchmark Bridge",
+    "summary": "Demos become benchmark-ready evidence.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "strategic-evidence-scorecard.html",
+    "title": "Strategic Evidence Scorecard · GoalOS Ascension",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "validator-council-arena.html",
+    "title": "Validator Council Arena",
+    "summary": "Trust is not one judge. It is a validator council.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "validator-room.html",
+    "title": "Validator Room — GoalOS",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "validator-seats.html",
+    "title": "Validator Seats",
+    "summary": "Evidence, proof, validation, benchmark, ledger, or reviewer route.",
+    "category": "Evidence & Review",
+    "role": "reviewer / evidence route",
+    "gate": "claims matrix, proof packets, baselines, replay, validator review, claim boundary",
+    "next_state": "REVIEW_READY / REVISE / REJECT / DISSENT"
+  },
+  {
+    "path": "loop-bottleneck-observatory.html",
+    "title": "Loop Bottleneck Observatory",
+    "summary": "The bottleneck always moves.",
+    "category": "Loop Demos",
+    "role": "restartable loop demo",
+    "gate": "contract, role separation, disk state, trace, restart, evaluator, privacy boundary",
+    "next_state": "LOOP_REVIEW_READY or HOLD_* gate state"
+  },
+  {
+    "path": "loop-contract-lab.html",
+    "title": "Loop Contract Lab",
+    "summary": "Write the loop, not the prompt.",
+    "category": "Loop Demos",
+    "role": "restartable loop demo",
+    "gate": "contract, role separation, disk state, trace, restart, evaluator, privacy boundary",
+    "next_state": "LOOP_REVIEW_READY or HOLD_* gate state"
+  },
+  {
+    "path": "loop-flight-recorder.html",
+    "title": "Loop Flight Recorder",
+    "summary": "Agents that run for days must leave proof.",
+    "category": "Loop Demos",
+    "role": "restartable loop demo",
+    "gate": "contract, role separation, disk state, trace, restart, evaluator, privacy boundary",
+    "next_state": "LOOP_REVIEW_READY or HOLD_* gate state"
+  },
+  {
+    "path": "from-loop-to-rsi-governance.html",
+    "title": "From Loop to RSI Governance Lab",
+    "summary": "Build the governance institution first.",
+    "category": "Loop → RSI",
+    "role": "RSI governance console",
+    "gate": "schema, ECI, baselines, OMNI allocation-only, dossier, council, human review",
+    "next_state": "RSI_REVIEW_READY or HOLD_* gate state"
+  },
+  {
+    "path": "from-loop-to-rsi-sovereign-console.html",
+    "title": "From Loop to RSI Sovereign Console",
+    "summary": "Search control is allowed. Outcome authority is earned.",
+    "category": "Loop → RSI",
+    "role": "RSI governance console",
+    "gate": "schema, ECI, baselines, OMNI allocation-only, dossier, council, human review",
+    "next_state": "RSI_REVIEW_READY or HOLD_* gate state"
+  },
+  {
+    "path": "jobs.html",
+    "title": "AGI Jobs Ledger · GoalOS Ascension",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "agi-jobs-v0-v2.html",
+    "title": "AGI Jobs v0 (v2)",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "adoption.html",
+    "title": "Adoption Playbook · GoalOS Ascension",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "capability-stack.html",
+    "title": "Capability Stack",
+    "summary": "A complete operating model for proof-settled AI work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "demo-launcher.html",
+    "title": "Demo Launcher — GoalOS",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "launch-narrative.html",
+    "title": "GoalOS Launch Narrative",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "open-ended-work-engine.html",
+    "title": "GoalOS Open-Ended Work Engine Lab — Generate Tasks. Gate Descendants.",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "proof-mission-control.html",
+    "title": "GoalOS Proof Mission Control — From Objective to First Docket",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "proof-mission-forge.html",
+    "title": "GoalOS Proof Mission Forge — Turn an objective into a proof mission",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "launch.html",
+    "title": "Launch Package · GoalOS Ascension",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "local-autopilot-demo.html",
+    "title": "Local Autopilot Demo — GoalOS",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "mission-os-canon.html",
+    "title": "Mission OS Canon",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "mission-os.html",
+    "title": "Mission OS · GoalOS Ascension",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "operator-checklist.html",
+    "title": "Operator Checklist — GoalOS",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "operators.html",
+    "title": "Operator Console Blueprint · GoalOS Ascension",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "paper-to-product.html",
+    "title": "Paper to Product",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "pilot-proof.html",
+    "title": "Pilot Proof · GoalOS Ascension",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "product.html",
+    "title": "Product · GoalOS",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "proof-mission-slots.html",
+    "title": "Proof Mission Slots — GoalOS",
+    "summary": "Mission, adoption, product, or operator route for proof-to-action work.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "pilot-program.html",
+    "title": "Proof Pilot Program",
+    "summary": "Every serious pilot ends with a docket.",
+    "category": "Mission & Work OS",
+    "role": "mission orchestration surface",
+    "gate": "mission contract, done condition, evidence docket, action graph, human review",
+    "next_state": "MISSION_REVIEW_READY"
+  },
+  {
+    "path": "faq.html",
+    "title": "FAQ · GoalOS Ascension",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "glossary.html",
+    "title": "Glossary — GoalOS",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "docs.html",
+    "title": "GoalOS Docs",
+    "summary": "Runbooks, reports, docs, workflows, reviewer paths, and GitHub Web UI help.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "website-operating-system.html",
+    "title": "GoalOS Website Operating System",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "help-center.html",
+    "title": "Help Center — GoalOS",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "repository-map.html",
+    "title": "Repository Map",
+    "summary": "Know where everything lives.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "research-spine.html",
+    "title": "Research Spine",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "run-locally.html",
+    "title": "Run Locally — GoalOS",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "start.html",
+    "title": "Start Here · GoalOS Ascension",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "troubleshooting.html",
+    "title": "Troubleshooting · GoalOS Ascension",
+    "summary": "Navigation or documentation route that helps users find the right proof surface.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "website-autopilot.html",
+    "title": "Website Autopilot",
+    "summary": "A public site generated from proof-aligned source.",
+    "category": "Navigation & Docs",
+    "role": "navigation / documentation route",
+    "gate": "route exists, links resolve, user path visible, boundary linked",
+    "next_state": "ROUTE_DISCOVERABLE"
+  },
+  {
+    "path": "agialpha-token-boundary.html",
+    "title": "$AGIALPHA Public-Market Boundary",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "token.html",
+    "title": "$AGIALPHA Token Boundary",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "claim-boundary.html",
+    "title": "Claim Boundary",
+    "summary": "Ambition without unsupported claims.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "data-boundary.html",
+    "title": "Data Boundary",
+    "summary": "Public proof, private intelligence. No personal, customer, credential, wallet, or regulated data.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "legal.html",
+    "title": "Legal Shield — GoalOS",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "no-data-no-funds.html",
+    "title": "No Data / No Funds",
+    "summary": "The public-alpha demos require no user data and no user funds.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "privacy.html",
+    "title": "Privacy Boundary",
+    "summary": "GoalOS does not want user data and does not need user data for public demos.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "responsible-use.html",
+    "title": "Responsible Use — GoalOS",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "security-boundary.html",
+    "title": "Security Boundary — GoalOS",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "security.html",
+    "title": "Security · GoalOS Ascension",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "terms.html",
+    "title": "Terms of Use — GoalOS",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "investment-token-boundary.html",
+    "title": "Token & Investment Boundary",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "trust.html",
+    "title": "Trust Center",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "trust-center.html",
+    "title": "Trust Center · GoalOS Ascension",
+    "summary": "Boundary route for claims, data, privacy, token, legal, or safety posture.",
+    "category": "Trust & Boundary",
+    "role": "trust and boundary surface",
+    "gate": "no data, no funds, no wallet, no transaction, no unsupported claim",
+    "next_state": "BOUNDARY_VISIBLE"
+  },
+  {
+    "path": "404.html",
+    "title": "GoalOS route not found · GoalOS",
+    "summary": "Preserved public route, indexed and reachable from the complete site map.",
+    "category": "System",
+    "role": "system page",
+    "gate": "route integrity and boundary check",
+    "next_state": "PRESERVED_DISCOVERABLE"
+  }
+];
+window.GOALOS_ROUTES = window.GOALOS_ROUTES_V14;

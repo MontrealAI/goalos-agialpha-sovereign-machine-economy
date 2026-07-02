@@ -112,3 +112,9 @@ The public website has been restored and upgraded into a complete command center
 
 Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
 <!-- /GOALOS_SITE_EXPERIENCE_COMMAND_CENTER_V13 -->
+
+## GoalOS Site Institutional Command Center V14
+
+V14 restores and polishes the public website as one complete route system: dynamic command center, Pathfinder, all-pages map, registry, site health, trust/token boundary, and browser-local command palette. It preserves existing pages and adds discoverability rather than deleting prior work.
+
+Public-alpha boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.

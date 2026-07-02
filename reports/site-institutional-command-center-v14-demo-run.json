@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "demo": "site-institutional-command-center-v14",
+  "opened_routes": [
+    "index.html",
+    "site-map.html",
+    "demo-ecosystem-registry.html",
+    "site-health.html",
+    "from-loop-to-rsi-state-capacity.html",
+    "trust-boundary.html",
+    "token-boundary.html"
+  ],
+  "route_count": 140,
+  "generated_at": "2026-07-02T03:00:21.740725Z"
+}

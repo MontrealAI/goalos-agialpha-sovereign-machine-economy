@@ -1,0 +1,19 @@
+name: GoalOS Site Institutional Command Center V14 Feedback
+description: Report navigation, route, UX, proof, or boundary feedback for the V14 website surface.
+title: "[V14 Website Feedback]: "
+labels: [website, ux, review]
+body:
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What should be improved?
+      description: Include the page path, expected behavior, and what happened.
+    validations:
+      required: true
