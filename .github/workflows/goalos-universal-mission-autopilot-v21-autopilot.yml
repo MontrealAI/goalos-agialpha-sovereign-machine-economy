@@ -1,0 +1,115 @@
+name: GoalOS Universal Mission Autopilot V21 — Tell GoalOS What You Want
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy public/ to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag
+        required: true
+        type: string
+        default: v0.41.1-universal-mission-autopilot-v21
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-universal-mission-autopilot-v21-pack.zip
+
+jobs:
+  universal-mission-autopilot:
+    name: Install Universal Mission Autopilot
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+      - name: Unpack GoalOS Universal Mission Autopilot pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import pathlib, zipfile
+          zip_path = pathlib.Path('.goalos/packs/goalos-universal-mission-autopilot-v21-pack.zip')
+          with zipfile.ZipFile(zip_path) as z:
+              z.extractall(pathlib.Path.cwd())
+          print(f'unpacked {zip_path}')
+          PY
+      - name: Install Universal Mission Autopilot
+        run: python scripts/install_universal_mission_autopilot_v21.py
+      - name: Run deterministic demo
+        run: python scripts/run_universal_mission_autopilot_v21_demo.py
+      - name: Audit browser-local safety and route integrity
+        run: python scripts/goalos_universal_mission_autopilot_v21_audit.py
+      - name: Commit Universal Mission Autopilot update
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples scripts evidence reports content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then echo "No changes to commit."; else git commit -m "Add GoalOS Universal Mission Autopilot V21"; git push; fi
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then gh issue create --title "GoalOS Universal Mission Autopilot V21 — Review" --body-file issue-bodies/universal-mission-autopilot-v21.md --label "website" --label "review" || true; fi
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then gh release create "$tag" reports/universal-mission-autopilot-v21-qa.json reports/universal-mission-autopilot-v21-demo-run.json evidence/demo/universal-mission-autopilot-v21-reference-docket.json --title "GoalOS Universal Mission Autopilot V21" --notes "One-box browser-local Mission OS surface. No user data, no funds, no wallet, no transaction, human review required." || true; fi
