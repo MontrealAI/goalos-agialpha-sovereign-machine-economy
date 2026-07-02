@@ -1,0 +1,27 @@
+{
+  "version": "v24",
+  "status": "passed",
+  "generatedAt": "2026-07-02T22:21:25.378419Z",
+  "samples": [
+    {
+      "objective": "I want to understand the 48 Ethereum Mainnet contracts.",
+      "expected": "mission package + route recommendations + no external actions"
+    },
+    {
+      "objective": "I want to run a public-safe proof mission.",
+      "expected": "mission package + route recommendations + no external actions"
+    },
+    {
+      "objective": "I want to understand Loop to RSI governance.",
+      "expected": "mission package + route recommendations + no external actions"
+    },
+    {
+      "objective": "I want to check privacy, token, and data boundaries.",
+      "expected": "mission package + route recommendations + no external actions"
+    },
+    {
+      "objective": "I am new and want the fastest path to understand GoalOS.",
+      "expected": "mission package + route recommendations + no external actions"
+    }
+  ]
+}

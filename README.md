@@ -164,3 +164,7 @@ Open `public/goalos.html` or the live route `/goalos.html`.
 ## GoalOS Universal Mission Interface V23
 
 The primary website path is now a one-box Mission OS interface: users type what they want, and GoalOS generates a browser-local Mission Contract, Evidence Docket plan, Action Graph, Reviewer Brief, and next best route. Primary page: `public/goalos.html`. Boundary preserved: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
+
+## GoalOS Universal Operating Interface V24
+
+The website now exposes a front-and-center one-box interface: users type what they want, and GoalOS generates a Mission Contract, Evidence Docket plan, Action Graph, Reviewer Brief, route recommendations, and next best page. Ask GoalOS remains available as a browser-local question window across the site. No user data, no user funds, no wallet, no transaction, no network call, no production authority.
