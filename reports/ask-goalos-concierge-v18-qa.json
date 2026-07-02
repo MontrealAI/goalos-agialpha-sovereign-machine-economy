@@ -2,8 +2,8 @@
   "status": "passed",
   "version": "v18",
   "routeCount": 146,
-  "pagesInjected": 144,
+  "pagesInjected": 0,
   "forbiddenBrowserApiHits": [],
   "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
-  "generatedAt": "2026-07-02T15:23:18.967832Z"
+  "generatedAt": "2026-07-02T15:36:34.255228Z"
 }

@@ -16,7 +16,7 @@ No user data. No user funds. No wallet. No transaction. No network call. No prod
 ## Installation result
 
 - Routes indexed: 146
-- Pages injected: 144
+- Pages injected: 0
 
 ## Best questions to test
 
