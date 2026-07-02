@@ -12,12 +12,6 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "The proof-to-action stack."
   },
   {
-    "title": "Demo Ecosystem Registry \u2014 GoalOS",
-    "url": "demo-ecosystem-registry.html",
-    "category": "Additional",
-    "description": "GoalOS public-alpha proof operating system."
-  },
-  {
     "title": "Demo Gallery \u2014 GoalOS",
     "url": "demo-gallery.html",
     "category": "Additional",
@@ -46,6 +40,12 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "url": "glossary.html",
     "category": "Additional",
     "description": "Every core term with a simple meaning and where to inspect it."
+  },
+  {
+    "title": "GoalOS Demo Ecosystem Registry",
+    "url": "demo-ecosystem-registry.html",
+    "category": "Additional",
+    "description": "Every public GoalOS demo mapped to inputs, outputs, proof gates, and next states."
   },
   {
     "title": "GoalOS Proof Console",
@@ -184,6 +184,12 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "url": "coordination-console.html",
     "category": "Capability & Economy",
     "description": "Coordinate agents through bounded jobs, proof bundles, verifier mesh, Chronicle memory, settlement, and reuse."
+  },
+  {
+    "title": "GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy",
+    "url": "index.html",
+    "category": "Capability & Economy",
+    "description": "GoalOS turns AI work into verified capability. Type what you want; GoalOS builds the proof path."
   },
   {
     "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
@@ -564,12 +570,6 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "Open seats for Evidence Docket, replay, claim-boundary, cost/risk, and frontier-governance review."
   },
   {
-    "title": "GoalOS AGIALPHA Ascension \u2014 Immersive Command Center V16",
-    "url": "index.html",
-    "category": "Loop to RSI",
-    "description": "GoalOS public-alpha proof operating system."
-  },
-  {
     "title": "GoalOS From Loop to RSI State-Capacity Command Room",
     "url": "from-loop-to-rsi-state-capacity.html",
     "category": "Loop to RSI",
@@ -618,12 +618,6 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "GoalOS public-alpha legal, privacy, data, and token boundary."
   },
   {
-    "title": "Token Boundary \u2014 GoalOS",
-    "url": "token-boundary.html",
-    "category": "Mainnet & Token",
-    "description": "GoalOS public-alpha proof operating system."
-  },
-  {
     "title": "Ask GoalOS - Browser-local Concierge",
     "url": "ask-goalos.html",
     "category": "Mission Autopilot",
@@ -640,6 +634,30 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "url": "proof-to-action-command-room.html",
     "category": "Mission Autopilot",
     "description": "A browser-local GoalOS demonstration that turns proof into a Governed Decision State, Action Graph, Chronicle Entry, and Capability Package."
+  },
+  {
+    "title": "GoalOS Universal Interface \u2014 Tell GoalOS What You Want",
+    "url": "goalos.html",
+    "category": "Mission Autopilot",
+    "description": "A front-and-center browser-local GoalOS mission interface: type an objective, receive a mission contract, evidence plan, action graph, reviewer package, and next route."
+  },
+  {
+    "title": "GoalOS Universal Interface \u2014 Tell GoalOS What You Want",
+    "url": "mission-autopilot.html",
+    "category": "Mission Autopilot",
+    "description": "A front-and-center browser-local GoalOS mission interface: type an objective, receive a mission contract, evidence plan, action graph, reviewer package, and next route."
+  },
+  {
+    "title": "GoalOS Universal Interface \u2014 Tell GoalOS What You Want",
+    "url": "tell-goalos.html",
+    "category": "Mission Autopilot",
+    "description": "A front-and-center browser-local GoalOS mission interface: type an objective, receive a mission contract, evidence plan, action graph, reviewer package, and next route."
+  },
+  {
+    "title": "GoalOS Universal Interface \u2014 Tell GoalOS What You Want",
+    "url": "universal-mission-autopilot.html",
+    "category": "Mission Autopilot",
+    "description": "A front-and-center browser-local GoalOS mission interface: type an objective, receive a mission contract, evidence plan, action graph, reviewer package, and next route."
   },
   {
     "title": "Local Autopilot Demo \u2014 GoalOS",
@@ -660,18 +678,6 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "The standards directory defines the artifact contracts and review expectations that keep missions auditable and interoperable."
   },
   {
-    "title": "Tell GoalOS \u2014 Universal Mission Autopilot",
-    "url": "tell-goalos.html",
-    "category": "Mission Autopilot",
-    "description": "Enter a plain-language objective. GoalOS creates a mission contract, evidence docket plan, action graph, reviewer brief, and next route \u2014 browser-local, no data, no funds."
-  },
-  {
-    "title": "Tell GoalOS \u2014 Universal Mission Autopilot",
-    "url": "universal-mission-autopilot.html",
-    "category": "Mission Autopilot",
-    "description": "Enter a plain-language objective. GoalOS creates a mission contract, evidence docket plan, action graph, reviewer brief, and next route \u2014 browser-local, no data, no funds."
-  },
-  {
     "title": "Troubleshooting \u00b7 GoalOS Ascension",
     "url": "troubleshooting.html",
     "category": "Mission Autopilot",
@@ -690,10 +696,22 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "GoalOS public-alpha proof operating system."
   },
   {
+    "title": "$AGIALPHA is public-contract identification only.",
+    "url": "token-boundary.html",
+    "category": "Navigation & Docs",
+    "description": "$AGIALPHA is not available from GoalOS, this repository, the website, maintainers, demos, GitHub issues, or docs."
+  },
+  {
     "title": "Docs \u2014 GoalOS",
     "url": "docs.html",
     "category": "Navigation & Docs",
     "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "GoalOS All Pages",
+    "url": "site-map.html",
+    "category": "Navigation & Docs",
+    "description": "Every public GoalOS route grouped by purpose."
   },
   {
     "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
@@ -726,6 +744,18 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "A browser-local GoalOS public demo showing how long-running agent loops become restartable, trace-readable, evidence-bearing, and review-ready."
   },
   {
+    "title": "GoalOS Search",
+    "url": "search.html",
+    "category": "Navigation & Docs",
+    "description": "Browser-local route search across the GoalOS proof surface."
+  },
+  {
+    "title": "GoalOS Site Health",
+    "url": "site-health.html",
+    "category": "Navigation & Docs",
+    "description": "Route inventory, boundary status, and browser-local safety report."
+  },
+  {
     "title": "Pathfinder \u2014 GoalOS",
     "url": "pathfinder.html",
     "category": "Navigation & Docs",
@@ -742,24 +772,6 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "url": "research-spine.html",
     "category": "Navigation & Docs",
     "description": "AGI ALPHA \u2192 Mission OS \u2192 Proof-of-Evolution Constitution \u2192 Sovereign Machine Economy."
-  },
-  {
-    "title": "Search \u2014 GoalOS",
-    "url": "search.html",
-    "category": "Navigation & Docs",
-    "description": "GoalOS public-alpha proof operating system."
-  },
-  {
-    "title": "Site Health \u2014 GoalOS",
-    "url": "site-health.html",
-    "category": "Navigation & Docs",
-    "description": "GoalOS public-alpha proof operating system."
-  },
-  {
-    "title": "Site Map \u2014 GoalOS",
-    "url": "site-map.html",
-    "category": "Navigation & Docs",
-    "description": "GoalOS public-alpha proof operating system."
   },
   {
     "title": "Start Here \u00b7 GoalOS Ascension",
@@ -846,6 +858,12 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "description": "Measure proof quality, not just activity. No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
   },
   {
+    "title": "Proof-native. Not data-hungry. Not wallet-first.",
+    "url": "trust-boundary.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS public demos are browser-local by default and do not ask for user data, user funds, wallets, transactions, or production authority."
+  },
+  {
     "title": "Responsible Use \u2014 GoalOS",
     "url": "responsible-use.html",
     "category": "Trust & Boundary",
@@ -868,12 +886,6 @@ window.GOALOS_V22_ROUTE_INDEX = [
     "url": "terms.html",
     "category": "Trust & Boundary",
     "description": "GoalOS zero-user-data legal, privacy, compliance, and claim-boundary notices."
-  },
-  {
-    "title": "Trust Boundary \u2014 GoalOS",
-    "url": "trust-boundary.html",
-    "category": "Trust & Boundary",
-    "description": "GoalOS public-alpha proof operating system."
   },
   {
     "title": "Trust Center \u00b7 GoalOS Ascension",
