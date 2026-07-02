@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "version": "v22",
+  "objectives": [
+    "I want to understand the 48 Ethereum Mainnet contracts.",
+    "I want to run a public-safe proof mission.",
+    "I want to understand Loop to RSI governance.",
+    "I want to check privacy and token boundaries."
+  ],
+  "expected": [
+    "Mission Contract",
+    "Evidence Docket Plan",
+    "Action Graph",
+    "Reviewer Brief",
+    "Next Route"
+  ]
+}

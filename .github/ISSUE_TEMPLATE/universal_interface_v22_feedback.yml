@@ -1,0 +1,19 @@
+name: Universal Interface V22 feedback
+description: Feedback for the front-and-center GoalOS mission interface
+title: "Universal Interface V22 feedback"
+labels: [feedback, website]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Do not include personal data, secrets, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true

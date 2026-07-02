@@ -152,3 +152,10 @@ Tell GoalOS what you want. The browser-local Mission Command page converts a pla
 Tell GoalOS what you want in one public-safe text box. The browser-local autopilot generates a Mission Contract, Claims Matrix, Evidence Docket plan, Action Graph, reviewer brief, Chronicle stub, capability package stub, and recommended next route. No user data. No user funds. No wallet. No transaction. No network call. Human review required.
 
 Open: `public/tell-goalos.html`.
+
+
+## GoalOS Universal Interface V22
+
+Front-and-center mission interface: the user enters a public-safe objective in one text box; GoalOS generates a Mission Contract, Claims Matrix, Evidence Docket plan, Action Graph, reviewer package, Chronicle stub, capability package stub, and the next best route. Browser-local only: no user data, no wallet, no transaction, no network call, no production authority.
+
+Open `public/goalos.html` or the live route `/goalos.html`.

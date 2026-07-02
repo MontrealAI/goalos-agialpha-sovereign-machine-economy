@@ -1,0 +1,890 @@
+window.GOALOS_V22_ROUTE_INDEX = [
+  {
+    "title": "$AGIALPHA Control Rail",
+    "url": "agialpha-control-rail.html",
+    "category": "Additional",
+    "description": "$AGIALPHA is not the intelligence. It is the economic control rail around verified intelligence."
+  },
+  {
+    "title": "Architecture \u00b7 GoalOS",
+    "url": "architecture.html",
+    "category": "Additional",
+    "description": "The proof-to-action stack."
+  },
+  {
+    "title": "Demo Ecosystem Registry \u2014 GoalOS",
+    "url": "demo-ecosystem-registry.html",
+    "category": "Additional",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Demo Gallery \u2014 GoalOS",
+    "url": "demo-gallery.html",
+    "category": "Additional",
+    "description": "gallery"
+  },
+  {
+    "title": "Demo Launcher \u2014 GoalOS",
+    "url": "demo-launcher.html",
+    "category": "Additional",
+    "description": "autonomous additions"
+  },
+  {
+    "title": "FAQ \u00b7 GoalOS Ascension",
+    "url": "faq.html",
+    "category": "Additional",
+    "description": "This FAQ explains what the repository is, what the action does, what the website is, and what the project does not claim."
+  },
+  {
+    "title": "For New Users \u2014 GoalOS",
+    "url": "for-new-users.html",
+    "category": "Additional",
+    "description": "A visitor should know what is real, what is simulated, and where to inspect proof."
+  },
+  {
+    "title": "Glossary \u2014 GoalOS",
+    "url": "glossary.html",
+    "category": "Additional",
+    "description": "Every core term with a simple meaning and where to inspect it."
+  },
+  {
+    "title": "GoalOS Proof Console",
+    "url": "console.html",
+    "category": "Additional",
+    "description": "Interactive proof console"
+  },
+  {
+    "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+    "url": "proof-gradient-lab.html",
+    "category": "Additional",
+    "description": "GoalOS Proof Gradient Lab \u2014 an interactive browser-local demonstration of Aim, Act, Prove, Evolve."
+  },
+  {
+    "title": "Help Center \u2014 GoalOS",
+    "url": "help-center.html",
+    "category": "Additional",
+    "description": "A human-friendly index of the GoalOS public-alpha institution."
+  },
+  {
+    "title": "Launch Package \u00b7 GoalOS Ascension",
+    "url": "launch.html",
+    "category": "Additional",
+    "description": "The launch package includes repository About copy, topics, website copy, demo script, stakeholder guide, and a non-technical GitHub UI path."
+  },
+  {
+    "title": "Operator Checklist \u2014 GoalOS",
+    "url": "operator-checklist.html",
+    "category": "Additional",
+    "description": "A release and operation checklist for safe public-alpha maintenance."
+  },
+  {
+    "title": "Pilot Program \u00b7 GoalOS",
+    "url": "pilot-program.html",
+    "category": "Additional",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Product \u00b7 GoalOS",
+    "url": "product.html",
+    "category": "Additional",
+    "description": "Governed improvement, not unrestricted autonomy."
+  },
+  {
+    "title": "Proof Card Studio \u2014 GoalOS",
+    "url": "proof-card-studio.html",
+    "category": "Additional",
+    "description": "shareable proof"
+  },
+  {
+    "title": "Proof Flight Demo \u2014 GoalOS",
+    "url": "proof-flight-demo.html",
+    "category": "Additional",
+    "description": "interactive proof theatre"
+  },
+  {
+    "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+    "url": "proof-metrics-dashboard.html",
+    "category": "Additional",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Proof-of-Evolution",
+    "url": "proof-of-evolution.html",
+    "category": "Additional",
+    "description": "No eval, no propagation. No rollback, no release."
+  },
+  {
+    "title": "Release Gates \u00b7 GoalOS Ascension",
+    "url": "release-gates.html",
+    "category": "Additional",
+    "description": "Release gates protect the public repository by checking site quality, claim boundaries, schema validity, proof reports, and rollback readiness."
+  },
+  {
+    "title": "Repository Map \u00b7 GoalOS",
+    "url": "repository-map.html",
+    "category": "Additional",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Schema Registry \u00b7 GoalOS Ascension",
+    "url": "schema-registry.html",
+    "category": "Additional",
+    "description": "JSON schemas make the proof surface machine-readable, testable, and automation-friendly."
+  },
+  {
+    "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+    "url": "sovereign-experience-stream.html",
+    "category": "Additional",
+    "description": "Sovereign Experience Stream Lab"
+  },
+  {
+    "title": "Try GoalOS \u2014 Browser-local Demo",
+    "url": "quick-tour.html",
+    "category": "Additional",
+    "description": "This guided demo is local, simulated, and public-safe: no wallet, no transaction, no external action."
+  },
+  {
+    "title": "AGI ALPHA Thesis",
+    "url": "agi-alpha-thesis.html",
+    "category": "Capability & Economy",
+    "description": "Verified work becomes reusable capability and productive capacity."
+  },
+  {
+    "title": "AGI Alpha Node v0",
+    "url": "agi-alpha-node-v0.html",
+    "category": "Capability & Economy",
+    "description": "Sovereign Node Theatre"
+  },
+  {
+    "title": "AGI Jobs v0 (v2)",
+    "url": "agi-jobs-v0-v2.html",
+    "category": "Capability & Economy",
+    "description": "Proof-settled machine work"
+  },
+  {
+    "title": "Agent Constellation Demo \u2014 GoalOS",
+    "url": "agent-constellation-demo.html",
+    "category": "Capability & Economy",
+    "description": "multi-agent institution"
+  },
+  {
+    "title": "Agent Foundry \u00b7 GoalOS Ascension",
+    "url": "agents.html",
+    "category": "Capability & Economy",
+    "description": "The META-AGENTIC \u03b1\u2011AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance."
+  },
+  {
+    "title": "Capability Stack \u00b7 GoalOS",
+    "url": "capability-stack.html",
+    "category": "Capability & Economy",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Coordination Console",
+    "url": "coordination-console.html",
+    "category": "Capability & Economy",
+    "description": "Coordinate agents through bounded jobs, proof bundles, verifier mesh, Chronicle memory, settlement, and reuse."
+  },
+  {
+    "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+    "url": "capability-compounding-lab.html",
+    "category": "Capability & Economy",
+    "description": "GoalOS Capability Compounding Lab \u2014 a browser-local public demonstration showing how verified work becomes reusable capability."
+  },
+  {
+    "title": "GoalOS Capability Parity",
+    "url": "capability-parity.html",
+    "category": "Capability & Economy",
+    "description": "Implementation parity / public alpha"
+  },
+  {
+    "title": "GoalOS Document Series",
+    "url": "document-series.html",
+    "category": "Capability & Economy",
+    "description": "What we have accomplished: the transformation of META\u2011AGENTIC \u03b1\u2011AGI \u00d7 AGI Alpha Node \u00d7 AGI Jobs into GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy."
+  },
+  {
+    "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+    "url": "multi-agent-institution.html",
+    "category": "Capability & Economy",
+    "description": "GoalOS Multi-Agent Institution \u2014 browser-local interactive proof-governed coordination experience."
+  },
+  {
+    "title": "GoalOS Proof-Settlement Chronicle Lab",
+    "url": "proof-settlement-chronicle-lab.html",
+    "category": "Capability & Economy",
+    "description": "Browser-local GoalOS proof-settlement lab: No ProofBundle, no settlement."
+  },
+  {
+    "title": "Holy Grail Candidate",
+    "url": "holy-grail-candidate.html",
+    "category": "Capability & Economy",
+    "description": "The rare thing is autonomous work that can become verified experience, reusable capability, settlement, memory, and safer compounding intelligence."
+  },
+  {
+    "title": "META-AGENTIC \u03b1-AGI",
+    "url": "meta-agentic-alpha-agi.html",
+    "category": "Capability & Economy",
+    "description": "Institution Foundry"
+  },
+  {
+    "title": "Source Lineage \u00b7 GoalOS Ascension",
+    "url": "source-lineage.html",
+    "category": "Capability & Economy",
+    "description": "The repository integrates the previous META-AGENTIC \u03b1\u2011AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline."
+  },
+  {
+    "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+    "url": "jobs.html",
+    "category": "Evidence & Review",
+    "description": "The AGI Jobs layer turns missions into proof jobs: concrete units of work with owners, tools, traces, acceptance criteria, and settlement requirements."
+  },
+  {
+    "title": "Adoption Playbook \u00b7 GoalOS Ascension",
+    "url": "adoption.html",
+    "category": "Evidence & Review",
+    "description": "Adoption should begin with bounded, low-risk proof missions and expand only after evidence quality, operator experience, and review practices are strong."
+  },
+  {
+    "title": "Commercial Evidence \u00b7 GoalOS",
+    "url": "commercial-evidence.html",
+    "category": "Evidence & Review",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Data Room \u00b7 GoalOS Ascension",
+    "url": "data-room.html",
+    "category": "Evidence & Review",
+    "description": "The repository includes a data-room index for reviewers who need fast access to architecture, governance, security, claim boundaries, QA reports, standards, and pilot design."
+  },
+  {
+    "title": "Evaluation Program",
+    "url": "evaluation-program.html",
+    "category": "Evidence & Review",
+    "description": "Real tasks, baselines, ProofBundles, replay, validator reports, cost/risk ledgers, delayed outcomes, independent reproduction."
+  },
+  {
+    "title": "Evaluation \u00b7 GoalOS Ascension",
+    "url": "evaluation.html",
+    "category": "Evidence & Review",
+    "description": "The evaluation program defines how missions are compared against baselines, reviewed by validators, tested with delayed outcomes, and documented for reproduction."
+  },
+  {
+    "title": "Evidence Docket Builder \u2014 GoalOS",
+    "url": "docket-builder.html",
+    "category": "Evidence & Review",
+    "description": "public-safe builder"
+  },
+  {
+    "title": "Evidence Layer \u00b7 GoalOS Ascension",
+    "url": "evidence.html",
+    "category": "Evidence & Review",
+    "description": "Evidence Dockets are the core institutional unit: claims, source provenance, contradiction registers, tool traces, verifier reports, costs, risks, and outcomes."
+  },
+  {
+    "title": "Evidence Room \u00b7 GoalOS Ascension",
+    "url": "evidence-room.html",
+    "category": "Evidence & Review",
+    "description": "The evidence room indexes artifacts, source provenance, confidentiality, public claim permission, and review status."
+  },
+  {
+    "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+    "url": "evidence-to-scale.html",
+    "category": "Evidence & Review",
+    "description": "The evidence-to-scale layer distinguishes vision from counted proof and blocks strong public claims until source-verifiable artifacts exist."
+  },
+  {
+    "title": "Falsification Box \u2014 GoalOS",
+    "url": "falsification-box.html",
+    "category": "Evidence & Review",
+    "description": "What would make GoalOS Proof Run 001 fail."
+  },
+  {
+    "title": "For Reviewers \u2014 GoalOS",
+    "url": "for-reviewers.html",
+    "category": "Evidence & Review",
+    "description": "A reviewer checks evidence, replay, claim boundaries, cost/risk ledgers, and unsupported claims."
+  },
+  {
+    "title": "For Reviewers \u2014 GoalOS",
+    "url": "reviewer-path.html",
+    "category": "Evidence & Review",
+    "description": "A reviewer checks evidence, replay, claim boundaries, cost/risk ledgers, and unsupported claims."
+  },
+  {
+    "title": "Frontier Release Case Study",
+    "url": "frontier-release-case-study.html",
+    "category": "Evidence & Review",
+    "description": "A public-source, evidence-bounded case study for frontier model release governance."
+  },
+  {
+    "title": "Frontier Release Doctrine",
+    "url": "frontier-release-doctrine.html",
+    "category": "Evidence & Review",
+    "description": "Model release disputes become Evidence Dockets, access matrices, rollback conditions, validator seats, and human authority."
+  },
+  {
+    "title": "Frontier Release Room",
+    "url": "frontier-release-room.html",
+    "category": "Evidence & Review",
+    "description": "Evidence-governed frontier AI release decision room"
+  },
+  {
+    "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
+    "url": "action-reason-trace-contract.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS demo showing how external actions become governable only when every action carries reason, scope, observation, validation, rollback, and evidence."
+  },
+  {
+    "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+    "url": "evidence-docket-theatre.html",
+    "category": "Evidence & Review",
+    "description": "GoalOS Evidence Docket Theatre: convert claims into inspectable proof rooms, governed decision states, and reusable capability packages \u2014 browser-local, no user data, no user funds."
+  },
+  {
+    "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+    "url": "evolution-ledger-control-room.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS demo showing how private intelligence stays private while public proof commitments become challengeable institutional memory."
+  },
+  {
+    "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+    "url": "external-reviewer-replay-room.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS review room for replay, validator reports, dissent, claim boundaries, and Evidence Docket inspection. No user data, no funds, no wallet, no network call."
+  },
+  {
+    "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+    "url": "falsification-gauntlet.html",
+    "category": "Evidence & Review",
+    "description": "Browser-local public demo showing that strong claims survive baselines, replay, safety, privacy, and human review."
+  },
+  {
+    "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+    "url": "institutional-deployment-wedge.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS demo showing how one repeatable workflow earns the right to scale through evidence, selection gates, canary monitoring, and rollbackable expansion."
+  },
+  {
+    "title": "GoalOS Launch Narrative",
+    "url": "launch-narrative.html",
+    "category": "Evidence & Review",
+    "description": "The language, sequence, validator invitation, and claim boundary for public launch."
+  },
+  {
+    "title": "GoalOS Objective Command Center \u2014 Tell GoalOS What You Want",
+    "url": "mission-command-center.html",
+    "category": "Evidence & Review",
+    "description": "Enter a plain-language objective. GoalOS converts it into a Mission Contract, Evidence Docket plan, route map, governed decision state, and downloadable proof artifacts. Browser-local. No data. No wallet."
+  },
+  {
+    "title": "GoalOS Objective Command Center \u2014 Tell GoalOS What You Want",
+    "url": "objective-command-center.html",
+    "category": "Evidence & Review",
+    "description": "Enter a plain-language objective. GoalOS converts it into a Mission Contract, Evidence Docket plan, route map, governed decision state, and downloadable proof artifacts. Browser-local. No data. No wallet."
+  },
+  {
+    "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+    "url": "open-ended-work-engine.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local public demo showing how GoalOS generates mission candidates, validators, proof templates, and capability packages while admitting only replayable, risk-bounded, proof-ready descendants."
+  },
+  {
+    "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+    "url": "proof-experience-atlas.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local guided map of the best GoalOS public demos: from multi-agent institution to Proof Run 001."
+  },
+  {
+    "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+    "url": "proof-mission-control.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local operating board that turns public-safe proof missions into Mission Contracts, Evidence Docket plans, validator packets, and Proof Run 001 readiness."
+  },
+  {
+    "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+    "url": "proof-mission-forge.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS mission forge that turns a public-safe objective into a Mission Contract, Claims Matrix, Evidence Docket plan, validator packet, and GitHub-ready issue draft."
+  },
+  {
+    "title": "GoalOS Proof Run 001 Execution Room",
+    "url": "proof-run-001-execution-room.html",
+    "category": "Evidence & Review",
+    "description": "GoalOS Proof Run 001 Execution Room: the public-safe bridge from architecture to the first real Evidence Docket."
+  },
+  {
+    "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+    "url": "proof-carrying-artifact-foundry.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local public demo showing how raw AI output becomes a proof-carrying artifact with evidence, rollback, scope, selection, and review gates."
+  },
+  {
+    "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+    "url": "proof-ledger.html",
+    "category": "Evidence & Review",
+    "description": "Browser-local public proof ledger for GoalOS evidence dockets, reports, demos, and review paths."
+  },
+  {
+    "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+    "url": "real-task-benchmark-bridge.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local public demo showing how GoalOS turns public-alpha architecture into real-task benchmark evidence: task families, baselines, proof bundles, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review."
+  },
+  {
+    "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+    "url": "sovereign-experience-stream-lab.html",
+    "category": "Evidence & Review",
+    "description": "Browser-local GoalOS demo: proof becomes governed experience for memory, reward ledgers, world models, temporal options, and router updates."
+  },
+  {
+    "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+    "url": "validator-council-arena.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS demo showing commit-reveal validation, quorum, dissent, replay, challenge windows, and public/private proof boundaries."
+  },
+  {
+    "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+    "url": "value-realization-control-room.html",
+    "category": "Evidence & Review",
+    "description": "A browser-local GoalOS public demo showing how accepted evidence becomes value realization, capacity allocation, and harder future missions without user data, funds, wallets, or network calls."
+  },
+  {
+    "title": "Governance \u00b7 GoalOS Ascension",
+    "url": "governance.html",
+    "category": "Evidence & Review",
+    "description": "Governance turns proof into controlled decisions: accept, reject, block, defer, request more evidence, release internally, or publish externally."
+  },
+  {
+    "title": "Independent Validation \u00b7 GoalOS Ascension",
+    "url": "independent-validation.html",
+    "category": "Evidence & Review",
+    "description": "The validation protocol gives external reviewers a Mission Contract, Claims Matrix, Evidence Docket, Risk Ledger, replay notes, and acceptance criteria."
+  },
+  {
+    "title": "Mission OS \u00b7 GoalOS Ascension",
+    "url": "mission-os.html",
+    "category": "Evidence & Review",
+    "description": "Mission OS converts a high-stakes objective into a bounded contract, evidence plan, validation process, decision state, and reusable capability."
+  },
+  {
+    "title": "Node Runtime \u00b7 GoalOS Ascension",
+    "url": "node.html",
+    "category": "Evidence & Review",
+    "description": "The Node Runtime maps AGI Alpha Node v0 into a GoalOS operator plane: identity, validator gating, pause/resume, telemetry, release state, and rollback authority."
+  },
+  {
+    "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+    "url": "operators.html",
+    "category": "Evidence & Review",
+    "description": "The operator experience is built around visible mission status, evidence completeness, validation state, risk posture, and publication readiness."
+  },
+  {
+    "title": "Paper to Product",
+    "url": "paper-to-product.html",
+    "category": "Evidence & Review",
+    "description": "Every major product surface maps back to paper doctrine, schema, Evidence Docket, validation report, and claim boundary."
+  },
+  {
+    "title": "Pilot Proof \u00b7 GoalOS Ascension",
+    "url": "pilot-proof.html",
+    "category": "Evidence & Review",
+    "description": "Pilot evidence requires a bounded mission, success criteria, baseline, execution record, validator decision, and follow-up status."
+  },
+  {
+    "title": "Proof Mission Slots \u2014 GoalOS",
+    "url": "proof-mission-slots.html",
+    "category": "Evidence & Review",
+    "description": "A pilot path for public-safe, bounded objectives that can become Evidence Dockets."
+  },
+  {
+    "title": "Proof Run 001",
+    "url": "proof-run-001.html",
+    "category": "Evidence & Review",
+    "description": "Mission \u2192 Work \u2192 Proof \u2192 Validation \u2192 Verified Experience \u2192 Chronicle \u2192 Reuse \u2192 Settlement \u2192 Harder Mission."
+  },
+  {
+    "title": "Proof Run 001 Live \u2014 GoalOS",
+    "url": "proof-run-001-live.html",
+    "category": "Evidence & Review",
+    "description": "A visible status page for the first real bounded mission and public Evidence Docket."
+  },
+  {
+    "title": "Proof Run 001 \u2014 GoalOS",
+    "url": "proof-run-001-docket.html",
+    "category": "Evidence & Review",
+    "description": "GoalOS AGIALPHA Ascension public-alpha proof operating system."
+  },
+  {
+    "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+    "url": "public-metrics-ledger.html",
+    "category": "Evidence & Review",
+    "description": "The public metrics ledger exposes proof velocity and evidence completeness while keeping sensitive records private."
+  },
+  {
+    "title": "Public Proof Ledger \u00b7 GoalOS",
+    "url": "public-proof-ledger.html",
+    "category": "Evidence & Review",
+    "description": "Public Proof Ledger"
+  },
+  {
+    "title": "Roadmap \u00b7 GoalOS Ascension",
+    "url": "roadmap.html",
+    "category": "Evidence & Review",
+    "description": "The roadmap moves from repository launch to pilot mission packs, validator integrations, proof APIs, operator console, trust center, and production hardening."
+  },
+  {
+    "title": "Run Locally \u2014 GoalOS",
+    "url": "run-locally.html",
+    "category": "Evidence & Review",
+    "description": "A minimal local review path for developers and technical reviewers."
+  },
+  {
+    "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+    "url": "strategic-evidence-scorecard.html",
+    "category": "Evidence & Review",
+    "description": "The scorecard separates institutional infrastructure readiness from external market proof and recommends the public statement that evidence can carry."
+  },
+  {
+    "title": "Trust Center",
+    "url": "trust.html",
+    "category": "Evidence & Review",
+    "description": "Trust comes from bounded claims, evidence, validators, risk ledgers, human authority, and claim boundaries."
+  },
+  {
+    "title": "Validator Room \u2014 GoalOS",
+    "url": "validator-room.html",
+    "category": "Evidence & Review",
+    "description": "Validators inspect dockets, replay paths, claim boundaries, risk ledgers, cost ledgers, and unsupported claims."
+  },
+  {
+    "title": "Validator Seats",
+    "url": "validator-seats.html",
+    "category": "Evidence & Review",
+    "description": "Open seats for Evidence Docket, replay, claim-boundary, cost/risk, and frontier-governance review."
+  },
+  {
+    "title": "GoalOS AGIALPHA Ascension \u2014 Immersive Command Center V16",
+    "url": "index.html",
+    "category": "Loop to RSI",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+    "url": "from-loop-to-rsi-state-capacity.html",
+    "category": "Loop to RSI",
+    "description": "A browser-local public demo showing how GoalOS turns long-running loops into RSI governance: replay, evidence, baselines, Move-37 dossiers, council review, and governed decision states."
+  },
+  {
+    "title": "Proof Economy \u00b7 GoalOS Ascension",
+    "url": "proof-economy.html",
+    "category": "Loop to RSI",
+    "description": "The Sovereign Machine Economy is modeled as a proof-settled loop: work only becomes reusable economic capacity after evidence and validation."
+  },
+  {
+    "title": "$AGIALPHA Public-Market Boundary",
+    "url": "agialpha-token-boundary.html",
+    "category": "Mainnet & Token",
+    "description": "GoalOS public-alpha legal, privacy, data, and token boundary."
+  },
+  {
+    "title": "$AGIALPHA Token Boundary",
+    "url": "token.html",
+    "category": "Mainnet & Token",
+    "description": "GoalOS public-alpha legal, privacy, data, and token boundary."
+  },
+  {
+    "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+    "url": "contract-academy.html",
+    "category": "Mainnet & Token",
+    "description": "Pass 1: what exists. Pass 2: what each rail does. Pass 3: how to review it without touching a wallet or sending a transaction."
+  },
+  {
+    "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+    "url": "mainnet-contract-atlas.html",
+    "category": "Mainnet & Token",
+    "description": "Browser-local guided atlas for the 48 GoalOS-created Ethereum Mainnet contracts and canonical external AGIALPHA boundary."
+  },
+  {
+    "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+    "url": "mainnet-proof-rail.html",
+    "category": "Mainnet & Token",
+    "description": "A plain-language journey through how the 48 GoalOS-created contracts map to the proof-bearing machine economy: work is bounded, evidence is registered, validators attest, selections are gated, rollout is controlled, roll"
+  },
+  {
+    "title": "Token & Investment Boundary",
+    "url": "investment-token-boundary.html",
+    "category": "Mainnet & Token",
+    "description": "GoalOS public-alpha legal, privacy, data, and token boundary."
+  },
+  {
+    "title": "Token Boundary \u2014 GoalOS",
+    "url": "token-boundary.html",
+    "category": "Mainnet & Token",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Ask GoalOS - Browser-local Concierge",
+    "url": "ask-goalos.html",
+    "category": "Mission Autopilot",
+    "description": "GoalOS Concierge"
+  },
+  {
+    "title": "GoalOS Historical Command Center",
+    "url": "historical-command-center.html",
+    "category": "Mission Autopilot",
+    "description": "Proof-governed operating regime for autonomous AI work"
+  },
+  {
+    "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+    "url": "proof-to-action-command-room.html",
+    "category": "Mission Autopilot",
+    "description": "A browser-local GoalOS demonstration that turns proof into a Governed Decision State, Action Graph, Chronicle Entry, and Capability Package."
+  },
+  {
+    "title": "Local Autopilot Demo \u2014 GoalOS",
+    "url": "local-autopilot-demo.html",
+    "category": "Mission Autopilot",
+    "description": "run locally"
+  },
+  {
+    "title": "Mission OS Canon",
+    "url": "mission-os-canon.html",
+    "category": "Mission Autopilot",
+    "description": "Objective \u2192 Mission Contract \u2192 Proof \u2192 Governed Decision State \u2192 Action \u2192 Capability."
+  },
+  {
+    "title": "Standards \u00b7 GoalOS Ascension",
+    "url": "standards.html",
+    "category": "Mission Autopilot",
+    "description": "The standards directory defines the artifact contracts and review expectations that keep missions auditable and interoperable."
+  },
+  {
+    "title": "Tell GoalOS \u2014 Universal Mission Autopilot",
+    "url": "tell-goalos.html",
+    "category": "Mission Autopilot",
+    "description": "Enter a plain-language objective. GoalOS creates a mission contract, evidence docket plan, action graph, reviewer brief, and next route \u2014 browser-local, no data, no funds."
+  },
+  {
+    "title": "Tell GoalOS \u2014 Universal Mission Autopilot",
+    "url": "universal-mission-autopilot.html",
+    "category": "Mission Autopilot",
+    "description": "Enter a plain-language objective. GoalOS creates a mission contract, evidence docket plan, action graph, reviewer brief, and next route \u2014 browser-local, no data, no funds."
+  },
+  {
+    "title": "Troubleshooting \u00b7 GoalOS Ascension",
+    "url": "troubleshooting.html",
+    "category": "Mission Autopilot",
+    "description": "Most launch issues are settings issues: Pages source, workflow permissions, missing workflow_dispatch, or a typo in the workflow file path."
+  },
+  {
+    "title": "Try GoalOS \u2014 Browser-local Demo",
+    "url": "try-goalos.html",
+    "category": "Mission Autopilot",
+    "description": "This guided demo is local, simulated, and public-safe: no wallet, no transaction, no external action."
+  },
+  {
+    "title": "Website Autopilot \u00b7 GoalOS",
+    "url": "website-autopilot.html",
+    "category": "Mission Autopilot",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Docs \u2014 GoalOS",
+    "url": "docs.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+    "url": "from-loop-to-rsi-governance.html",
+    "category": "Navigation & Docs",
+    "description": "A browser-local GoalOS demonstration showing how a restartable loop becomes deterministic RSI governance: TARGET \u2192 EMIT \u2192 FILTER \u2192 ATLAS \u2192 TEST-PLAN \u2192 EVAL \u2192 INSERT \u2192 PROMOTE."
+  },
+  {
+    "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+    "url": "from-loop-to-rsi-sovereign-console.html",
+    "category": "Navigation & Docs",
+    "description": "A browser-local GoalOS public demo showing how restartable loops become deterministic RSI governance: schema-bound artifacts, ECI, baselines, Move-37 dossiers, and Architect/Validator Council review."
+  },
+  {
+    "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+    "url": "loop-bottleneck-observatory.html",
+    "category": "Navigation & Docs",
+    "description": "A browser-local public demo showing how GoalOS turns long-running agent loops into contracts, disk state, traces, restarts, bottleneck reports, Evidence Dockets, and review-ready decisions."
+  },
+  {
+    "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+    "url": "loop-contract-lab.html",
+    "category": "Navigation & Docs",
+    "description": "A browser-local public demo showing how long-running agent loops become proof-bearing GoalOS institutions: role contracts, disk state, restart, traces, bottleneck detection, and Evidence Dockets."
+  },
+  {
+    "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+    "url": "loop-flight-recorder.html",
+    "category": "Navigation & Docs",
+    "description": "A browser-local GoalOS public demo showing how long-running agent loops become restartable, trace-readable, evidence-bearing, and review-ready."
+  },
+  {
+    "title": "Pathfinder \u2014 GoalOS",
+    "url": "pathfinder.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Proof Velocity \u00b7 GoalOS Ascension",
+    "url": "proof-velocity.html",
+    "category": "Navigation & Docs",
+    "description": "Proof velocity measures the time from mission start to Evidence Docket, validation, settlement, Chronicle entry, and reuse."
+  },
+  {
+    "title": "Research Spine",
+    "url": "research-spine.html",
+    "category": "Navigation & Docs",
+    "description": "AGI ALPHA \u2192 Mission OS \u2192 Proof-of-Evolution Constitution \u2192 Sovereign Machine Economy."
+  },
+  {
+    "title": "Search \u2014 GoalOS",
+    "url": "search.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Site Health \u2014 GoalOS",
+    "url": "site-health.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Site Map \u2014 GoalOS",
+    "url": "site-map.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Start Here \u00b7 GoalOS Ascension",
+    "url": "start.html",
+    "category": "Navigation & Docs",
+    "description": "No terminal is required. This page is the practical path for creating the repository, running the autonomous action, and publishing the website."
+  },
+  {
+    "title": "Start Here \u2014 GoalOS",
+    "url": "start-here.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Website Operating System \u2014 GoalOS",
+    "url": "website-operating-system.html",
+    "category": "Navigation & Docs",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "GoalOS 404 \u2014 Route not found",
+    "url": "404.html",
+    "category": "System",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Claim Boundary \u00b7 GoalOS",
+    "url": "claim-boundary.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Data Boundary \u2014 GoalOS",
+    "url": "data-boundary.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Demo Safety Boundary \u2014 GoalOS",
+    "url": "demo-safety.html",
+    "category": "Trust & Boundary",
+    "description": "safety boundary"
+  },
+  {
+    "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+    "url": "enterprise.html",
+    "category": "Trust & Boundary",
+    "description": "The repository includes procurement, compliance, risk, board, data-room, and operating-metric surfaces so serious organizations can evaluate it."
+  },
+  {
+    "title": "Executive Brief \u00b7 GoalOS Ascension",
+    "url": "executive-brief.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS is a disciplined way to convert AI output into reviewable work, reviewable work into trusted decisions, and trusted decisions into reusable capability."
+  },
+  {
+    "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+    "url": "proof-backed-upgrade-rights-room.html",
+    "category": "Trust & Boundary",
+    "description": "A browser-local public demo showing how proof earns limited, rollbackable upgrade rights in GoalOS. No user data. No wallet. No transaction."
+  },
+  {
+    "title": "Legal Shield \u2014 GoalOS",
+    "url": "legal.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS zero-user-data legal, privacy, compliance, and claim-boundary notices."
+  },
+  {
+    "title": "No Data / No Funds \u2014 GoalOS",
+    "url": "no-data-no-funds.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Privacy \u2014 GoalOS",
+    "url": "privacy.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+    "url": "metrics.html",
+    "category": "Trust & Boundary",
+    "description": "Measure proof quality, not just activity. No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+  },
+  {
+    "title": "Responsible Use \u2014 GoalOS",
+    "url": "responsible-use.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS zero-user-data legal, privacy, compliance, and claim-boundary notices."
+  },
+  {
+    "title": "Security Boundary \u2014 GoalOS",
+    "url": "security-boundary.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS zero-user-data legal, privacy, compliance, and claim-boundary notices."
+  },
+  {
+    "title": "Security \u00b7 GoalOS Ascension",
+    "url": "security.html",
+    "category": "Trust & Boundary",
+    "description": "The repository avoids implying production security. It provides a public security posture, responsible disclosure process, secrets guidance, and review expectations."
+  },
+  {
+    "title": "Terms of Use \u2014 GoalOS",
+    "url": "terms.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS zero-user-data legal, privacy, compliance, and claim-boundary notices."
+  },
+  {
+    "title": "Trust Boundary \u2014 GoalOS",
+    "url": "trust-boundary.html",
+    "category": "Trust & Boundary",
+    "description": "GoalOS public-alpha proof operating system."
+  },
+  {
+    "title": "Trust Center \u00b7 GoalOS Ascension",
+    "url": "trust-center.html",
+    "category": "Trust & Boundary",
+    "description": "The Trust Center organizes the public proof, standards, claim boundary, QA reports, and operator guidance that make the repository credible."
+  },
+  {
+    "title": "What GoalOS Does \u2014 GoalOS",
+    "url": "what-goalos-does.html",
+    "category": "Trust & Boundary",
+    "description": "A clear capability and boundary map for non-technical users."
+  }
+];

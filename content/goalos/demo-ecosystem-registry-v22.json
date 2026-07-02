@@ -1,0 +1,30 @@
+{
+  "version": "v22",
+  "demos": [
+    {
+      "name": "GoalOS Universal Interface",
+      "url": "goalos.html",
+      "category": "Mission Autopilot",
+      "expected_inputs": [
+        "plain-language public-safe objective"
+      ],
+      "generated_outputs": [
+        "Mission Contract JSON",
+        "Claims Matrix",
+        "Evidence Docket Plan",
+        "Action Graph CSV",
+        "Reviewer Brief",
+        "Chronicle Stub",
+        "Capability Package Stub",
+        "Next Route"
+      ],
+      "proof_gates": [
+        "boundary check",
+        "route integrity",
+        "evidence plan",
+        "human review"
+      ],
+      "next_state": "MISSION_REVIEW_READY"
+    }
+  ]
+}
