@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "version": "v23",
+  "public_pages": 152,
+  "known_routes_restored": 0,
+  "pages_injected": 135,
+  "broken_internal_html_links": [],
+  "forbidden_browser_api_hits": [],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract identification only. Not available from GoalOS. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.",
+  "generated_at": "2026-07-02T21:35:59.056174Z"
+}

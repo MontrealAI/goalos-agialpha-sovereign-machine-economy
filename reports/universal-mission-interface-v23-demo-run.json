@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "missing": [],
+  "objectives_tested": [
+    "I want to understand the 48 Ethereum Mainnet contracts.",
+    "I want to run a public-safe proof mission.",
+    "I want to understand Loop to RSI governance.",
+    "I want to check privacy, token, and data boundaries."
+  ],
+  "generated_at": "2026-07-02T21:35:59.106984Z"
+}

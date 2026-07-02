@@ -1,0 +1,12 @@
+name: Universal Mission Interface feedback
+description: Feedback on the GoalOS one-box mission interface.
+title: "Universal Mission Interface feedback: "
+labels: [feedback, website, mission-os]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Do not submit personal, customer, confidential, credential, wallet, private-key, seed-phrase, payment, proprietary, trade-secret, regulated data, or user funds.
+    validations:
+      required: true

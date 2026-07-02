@@ -1,0 +1,10 @@
+{
+  "schema": "goalos.evidence_docket.v23",
+  "status": "passed",
+  "claim": "Universal Mission Interface generates browser-local mission packages and routes objectives to public proof paths.",
+  "reports": [
+    "reports/universal-mission-interface-v23-qa.json"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract identification only. Not available from GoalOS. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice."
+}

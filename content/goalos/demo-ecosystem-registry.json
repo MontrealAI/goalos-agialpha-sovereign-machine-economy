@@ -1,1997 +1,2136 @@
 {
-  "version": "v16",
-  "demos": [
+  "version": "v23",
+  "routes": [
     {
-      "name": "GoalOS Mainnet Contract Atlas V17",
-      "canonicalUrl": "mainnet-contract-atlas.html",
-      "oneLine": "Deep browser-local guide to the 48 GoalOS-created Ethereum Mainnet contracts.",
-      "workflowCategory": "mainnet-contract-education",
-      "expectedInputs": [
-        "public-safe route interaction only"
-      ],
-      "generatedOutputs": [
-        "contract atlas JSON",
-        "contract CSV",
-        "reviewer brief"
-      ],
-      "proofGates": [
-        "no wallet",
-        "no transaction",
-        "no network call",
-        "token boundary",
-        "human review required"
-      ],
-      "nextState": "MAINNET_CONTRACT_ATLAS_REVIEW_READY"
+      "href": "404.html",
+      "title": "GoalOS 404 \u2014 Route not found",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS 404 \u2014 Route not found as part of the complete GoalOS public proof surface.",
+      "system": true
     },
     {
-      "path": "agialpha-control-rail.html",
-      "title": "$AGIALPHA Control Rail",
-      "category": "Additional",
-      "description": "Open $AGIALPHA Control Rail as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "agi-alpha-thesis.html",
-      "title": "AGI ALPHA Thesis",
-      "category": "Additional",
-      "description": "Open AGI ALPHA Thesis as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "agi-jobs-v0-v2.html",
-      "title": "AGI Jobs v0 (v2)",
-      "category": "Additional",
-      "description": "Open AGI Jobs v0 (v2) as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "architecture.html",
-      "title": "Architecture \u00b7 GoalOS",
-      "category": "Additional",
-      "description": "Open Architecture \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "demo-gallery.html",
-      "title": "Demo Gallery \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Demo Gallery \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "demo-launcher.html",
-      "title": "Demo Launcher \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Demo Launcher \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "enterprise.html",
-      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Enterprise Readiness \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "evaluation-program.html",
-      "title": "Evaluation Program",
-      "category": "Additional",
-      "description": "Open Evaluation Program as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "evaluation.html",
-      "title": "Evaluation \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Evaluation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "executive-brief.html",
-      "title": "Executive Brief \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Executive Brief \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "for-new-users.html",
-      "title": "For New Users \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open For New Users \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "action-reason-trace-contract.html",
+      "href": "action-reason-trace-contract.html",
       "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
-      "category": "Additional",
+      "category": "Mission Autopilot",
       "description": "Open GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "document-series.html",
-      "title": "GoalOS Document Series",
-      "category": "Additional",
-      "description": "Open GoalOS Document Series as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "historical-command-center.html",
-      "title": "GoalOS Historical Command Center",
-      "category": "Additional",
-      "description": "Open GoalOS Historical Command Center as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "institutional-deployment-wedge.html",
-      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
-      "category": "Additional",
-      "description": "Open GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "launch-narrative.html",
-      "title": "GoalOS Launch Narrative",
-      "category": "Additional",
-      "description": "Open GoalOS Launch Narrative as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "governance.html",
-      "title": "Governance \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Governance \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "holy-grail-candidate.html",
-      "title": "Holy Grail Candidate",
-      "category": "Additional",
-      "description": "Open Holy Grail Candidate as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "independent-validation.html",
-      "title": "Independent Validation \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Independent Validation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "launch.html",
-      "title": "Launch Package \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Launch Package \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "operator-checklist.html",
-      "title": "Operator Checklist \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Operator Checklist \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "paper-to-product.html",
-      "title": "Paper to Product",
-      "category": "Additional",
-      "description": "Open Paper to Product as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "product.html",
-      "title": "Product \u00b7 GoalOS",
-      "category": "Additional",
-      "description": "Open Product \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "responsible-use.html",
-      "title": "Responsible Use \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Responsible Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "source-lineage.html",
-      "title": "Source Lineage \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Source Lineage \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "sovereign-experience-stream.html",
-      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
-      "category": "Additional",
-      "description": "Open Sovereign Experience Stream Lab \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "standards.html",
-      "title": "Standards \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Standards \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "terms.html",
-      "title": "Terms of Use \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Terms of Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "quick-tour.html",
-      "title": "Try GoalOS \u2014 Browser-local Demo",
-      "category": "Additional",
-      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "try-goalos.html",
-      "title": "Try GoalOS \u2014 Browser-local Demo",
-      "category": "Additional",
-      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "what-goalos-does.html",
-      "title": "What GoalOS Does \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open What GoalOS Does \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "adoption.html",
+      "href": "adoption.html",
       "title": "Adoption Playbook \u00b7 GoalOS Ascension",
-      "category": "Capability and Economy",
+      "category": "Mission Autopilot",
       "description": "Open Adoption Playbook \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "capability-stack.html",
-      "title": "Capability Stack \u00b7 GoalOS",
-      "category": "Capability and Economy",
-      "description": "The proof-settled operating model: launch, mission engine, proof jobs, validation, runtime, governance.",
-      "system": false
-    },
-    {
-      "path": "capability-parity.html",
-      "title": "GoalOS Capability Parity",
-      "category": "Capability and Economy",
-      "description": "See how verified work becomes reusable capability, value ledger entries, and governed capacity.",
-      "system": false
-    },
-    {
-      "path": "jobs.html",
-      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Open AGI Jobs Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "commercial-evidence.html",
-      "title": "Commercial Evidence \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Commercial signals counted carefully, with private details protected by default.",
-      "system": false
-    },
-    {
-      "path": "docket-builder.html",
-      "title": "Evidence Docket Builder \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evidence.html",
-      "title": "Evidence Layer \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evidence-room.html",
-      "title": "Evidence Room \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evidence-to-scale.html",
-      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "falsification-box.html",
-      "title": "Falsification Box \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open Falsification Box \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "for-reviewers.html",
-      "title": "For Reviewers \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "reviewer-path.html",
-      "title": "For Reviewers \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "evidence-docket-theatre.html",
-      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evolution-ledger-control-room.html",
-      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "external-reviewer-replay-room.html",
-      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
-      "category": "Evidence and Review",
-      "description": "Open GoalOS External Reviewer Replay Room \u2014 Independent Review Path as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "falsification-gauntlet.html",
-      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
-      "category": "Evidence and Review",
-      "description": "Open GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "console.html",
-      "title": "GoalOS Proof Console",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-experience-atlas.html",
-      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-gradient-lab.html",
-      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-mission-control.html",
-      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-mission-forge.html",
-      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001-execution-room.html",
-      "title": "GoalOS Proof Run 001 Execution Room",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-backed-upgrade-rights-room.html",
-      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-carrying-artifact-foundry.html",
-      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-settlement-chronicle-lab.html",
-      "title": "GoalOS Proof-Settlement Chronicle Lab",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-to-action-command-room.html",
-      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-ledger.html",
-      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "real-task-benchmark-bridge.html",
-      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "sovereign-experience-stream-lab.html",
-      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "validator-council-arena.html",
-      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
-      "category": "Evidence and Review",
-      "description": "Open GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "pilot-proof.html",
-      "title": "Pilot Proof \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-card-studio.html",
-      "title": "Proof Card Studio \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-economy.html",
-      "title": "Proof Economy \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-flight-demo.html",
-      "title": "Proof Flight Demo \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "metrics.html",
-      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-metrics-dashboard.html",
-      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Measure proof quality: completeness, replay, gates, costs, risk, and reuse.",
-      "system": false
-    },
-    {
-      "path": "proof-mission-slots.html",
-      "title": "Proof Mission Slots \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001.html",
-      "title": "Proof Run 001",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001-live.html",
-      "title": "Proof Run 001 Live \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001-docket.html",
-      "title": "Proof Run 001 \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Repository-readiness Evidence Docket with gates, reports, downloads, and reviewer path.",
-      "system": false
-    },
-    {
-      "path": "proof-velocity.html",
-      "title": "Proof Velocity \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-of-evolution.html",
-      "title": "Proof-of-Evolution",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "public-metrics-ledger.html",
-      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Open Public Metrics Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "public-proof-ledger.html",
-      "title": "Public Proof Ledger \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "strategic-evidence-scorecard.html",
-      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "validator-room.html",
-      "title": "Validator Room \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open Validator Room \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "validator-seats.html",
-      "title": "Validator Seats",
-      "category": "Evidence and Review",
-      "description": "Open Validator Seats as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "index.html",
-      "title": "GoalOS AGIALPHA Ascension \u2014 Immersive Command Center V16",
-      "category": "Loop to RSI",
-      "description": "Move from long-running loop discipline to deterministic recursive-invention governance.",
-      "system": false
-    },
-    {
-      "path": "from-loop-to-rsi-governance.html",
-      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
-      "category": "Loop to RSI",
-      "description": "Governance-first RSI demonstration: deterministic pipeline, baselines, dossiers, and gates.",
-      "system": false
-    },
-    {
-      "path": "from-loop-to-rsi-state-capacity.html",
-      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
-      "category": "Loop to RSI",
-      "description": "Interactive state-capacity command room for governing recursive invention.",
-      "system": false
-    },
-    {
-      "path": "from-loop-to-rsi-sovereign-console.html",
-      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
-      "category": "Loop to RSI",
-      "description": "Dynamic RSI console: search control is allowed; outcome authority is earned.",
-      "system": false
-    },
-    {
-      "path": "loop-bottleneck-observatory.html",
-      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
-      "category": "Loop to RSI",
-      "description": "The bottleneck always moves; expose it as the next proof mission.",
-      "system": false
-    },
-    {
-      "path": "loop-contract-lab.html",
-      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
-      "category": "Loop to RSI",
-      "description": "Write the loop, not the prompt: roles, contract, disk state, trace, evaluator.",
-      "system": false
-    },
-    {
-      "path": "loop-flight-recorder.html",
-      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
-      "category": "Loop to RSI",
-      "description": "Agents that run for days must leave proof, traces, and restartable state.",
-      "system": false
-    },
-    {
-      "path": "agent-constellation-demo.html",
+      "href": "agent-constellation-demo.html",
       "title": "Agent Constellation Demo \u2014 GoalOS",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "category": "Mission Autopilot",
+      "description": "Open Agent Constellation Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "agents.html",
+      "href": "agents.html",
       "title": "Agent Foundry \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "category": "Mission Autopilot",
+      "description": "Open Agent Foundry \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "agi-alpha-node-v0.html",
+      "href": "agi-alpha-node-v0.html",
       "title": "AGI Alpha Node v0",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "category": "Architecture & Research",
+      "description": "Open AGI Alpha Node v0 as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "coordination-console.html",
+      "href": "agi-alpha-thesis.html",
+      "title": "AGI ALPHA Thesis",
+      "category": "Additional / Preserved",
+      "description": "Open AGI ALPHA Thesis as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs v0 (v2)",
+      "category": "Architecture & Research",
+      "description": "Open AGI Jobs v0 (v2) as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "agialpha-control-rail.html",
+      "title": "$AGIALPHA Control Rail",
+      "category": "Additional / Preserved",
+      "description": "Open $AGIALPHA Control Rail as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "agialpha-token-boundary.html",
+      "title": "$AGIALPHA Public-Market Boundary",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
+      "system": false
+    },
+    {
+      "href": "architecture.html",
+      "title": "Architecture \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Architecture \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "archive/index-before-website-experience-os-v2.html",
+      "title": "Home \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Home \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "ask-goalos.html",
+      "title": "Ask GoalOS - Browser-local Concierge",
+      "category": "Mission Autopilot",
+      "description": "Open Ask GoalOS - Browser-local Concierge as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "capability-compounding-lab.html",
+      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "capability-parity.html",
+      "title": "GoalOS Capability Parity",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Capability Parity as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "capability-stack.html",
+      "title": "Capability Stack \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Capability Stack \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "claim-boundary.html",
+      "title": "Claim Boundary \u00b7 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Open Claim Boundary \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "commercial-evidence.html",
+      "title": "Commercial Evidence \u00b7 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Commercial Evidence \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "console.html",
+      "title": "GoalOS Proof Console",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Console as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "contract-academy.html",
+      "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+      "category": "Mainnet Proof Rail",
+      "description": "Open GoalOS Contract Academy \u2014 Learn the 48 Contracts as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "coordination-console.html",
       "title": "Coordination Console",
-      "category": "Mission and Work OS",
+      "category": "Additional / Preserved",
       "description": "Open Coordination Console as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "frontier-release-case-study.html",
-      "title": "Frontier Release Case Study",
-      "category": "Mission and Work OS",
-      "description": "Open Frontier Release Case Study as part of the complete GoalOS public proof surface.",
+      "href": "data-boundary.html",
+      "title": "Data Boundary \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "frontier-release-doctrine.html",
-      "title": "Frontier Release Doctrine",
-      "category": "Mission and Work OS",
-      "description": "Open Frontier Release Doctrine as part of the complete GoalOS public proof surface.",
+      "href": "data-room.html",
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "frontier-release-room.html",
-      "title": "Frontier Release Room",
-      "category": "Mission and Work OS",
-      "description": "Open Frontier Release Room as part of the complete GoalOS public proof surface.",
+      "href": "demo-ecosystem-registry.html",
+      "title": "GoalOS Demo Ecosystem Registry",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
       "system": false
     },
     {
-      "path": "capability-compounding-lab.html",
-      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
-      "category": "Mission and Work OS",
-      "description": "See how verified work becomes reusable capability, value ledger entries, and governed capacity.",
+      "href": "demo-gallery.html",
+      "title": "Demo Gallery \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Demo Gallery \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "multi-agent-institution.html",
-      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "href": "demo-launcher.html",
+      "title": "Demo Launcher \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Demo Launcher \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "open-ended-work-engine.html",
-      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
-      "category": "Mission and Work OS",
-      "description": "Open GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants. as part of the complete GoalOS public proof surface.",
+      "href": "demo-safety.html",
+      "title": "Demo Safety Boundary \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Demo Safety Boundary \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "value-realization-control-room.html",
-      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
-      "category": "Mission and Work OS",
-      "description": "See how verified work becomes reusable capability, value ledger entries, and governed capacity.",
+      "href": "docket-builder.html",
+      "title": "Evidence Docket Builder \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Evidence Docket Builder \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "local-autopilot-demo.html",
-      "title": "Local Autopilot Demo \u2014 GoalOS",
-      "category": "Mission and Work OS",
-      "description": "Open Local Autopilot Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "meta-agentic-alpha-agi.html",
-      "title": "META-AGENTIC \u03b1-AGI",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "mission-os-canon.html",
-      "title": "Mission OS Canon",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "mission-os.html",
-      "title": "Mission OS \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "node.html",
-      "title": "Node Runtime \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "operators.html",
-      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Open Operator Console Blueprint \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "pilot-program.html",
-      "title": "Pilot Program \u00b7 GoalOS",
-      "category": "Mission and Work OS",
-      "description": "A serious pilot ends with a docket: mission, evidence, validator decision, follow-up status.",
-      "system": false
-    },
-    {
-      "path": "release-gates.html",
-      "title": "Release Gates \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Open Release Gates \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "demo-ecosystem-registry.html",
-      "title": "Demo Ecosystem Registry \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Every public demo mapped to expected inputs, generated outputs, gates, and next state.",
-      "system": false
-    },
-    {
-      "path": "docs.html",
+      "href": "docs.html",
       "title": "Docs \u2014 GoalOS",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open Docs \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "faq.html",
+      "href": "document-series.html",
+      "title": "GoalOS Document Series",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Document Series as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "downloads/index.html",
+      "title": "Public Downloads",
+      "category": "Additional / Preserved",
+      "description": "Open Public Downloads as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "enterprise.html",
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Enterprise Readiness \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "category": "Additional / Preserved",
+      "description": "Open Evaluation Program as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evaluation.html",
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Evaluation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence-docket-theatre.html",
+      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence-room.html",
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Evidence Room \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence-to-scale.html",
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Evidence to Scale \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence.html",
+      "title": "Evidence Layer \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Evidence Layer \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evolution-ledger-control-room.html",
+      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "executive-brief.html",
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Executive Brief \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "external-reviewer-replay-room.html",
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS External Reviewer Replay Room \u2014 Independent Review Path as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "falsification-box.html",
+      "title": "Falsification Box \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Falsification Box \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "falsification-gauntlet.html",
+      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "faq.html",
       "title": "FAQ \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open FAQ \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "glossary.html",
+      "href": "for-new-users.html",
+      "title": "For New Users \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open For New Users \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "for-reviewers.html",
+      "title": "For Reviewers \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "from-loop-to-rsi-governance.html",
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "from-loop-to-rsi-sovereign-console.html",
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "from-loop-to-rsi-state-capacity.html",
+      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "category": "Additional / Preserved",
+      "description": "Open Frontier Release Case Study as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "category": "Additional / Preserved",
+      "description": "Open Frontier Release Doctrine as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "category": "Additional / Preserved",
+      "description": "Open Frontier Release Room as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "glossary.html",
       "title": "Glossary \u2014 GoalOS",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open Glossary \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "help-center.html",
+      "href": "goalos.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "governance.html",
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Governance \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "help-center.html",
       "title": "Help Center \u2014 GoalOS",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open Help Center \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "pathfinder.html",
-      "title": "Pathfinder \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Role-based routing for new users, reviewers, developers, institutions, and operators.",
+      "href": "historical-command-center.html",
+      "title": "GoalOS Historical Command Center",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Historical Command Center as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "repository-map.html",
-      "title": "Repository Map \u00b7 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Where everything lives in the repository and how non-technical users can navigate it.",
+      "href": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "category": "Additional / Preserved",
+      "description": "Open Holy Grail Candidate as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "research-spine.html",
-      "title": "Research Spine",
-      "category": "Navigation and Docs",
-      "description": "Open Research Spine as part of the complete GoalOS public proof surface.",
+      "href": "independent-validation.html",
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Independent Validation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "roadmap.html",
-      "title": "Roadmap \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Roadmap \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "href": "index.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "run-locally.html",
-      "title": "Run Locally \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Open Run Locally \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "href": "institutional-deployment-wedge.html",
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "schema-registry.html",
-      "title": "Schema Registry \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Schema Registry \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "href": "investment-token-boundary.html",
+      "title": "Token & Investment Boundary",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
       "system": false
     },
     {
-      "path": "search.html",
-      "title": "Search \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Open Search \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "href": "jobs.html",
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open AGI Jobs Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "site-health.html",
-      "title": "Site Health \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Route inventory, missing-route checks, public-download checks, and boundary status.",
+      "href": "launch-narrative.html",
+      "title": "GoalOS Launch Narrative",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Launch Narrative as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "site-map.html",
-      "title": "Site Map \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "All public pages grouped by purpose with fast browser-local search.",
+      "href": "launch.html",
+      "title": "Launch Package \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Launch Package \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "start.html",
-      "title": "Start Here \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Start Here \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "start-here.html",
-      "title": "Start Here \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Plain-language onboarding: understand the thesis, choose a path, and try a safe demo.",
-      "system": false
-    },
-    {
-      "path": "troubleshooting.html",
-      "title": "Troubleshooting \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Troubleshooting \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "website-autopilot.html",
-      "title": "Website Autopilot \u00b7 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Autonomous website publication from proof-aligned source with QA and human review.",
-      "system": false
-    },
-    {
-      "path": "website-operating-system.html",
-      "title": "Website Operating System \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Open Website Operating System \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "agialpha-token-boundary.html",
-      "title": "$AGIALPHA Public-Market Boundary",
-      "category": "Trust and Boundary",
-      "description": "Read the public-contract identification boundary: not available from GoalOS, no custody, no advice.",
-      "system": false
-    },
-    {
-      "path": "token.html",
-      "title": "$AGIALPHA Token Boundary",
-      "category": "Trust and Boundary",
-      "description": "Read the public-contract identification boundary: not available from GoalOS, no custody, no advice.",
-      "system": false
-    },
-    {
-      "path": "claim-boundary.html",
-      "title": "Claim Boundary \u00b7 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Ambition without unsupported claims: what the repository does and does not claim.",
-      "system": false
-    },
-    {
-      "path": "data-boundary.html",
-      "title": "Data Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
-      "system": false
-    },
-    {
-      "path": "data-room.html",
-      "title": "Data Room \u00b7 GoalOS Ascension",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
-      "system": false
-    },
-    {
-      "path": "demo-safety.html",
-      "title": "Demo Safety Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
-      "system": false
-    },
-    {
-      "path": "legal.html",
+      "href": "legal.html",
       "title": "Legal Shield \u2014 GoalOS",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Open Legal Shield \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "no-data-no-funds.html",
+      "href": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Local Autopilot Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "loop-bottleneck-observatory.html",
+      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "loop-contract-lab.html",
+      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "loop-flight-recorder.html",
+      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "mainnet-contract-atlas.html",
+      "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+      "category": "Mainnet Proof Rail",
+      "description": "Search, filter, and learn the 48 GoalOS-created Ethereum Mainnet contracts.",
+      "system": false
+    },
+    {
+      "href": "mainnet-proof-rail.html",
+      "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+      "category": "Mainnet Proof Rail",
+      "description": "Open GoalOS Mainnet Proof Rail \u2014 Contract Journey as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "meta-agentic-alpha-agi.html",
+      "title": "META-AGENTIC \u03b1-AGI",
+      "category": "Architecture & Research",
+      "description": "Open META-AGENTIC \u03b1-AGI as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "metrics.html",
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Metrics Dashboard \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-autopilot.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-command-center.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-os-canon.html",
+      "title": "Mission OS Canon",
+      "category": "Mission Autopilot",
+      "description": "Open Mission OS Canon as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-os.html",
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Mission OS \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "multi-agent-institution.html",
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "no-data-no-funds.html",
       "title": "No Data / No Funds \u2014 GoalOS",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "privacy.html",
+      "href": "node.html",
+      "title": "Node Runtime \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Node Runtime \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "objective-command-center.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "open-ended-work-engine.html",
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "operator-checklist.html",
+      "title": "Operator Checklist \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Operator Checklist \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "operators.html",
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Operator Console Blueprint \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "paper-to-product.html",
+      "title": "Paper to Product",
+      "category": "Additional / Preserved",
+      "description": "Open Paper to Product as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "pathfinder.html",
+      "title": "Pathfinder \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Choose a beginner-friendly path through the GoalOS proof surface.",
+      "system": false
+    },
+    {
+      "href": "pilot-program.html",
+      "title": "Pilot Program \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Pilot Program \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "pilot-proof.html",
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Pilot Proof \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "privacy.html",
       "title": "Privacy \u2014 GoalOS",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "security-boundary.html",
+      "href": "product.html",
+      "title": "Product \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Product \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-backed-upgrade-rights-room.html",
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-card-studio.html",
+      "title": "Proof Card Studio \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Card Studio \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-carrying-artifact-foundry.html",
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-economy.html",
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Economy \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-experience-atlas.html",
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Experience Atlas \u2014 From output to proof as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-flight-demo.html",
+      "title": "Proof Flight Demo \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Flight Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-gradient-lab.html",
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Gradient Lab \u2014 No proof, no evolution as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-ledger.html",
+      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+      "category": "Evidence & Review",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Metrics Dashboard \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-mission-control.html",
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Proof Mission Control \u2014 From Objective to First Docket as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-mission-forge.html",
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-mission-slots.html",
+      "title": "Proof Mission Slots \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Mission Slots \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-of-evolution.html",
+      "title": "Proof-of-Evolution",
+      "category": "Additional / Preserved",
+      "description": "Open Proof-of-Evolution as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001-docket.html",
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001-execution-room.html",
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-settlement-chronicle-lab.html",
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-Settlement Chronicle Lab as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-to-action-command-room.html",
+      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-to-Action Command Room \u2014 Governed Decision State as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-velocity.html",
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Velocity \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Public Metrics Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "public-proof-ledger.html",
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Public Proof Ledger \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "quick-tour.html",
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "category": "Mission Autopilot",
+      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "real-task-benchmark-bridge.html",
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "release-gates.html",
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Release Gates \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "repository-map.html",
+      "title": "Repository Map \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Repository Map \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "research-spine.html",
+      "title": "Research Spine",
+      "category": "Architecture & Research",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "responsible-use.html",
+      "title": "Responsible Use \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Open Responsible Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "reviewer-path.html",
+      "title": "For Reviewers \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "roadmap.html",
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Roadmap \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "run-locally.html",
+      "title": "Run Locally \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Run Locally \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "schema-registry.html",
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "search.html",
+      "title": "GoalOS Search",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "security-boundary.html",
       "title": "Security Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "category": "Trust & Boundary",
+      "description": "Open Security Boundary \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "security.html",
+      "href": "security.html",
       "title": "Security \u00b7 GoalOS Ascension",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Open Security \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "investment-token-boundary.html",
-      "title": "Token & Investment Boundary",
-      "category": "Trust and Boundary",
-      "description": "Read the public-contract identification boundary: not available from GoalOS, no custody, no advice.",
+      "href": "site-health.html",
+      "title": "GoalOS Site Health",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Site Health as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "token-boundary.html",
-      "title": "Token Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "$AGIALPHA public contract identification only; not available from GoalOS.",
+      "href": "site-map.html",
+      "title": "GoalOS All Pages",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
       "system": false
     },
     {
-      "path": "trust-boundary.html",
-      "title": "Trust Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "No user data, no user funds, no wallet, no transaction, no production authority.",
+      "href": "source-lineage.html",
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Source Lineage \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "trust.html",
-      "title": "Trust Center",
-      "category": "Trust and Boundary",
+      "href": "sovereign-experience-stream-lab.html",
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Sovereign Experience Stream Lab \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "standards.html",
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Standards \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "start-here.html",
+      "title": "Start Here \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Choose a beginner-friendly path through the GoalOS proof surface.",
+      "system": false
+    },
+    {
+      "href": "start.html",
+      "title": "Start Here \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Choose a beginner-friendly path through the GoalOS proof surface.",
+      "system": false
+    },
+    {
+      "href": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Strategic Evidence Scorecard \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "tell-goalos.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "terms.html",
+      "title": "Terms of Use \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Open Terms of Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "token-boundary.html",
+      "title": "$AGIALPHA is public-contract identification only.",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
+      "system": false
+    },
+    {
+      "href": "token.html",
+      "title": "$AGIALPHA Token Boundary",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
+      "system": false
+    },
+    {
+      "href": "troubleshooting.html",
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Troubleshooting \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "trust-boundary.html",
+      "title": "Proof-native. Not data-hungry. Not wallet-first.",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "trust-center.html",
+      "href": "trust-center.html",
       "title": "Trust Center \u00b7 GoalOS Ascension",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "system": false
+    },
+    {
+      "href": "trust.html",
+      "title": "Trust Center",
+      "category": "Trust & Boundary",
+      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "system": false
+    },
+    {
+      "href": "try-goalos.html",
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "category": "Mission Autopilot",
+      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "universal-mission-autopilot.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "validator-council-arena.html",
+      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "validator-room.html",
+      "title": "Validator Room \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Validator Room \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "validator-seats.html",
+      "title": "Validator Seats",
+      "category": "Evidence & Review",
+      "description": "Open Validator Seats as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "value-realization-control-room.html",
+      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "website-autopilot.html",
+      "title": "Website Autopilot \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Website Autopilot \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "website-operating-system.html",
+      "title": "Website Operating System \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Website Operating System \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "what-goalos-does.html",
+      "title": "What GoalOS Does \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open What GoalOS Does \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     }
   ],
-  "routes": [
+  "demos": [
     {
-      "name": "GoalOS Mainnet Contract Atlas V17",
-      "canonicalUrl": "mainnet-contract-atlas.html",
-      "oneLine": "Deep browser-local guide to the 48 GoalOS-created Ethereum Mainnet contracts.",
-      "workflowCategory": "mainnet-contract-education",
-      "expectedInputs": [
-        "public-safe route interaction only"
-      ],
-      "generatedOutputs": [
-        "contract atlas JSON",
-        "contract CSV",
-        "reviewer brief"
-      ],
-      "proofGates": [
-        "no wallet",
-        "no transaction",
-        "no network call",
-        "token boundary",
-        "human review required"
-      ],
-      "nextState": "MAINNET_CONTRACT_ATLAS_REVIEW_READY"
+      "href": "404.html",
+      "title": "GoalOS 404 \u2014 Route not found",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS 404 \u2014 Route not found as part of the complete GoalOS public proof surface.",
+      "system": true
     },
     {
-      "path": "agialpha-control-rail.html",
-      "title": "$AGIALPHA Control Rail",
-      "category": "Additional",
-      "description": "Open $AGIALPHA Control Rail as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "agi-alpha-thesis.html",
-      "title": "AGI ALPHA Thesis",
-      "category": "Additional",
-      "description": "Open AGI ALPHA Thesis as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "agi-jobs-v0-v2.html",
-      "title": "AGI Jobs v0 (v2)",
-      "category": "Additional",
-      "description": "Open AGI Jobs v0 (v2) as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "architecture.html",
-      "title": "Architecture \u00b7 GoalOS",
-      "category": "Additional",
-      "description": "Open Architecture \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "demo-gallery.html",
-      "title": "Demo Gallery \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Demo Gallery \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "demo-launcher.html",
-      "title": "Demo Launcher \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Demo Launcher \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "enterprise.html",
-      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Enterprise Readiness \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "evaluation-program.html",
-      "title": "Evaluation Program",
-      "category": "Additional",
-      "description": "Open Evaluation Program as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "evaluation.html",
-      "title": "Evaluation \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Evaluation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "executive-brief.html",
-      "title": "Executive Brief \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Executive Brief \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "for-new-users.html",
-      "title": "For New Users \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open For New Users \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "action-reason-trace-contract.html",
+      "href": "action-reason-trace-contract.html",
       "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
-      "category": "Additional",
+      "category": "Mission Autopilot",
       "description": "Open GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "document-series.html",
-      "title": "GoalOS Document Series",
-      "category": "Additional",
-      "description": "Open GoalOS Document Series as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "historical-command-center.html",
-      "title": "GoalOS Historical Command Center",
-      "category": "Additional",
-      "description": "Open GoalOS Historical Command Center as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "institutional-deployment-wedge.html",
-      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
-      "category": "Additional",
-      "description": "Open GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "launch-narrative.html",
-      "title": "GoalOS Launch Narrative",
-      "category": "Additional",
-      "description": "Open GoalOS Launch Narrative as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "governance.html",
-      "title": "Governance \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Governance \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "holy-grail-candidate.html",
-      "title": "Holy Grail Candidate",
-      "category": "Additional",
-      "description": "Open Holy Grail Candidate as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "independent-validation.html",
-      "title": "Independent Validation \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Independent Validation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "launch.html",
-      "title": "Launch Package \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Launch Package \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "operator-checklist.html",
-      "title": "Operator Checklist \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Operator Checklist \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "paper-to-product.html",
-      "title": "Paper to Product",
-      "category": "Additional",
-      "description": "Open Paper to Product as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "product.html",
-      "title": "Product \u00b7 GoalOS",
-      "category": "Additional",
-      "description": "Open Product \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "responsible-use.html",
-      "title": "Responsible Use \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Responsible Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "source-lineage.html",
-      "title": "Source Lineage \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Source Lineage \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "sovereign-experience-stream.html",
-      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
-      "category": "Additional",
-      "description": "Open Sovereign Experience Stream Lab \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "standards.html",
-      "title": "Standards \u00b7 GoalOS Ascension",
-      "category": "Additional",
-      "description": "Open Standards \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "terms.html",
-      "title": "Terms of Use \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open Terms of Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "quick-tour.html",
-      "title": "Try GoalOS \u2014 Browser-local Demo",
-      "category": "Additional",
-      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "try-goalos.html",
-      "title": "Try GoalOS \u2014 Browser-local Demo",
-      "category": "Additional",
-      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "what-goalos-does.html",
-      "title": "What GoalOS Does \u2014 GoalOS",
-      "category": "Additional",
-      "description": "Open What GoalOS Does \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "adoption.html",
+      "href": "adoption.html",
       "title": "Adoption Playbook \u00b7 GoalOS Ascension",
-      "category": "Capability and Economy",
+      "category": "Mission Autopilot",
       "description": "Open Adoption Playbook \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "capability-stack.html",
-      "title": "Capability Stack \u00b7 GoalOS",
-      "category": "Capability and Economy",
-      "description": "The proof-settled operating model: launch, mission engine, proof jobs, validation, runtime, governance.",
-      "system": false
-    },
-    {
-      "path": "capability-parity.html",
-      "title": "GoalOS Capability Parity",
-      "category": "Capability and Economy",
-      "description": "See how verified work becomes reusable capability, value ledger entries, and governed capacity.",
-      "system": false
-    },
-    {
-      "path": "jobs.html",
-      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Open AGI Jobs Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "commercial-evidence.html",
-      "title": "Commercial Evidence \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Commercial signals counted carefully, with private details protected by default.",
-      "system": false
-    },
-    {
-      "path": "docket-builder.html",
-      "title": "Evidence Docket Builder \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evidence.html",
-      "title": "Evidence Layer \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evidence-room.html",
-      "title": "Evidence Room \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evidence-to-scale.html",
-      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "falsification-box.html",
-      "title": "Falsification Box \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open Falsification Box \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "for-reviewers.html",
-      "title": "For Reviewers \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "reviewer-path.html",
-      "title": "For Reviewers \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "evidence-docket-theatre.html",
-      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "evolution-ledger-control-room.html",
-      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "external-reviewer-replay-room.html",
-      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
-      "category": "Evidence and Review",
-      "description": "Open GoalOS External Reviewer Replay Room \u2014 Independent Review Path as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "falsification-gauntlet.html",
-      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
-      "category": "Evidence and Review",
-      "description": "Open GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "console.html",
-      "title": "GoalOS Proof Console",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-experience-atlas.html",
-      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-gradient-lab.html",
-      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-mission-control.html",
-      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-mission-forge.html",
-      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001-execution-room.html",
-      "title": "GoalOS Proof Run 001 Execution Room",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-backed-upgrade-rights-room.html",
-      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-carrying-artifact-foundry.html",
-      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-settlement-chronicle-lab.html",
-      "title": "GoalOS Proof-Settlement Chronicle Lab",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-to-action-command-room.html",
-      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-ledger.html",
-      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "real-task-benchmark-bridge.html",
-      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "sovereign-experience-stream-lab.html",
-      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "validator-council-arena.html",
-      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
-      "category": "Evidence and Review",
-      "description": "Open GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "pilot-proof.html",
-      "title": "Pilot Proof \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-card-studio.html",
-      "title": "Proof Card Studio \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-economy.html",
-      "title": "Proof Economy \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-flight-demo.html",
-      "title": "Proof Flight Demo \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "metrics.html",
-      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-metrics-dashboard.html",
-      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Measure proof quality: completeness, replay, gates, costs, risk, and reuse.",
-      "system": false
-    },
-    {
-      "path": "proof-mission-slots.html",
-      "title": "Proof Mission Slots \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001.html",
-      "title": "Proof Run 001",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001-live.html",
-      "title": "Proof Run 001 Live \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-run-001-docket.html",
-      "title": "Proof Run 001 \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Repository-readiness Evidence Docket with gates, reports, downloads, and reviewer path.",
-      "system": false
-    },
-    {
-      "path": "proof-velocity.html",
-      "title": "Proof Velocity \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "proof-of-evolution.html",
-      "title": "Proof-of-Evolution",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "public-metrics-ledger.html",
-      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Open Public Metrics Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "public-proof-ledger.html",
-      "title": "Public Proof Ledger \u00b7 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "strategic-evidence-scorecard.html",
-      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
-      "category": "Evidence and Review",
-      "description": "Inspect evidence, claims, gates, replay paths, and reviewer-ready proof surfaces.",
-      "system": false
-    },
-    {
-      "path": "validator-room.html",
-      "title": "Validator Room \u2014 GoalOS",
-      "category": "Evidence and Review",
-      "description": "Open Validator Room \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "validator-seats.html",
-      "title": "Validator Seats",
-      "category": "Evidence and Review",
-      "description": "Open Validator Seats as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "index.html",
-      "title": "GoalOS AGIALPHA Ascension \u2014 Immersive Command Center V16",
-      "category": "Loop to RSI",
-      "description": "Move from long-running loop discipline to deterministic recursive-invention governance.",
-      "system": false
-    },
-    {
-      "path": "from-loop-to-rsi-governance.html",
-      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
-      "category": "Loop to RSI",
-      "description": "Governance-first RSI demonstration: deterministic pipeline, baselines, dossiers, and gates.",
-      "system": false
-    },
-    {
-      "path": "from-loop-to-rsi-state-capacity.html",
-      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
-      "category": "Loop to RSI",
-      "description": "Interactive state-capacity command room for governing recursive invention.",
-      "system": false
-    },
-    {
-      "path": "from-loop-to-rsi-sovereign-console.html",
-      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
-      "category": "Loop to RSI",
-      "description": "Dynamic RSI console: search control is allowed; outcome authority is earned.",
-      "system": false
-    },
-    {
-      "path": "loop-bottleneck-observatory.html",
-      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
-      "category": "Loop to RSI",
-      "description": "The bottleneck always moves; expose it as the next proof mission.",
-      "system": false
-    },
-    {
-      "path": "loop-contract-lab.html",
-      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
-      "category": "Loop to RSI",
-      "description": "Write the loop, not the prompt: roles, contract, disk state, trace, evaluator.",
-      "system": false
-    },
-    {
-      "path": "loop-flight-recorder.html",
-      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
-      "category": "Loop to RSI",
-      "description": "Agents that run for days must leave proof, traces, and restartable state.",
-      "system": false
-    },
-    {
-      "path": "agent-constellation-demo.html",
+      "href": "agent-constellation-demo.html",
       "title": "Agent Constellation Demo \u2014 GoalOS",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "category": "Mission Autopilot",
+      "description": "Open Agent Constellation Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "agents.html",
+      "href": "agents.html",
       "title": "Agent Foundry \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "category": "Mission Autopilot",
+      "description": "Open Agent Foundry \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "agi-alpha-node-v0.html",
+      "href": "agi-alpha-node-v0.html",
       "title": "AGI Alpha Node v0",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "category": "Architecture & Research",
+      "description": "Open AGI Alpha Node v0 as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "coordination-console.html",
+      "href": "agi-alpha-thesis.html",
+      "title": "AGI ALPHA Thesis",
+      "category": "Additional / Preserved",
+      "description": "Open AGI ALPHA Thesis as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs v0 (v2)",
+      "category": "Architecture & Research",
+      "description": "Open AGI Jobs v0 (v2) as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "agialpha-control-rail.html",
+      "title": "$AGIALPHA Control Rail",
+      "category": "Additional / Preserved",
+      "description": "Open $AGIALPHA Control Rail as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "agialpha-token-boundary.html",
+      "title": "$AGIALPHA Public-Market Boundary",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
+      "system": false
+    },
+    {
+      "href": "architecture.html",
+      "title": "Architecture \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Architecture \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "archive/index-before-website-experience-os-v2.html",
+      "title": "Home \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Home \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "ask-goalos.html",
+      "title": "Ask GoalOS - Browser-local Concierge",
+      "category": "Mission Autopilot",
+      "description": "Open Ask GoalOS - Browser-local Concierge as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "capability-compounding-lab.html",
+      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "capability-parity.html",
+      "title": "GoalOS Capability Parity",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Capability Parity as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "capability-stack.html",
+      "title": "Capability Stack \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Capability Stack \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "claim-boundary.html",
+      "title": "Claim Boundary \u00b7 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Open Claim Boundary \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "commercial-evidence.html",
+      "title": "Commercial Evidence \u00b7 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Commercial Evidence \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "console.html",
+      "title": "GoalOS Proof Console",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Console as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "contract-academy.html",
+      "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+      "category": "Mainnet Proof Rail",
+      "description": "Open GoalOS Contract Academy \u2014 Learn the 48 Contracts as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "coordination-console.html",
       "title": "Coordination Console",
-      "category": "Mission and Work OS",
+      "category": "Additional / Preserved",
       "description": "Open Coordination Console as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "frontier-release-case-study.html",
-      "title": "Frontier Release Case Study",
-      "category": "Mission and Work OS",
-      "description": "Open Frontier Release Case Study as part of the complete GoalOS public proof surface.",
+      "href": "data-boundary.html",
+      "title": "Data Boundary \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "frontier-release-doctrine.html",
-      "title": "Frontier Release Doctrine",
-      "category": "Mission and Work OS",
-      "description": "Open Frontier Release Doctrine as part of the complete GoalOS public proof surface.",
+      "href": "data-room.html",
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "frontier-release-room.html",
-      "title": "Frontier Release Room",
-      "category": "Mission and Work OS",
-      "description": "Open Frontier Release Room as part of the complete GoalOS public proof surface.",
+      "href": "demo-ecosystem-registry.html",
+      "title": "GoalOS Demo Ecosystem Registry",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
       "system": false
     },
     {
-      "path": "capability-compounding-lab.html",
-      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
-      "category": "Mission and Work OS",
-      "description": "See how verified work becomes reusable capability, value ledger entries, and governed capacity.",
+      "href": "demo-gallery.html",
+      "title": "Demo Gallery \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Demo Gallery \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "multi-agent-institution.html",
-      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
+      "href": "demo-launcher.html",
+      "title": "Demo Launcher \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Demo Launcher \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "open-ended-work-engine.html",
-      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
-      "category": "Mission and Work OS",
-      "description": "Open GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants. as part of the complete GoalOS public proof surface.",
+      "href": "demo-safety.html",
+      "title": "Demo Safety Boundary \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Demo Safety Boundary \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "value-realization-control-room.html",
-      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
-      "category": "Mission and Work OS",
-      "description": "See how verified work becomes reusable capability, value ledger entries, and governed capacity.",
+      "href": "docket-builder.html",
+      "title": "Evidence Docket Builder \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Evidence Docket Builder \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "local-autopilot-demo.html",
-      "title": "Local Autopilot Demo \u2014 GoalOS",
-      "category": "Mission and Work OS",
-      "description": "Open Local Autopilot Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "meta-agentic-alpha-agi.html",
-      "title": "META-AGENTIC \u03b1-AGI",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "mission-os-canon.html",
-      "title": "Mission OS Canon",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "mission-os.html",
-      "title": "Mission OS \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "node.html",
-      "title": "Node Runtime \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Understand how GoalOS turns objectives into bounded work, proof, review, and reusable capability.",
-      "system": false
-    },
-    {
-      "path": "operators.html",
-      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Open Operator Console Blueprint \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "pilot-program.html",
-      "title": "Pilot Program \u00b7 GoalOS",
-      "category": "Mission and Work OS",
-      "description": "A serious pilot ends with a docket: mission, evidence, validator decision, follow-up status.",
-      "system": false
-    },
-    {
-      "path": "release-gates.html",
-      "title": "Release Gates \u00b7 GoalOS Ascension",
-      "category": "Mission and Work OS",
-      "description": "Open Release Gates \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "demo-ecosystem-registry.html",
-      "title": "Demo Ecosystem Registry \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Every public demo mapped to expected inputs, generated outputs, gates, and next state.",
-      "system": false
-    },
-    {
-      "path": "docs.html",
+      "href": "docs.html",
       "title": "Docs \u2014 GoalOS",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open Docs \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "faq.html",
+      "href": "document-series.html",
+      "title": "GoalOS Document Series",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Document Series as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "downloads/index.html",
+      "title": "Public Downloads",
+      "category": "Additional / Preserved",
+      "description": "Open Public Downloads as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "enterprise.html",
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Enterprise Readiness \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "category": "Additional / Preserved",
+      "description": "Open Evaluation Program as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evaluation.html",
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Evaluation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence-docket-theatre.html",
+      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence-room.html",
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Evidence Room \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence-to-scale.html",
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Evidence to Scale \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evidence.html",
+      "title": "Evidence Layer \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Evidence Layer \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "evolution-ledger-control-room.html",
+      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "executive-brief.html",
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Executive Brief \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "external-reviewer-replay-room.html",
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS External Reviewer Replay Room \u2014 Independent Review Path as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "falsification-box.html",
+      "title": "Falsification Box \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Falsification Box \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "falsification-gauntlet.html",
+      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "faq.html",
       "title": "FAQ \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open FAQ \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "glossary.html",
+      "href": "for-new-users.html",
+      "title": "For New Users \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open For New Users \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "for-reviewers.html",
+      "title": "For Reviewers \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "from-loop-to-rsi-governance.html",
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "from-loop-to-rsi-sovereign-console.html",
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "from-loop-to-rsi-state-capacity.html",
+      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "category": "Additional / Preserved",
+      "description": "Open Frontier Release Case Study as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "category": "Additional / Preserved",
+      "description": "Open Frontier Release Doctrine as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "category": "Additional / Preserved",
+      "description": "Open Frontier Release Room as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "glossary.html",
       "title": "Glossary \u2014 GoalOS",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open Glossary \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "help-center.html",
+      "href": "goalos.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "governance.html",
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Governance \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "help-center.html",
       "title": "Help Center \u2014 GoalOS",
-      "category": "Navigation and Docs",
+      "category": "Mission Autopilot",
       "description": "Open Help Center \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "pathfinder.html",
-      "title": "Pathfinder \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Role-based routing for new users, reviewers, developers, institutions, and operators.",
+      "href": "historical-command-center.html",
+      "title": "GoalOS Historical Command Center",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Historical Command Center as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "repository-map.html",
-      "title": "Repository Map \u00b7 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Where everything lives in the repository and how non-technical users can navigate it.",
+      "href": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "category": "Additional / Preserved",
+      "description": "Open Holy Grail Candidate as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "research-spine.html",
-      "title": "Research Spine",
-      "category": "Navigation and Docs",
-      "description": "Open Research Spine as part of the complete GoalOS public proof surface.",
+      "href": "independent-validation.html",
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Independent Validation \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "roadmap.html",
-      "title": "Roadmap \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Roadmap \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "href": "index.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "run-locally.html",
-      "title": "Run Locally \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Open Run Locally \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "href": "institutional-deployment-wedge.html",
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "schema-registry.html",
-      "title": "Schema Registry \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Schema Registry \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "href": "investment-token-boundary.html",
+      "title": "Token & Investment Boundary",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
       "system": false
     },
     {
-      "path": "search.html",
-      "title": "Search \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Open Search \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "href": "jobs.html",
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open AGI Jobs Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "site-health.html",
-      "title": "Site Health \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Route inventory, missing-route checks, public-download checks, and boundary status.",
+      "href": "launch-narrative.html",
+      "title": "GoalOS Launch Narrative",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Launch Narrative as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "site-map.html",
-      "title": "Site Map \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "All public pages grouped by purpose with fast browser-local search.",
+      "href": "launch.html",
+      "title": "Launch Package \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Launch Package \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "start.html",
-      "title": "Start Here \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Start Here \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "start-here.html",
-      "title": "Start Here \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Plain-language onboarding: understand the thesis, choose a path, and try a safe demo.",
-      "system": false
-    },
-    {
-      "path": "troubleshooting.html",
-      "title": "Troubleshooting \u00b7 GoalOS Ascension",
-      "category": "Navigation and Docs",
-      "description": "Open Troubleshooting \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "website-autopilot.html",
-      "title": "Website Autopilot \u00b7 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Autonomous website publication from proof-aligned source with QA and human review.",
-      "system": false
-    },
-    {
-      "path": "website-operating-system.html",
-      "title": "Website Operating System \u2014 GoalOS",
-      "category": "Navigation and Docs",
-      "description": "Open Website Operating System \u2014 GoalOS as part of the complete GoalOS public proof surface.",
-      "system": false
-    },
-    {
-      "path": "agialpha-token-boundary.html",
-      "title": "$AGIALPHA Public-Market Boundary",
-      "category": "Trust and Boundary",
-      "description": "Read the public-contract identification boundary: not available from GoalOS, no custody, no advice.",
-      "system": false
-    },
-    {
-      "path": "token.html",
-      "title": "$AGIALPHA Token Boundary",
-      "category": "Trust and Boundary",
-      "description": "Read the public-contract identification boundary: not available from GoalOS, no custody, no advice.",
-      "system": false
-    },
-    {
-      "path": "claim-boundary.html",
-      "title": "Claim Boundary \u00b7 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Ambition without unsupported claims: what the repository does and does not claim.",
-      "system": false
-    },
-    {
-      "path": "data-boundary.html",
-      "title": "Data Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
-      "system": false
-    },
-    {
-      "path": "data-room.html",
-      "title": "Data Room \u00b7 GoalOS Ascension",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
-      "system": false
-    },
-    {
-      "path": "demo-safety.html",
-      "title": "Demo Safety Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
-      "system": false
-    },
-    {
-      "path": "legal.html",
+      "href": "legal.html",
       "title": "Legal Shield \u2014 GoalOS",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Open Legal Shield \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "no-data-no-funds.html",
+      "href": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Local Autopilot Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "loop-bottleneck-observatory.html",
+      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "loop-contract-lab.html",
+      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "loop-flight-recorder.html",
+      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+      "category": "Loop \u2192 RSI",
+      "description": "Understand the loop-to-RSI governance path: contract, state, replay, bottleneck, dossiers, baselines, and gates.",
+      "system": false
+    },
+    {
+      "href": "mainnet-contract-atlas.html",
+      "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+      "category": "Mainnet Proof Rail",
+      "description": "Search, filter, and learn the 48 GoalOS-created Ethereum Mainnet contracts.",
+      "system": false
+    },
+    {
+      "href": "mainnet-proof-rail.html",
+      "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+      "category": "Mainnet Proof Rail",
+      "description": "Open GoalOS Mainnet Proof Rail \u2014 Contract Journey as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "meta-agentic-alpha-agi.html",
+      "title": "META-AGENTIC \u03b1-AGI",
+      "category": "Architecture & Research",
+      "description": "Open META-AGENTIC \u03b1-AGI as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "metrics.html",
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Metrics Dashboard \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-autopilot.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-command-center.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-os-canon.html",
+      "title": "Mission OS Canon",
+      "category": "Mission Autopilot",
+      "description": "Open Mission OS Canon as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "mission-os.html",
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Mission OS \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "multi-agent-institution.html",
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "no-data-no-funds.html",
       "title": "No Data / No Funds \u2014 GoalOS",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "privacy.html",
+      "href": "node.html",
+      "title": "Node Runtime \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Node Runtime \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "objective-command-center.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "open-ended-work-engine.html",
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants. as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "operator-checklist.html",
+      "title": "Operator Checklist \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Operator Checklist \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "operators.html",
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Operator Console Blueprint \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "paper-to-product.html",
+      "title": "Paper to Product",
+      "category": "Additional / Preserved",
+      "description": "Open Paper to Product as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "pathfinder.html",
+      "title": "Pathfinder \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Choose a beginner-friendly path through the GoalOS proof surface.",
+      "system": false
+    },
+    {
+      "href": "pilot-program.html",
+      "title": "Pilot Program \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Pilot Program \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "pilot-proof.html",
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Pilot Proof \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "privacy.html",
       "title": "Privacy \u2014 GoalOS",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "security-boundary.html",
+      "href": "product.html",
+      "title": "Product \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Product \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-backed-upgrade-rights-room.html",
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-card-studio.html",
+      "title": "Proof Card Studio \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Card Studio \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-carrying-artifact-foundry.html",
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-economy.html",
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Economy \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-experience-atlas.html",
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Experience Atlas \u2014 From output to proof as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-flight-demo.html",
+      "title": "Proof Flight Demo \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Flight Demo \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-gradient-lab.html",
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Gradient Lab \u2014 No proof, no evolution as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-ledger.html",
+      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+      "category": "Evidence & Review",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Metrics Dashboard \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-mission-control.html",
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Proof Mission Control \u2014 From Objective to First Docket as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-mission-forge.html",
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-mission-slots.html",
+      "title": "Proof Mission Slots \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Mission Slots \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-of-evolution.html",
+      "title": "Proof-of-Evolution",
+      "category": "Additional / Preserved",
+      "description": "Open Proof-of-Evolution as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001-docket.html",
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001-execution-room.html",
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "category": "Evidence & Review",
+      "description": "Review the Evidence Docket, gates, claims matrix, validator packet, and repository-readiness state.",
+      "system": false
+    },
+    {
+      "href": "proof-settlement-chronicle-lab.html",
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-Settlement Chronicle Lab as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-to-action-command-room.html",
+      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Proof-to-Action Command Room \u2014 Governed Decision State as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "proof-velocity.html",
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Proof Velocity \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Public Metrics Ledger \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "public-proof-ledger.html",
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Public Proof Ledger \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "quick-tour.html",
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "category": "Mission Autopilot",
+      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "real-task-benchmark-bridge.html",
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "release-gates.html",
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Release Gates \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "repository-map.html",
+      "title": "Repository Map \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Repository Map \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "research-spine.html",
+      "title": "Research Spine",
+      "category": "Architecture & Research",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "responsible-use.html",
+      "title": "Responsible Use \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Open Responsible Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "reviewer-path.html",
+      "title": "For Reviewers \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open For Reviewers \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "roadmap.html",
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Roadmap \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "run-locally.html",
+      "title": "Run Locally \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Run Locally \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "schema-registry.html",
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "search.html",
+      "title": "GoalOS Search",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
+      "system": false
+    },
+    {
+      "href": "security-boundary.html",
       "title": "Security Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "category": "Trust & Boundary",
+      "description": "Open Security Boundary \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "security.html",
+      "href": "security.html",
       "title": "Security \u00b7 GoalOS Ascension",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Open Security \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "investment-token-boundary.html",
-      "title": "Token & Investment Boundary",
-      "category": "Trust and Boundary",
-      "description": "Read the public-contract identification boundary: not available from GoalOS, no custody, no advice.",
+      "href": "site-health.html",
+      "title": "GoalOS Site Health",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Site Health as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "token-boundary.html",
-      "title": "Token Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "$AGIALPHA public contract identification only; not available from GoalOS.",
+      "href": "site-map.html",
+      "title": "GoalOS All Pages",
+      "category": "Mission Autopilot",
+      "description": "Find every public route and understand how it fits the GoalOS proof curriculum.",
       "system": false
     },
     {
-      "path": "trust-boundary.html",
-      "title": "Trust Boundary \u2014 GoalOS",
-      "category": "Trust and Boundary",
-      "description": "No user data, no user funds, no wallet, no transaction, no production authority.",
+      "href": "source-lineage.html",
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Source Lineage \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
       "system": false
     },
     {
-      "path": "trust.html",
-      "title": "Trust Center",
-      "category": "Trust and Boundary",
+      "href": "sovereign-experience-stream-lab.html",
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Sovereign Experience Stream Lab \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "standards.html",
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Standards \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "start-here.html",
+      "title": "Start Here \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Choose a beginner-friendly path through the GoalOS proof surface.",
+      "system": false
+    },
+    {
+      "href": "start.html",
+      "title": "Start Here \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Choose a beginner-friendly path through the GoalOS proof surface.",
+      "system": false
+    },
+    {
+      "href": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "category": "Evidence & Review",
+      "description": "Open Strategic Evidence Scorecard \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "tell-goalos.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "terms.html",
+      "title": "Terms of Use \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "description": "Open Terms of Use \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "token-boundary.html",
+      "title": "$AGIALPHA is public-contract identification only.",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
+      "system": false
+    },
+    {
+      "href": "token.html",
+      "title": "$AGIALPHA Token Boundary",
+      "category": "Trust & Boundary",
+      "description": "Review the public contract identification boundary and $AGIALPHA non-availability statement.",
+      "system": false
+    },
+    {
+      "href": "troubleshooting.html",
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "category": "Mission Autopilot",
+      "description": "Open Troubleshooting \u00b7 GoalOS Ascension as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "trust-boundary.html",
+      "title": "Proof-native. Not data-hungry. Not wallet-first.",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
       "system": false
     },
     {
-      "path": "trust-center.html",
+      "href": "trust-center.html",
       "title": "Trust Center \u00b7 GoalOS Ascension",
-      "category": "Trust and Boundary",
+      "category": "Trust & Boundary",
       "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "system": false
+    },
+    {
+      "href": "trust.html",
+      "title": "Trust Center",
+      "category": "Trust & Boundary",
+      "description": "Review the no-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "system": false
+    },
+    {
+      "href": "try-goalos.html",
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "category": "Mission Autopilot",
+      "description": "Open Try GoalOS \u2014 Browser-local Demo as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "universal-mission-autopilot.html",
+      "title": "GoalOS Universal Mission Interface",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Universal Mission Interface as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "validator-council-arena.html",
+      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+      "category": "Evidence & Review",
+      "description": "Open GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "validator-room.html",
+      "title": "Validator Room \u2014 GoalOS",
+      "category": "Evidence & Review",
+      "description": "Open Validator Room \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "validator-seats.html",
+      "title": "Validator Seats",
+      "category": "Evidence & Review",
+      "description": "Open Validator Seats as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "value-realization-control-room.html",
+      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+      "category": "Mission Autopilot",
+      "description": "Open GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "website-autopilot.html",
+      "title": "Website Autopilot \u00b7 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Website Autopilot \u00b7 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "website-operating-system.html",
+      "title": "Website Operating System \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open Website Operating System \u2014 GoalOS as part of the complete GoalOS public proof surface.",
+      "system": false
+    },
+    {
+      "href": "what-goalos-does.html",
+      "title": "What GoalOS Does \u2014 GoalOS",
+      "category": "Mission Autopilot",
+      "description": "Open What GoalOS Does \u2014 GoalOS as part of the complete GoalOS public proof surface.",
       "system": false
     }
-  ]
+  ],
+  "generated_at": "2026-07-02T21:35:58.425243Z"
 }

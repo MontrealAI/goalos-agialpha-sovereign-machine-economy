@@ -1,112 +1,37 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GoalOS Objective Command Center — Tell GoalOS What You Want</title>
-  <meta name="description" content="Enter a plain-language objective. GoalOS converts it into a Mission Contract, Evidence Docket plan, route map, governed decision state, and downloadable proof artifacts. Browser-local. No data. No wallet.">
-  <link rel="stylesheet" href="assets/goalos-objective-command-center-v20.css">
-<link rel="stylesheet" href="assets/goalos-autopilot-float-v21.css">
-<link rel="stylesheet" href="assets/goalos-universal-interface-v22.css"><link rel="stylesheet" href="assets/goalos-universal-interface-float-v22.css"></head>
-<body class="goalos-v20">
-  <nav class="g-nav">
-    <a class="brand" href="index.html"><span class="logo"></span><span><strong>GOALOS</strong><span>AGIALPHA ASCENSION</span></span></a>
-    <div class="nav-links">
-      <a href="mission-command-center.html">Mission Command</a>
-      <a href="start-here.html">Start</a>
-      <a href="pathfinder.html">Pathfinder</a>
-      <a href="demo-ecosystem-registry.html">Registry</a>
-      <a href="mainnet-contract-atlas.html">48 Contracts</a>
-      <a href="proof-run-001-docket.html">Proof Run 001</a>
-      <a href="ask-goalos.html">Ask GoalOS</a>
-      <a href="site-map.html">All Pages</a>
-    </div>
-  </nav>
-
-  <main class="g-wrap">
-    <section class="hero">
-      <div>
-        <div class="eyebrow">GoalOS Mission Command / Browser-local / No data</div>
-        <h1 class="headline">Tell GoalOS <em>what you want.</em></h1>
-        <p class="dek">GoalOS turns a plain-language objective into a Mission Contract, evidence plan, route map, governed decision state, and downloadable proof artifacts.</p>
-        <p class="subdek">This is the user-facing command layer: describe the outcome, and the console builds the proof path. It routes you to the right pages, dockets, demos, contract atlas, Loop → RSI rooms, trust boundary, and reviewer surfaces.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#console">Open mission box</a>
-          <a class="btn" href="ask-goalos.html">Ask questions instead</a>
-          <a class="btn" href="site-map.html">Browse all pages</a>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GoalOS Universal Mission Interface</title><meta name="description" content="GoalOS AGIALPHA Ascension public proof interface."><link rel="stylesheet" href="assets/goalos-universal-mission-interface-v23.css"></head><body><nav class="g23-nav g23-shell"><a class="g23-brand" href="goalos.html"><span class="g23-mark"></span><span>GoalOS<br>AGIALPHA</span></a><div class="g23-navlinks"><a class="g23-chip active" href="goalos.html">Mission</a><a class="g23-chip " href="start-here.html">Start</a><a class="g23-chip " href="pathfinder.html">Pathfinder</a><a class="g23-chip " href="demo-ecosystem-registry.html">Registry</a><a class="g23-chip " href="mainnet-contract-atlas.html">48 Contracts</a><a class="g23-chip " href="proof-run-001-docket.html">Proof Run 001</a><a class="g23-chip " href="from-loop-to-rsi-state-capacity.html">Loop→RSI</a><a class="g23-chip " href="site-map.html">All Pages</a><a class="g23-chip " href="trust-boundary.html">Trust</a><a class="g23-chip " href="token-boundary.html">Token</a><button class="g23-chip" data-g23-open-pages>Search /</button></div></nav><div class="g23-shell">
+    <section class="g23-hero">
+      <main>
+        <div class="g23-kicker">Mission OS · Universal Interface</div>
+        <h1 class="g23-title">Tell GoalOS<br><em>what you want.</em></h1>
+        <p class="g23-lede">One friendly box turns your objective into a Mission Contract, Evidence Docket plan, Action Graph, Reviewer Brief, and next best proof route.</p>
+        <p class="g23-copy">No account. No wallet. No transaction. No network call. This public-alpha interface runs in your browser and routes you through the complete GoalOS proof surface.</p>
+        <div class="g23-onebox" id="onebox">
+          <div class="g23-onebox-top"><b>What do you want GoalOS to help you accomplish?</b><span class="g23-status">browser-local</span></div>
+          <textarea id="g23-objective" class="g23-textarea" placeholder="Example: I want to understand the 48 Ethereum Mainnet contracts, then review the proof path and token boundary."></textarea>
+          <div class="g23-onebox-actions"><button class="g23-btn primary big" id="g23-generate">Generate proof path</button><button class="g23-btn big" id="g23-simulate">Show Mission OS cycle</button><button class="g23-btn big" id="g23-open-next">Open next best page</button></div>
         </div>
-        <div class="boundary"><strong>Public-alpha boundary:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required.</div>
-      </div>
-      <aside class="console" id="console" aria-label="GoalOS Mission Command Console">
-        <div class="console-head"><span class="pill">Sovereign Objective Console</span><span class="pill green">Local only</span></div>
-        <div class="mission-box">
-          <label for="objective">What do you want GoalOS to help you accomplish?</label>
-          <textarea id="objective" class="objective-input" spellcheck="true">I want to understand the 48 Ethereum Mainnet contracts and learn which contracts matter for proof, validation, settlement, Chronicle memory, and the $AGIALPHA boundary.</textarea>
-          <div class="quick-chips" aria-label="Example objective prompts">
-            <button data-prompt="I want to understand the 48 Ethereum Mainnet contracts and the institutional proof rail.">48 contracts</button>
-            <button data-prompt="I want to run a public-safe proof mission and know what evidence is required.">Proof mission</button>
-            <button data-prompt="I want to understand Loop to RSI governance and Move-37 dossier handling.">Loop → RSI</button>
-            <button data-prompt="I am a new user and want the fastest path to understand GoalOS.">Start guide</button>
-            <button data-prompt="I want to check privacy, token, no-data, no-funds, and no-wallet boundaries.">Trust boundary</button>
-          </div>
-          <div class="run-row">
-            <button class="btn primary" id="runMission">Generate proof path</button>
-            <button class="btn" id="simulate">Simulate Mission OS cycle</button>
-            <button class="btn" id="openNext">Open next best page</button>
-          </div>
-        </div>
-        <div class="state-grid">
-          <div class="state-card"><small>Decision</small><strong id="decision">—</strong><span>governed state</span></div>
-          <div class="state-card"><small>Risk</small><strong id="risk">—</strong><span>boundary class</span></div>
-          <div class="state-card"><small>Routes</small><strong id="routes">—</strong><span>recommended</span></div>
-          <div class="state-card"><small>Mission</small><strong id="missionId">—</strong><span>local id</span></div>
-          <div class="state-card"><small>External actions</small><strong>0</strong><span>browser-local</span></div>
-          <div class="state-card"><small>Authority</small><strong>Human</strong><span>review required</span></div>
-        </div>
-        <pre class="terminal" id="terminal">Console initializing…</pre>
+        <div class="g23-suggestions"><button class="g23-suggestion" data-g23-suggest="I want to understand the 48 Ethereum Mainnet contracts.">I want to understand the 48 Ethereum Mainnet contracts.</button><button class="g23-suggestion" data-g23-suggest="I want to run a public-safe proof mission.">I want to run a public-safe proof mission.</button><button class="g23-suggestion" data-g23-suggest="I want to understand Loop to RSI governance.">I want to understand Loop to RSI governance.</button><button class="g23-suggestion" data-g23-suggest="I want to check privacy, token, and data boundaries.">I want to check privacy, token, and data boundaries.</button><button class="g23-suggestion" data-g23-suggest="I am new and want the fastest path to understand GoalOS.">I am new and want the fastest path to understand GoalOS.</button></div>
+        <div class="g23-modes"><button class="g23-mode active" data-g23-mode="simple">Simple</button><button class="g23-mode" data-g23-mode="executive">Executive</button><button class="g23-mode" data-g23-mode="reviewer">Reviewer</button><button class="g23-mode" data-g23-mode="builder">Builder</button></div>
+      </main>
+      <aside class="g23-console" aria-label="GoalOS mission console">
+        <div class="g23-console-head">Sovereign Mission Console<span class="g23-status">ready</span></div>
+        <div class="g23-orb">α</div>
+        <div class="g23-steps"><div class="g23-step active"><b>01 Objective</b><small>Understand the request</small></div><div class="g23-step"><b>02 Boundary</b><small>Check privacy / funds / wallet</small></div><div class="g23-step"><b>03 Routes</b><small>Find the right proof surface</small></div><div class="g23-step"><b>04 Contract</b><small>Build Mission Contract</small></div><div class="g23-step"><b>05 Docket</b><small>Plan evidence and review</small></div><div class="g23-step"><b>06 Next</b><small>Open the best page</small></div></div>
+        <div class="g23-state" id="g23-state">mission: waiting
+state: AWAITING_OBJECTIVE
+external actions: 0</div>
+        <div class="g23-answer" id="g23-answer"><h3>Mission package will appear here.</h3><p>Type an objective or select a sample. GoalOS will generate the proof path and route cards locally.</p></div>
+        <div class="g23-onebox-actions"><button class="g23-btn" data-g23-download="json">Download Mission JSON</button><button class="g23-btn" data-g23-download="md">Download Reviewer Brief</button><button class="g23-btn" data-g23-download="csv">Download Action Graph</button></div>
       </aside>
     </section>
-
-    <section class="section">
-      <h2>From text box to proof path.</h2>
-      <div class="grid">
-        <article class="card"><h3>1. Mission Contract</h3><p>Your plain-language goal becomes bounded work with success criteria, risk class, claim boundary, allowed actions, and human-review requirement.</p></article>
-        <article class="card"><h3>2. Evidence Docket Plan</h3><p>The console lists what must be proven: claims, baselines, verifier checks, replay path, risk ledger, and public/private boundary.</p></article>
-        <article class="card"><h3>3. Route Autopilot</h3><p>GoalOS routes you to the right page: 48-contract atlas, Proof Run 001, Loop → RSI, registry, trust boundary, or reviewer room.</p></article>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Recommended pages.</h2>
-      <div id="routeList"></div>
-    </section>
-
-    <section class="section">
-      <h2>Required gates.</h2>
-      <div class="state-grid" id="gateGrid"></div>
-    </section>
-
-    <section class="section">
-      <h2>What GoalOS prepares.</h2>
-      <div class="steps" id="planSteps"></div>
-    </section>
-
-    <section class="section">
-      <h2>Download the local mission package.</h2>
-      <p class="subdek">These artifacts are generated in your browser from the objective text. They are not uploaded, transmitted, stored, or sent to a model.</p>
-      <div class="artifacts">
-        <button class="artifact-btn" id="downloadJson">Mission Contract JSON</button>
-        <button class="artifact-btn" id="downloadMd">Reviewer Brief MD</button>
-        <button class="artifact-btn" id="downloadCsv">Action Graph CSV</button>
-        <a class="artifact-btn" href="demo-ecosystem-registry.html">Open Demo Registry</a>
-      </div>
-    </section>
-  </main>
-
-  <div class="floating"><a href="mission-command-center.html">Mission Command</a><a href="site-map.html">All pages</a></div>
-  <div class="toast" id="toast"></div>
-  <footer class="g-wrap foot">GoalOS AGIALPHA Ascension — public-alpha proof operating surface. AI creates output. GoalOS creates proof. No user data. No user funds. No wallet. No transaction. Human review required.</footer>
-  <script src="assets/goalos-objective-command-center-v20.js"></script>
-<a class="goalos-v21-float" href="tell-goalos.html" aria-label="Tell GoalOS what you want">Tell GoalOS</a>
-<a class="v22-float" href="goalos.html">Tell GoalOS</a></body>
-</html>
+    <section class="g23-section"><h2 class="g23-section-title">GoalOS takes care of the proof path.</h2><div class="g23-grid">
+      <div class="g23-card"><small>1</small><h3>Mission Contract</h3><p>Turns a vague objective into success criteria, failure criteria, constraints, risk class, and review requirement.</p></div>
+      <div class="g23-card"><small>2</small><h3>Claims Matrix</h3><p>Separates what is claimed, what is not claimed, what evidence is required, and which boundary applies.</p></div>
+      <div class="g23-card"><small>3</small><h3>Evidence Docket Plan</h3><p>Creates the public-safe proof room: manifests, baselines, proof packets, risk/cost ledger, and replay path.</p></div>
+      <div class="g23-card"><small>4</small><h3>Route Intelligence</h3><p>Finds the right page among contracts, Proof Run 001, Loop→RSI, trust, token, registry, docs, and all pages.</p></div>
+      <div class="g23-card"><small>5</small><h3>Reviewer Package</h3><p>Creates a human-review-ready brief so decisions remain inspectable rather than hidden behind a chat answer.</p></div>
+      <div class="g23-card"><small>6</small><h3>Capability Stub</h3><p>Packages the accepted path as reusable institutional memory once proof and review are complete.</p></div>
+    </div></section>
+    <section class="g23-section"><div class="g23-panel"><h2 class="g23-section-title">The Mission OS loop</h2><div class="g23-proofpath"><div>Objective</div><div>Mission Contract</div><div>Autonomous Work</div><div>Verification</div><div>Evidence Docket</div><div>Governed Decision State</div><div>Action Graph</div><div>Reusable Capability</div></div></div></section>
+    <section class="g23-section"><div class="g23-boundary"><b>Public-alpha boundary.</b> No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required. $AGIALPHA public contract identification only. Not available from GoalOS. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.</div></section>
+    </div><footer class="g23-footer g23-shell"><b>GoalOS AGIALPHA Ascension</b> — public-alpha proof operating system. No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.<br><a href="trust-boundary.html">Trust Boundary</a> · <a href="token-boundary.html">Token Boundary</a> · <a href="site-map.html">All Pages</a> · <a href="site-health.html">Site Health</a></footer><div class="g23-float"><a href="goalos.html">Tell GoalOS</a><button data-g23-open-pages>Search /</button></div><div class="g23-modal" id="g23-allpages-modal"><div class="g23-modal-card"><div class="g23-modal-top"><b>GoalOS route command palette</b><button class="g23-close" data-g23-close>×</button></div><div style="padding:20px"><input class="g23-filter" id="g23-allpages-filter" placeholder="Search all GoalOS routes: contracts, RSI, proof, token, validator..."/><div class="g23-table" id="g23-allpages-list"></div></div></div></div><script src="assets/goalos-universal-mission-routes-v23.js"></script><script src="assets/goalos-universal-mission-interface-v23.js"></script></body></html>

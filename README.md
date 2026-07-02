@@ -159,3 +159,8 @@ Open: `public/tell-goalos.html`.
 Front-and-center mission interface: the user enters a public-safe objective in one text box; GoalOS generates a Mission Contract, Claims Matrix, Evidence Docket plan, Action Graph, reviewer package, Chronicle stub, capability package stub, and the next best route. Browser-local only: no user data, no wallet, no transaction, no network call, no production authority.
 
 Open `public/goalos.html` or the live route `/goalos.html`.
+
+
+## GoalOS Universal Mission Interface V23
+
+The primary website path is now a one-box Mission OS interface: users type what they want, and GoalOS generates a browser-local Mission Contract, Evidence Docket plan, Action Graph, Reviewer Brief, and next best route. Primary page: `public/goalos.html`. Boundary preserved: no user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.
