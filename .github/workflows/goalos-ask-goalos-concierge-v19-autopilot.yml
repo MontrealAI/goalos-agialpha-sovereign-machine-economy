@@ -1,0 +1,143 @@
+name: GoalOS Ask GoalOS Concierge V19 — Live Route Assistant
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.40.1-ask-goalos-concierge-v19
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-ask-goalos-concierge-v19-pack.zip
+
+jobs:
+  ask-goalos-concierge:
+    name: Install Ask GoalOS Concierge V19
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Unpack Ask GoalOS Concierge V19 pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import pathlib, zipfile
+          zip_path = pathlib.Path('.goalos/packs/goalos-ask-goalos-concierge-v19-pack.zip')
+          with zipfile.ZipFile(zip_path) as z:
+              z.extractall(pathlib.Path.cwd())
+          print(f'unpacked {zip_path}')
+          PY
+
+      - name: Install browser-local question assistant
+        run: python scripts/install_ask_goalos_concierge_v19.py
+
+      - name: Run deterministic concierge demo
+        run: python scripts/run_ask_goalos_concierge_v19_demo.py
+
+      - name: Audit browser-local boundary
+        run: python scripts/goalos_ask_goalos_concierge_v19_audit.py
+
+      - name: Commit Ask GoalOS Concierge V19
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples scripts evidence reports content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add Ask GoalOS Concierge V19"
+            git push
+          fi
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh issue create \
+            --title "Ask GoalOS Concierge V19 — Browser-local route assistant review" \
+            --body-file issue-bodies/ask-goalos-concierge-v19.md \
+            --label "ux" \
+            --label "ask-goalos" \
+            --label "review" || true
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          gh release create "$tag" \
+            reports/ask-goalos-concierge-v19-qa.json \
+            reports/ask-goalos-concierge-v19-demo-run.json \
+            reports/ask-goalos-concierge-v19-install-report.json \
+            evidence/demo/ask-goalos-concierge-v19-reference-docket.json \
+            --title "GoalOS Ask GoalOS Concierge V19" \
+            --notes "Browser-local live question window and autonomous route assistant. No user data, no funds, no wallet, no transaction, no network call, human review required." || true
