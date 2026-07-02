@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    "generated page index.html links to missing public/token-boundary.html"
+  ],
+  "routeCount": 130,
+  "browserLocal": true,
+  "noNetworkCall": true,
+  "noUserData": true,
+  "noUserFunds": true,
+  "walletOrMainnet": false,
+  "humanReviewRequired": true
+}

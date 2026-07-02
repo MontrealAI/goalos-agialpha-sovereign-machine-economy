@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "demo": "GoalOS Loop Flight Recorder V1",
+  "generated_at": "2026-07-01T18:10:07Z",
+  "simulated_run": {
+    "cycles": 3,
+    "clean_restarts": 1,
+    "decision_state": "LOOP_REVIEW_READY",
+    "artifacts": [
+      "loop recorder",
+      "state pack",
+      "Evidence Docket plan",
+      "bottleneck report",
+      "reviewer brief"
+    ]
+  },
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "production_authority": false,
+    "human_review_required": true
+  }
+}

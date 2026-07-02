@@ -1,0 +1,15 @@
+{
+  "name": "GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy \u2728",
+  "short_name": "GoalOS Ascension",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#05050a",
+  "theme_color": "#05050a",
+  "icons": [
+    {
+      "src": "assets/goalos-mark.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

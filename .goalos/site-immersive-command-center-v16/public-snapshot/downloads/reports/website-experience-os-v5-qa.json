@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-30T13:01:09+00:00",
+  "required_pages_present": true,
+  "missing_required_pages": [],
+  "route_integrity_passed": true,
+  "broken_links_after_repair": [],
+  "broken_links_repaired": [],
+  "forbidden_browser_apis_absent": true,
+  "forbidden_browser_api_hits": [],
+  "index_has_boundary": true,
+  "token_boundary_present_and_clear": true,
+  "pages_discovered_before": 134,
+  "pages_discovered_after": 134,
+  "pages_injected_with_command_palette": [],
+  "public_alpha_boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract address only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice."
+}

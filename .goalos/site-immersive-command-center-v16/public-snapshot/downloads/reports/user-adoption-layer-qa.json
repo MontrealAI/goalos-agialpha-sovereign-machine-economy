@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-27T15:51:35Z",
+  "pages_checked": 12,
+  "pages": [
+    "start-here.html",
+    "try-goalos.html",
+    "evidence-room.html",
+    "proof-run-001-live.html",
+    "validator-room.html",
+    "proof-mission-slots.html",
+    "proof-metrics-dashboard.html",
+    "what-goalos-does.html",
+    "glossary.html",
+    "run-locally.html",
+    "reviewer-path.html",
+    "falsification-box.html"
+  ],
+  "docs_reviewer": true,
+  "docs_pilot": true,
+  "issue_forms": true,
+  "evidence_room_index": true,
+  "external_actions_authorized": false,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "errors": []
+}

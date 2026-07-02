@@ -1,0 +1,27 @@
+{
+  "title": "GoalOS Proof Mission Forge V1",
+  "tagline": "Turn an objective into a proof mission.",
+  "sequence": [
+    "Objective",
+    "Mission Contract",
+    "Claims Matrix",
+    "Evidence Docket Plan",
+    "Validator Packet",
+    "GitHub-ready issue draft"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "role_paths": [
+    "new user",
+    "reviewer",
+    "validator",
+    "pilot partner",
+    "developer"
+  ]
+}

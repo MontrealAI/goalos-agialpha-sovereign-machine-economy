@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "capabilities_checked": 18,
+  "capabilities_covered": 18,
+  "missing": [],
+  "boundary": {
+    "production_authority": false,
+    "external_actions_authorized": false,
+    "wallet_or_mainnet": false,
+    "human_review_required": true
+  },
+  "capability_matrix": [
+    {
+      "capability": "Mission Contracts",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Proof Jobs",
+      "code": "src/goalos_ascension/kernel.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Tool Traces",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Evidence Dockets",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Validator Reports",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Governed Decision States",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Settlement Receipts",
+      "code": "src/goalos_ascension/kernel.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Chronicle Memory",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Capability Packages",
+      "code": "src/goalos_ascension/models.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "AEP-001 Object Model",
+      "code": "src/goalos_ascension/aep001.py",
+      "test": "tests/test_aep001_conformance.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Proof Gradient",
+      "code": "src/goalos_ascension/aep001.py",
+      "test": "tests/test_aep001_conformance.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Evidence Docket 6.1",
+      "code": "src/goalos_ascension/aep001.py",
+      "test": "tests/test_aep001_conformance.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Mission OS until-DONE",
+      "code": "src/goalos_ascension/mission_os.py",
+      "test": "tests/test_mission_os.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Frontier Release Room",
+      "code": "src/goalos_ascension/frontier_release.py",
+      "test": "tests/test_frontier_release.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Multi-Agent Institution",
+      "code": "src/goalos_ascension/coordination.py",
+      "test": "tests/test_coordination.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Proof Run 001",
+      "code": "src/goalos_ascension/proof_run.py",
+      "test": "tests/test_proof_run_001.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Capability Parity Audit",
+      "code": "src/goalos_ascension/parity.py",
+      "test": "tests/test_capability_parity.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    },
+    {
+      "capability": "Public Parity Page",
+      "code": "public/capability-parity.html",
+      "test": "tests/test_capability_parity.py",
+      "code_exists": true,
+      "test_exists": true,
+      "covered": true
+    }
+  ]
+}

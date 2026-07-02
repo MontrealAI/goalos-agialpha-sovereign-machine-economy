@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "version": "ascension-visual-parity-v4",
+  "pages_checked": 9,
+  "checks": {
+    "cinematic_hero": true,
+    "frontier_release_room": true,
+    "dynamic_console": true,
+    "meta_agentic_foundry": true,
+    "claim_boundary": true
+  },
+  "errors": 0
+}

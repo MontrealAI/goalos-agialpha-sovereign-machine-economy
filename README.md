@@ -118,3 +118,8 @@ Boundary: No user data. No user funds. No wallet. No transaction. No network cal
 V14 restores and polishes the public website as one complete route system: dynamic command center, Pathfinder, all-pages map, registry, site health, trust/token boundary, and browser-local command palette. It preserves existing pages and adds discoverability rather than deleting prior work.
 
 Public-alpha boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
+
+
+## Site Immersive Command Center V16
+
+The public website has been refreshed into a complete browser-local command center: homepage, Start, Pathfinder, Registry, Site Map, Site Health, Search, Loop to RSI route, trust/token boundaries, route QA, and a command palette opened with `/`. No pages are removed; missing public files are restored from the V16 public snapshot when needed.

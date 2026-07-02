@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "installed_at": "2026-06-29T18:43:59Z",
+  "page": "public/open-ended-work-engine.html",
+  "assets": [
+    "public/assets/goalos-open-ended-work-engine-v1.css",
+    "public/assets/goalos-open-ended-work-engine-v1.js"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

@@ -1,0 +1,19 @@
+name: Site Immersive Command Center V16 Feedback
+description: Public-safe feedback on the restored GoalOS website command center.
+title: "[Site V16] "
+labels: ["website", "ux", "review"]
+body:
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Public-safe confirmation
+      options:
+        - label: I confirm I am not submitting personal data, customer data, confidential data, regulated data, credentials, wallet information, private keys, seed phrases, payment information, trade secrets, proprietary data, or user funds.
+          required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What should be improved?
+      description: Describe the page, route, or workflow.
+    validations:
+      required: true

@@ -1,0 +1,12 @@
+{
+  "schema": "goalos.demo.capability_compounding_lab.v1",
+  "title": "GoalOS Capability Compounding Lab V1",
+  "tagline": "Verified work becomes reusable capability.",
+  "page": "public/capability-compounding-lab.html",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "no_transaction": true,
+  "human_review_required": true
+}

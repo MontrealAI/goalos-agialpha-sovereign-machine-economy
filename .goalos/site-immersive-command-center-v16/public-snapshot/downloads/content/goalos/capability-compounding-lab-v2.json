@@ -1,0 +1,13 @@
+{
+  "page": "capability-compounding-lab.html",
+  "version": "v2",
+  "public_thesis": "Verified work becomes reusable capability.",
+  "browser_local": true,
+  "downloads": [
+    "Evidence Docket",
+    "Capability Package",
+    "Chronicle Entry",
+    "Compounding Report",
+    "Proof Card SVG"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-06-30T00:00:00Z",
+  "generator": "/tmp/upgrade.py",
+  "qa_reports": [
+    "reports/docs-quality.json",
+    "reports/site-quality.json",
+    "reports/site-route-health.json",
+    "reports/repository-preflight-inventory-v3.json"
+  ],
+  "commands": [
+    "python scripts/goalos_docs_quality.py",
+    "python scripts/goalos_site_quality.py",
+    "python scripts/validate_repo.py",
+    "python scripts/build_site.py",
+    "python scripts/verify_site.py",
+    "python -m unittest discover -s tests"
+  ]
+}

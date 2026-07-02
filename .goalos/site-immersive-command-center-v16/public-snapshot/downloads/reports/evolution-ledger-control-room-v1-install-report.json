@@ -1,0 +1,24 @@
+{
+  "status": "installed",
+  "generated_at": "2026-06-29T13:23:31Z",
+  "files": [
+    "public/evolution-ledger-control-room.html",
+    "public/assets/goalos-evolution-ledger-room-v1.css",
+    "public/assets/goalos-evolution-ledger-room-v1.js",
+    "docs/demos/EVOLUTION_LEDGER_CONTROL_ROOM_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_EVOLUTION_LEDGER_CONTROL_ROOM.md",
+    "examples/evolution-ledger/public-safe-ledger-scenarios.md",
+    "content/goalos/evolution-ledger-control-room-v1.json",
+    ".github/ISSUE_TEMPLATE/evolution_ledger_control_room_feedback.yml",
+    "issue-bodies/evolution-ledger-control-room-v1.md"
+  ],
+  "page": "public/evolution-ledger-control-room.html",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

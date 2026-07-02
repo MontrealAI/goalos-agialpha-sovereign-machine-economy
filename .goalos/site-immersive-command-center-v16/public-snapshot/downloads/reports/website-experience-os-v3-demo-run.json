@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-30T02:39:22Z",
+  "checks": [
+    "homepage",
+    "pathfinder",
+    "registry",
+    "site-map",
+    "trust-boundary",
+    "command-palette"
+  ]
+}

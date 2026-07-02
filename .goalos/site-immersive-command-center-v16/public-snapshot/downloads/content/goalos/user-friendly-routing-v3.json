@@ -1,0 +1,40 @@
+{
+  "schema": "goalos.user_friendly_routes.v3",
+  "generated_at": "2026-06-27T18:24:47Z",
+  "routes": [
+    {
+      "audience": "new_user",
+      "page": "start-here.html"
+    },
+    {
+      "audience": "try",
+      "page": "try-goalos.html"
+    },
+    {
+      "audience": "reviewer",
+      "page": "evidence-room.html"
+    },
+    {
+      "audience": "validator",
+      "page": "validator-room.html"
+    },
+    {
+      "audience": "pilot",
+      "page": "proof-mission-slots.html"
+    },
+    {
+      "audience": "developer",
+      "page": "run-locally.html"
+    },
+    {
+      "audience": "boundary",
+      "page": "no-data-no-funds.html"
+    }
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "human_review_required": true
+  }
+}

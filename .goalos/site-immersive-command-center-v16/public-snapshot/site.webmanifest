@@ -1,0 +1,9 @@
+{
+  "name": "GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy",
+  "short_name": "GoalOS",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050713",
+  "theme_color": "#050713",
+  "description": "Proof-settled autonomous AI work"
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="GoalOS mark">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#fff6a6"/><stop offset=".42" stop-color="#5fffd2"/><stop offset=".72" stop-color="#67a7ff"/><stop offset="1" stop-color="#0a0f1f"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="#050713"/>
+  <circle cx="60" cy="60" r="42" fill="none" stroke="url(#g)" stroke-width="3" opacity=".95" filter="url(#glow)"/>
+  <circle cx="60" cy="60" r="22" fill="url(#g)" opacity=".22"/>
+  <path d="M60 24 72 58h19L62 96l8-28H48l12-44Z" fill="#fff6a6" filter="url(#glow)"/>
+  <text x="60" y="68" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="900" fill="#07101a">α</text>
+</svg>

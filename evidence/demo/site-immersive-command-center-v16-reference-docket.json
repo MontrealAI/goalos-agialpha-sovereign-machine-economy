@@ -1,0 +1,35 @@
+{
+  "id": "site-immersive-command-center-v16-reference-docket",
+  "claim": "The GoalOS public site has a complete, routeable, browser-local command center.",
+  "decision_state": "REVIEW_READY",
+  "public_pages": 139,
+  "gates": [
+    {
+      "gate": "route inventory",
+      "status": "PASS"
+    },
+    {
+      "gate": "missing page restoration",
+      "status": "PASS"
+    },
+    {
+      "gate": "browser-local command palette",
+      "status": "PASS"
+    },
+    {
+      "gate": "public-alpha boundary",
+      "status": "PASS"
+    },
+    {
+      "gate": "token boundary",
+      "status": "PASS"
+    },
+    {
+      "gate": "internal html links",
+      "status": "PASS"
+    }
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract address only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.",
+  "generated_at": "2026-07-02T13:05:10Z"
+}

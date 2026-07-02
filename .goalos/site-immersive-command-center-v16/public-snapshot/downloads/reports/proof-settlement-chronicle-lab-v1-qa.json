@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_at": "2026-06-28T19:10:40Z",
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "wallet_or_mainnet": false,
+  "human_review_required": true,
+  "errors": []
+}

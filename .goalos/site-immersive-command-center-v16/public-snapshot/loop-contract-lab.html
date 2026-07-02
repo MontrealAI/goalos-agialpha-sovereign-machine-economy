@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Loop Contract Lab — Write the loop, not the prompt.</title>
+  <meta name="description" content="A browser-local public demo showing how long-running agent loops become proof-bearing GoalOS institutions: role contracts, disk state, restart, traces, bottleneck detection, and Evidence Dockets.">
+  <meta name="theme-color" content="#06121f">
+  <link rel="stylesheet" href="assets/goalos-loop-contract-lab-v1.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Start</a>
+      <a href="pathfinder.html">Pathfinder</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+      <a href="demo-ecosystem-registry.html">Registry</a>
+      <a href="site-health.html">Site Health</a>
+      <a href="trust-boundary.html">Trust</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow"><span></span> LOOP DEMO / BROWSER-LOCAL / NO DATA</p>
+        <h1>Write the loop.<br><em>Not the prompt.</em></h1>
+        <p class="lead">
+          A long-running agent is not one clever instruction. It is a restartable contract:
+          roles, state files, trace logs, evaluators, restart policy, bottleneck detection,
+          and a proof docket that explains what happened.
+        </p>
+        <div class="cta-row">
+          <button id="runLoop" class="primary">Run loop contract</button>
+          <button id="stressLoop">Stress weak contract</button>
+          <button id="restartLoop">Restart from disk</button>
+        </div>
+        <div class="boundary">
+          <strong>PUBLIC-ALPHA BOUNDARY</strong>
+          No user data. No user funds. No wallet. No transaction. No network call.
+          No production authority. Human review required.
+        </div>
+      </div>
+
+      <aside class="console" aria-label="Loop console">
+        <div class="console-head">
+          <span>LOOP HARNESS</span>
+          <span id="statePill">READY</span>
+        </div>
+        <div class="orbit" aria-hidden="true">
+          <div class="ring r1"></div>
+          <div class="ring r2"></div>
+          <div class="core">μ</div>
+          <span class="node n1">PLAN</span>
+          <span class="node n2">GEN</span>
+          <span class="node n3">EVAL</span>
+          <span class="node n4">VERIFY</span>
+          <span class="node n5">DISK</span>
+          <span class="node n6">RESTART</span>
+          <span class="node n7">TRACE</span>
+          <span class="node n8">EVOLVE</span>
+        </div>
+        <div class="rail" id="rail"></div>
+        <pre id="traceLog" class="trace" aria-live="polite">01 · Awaiting loop contract.
+02 · Roles separated: planner / generator / evaluator.
+03 · State target: contract.md · progress.md · log.md · feature_list.json.</pre>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Loop metrics">
+      <article><strong id="readiness">72</strong><span>Readiness</span></article>
+      <article><strong id="restartScore">68%</strong><span>Restart confidence</span></article>
+      <article><strong id="traceScore">61%</strong><span>Trace coverage</span></article>
+      <article><strong id="overheadScore">29%</strong><span>Harness overhead</span></article>
+      <article><strong id="decision">CONTRACT_DRAFT</strong><span>Decision state</span></article>
+    </section>
+
+    <section class="workbench">
+      <aside class="panel">
+        <div class="section-title">01 / Contract</div>
+        <label>Loop scenario
+          <select id="scenario">
+            <option value="repository-release">Repository release hardening</option>
+            <option value="proof-run-refresh">Proof Run 001 refresh</option>
+            <option value="documentation-qa">Documentation QA sweep</option>
+            <option value="demo-repair">Public demo repair</option>
+            <option value="benchmark-bridge">Real-task benchmark bridge</option>
+          </select>
+        </label>
+        <label>Objective
+          <textarea id="objective" rows="7">Run a public-safe loop that turns a repository release objective into role contracts, state files, trace logs, restart checkpoints, an Evidence Docket plan, and a human-review-ready decision.</textarea>
+        </label>
+        <label>Loop horizon
+          <select id="horizon">
+            <option>90 minutes</option>
+            <option selected>1 day</option>
+            <option>3 days</option>
+            <option>7 days</option>
+          </select>
+        </label>
+        <div class="button-stack">
+          <button id="readTraces">Read traces</button>
+          <button id="deleteHarness">Delete harness overhead</button>
+          <button id="copySummary">Copy summary</button>
+        </div>
+      </aside>
+
+      <section class="panel theatre">
+        <div class="section-title">02 / Loop flight</div>
+        <div class="flow" id="flow"></div>
+        <div class="files">
+          <div><strong>contract.md</strong><span id="contractState">draft</span></div>
+          <div><strong>progress.md</strong><span id="progressState">empty</span></div>
+          <div><strong>log.md</strong><span id="logState">waiting</span></div>
+          <div><strong>feature_list.json</strong><span id="featureState">seeded</span></div>
+        </div>
+        <div class="state-card">
+          <h3 id="loopHeadline">A loop is a first-class object.</h3>
+          <p id="loopExplanation">
+            The contract defines done. Disk state preserves memory. The evaluator prevents the generator from grading itself.
+            Trace reading turns debugging into governance.
+          </p>
+        </div>
+      </section>
+
+      <aside class="panel gates">
+        <div class="section-title">03 / Gates</div>
+        <div id="gates"></div>
+        <div class="download-stack">
+          <button data-download="contract">Download loop contract</button>
+          <button data-download="state">Download disk-state pack</button>
+          <button data-download="docket">Download Evidence Docket plan</button>
+          <button data-download="bottleneck">Download bottleneck report</button>
+          <button data-download="review">Download reviewer brief</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <article>
+        <p class="eyebrow"><span></span> WHY THIS MATTERS</p>
+        <h2>Prompting stops at output. Loops create institutions.</h2>
+        <p>
+          The GoalOS interpretation of long-running agent loops is simple: make the loop a governed object.
+          Separate the planner, generator, and evaluator. Negotiate the contract before work begins. Write the state to disk.
+          Let the loop restart. Read traces. Delete harness that the model no longer needs. Then make the next bottleneck visible.
+        </p>
+      </article>
+      <article>
+        <p class="eyebrow"><span></span> GOALOS MAPPING</p>
+        <h2>Loop → Contract → Trace → Docket → Capability.</h2>
+        <p>
+          A loop becomes GoalOS-native when it emits a Mission Contract, ProofPackets, trace summaries,
+          an Evidence Docket plan, rollback / restart receipts, a Governed Decision State, and a capability package
+          that can be reused only after review.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <strong>GoalOS AGIALPHA Ascension</strong>
+    <span>AI creates output. GoalOS creates proof.</span>
+    <span>No user data · No user funds · Browser-local public demo · Human review required.</span>
+  </footer>
+
+  <script src="assets/goalos-loop-contract-lab-v1.js"></script>
+</body>
+</html>

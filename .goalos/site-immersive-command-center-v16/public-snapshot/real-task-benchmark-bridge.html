@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Real-Task Benchmark Bridge — From Demos to Evidence</title>
+  <meta name="description" content="A browser-local public demo showing how GoalOS turns public-alpha architecture into real-task benchmark evidence: task families, baselines, proof bundles, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review.">
+  <meta property="og:title" content="GoalOS Real-Task Benchmark Bridge">
+  <meta property="og:description" content="From demos to real tasks. Strong claims need baselines, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-real-task-benchmark-bridge-v1.css">
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+</head>
+<body>
+  <div class="ambient"></div>
+  <div class="grid"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="proof-run-001-docket.html">Docket</a>
+      <a href="external-reviewer-replay-room.html">Reviewer Room</a>
+      <a class="active" href="real-task-benchmark-bridge.html">Benchmark Bridge</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>PUBLIC DEMO / BROWSER-LOCAL / NO DATA</p>
+        <h1>From demos to <em>real-task evidence.</em></h1>
+        <p class="lead">
+          GoalOS becomes empirical only when claims survive real tasks, equal-budget baselines,
+          ProofBundles, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review.
+        </p>
+        <div class="actions">
+          <button id="runBridge" class="primary">Run benchmark bridge</button>
+          <button id="stressBridge" class="secondary">Stress baselines</button>
+          <button id="resetBridge" class="ghost">Reset</button>
+        </div>
+        <p class="boundary"><strong>Default deny:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required.</p>
+      </div>
+      <aside class="hero-panel" aria-label="Benchmark readiness">
+        <div class="mode-toggle" role="group" aria-label="Display mode">
+          <button class="mode active" data-mode="executive">Executive</button>
+          <button class="mode" data-mode="technical">Technical</button>
+        </div>
+        <div class="ring-wrap">
+          <svg viewBox="0 0 180 180" class="ring" aria-hidden="true">
+            <circle cx="90" cy="90" r="70" class="ring-bg"></circle>
+            <circle cx="90" cy="90" r="70" class="ring-fg" id="readinessRing"></circle>
+            <text x="90" y="84" id="readinessNumber">58</text>
+            <text x="90" y="110" class="caption">bridge readiness</text>
+          </svg>
+        </div>
+        <h2 id="decisionState">HOLD_BASELINES_REQUIRED</h2>
+        <p id="decisionExplain">Run the bridge to assemble the benchmark path.</p>
+      </aside>
+    </section>
+
+    <section class="stat-rail" aria-label="Live metrics">
+      <div><strong id="taskFamily">Software repair</strong><span>Task family</span></div>
+      <div><strong id="baselineWinner">B5</strong><span>Current leader</span></div>
+      <div><strong id="gatesPassed">5/9</strong><span>Gates passed</span></div>
+      <div><strong id="proofDebt">42</strong><span>Proof debt</span></div>
+      <div><strong id="riskState">bounded</strong><span>Risk state</span></div>
+    </section>
+
+    <section class="lab-grid">
+      <aside class="card controls">
+        <div class="step"><span>01</span><h3>Choose the evidence target</h3></div>
+        <label>Benchmark family
+          <select id="scenario">
+            <option value="repo">Repository launch readiness</option>
+            <option value="software" selected>Software repair</option>
+            <option value="web">Web / desktop workflow</option>
+            <option value="policy">Policy-bound tool use</option>
+            <option value="science">Scientific / data workflow</option>
+            <option value="agijobs">Protocol-native AGI Jobs</option>
+          </select>
+        </label>
+        <label>Claim under test
+          <textarea id="claimText" maxlength="420">GoalOS public-alpha architecture is ready to enter a real-task benchmark bridge with explicit baselines, replay path, cost/risk ledger, validator packet, and claim boundary.</textarea>
+        </label>
+        <label>Risk class
+          <select id="riskClass">
+            <option>Public-safe</option>
+            <option>Constrained</option>
+            <option>High-review</option>
+          </select>
+        </label>
+        <div class="toggles">
+          <label><input type="checkbox" data-gate="task" checked> Real task manifest</label>
+          <label><input type="checkbox" data-gate="budget" checked> Equal-budget constraint</label>
+          <label><input type="checkbox" data-gate="baselines" checked> Baseline ladder B0–B6</label>
+          <label><input type="checkbox" data-gate="proof" checked> ProofBundle / Evidence Docket</label>
+          <label><input type="checkbox" data-gate="replay" checked> Replay path</label>
+          <label><input type="checkbox" data-gate="costrisk" checked> Cost + risk ledgers</label>
+          <label><input type="checkbox" data-gate="validator" checked> Validator report</label>
+          <label><input type="checkbox" data-gate="delayed"> Delayed-outcome plan</label>
+          <label><input type="checkbox" data-gate="external"> Independent reviewer path</label>
+        </div>
+      </aside>
+
+      <section class="card theatre">
+        <div class="step"><span>02</span><h3>Watch the bridge assemble</h3></div>
+        <div class="bridge-visual" id="bridgeVisual">
+          <svg viewBox="0 0 900 460" role="img" aria-label="Benchmark bridge fallback diagram">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#79f7d0"/>
+                <stop offset="1" stop-color="#a591ff"/>
+              </linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <rect width="900" height="460" rx="28" fill="#071021"/>
+            <g opacity=".18" stroke="#fff">
+              <path d="M60 80H840M60 140H840M60 200H840M60 260H840M60 320H840M60 380H840"/>
+              <path d="M120 50V420M220 50V420M320 50V420M420 50V420M520 50V420M620 50V420M720 50V420"/>
+            </g>
+            <g id="staticNodes" font-family="Inter, Arial" font-weight="800" font-size="18" text-anchor="middle">
+              <rect x="70" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#79f7d0"/>
+              <text x="140" y="225" fill="#fff">TASK</text><text x="140" y="250" fill="#9fb2d8" font-size="12">real manifest</text>
+              <rect x="250" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#79f7d0"/>
+              <text x="320" y="225" fill="#fff">BASELINES</text><text x="320" y="250" fill="#9fb2d8" font-size="12">B0 → B6</text>
+              <rect x="430" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#ffe777"/>
+              <text x="500" y="225" fill="#fff">PROOF</text><text x="500" y="250" fill="#9fb2d8" font-size="12">docket + replay</text>
+              <rect x="610" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#a591ff"/>
+              <text x="680" y="225" fill="#fff">VALIDATE</text><text x="680" y="250" fill="#9fb2d8" font-size="12">reviewer path</text>
+              <circle cx="805" cy="230" r="48" fill="url(#g1)" filter="url(#glow)"/>
+              <text x="805" y="237" fill="#071021" font-size="28">α</text>
+              <path d="M210 230H250M390 230H430M570 230H610M750 230H757" stroke="url(#g1)" stroke-width="5" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="bars" id="baselineBars"></div>
+        <div class="chronicle" id="chronicle" aria-live="polite">
+          <p>Awaiting bridge run. The benchmark bridge will compare baselines before allowing a stronger claim.</p>
+        </div>
+      </section>
+
+      <aside class="card decision">
+        <div class="step"><span>03</span><h3>Inspect the verdict</h3></div>
+        <div class="verdict">
+          <h4 id="verdictTitle">Baseline bridge not yet assembled.</h4>
+          <p id="verdictCopy">A strong empirical claim remains blocked until real-task manifest, baselines, replay, ledgers, validator report, delayed-outcome plan, and review path are present.</p>
+        </div>
+        <dl>
+          <div><dt>External actions</dt><dd>0</dd></div>
+          <div><dt>Network calls</dt><dd>0</dd></div>
+          <div><dt>Wallet surface</dt><dd>none</dd></div>
+          <div><dt>Human review</dt><dd>required</dd></div>
+        </dl>
+        <button class="download" data-download="plan">Download Benchmark Plan</button>
+        <button class="download" data-download="matrix">Download Baseline Matrix CSV</button>
+        <button class="download" data-download="docket">Download Evidence Docket Plan</button>
+        <button class="download" data-download="brief">Download Reviewer Brief</button>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <article>
+        <h2>Why this matters</h2>
+        <p>
+          A public demo can show the architecture. A real-task benchmark shows whether the architecture actually improves
+          verified work under equal constraints. This bridge teaches the upgrade path from impressive demo to empirical evidence.
+        </p>
+      </article>
+      <article>
+        <h2>What would promote the claim?</h2>
+        <p>
+          A real task, strong baselines, replayable proof, cost/risk ledgers, validator review, delayed-outcome tracking,
+          and independent reviewer access. If a baseline wins, GoalOS revises the claim.
+        </p>
+      </article>
+      <article>
+        <h2>What this is not</h2>
+        <p>
+          Not achieved AGI, not achieved ASI, not empirical SOTA, not production authorization, not legal/financial advice,
+          not a token sale, not a wallet, and not a data collection surface.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/goalos-real-task-benchmark-bridge-v1.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+</body>
+</html>

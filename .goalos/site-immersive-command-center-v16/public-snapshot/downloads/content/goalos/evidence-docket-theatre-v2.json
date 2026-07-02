@@ -1,0 +1,23 @@
+{
+  "title": "Evidence Docket Theatre V2",
+  "slug": "evidence-docket-theatre.html",
+  "claim": "A proof page is not a marketing page.",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "wallet_or_mainnet": false,
+    "human_review_required": true
+  },
+  "elements": [
+    "manifest",
+    "claims",
+    "environment",
+    "baselines",
+    "proof",
+    "evaluators",
+    "selection",
+    "safety",
+    "report",
+    "replay"
+  ]
+}

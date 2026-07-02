@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GoalOS Loop Flight Recorder — Restartable Agent Loops</title>
+  <meta name="description" content="A browser-local GoalOS public demo showing how long-running agent loops become restartable, trace-readable, evidence-bearing, and review-ready.">
+  <meta name="theme-color" content="#07111f">
+  <link rel="stylesheet" href="assets/goalos-loop-flight-recorder-v1.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="ambient" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><strong>GOALOS</strong><em>AGIALPHA ASCENSION</em></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="index.html">Start</a>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="demo-ecosystem-registry.html">Registry</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+      <a href="trust-boundary.html">Trust Boundary</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> loop demo / browser-local / no data</p>
+        <h1>Write the loop.<br><i>Not the prompt.</i></h1>
+        <p class="thesis">A prompt produces output. A loop produces governed work. A GoalOS loop writes state, separates roles, reads traces, restarts cleanly, scores what matters, exposes the bottleneck, and emits reviewable proof.</p>
+        <div class="hero-actions">
+          <button id="runLoopTop" class="primary">Run loop flight</button>
+          <button id="restartTop" class="secondary">Restart from disk</button>
+          <button id="downloadTop" class="secondary">Download recorder</button>
+        </div>
+        <div class="boundary"><strong>Public-alpha boundary</strong> No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
+      </div>
+
+      <section class="flight-card" aria-label="Loop flight recorder">
+        <div class="flight-head">
+          <div>
+            <span class="kicker">Loop Flight Recorder</span>
+            <h2 id="decisionState">LOOP_DRAFT</h2>
+          </div>
+          <div class="readiness">
+            <svg viewBox="0 0 120 120" role="img" aria-label="Readiness">
+              <circle class="track" cx="60" cy="60" r="50"></circle>
+              <circle id="readinessArc" class="arc" cx="60" cy="60" r="50"></circle>
+              <text id="readinessText" x="60" y="66">42</text>
+            </svg>
+            <span>readiness</span>
+          </div>
+        </div>
+        <div class="orbit" aria-hidden="true">
+          <div class="core">∞</div>
+          <span style="--i:0">contract</span>
+          <span style="--i:1">roles</span>
+          <span style="--i:2">state</span>
+          <span style="--i:3">trace</span>
+          <span style="--i:4">eval</span>
+          <span style="--i:5">restart</span>
+          <span style="--i:6">docket</span>
+          <span style="--i:7">bottleneck</span>
+        </div>
+        <div class="proof-rail" id="proofRail" aria-label="Loop stages">
+          <button data-stage="0" class="active">Contract</button>
+          <button data-stage="1">Plan</button>
+          <button data-stage="2">Act</button>
+          <button data-stage="3">Verify</button>
+          <button data-stage="4">Trace</button>
+          <button data-stage="5">Restart</button>
+          <button data-stage="6">Compress</button>
+          <button data-stage="7">Docket</button>
+        </div>
+        <pre id="terminal" class="terminal" aria-live="polite"></pre>
+      </section>
+    </section>
+
+    <section class="strip" aria-label="Current loop metrics">
+      <article><b id="cycleCount">0</b><span>cycles</span></article>
+      <article><b id="restartCount">0</b><span>clean restarts</span></article>
+      <article><b id="proofDebt">58</b><span>proof debt</span></article>
+      <article><b id="harnessOverhead">44%</b><span>harness overhead</span></article>
+      <article><b id="bottleneck">contract</b><span>current bottleneck</span></article>
+      <article><b>0</b><span>external actions</span></article>
+    </section>
+
+    <section class="workspace">
+      <aside class="panel controls">
+        <p class="panel-label">01 / compose the loop</p>
+        <h2>Mission loop contract</h2>
+        <label>Scenario
+          <select id="scenario">
+            <option value="repo">Repository release loop</option>
+            <option value="proof">Evidence Docket loop</option>
+            <option value="mission">Proof mission loop</option>
+            <option value="review">External review loop</option>
+          </select>
+        </label>
+        <label>Public-safe objective
+          <textarea id="objective" rows="6">Turn a public-alpha repository release into a review-ready Evidence Docket: contract first, state on disk, traces readable, evaluator separate, restart clean, bottleneck visible.</textarea>
+        </label>
+
+        <div class="button-grid">
+          <button id="runLoop" class="primary">Run loop flight</button>
+          <button id="stressLoop">Stress weak loop</button>
+          <button id="restartLoop">Restart from disk</button>
+          <button id="readTraces">Read traces</button>
+          <button id="deleteHarness">Delete harness</button>
+          <button id="resetLoop">Reset</button>
+        </div>
+
+        <div class="sliders">
+          <label>Design taste <input id="designScore" type="range" min="0" max="100" value="72"></label>
+          <label>Originality <input id="originalityScore" type="range" min="0" max="100" value="64"></label>
+          <label>Craft <input id="craftScore" type="range" min="0" max="100" value="70"></label>
+          <label>Functionality <input id="functionScore" type="range" min="0" max="100" value="78"></label>
+        </div>
+      </aside>
+
+      <section class="panel">
+        <p class="panel-label">02 / separate the roles</p>
+        <h2>Role windows</h2>
+        <div class="roles">
+          <article>
+            <span>planner</span>
+            <strong>Creates contract</strong>
+            <p>Turns the objective into success criteria, files, gates, and done conditions. It never writes final code or self-grades.</p>
+          </article>
+          <article>
+            <span>generator</span>
+            <strong>Acts inside scope</strong>
+            <p>Executes bounded work against the contract and writes artifacts to the disk-state pack.</p>
+          </article>
+          <article>
+            <span>evaluator</span>
+            <strong>Pushes back</strong>
+            <p>Reads traces, scores outcomes against the rubric, blocks unsupported claims, and requests restart when needed.</p>
+          </article>
+          <article>
+            <span>harness</span>
+            <strong>Keeps loop minimal</strong>
+            <p>Maintains just enough state, replay, and rollback to let the model drive without hiding failure.</p>
+          </article>
+        </div>
+
+        <div class="state-files" aria-label="State files">
+          <h3>Disk state pack</h3>
+          <div id="stateFiles"></div>
+        </div>
+      </section>
+
+      <aside class="panel gates">
+        <p class="panel-label">03 / hard gates</p>
+        <h2>Loop gates</h2>
+        <div id="gateList"></div>
+      </aside>
+    </section>
+
+    <section class="panel trace-section">
+      <div class="section-head">
+        <div>
+          <p class="panel-label">04 / inspect the proof</p>
+          <h2>Trace reader + bottleneck report</h2>
+        </div>
+        <div class="download-row">
+          <button id="downloadRecorder">Recorder JSON</button>
+          <button id="downloadState">State pack</button>
+          <button id="downloadDocket">Docket plan</button>
+          <button id="downloadBottleneck">Bottleneck report</button>
+          <button id="downloadBrief">Reviewer brief</button>
+        </div>
+      </div>
+      <div class="two-col">
+        <pre id="traceLog" class="trace-log"></pre>
+        <div class="bottleneck-card">
+          <h3 id="bottleneckTitle">Current bottleneck: contract</h3>
+          <p id="bottleneckBody">The loop has not run yet. The first useful move is to negotiate a contract before generating artifacts.</p>
+          <ol id="nextMoves"></ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <p class="eyebrow"><span></span> loop law</p>
+      <h2>Long-running autonomy is not a bigger prompt. It is a restartable institution.</h2>
+      <div class="law-grid">
+        <article><b>State lives on disk.</b><span>Context windows lie, compact, and rot. Disk state makes restart, review, and replay possible.</span></article>
+        <article><b>Roles stay separate.</b><span>Planner, generator, evaluator, and harness do different work so the system does not grade itself.</span></article>
+        <article><b>Traces are read.</b><span>Every debugging insight starts with what the loop actually did, not what the prompt hoped it did.</span></article>
+        <article><b>The bottleneck moves.</b><span>When coding gets easier, verification, taste, restart, and evidence become the work.</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>GoalOS Loop Flight Recorder V1 — browser-local public demo.</span>
+    <a href="trust-boundary.html">Trust Boundary</a>
+    <a href="token-boundary.html">Token Boundary</a>
+    <a href="site-map.html">Site Map</a>
+  </footer>
+
+  <script src="assets/goalos-loop-flight-recorder-v1.js"></script>
+</body>
+</html>

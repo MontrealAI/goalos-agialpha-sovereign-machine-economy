@@ -1,0 +1,59 @@
+{
+  "version": "v0.32.0-final-hardening-v7",
+  "generated_at": "2026-06-30T18:05:16Z",
+  "decision_state": "REVIEW_READY",
+  "repository_readiness": 100,
+  "gates_passed": 10,
+  "gates_total": 10,
+  "gates": [
+    {
+      "name": "Route integrity",
+      "passed": true
+    },
+    {
+      "name": "Public downloads",
+      "passed": true
+    },
+    {
+      "name": "No forbidden browser APIs",
+      "passed": true
+    },
+    {
+      "name": "Issue-template boundary",
+      "passed": true
+    },
+    {
+      "name": "Boundary coverage",
+      "passed": true
+    },
+    {
+      "name": "Token boundary",
+      "passed": true
+    },
+    {
+      "name": "Claim scan script",
+      "passed": true
+    },
+    {
+      "name": "Docs quality script",
+      "passed": true
+    },
+    {
+      "name": "Site verifier",
+      "passed": true
+    },
+    {
+      "name": "Human review required",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "public_pages": 134,
+    "reports": 194,
+    "evidence_files": 76,
+    "workflows": 52
+  },
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract address only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.",
+  "claim_boundary": "Repository-readiness only. Not achieved AGI/ASI. Not empirical SOTA. External review still required."
+}

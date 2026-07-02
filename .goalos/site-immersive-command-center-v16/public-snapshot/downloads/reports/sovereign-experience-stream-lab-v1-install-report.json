@@ -1,0 +1,13 @@
+{
+  "status": "installed",
+  "installed_at": "2026-06-28T18:20:45.888965+00:00",
+  "page": "public/sovereign-experience-stream-lab.html",
+  "boundary": [
+    "no_user_data",
+    "no_user_funds",
+    "no_wallet",
+    "no_transaction",
+    "no_network_call",
+    "human_review_required"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-27T16:26:25Z",
+  "status": "passed",
+  "zero_user_data_boundary": true,
+  "no_user_data_wanted": true,
+  "public_site_posture": {
+    "intentional_analytics": false,
+    "forms_collecting_user_data": false,
+    "wallet_connection": false,
+    "transaction_execution": false,
+    "production_authority": false,
+    "model_call_collection": false,
+    "human_review_required": true
+  },
+  "external_scripts_detected": [],
+  "forms_detected": [],
+  "tracking_terms_detected": [],
+  "required_files": {
+    "privacy_page": true,
+    "terms_page": true,
+    "data_boundary_page": true,
+    "token_boundary_page": true,
+    "root_privacy": true,
+    "root_terms": true,
+    "root_data_boundary": true,
+    "issue_templates": true,
+    "pr_template": true,
+    "security": true
+  },
+  "required_text": {
+    "We do not want your data": true,
+    "Do not submit personal data": true,
+    "No token sale": true,
+    "No wallet": true,
+    "No transaction": true
+  },
+  "errors": [],
+  "counsel_review_recommended": true
+}

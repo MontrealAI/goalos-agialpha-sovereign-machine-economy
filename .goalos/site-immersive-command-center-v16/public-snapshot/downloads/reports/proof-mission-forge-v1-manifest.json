@@ -1,0 +1,31 @@
+{
+  "schema": "goalos.proof_mission_forge.manifest.v1",
+  "page": "public/proof-mission-forge.html",
+  "public_url": "proof-mission-forge.html",
+  "created_files": [
+    "public/proof-mission-forge.html",
+    "public/assets/goalos-proof-mission-forge-v1.css",
+    "public/assets/goalos-proof-mission-forge-v1.js",
+    "docs/demos/PROOF_MISSION_FORGE_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_PROOF_MISSION_FORGE.md",
+    "docs/pilot/FOUNDING_PROOF_MISSION_INTAKE.md",
+    "examples/proof-mission-forge/public-safe-mission-examples.md",
+    "scripts/install_proof_mission_forge_v1.py",
+    "scripts/goalos_proof_mission_forge_v1_audit.py",
+    "scripts/run_proof_mission_forge_v1_demo.py",
+    "evidence/demo/proof-mission-forge-v1-reference-docket.json",
+    "reports/proof-mission-forge-v1-qa.json",
+    "reports/proof-mission-forge-v1-demo-run.json",
+    "reports/proof-mission-forge-v1-install-report.json",
+    "content/goalos/proof-mission-forge-v1.json",
+    ".github/ISSUE_TEMPLATE/proof_mission_forge_feedback.yml"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

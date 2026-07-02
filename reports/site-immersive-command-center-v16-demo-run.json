@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "generated_at": "2026-07-02T13:05:11.168406Z",
+  "actions": [
+    {
+      "action": "open_homepage",
+      "path": "public/index.html",
+      "ok": true
+    },
+    {
+      "action": "open_start",
+      "path": "public/start-here.html",
+      "ok": true
+    },
+    {
+      "action": "open_pathfinder",
+      "path": "public/pathfinder.html",
+      "ok": true
+    },
+    {
+      "action": "open_registry",
+      "path": "public/demo-ecosystem-registry.html",
+      "ok": true
+    },
+    {
+      "action": "open_site_map",
+      "path": "public/site-map.html",
+      "ok": true
+    },
+    {
+      "action": "open_loop_rsi",
+      "path": "public/from-loop-to-rsi-state-capacity.html",
+      "ok": true
+    },
+    {
+      "action": "open_trust",
+      "path": "public/trust-boundary.html",
+      "ok": true
+    },
+    {
+      "action": "open_token",
+      "path": "public/token-boundary.html",
+      "ok": true
+    }
+  ]
+}

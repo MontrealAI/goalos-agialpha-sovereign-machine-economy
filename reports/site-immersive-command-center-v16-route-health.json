@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "version": "v16",
+  "generated_at": "2026-07-02T13:05:10Z",
+  "public_pages": 139,
+  "system_pages": 1,
+  "route_classes": [
+    "Additional",
+    "Capability and Economy",
+    "Evidence and Review",
+    "Loop to RSI",
+    "Mission and Work OS",
+    "Navigation and Docs",
+    "Trust and Boundary"
+  ],
+  "restored_files": [],
+  "broken_internal_html_links": [],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "token_boundary": "$AGIALPHA public contract address only. Not available from us. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice."
+}

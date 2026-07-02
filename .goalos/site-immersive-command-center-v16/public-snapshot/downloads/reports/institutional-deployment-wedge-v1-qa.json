@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-29T16:04:55Z",
+  "page": "institutional-deployment-wedge.html",
+  "browserLocal": true,
+  "noNetworkCall": true,
+  "noUserData": true,
+  "noUserFunds": true,
+  "walletOrMainnet": false,
+  "humanReviewRequired": true,
+  "errors": []
+}
