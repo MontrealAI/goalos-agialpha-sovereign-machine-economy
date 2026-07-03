@@ -1,1 +1,1 @@
-window.GoalOSLegacyAssets={status:'available',version:'v46'};
+console.log("GoalOS Aurora compatibility asset");

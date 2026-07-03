@@ -1,0 +1,12 @@
+{
+  "version": "v48",
+  "status": "passed",
+  "publicPages": 294,
+  "forbiddenBrowserApiHits": [],
+  "brokenInternalLinksOrAssets": [],
+  "boundary": "preserved",
+  "externalActions": 0,
+  "productionAuthorization": "not_granted",
+  "empiricalSotaClaim": "not_claimed",
+  "walletTransactionSupport": "not_enabled"
+}

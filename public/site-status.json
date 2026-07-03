@@ -1,6 +1,7 @@
 {
-  "status": "available",
-  "version": "v46",
-  "publicPages": 253,
-  "boundary": "preserved"
+  "version": "v48",
+  "status": "ready",
+  "publicPages": 294,
+  "boundary": "preserved",
+  "externalActions": 0
 }
