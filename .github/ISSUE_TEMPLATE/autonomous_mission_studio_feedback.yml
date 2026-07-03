@@ -1,0 +1,12 @@
+name: GoalOS Autonomous Mission Studio V40 Feedback
+description: Report an issue with the end-to-end autonomous demo.
+title: "[V40] "
+labels: [goalos, v40, demo]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What happened? What did you expect?
+    validations:
+      required: true

@@ -1,0 +1,6 @@
+{
+  "version": "v40",
+  "status": "passed",
+  "claimBoundary": "public-safe browser-local demo; no AGI/ASI/SOTA claim",
+  "primary": "public/autonomous-mission-studio.html"
+}

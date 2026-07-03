@@ -1,0 +1,1242 @@
+{
+  "version": "v40",
+  "primary": "autonomous-mission-studio.html",
+  "routes": [
+    {
+      "title": "GoalOS Route Not Found",
+      "url": "404.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
+      "url": "action-reason-trace-contract.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Adoption Playbook \u00b7 GoalOS Ascension",
+      "url": "adoption.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Agent Constellation Demo \u2014 GoalOS",
+      "url": "agent-constellation-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "agent-constellation.html \u2014 GoalOS AGI Agents",
+      "url": "agent-constellation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Agent Flow Academy V38",
+      "url": "agent-flow-academy-v38.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Agent Flow Academy V37",
+      "url": "agent-flow-academy.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "agent-foundry.html \u2014 GoalOS AGI Agents",
+      "url": "agent-foundry.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Agent Foundry \u00b7 GoalOS Ascension",
+      "url": "agents.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Command Center V37",
+      "url": "agi-agent-command-center-v37.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Command Center V36",
+      "url": "agi-agent-command-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Constellation V34",
+      "url": "agi-agent-constellation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "url": "agi-agent-end-to-end-demo-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Proof Mission Demo V39",
+      "url": "agi-agent-end-to-end-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Unified Agent Operating Room V38",
+      "url": "agi-agent-mission-control-v38.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Mission Control V37",
+      "url": "agi-agent-mission-control.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Unified Agent Operating Room V38",
+      "url": "agi-agent-operating-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Playbooks V37",
+      "url": "agi-agent-playbooks.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Run Theatre V38",
+      "url": "agi-agent-run-theatre.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Agi Agent Studio",
+      "url": "agi-agent-studio.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Use Case Gallery V38",
+      "url": "agi-agent-use-case-gallery.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Use Cases V36",
+      "url": "agi-agent-use-cases.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Agent Workbench V38",
+      "url": "agi-agent-workbench.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "agi-agents.html \u2014 GoalOS AGI Agents",
+      "url": "agi-agents.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "AGI Alpha Node v0",
+      "url": "agi-alpha-node-v0.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "AGI ALPHA Thesis",
+      "url": "agi-alpha-thesis.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "AGI Jobs v0 (v2)",
+      "url": "agi-jobs-v0-v2.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS AGI Node Use Cases V33",
+      "url": "agi-node-use-cases.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "agi-node-validation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "$AGIALPHA Control Rail",
+      "url": "agialpha-control-rail.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "$AGIALPHA Public-Market Boundary",
+      "url": "agialpha-token-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Architecture \u00b7 GoalOS",
+      "url": "architecture.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Ask GoalOS V27 \u2014 GoalOS",
+      "url": "ask-goalos.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Demo Run Theatre V40",
+      "url": "autonomous-demo-run-theatre-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Demo Run Theatre",
+      "url": "autonomous-demo-run-theatre.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Proof Mission Demo V39",
+      "url": "autonomous-mission-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "url": "autonomous-mission-studio.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "url": "autonomous-proof-mission-demo-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Proof Mission Demo V39",
+      "url": "autonomous-proof-mission-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+      "url": "capability-compounding-lab.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Capability Parity",
+      "url": "capability-parity.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Capability Stack \u00b7 GoalOS",
+      "url": "capability-stack.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Claim Boundary \u00b7 GoalOS",
+      "url": "claim-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Commercial Evidence \u00b7 GoalOS",
+      "url": "commercial-evidence.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Console",
+      "url": "console.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+      "url": "contract-academy.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Coordination Console",
+      "url": "coordination-console.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Data boundary \u2014 GoalOS",
+      "url": "data-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "url": "data-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Demo ecosystem registry \u2014 GoalOS",
+      "url": "demo-ecosystem-registry.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Demo Gallery \u2014 GoalOS",
+      "url": "demo-gallery.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Demo Launcher \u2014 GoalOS",
+      "url": "demo-launcher.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Demo Safety Boundary \u2014 GoalOS",
+      "url": "demo-safety.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Evidence Docket Builder \u2014 GoalOS",
+      "url": "docket-builder.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Documentation hub \u2014 GoalOS",
+      "url": "docs.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Document Series",
+      "url": "document-series.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "url": "end-to-end-autonomous-demo-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Proof Mission Demo V39",
+      "url": "end-to-end-autonomous-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS End-to-End Demo Use Cases V40",
+      "url": "end-to-end-demo-use-cases-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS End-to-End Demo Use Cases",
+      "url": "end-to-end-demo-use-cases.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "url": "enterprise.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Evaluation Program",
+      "url": "evaluation-program.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "url": "evaluation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+      "url": "evidence-docket-theatre.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "url": "evidence-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "url": "evidence-to-scale.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Evidence Layer \u00b7 GoalOS Ascension",
+      "url": "evidence.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+      "url": "evolution-ledger-control-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "url": "executive-brief.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "url": "external-reviewer-replay-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Falsification Box \u2014 GoalOS",
+      "url": "falsification-box.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+      "url": "falsification-gauntlet.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "FAQ \u00b7 GoalOS Ascension",
+      "url": "faq.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "For New Users \u2014 GoalOS",
+      "url": "for-new-users.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "url": "for-reviewers.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "url": "from-loop-to-rsi-governance.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "url": "from-loop-to-rsi-sovereign-console.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Frontier Release Case Study",
+      "url": "frontier-release-case-study.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Frontier Release Doctrine",
+      "url": "frontier-release-doctrine.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Frontier Release Room",
+      "url": "frontier-release-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Glossary \u2014 GoalOS",
+      "url": "glossary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "goalos-mission-studio.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "goalos.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "url": "governance.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Help Center \u2014 GoalOS",
+      "url": "help-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Historical Command Center",
+      "url": "historical-command-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Holy Grail Candidate",
+      "url": "holy-grail-candidate.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "human-or-agi-node-validation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+      "url": "human-or-node-validation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "url": "independent-validation.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "index.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "url": "institutional-deployment-wedge.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Token & Investment Boundary",
+      "url": "investment-token-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "url": "jobs.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Launch Narrative",
+      "url": "launch-narrative.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Launch Package \u00b7 GoalOS Ascension",
+      "url": "launch.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Legal Shield \u2014 GoalOS",
+      "url": "legal.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Local Autopilot Demo \u2014 GoalOS",
+      "url": "local-autopilot-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+      "url": "loop-bottleneck-observatory.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+      "url": "loop-contract-lab.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+      "url": "loop-flight-recorder.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+      "url": "mainnet-contract-atlas.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+      "url": "mainnet-proof-rail.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Meta Agentic Agent Os",
+      "url": "meta-agentic-agent-os.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "meta-agentic-agents.html \u2014 GoalOS AGI Agents",
+      "url": "meta-agentic-agents.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Meta-Agentic \u03b1\u2011AGI \u2014 GoalOS V36",
+      "url": "meta-agentic-alpha-agi.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "url": "metrics.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission-autopilot.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission-command-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Mission OS Canon",
+      "url": "mission-os-canon.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "url": "mission-os.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission-studio.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "url": "multi-agent-institution.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "No data. No funds. No wallet. \u2014 GoalOS",
+      "url": "no-data-no-funds.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Node Runtime \u00b7 GoalOS Ascension",
+      "url": "node.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "objective-command-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Open Ended Work Engine Lab \u2014 GoalOS",
+      "url": "open-ended-work-engine-lab.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "url": "open-ended-work-engine.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Operator Checklist \u2014 GoalOS",
+      "url": "operator-checklist.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "url": "operators.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Paper to Product",
+      "url": "paper-to-product.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Choose your shortest path \u2014 GoalOS",
+      "url": "pathfinder.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Pilot Program \u00b7 GoalOS",
+      "url": "pilot-program.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "url": "pilot-proof.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Privacy: we do not want your data. \u2014 GoalOS",
+      "url": "privacy.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Product \u00b7 GoalOS",
+      "url": "product.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "url": "proof-backed-upgrade-rights-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Card Studio \u2014 GoalOS",
+      "url": "proof-card-studio.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "url": "proof-carrying-artifact-foundry.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "url": "proof-economy.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "url": "proof-experience-atlas.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Flight Demo \u2014 GoalOS",
+      "url": "proof-flight-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "url": "proof-gradient-lab.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+      "url": "proof-ledger.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "url": "proof-metrics-dashboard.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "url": "proof-mission-control.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Mission Demo Academy V40",
+      "url": "proof-mission-demo-academy-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Mission Demo Academy V40",
+      "url": "proof-mission-demo-academy.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Proof Mission Demo V39",
+      "url": "proof-mission-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "url": "proof-mission-forge.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Mission Slots \u2014 GoalOS",
+      "url": "proof-mission-slots.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof-of-Evolution",
+      "url": "proof-of-evolution.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "url": "proof-run-001-docket.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "url": "proof-run-001-execution-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Run 001 Live \u2014 GoalOS",
+      "url": "proof-run-001-live.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Run 001",
+      "url": "proof-run-001.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "url": "proof-settlement-chronicle-lab.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+      "url": "proof-to-action-command-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "url": "proof-velocity.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "url": "public-metrics-ledger.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "url": "public-proof-ledger.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "url": "quick-tour.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "url": "quintessential-autonomous-demo-v40.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Proof Mission Demo V39",
+      "url": "quintessential-autonomous-demo.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "url": "real-task-benchmark-bridge.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "url": "release-gates.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Repository Map \u00b7 GoalOS",
+      "url": "repository-map.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Research Spine",
+      "url": "research-spine.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Responsible Use \u2014 GoalOS",
+      "url": "responsible-use.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "url": "reviewer-path.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "url": "roadmap.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Run Locally \u2014 GoalOS",
+      "url": "run-locally.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "url": "schema-registry.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Search GoalOS routes \u2014 GoalOS",
+      "url": "search.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Security Boundary \u2014 GoalOS",
+      "url": "security-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Security \u00b7 GoalOS Ascension",
+      "url": "security.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Site health \u2014 GoalOS",
+      "url": "site-health.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "All pages. Every route. \u2014 GoalOS",
+      "url": "site-map.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "url": "source-lineage.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "url": "sovereign-experience-stream-lab.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "url": "sovereign-experience-stream.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "url": "standards.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Start in 60 seconds \u2014 GoalOS",
+      "url": "start-here.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Start Here \u2014 GoalOS",
+      "url": "start.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "url": "strategic-evidence-scorecard.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "tell-goalos.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Terms of Use \u2014 GoalOS",
+      "url": "terms.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "$AGIALPHA is public-contract identification only. \u2014 GoalOS",
+      "url": "token-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "$AGIALPHA Token Boundary",
+      "url": "token.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "url": "troubleshooting.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Proof-native. Not data-hungry. Not wallet-first. \u2014 GoalOS",
+      "url": "trust-boundary.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Trust Center \u00b7 GoalOS Ascension",
+      "url": "trust-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Trust Center",
+      "url": "trust.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "url": "try-goalos.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Unified Agent Operating Room V38",
+      "url": "unified-agent-operating-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "universal-mission-autopilot.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "universal-mission-composer.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Use Case Playbooks V27 \u2014 GoalOS",
+      "url": "use-case-playbooks.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-authority.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Command Center V32 \u2014 Human or AGI Node",
+      "url": "validation-command-center.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Autonomous Validation Mesh V29 \u2014 Human, AGI Node, or Council",
+      "url": "validation-console-v29.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-console.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Control Tower V33 \u2014 Human or AGI Node",
+      "url": "validation-control-tower.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-mesh.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-orchestrator.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-studio.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validation Use Cases V33",
+      "url": "validation-use-cases.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+      "url": "validator-council-arena.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Validator Room \u2014 GoalOS",
+      "url": "validator-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Validator Seats",
+      "url": "validator-seats.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+      "url": "value-realization-control-room.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Website Autopilot \u00b7 GoalOS",
+      "url": "website-autopilot.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "Website Operating System \u2014 GoalOS",
+      "url": "website-operating-system.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    },
+    {
+      "title": "What GoalOS Does \u2014 GoalOS",
+      "url": "what-goalos-does.html",
+      "category": "GoalOS public route",
+      "description": "GoalOS route preserved and searchable."
+    }
+  ]
+}

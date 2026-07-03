@@ -1,0 +1,16 @@
+{
+  "version": "v40",
+  "demo": "GoalOS Autonomous Mission Studio",
+  "primary": "autonomous-mission-studio.html",
+  "outputs": [
+    "Mission Contract",
+    "AGI Job Spec",
+    "AGI Node Handoff",
+    "ProofBundle",
+    "Evidence Docket Plan",
+    "Validation Certificate",
+    "Reviewer Brief",
+    "Action Graph",
+    "Chronicle Entry"
+  ]
+}
