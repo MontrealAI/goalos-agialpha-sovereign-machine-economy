@@ -1042,5 +1042,10 @@
     "url": "what-goalos-does.html",
     "category": "Preserved",
     "description": "Open What GoalOS Does \u2014 GoalOS"
+  },
+  {
+    "title": "AGI Agent Command Center V36",
+    "url": "agi-agent-command-center.html",
+    "description": "One-box meta-agentic AGI Agent mission surface with AGI Node handoff and proof path."
   }
 ]

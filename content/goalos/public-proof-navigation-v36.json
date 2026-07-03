@@ -1,0 +1,83 @@
+{
+  "version": "v36",
+  "routes": [
+    {
+      "title": "AGI Agent Command Center V36",
+      "url": "agi-agent-command-center.html",
+      "category": "AGI Agents",
+      "summary": "One-box meta-agentic AGI agent mission surface."
+    },
+    {
+      "title": "AGI Agent Use Cases",
+      "url": "agi-agent-use-cases.html",
+      "category": "AGI Agents",
+      "summary": "Solved end-to-end AGI Agent and AGI Node playbooks."
+    },
+    {
+      "title": "GoalOS Mission Studio",
+      "url": "goalos.html",
+      "category": "Mission",
+      "summary": "Tell GoalOS what you want and get a proof path."
+    },
+    {
+      "title": "Ask GoalOS",
+      "url": "ask-goalos.html",
+      "category": "Concierge",
+      "summary": "Browser-local route assistant and question window."
+    },
+    {
+      "title": "Validation Control Tower",
+      "url": "validation-control-tower.html",
+      "category": "Validation",
+      "summary": "Human, AGI Node, Hybrid, or Council validation path."
+    },
+    {
+      "title": "Mainnet Contract Atlas",
+      "url": "mainnet-contract-atlas.html",
+      "category": "Contracts",
+      "summary": "48 Ethereum Mainnet contracts as one institutional proof rail."
+    },
+    {
+      "title": "Proof Run 001 Docket",
+      "url": "proof-run-001-docket.html",
+      "category": "Evidence",
+      "summary": "Repository readiness Evidence Docket."
+    },
+    {
+      "title": "Loop to RSI State Capacity",
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "category": "Loop \u2192 RSI",
+      "summary": "Loop becomes deterministic invention governance."
+    },
+    {
+      "title": "Trust Boundary",
+      "url": "trust-boundary.html",
+      "category": "Boundary",
+      "summary": "No data, no funds, no wallet, human-review boundary."
+    },
+    {
+      "title": "Token Boundary",
+      "url": "token-boundary.html",
+      "category": "Boundary",
+      "summary": "$AGIALPHA public contract identification only; not available from GoalOS."
+    },
+    {
+      "title": "Demo Registry",
+      "url": "demo-ecosystem-registry.html",
+      "category": "Navigation",
+      "summary": "All public demos and proof routes."
+    },
+    {
+      "title": "Site Map",
+      "url": "site-map.html",
+      "category": "Navigation",
+      "summary": "Complete all-pages route inventory."
+    },
+    {
+      "title": "Search",
+      "url": "search.html",
+      "category": "Navigation",
+      "summary": "Browser-local site search."
+    }
+  ]
+}

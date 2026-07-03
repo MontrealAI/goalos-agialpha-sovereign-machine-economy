@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "html-created",
+    "assets-created",
+    "playbooks-present",
+    "boundary-present"
+  ]
+}

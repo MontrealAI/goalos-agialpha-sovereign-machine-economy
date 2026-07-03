@@ -1,0 +1,13 @@
+{
+  "version": "v36",
+  "status": "passed",
+  "sampleObjective": "I want AGI agents to help me understand the 48 Ethereum Mainnet contracts.",
+  "decisionState": "AGI_AGENT_PROOF_PATH_READY",
+  "artifacts": [
+    "Mission Contract JSON",
+    "AGI Node Handoff JSON",
+    "Reviewer Brief",
+    "Action Graph CSV"
+  ],
+  "boundary": "browser-local public-safe demo"
+}

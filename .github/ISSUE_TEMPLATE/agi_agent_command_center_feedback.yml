@@ -1,0 +1,12 @@
+name: AGI Agent Command Center V36 feedback
+description: Report usability, route, or boundary feedback for the AGI Agent Command Center.
+title: "[AGI Agents V36] "
+labels: [goalos, agi-agents, feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What did you try, what happened, and what should be clearer?
+    validations:
+      required: true

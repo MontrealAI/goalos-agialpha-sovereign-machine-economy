@@ -237,3 +237,8 @@ Primary page: `public/agi-agent-constellation.html`
 
 Boundary: No user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required for high-impact outcomes.
 <!-- GOALOS_AGI_AGENT_CONSTELLATION_V34_END -->
+
+
+## GoalOS AGI Agent Command Center V36
+
+A browser-local, public-safe AGI Agent operating surface has been added at `public/agi-agent-command-center.html`. Users type an objective and GoalOS prepares an agent constellation, Mission Contract, AGI Node handoff, Evidence Docket plan, Reviewer Brief, Action Graph, and next best route. No user data, funds, wallet, transaction, network call, or production authority is used.

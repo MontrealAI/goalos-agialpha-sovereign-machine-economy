@@ -1,0 +1,14 @@
+{
+  "version": "v36",
+  "demos": [
+    {
+      "name": "AGI Agent Command Center",
+      "url": "agi-agent-command-center.html",
+      "workflowRole": "agent orchestration demo",
+      "inputs": "plain-language objective",
+      "outputs": "mission contract, handoff, reviewer brief, action graph",
+      "proofGates": "boundary, authority, validation, docket",
+      "nextState": "AGI_AGENT_PROOF_PATH_READY"
+    }
+  ]
+}
