@@ -1,0 +1,130 @@
+name: GoalOS Public Alpha UX Remediation V44.1 — Corrective Site Fix
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit corrected public-alpha UX remediation files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy updated public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create corrective V44.1 release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.64.1-public-alpha-ux-remediation-v44-1"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-public-alpha-ux-remediation-v44-1-pack.zip
+  PACK_DIR: .goalos/tmp/v44_1_pack
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f "$PACK_ZIP" ]; then
+            echo "Missing $PACK_ZIP"
+            echo "Upload goalos-public-alpha-ux-remediation-v44-1-pack.zip to .goalos/packs/ first."
+            exit 1
+          fi
+
+      - name: Unpack V44.1 remediation pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf "$PACK_DIR"
+          mkdir -p "$PACK_DIR"
+          unzip -q "$PACK_ZIP" -d "$PACK_DIR"
+
+      - name: Install V44.1 corrective UX remediation
+        run: python "$PACK_DIR/scripts/install_public_alpha_ux_remediation_v44_1.py"
+
+      - name: Run V44.1 demo check
+        run: python scripts/run_public_alpha_ux_remediation_v44_1_demo.py
+
+      - name: Audit visual-layout signals, routes, browser boundary
+        run: python scripts/audit_public_alpha_ux_remediation_v44_1.py
+
+      - name: Commit changes
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs examples reports evidence content scripts .github/ISSUE_TEMPLATE || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Fix public-alpha UX remediation V44.1"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh issue create \
+            --title "GoalOS Public Alpha UX Remediation V44.1 — human visual QA required" \
+            --label "ux,human-review,public-alpha" \
+            --body-file issue-bodies/public-alpha-ux-remediation-v44-1.md || true
+
+      - name: Create corrective release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.release_tag }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create "$TAG" \
+            reports/public-alpha-ux-remediation-v44-1-audit.json \
+            reports/public-alpha-ux-remediation-v44-1-qa.json \
+            reports/public-alpha-ux-remediation-v44-1-demo-run.json \
+            evidence/demo/public-alpha-ux-remediation-v44-1-reference-docket.json \
+            --title "GoalOS Public Alpha UX Remediation V44.1" \
+            --notes "Corrective public-alpha UX remediation: sanitized legacy browser API strings, replaced fragile visual flow with responsive grid, added human visual QA gate, preserved no-data/no-wallet/no-transaction boundary."
