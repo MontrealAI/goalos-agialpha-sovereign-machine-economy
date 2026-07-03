@@ -1,0 +1,95 @@
+name: GoalOS Aurora Sovereign Experience V47 — Critic-Grade Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public/ to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub release after approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use if create_release is true"
+        required: true
+        type: string
+        default: "v0.67.0-aurora-sovereign-experience-v47"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+concurrency:
+  group: goalos-aurora-sovereign-experience-v47
+  cancel-in-progress: false
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify pack exists
+        run: test -f .goalos/packs/goalos-aurora-sovereign-experience-v47-pack.zip
+      - name: Install Aurora Sovereign Experience V47
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp-v47
+          mkdir -p .goalos/tmp-v47
+          python - <<'PY'
+          import zipfile
+          zipfile.ZipFile('.goalos/packs/goalos-aurora-sovereign-experience-v47-pack.zip').extractall('.goalos/tmp-v47')
+          PY
+          python .goalos/tmp-v47/install_v47.py
+      - name: Show V47 audit
+        if: always()
+        run: cat reports/aurora-sovereign-experience-v47-audit.json || true
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content docs examples evidence reports .goalos/packs/goalos-aurora-sovereign-experience-v47-pack.zip .github/workflows/goalos-aurora-sovereign-experience-v47-autopilot.yml
+          git commit -m "Ship GoalOS Aurora Sovereign Experience V47" || echo "No changes to commit"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "GoalOS Aurora Sovereign Experience V47 — human visual QA" --body "Open index.html, autonomy-theatre.html, agi-agent-workbench.html, validation-control-tower.html, mainnet-contract-atlas.html, visual-flow-proof.html, site-map.html, search.html, and site-health.html. Confirm colored identity, no overlap, complete navigation, route search, boundary visibility, no wallet prompt, no transaction, no backend call, and no user-data form. Record browser, viewport, screenshots if failed, and final verdict." || true
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${{ inputs.release_tag }}"
+          gh release create "$tag" reports/aurora-sovereign-experience-v47-*.json evidence/demo/aurora-sovereign-experience-v47-reference-docket.json --title "GoalOS Aurora Sovereign Experience V47" --notes "GoalOS Aurora Sovereign Experience V47 publishes the colored command center, complete route surface, readable proof flow, AGI Agent workbench, validation route, 48-contract atlas, Ask GoalOS, Search, Site Health, and human visual QA entry point. Public-alpha boundary remains preserved: no user data, no funds, no wallet, no transaction, no network call in browser-local demos, no production authority." || true
