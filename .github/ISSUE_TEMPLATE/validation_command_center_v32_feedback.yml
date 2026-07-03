@@ -1,0 +1,22 @@
+name: GoalOS Validation Command Center V32 feedback
+description: Report UX, route, validation, or artifact feedback for V32.
+title: "[Validation Command Center V32] "
+labels: ["validation", "website", "review"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What happened?
+      description: Describe the validation objective, authority mode, and any issue.
+    validations:
+      required: true
+  - type: dropdown
+    id: authority
+    attributes:
+      label: Authority mode
+      options:
+        - Auto-select
+        - AGI Node
+        - Human
+        - Hybrid
+        - Council

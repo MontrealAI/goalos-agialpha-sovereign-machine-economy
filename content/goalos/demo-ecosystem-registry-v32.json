@@ -1,0 +1,29 @@
+{
+  "version": "v32",
+  "demos": [
+    {
+      "name": "GoalOS Validation Command Center V32",
+      "url": "validation-command-center.html",
+      "category": "Validation",
+      "inputs": [
+        "public-safe validation objective or claim"
+      ],
+      "outputs": [
+        "validation certificate",
+        "attestation",
+        "AGI Node handoff",
+        "reviewer brief",
+        "council packet",
+        "action graph"
+      ],
+      "gates": [
+        "boundary",
+        "authority",
+        "proof",
+        "replay",
+        "human escalation"
+      ],
+      "next_state": "VALIDATION_READY"
+    }
+  ]
+}

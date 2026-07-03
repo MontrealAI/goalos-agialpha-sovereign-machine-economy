@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GoalOS Validation Command Center V32 — Human or AGI Node</title>
+  <meta name="description" content="Choose Human, AGI Node, Hybrid, or Council validation for a GoalOS proof path. Browser-local, no data, no wallet, no transaction.">
+  <link rel="stylesheet" href="assets/goalos-validation-command-center-v32.css">
+</head>
+<body class="goalos-v32-body" id="top">
+  <div class="v32-shell">
+    <nav class="v32-nav" aria-label="GoalOS navigation">
+      <a class="v32-brand" href="index.html"><span class="v32-logo">α</span><span>GoalOS<br><small>AGIALPHA</small></span></a>
+      <div class="v32-links">
+        <a class="v32-chip active" href="validation-command-center.html">Validate</a>
+        <a class="v32-chip" href="goalos.html">Tell GoalOS</a>
+        <a class="v32-chip" href="ask-goalos.html">Ask GoalOS</a>
+        <a class="v32-chip" href="validation-use-cases.html">Use cases</a>
+        <a class="v32-chip" href="mainnet-contract-atlas.html">48 Contracts</a>
+        <a class="v32-chip" href="proof-run-001-docket.html">Proof Run 001</a>
+        <a class="v32-chip" href="site-map.html">All Pages</a>
+        <a class="v32-chip" href="search.html">Search /</a>
+      </div>
+    </nav>
+
+    <section class="v32-hero">
+      <main>
+        <div class="v32-eyebrow"><span class="v32-dot"></span>Validation Authority · Human or AGI Node</div>
+        <h1 class="v32-title">Who should <span class="v32-gradient">validate?</span></h1>
+        <p class="v32-subtitle">Choose Human, AGI Node, Hybrid, or Council validation. GoalOS builds the validation path, explains why, prepares the packet, and routes you to the right proof surface.</p>
+        <p class="v32-copy">Use this when a claim, mission, demo, contract route, Evidence Docket, AI vendor review, Loop → RSI packet, or public page needs validation. The system stays browser-local: no account, no backend call, no wallet, no transaction, no user data.</p>
+
+        <section class="v32-composer" aria-label="Validation composer">
+          <div class="v32-composer-top">
+            <span>What needs validation?</span>
+            <span class="v32-badge">browser-local</span>
+          </div>
+          <textarea id="v32-objective" class="v32-textarea">Validate whether a public-safe Evidence Docket route for the 48 Ethereum Mainnet contracts is complete, claim-bounded, replay-ready, and ready for AGI Node precheck plus human review.</textarea>
+          <div class="v32-actions">
+            <button id="v32-generate" class="v32-btn primary" type="button">Create validation path</button>
+            <button id="v32-cycle" class="v32-btn secondary" type="button">Run validation cycle</button>
+            <button id="v32-open-next" class="v32-btn secondary" type="button">Open next best page</button>
+          </div>
+          <div class="v32-authority" aria-label="Authority modes">
+            <button class="v32-mode active" data-mode="auto" type="button">Auto-select</button>
+            <button class="v32-mode" data-mode="agi-node" type="button">AGI Node</button>
+            <button class="v32-mode" data-mode="human" type="button">Human</button>
+            <button class="v32-mode" data-mode="hybrid" type="button">Hybrid</button>
+            <button class="v32-mode" data-mode="council" type="button">Council</button>
+          </div>
+        </section>
+        <div class="v32-boundary"><b>Public-alpha boundary:</b> no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required for high-impact outcomes.</div>
+      </main>
+
+      <aside class="v32-panel" aria-label="Sovereign validation console">
+        <div class="v32-panel-head"><span>Sovereign Validation Console</span><span class="v32-status">READY</span></div>
+        <div class="v32-orb">α</div>
+        <div class="v32-stages">
+          <div class="v32-stage"><b>01 Boundary</b><span>No data / funds / wallet</span></div>
+          <div class="v32-stage"><b>02 Authority</b><span>Human · Node · Hybrid</span></div>
+          <div class="v32-stage"><b>03 Gates</b><span>Proof / eval / replay</span></div>
+          <div class="v32-stage"><b>04 Certificate</b><span>Attestation packet</span></div>
+          <div class="v32-stage"><b>05 Review</b><span>Human or Council if needed</span></div>
+          <div class="v32-stage"><b>06 Route</b><span>Next proof surface</span></div>
+        </div>
+        <pre id="v32-console" class="v32-console">validation: ready
+authority: auto-select
+state: waiting
+external actions: 0</pre>
+      </aside>
+    </section>
+
+    <section id="v32-results" class="v32-section">
+      <h2>Validation result.</h2>
+      <p class="lead">GoalOS selects or applies the requested validation authority, explains the decision, checks hard gates, and prepares the review packet.</p>
+      <div class="v32-result">
+        <div class="v32-result-panel">
+          <p class="v32-decision" id="v32-decision">HYBRID_VALIDATION_READY</p>
+          <p><b>Selected authority:</b> <span id="v32-authority">Hybrid</span></p>
+          <p id="v32-rationale" class="v32-copy">AGI Node precheck plus human final review.</p>
+          <div id="v32-gates" class="v32-gates"></div>
+          <div id="v32-downloads" class="v32-downloads"></div>
+        </div>
+        <div class="v32-result-panel">
+          <h3>Recommended proof routes</h3>
+          <p class="v32-copy">Open the first route to continue. These routes are selected from the public GoalOS surface.</p>
+          <div id="v32-routes"></div>
+        </div>
+      </div>
+      <div class="v32-rail">
+        <div class="v32-rail-step"><b>Objective</b><span>What needs validation?</span></div>
+        <div class="v32-rail-step"><b>Boundary</b><span>Is it public-safe?</span></div>
+        <div class="v32-rail-step"><b>Authority</b><span>Human, Node, Hybrid, Council</span></div>
+        <div class="v32-rail-step"><b>Gates</b><span>Proof, eval, replay, risk, rollback</span></div>
+        <div class="v32-rail-step"><b>Packet</b><span>Certificate, attestation, brief</span></div>
+        <div class="v32-rail-step"><b>Next</b><span>Open the correct proof route</span></div>
+      </div>
+    </section>
+
+    <section class="v32-section">
+      <h2>Use the right validator.</h2>
+      <p class="lead">AGI Nodes are excellent for deterministic public-safe checks. Humans handle judgment, public claims, legal/financial/security posture, publication, and high-impact outcomes. Hybrid is the best default for important work.</p>
+      <div class="v32-grid">
+        <article class="v32-card"><div class="label">AGI Node</div><h3>Fast mechanical precheck</h3><p>Schema, route integrity, Evidence Docket completeness, replay readiness, no-data/no-wallet boundary, token-boundary wording.</p></article>
+        <article class="v32-card"><div class="label">Human</div><h3>Judgment and accountability</h3><p>Public claims, high-impact decisions, publication approval, procurement, legal/financial/security posture, external-action decisions.</p></article>
+        <article class="v32-card"><div class="label">Hybrid</div><h3>Best default for important work</h3><p>AGI Node prechecks the packet. A human reviewer decides whether to approve, reject, request changes, or escalate.</p></article>
+        <article class="v32-card"><div class="label">Council</div><h3>Strategic and high novelty</h3><p>Loop → RSI governance, Move-37 candidates, strategic dossiers, institutional promotion, state-capacity claims.</p></article>
+        <article class="v32-card"><div class="label">Hard rule</div><h3>No authority without proof</h3><p>A score is advisory. Gates are mandatory: proof, eval, scope, risk, replay, rollback, and challenge readiness.</p></article>
+        <article class="v32-card"><div class="label">Safe by default</div><h3>No data surface</h3><p>This public demo does not send user text anywhere. It creates local artifacts and routes you to public pages.</p></article>
+      </div>
+    </section>
+
+    <section class="v32-section">
+      <h2>Solved validation playbooks.</h2>
+      <p class="lead">Pick a playbook and the validation box fills itself. These examples make the Human / AGI Node / Hybrid / Council choices obvious for non-technical users.</p>
+      <div id="v32-playbooks" class="v32-playbooks"></div>
+    </section>
+
+    <footer class="v32-footer">
+      <p><b>GoalOS AGIALPHA Ascension</b> — public-alpha proof operating system. AI creates output. GoalOS creates proof.</p>
+      <p><a href="trust-boundary.html">Trust Boundary</a> · <a href="token-boundary.html">Token Boundary</a> · <a href="site-map.html">All Pages</a> · <a href="search.html">Search</a></p>
+    </footer>
+  </div>
+  <script src="assets/goalos-validation-orchestrator-routes-v32.js"></script>
+  <script src="assets/goalos-validation-command-center-v32.js"></script>
+</body>
+</html>

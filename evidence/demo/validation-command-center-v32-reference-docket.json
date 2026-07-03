@@ -1,0 +1,14 @@
+{
+  "version": "v32",
+  "status": "reference",
+  "page": "validation-command-center.html",
+  "boundary": "browser-local/no-data/no-wallet/no-transaction",
+  "artifacts": [
+    "validation certificate",
+    "attestation",
+    "AGI Node handoff",
+    "reviewer brief",
+    "council packet",
+    "action graph"
+  ]
+}

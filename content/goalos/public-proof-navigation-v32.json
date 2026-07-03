@@ -1,0 +1,261 @@
+{
+  "version": "v32",
+  "featured": [
+    {
+      "title": "GoalOS Validation Command Center V32",
+      "href": "validation-command-center.html",
+      "category": "Validation",
+      "tags": [
+        "validate",
+        "human",
+        "agi node",
+        "hybrid",
+        "council"
+      ],
+      "description": "Choose Human, AGI Node, Hybrid, or Council validation and generate a public-safe validation packet."
+    },
+    {
+      "title": "GoalOS Mission Studio",
+      "href": "goalos.html",
+      "category": "Mission",
+      "tags": [
+        "mission",
+        "objective",
+        "tell goalos"
+      ],
+      "description": "One-box mission interface: tell GoalOS what you want and get a proof path."
+    },
+    {
+      "title": "Ask GoalOS",
+      "href": "ask-goalos.html",
+      "category": "Assistant",
+      "tags": [
+        "ask",
+        "questions",
+        "chat",
+        "route"
+      ],
+      "description": "Browser-local question window that answers and routes users to the right page."
+    },
+    {
+      "title": "48 Mainnet Contract Atlas",
+      "href": "mainnet-contract-atlas.html",
+      "category": "Contracts",
+      "tags": [
+        "48",
+        "contracts",
+        "ethereum",
+        "mainnet",
+        "atlas"
+      ],
+      "description": "Learn the GoalOS-created Ethereum Mainnet contract surface and proof rail."
+    },
+    {
+      "title": "Mainnet Proof Rail",
+      "href": "mainnet-proof-rail.html",
+      "category": "Contracts",
+      "tags": [
+        "proof rail",
+        "contracts",
+        "mainnet"
+      ],
+      "description": "Understand how the contract surface maps to proof-bearing institutional work."
+    },
+    {
+      "title": "Contract Academy",
+      "href": "contract-academy.html",
+      "category": "Contracts",
+      "tags": [
+        "learn",
+        "academy",
+        "contracts"
+      ],
+      "description": "Guided learning path for non-technical users who want to understand the contracts."
+    }
+  ],
+  "all": [
+    {
+      "title": "GoalOS Validation Command Center V32",
+      "href": "validation-command-center.html",
+      "category": "Validation",
+      "tags": [
+        "validate",
+        "human",
+        "agi node",
+        "hybrid",
+        "council"
+      ],
+      "description": "Choose Human, AGI Node, Hybrid, or Council validation and generate a public-safe validation packet."
+    },
+    {
+      "title": "GoalOS Mission Studio",
+      "href": "goalos.html",
+      "category": "Mission",
+      "tags": [
+        "mission",
+        "objective",
+        "tell goalos"
+      ],
+      "description": "One-box mission interface: tell GoalOS what you want and get a proof path."
+    },
+    {
+      "title": "Ask GoalOS",
+      "href": "ask-goalos.html",
+      "category": "Assistant",
+      "tags": [
+        "ask",
+        "questions",
+        "chat",
+        "route"
+      ],
+      "description": "Browser-local question window that answers and routes users to the right page."
+    },
+    {
+      "title": "48 Mainnet Contract Atlas",
+      "href": "mainnet-contract-atlas.html",
+      "category": "Contracts",
+      "tags": [
+        "48",
+        "contracts",
+        "ethereum",
+        "mainnet",
+        "atlas"
+      ],
+      "description": "Learn the GoalOS-created Ethereum Mainnet contract surface and proof rail."
+    },
+    {
+      "title": "Mainnet Proof Rail",
+      "href": "mainnet-proof-rail.html",
+      "category": "Contracts",
+      "tags": [
+        "proof rail",
+        "contracts",
+        "mainnet"
+      ],
+      "description": "Understand how the contract surface maps to proof-bearing institutional work."
+    },
+    {
+      "title": "Contract Academy",
+      "href": "contract-academy.html",
+      "category": "Contracts",
+      "tags": [
+        "learn",
+        "academy",
+        "contracts"
+      ],
+      "description": "Guided learning path for non-technical users who want to understand the contracts."
+    },
+    {
+      "title": "Proof Run 001 Docket",
+      "href": "proof-run-001-docket.html",
+      "category": "Evidence",
+      "tags": [
+        "proof run",
+        "docket",
+        "evidence"
+      ],
+      "description": "Review the public repository-readiness Evidence Docket."
+    },
+    {
+      "title": "Demo Ecosystem Registry",
+      "href": "demo-ecosystem-registry.html",
+      "category": "Registry",
+      "tags": [
+        "registry",
+        "demos",
+        "routes"
+      ],
+      "description": "Browse public demos, inputs, outputs, gates, and next states."
+    },
+    {
+      "title": "Loop to RSI State-Capacity",
+      "href": "from-loop-to-rsi-state-capacity.html",
+      "category": "Loop \u2192 RSI",
+      "tags": [
+        "rsi",
+        "loop",
+        "governance",
+        "state capacity"
+      ],
+      "description": "See how loops become deterministic RSI governance."
+    },
+    {
+      "title": "Trust Boundary",
+      "href": "trust-boundary.html",
+      "category": "Boundary",
+      "tags": [
+        "trust",
+        "privacy",
+        "data",
+        "funds"
+      ],
+      "description": "No user data, no user funds, no wallet, no transaction, no production authority."
+    },
+    {
+      "title": "Token Boundary",
+      "href": "token-boundary.html",
+      "category": "Boundary",
+      "tags": [
+        "token",
+        "agialpha",
+        "boundary",
+        "not available"
+      ],
+      "description": "Public contract identification only; not available from GoalOS; no advice."
+    },
+    {
+      "title": "All Pages",
+      "href": "site-map.html",
+      "category": "Navigation",
+      "tags": [
+        "all pages",
+        "site map",
+        "navigation"
+      ],
+      "description": "Complete public route map."
+    },
+    {
+      "title": "Search",
+      "href": "search.html",
+      "category": "Navigation",
+      "tags": [
+        "search",
+        "command palette"
+      ],
+      "description": "Find any public route."
+    },
+    {
+      "title": "Site Health",
+      "href": "site-health.html",
+      "category": "Navigation",
+      "tags": [
+        "health",
+        "route integrity",
+        "qa"
+      ],
+      "description": "Route inventory and health checks."
+    },
+    {
+      "title": "Validation Use Cases",
+      "href": "validation-use-cases.html",
+      "category": "Validation",
+      "tags": [
+        "use cases",
+        "playbooks",
+        "examples"
+      ],
+      "description": "End-to-end validation examples for human, AGI Node, hybrid, and council review."
+    },
+    {
+      "title": "AGI Node Use Cases",
+      "href": "agi-node-use-cases.html",
+      "category": "Validation",
+      "tags": [
+        "agi node",
+        "examples",
+        "validator"
+      ],
+      "description": "Concrete cases where AGI Node validation is useful."
+    }
+  ]
+}
