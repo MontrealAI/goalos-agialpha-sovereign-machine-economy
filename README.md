@@ -227,3 +227,13 @@ Boundary: no user data, no user funds, no wallet, no transaction, no network cal
 Human or AGI Node can validate. Open `public/validation-control-tower.html` to choose Human, AGI Node, Hybrid, or Council validation, generate downloadable review artifacts, and route to the correct proof surface.
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority.
+
+<!-- GOALOS_AGI_AGENT_CONSTELLATION_V34_START -->
+## GoalOS AGI Agent Constellation V34
+
+Adds the Meta-agentic α‑AGI agent layer as a browser-local public demo: users type an objective, GoalOS selects an agent constellation, generates a Mission Contract, prepares AGI Node handoff, creates reviewer artifacts, and routes to the correct proof surface.
+
+Primary page: `public/agi-agent-constellation.html`
+
+Boundary: No user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required for high-impact outcomes.
+<!-- GOALOS_AGI_AGENT_CONSTELLATION_V34_END -->

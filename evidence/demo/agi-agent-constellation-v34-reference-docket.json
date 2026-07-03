@@ -1,0 +1,14 @@
+{
+  "version": "v34",
+  "status": "reference",
+  "claim": "AGI Agent Constellation is a browser-local public-safe demo that creates agent proof paths and review artifacts.",
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required for high-impact outcomes.",
+  "artifacts": [
+    "Mission Contract",
+    "AGI Node Handoff",
+    "Reviewer Brief",
+    "Action Graph"
+  ],
+  "agents": 12,
+  "playbooks": 12
+}

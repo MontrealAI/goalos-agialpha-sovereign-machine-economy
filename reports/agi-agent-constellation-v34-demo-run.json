@@ -1,0 +1,34 @@
+{
+  "version": "v34",
+  "status": "passed",
+  "cases": [
+    {
+      "case": 1,
+      "objective": "I want AGI agents to help me understand the 48 Ethereum Mainnet contracts.",
+      "intent": "contract_atlas",
+      "state": "AGENT_CONSTELLATION_READY",
+      "external_actions": 0
+    },
+    {
+      "case": 2,
+      "objective": "I want to run a public-safe proof mission.",
+      "intent": "proof_mission",
+      "state": "AGENT_CONSTELLATION_READY",
+      "external_actions": 0
+    },
+    {
+      "case": 3,
+      "objective": "I want a hybrid AGI Node plus Human review for a Loop to RSI governance packet.",
+      "intent": "rsi",
+      "state": "AGENT_CONSTELLATION_READY",
+      "external_actions": 0
+    },
+    {
+      "case": 4,
+      "objective": "I want to validate privacy, token, and no-data boundaries.",
+      "intent": "boundary",
+      "state": "AGENT_CONSTELLATION_READY",
+      "external_actions": 0
+    }
+  ]
+}

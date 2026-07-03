@@ -1,0 +1,19 @@
+name: AGI Agent Constellation feedback
+description: Report feedback for the GoalOS AGI Agent Constellation V34 demo
+title: "AGI Agent Constellation feedback"
+labels: [demo, agents, feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked, what was confusing, and what should improve?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Boundary confirmation
+      options:
+        - label: I did not include personal, confidential, wallet, payment, private-key, or regulated data.
+          required: true

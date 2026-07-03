@@ -1,5 +1,5 @@
 {
-  "version": "v25",
+  "version": "v34",
   "demos": [
     {
       "demo_name": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
@@ -3600,6 +3600,27 @@
         "REVIEW_READY"
       ],
       "role": "UI demo / route surface / evidence surface"
+    },
+    {
+      "name": "GoalOS AGI Agent Constellation V34",
+      "url": "agi-agent-constellation.html",
+      "category": "AGI Agents",
+      "inputs": [
+        "plain-language objective"
+      ],
+      "outputs": [
+        "Mission Contract",
+        "AGI Node Handoff",
+        "Reviewer Brief",
+        "Action Graph"
+      ],
+      "gates": [
+        "boundary",
+        "agent role contract",
+        "validation authority",
+        "Evidence Docket plan"
+      ],
+      "next_state": "AGENT_CONSTELLATION_READY"
     }
   ]
 }
