@@ -1261,7 +1261,7 @@ window.GOALOS_ROUTE_REGISTRY_V46 = [
   },
   {
     "href": "site-health.html",
-    "title": "Route surface restored and graduation-ready.",
+    "title": "Route surface clear.",
     "description": "Open Site Health as part of the complete GoalOS public-alpha route surface.",
     "category": "Navigation & QA"
   },
