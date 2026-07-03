@@ -1,0 +1,116 @@
+name: GoalOS AGI Agent Command Center V36 — Meta-Agentic Agents
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy updated public/ site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a tracking issue after installation"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub Release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.56.0-agi-agent-command-center-v36"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-agi-agent-command-center-v36
+  cancel-in-progress: false
+
+jobs:
+  agi-agent-command-center:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install GoalOS AGI Agent Command Center pack
+        run: |
+          set -euo pipefail
+          test -f .goalos/packs/goalos-agi-agent-command-center-v36-pack.zip
+          rm -rf /tmp/goalos-agi-agent-command-center-v36
+          mkdir -p /tmp/goalos-agi-agent-command-center-v36
+          unzip -q .goalos/packs/goalos-agi-agent-command-center-v36-pack.zip -d /tmp/goalos-agi-agent-command-center-v36
+          python /tmp/goalos-agi-agent-command-center-v36/scripts/install_agi_agent_command_center_v36.py
+          python /tmp/goalos-agi-agent-command-center-v36/scripts/run_agi_agent_command_center_v36_demo.py
+          python /tmp/goalos-agi-agent-command-center-v36/scripts/audit_agi_agent_command_center_v36.py
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add README.md public docs examples reports evidence content issue-bodies .github || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS AGI Agent Command Center V36"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh issue create --title "GoalOS AGI Agent Command Center V36 installed" --body-file issue-bodies/agi-agent-command-center-v36.md || true
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh release create "${{ inputs.release_tag }}" \
+            --title "GoalOS AGI Agent Command Center V36" \
+            --notes "Meta-agentic AGI agents become proof-governed work. Browser-local, public-safe, no data, no funds, no wallet, no transaction." \
+            reports/agi-agent-command-center-v36-qa.json \
+            reports/agi-agent-command-center-v36-audit.json \
+            evidence/demo/agi-agent-command-center-v36-reference-docket.json || true
