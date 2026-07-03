@@ -1,0 +1,136 @@
+name: GoalOS AGI Agent Constellation V34 — Meta-Agentic Agents
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.54.0-agi-agent-constellation-v34
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-agi-agent-constellation-v34-pack.zip
+
+jobs:
+  agi-agent-constellation:
+    name: Install AGI Agent Constellation
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Unpack AGI Agent Constellation pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import pathlib, zipfile
+          zip_path = pathlib.Path('.goalos/packs/goalos-agi-agent-constellation-v34-pack.zip')
+          with zipfile.ZipFile(zip_path) as z:
+              z.extractall(pathlib.Path.cwd())
+          print(f'unpacked {zip_path}')
+          PY
+
+      - name: Install page, docs, registry, and reports
+        run: python scripts/install_agi_agent_constellation_v34.py
+
+      - name: Run deterministic demo
+        run: python scripts/run_agi_agent_constellation_v34_demo.py
+
+      - name: Audit browser-local safety and required artifacts
+        run: python scripts/goalos_agi_agent_constellation_v34_audit.py
+
+      - name: Commit AGI Agent Constellation update
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples scripts evidence reports content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS AGI Agent Constellation V34"
+            git push
+          fi
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v gh >/dev/null 2>&1; then
+            gh issue create --title "GoalOS AGI Agent Constellation V34 — Review" --body-file issue-bodies/agi-agent-constellation-v34.md --label "demo" --label "agents" --label "review" || true
+          fi
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.release_tag }}"
+          if command -v gh >/dev/null 2>&1; then
+            gh release create "$tag" reports/agi-agent-constellation-v34-qa.json reports/agi-agent-constellation-v34-demo-run.json reports/agi-agent-constellation-v34-audit.json evidence/demo/agi-agent-constellation-v34-reference-docket.json --title "GoalOS AGI Agent Constellation V34" --notes "Meta-agentic AGI agents, AGI Node handoff, proof routes, Ask GoalOS, and complete navigation. Browser-local, no user data, no funds, no wallet, no transaction." || true
+          fi
