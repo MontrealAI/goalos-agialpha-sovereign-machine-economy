@@ -1,0 +1,98 @@
+name: GoalOS Site Recovery V42 — Complete Route Surface
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy updated public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a tracking issue after installation"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag when create_release is true"
+        required: true
+        type: string
+        default: "v0.62.0-site-recovery-v42"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-site-recovery-v42
+  cancel-in-progress: false
+
+jobs:
+  install-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Locate pack
+        run: |
+          test -f .goalos/packs/goalos-site-recovery-v42-pack.zip || (echo "Missing .goalos/packs/goalos-site-recovery-v42-pack.zip" && exit 1)
+          rm -rf .goalos/runtime/site-recovery-v42
+          mkdir -p .goalos/runtime/site-recovery-v42
+          python -m zipfile -e .goalos/packs/goalos-site-recovery-v42-pack.zip .goalos/runtime/site-recovery-v42
+      - name: Install GoalOS Site Recovery V42
+        run: python .goalos/runtime/site-recovery-v42/scripts/install_site_recovery_v42.py
+      - name: Run deterministic demo
+        run: python .goalos/runtime/site-recovery-v42/scripts/run_site_recovery_v42_demo.py
+      - name: Audit route integrity
+        run: python .goalos/runtime/site-recovery-v42/scripts/audit_site_recovery_v42.py
+      - name: Commit changes
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs reports evidence content examples issue-bodies .github/ISSUE_TEMPLATE || true
+          if git diff --cached --quiet; then echo "No changes to commit"; else git commit -m "Add GoalOS Site Recovery V42"; git push; fi
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.existsSync('issue-bodies/site-recovery-v42.md') ? fs.readFileSync('issue-bodies/site-recovery-v42.md','utf8') : 'GoalOS Site Recovery V42 installed.';
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title: 'GoalOS Site Recovery V42 installed', body, labels: ['goalos','website','qa']});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Site Recovery V42
+          body: GoalOS Site Recovery V42 restores complete route navigation, All Pages, Search, Command Center, and route health.
+          files: |
+            reports/site-recovery-v42-install-report.json
+            reports/site-recovery-v42-qa.json
+            reports/site-recovery-v42-route-health.json
+            reports/site-recovery-v42-audit.json
+            reports/site-recovery-v42-demo-run.json
