@@ -58,6 +58,13 @@
       "keywords": "agi jobs v0 (v2) agi-jobs-v0-v2.html additional"
     },
     {
+      "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+      "url": "agi-node-validation.html",
+      "category": "Mission Studio",
+      "description": "Open GoalOS Validation Authority \u2014 Human or AGI Node as part of the complete GoalOS public proof surface.",
+      "keywords": "goalos validation authority \u2014 human or agi node agi-node-validation.html mission studio"
+    },
+    {
       "title": "$AGIALPHA Control Rail",
       "url": "agialpha-control-rail.html",
       "category": "Additional",
@@ -399,6 +406,13 @@
       "category": "Additional",
       "description": "Open Holy Grail Candidate as part of the complete GoalOS public proof surface.",
       "keywords": "holy grail candidate holy-grail-candidate.html additional"
+    },
+    {
+      "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+      "url": "human-or-node-validation.html",
+      "category": "Mission Studio",
+      "description": "Open GoalOS Validation Authority \u2014 Human or AGI Node as part of the complete GoalOS public proof surface.",
+      "keywords": "goalos validation authority \u2014 human or agi node human-or-node-validation.html mission studio"
     },
     {
       "title": "Independent Validation \u00b7 GoalOS Ascension",
@@ -1043,6 +1057,20 @@
       "category": "Mission Studio",
       "description": "Solved GoalOS use cases with copy-paste objectives.",
       "keywords": "goalos use case playbooks v27 use-case-playbooks.html mission studio"
+    },
+    {
+      "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+      "url": "validation-authority.html",
+      "category": "Mission Studio",
+      "description": "Open GoalOS Validation Authority \u2014 Human or AGI Node as part of the complete GoalOS public proof surface.",
+      "keywords": "goalos validation authority \u2014 human or agi node validation-authority.html mission studio"
+    },
+    {
+      "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+      "url": "validation-console.html",
+      "category": "Mission Studio",
+      "description": "Open GoalOS Validation Authority \u2014 Human or AGI Node as part of the complete GoalOS public proof surface.",
+      "keywords": "goalos validation authority \u2014 human or agi node validation-console.html mission studio"
     },
     {
       "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
