@@ -1,0 +1,131 @@
+name: GoalOS Validation Mesh V29 — Human or AGI Node
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy public/ to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create tracking issue
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag
+        required: true
+        type: string
+        default: v0.49.0-validation-mesh-v29
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-validation-mesh-v29-pack.zip
+
+jobs:
+  validation-mesh:
+    name: Install GoalOS Validation Mesh V29
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP"
+          ls -lh "$PACK_ZIP"
+
+      - name: Unpack V29 pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import pathlib, zipfile
+          p=pathlib.Path('.goalos/packs/goalos-validation-mesh-v29-pack.zip')
+          with zipfile.ZipFile(p) as z:
+              z.extractall(pathlib.Path.cwd())
+          print('unpacked', p)
+          PY
+
+      - name: Install Validation Mesh V29
+        run: python scripts/install_validation_mesh_v29.py
+
+      - name: Run deterministic V29 demo
+        run: python scripts/run_validation_mesh_v29_demo.py
+
+      - name: Audit browser-local safety and routes
+        run: python scripts/goalos_validation_mesh_v29_audit.py
+
+      - name: Commit Validation Mesh V29
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md public docs examples scripts reports evidence content .github issue-bodies .goalos || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS Validation Mesh V29"
+            git push
+          fi
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh issue create --title "GoalOS Validation Mesh V29 — Review" --body-file issue-bodies/validation-mesh-v29.md --label "validation" --label "review" || true
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Create GitHub Release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create "${{ inputs.release_tag }}"             reports/validation-mesh-v29-install-report.json             reports/validation-mesh-v29-qa.json             reports/validation-mesh-v29-route-health.json             reports/validation-mesh-v29-demo-run.json             reports/validation-mesh-v29-audit.json             evidence/demo/validation-mesh-v29-reference-docket.json             --title "GoalOS Validation Mesh V29"             --notes "Human, AGI Node, Hybrid, or Council validation authority for public-safe GoalOS proof paths. Browser-local; no user data, funds, wallet, transaction, or network call." || true
