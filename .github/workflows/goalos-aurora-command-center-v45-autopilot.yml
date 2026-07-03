@@ -1,0 +1,156 @@
+name: GoalOS Aurora Command Center V45 — Color Restoration + Route Integrity
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated V45 files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public/ to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub release after human approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.65.0-aurora-command-center-v45"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-aurora-command-center-v45
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    name: Install V45, audit, deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          PACK=".goalos/packs/goalos-aurora-command-center-v45-pack.zip"
+          if [ ! -f "$PACK" ]; then
+            echo "::error::Missing $PACK. Upload the V45 pack zip to .goalos/packs/ first."
+            exit 1
+          fi
+          mkdir -p .goalos/tmp/v45
+          unzip -o "$PACK" -d .goalos/tmp/v45
+
+      - name: Install Aurora Command Center V45
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 .goalos/tmp/v45/install_v45.py
+
+      - name: Show V45 audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat reports/aurora-command-center-v45-audit.json
+          cat reports/aurora-command-center-v45-route-health.json
+
+      - name: Commit changes
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs reports evidence content examples goalos-aurora-command-center-v45-summary.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Restore colored GoalOS UX and route integrity V45"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          BODY=$(cat <<'EOF'
+          # GoalOS Aurora Command Center V45 — Human Visual QA Required
+
+          V45 restores the colored GoalOS identity and fixes route/visual UX issues.
+
+          Please verify:
+
+          - [ ] Homepage is colorful, serious, and institutional.
+          - [ ] No text overlap on desktop.
+          - [ ] No text overlap on mobile.
+          - [ ] Visual Flow Proof is readable.
+          - [ ] Navigation is clear.
+          - [ ] Ask GoalOS opens.
+          - [ ] All Pages works.
+          - [ ] Search works.
+          - [ ] Site Health works.
+          - [ ] Public-alpha boundary remains visible.
+          - [ ] No wallet prompt appears.
+          - [ ] No transaction occurs.
+          - [ ] No backend call occurs.
+          - [ ] No user-data form appears.
+
+          Pages to open:
+
+          - `public/index.html`
+          - `public/goalos-aurora-command-center.html`
+          - `public/visual-flow-proof.html`
+          - `public/ux-proof-check.html`
+          - `public/site-map.html`
+          - `public/search.html`
+          - `public/site-health.html`
+
+          Final authority is human visual review.
+          EOF
+          )
+          gh issue create --title "GoalOS Aurora Command Center V45 — human visual QA required" --body "$BODY" || true
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${{ inputs.release_tag }}"
+          gh release create "$TAG"             --title "GoalOS Aurora Command Center V45 — Color Restoration + Route Integrity"             --notes "V45 restores the colored GoalOS visual identity, fixes the visual-flow overlap issue, preserves all pages, rebuilds All Pages/Search/Site Health, sanitizes legacy public assets, and keeps the public-alpha boundary. Human visual QA remains required before production-graduation claims."             reports/aurora-command-center-v45-audit.json             reports/aurora-command-center-v45-qa.json             reports/aurora-command-center-v45-route-health.json             evidence/demo/aurora-command-center-v45-reference-docket.json             goalos-aurora-command-center-v45-summary.json
