@@ -211,14 +211,14 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/agent-flow-academy-v38.html",
-    "title": "GoalOS Agent Flow Academy V38",
-    "description": "GoalOS AGI Agent Workbench V38 — browser-local visual agent missions, AGI Node handoff, evidence docket plans, validation routes, and use cases.",
+    "title": "GoalOS Agent Flow Academy",
+    "description": "Visual explanation of the GoalOS agent-to-proof flow.",
     "category": "AGI Agents & Nodes"
   },
   {
     "href": "archive/v48-preserved/agent-flow-academy.html",
-    "title": "GoalOS Agent Flow Academy V37",
-    "description": "GoalOS AGI Agent Mission Control V37",
+    "title": "GoalOS Agent Flow Academy",
+    "description": "Visual explanation of the GoalOS agent-to-proof flow.",
     "category": "AGI Agents & Nodes"
   },
   {
@@ -241,8 +241,8 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/agi-agent-run-theatre.html",
-    "title": "GoalOS AGI Agent Run Theatre V38",
-    "description": "GoalOS AGI Agent Workbench V38 — browser-local visual agent missions, AGI Node handoff, evidence docket plans, validation routes, and use cases.",
+    "title": "GoalOS Autonomy Theatre",
+    "description": "End-to-end GoalOS proof mission theatre.",
     "category": "AGI Agents & Nodes"
   },
   {
@@ -253,8 +253,8 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/agi-agent-workbench.html",
-    "title": "GoalOS AGI Agent Workbench V38",
-    "description": "GoalOS AGI Agent Workbench V38 — browser-local visual agent missions, AGI Node handoff, evidence docket plans, validation routes, and use cases.",
+    "title": "GoalOS AGI Agent Workbench",
+    "description": "AGI Agent Workbench for public-safe GoalOS objectives.",
     "category": "AGI Agents & Nodes"
   },
   {
@@ -283,9 +283,15 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/autonomy-theatre.html",
-    "title": "GoalOS Autonomy Theatre V41 — End-to-End Demo",
-    "description": "A browser-local end-to-end GoalOS autonomous proof mission demo.",
+    "title": "GoalOS Autonomy Theatre",
+    "description": "End-to-end GoalOS proof mission theatre.",
     "category": "Core Experience"
+  },
+  {
+    "href": "archive/v48-preserved/contract-academy.html",
+    "title": "Contract Academy",
+    "description": "Preserved public route referenced from archive/v48-preserved/mainnet-contract-atlas.html.",
+    "category": "48 Contracts & Token Boundary"
   },
   {
     "href": "archive/v48-preserved/demo-ecosystem-registry.html",
@@ -301,20 +307,20 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/goalos-aurora-command-center.html",
-    "title": "GoalOS Aurora Command Center — GoalOS",
-    "description": "Colored command center for proof-governed AI work.",
+    "title": "GoalOS Aurora Command Center",
+    "description": "GoalOS colored command center and proof-governed public surface.",
     "category": "Core Experience"
   },
   {
     "href": "archive/v48-preserved/goalos-command-center.html",
-    "title": "GoalOS Aurora Command Center — GoalOS",
-    "description": "Colored command center for proof-governed AI work.",
+    "title": "GoalOS Command Center",
+    "description": "GoalOS colored command center and proof-governed public surface.",
     "category": "Core Experience"
   },
   {
     "href": "archive/v48-preserved/goalos-gold-master.html",
-    "title": "GoalOS Aurora Command Center — GoalOS",
-    "description": "Colored command center for proof-governed AI work.",
+    "title": "GoalOS Gold Master",
+    "description": "GoalOS colored command center and proof-governed public surface.",
     "category": "Core Experience"
   },
   {
@@ -325,14 +331,20 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/index.html",
-    "title": "GoalOS Aurora Command Center — GoalOS",
-    "description": "Colored command center for proof-governed AI work.",
+    "title": "GoalOS Aurora Command Center",
+    "description": "GoalOS colored command center and proof-governed public surface.",
     "category": "Core Experience"
   },
   {
     "href": "archive/v48-preserved/mainnet-contract-atlas.html",
-    "title": "GoalOS Mainnet Contract Atlas V17 — 48 Ethereum Mainnet Contracts",
-    "description": "Browser-local guided atlas for the 48 GoalOS-created Ethereum Mainnet contracts and canonical external AGIALPHA boundary.",
+    "title": "GoalOS Mainnet Contract Atlas",
+    "description": "Learn the 48 GoalOS-created Ethereum Mainnet contracts.",
+    "category": "48 Contracts & Token Boundary"
+  },
+  {
+    "href": "archive/v48-preserved/mainnet-proof-rail.html",
+    "title": "Mainnet Proof Rail",
+    "description": "Preserved public route referenced from archive/v48-preserved/mainnet-contract-atlas.html.",
     "category": "48 Contracts & Token Boundary"
   },
   {
@@ -355,8 +367,8 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/public-alpha-gold-master.html",
-    "title": "GoalOS Aurora Command Center — GoalOS",
-    "description": "Colored command center for proof-governed AI work.",
+    "title": "Public Alpha Gold Master",
+    "description": "GoalOS colored command center and proof-governed public surface.",
     "category": "Core Experience"
   },
   {
@@ -403,8 +415,8 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/ux-proof-check.html",
-    "title": "GoalOS Human UX Proof Check — GoalOS",
-    "description": "Human visual QA checklist.",
+    "title": "GoalOS UX Proof Check",
+    "description": "Human visual QA checklist for GoalOS.",
     "category": "Proof & Evidence"
   },
   {
@@ -415,8 +427,8 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/validation-control-tower.html",
-    "title": "GoalOS Validation Control Tower V33 — Human or AGI Node",
-    "description": "Choose Human, AGI Node, Hybrid, or Council validation for GoalOS proof paths. Browser-local, no data, no wallet, no transaction.",
+    "title": "GoalOS Validation Control Tower",
+    "description": "Human, AGI Node, Hybrid, and Council validation paths.",
     "category": "Validation & Review"
   },
   {
@@ -445,8 +457,8 @@ window.GOALOS_ROUTES_V48 = [
   },
   {
     "href": "archive/v48-preserved/visual-flow-proof.html",
-    "title": "GoalOS Visual Flow Proof — GoalOS",
-    "description": "Clean aligned proof flow.",
+    "title": "GoalOS Visual Flow Proof",
+    "description": "Aligned GoalOS proof-flow graph.",
     "category": "Proof & Evidence"
   },
   {

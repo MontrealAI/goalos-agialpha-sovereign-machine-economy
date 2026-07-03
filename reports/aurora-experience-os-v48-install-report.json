@@ -1,7 +1,7 @@
 {
   "version": "v48",
   "status": "passed",
-  "publicPages": 294,
+  "publicPages": 296,
   "forbiddenBrowserApiHits": [],
   "brokenInternalLinksOrAssets": [],
   "boundary": "preserved",
@@ -9,8 +9,8 @@
   "productionAuthorization": "not_granted",
   "empiricalSotaClaim": "not_claimed",
   "walletTransactionSupport": "not_enabled",
-  "generatedAt": "2026-07-03T23:50:24.650325+00:00",
+  "generatedAt": "2026-07-03T23:51:12.975015+00:00",
   "sanitized": 0,
-  "createdCompatibilityTargets": 91,
-  "patchedHtml": 253
+  "createdCompatibilityTargets": 6,
+  "patchedHtml": 152
 }
