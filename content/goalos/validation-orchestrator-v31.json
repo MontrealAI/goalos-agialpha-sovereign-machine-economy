@@ -1,0 +1,16 @@
+{
+  "version": "v31",
+  "status": "prepared",
+  "primaryPage": "validation-orchestrator.html",
+  "authorityModes": [
+    "auto",
+    "agi-node",
+    "human",
+    "hybrid",
+    "council"
+  ],
+  "playbookCount": 18,
+  "forbiddenBrowserApiHits": [],
+  "brokenInternalHtmlLinks": [],
+  "generatedAt": "2026-07-03T02:16:16.898971+00:00"
+}

@@ -1,0 +1,12 @@
+name: Validation Orchestrator feedback
+description: Report feedback on GoalOS Validation Orchestrator V31
+title: "Validation Orchestrator V31 feedback"
+labels: [validation, demo, review]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing? Which validation path did you test?
+    validations:
+      required: true

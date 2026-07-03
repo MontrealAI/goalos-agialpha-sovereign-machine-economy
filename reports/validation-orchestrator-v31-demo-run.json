@@ -1,0 +1,14 @@
+{
+  "version": "v31",
+  "status": "passed",
+  "checks": {
+    "has_textbox": true,
+    "has_agi_node": true,
+    "has_human": true,
+    "has_hybrid": true,
+    "has_council": true,
+    "has_ask_goalos": true,
+    "has_downloads": true,
+    "has_playbooks": true
+  }
+}
