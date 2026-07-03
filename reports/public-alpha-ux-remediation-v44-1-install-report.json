@@ -2,9 +2,7 @@
   "version": "v44.1",
   "status": "installed",
   "publicPages": 250,
-  "sanitizedFiles": [
-    "public/assets/goalos-validation-control-routes-v33.js"
-  ],
+  "sanitizedFiles": [],
   "boundary": "preserved",
   "externalActions": 0,
   "productionAuthorization": "not_granted"
