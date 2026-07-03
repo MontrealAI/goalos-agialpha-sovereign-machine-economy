@@ -1,0 +1,142 @@
+name: GoalOS Aurora Experience OS V48 — Final Website Experience
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create release after approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.68.0-aurora-experience-os-v48"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-aurora-experience-os-v48
+  cancel-in-progress: false
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-aurora-experience-os-v48-pack.zip
+  PACK_DIR: .goalos/work/goalos-aurora-experience-os-v48
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP" || { echo "Missing required pack: $PACK_ZIP"; exit 1; }
+          rm -rf "$PACK_DIR"
+          mkdir -p "$PACK_DIR"
+          unzip -o "$PACK_ZIP" -d "$PACK_DIR"
+
+      - name: Compile installer
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m py_compile "$PACK_DIR/install_goalos_aurora_experience_os_v48.py"
+
+      - name: Install Aurora Experience OS V48
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 "$PACK_DIR/install_goalos_aurora_experience_os_v48.py"
+
+      - name: Show audit reports
+        if: always()
+        shell: bash
+        run: |
+          test -f reports/aurora-experience-os-v48-audit.json && cat reports/aurora-experience-os-v48-audit.json || true
+          test -f reports/aurora-experience-os-v48-route-health.json && cat reports/aurora-experience-os-v48-route-health.json || true
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes == true }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs examples reports evidence content .github/workflows .goalos/packs || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Ship GoalOS Aurora Experience OS V48"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages == true }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages == true }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages == true }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue == true }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cat > /tmp/goalos-v48-qa.md <<'EOF'
+          GoalOS Aurora Experience OS V48 human visual QA
+
+          Open: index.html, autonomy-theatre.html, agi-agent-workbench.html, visual-flow-proof.html, site-map.html, search.html, site-health.html, validation-control-tower.html, mainnet-contract-atlas.html.
+
+          Confirm: colored identity, no overlap, no blank hero dead zone, readable proof flow, readable agent console, efficient navigation, working search, working All Pages, working Site Health, visible public-alpha boundary, no wallet prompt, no transaction, no backend call, no user-data form.
+
+          Verdict:
+          EOF
+          gh issue create --title "GoalOS Aurora Experience OS V48 — human visual QA" --body-file /tmp/goalos-v48-qa.md || true
+
+      - name: Create release
+        if: ${{ inputs.create_release == true }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          NOTES="docs/website/AURORA_EXPERIENCE_OS_V48.md"
+          if [ ! -f "$NOTES" ]; then echo "GoalOS Aurora Experience OS V48" > "$NOTES"; fi
+          gh release create "${{ inputs.release_tag }}" \
+            reports/aurora-experience-os-v48-*.json \
+            evidence/demo/aurora-experience-os-v48-reference-docket.json \
+            --title "GoalOS Aurora Experience OS V48" \
+            --notes-file "$NOTES" \
+            --latest || gh release edit "${{ inputs.release_tag }}" --title "GoalOS Aurora Experience OS V48" --notes-file "$NOTES" --latest
