@@ -1,0 +1,125 @@
+name: GoalOS AGI Agent Workbench V38 — Visual Agent OS
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy the updated public/ site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a tracking issue after installation"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub Release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.58.0-agi-agent-workbench-v38"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-agi-agent-workbench-v38-pack.zip
+  PACK_DIR: .goalos/tmp/agi-agent-workbench-v38
+
+jobs:
+  install:
+    name: Install AGI Agent Workbench V38
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check pack exists
+        run: |
+          if [ ! -f "$PACK_ZIP" ]; then
+            echo "Missing required pack: $PACK_ZIP"
+            echo "Upload goalos-agi-agent-workbench-v38-pack.zip to .goalos/packs/ first."
+            exit 1
+          fi
+
+      - name: Unpack V38 pack
+        run: |
+          rm -rf "$PACK_DIR"
+          mkdir -p "$PACK_DIR"
+          unzip -q "$PACK_ZIP" -d "$PACK_DIR"
+
+      - name: Install V38 website layer
+        run: python "$PACK_DIR/scripts/install_agi_agent_workbench_v38.py"
+
+      - name: Run deterministic demo
+        run: python scripts/run_agi_agent_workbench_v38_demo.py
+
+      - name: Run browser-local safety and route audit
+        run: python scripts/audit_agi_agent_workbench_v38.py
+
+      - name: Configure git
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git add public docs examples reports evidence content issue-bodies .github/ISSUE_TEMPLATE README.md || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS AGI Agent Workbench V38"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const bodyPath = 'issue-bodies/agi-agent-workbench-v38.md';
+            const body = fs.existsSync(bodyPath) ? fs.readFileSync(bodyPath, 'utf8') : 'GoalOS AGI Agent Workbench V38 installed.';
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title: 'GoalOS AGI Agent Workbench V38 review', body, labels: ['goalos','website','review']});
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: "GoalOS AGI Agent Workbench V38"
+          body: "Visual browser-local AGI Agent Workbench: one-box objective input, runnable demos, flowcharts, AGI Node handoff, Evidence Docket plan, validation routes, Ask GoalOS, and solved use cases."
+          files: |
+            reports/agi-agent-workbench-v38-qa.json
+            reports/agi-agent-workbench-v38-demo-run.json
+            reports/agi-agent-workbench-v38-audit.json
+            evidence/demo/agi-agent-workbench-v38-reference-docket.json
