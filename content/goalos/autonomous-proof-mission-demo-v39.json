@@ -1,0 +1,5 @@
+{
+  "version": "v39",
+  "primary": "public/autonomous-proof-mission-demo.html",
+  "description": "End-to-end autonomous GoalOS demo for non-technical users."
+}

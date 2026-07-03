@@ -1,0 +1,12 @@
+name: GoalOS Autonomous Proof Mission Demo feedback
+description: Report UX, route, or artifact issues for V39.
+title: "[V39 Demo Feedback] "
+labels: [goalos, demo, v39]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing?
+    validations:
+      required: true

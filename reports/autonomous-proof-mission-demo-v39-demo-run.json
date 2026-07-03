@@ -1,0 +1,30 @@
+{
+  "version": "v39",
+  "status": "passed",
+  "demo": "Autonomous Proof Mission Demo",
+  "objective": "Show the complete end-to-end path from objective to proof to validation to Chronicle.",
+  "stages": [
+    "Objective",
+    "Mission Contract",
+    "Agents",
+    "AGI Job",
+    "AGI Node",
+    "ProofBundle",
+    "Evidence Docket",
+    "Validate",
+    "Chronicle",
+    "Reuse"
+  ],
+  "artifacts": [
+    "Mission Contract JSON",
+    "AGI Job Spec JSON",
+    "AGI Node Handoff JSON",
+    "ProofBundle JSON",
+    "Evidence Docket Plan Markdown",
+    "Validation Certificate JSON",
+    "Reviewer Brief Markdown",
+    "Action Graph CSV",
+    "Chronicle Entry JSON"
+  ],
+  "generatedAt": "2026-07-03T14:31:24.824730Z"
+}

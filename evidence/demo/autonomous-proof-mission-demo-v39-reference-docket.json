@@ -1,0 +1,16 @@
+{
+  "version": "v39",
+  "status": "reference",
+  "claim": "Browser-local end-to-end GoalOS demo installed.",
+  "notClaims": [
+    "No achieved AGI/ASI",
+    "No production authority",
+    "No external validation",
+    "No wallet or transaction"
+  ],
+  "evidence": [
+    "public/autonomous-proof-mission-demo.html",
+    "public/autonomous-demo-run-theatre.html",
+    "public/end-to-end-demo-use-cases.html"
+  ]
+}

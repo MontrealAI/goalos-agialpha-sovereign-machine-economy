@@ -12,6 +12,7 @@
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-command-center-v37.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-command-center.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-constellation.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-end-to-end-demo.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-mission-control-v38.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-mission-control.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agi-agent-operating-room.html</loc></url>
@@ -31,6 +32,9 @@
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agialpha-token-boundary.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/architecture.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/ask-goalos.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/autonomous-demo-run-theatre.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/autonomous-mission-demo.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/autonomous-proof-mission-demo.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capability-compounding-lab.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capability-parity.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/capability-stack.html</loc></url>
@@ -48,6 +52,8 @@
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/docket-builder.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/docs.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/document-series.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/end-to-end-autonomous-demo.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/end-to-end-demo-use-cases.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/enterprise.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evaluation-program.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evaluation.html</loc></url>
@@ -126,6 +132,8 @@
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-ledger.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-metrics-dashboard.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-control.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-demo-academy.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-demo.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-forge.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-mission-slots.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-of-evolution.html</loc></url>
@@ -139,6 +147,7 @@
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/public-metrics-ledger.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/public-proof-ledger.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/quick-tour.html</loc></url>
+  <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/quintessential-autonomous-demo.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/real-task-benchmark-bridge.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/release-gates.html</loc></url>
   <url><loc>https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/repository-map.html</loc></url>

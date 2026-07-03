@@ -1,0 +1,26 @@
+{
+  "version": "v39",
+  "demo": "Autonomous Proof Mission Demo",
+  "category": "End-to-End Demo",
+  "inputs": [
+    "plain-language objective"
+  ],
+  "outputs": [
+    "Mission Contract",
+    "AGI Node Handoff",
+    "ProofBundle",
+    "Evidence Docket Plan",
+    "Validation Certificate",
+    "Reviewer Brief",
+    "Action Graph",
+    "Chronicle Stub"
+  ],
+  "gates": [
+    "Boundary",
+    "Schema",
+    "Route fit",
+    "Evidence plan",
+    "Validation authority",
+    "Human escalation"
+  ]
+}
