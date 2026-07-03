@@ -1,0 +1,35 @@
+{
+  "version": "v29",
+  "status": "passed",
+  "generatedAt": "2026-07-03T01:26:48.348511+00:00",
+  "results": [
+    {
+      "objective": "Validate a public-safe Evidence Docket route for the 48 Ethereum Mainnet contracts.",
+      "authority": "agi-node",
+      "decision": "AGI_NODE_VALIDATION_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "Prepare human review for a high-impact public claim before publication.",
+      "authority": "human",
+      "decision": "HUMAN_REVIEW_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "Prepare Council review for a Move-37 Loop to RSI candidate.",
+      "authority": "council",
+      "decision": "COUNCIL_REVIEW_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    },
+    {
+      "objective": "Validate token boundary: no sale, no custody, no wallet support, no investment advice.",
+      "authority": "agi-node",
+      "decision": "AGI_NODE_VALIDATION_READY",
+      "externalActions": 0,
+      "networkCalls": 0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+name: Validation Mesh V29 feedback
+description: Report feedback on Human / AGI Node validation authority
+title: "Validation Mesh V29 feedback"
+labels: [validation, goalos, review]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved?
+    validations:
+      required: true

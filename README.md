@@ -197,3 +197,8 @@ Boundary: No user data. No user funds. No wallet. No transaction. No network cal
 GoalOS now includes a browser-local validation authority console. Users can choose **Human reviewer**, **AGI Node validator**, or **Hybrid** validation for public-safe proof missions. The page generates a validation certificate, attestation, reviewer brief, action graph, and route recommendations while preserving the public-alpha boundary: no user data, no user funds, no wallet, no transaction, no external call, no production authority.
 
 Open: `public/validation-authority.html`
+
+
+## GoalOS Autonomous Validation Mesh V29
+
+Human or AGI Node can validate public-safe proof paths. Use `public/validation-mesh.html` to choose AGI Node, Human, Hybrid, or Architect / Validator Council validation authority. The page is browser-local: no user data, no funds, no wallet, no transaction, no network call, and no production authority.

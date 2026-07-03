@@ -1,0 +1,11 @@
+{
+  "schema": "goalos.evidence_docket.v29",
+  "status": "passed",
+  "claim": "GoalOS Validation Mesh V29 adds Human/AGI Node/Hybrid/Council validation routing without external calls or page removal.",
+  "reports": [
+    "reports/validation-mesh-v29-install-report.json",
+    "reports/validation-mesh-v29-qa.json",
+    "reports/validation-mesh-v29-route-health.json",
+    "reports/validation-mesh-v29-audit.json"
+  ]
+}
