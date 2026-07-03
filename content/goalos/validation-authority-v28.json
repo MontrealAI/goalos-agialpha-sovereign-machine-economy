@@ -1,0 +1,35 @@
+{
+  "version": "v28",
+  "createdAt": "2026-07-03T01:21:00.456767+00:00",
+  "entry": {
+    "title": "GoalOS Validation Authority V28 \u2014 Human or AGI Node",
+    "url": "validation-authority.html",
+    "category": "Validation Authority",
+    "description": "Choose Human, AGI Node, or Hybrid validation for public-safe proof missions. Generates validation certificate, attestation, reviewer brief, and action graph.",
+    "keywords": [
+      "validation",
+      "human",
+      "agi node",
+      "validator",
+      "attestation",
+      "review",
+      "proof",
+      "authority"
+    ],
+    "external_actions": 0,
+    "boundary": "No user data, no user funds, no wallet, no transaction, no external call, no production authority."
+  },
+  "validationAuthorities": [
+    "human",
+    "agi_node",
+    "hybrid"
+  ],
+  "decisionStates": [
+    "VALIDATED_BY_HUMAN",
+    "VALIDATED_BY_AGI_NODE",
+    "HYBRID_VALIDATION_READY",
+    "HOLD_HUMAN_REVIEW_REQUIRED",
+    "BLOCK_BOUNDARY"
+  ],
+  "boundary": "No user data, no user funds, no wallet, no transaction, no external call, no production authority."
+}

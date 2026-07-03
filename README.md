@@ -190,3 +190,10 @@ Front-and-center one-box Mission Studio plus Ask GoalOS chat and solved use-case
 
 Boundary: No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.
 
+
+
+## GoalOS Validation Authority V28 — Human or AGI Node
+
+GoalOS now includes a browser-local validation authority console. Users can choose **Human reviewer**, **AGI Node validator**, or **Hybrid** validation for public-safe proof missions. The page generates a validation certificate, attestation, reviewer brief, action graph, and route recommendations while preserving the public-alpha boundary: no user data, no user funds, no wallet, no transaction, no external call, no production authority.
+
+Open: `public/validation-authority.html`

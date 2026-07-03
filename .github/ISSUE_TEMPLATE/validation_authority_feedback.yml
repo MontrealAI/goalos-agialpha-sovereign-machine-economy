@@ -1,0 +1,12 @@
+name: GoalOS Validation Authority feedback
+description: Report feedback on the Human / AGI Node validation console.
+title: "Validation Authority V28 feedback"
+labels: ["validation", "ux", "review"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing? What should be improved?
+    validations:
+      required: true

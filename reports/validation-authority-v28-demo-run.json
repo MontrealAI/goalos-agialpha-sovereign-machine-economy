@@ -1,0 +1,31 @@
+{
+  "version": "v28",
+  "status": "passed",
+  "generatedAt": "2026-07-03T01:21:00.501178+00:00",
+  "results": [
+    {
+      "objective": "I want the AGI Node to validate a public-safe Evidence Docket route for the 48 Ethereum Mainnet contracts.",
+      "authority": "node",
+      "risk": "MEDIUM",
+      "decision": "VALIDATED_BY_AGI_NODE",
+      "externalActions": 0,
+      "userDataStored": false
+    },
+    {
+      "objective": "I want a human reviewer to validate a high-impact public claim before publication.",
+      "authority": "human",
+      "risk": "HIGH",
+      "decision": "VALIDATED_BY_HUMAN",
+      "externalActions": 0,
+      "userDataStored": false
+    },
+    {
+      "objective": "I want hybrid validation for a Loop to RSI governance review packet.",
+      "authority": "hybrid",
+      "risk": "MEDIUM",
+      "decision": "HYBRID_VALIDATION_READY",
+      "externalActions": 0,
+      "userDataStored": false
+    }
+  ]
+}

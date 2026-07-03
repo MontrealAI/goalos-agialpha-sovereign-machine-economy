@@ -1,0 +1,13 @@
+{
+  "version": "v28",
+  "status": "passed",
+  "installedPage": "validation-authority.html",
+  "aliases": [
+    "human-or-node-validation.html",
+    "agi-node-validation.html",
+    "validation-console.html"
+  ],
+  "pagesInjected": 156,
+  "fallbackPagesCreated": [],
+  "generatedAt": "2026-07-03T01:21:00.456929+00:00"
+}

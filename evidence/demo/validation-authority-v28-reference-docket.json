@@ -1,0 +1,27 @@
+{
+  "version": "v28",
+  "name": "GoalOS Validation Authority",
+  "status": "reference_docket",
+  "authorities": [
+    "human",
+    "agi_node",
+    "hybrid"
+  ],
+  "decisionStates": [
+    "VALIDATED_BY_HUMAN",
+    "VALIDATED_BY_AGI_NODE",
+    "HYBRID_VALIDATION_READY",
+    "HOLD_HUMAN_REVIEW_REQUIRED",
+    "BLOCK_BOUNDARY"
+  ],
+  "boundary": {
+    "userData": false,
+    "userFunds": false,
+    "wallet": false,
+    "transaction": false,
+    "externalCall": false,
+    "productionAuthority": false,
+    "humanReviewRequiredForHighImpact": true
+  },
+  "createdAt": "2026-07-03T00:29:30.482111+00:00"
+}

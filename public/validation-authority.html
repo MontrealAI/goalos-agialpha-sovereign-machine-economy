@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Validation Authority — Human or AGI Node</title>
+  <meta name="description" content="GoalOS browser-local validation authority console: choose Human, AGI Node, or Hybrid validation for public-safe proof missions.">
+  <link rel="stylesheet" href="assets/goalos-validation-authority-v28.css">
+</head>
+<body>
+  <main class="shell">
+    <nav class="topbar" aria-label="GoalOS navigation">
+      <a class="brand" href="index.html"><span class="orb">α</span><span><b>GOALOS</b><small>AGIALPHA Ascension</small></span></a>
+      <div class="navlinks">
+        <a href="goalos.html">Mission</a>
+        <a href="ask-goalos.html">Ask GoalOS</a>
+        <a class="active" href="validation-authority.html">Validate</a>
+        <a href="mainnet-contract-atlas.html">48 Contracts</a>
+        <a href="proof-run-001-docket.html">Proof Run 001</a>
+        <a href="site-map.html">All Pages</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Validation Authority · Browser-local · No user data</p>
+        <h1>Let a Human or an AGI Node validate the proof path.</h1>
+        <p class="lead">Choose who validates: Human reviewer, AGI Node validator, or Hybrid quorum. GoalOS turns the objective into a public-safe validation certificate, route map, and reviewer packet.</p>
+        <div class="boundary-line"><b>Boundary:</b> no user data, no user funds, no wallet, no transaction, no external call, no production authority. Human review remains required for high-impact or sensitive outcomes.</div>
+      </div>
+      <aside class="status-card" aria-live="polite">
+        <div class="status-head"><span>Decision state</span><strong id="decisionState">AWAITING_VALIDATION</strong></div>
+        <div class="dial"><span id="scoreNum">0</span><small>readiness</small></div>
+        <div class="kv"><span>Authority</span><b id="authorityLabel">Not selected</b></div>
+        <div class="kv"><span>External actions</span><b>0</b></div>
+        <div class="kv"><span>Data stored</span><b>0</b></div>
+      </aside>
+    </section>
+
+    <section class="composer" aria-label="Validation composer">
+      <div class="composer-card">
+        <div class="composer-head">
+          <div>
+            <p class="eyebrow">What should be validated?</p>
+            <h2>Paste a public-safe objective, claim, or mission result.</h2>
+          </div>
+          <span class="pill">browser-local validator</span>
+        </div>
+        <textarea id="objective" spellcheck="true">I want to validate a public-safe proof mission about the 48 Ethereum Mainnet contracts, with no wallet, no user funds, no private data, and a reviewable Evidence Docket.</textarea>
+        <div class="controls">
+          <label>Validation authority
+            <select id="authority">
+              <option value="human">Human reviewer</option>
+              <option value="node" selected>AGI Node validator</option>
+              <option value="hybrid">Hybrid: AGI Node + Human</option>
+            </select>
+          </label>
+          <label>Risk class
+            <select id="riskClass">
+              <option>LOW</option>
+              <option selected>MEDIUM</option>
+              <option>HIGH</option>
+              <option>CRITICAL</option>
+            </select>
+          </label>
+          <label>Claim type
+            <select id="claimType">
+              <option selected>Public demo / documentation</option>
+              <option>Evidence Docket review</option>
+              <option>Contract atlas review</option>
+              <option>Loop → RSI review</option>
+              <option>External action request</option>
+            </select>
+          </label>
+        </div>
+        <div class="button-row">
+          <button id="validateBtn" class="primary">Validate proof path</button>
+          <button id="packetBtn">Create review packet</button>
+          <button id="sampleBtn">Show examples</button>
+        </div>
+      </div>
+
+      <aside class="guide-card">
+        <p class="eyebrow">How validation works</p>
+        <ol>
+          <li><b>GoalOS checks the boundary.</b> No funds, wallets, secrets, private data, or production authority.</li>
+          <li><b>Selected authority validates.</b> Human, AGI Node, or Hybrid quorum.</li>
+          <li><b>Hard gates stay mandatory.</b> High-risk claims cannot bypass review.</li>
+          <li><b>You get artifacts.</b> Certificate, attestation, reviewer brief, action graph.</li>
+        </ol>
+        <div class="mini-console" id="miniConsole">validator: waiting\nmode: public-safe\nexternal actions: 0</div>
+      </aside>
+    </section>
+
+    <section class="grid3" aria-label="Validation modes">
+      <article class="mode-card" data-fill="human">
+        <p class="eyebrow">Human</p>
+        <h3>Human reviewer validates.</h3>
+        <p>Best for high-impact claims, external action, legal / financial / security posture, and final publication decisions.</p>
+      </article>
+      <article class="mode-card" data-fill="node">
+        <p class="eyebrow">AGI Node</p>
+        <h3>AGI Node validates.</h3>
+        <p>Best for public-safe schema, route, boundary, docket completeness, reproducibility, and deterministic checks.</p>
+      </article>
+      <article class="mode-card" data-fill="hybrid">
+        <p class="eyebrow">Hybrid</p>
+        <h3>Node checks first. Human signs next.</h3>
+        <p>Best for strategic or novel claims where automation can prepare the packet but human authority should close the loop.</p>
+      </article>
+    </section>
+
+    <section class="results" aria-live="polite">
+      <div class="panel">
+        <div class="panel-head"><h2>Validation gates</h2><span id="gateSummary">Not run</span></div>
+        <div id="gates" class="gates"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head"><h2>Recommended proof routes</h2><span>Open next step</span></div>
+        <div id="routes" class="routes"></div>
+      </div>
+    </section>
+
+    <section class="artifacts">
+      <div>
+        <p class="eyebrow">Outputs</p>
+        <h2>Download the validation artifacts.</h2>
+        <p>Everything is generated in your browser from public-safe text. Nothing is sent anywhere.</p>
+      </div>
+      <div class="artifact-buttons">
+        <button data-download="certificate">Validation Certificate JSON</button>
+        <button data-download="attestation">AGI Node / Human Attestation</button>
+        <button data-download="brief">Reviewer Brief</button>
+        <button data-download="graph">Action Graph CSV</button>
+      </div>
+    </section>
+
+    <section class="ask" id="ask-goalos">
+      <div class="ask-head">
+        <div><p class="eyebrow">Ask GoalOS</p><h2>Questions are answered locally and routed to the right page.</h2></div>
+        <button id="askToggle">Open chat</button>
+      </div>
+      <div class="chat" id="chatPanel" hidden>
+        <div id="chatLog" class="chat-log"><div class="msg bot">Ask me where to validate, where the 48 contracts are, how AGI Node validation works, or when human review is required.</div></div>
+        <form id="chatForm" class="chat-form">
+          <input id="chatInput" placeholder="Ask: Can the AGI Node validate this?" autocomplete="off">
+          <button>Ask</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <b>GoalOS AGIALPHA Ascension</b> — public-alpha proof operating surface. No user data. No user funds. No wallet. No transaction. No external call. Human review required for high-impact outcomes.
+      <div><a href="trust-boundary.html">Trust Boundary</a> · <a href="token-boundary.html">Token Boundary</a> · <a href="site-map.html">All Pages</a> · <a href="ask-goalos.html">Ask GoalOS</a></div>
+    </footer>
+  </main>
+  <script src="assets/goalos-validation-authority-routes-v28.js"></script>
+  <script src="assets/goalos-validation-authority-v28.js"></script>
+</body>
+</html>
