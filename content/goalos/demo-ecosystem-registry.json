@@ -3621,6 +3621,27 @@
         "Evidence Docket plan"
       ],
       "next_state": "AGENT_CONSTELLATION_READY"
+    },
+    {
+      "name": "GoalOS AGI Agent Constellation V34",
+      "url": "agi-agent-constellation.html",
+      "category": "AGI Agents",
+      "inputs": [
+        "plain-language objective"
+      ],
+      "outputs": [
+        "Mission Contract",
+        "AGI Node Handoff",
+        "Reviewer Brief",
+        "Action Graph"
+      ],
+      "gates": [
+        "boundary",
+        "agent role contract",
+        "validation authority",
+        "Evidence Docket plan"
+      ],
+      "next_state": "AGENT_CONSTELLATION_READY"
     }
   ]
 }
