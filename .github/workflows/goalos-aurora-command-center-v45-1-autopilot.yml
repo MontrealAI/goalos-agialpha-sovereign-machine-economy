@@ -1,0 +1,112 @@
+name: GoalOS Aurora Command Center V45.1 — Corrective Color UX + Asset Repair
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy updated public/ site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release after human visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.65.1-aurora-command-center-v45-1"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-aurora-command-center-v45-1-pack.zip
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$PACK_ZIP" || { echo "Missing $PACK_ZIP"; exit 1; }
+
+      - name: Install Aurora Command Center V45.1
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp/v45-1
+          mkdir -p .goalos/tmp/v45-1
+          unzip -q "$PACK_ZIP" -d .goalos/tmp/v45-1
+          python3 .goalos/tmp/v45-1/install_v45_1.py
+
+      - name: Show V45.1 audit
+        if: always()
+        shell: bash
+        run: |
+          cat reports/aurora-command-center-v45-1-audit.json || true
+
+      - name: Commit changes
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@github.com"
+          git add public reports docs content evidence examples goalos-aurora-command-center-v45-1-summary.json || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Fix GoalOS colored UX, asset links, and route integrity V45.1"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh issue create             --title "GoalOS Aurora Command Center V45.1 — human visual QA required"             --body "V45.1 repaired nested archive asset links, restored the colored GoalOS identity, rebuilt route discovery, and preserved the public-alpha boundary. Please visually review index.html, goalos-aurora-command-center.html, visual-flow-proof.html, ux-proof-check.html, site-map.html, search.html, and site-health.html. Record pass/fail, viewport, browser, screenshots if failed, overlap status, boundary status, and whether the site is now human-readable."
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh release create "${{ inputs.release_tag }}"             "$PACK_ZIP"             "reports/aurora-command-center-v45-1-audit.json"             "reports/aurora-command-center-v45-1-qa.json"             "evidence/demo/aurora-command-center-v45-1-reference-docket.json"             --title "GoalOS Aurora Command Center V45.1 — Corrective Color UX + Asset Repair"             --notes "Corrective V45.1 release: restores colored GoalOS identity, repairs nested archive asset links, sanitizes legacy public browser-boundary strings, rebuilds All Pages/Search/Site Health, and preserves no-data/no-wallet/no-transaction public-alpha boundary."
