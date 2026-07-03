@@ -1,0 +1,91 @@
+name: GoalOS AGI Agent Mission Control V37 — Visual Agent OS
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy public/ to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.57.0-agi-agent-mission-control-v37
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-agi-agent-mission-control-v37
+  cancel-in-progress: false
+
+jobs:
+  agi-agent-mission-control:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Unpack GoalOS AGI Agent Mission Control pack
+        run: |
+          test -f .goalos/packs/goalos-agi-agent-mission-control-v37-pack.zip
+          rm -rf .goalos/work/goalos-agi-agent-mission-control-v37
+          mkdir -p .goalos/work/goalos-agi-agent-mission-control-v37
+          python -m zipfile -e .goalos/packs/goalos-agi-agent-mission-control-v37-pack.zip .goalos/work/goalos-agi-agent-mission-control-v37
+      - name: Install generated site files
+        run: python .goalos/work/goalos-agi-agent-mission-control-v37/scripts/install_agi_agent_mission_control_v37.py
+      - name: Run deterministic demo check
+        run: python scripts/run_agi_agent_mission_control_v37_demo.py
+      - name: Run browser-local safety and route audit
+        run: python scripts/audit_agi_agent_mission_control_v37.py
+      - name: Configure GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload GitHub Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs examples reports evidence content scripts issue-bodies .github README.md || true
+          if git diff --cached --quiet; then echo "No changes to commit."; else git commit -m "Add GoalOS AGI Agent Mission Control V37" && git push; fi
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Review GoalOS AGI Agent Mission Control V37" --body-file issue-bodies/agi-agent-mission-control-v37.md || true
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${{ inputs.release_tag }}" --title "GoalOS AGI Agent Mission Control V37" --notes "Visual AGI Agent Mission Control with one-box objective input, dynamic agent graphs, solved playbooks, Ask GoalOS, AGI Node handoff, Evidence Docket plan, and complete navigation preservation." || true
