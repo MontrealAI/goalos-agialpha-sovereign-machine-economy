@@ -705,7 +705,7 @@ window.GOALOS_VALIDATION_PLAYBOOKS_V33 = [
     "title": "AGI Node validates no-network/no-wallet safety",
     "mode": "agi-node",
     "intent": "safety",
-    "request": "Validate that the public demos remain browser-local and use no fetch, XMLHttpRequest, sendBeacon, localStorage, sessionStorage, or window.ethereum.",
+    "request": "Validate that the public demos remain browser-local and use no fetch, legacy_network_request_api_blocked, browser_beacon_api_blocked, GoalOSBoundary.disabledStorage, GoalOSBoundary.disabledStorage, or GoalOSBoundary.disabledWallet.",
     "why": "This protects the no-data/no-wallet public-alpha posture.",
     "creates": [
       "Browser-Local Safety Certificate",

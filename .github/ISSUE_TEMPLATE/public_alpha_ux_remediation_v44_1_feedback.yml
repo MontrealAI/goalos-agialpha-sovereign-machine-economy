@@ -1,0 +1,11 @@
+name: Public Alpha UX Remediation V44.1 feedback
+description: Human visual QA for V44.1
+title: "GoalOS V44.1 human visual QA"
+labels: ["ux", "human-review", "public-alpha"]
+body:
+  - type: textarea
+    id: verdict
+    attributes:
+      label: Verdict, browser, viewport, pages checked, screenshots if failed
+    validations:
+      required: true

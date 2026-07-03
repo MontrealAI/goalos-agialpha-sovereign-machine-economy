@@ -1,0 +1,5 @@
+{
+  "version": "v44.1",
+  "status": "corrective",
+  "purpose": "sanitize legacy forbidden browser API strings, harden layout, add human visual QA"
+}

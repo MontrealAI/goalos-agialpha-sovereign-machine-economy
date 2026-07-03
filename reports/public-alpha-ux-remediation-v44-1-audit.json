@@ -1,0 +1,24 @@
+{
+  "version": "v44.1",
+  "status": "passed",
+  "checks": {
+    "cssPresent": true,
+    "flowlineGrid": true,
+    "absoluteConnectorsDisabled": true,
+    "agentOrbitStatic": true,
+    "humanQApage": true,
+    "visualFlowPage": true,
+    "noExecutableForbiddenBrowserApis": true,
+    "noLiteralForbiddenBrowserApiTokens": true,
+    "noBrokenInternalHtmlLinks": true
+  },
+  "executableForbiddenBrowserApiHits": [],
+  "literalForbiddenBrowserApiHits": [],
+  "brokenInternalHtmlLinks": [],
+  "publicPages": 250,
+  "boundary": "preserved",
+  "externalActions": 0,
+  "productionAuthorization": "not_granted",
+  "empiricalSotaClaim": "not_claimed",
+  "walletTransactionSupport": "not_enabled"
+}
