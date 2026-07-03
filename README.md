@@ -220,3 +220,10 @@ Human or AGI Node can validate. Open `public/validation-orchestrator.html` to ch
 Human or AGI Node can validate. Open `public/validation-command-center.html` to choose Human, AGI Node, Hybrid, or Council validation; generate a validation certificate, AGI Node handoff, reviewer brief, council packet, action graph, and next proof route.
 
 Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required for high-impact outcomes.
+
+
+## GoalOS Validation Control Tower V33
+
+Human or AGI Node can validate. Open `public/validation-control-tower.html` to choose Human, AGI Node, Hybrid, or Council validation, generate downloadable review artifacts, and route to the correct proof surface.
+
+Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority.

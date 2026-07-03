@@ -1,0 +1,8 @@
+{
+  "version": "v33",
+  "demos": [
+    "validation-control-tower.html",
+    "validation-use-cases.html",
+    "agi-node-use-cases.html"
+  ]
+}

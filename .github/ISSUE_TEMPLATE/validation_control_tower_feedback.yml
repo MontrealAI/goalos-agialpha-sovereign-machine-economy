@@ -1,0 +1,12 @@
+name: Validation Control Tower feedback
+description: Report feedback for GoalOS Validation Control Tower V33.
+title: "Validation Control Tower V33 feedback"
+labels: [demo, validation, review]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What happened?
+      description: Share the validation use case, page, or issue.
+    validations:
+      required: true

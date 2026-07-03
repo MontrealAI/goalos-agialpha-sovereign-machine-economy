@@ -1,0 +1,12 @@
+{
+  "version": "v33",
+  "status": "passed",
+  "scenarios": [
+    "AGI Node validates 48 Mainnet Contract Atlas",
+    "Human validates high-impact public claim",
+    "Hybrid validates AI vendor evidence review",
+    "Council validates Loop to RSI Move-37 candidate",
+    "AGI Node validates token boundary wording"
+  ],
+  "generatedAt": "2026-07-03T11:32:13.348004Z"
+}

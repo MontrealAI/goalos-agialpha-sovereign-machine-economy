@@ -1,0 +1,717 @@
+window.GOALOS_VALIDATION_ROUTES_V33 = [
+  {
+    "title": "Validation Control Tower",
+    "href": "validation-control-tower.html",
+    "category": "Validation",
+    "desc": "Human, AGI Node, Hybrid, and Council validation authority in one visual command center.",
+    "keywords": [
+      "validate",
+      "validation",
+      "agi node",
+      "human",
+      "hybrid",
+      "council",
+      "authority"
+    ]
+  },
+  {
+    "title": "Validation Use Cases",
+    "href": "validation-use-cases.html",
+    "category": "Validation",
+    "desc": "Solved end-to-end validation playbooks for non-technical users.",
+    "keywords": [
+      "use case",
+      "playbook",
+      "examples",
+      "validate",
+      "agi node"
+    ]
+  },
+  {
+    "title": "AGI Node Use Cases",
+    "href": "agi-node-use-cases.html",
+    "category": "Validation",
+    "desc": "What AGI Nodes can validate autonomously and when humans must review.",
+    "keywords": [
+      "agi node",
+      "node",
+      "validator",
+      "autonomous"
+    ]
+  },
+  {
+    "title": "GoalOS Mission Studio",
+    "href": "goalos.html",
+    "category": "Mission",
+    "desc": "Tell GoalOS what you want; generate mission contract, docket plan, and next route.",
+    "keywords": [
+      "goalos",
+      "mission",
+      "objective",
+      "tell",
+      "start"
+    ]
+  },
+  {
+    "title": "Ask GoalOS",
+    "href": "ask-goalos.html",
+    "category": "Concierge",
+    "desc": "Browser-local chat window for questions and route guidance.",
+    "keywords": [
+      "ask",
+      "chat",
+      "question",
+      "route",
+      "help"
+    ]
+  },
+  {
+    "title": "Mainnet Contract Atlas",
+    "href": "mainnet-contract-atlas.html",
+    "category": "Contracts",
+    "desc": "Learn the 48 GoalOS-created Ethereum Mainnet contracts.",
+    "keywords": [
+      "48",
+      "contracts",
+      "mainnet",
+      "ethereum",
+      "atlas"
+    ]
+  },
+  {
+    "title": "Mainnet Proof Rail",
+    "href": "mainnet-proof-rail.html",
+    "category": "Contracts",
+    "desc": "Understand the contract rail as an institutional proof surface.",
+    "keywords": [
+      "proof rail",
+      "contracts",
+      "ethereum",
+      "mainnet"
+    ]
+  },
+  {
+    "title": "Contract Academy",
+    "href": "contract-academy.html",
+    "category": "Contracts",
+    "desc": "A non-technical learning path for the contract system.",
+    "keywords": [
+      "academy",
+      "learn",
+      "contracts",
+      "education"
+    ]
+  },
+  {
+    "title": "Proof Run 001 Docket",
+    "href": "proof-run-001-docket.html",
+    "category": "Evidence",
+    "desc": "Review repository-readiness evidence, gates, artifacts, and decision state.",
+    "keywords": [
+      "proof run",
+      "docket",
+      "evidence",
+      "001",
+      "review"
+    ]
+  },
+  {
+    "title": "Evidence Docket Theatre",
+    "href": "evidence-docket-theatre.html",
+    "category": "Evidence",
+    "desc": "Convert a public-safe claim into a review-ready Evidence Docket.",
+    "keywords": [
+      "docket",
+      "evidence",
+      "claim",
+      "proof"
+    ]
+  },
+  {
+    "title": "Loop \u2192 RSI State Capacity",
+    "href": "from-loop-to-rsi-state-capacity.html",
+    "category": "RSI",
+    "desc": "Understand deterministic RSI governance and state-capacity readiness.",
+    "keywords": [
+      "rsi",
+      "loop",
+      "state capacity",
+      "move 37",
+      "omni"
+    ]
+  },
+  {
+    "title": "Falsification Gauntlet",
+    "href": "falsification-gauntlet.html",
+    "category": "Review",
+    "desc": "Stress claims against baselines, falsifiers, and review gates.",
+    "keywords": [
+      "falsification",
+      "claim",
+      "stress",
+      "baseline"
+    ]
+  },
+  {
+    "title": "Trust Boundary",
+    "href": "trust-boundary.html",
+    "category": "Boundary",
+    "desc": "No data, no wallet, no funds, no transaction, no production authority.",
+    "keywords": [
+      "trust",
+      "privacy",
+      "data",
+      "wallet",
+      "funds",
+      "boundary"
+    ]
+  },
+  {
+    "title": "Token Boundary",
+    "href": "token-boundary.html",
+    "category": "Boundary",
+    "desc": "$AGIALPHA is public contract identification only; not available from GoalOS.",
+    "keywords": [
+      "token",
+      "agialpha",
+      "investment",
+      "wallet",
+      "contract"
+    ]
+  },
+  {
+    "title": "Data Boundary",
+    "href": "data-boundary.html",
+    "category": "Boundary",
+    "desc": "What not to submit and how public proof stays separate from private data.",
+    "keywords": [
+      "data",
+      "privacy",
+      "boundary",
+      "user data"
+    ]
+  },
+  {
+    "title": "Site Map \u2014 All Pages",
+    "href": "site-map.html",
+    "category": "Navigation",
+    "desc": "Complete public route map.",
+    "keywords": [
+      "all pages",
+      "site map",
+      "routes",
+      "navigation"
+    ]
+  },
+  {
+    "title": "Search",
+    "href": "search.html",
+    "category": "Navigation",
+    "desc": "Browser-local search across the public proof surface.",
+    "keywords": [
+      "search",
+      "find",
+      "routes"
+    ]
+  },
+  {
+    "title": "Demo Ecosystem Registry",
+    "href": "demo-ecosystem-registry.html",
+    "category": "Registry",
+    "desc": "All demo engines, inputs, outputs, gates, and next states.",
+    "keywords": [
+      "registry",
+      "demos",
+      "inputs",
+      "outputs",
+      "gates"
+    ]
+  },
+  {
+    "title": "Site Health",
+    "href": "site-health.html",
+    "category": "QA",
+    "desc": "Route inventory, missing-route checks, and boundary status.",
+    "keywords": [
+      "health",
+      "qa",
+      "routes",
+      "missing"
+    ]
+  },
+  {
+    "title": "Capability Compounding Lab",
+    "href": "capability-compounding-lab.html",
+    "category": "Capability",
+    "desc": "See verified work become reusable capability.",
+    "keywords": [
+      "capability",
+      "reuse",
+      "compounding"
+    ]
+  },
+  {
+    "title": "Controlled Pilot Program",
+    "href": "pilot-program.html",
+    "category": "Adoption",
+    "desc": "Every serious pilot ends with a docket.",
+    "keywords": [
+      "pilot",
+      "program",
+      "controlled",
+      "docket"
+    ]
+  },
+  {
+    "title": "Commercial Evidence",
+    "href": "commercial-evidence.html",
+    "category": "Adoption",
+    "desc": "Commercial signals are counted carefully and disclosed responsibly.",
+    "keywords": [
+      "commercial",
+      "evidence",
+      "signals"
+    ]
+  },
+  {
+    "title": "Repository Map",
+    "href": "repository-map.html",
+    "category": "Docs",
+    "desc": "Know where the repository components live.",
+    "keywords": [
+      "repo",
+      "map",
+      "github",
+      "docs"
+    ]
+  },
+  {
+    "title": "Docs",
+    "href": "docs.html",
+    "category": "Docs",
+    "desc": "Documentation entry point.",
+    "keywords": [
+      "docs",
+      "documentation",
+      "readme"
+    ]
+  }
+];
+window.GOALOS_VALIDATION_PLAYBOOKS_V33 = [
+  {
+    "title": "AGI Node validates the 48 Mainnet Contract Atlas",
+    "mode": "agi-node",
+    "intent": "contracts",
+    "request": "Validate that the 48 Ethereum Mainnet contract learning path is complete, clear for non-technical users, claim-bounded, and routed to Mainnet Contract Atlas, Mainnet Proof Rail, and Contract Academy.",
+    "why": "AGI Node checks contract-route coverage, learning order, token boundary, route availability, and downloadable evidence.",
+    "creates": [
+      "Contract Atlas Validation Certificate",
+      "AGI Node Handoff",
+      "Route Coverage Report"
+    ],
+    "next": "mainnet-contract-atlas.html"
+  },
+  {
+    "title": "Human validates a public claim before publication",
+    "mode": "human",
+    "intent": "claim",
+    "request": "Prepare human review for a high-impact public GoalOS claim before publication. Check evidence, unsupported wording, legal/financial/security posture, claim boundary, and reviewer accountability.",
+    "why": "High-impact public claims need human accountability and final judgment.",
+    "creates": [
+      "Human Reviewer Brief",
+      "Claim Boundary Audit",
+      "Publication Decision Packet"
+    ],
+    "next": "proof-run-001-docket.html"
+  },
+  {
+    "title": "Hybrid validates an AI vendor or tool",
+    "mode": "hybrid",
+    "intent": "vendor",
+    "request": "Evaluate an AI vendor or tool using evidence instead of marketing claims. Use AGI Node precheck for evidence structure, then human review for procurement judgment and risk.",
+    "why": "Vendor decisions affect budget, operations, data, and risk, so structure and judgment are both needed.",
+    "creates": [
+      "Vendor Evidence Matrix",
+      "Risk Ledger",
+      "Human Decision Brief"
+    ],
+    "next": "demo-ecosystem-registry.html"
+  },
+  {
+    "title": "Council validates Loop \u2192 RSI governance",
+    "mode": "council",
+    "intent": "rsi",
+    "request": "Prepare Architect / Validator Council review for a Loop to RSI governance packet with replay, baselines, ECI discipline, Move-37 handling, persistence gates, and dossier packaging.",
+    "why": "Recursive-improvement governance requires independent authority, not only autonomous scoring.",
+    "creates": [
+      "Council Packet",
+      "RSI Gate Map",
+      "Dossier Checklist"
+    ],
+    "next": "from-loop-to-rsi-state-capacity.html"
+  },
+  {
+    "title": "AGI Node validates token-boundary wording",
+    "mode": "agi-node",
+    "intent": "token",
+    "request": "Validate the $AGIALPHA token boundary page: public contract identification only, not available from GoalOS, no sale, no custody, no wallet support, no investment advice.",
+    "why": "This is a deterministic wording and route-consistency check.",
+    "creates": [
+      "Boundary Certificate",
+      "Token Wording Checklist",
+      "Route Evidence"
+    ],
+    "next": "token-boundary.html"
+  },
+  {
+    "title": "Hybrid validates a controlled pilot program",
+    "mode": "hybrid",
+    "intent": "pilot",
+    "request": "Validate a controlled pilot program: bounded mission, success criteria, baseline, execution record, validator decision, follow-up status, acceptance record, and no unsupported production claim.",
+    "why": "Every serious pilot should end with a docket and human-reviewed acceptance state.",
+    "creates": [
+      "Pilot Docket Plan",
+      "Acceptance Checklist",
+      "Rollback Note"
+    ],
+    "next": "pilot-program.html"
+  },
+  {
+    "title": "AGI Node validates Evidence Docket completeness",
+    "mode": "agi-node",
+    "intent": "docket",
+    "request": "Check an Evidence Docket for manifest, claims matrix, environment, baselines, proof packets, evaluator notes, selection certificate, safety ledger, replay path, and claim boundary.",
+    "why": "Docket completeness is a deterministic precheck before deeper review.",
+    "creates": [
+      "Docket Completeness Report",
+      "Missing Evidence List",
+      "Replay-Readiness Flag"
+    ],
+    "next": "evidence-docket-theatre.html"
+  },
+  {
+    "title": "Hybrid validates defensive cybersecurity proof mission",
+    "mode": "hybrid",
+    "intent": "security",
+    "request": "Validate a defensive cybersecurity proof mission for repo-owned, sandbox-only work with no external scans, no exploit execution, no malware generation, no unsafe automerge, and human review before remediation.",
+    "why": "Security-sensitive defensive work needs deterministic safety checks plus human authority.",
+    "creates": [
+      "Defensive Safety Ledger",
+      "Human Review Packet",
+      "Node Precheck"
+    ],
+    "next": "trust-boundary.html"
+  },
+  {
+    "title": "AGI Node validates website route integrity",
+    "mode": "agi-node",
+    "intent": "website",
+    "request": "Validate website route integrity: all public pages are present, no broken internal HTML links, all pages route back to Tell GoalOS, Ask GoalOS, Validation, All Pages, and Search.",
+    "why": "Route health is ideal for AGI Node validation because it is deterministic and browser-local.",
+    "creates": [
+      "Route Health Certificate",
+      "Missing Route List",
+      "Navigation Map"
+    ],
+    "next": "site-health.html"
+  },
+  {
+    "title": "Human validates procurement proof record",
+    "mode": "human",
+    "intent": "procurement",
+    "request": "Create a proof-backed procurement review record with claims, evidence, risks, counterclaims, evaluation criteria, approval path, and rollback plan.",
+    "why": "Procurement affects budgets and obligations; human judgment is required.",
+    "creates": [
+      "Procurement Brief",
+      "Evidence Matrix",
+      "Approval Path"
+    ],
+    "next": "proof-run-001-docket.html"
+  },
+  {
+    "title": "Hybrid validates reusable capability promotion",
+    "mode": "hybrid",
+    "intent": "capability",
+    "request": "Validate whether accepted work can become reusable capability: proof history, transfer conditions, rollback target, scope, future mission fit, and capability package readiness.",
+    "why": "AGI Node checks structure; Human checks strategic reuse and claim boundaries.",
+    "creates": [
+      "Capability Promotion Packet",
+      "Proof History",
+      "Rollback Map"
+    ],
+    "next": "capability-compounding-lab.html"
+  },
+  {
+    "title": "Council validates a Move-37 candidate",
+    "mode": "council",
+    "intent": "move37",
+    "request": "Prepare Council review for a Move-37 candidate: novelty, advantage delta, reproduction, stress tests, persistence gate, baseline comparison, risk report, and dossier bundle.",
+    "why": "High novelty raises the burden of proof; it does not lower it.",
+    "creates": [
+      "Move-37 Dossier",
+      "Stress-Test Checklist",
+      "Council Decision Memo"
+    ],
+    "next": "from-loop-to-rsi-state-capacity.html"
+  },
+  {
+    "title": "AGI Node validates privacy and data boundary",
+    "mode": "agi-node",
+    "intent": "trust",
+    "request": "Validate privacy and data-boundary pages: no user data, no customer data, no confidential data, no private keys, no wallet, no transaction, no network call, no production authority.",
+    "why": "Boundary wording can be checked deterministically and routed to missing pages.",
+    "creates": [
+      "Privacy Boundary Certificate",
+      "Forbidden Input Checklist",
+      "Route Coverage Report"
+    ],
+    "next": "data-boundary.html"
+  },
+  {
+    "title": "Human audits a research or strategic claim",
+    "mode": "human",
+    "intent": "claim",
+    "request": "Audit a research or strategic claim: what is claimed, what is not claimed, what evidence supports it, what baseline is missing, which risks remain, and what reviewer should decide.",
+    "why": "Research claims require judgment, uncertainty framing, and reviewer accountability.",
+    "creates": [
+      "Research Claim Audit",
+      "Uncertainty Ledger",
+      "Reviewer Decision Brief"
+    ],
+    "next": "research-spine.html"
+  },
+  {
+    "title": "Hybrid prepares external reviewer replay",
+    "mode": "hybrid",
+    "intent": "review",
+    "request": "Prepare an external reviewer replay packet: route, manifest, replay instructions, proof artifacts, reviewer checklist, expected decision state, and boundary notes.",
+    "why": "Replay readiness is deterministic; external acceptance requires human review.",
+    "creates": [
+      "Replay Packet",
+      "Reviewer Checklist",
+      "Decision State"
+    ],
+    "next": "external-reviewer-replay-room.html"
+  },
+  {
+    "title": "Council validates institutional promotion",
+    "mode": "council",
+    "intent": "promotion",
+    "request": "Prepare institutional promotion review for a proof-carrying artifact: evidence, evaluation, rollback, scope, canary, challenge window, and council decision.",
+    "why": "Promotion authority belongs to the gate, not to a persuasive claim.",
+    "creates": [
+      "Selection Gate Packet",
+      "Council Memo",
+      "Challenge Window Plan"
+    ],
+    "next": "proof-backed-upgrade-rights-room.html"
+  },
+  {
+    "title": "AGI Node validates documentation completeness",
+    "mode": "agi-node",
+    "intent": "docs",
+    "request": "Validate documentation completeness: README, Start Here, Pathfinder, Registry, All Pages, Site Health, Trust Boundary, Token Boundary, and validation instructions are discoverable.",
+    "why": "Documentation coverage can be checked deterministically and routed to missing pages.",
+    "creates": [
+      "Docs Coverage Report",
+      "Route Map",
+      "Missing Page List"
+    ],
+    "next": "docs.html"
+  },
+  {
+    "title": "Hybrid maps a strategic opportunity into a proof mission",
+    "mode": "hybrid",
+    "intent": "strategy",
+    "request": "Map a strategic opportunity into a GoalOS proof mission with objective, evidence requirements, risk gates, baseline comparisons, reviewer responsibilities, and next public-safe route.",
+    "why": "AGI Node structures the proof path; Human validates strategic significance.",
+    "creates": [
+      "Mission Contract",
+      "Strategic Risk Ledger",
+      "Reviewer Brief"
+    ],
+    "next": "goalos.html"
+  },
+  {
+    "title": "AGI Node validates Ask GoalOS routing",
+    "mode": "agi-node",
+    "intent": "ask",
+    "request": "Validate that Ask GoalOS answers common website questions from the local route map and only redirects when the user explicitly asks to open, go, show, launch, or redirect.",
+    "why": "Autonomous route assistance should be helpful without becoming a backend chatbot or data collector.",
+    "creates": [
+      "Ask Routing Certificate",
+      "Question Coverage Matrix",
+      "Route Intent Map"
+    ],
+    "next": "ask-goalos.html"
+  },
+  {
+    "title": "Hybrid validates end-to-end institution readiness",
+    "mode": "hybrid",
+    "intent": "readiness",
+    "request": "Validate end-to-end institution readiness: user objective, mission contract, evidence docket, validator path, trust boundary, token boundary, proof routes, and next action.",
+    "why": "The user needs the whole journey to work, not only a single page.",
+    "creates": [
+      "Institution Readiness Packet",
+      "Route Matrix",
+      "Reviewer Brief"
+    ],
+    "next": "site-health.html"
+  },
+  {
+    "title": "AGI Node validates AGI Node handoff readiness",
+    "mode": "agi-node",
+    "intent": "node",
+    "request": "Validate that the AGI Node handoff packet has objective, public-safe scope, allowed checks, forbidden actions, evidence requirements, expected artifacts, and human escalation rules.",
+    "why": "AGI Nodes need precise handoff packets to avoid vague autonomy.",
+    "creates": [
+      "AGI Node Handoff JSON",
+      "Allowed Checks List",
+      "Escalation Rules"
+    ],
+    "next": "agi-node-use-cases.html"
+  },
+  {
+    "title": "Human validates legal/privacy boundary posture",
+    "mode": "human",
+    "intent": "legal",
+    "request": "Prepare human review of legal/privacy boundary posture: no personal data, no customer data, no confidential data, no wallet, no transaction, no investment advice, and no production authority.",
+    "why": "Legal/privacy posture is judgment-heavy and should be human-reviewed before public reliance.",
+    "creates": [
+      "Legal Boundary Review",
+      "Privacy Checklist",
+      "Publication Notes"
+    ],
+    "next": "trust-boundary.html"
+  },
+  {
+    "title": "Hybrid validates a public demo before launch",
+    "mode": "hybrid",
+    "intent": "demo",
+    "request": "Validate a public demo before launch: browser-local behavior, no forbidden APIs, clear user path, proof routes, downloads, boundary text, and no unsupported claims.",
+    "why": "AGI Node checks deterministic UX/safety; Human confirms usefulness and communication quality.",
+    "creates": [
+      "Launch Validation Packet",
+      "UX Checklist",
+      "Claim Boundary Report"
+    ],
+    "next": "demo-ecosystem-registry.html"
+  },
+  {
+    "title": "Council validates RSI state-capacity claim",
+    "mode": "council",
+    "intent": "rsi",
+    "request": "Prepare Council review for an RSI state-capacity claim: replayability, schema-bound artifacts, baseline discipline, ECI ledger, persistence under shocks, and dossier packaging.",
+    "why": "State-capacity claims are strategic and require independent validation authority.",
+    "creates": [
+      "State-Capacity Dossier",
+      "Council Agenda",
+      "Evidence Map"
+    ],
+    "next": "from-loop-to-rsi-state-capacity.html"
+  },
+  {
+    "title": "AGI Node validates proof metrics dashboard",
+    "mode": "agi-node",
+    "intent": "metrics",
+    "request": "Validate that proof metrics measure proof quality, not just activity: docket completeness, validation latency, rejected claim rate, replay success, cost per accepted mission, and capability reuse count.",
+    "why": "Metrics wording and page routing can be checked deterministically.",
+    "creates": [
+      "Metrics Quality Certificate",
+      "Dashboard Checklist",
+      "Route Report"
+    ],
+    "next": "proof-metrics-dashboard.html"
+  },
+  {
+    "title": "Hybrid validates a partnership diligence packet",
+    "mode": "hybrid",
+    "intent": "partnership",
+    "request": "Evaluate a partnership opportunity using GoalOS: claims, evidence, contradictions, risks, proof routes, reviewer responsibilities, and next decision state.",
+    "why": "AGI Node organizes evidence; Human judges strategic fit and risk.",
+    "creates": [
+      "Partnership Diligence Brief",
+      "Claims Matrix",
+      "Action Graph"
+    ],
+    "next": "goalos.html"
+  },
+  {
+    "title": "AGI Node validates claim-boundary page",
+    "mode": "agi-node",
+    "intent": "claim",
+    "request": "Validate the claim-boundary page for unsupported AGI/ASI/SOTA/guaranteed-return/legal/security/production claims and route users to evidence pages instead of hype.",
+    "why": "Claim-boundary scanning is deterministic and public-safe.",
+    "creates": [
+      "Claim Boundary Certificate",
+      "Unsupported Claim List",
+      "Evidence Routes"
+    ],
+    "next": "claim-boundary.html"
+  },
+  {
+    "title": "Hybrid validates capability package readiness",
+    "mode": "hybrid",
+    "intent": "capability",
+    "request": "Check whether a capability package is ready: proof history, initiation conditions, validators, risk class, cost profile, replay path, rollback target, and future reuse plan.",
+    "why": "Reusable capability needs both structure and judgment.",
+    "creates": [
+      "Capability Package Review",
+      "Reuse Map",
+      "Rollback Plan"
+    ],
+    "next": "capability-compounding-lab.html"
+  },
+  {
+    "title": "Council validates governance escalation",
+    "mode": "council",
+    "intent": "governance",
+    "request": "Prepare governance escalation for a high-novelty or high-impact validation authority change with stop authority, independent verification, evidence, and rollback scope.",
+    "why": "Authority changes alter the institution itself and need Council review.",
+    "creates": [
+      "Governance Escalation Packet",
+      "Stop Authority Memo",
+      "Council Review Plan"
+    ],
+    "next": "validation-control-tower.html"
+  },
+  {
+    "title": "AGI Node validates reviewer replay room",
+    "mode": "agi-node",
+    "intent": "review",
+    "request": "Validate the reviewer replay room: docket route, claims matrix, replay path, validator notes, dissent option, and verdict export.",
+    "why": "Reviewer route integrity and export completeness are deterministic checks.",
+    "creates": [
+      "Replay Room Check",
+      "Reviewer Route Matrix",
+      "Export Checklist"
+    ],
+    "next": "external-reviewer-replay-room.html"
+  },
+  {
+    "title": "Hybrid validates institution onboarding",
+    "mode": "hybrid",
+    "intent": "onboarding",
+    "request": "Validate the new-user journey: Start Here, Mission Studio, Ask GoalOS, use-case playbooks, validation authority, contract atlas, trust boundary, and all-pages navigation.",
+    "why": "A usable institution requires a complete, friendly onboarding path.",
+    "creates": [
+      "Onboarding Validation Brief",
+      "User Journey Map",
+      "Missing Friction List"
+    ],
+    "next": "start-here.html"
+  },
+  {
+    "title": "AGI Node validates no-network/no-wallet safety",
+    "mode": "agi-node",
+    "intent": "safety",
+    "request": "Validate that the public demos remain browser-local and use no fetch, XMLHttpRequest, sendBeacon, localStorage, sessionStorage, or window.ethereum.",
+    "why": "This protects the no-data/no-wallet public-alpha posture.",
+    "creates": [
+      "Browser-Local Safety Certificate",
+      "Forbidden API Scan",
+      "Boundary Report"
+    ],
+    "next": "site-health.html"
+  }
+];

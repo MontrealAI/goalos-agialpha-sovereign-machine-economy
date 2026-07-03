@@ -1,0 +1,684 @@
+{
+  "version": "v33",
+  "generatedAt": "2026-07-03T11:32:13.298869Z",
+  "primary": "validation-control-tower.html",
+  "publicPages": 169,
+  "routes": [
+    {
+      "title": "GoalOS Route Not Found",
+      "url": "404.html"
+    },
+    {
+      "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
+      "url": "action-reason-trace-contract.html"
+    },
+    {
+      "title": "Adoption Playbook \u00b7 GoalOS Ascension",
+      "url": "adoption.html"
+    },
+    {
+      "title": "Agent Constellation Demo \u2014 GoalOS",
+      "url": "agent-constellation-demo.html"
+    },
+    {
+      "title": "Agent Foundry \u00b7 GoalOS Ascension",
+      "url": "agents.html"
+    },
+    {
+      "title": "AGI Alpha Node v0",
+      "url": "agi-alpha-node-v0.html"
+    },
+    {
+      "title": "AGI ALPHA Thesis",
+      "url": "agi-alpha-thesis.html"
+    },
+    {
+      "title": "AGI Jobs v0 (v2)",
+      "url": "agi-jobs-v0-v2.html"
+    },
+    {
+      "title": "GoalOS AGI Node Use Cases V33",
+      "url": "agi-node-use-cases.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "agi-node-validation.html"
+    },
+    {
+      "title": "$AGIALPHA Control Rail",
+      "url": "agialpha-control-rail.html"
+    },
+    {
+      "title": "$AGIALPHA Public-Market Boundary",
+      "url": "agialpha-token-boundary.html"
+    },
+    {
+      "title": "Architecture \u00b7 GoalOS",
+      "url": "architecture.html"
+    },
+    {
+      "title": "Ask GoalOS V27 \u2014 GoalOS",
+      "url": "ask-goalos.html"
+    },
+    {
+      "title": "GoalOS Capability Compounding Lab \u2014 Verified Work Becomes Reusable Capability",
+      "url": "capability-compounding-lab.html"
+    },
+    {
+      "title": "GoalOS Capability Parity",
+      "url": "capability-parity.html"
+    },
+    {
+      "title": "Capability Stack \u00b7 GoalOS",
+      "url": "capability-stack.html"
+    },
+    {
+      "title": "Claim Boundary \u00b7 GoalOS",
+      "url": "claim-boundary.html"
+    },
+    {
+      "title": "Commercial Evidence \u00b7 GoalOS",
+      "url": "commercial-evidence.html"
+    },
+    {
+      "title": "GoalOS Proof Console",
+      "url": "console.html"
+    },
+    {
+      "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
+      "url": "contract-academy.html"
+    },
+    {
+      "title": "Coordination Console",
+      "url": "coordination-console.html"
+    },
+    {
+      "title": "Data boundary \u2014 GoalOS",
+      "url": "data-boundary.html"
+    },
+    {
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "url": "data-room.html"
+    },
+    {
+      "title": "Demo ecosystem registry \u2014 GoalOS",
+      "url": "demo-ecosystem-registry.html"
+    },
+    {
+      "title": "Demo Gallery \u2014 GoalOS",
+      "url": "demo-gallery.html"
+    },
+    {
+      "title": "Demo Launcher \u2014 GoalOS",
+      "url": "demo-launcher.html"
+    },
+    {
+      "title": "Demo Safety Boundary \u2014 GoalOS",
+      "url": "demo-safety.html"
+    },
+    {
+      "title": "Evidence Docket Builder \u2014 GoalOS",
+      "url": "docket-builder.html"
+    },
+    {
+      "title": "Documentation hub \u2014 GoalOS",
+      "url": "docs.html"
+    },
+    {
+      "title": "GoalOS Document Series",
+      "url": "document-series.html"
+    },
+    {
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "url": "enterprise.html"
+    },
+    {
+      "title": "Evaluation Program",
+      "url": "evaluation-program.html"
+    },
+    {
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "url": "evaluation.html"
+    },
+    {
+      "title": "GoalOS Evidence Docket Theatre \u2014 A proof page is not a marketing page",
+      "url": "evidence-docket-theatre.html"
+    },
+    {
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "url": "evidence-room.html"
+    },
+    {
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "url": "evidence-to-scale.html"
+    },
+    {
+      "title": "Evidence Layer \u00b7 GoalOS Ascension",
+      "url": "evidence.html"
+    },
+    {
+      "title": "GoalOS Evolution Ledger Control Room \u2014 Proof, Not Secrets",
+      "url": "evolution-ledger-control-room.html"
+    },
+    {
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "url": "executive-brief.html"
+    },
+    {
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "url": "external-reviewer-replay-room.html"
+    },
+    {
+      "title": "Falsification Box \u2014 GoalOS",
+      "url": "falsification-box.html"
+    },
+    {
+      "title": "GoalOS Falsification Gauntlet V1.2 \u2014 Claim-Sensitive Stress",
+      "url": "falsification-gauntlet.html"
+    },
+    {
+      "title": "FAQ \u00b7 GoalOS Ascension",
+      "url": "faq.html"
+    },
+    {
+      "title": "For New Users \u2014 GoalOS",
+      "url": "for-new-users.html"
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "url": "for-reviewers.html"
+    },
+    {
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "url": "from-loop-to-rsi-governance.html"
+    },
+    {
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "url": "from-loop-to-rsi-sovereign-console.html"
+    },
+    {
+      "title": "GoalOS From Loop to RSI State-Capacity Command Room",
+      "url": "from-loop-to-rsi-state-capacity.html"
+    },
+    {
+      "title": "Frontier Release Case Study",
+      "url": "frontier-release-case-study.html"
+    },
+    {
+      "title": "Frontier Release Doctrine",
+      "url": "frontier-release-doctrine.html"
+    },
+    {
+      "title": "Frontier Release Room",
+      "url": "frontier-release-room.html"
+    },
+    {
+      "title": "Glossary \u2014 GoalOS",
+      "url": "glossary.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "goalos-mission-studio.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "goalos.html"
+    },
+    {
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "url": "governance.html"
+    },
+    {
+      "title": "Help Center \u2014 GoalOS",
+      "url": "help-center.html"
+    },
+    {
+      "title": "GoalOS Historical Command Center",
+      "url": "historical-command-center.html"
+    },
+    {
+      "title": "Holy Grail Candidate",
+      "url": "holy-grail-candidate.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "human-or-agi-node-validation.html"
+    },
+    {
+      "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+      "url": "human-or-node-validation.html"
+    },
+    {
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "url": "independent-validation.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "index.html"
+    },
+    {
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "url": "institutional-deployment-wedge.html"
+    },
+    {
+      "title": "Token & Investment Boundary",
+      "url": "investment-token-boundary.html"
+    },
+    {
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "url": "jobs.html"
+    },
+    {
+      "title": "GoalOS Launch Narrative",
+      "url": "launch-narrative.html"
+    },
+    {
+      "title": "Launch Package \u00b7 GoalOS Ascension",
+      "url": "launch.html"
+    },
+    {
+      "title": "Legal Shield \u2014 GoalOS",
+      "url": "legal.html"
+    },
+    {
+      "title": "Local Autopilot Demo \u2014 GoalOS",
+      "url": "local-autopilot-demo.html"
+    },
+    {
+      "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
+      "url": "loop-bottleneck-observatory.html"
+    },
+    {
+      "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
+      "url": "loop-contract-lab.html"
+    },
+    {
+      "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
+      "url": "loop-flight-recorder.html"
+    },
+    {
+      "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
+      "url": "mainnet-contract-atlas.html"
+    },
+    {
+      "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
+      "url": "mainnet-proof-rail.html"
+    },
+    {
+      "title": "META-AGENTIC \u03b1-AGI",
+      "url": "meta-agentic-alpha-agi.html"
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "url": "metrics.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission-autopilot.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission-command-center.html"
+    },
+    {
+      "title": "Mission OS Canon",
+      "url": "mission-os-canon.html"
+    },
+    {
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "url": "mission-os.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission-studio.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "mission.html"
+    },
+    {
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "url": "multi-agent-institution.html"
+    },
+    {
+      "title": "No data. No funds. No wallet. \u2014 GoalOS",
+      "url": "no-data-no-funds.html"
+    },
+    {
+      "title": "Node Runtime \u00b7 GoalOS Ascension",
+      "url": "node.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "objective-command-center.html"
+    },
+    {
+      "title": "Open Ended Work Engine Lab \u2014 GoalOS",
+      "url": "open-ended-work-engine-lab.html"
+    },
+    {
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "url": "open-ended-work-engine.html"
+    },
+    {
+      "title": "Operator Checklist \u2014 GoalOS",
+      "url": "operator-checklist.html"
+    },
+    {
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "url": "operators.html"
+    },
+    {
+      "title": "Paper to Product",
+      "url": "paper-to-product.html"
+    },
+    {
+      "title": "Choose your shortest path \u2014 GoalOS",
+      "url": "pathfinder.html"
+    },
+    {
+      "title": "Pilot Program \u00b7 GoalOS",
+      "url": "pilot-program.html"
+    },
+    {
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "url": "pilot-proof.html"
+    },
+    {
+      "title": "Privacy: we do not want your data. \u2014 GoalOS",
+      "url": "privacy.html"
+    },
+    {
+      "title": "Product \u00b7 GoalOS",
+      "url": "product.html"
+    },
+    {
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "url": "proof-backed-upgrade-rights-room.html"
+    },
+    {
+      "title": "Proof Card Studio \u2014 GoalOS",
+      "url": "proof-card-studio.html"
+    },
+    {
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "url": "proof-carrying-artifact-foundry.html"
+    },
+    {
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "url": "proof-economy.html"
+    },
+    {
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "url": "proof-experience-atlas.html"
+    },
+    {
+      "title": "Proof Flight Demo \u2014 GoalOS",
+      "url": "proof-flight-demo.html"
+    },
+    {
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "url": "proof-gradient-lab.html"
+    },
+    {
+      "title": "GoalOS Public Proof Ledger \u2014 Evidence Registry",
+      "url": "proof-ledger.html"
+    },
+    {
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "url": "proof-metrics-dashboard.html"
+    },
+    {
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "url": "proof-mission-control.html"
+    },
+    {
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "url": "proof-mission-forge.html"
+    },
+    {
+      "title": "Proof Mission Slots \u2014 GoalOS",
+      "url": "proof-mission-slots.html"
+    },
+    {
+      "title": "Proof-of-Evolution",
+      "url": "proof-of-evolution.html"
+    },
+    {
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "url": "proof-run-001-docket.html"
+    },
+    {
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "url": "proof-run-001-execution-room.html"
+    },
+    {
+      "title": "Proof Run 001 Live \u2014 GoalOS",
+      "url": "proof-run-001-live.html"
+    },
+    {
+      "title": "Proof Run 001",
+      "url": "proof-run-001.html"
+    },
+    {
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "url": "proof-settlement-chronicle-lab.html"
+    },
+    {
+      "title": "GoalOS Proof-to-Action Command Room \u2014 Governed Decision State",
+      "url": "proof-to-action-command-room.html"
+    },
+    {
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "url": "proof-velocity.html"
+    },
+    {
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "url": "public-metrics-ledger.html"
+    },
+    {
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "url": "public-proof-ledger.html"
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "url": "quick-tour.html"
+    },
+    {
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "url": "real-task-benchmark-bridge.html"
+    },
+    {
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "url": "release-gates.html"
+    },
+    {
+      "title": "Repository Map \u00b7 GoalOS",
+      "url": "repository-map.html"
+    },
+    {
+      "title": "Research Spine",
+      "url": "research-spine.html"
+    },
+    {
+      "title": "Responsible Use \u2014 GoalOS",
+      "url": "responsible-use.html"
+    },
+    {
+      "title": "For Reviewers \u2014 GoalOS",
+      "url": "reviewer-path.html"
+    },
+    {
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "url": "roadmap.html"
+    },
+    {
+      "title": "Run Locally \u2014 GoalOS",
+      "url": "run-locally.html"
+    },
+    {
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "url": "schema-registry.html"
+    },
+    {
+      "title": "Search GoalOS routes \u2014 GoalOS",
+      "url": "search.html"
+    },
+    {
+      "title": "Security Boundary \u2014 GoalOS",
+      "url": "security-boundary.html"
+    },
+    {
+      "title": "Security \u00b7 GoalOS Ascension",
+      "url": "security.html"
+    },
+    {
+      "title": "Site health \u2014 GoalOS",
+      "url": "site-health.html"
+    },
+    {
+      "title": "All pages. Every route. \u2014 GoalOS",
+      "url": "site-map.html"
+    },
+    {
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "url": "source-lineage.html"
+    },
+    {
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "url": "sovereign-experience-stream-lab.html"
+    },
+    {
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "url": "sovereign-experience-stream.html"
+    },
+    {
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "url": "standards.html"
+    },
+    {
+      "title": "Start in 60 seconds \u2014 GoalOS",
+      "url": "start-here.html"
+    },
+    {
+      "title": "Start Here \u2014 GoalOS",
+      "url": "start.html"
+    },
+    {
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "url": "strategic-evidence-scorecard.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "tell-goalos.html"
+    },
+    {
+      "title": "Terms of Use \u2014 GoalOS",
+      "url": "terms.html"
+    },
+    {
+      "title": "$AGIALPHA is public-contract identification only. \u2014 GoalOS",
+      "url": "token-boundary.html"
+    },
+    {
+      "title": "$AGIALPHA Token Boundary",
+      "url": "token.html"
+    },
+    {
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "url": "troubleshooting.html"
+    },
+    {
+      "title": "Proof-native. Not data-hungry. Not wallet-first. \u2014 GoalOS",
+      "url": "trust-boundary.html"
+    },
+    {
+      "title": "Trust Center \u00b7 GoalOS Ascension",
+      "url": "trust-center.html"
+    },
+    {
+      "title": "Trust Center",
+      "url": "trust.html"
+    },
+    {
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "url": "try-goalos.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "universal-mission-autopilot.html"
+    },
+    {
+      "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
+      "url": "universal-mission-composer.html"
+    },
+    {
+      "title": "GoalOS Use Case Playbooks V27 \u2014 GoalOS",
+      "url": "use-case-playbooks.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-authority.html"
+    },
+    {
+      "title": "GoalOS Validation Command Center V32 \u2014 Human or AGI Node",
+      "url": "validation-command-center.html"
+    },
+    {
+      "title": "GoalOS Autonomous Validation Mesh V29 \u2014 Human, AGI Node, or Council",
+      "url": "validation-console-v29.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-console.html"
+    },
+    {
+      "title": "GoalOS Validation Control Tower V33 \u2014 Human or AGI Node",
+      "url": "validation-control-tower.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-mesh.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-orchestrator.html"
+    },
+    {
+      "title": "GoalOS Validation Orchestrator V31 - Human or AGI Node",
+      "url": "validation-studio.html"
+    },
+    {
+      "title": "GoalOS Validation Use Cases V33",
+      "url": "validation-use-cases.html"
+    },
+    {
+      "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
+      "url": "validator-council-arena.html"
+    },
+    {
+      "title": "Validator Room \u2014 GoalOS",
+      "url": "validator-room.html"
+    },
+    {
+      "title": "Validator Seats",
+      "url": "validator-seats.html"
+    },
+    {
+      "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",
+      "url": "value-realization-control-room.html"
+    },
+    {
+      "title": "Website Autopilot \u00b7 GoalOS",
+      "url": "website-autopilot.html"
+    },
+    {
+      "title": "Website Operating System \u2014 GoalOS",
+      "url": "website-operating-system.html"
+    },
+    {
+      "title": "What GoalOS Does \u2014 GoalOS",
+      "url": "what-goalos-does.html"
+    }
+  ]
+}
