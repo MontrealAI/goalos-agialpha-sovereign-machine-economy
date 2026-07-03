@@ -1,0 +1,96 @@
+{
+  "version": "v38",
+  "primary": "agi-agent-workbench.html",
+  "routes": [
+    {
+      "title": "AGI Agent Workbench V38",
+      "url": "agi-agent-workbench.html",
+      "kind": "AGI Agents"
+    },
+    {
+      "title": "AGI Agent Run Theatre",
+      "url": "agi-agent-run-theatre.html",
+      "kind": "Runnable demo"
+    },
+    {
+      "title": "AGI Agent Use Case Gallery",
+      "url": "agi-agent-use-case-gallery.html",
+      "kind": "Use cases"
+    },
+    {
+      "title": "Agent Flow Academy V38",
+      "url": "agent-flow-academy-v38.html",
+      "kind": "Flowcharts"
+    },
+    {
+      "title": "GoalOS Mission Studio",
+      "url": "goalos.html",
+      "kind": "Mission"
+    },
+    {
+      "title": "Ask GoalOS",
+      "url": "ask-goalos.html",
+      "kind": "Assistant"
+    },
+    {
+      "title": "Validation Control Tower",
+      "url": "validation-control-tower.html",
+      "kind": "Validation"
+    },
+    {
+      "title": "Mainnet Contract Atlas",
+      "url": "mainnet-contract-atlas.html",
+      "kind": "Contracts"
+    },
+    {
+      "title": "Mainnet Proof Rail",
+      "url": "mainnet-proof-rail.html",
+      "kind": "Contracts"
+    },
+    {
+      "title": "Contract Academy",
+      "url": "contract-academy.html",
+      "kind": "Contracts"
+    },
+    {
+      "title": "Proof Run 001 Docket",
+      "url": "proof-run-001-docket.html",
+      "kind": "Evidence"
+    },
+    {
+      "title": "Loop \u2192 RSI State Capacity",
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "kind": "RSI"
+    },
+    {
+      "title": "Trust Boundary",
+      "url": "trust-boundary.html",
+      "kind": "Boundary"
+    },
+    {
+      "title": "Token Boundary",
+      "url": "token-boundary.html",
+      "kind": "Boundary"
+    },
+    {
+      "title": "All Pages",
+      "url": "site-map.html",
+      "kind": "Navigation"
+    },
+    {
+      "title": "Search",
+      "url": "search.html",
+      "kind": "Navigation"
+    },
+    {
+      "title": "Site Health",
+      "url": "site-health.html",
+      "kind": "Navigation"
+    },
+    {
+      "title": "Demo Registry",
+      "url": "demo-ecosystem-registry.html",
+      "kind": "Registry"
+    }
+  ]
+}

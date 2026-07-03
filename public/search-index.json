@@ -1062,5 +1062,25 @@
     "title": "Agent Flow Academy V37",
     "url": "agent-flow-academy.html",
     "description": "Visual maps for AGI Agents, AGI Nodes, Mission OS, and AEP."
+  },
+  {
+    "title": "AGI Agent Workbench V38",
+    "url": "agi-agent-workbench.html",
+    "description": "Visual one-box AGI Agent workbench with flowcharts, runnable demos, AGI Node handoff, Evidence Docket plan, and route cards."
+  },
+  {
+    "title": "AGI Agent Run Theatre V38",
+    "url": "agi-agent-run-theatre.html",
+    "description": "Browser-local end-to-end AGI Agent mission simulation."
+  },
+  {
+    "title": "AGI Agent Use Case Gallery V38",
+    "url": "agi-agent-use-case-gallery.html",
+    "description": "Solved end-to-end use cases for non-technical users."
+  },
+  {
+    "title": "Agent Flow Academy V38",
+    "url": "agent-flow-academy-v38.html",
+    "description": "Visual flowcharts explaining agents, jobs, nodes, proof bundles, dockets, validation, and chronicle."
   }
 ]

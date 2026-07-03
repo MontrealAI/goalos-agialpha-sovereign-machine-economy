@@ -1,0 +1,12 @@
+name: AGI Agent Workbench feedback
+description: Feedback for GoalOS AGI Agent Workbench V38
+title: "[V38] AGI Agent Workbench feedback"
+labels: [goalos, demo, feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing? What should be improved?
+    validations:
+      required: true

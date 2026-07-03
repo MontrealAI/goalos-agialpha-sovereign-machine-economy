@@ -1,0 +1,1259 @@
+window.GOALOS_AGI_AGENT_WORKBENCH_V38 = {
+  "version": "v38",
+  "name": "GoalOS AGI Agent Workbench",
+  "boundaries": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ],
+  "tokenBoundary": "$AGIALPHA public contract identification only. Not available from GoalOS. No sale. No custody. No wallet support. No investment, trading, legal, tax, exchange, bridge, liquidity, or regulatory advice.",
+  "agents": [
+    {
+      "id": "architect",
+      "short": "ARC",
+      "name": "Architect Agent",
+      "lane": "Frame",
+      "desc": "Frames the objective, success criteria, authority, and claim boundary."
+    },
+    {
+      "id": "planner",
+      "short": "PLN",
+      "name": "Planner Agent",
+      "lane": "Plan",
+      "desc": "Builds the Mission Contract and AGI Jobs-style work package."
+    },
+    {
+      "id": "research",
+      "short": "RES",
+      "name": "Research Agent",
+      "lane": "Map",
+      "desc": "Maps public-safe routes, sources, contracts, and prior dockets."
+    },
+    {
+      "id": "builder",
+      "short": "BLD",
+      "name": "Builder Agent",
+      "lane": "Build",
+      "desc": "Creates public-safe artifacts, briefs, graphs, and route packages."
+    },
+    {
+      "id": "verifier",
+      "short": "VRF",
+      "name": "Verifier Agent",
+      "lane": "Check",
+      "desc": "Checks claims, gates, baselines, risks, and evidence completeness."
+    },
+    {
+      "id": "nodeWorker",
+      "short": "WRK",
+      "name": "AGI Node Worker",
+      "lane": "Execute",
+      "desc": "Prepares deterministic runtime handoff for bounded work."
+    },
+    {
+      "id": "nodeValidator",
+      "short": "VAL",
+      "name": "AGI Node Validator",
+      "lane": "Validate",
+      "desc": "Validates deterministic public-safe checks and replay readiness."
+    },
+    {
+      "id": "sentinel",
+      "short": "SEN",
+      "name": "Sentinel Agent",
+      "lane": "Guard",
+      "desc": "Watches boundary, drift, route, no-wallet, no-network, and risk gates."
+    },
+    {
+      "id": "docket",
+      "short": "DCK",
+      "name": "Evidence Docket Agent",
+      "lane": "Prove",
+      "desc": "Packages claim, proof, baselines, risk/cost, replay, and review path."
+    },
+    {
+      "id": "chronicle",
+      "short": "CHR",
+      "name": "Chronicle Agent",
+      "lane": "Memory",
+      "desc": "Turns accepted work into institutional memory and reusable capability."
+    },
+    {
+      "id": "human",
+      "short": "HUM",
+      "name": "Human Operator",
+      "lane": "Review",
+      "desc": "Reviews high-impact judgment, publication, and strategic claims."
+    },
+    {
+      "id": "council",
+      "short": "CNL",
+      "name": "Architect / Validator Council",
+      "lane": "Govern",
+      "desc": "Reviews RSI, Move-37, institutional promotion, and high-novelty dossiers."
+    }
+  ],
+  "stages": [
+    {
+      "id": "objective",
+      "title": "Objective",
+      "desc": "The user states what they want in one plain-language box."
+    },
+    {
+      "id": "agents",
+      "title": "Agent constellation",
+      "desc": "GoalOS selects the smallest useful proof-governed agent team."
+    },
+    {
+      "id": "job",
+      "title": "AGI Job",
+      "desc": "The objective becomes a bounded work package with criteria and gates."
+    },
+    {
+      "id": "node",
+      "title": "AGI Node handoff",
+      "desc": "Deterministic runtime handoff is prepared without running external actions."
+    },
+    {
+      "id": "proof",
+      "title": "ProofBundle",
+      "desc": "Artifacts, hashes, costs, gates, and replay path are packaged."
+    },
+    {
+      "id": "docket",
+      "title": "Evidence Docket",
+      "desc": "The proof becomes a claim-bound review room, not a marketing page."
+    },
+    {
+      "id": "validate",
+      "title": "Validate",
+      "desc": "Human, AGI Node, Hybrid, or Council authority reviews the route."
+    },
+    {
+      "id": "chronicle",
+      "title": "Chronicle",
+      "desc": "Accepted work becomes memory and a reusable capability candidate."
+    }
+  ],
+  "routes": [
+    {
+      "title": "AGI Agent Workbench V38",
+      "url": "agi-agent-workbench.html",
+      "kind": "AGI Agents"
+    },
+    {
+      "title": "AGI Agent Run Theatre",
+      "url": "agi-agent-run-theatre.html",
+      "kind": "Runnable demo"
+    },
+    {
+      "title": "AGI Agent Use Case Gallery",
+      "url": "agi-agent-use-case-gallery.html",
+      "kind": "Use cases"
+    },
+    {
+      "title": "Agent Flow Academy V38",
+      "url": "agent-flow-academy-v38.html",
+      "kind": "Flowcharts"
+    },
+    {
+      "title": "GoalOS Mission Studio",
+      "url": "goalos.html",
+      "kind": "Mission"
+    },
+    {
+      "title": "Ask GoalOS",
+      "url": "ask-goalos.html",
+      "kind": "Assistant"
+    },
+    {
+      "title": "Validation Control Tower",
+      "url": "validation-control-tower.html",
+      "kind": "Validation"
+    },
+    {
+      "title": "Mainnet Contract Atlas",
+      "url": "mainnet-contract-atlas.html",
+      "kind": "Contracts"
+    },
+    {
+      "title": "Mainnet Proof Rail",
+      "url": "mainnet-proof-rail.html",
+      "kind": "Contracts"
+    },
+    {
+      "title": "Contract Academy",
+      "url": "contract-academy.html",
+      "kind": "Contracts"
+    },
+    {
+      "title": "Proof Run 001 Docket",
+      "url": "proof-run-001-docket.html",
+      "kind": "Evidence"
+    },
+    {
+      "title": "Loop \u2192 RSI State Capacity",
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "kind": "RSI"
+    },
+    {
+      "title": "Trust Boundary",
+      "url": "trust-boundary.html",
+      "kind": "Boundary"
+    },
+    {
+      "title": "Token Boundary",
+      "url": "token-boundary.html",
+      "kind": "Boundary"
+    },
+    {
+      "title": "All Pages",
+      "url": "site-map.html",
+      "kind": "Navigation"
+    },
+    {
+      "title": "Search",
+      "url": "search.html",
+      "kind": "Navigation"
+    },
+    {
+      "title": "Site Health",
+      "url": "site-health.html",
+      "kind": "Navigation"
+    },
+    {
+      "title": "Demo Registry",
+      "url": "demo-ecosystem-registry.html",
+      "kind": "Registry"
+    }
+  ],
+  "useCases": [
+    {
+      "num": 1,
+      "id": "UC-01",
+      "title": "Understand GoalOS in 10 minutes",
+      "prompt": "I am new and want the fastest path to understand GoalOS.",
+      "why": "A non-technical user gets a short path instead of a giant site map.",
+      "agents": [
+        "architect",
+        "planner",
+        "research",
+        "docket"
+      ],
+      "authority": "AGI Node precheck + human review",
+      "routes": [
+        "goalos.html",
+        "start-here.html",
+        "pathfinder.html",
+        "site-map.html"
+      ],
+      "artifacts": [
+        "Mission starter",
+        "Route map",
+        "Reviewer note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 2,
+      "id": "UC-02",
+      "title": "Learn the 48 Ethereum Mainnet contracts",
+      "prompt": "I want AGI agents to help me understand the 48 Ethereum Mainnet contracts.",
+      "why": "Turns Mainnet infrastructure into a friendly learning path.",
+      "agents": [
+        "architect",
+        "research",
+        "docket",
+        "nodeValidator"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "mainnet-contract-atlas.html",
+        "mainnet-proof-rail.html",
+        "contract-academy.html",
+        "token-boundary.html"
+      ],
+      "artifacts": [
+        "Contract learning map",
+        "Proof rail brief",
+        "Token boundary note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 3,
+      "id": "UC-03",
+      "title": "Run a public-safe proof mission",
+      "prompt": "I want to run a public-safe proof mission with no user data, no wallet, and no external action.",
+      "why": "Shows GoalOS as proof-to-action, not just static content.",
+      "agents": [
+        "architect",
+        "planner",
+        "builder",
+        "verifier",
+        "docket"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "goalos.html",
+        "proof-run-001-docket.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Mission Contract",
+        "Evidence Docket plan",
+        "Action Graph"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 4,
+      "id": "UC-04",
+      "title": "Evaluate an AI vendor with evidence",
+      "prompt": "I want to evaluate an AI vendor using evidence, not marketing claims.",
+      "why": "Converts subjective vendor comparison into claim-bound proof review.",
+      "agents": [
+        "planner",
+        "research",
+        "verifier",
+        "docket",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "proof-run-001-docket.html",
+        "demo-ecosystem-registry.html"
+      ],
+      "artifacts": [
+        "Claims matrix",
+        "Vendor evidence checklist",
+        "Reviewer brief"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 5,
+      "id": "UC-05",
+      "title": "Design a controlled pilot program",
+      "prompt": "I want to design a controlled pilot where every serious pilot ends with a docket.",
+      "why": "Makes adoption safer: define scope, proof, rollback, and review before scaling.",
+      "agents": [
+        "architect",
+        "planner",
+        "sentinel",
+        "docket",
+        "human"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "trust-boundary.html",
+        "site-health.html"
+      ],
+      "artifacts": [
+        "Pilot plan",
+        "Gate ledger",
+        "Rollback checklist"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 6,
+      "id": "UC-06",
+      "title": "Understand Loop \u2192 RSI governance",
+      "prompt": "I want to understand how long-running loops become deterministic RSI governance.",
+      "why": "Routes the user into deterministic invention governance with hard gates.",
+      "agents": [
+        "architect",
+        "research",
+        "verifier",
+        "council"
+      ],
+      "authority": "Council",
+      "routes": [
+        "from-loop-to-rsi-state-capacity.html",
+        "validation-control-tower.html",
+        "agent-flow-academy-v38.html"
+      ],
+      "artifacts": [
+        "RSI map",
+        "Move-37 checklist",
+        "Council packet"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 7,
+      "id": "UC-07",
+      "title": "Check privacy, token, and data boundaries",
+      "prompt": "I want AGI agents to check privacy, token, and no-data boundaries across the website.",
+      "why": "Makes the trust boundary concrete and auditable.",
+      "agents": [
+        "sentinel",
+        "verifier",
+        "nodeValidator",
+        "docket"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "trust-boundary.html",
+        "token-boundary.html",
+        "privacy.html",
+        "data-boundary.html"
+      ],
+      "artifacts": [
+        "Boundary audit",
+        "Token statement",
+        "Privacy note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 8,
+      "id": "UC-08",
+      "title": "Review or replay a proof claim",
+      "prompt": "I want to review a public GoalOS proof claim and understand what evidence supports it.",
+      "why": "Teaches users to ask for dockets, baselines, replay, risks, and claims matrix.",
+      "agents": [
+        "research",
+        "verifier",
+        "docket",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "proof-run-001-docket.html",
+        "validation-control-tower.html",
+        "site-map.html"
+      ],
+      "artifacts": [
+        "Replay brief",
+        "Evidence matrix",
+        "Verdict worksheet"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 9,
+      "id": "UC-09",
+      "title": "Turn accepted work into reusable capability",
+      "prompt": "I want to see how accepted work becomes reusable capability.",
+      "why": "Shows the compounding loop from one proof to future work.",
+      "agents": [
+        "docket",
+        "chronicle",
+        "verifier",
+        "planner"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "goalos.html",
+        "agent-flow-academy-v38.html",
+        "demo-ecosystem-registry.html"
+      ],
+      "artifacts": [
+        "Chronicle stub",
+        "Capability package",
+        "Reuse gate"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 10,
+      "id": "UC-10",
+      "title": "Audit website and repository completeness",
+      "prompt": "I want AGI agents to audit the website and repository completeness.",
+      "why": "Gives maintainers a route QA path that users understand.",
+      "agents": [
+        "research",
+        "verifier",
+        "sentinel",
+        "nodeValidator"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "site-health.html",
+        "site-map.html",
+        "search.html"
+      ],
+      "artifacts": [
+        "Route health packet",
+        "Missing-route report",
+        "QA brief"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 11,
+      "id": "UC-11",
+      "title": "Plan a defensive cybersecurity proof mission",
+      "prompt": "I want to plan a defensive cybersecurity proof mission for a repo-owned, public-safe review.",
+      "why": "Shows security value while preserving no external scans and no exploit execution.",
+      "agents": [
+        "sentinel",
+        "verifier",
+        "builder",
+        "human"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "trust-boundary.html",
+        "proof-run-001-docket.html"
+      ],
+      "artifacts": [
+        "Safety invariant ledger",
+        "Review packet",
+        "Patch proposal outline"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 12,
+      "id": "UC-12",
+      "title": "Prepare an executive decision brief",
+      "prompt": "I want an executive brief that turns a GoalOS objective into options, risks, proof, and next steps.",
+      "why": "Makes GoalOS useful to leaders who need decisions, not raw traces.",
+      "agents": [
+        "architect",
+        "planner",
+        "research",
+        "human"
+      ],
+      "authority": "Human",
+      "routes": [
+        "goalos.html",
+        "proof-run-001-docket.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Executive brief",
+        "Decision options",
+        "Risk table"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 13,
+      "id": "UC-13",
+      "title": "Create a proof-backed procurement record",
+      "prompt": "I want to create a proof-backed procurement record for an AI tool.",
+      "why": "Procurement becomes evidence-backed and reviewable.",
+      "agents": [
+        "planner",
+        "research",
+        "verifier",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "proof-run-001-docket.html"
+      ],
+      "artifacts": [
+        "Procurement docket",
+        "Acceptance criteria",
+        "Vendor comparison"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 14,
+      "id": "UC-14",
+      "title": "Audit a research or strategic claim",
+      "prompt": "I want to audit a research or strategic claim before publishing it.",
+      "why": "Prevents unsupported claims from becoming institutional defaults.",
+      "agents": [
+        "research",
+        "verifier",
+        "docket",
+        "human"
+      ],
+      "authority": "Human",
+      "routes": [
+        "validation-control-tower.html",
+        "trust-boundary.html"
+      ],
+      "artifacts": [
+        "Claim boundary audit",
+        "Source map",
+        "Reviewer decision"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 15,
+      "id": "UC-15",
+      "title": "Prepare a Validator Council review",
+      "prompt": "I want to prepare a Validator Council review session for a high-novelty GoalOS claim.",
+      "why": "Shows governance escalation for strategic or high-novelty claims.",
+      "agents": [
+        "architect",
+        "council",
+        "verifier",
+        "docket"
+      ],
+      "authority": "Council",
+      "routes": [
+        "validation-control-tower.html",
+        "from-loop-to-rsi-state-capacity.html"
+      ],
+      "artifacts": [
+        "Council packet",
+        "Dossier checklist",
+        "Gate map"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 16,
+      "id": "UC-16",
+      "title": "Map a strategic opportunity into a proof mission",
+      "prompt": "I want to map a strategic opportunity into a public-safe proof mission.",
+      "why": "Turns vague strategy into bounded proof work.",
+      "agents": [
+        "architect",
+        "planner",
+        "research",
+        "docket"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "goalos.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Opportunity map",
+        "Mission Contract",
+        "Evidence plan"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 17,
+      "id": "UC-17",
+      "title": "Build a Mainnet proof-rail learning path",
+      "prompt": "I want to build a learning path from the 48 contracts to proof-governed AI work.",
+      "why": "Links contracts to user comprehension and proof workflow.",
+      "agents": [
+        "research",
+        "docket",
+        "chronicle",
+        "nodeValidator"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "mainnet-contract-atlas.html",
+        "mainnet-proof-rail.html",
+        "contract-academy.html"
+      ],
+      "artifacts": [
+        "Lesson plan",
+        "Contract roles map",
+        "Review brief"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 18,
+      "id": "UC-18",
+      "title": "Prepare external reviewer replay",
+      "prompt": "I want to prepare an external reviewer replay packet.",
+      "why": "Turns internal work into something an outsider can inspect.",
+      "agents": [
+        "docket",
+        "verifier",
+        "human",
+        "sentinel"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "proof-run-001-docket.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Replay instructions",
+        "Reviewer brief",
+        "Evidence checklist"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 19,
+      "id": "UC-19",
+      "title": "Create an AGI Node handoff packet",
+      "prompt": "I want to create an AGI Node handoff packet for deterministic public-safe validation.",
+      "why": "Makes AGI Nodes understandable and actionable.",
+      "agents": [
+        "planner",
+        "nodeWorker",
+        "nodeValidator",
+        "sentinel"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "agi-agent-workbench.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "AGI Node Handoff JSON",
+        "Gate list",
+        "Telemetry expectations"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 20,
+      "id": "UC-20",
+      "title": "Prepare a safe launch Evidence Docket",
+      "prompt": "I want to prepare an Evidence Docket for a public launch.",
+      "why": "Launch becomes claim-bound and review-ready.",
+      "agents": [
+        "architect",
+        "verifier",
+        "docket",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "proof-run-001-docket.html",
+        "trust-boundary.html"
+      ],
+      "artifacts": [
+        "Launch docket",
+        "Boundary text",
+        "Rollback note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 21,
+      "id": "UC-21",
+      "title": "Convert a mission into Chronicle memory",
+      "prompt": "I want to convert a mission into Chronicle memory.",
+      "why": "Shows how accepted work compounds rather than disappearing.",
+      "agents": [
+        "chronicle",
+        "docket",
+        "verifier"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "agent-flow-academy-v38.html",
+        "goalos.html"
+      ],
+      "artifacts": [
+        "Chronicle entry",
+        "Capability candidate",
+        "Reuse conditions"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 22,
+      "id": "UC-22",
+      "title": "Create an AGI Jobs-style work package",
+      "prompt": "I want to create an AGI Jobs-style work package from one objective.",
+      "why": "Explains the Work OS layer to non-technical users.",
+      "agents": [
+        "planner",
+        "nodeWorker",
+        "verifier",
+        "docket"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "agi-agent-run-theatre.html",
+        "agent-flow-academy-v38.html"
+      ],
+      "artifacts": [
+        "JobSpec",
+        "Acceptance tests",
+        "ProofBundle plan"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 23,
+      "id": "UC-23",
+      "title": "Council review for Move-37 candidate",
+      "prompt": "I want to prepare Council review for a Move-37 candidate.",
+      "why": "High novelty raises skepticism and requires dossier packaging.",
+      "agents": [
+        "architect",
+        "council",
+        "verifier",
+        "sentinel",
+        "docket"
+      ],
+      "authority": "Council",
+      "routes": [
+        "from-loop-to-rsi-state-capacity.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Move-37 dossier",
+        "Stress-test plan",
+        "Persistence gate"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 24,
+      "id": "UC-24",
+      "title": "Build a safe proof demo from an objective",
+      "prompt": "I want to build a safe proof demo from one objective.",
+      "why": "Helps users create demos that are useful but claim-bounded.",
+      "agents": [
+        "architect",
+        "planner",
+        "builder",
+        "verifier",
+        "docket"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "agi-agent-run-theatre.html",
+        "goalos.html"
+      ],
+      "artifacts": [
+        "Demo plan",
+        "Proof path",
+        "Reviewer note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 25,
+      "id": "UC-25",
+      "title": "Choose the right agent topology",
+      "prompt": "I want to choose the right agent topology for my proof mission.",
+      "why": "Prevents unnecessary swarms and teaches role discipline.",
+      "agents": [
+        "architect",
+        "planner",
+        "verifier"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "agi-agent-workbench.html",
+        "agent-flow-academy-v38.html"
+      ],
+      "artifacts": [
+        "Topology recommendation",
+        "Role contracts",
+        "Cost/risk rationale"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 26,
+      "id": "UC-26",
+      "title": "Evaluate partnership diligence",
+      "prompt": "I want AGI agents to help prepare evidence-based partnership diligence.",
+      "why": "Turns partnership hype into claims, risks, evidence, and review path.",
+      "agents": [
+        "research",
+        "verifier",
+        "human",
+        "docket"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "proof-run-001-docket.html"
+      ],
+      "artifacts": [
+        "Diligence brief",
+        "Risk ledger",
+        "Questions to ask"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 27,
+      "id": "UC-27",
+      "title": "Create a risk ledger for a strategic claim",
+      "prompt": "I want to create a risk ledger for a strategic GoalOS claim.",
+      "why": "Shows risk as first-class evidence.",
+      "agents": [
+        "sentinel",
+        "verifier",
+        "human"
+      ],
+      "authority": "Human",
+      "routes": [
+        "trust-boundary.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Risk ledger",
+        "Claim boundary",
+        "Escalation rule"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 28,
+      "id": "UC-28",
+      "title": "Compare AI policy options",
+      "prompt": "I want to compare AI policy options using GoalOS proof discipline.",
+      "why": "Gives policy users a structured decision route.",
+      "agents": [
+        "architect",
+        "research",
+        "verifier",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "goalos.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Policy options table",
+        "Evidence map",
+        "Decision brief"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 29,
+      "id": "UC-29",
+      "title": "Build-vs-buy AI decision",
+      "prompt": "I want to decide whether to build or buy an AI system using evidence.",
+      "why": "Concrete executive use case with useful outputs.",
+      "agents": [
+        "planner",
+        "research",
+        "verifier",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "proof-run-001-docket.html"
+      ],
+      "artifacts": [
+        "Build/buy matrix",
+        "Cost/risk ledger",
+        "Reviewer brief"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 30,
+      "id": "UC-30",
+      "title": "Turn a workflow into a reusable SOP",
+      "prompt": "I want to turn a repeatable workflow into a reusable SOP with proof gates.",
+      "why": "Converts work into institution-grade reusable process.",
+      "agents": [
+        "planner",
+        "builder",
+        "docket",
+        "chronicle"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "goalos.html",
+        "agent-flow-academy-v38.html"
+      ],
+      "artifacts": [
+        "SOP draft",
+        "Proof gates",
+        "Chronicle stub"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 31,
+      "id": "UC-31",
+      "title": "Teach a new team member GoalOS",
+      "prompt": "I want a new teammate to understand GoalOS quickly.",
+      "why": "Turns onboarding into a guided proof curriculum.",
+      "agents": [
+        "research",
+        "docket",
+        "chronicle"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "start-here.html",
+        "agi-agent-use-case-gallery.html",
+        "agent-flow-academy-v38.html"
+      ],
+      "artifacts": [
+        "Onboarding path",
+        "Glossary",
+        "Practice missions"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 32,
+      "id": "UC-32",
+      "title": "Prepare a release readiness packet",
+      "prompt": "I want to prepare a release readiness packet for a GoalOS page.",
+      "why": "Makes release review concrete and safe.",
+      "agents": [
+        "sentinel",
+        "verifier",
+        "docket",
+        "human"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "site-health.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "Readiness checklist",
+        "QA evidence",
+        "Rollback note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 33,
+      "id": "UC-33",
+      "title": "Explain AGI Jobs + Nodes + Chronicle",
+      "prompt": "I want AGI agents to explain AGI Jobs, AGI Nodes, and Chronicle with a runnable example.",
+      "why": "Makes the original stack understandable.",
+      "agents": [
+        "architect",
+        "research",
+        "nodeWorker",
+        "chronicle"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "agent-flow-academy-v38.html",
+        "agi-agent-run-theatre.html"
+      ],
+      "artifacts": [
+        "Stack explainer",
+        "Run theatre replay",
+        "Chronicle example"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 34,
+      "id": "UC-34",
+      "title": "Plan an end-to-end autonomous example",
+      "prompt": "I want a complete end-to-end example from objective to agents to proof to validation to Chronicle.",
+      "why": "This is the signature demo for non-technical users.",
+      "agents": [
+        "architect",
+        "planner",
+        "builder",
+        "verifier",
+        "nodeValidator",
+        "docket",
+        "chronicle"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "agi-agent-run-theatre.html",
+        "agi-agent-workbench.html",
+        "validation-control-tower.html"
+      ],
+      "artifacts": [
+        "End-to-end replay",
+        "Mission packet",
+        "Chronicle stub"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 35,
+      "id": "UC-35",
+      "title": "Validate Ask GoalOS routing",
+      "prompt": "I want AGI agents to validate Ask GoalOS routing.",
+      "why": "Checks that the assistant sends users to the right pages.",
+      "agents": [
+        "nodeValidator",
+        "sentinel",
+        "verifier"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "ask-goalos.html",
+        "search.html",
+        "site-map.html"
+      ],
+      "artifacts": [
+        "Route test matrix",
+        "Assistant QA",
+        "Broken route list"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 36,
+      "id": "UC-36",
+      "title": "Create a public-safe research spine",
+      "prompt": "I want to create a research spine that is claim-bounded and useful.",
+      "why": "Helps turn research into proof-aligned navigation.",
+      "agents": [
+        "research",
+        "docket",
+        "verifier",
+        "human"
+      ],
+      "authority": "Hybrid",
+      "routes": [
+        "docs.html",
+        "proof-run-001-docket.html"
+      ],
+      "artifacts": [
+        "Research map",
+        "Claims matrix",
+        "Source plan"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 37,
+      "id": "UC-37",
+      "title": "Prepare human-governed remediation",
+      "prompt": "I want to prepare human-governed remediation from an evidence finding.",
+      "why": "Shows how agents propose, but humans approve high-impact changes.",
+      "agents": [
+        "sentinel",
+        "builder",
+        "verifier",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "validation-control-tower.html",
+        "trust-boundary.html"
+      ],
+      "artifacts": [
+        "Remediation proposal",
+        "Human review brief",
+        "Safety invariants"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 38,
+      "id": "UC-38",
+      "title": "Create a proof metrics dashboard",
+      "prompt": "I want to create a simple proof metrics dashboard for a mission.",
+      "why": "Turns progress into visible metrics users can understand.",
+      "agents": [
+        "builder",
+        "verifier",
+        "docket"
+      ],
+      "authority": "AGI Node",
+      "routes": [
+        "site-health.html",
+        "proof-metrics-dashboard.html"
+      ],
+      "artifacts": [
+        "Metric list",
+        "Dashboard plan",
+        "Interpretation note"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 39,
+      "id": "UC-39",
+      "title": "Prepare an institution onboarding path",
+      "prompt": "I want to onboard an institution into GoalOS without asking for sensitive data.",
+      "why": "Makes adoption practical and safe.",
+      "agents": [
+        "architect",
+        "planner",
+        "sentinel",
+        "human"
+      ],
+      "authority": "Human or Hybrid",
+      "routes": [
+        "trust-boundary.html",
+        "goalos.html",
+        "agi-agent-use-case-gallery.html"
+      ],
+      "artifacts": [
+        "Onboarding plan",
+        "Boundary checklist",
+        "Pilot options"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    },
+    {
+      "num": 40,
+      "id": "UC-40",
+      "title": "Create an external public explainer",
+      "prompt": "I want to create a public explainer that shows what GoalOS does without overclaiming.",
+      "why": "Useful for communication while preserving proof discipline.",
+      "agents": [
+        "architect",
+        "research",
+        "verifier",
+        "human"
+      ],
+      "authority": "Human",
+      "routes": [
+        "proof-run-001-docket.html",
+        "trust-boundary.html",
+        "site-map.html"
+      ],
+      "artifacts": [
+        "Explainer outline",
+        "Claim boundary",
+        "Evidence links"
+      ],
+      "gates": "boundary \u2192 evidence \u2192 validation \u2192 review"
+    }
+  ],
+  "demos": [
+    {
+      "id": "demo-contracts",
+      "title": "48 contracts learning mission",
+      "objective": "I want AGI agents to help me understand the 48 Ethereum Mainnet contracts.",
+      "case": "UC-02"
+    },
+    {
+      "id": "demo-proof",
+      "title": "Public-safe proof mission",
+      "objective": "I want to run a public-safe proof mission.",
+      "case": "UC-03"
+    },
+    {
+      "id": "demo-vendor",
+      "title": "Vendor evidence review",
+      "objective": "I want to evaluate an AI vendor using evidence, not marketing claims.",
+      "case": "UC-04"
+    },
+    {
+      "id": "demo-rsi",
+      "title": "Loop \u2192 RSI governance review",
+      "objective": "I want to understand Loop to RSI governance.",
+      "case": "UC-06"
+    },
+    {
+      "id": "demo-e2e",
+      "title": "End-to-end autonomous example",
+      "objective": "I want a complete end-to-end example from objective to agents to proof to validation to Chronicle.",
+      "case": "UC-34"
+    }
+  ],
+  "metrics": {
+    "Proof readiness": 92,
+    "Route fit": 96,
+    "Boundary safety": 100,
+    "Reviewer clarity": 88,
+    "Reuse potential": 84,
+    "Autonomy": 76
+  }
+};

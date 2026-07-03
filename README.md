@@ -247,3 +247,8 @@ A browser-local, public-safe AGI Agent operating surface has been added at `publ
 ## GoalOS AGI Agent Mission Control V37
 
 A browser-local AGI Agent Mission Control layer has been added at `public/agi-agent-mission-control.html`. It preserves existing pages and adds one-box objective input, visual flowcharts, AGI Node handoff, Evidence Docket plan, validation route, Reviewer Brief, Action Graph, Ask GoalOS, and use-case playbooks.
+
+
+## GoalOS AGI Agent Workbench V38
+
+Browser-local visual AGI Agent Workbench at `public/agi-agent-workbench.html`. It preserves existing pages and adds one-box objective input, agent constellation, flowcharts, runnable demos, AGI Node handoff, Evidence Docket plan, validation routes, Reviewer Brief, Action Graph, Ask GoalOS, and solved use-case gallery.

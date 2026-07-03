@@ -1,0 +1,9 @@
+{
+  "version": "v38",
+  "status": "passed",
+  "primaryPage": "public/agi-agent-workbench.html",
+  "publicPages": 189,
+  "brokenInternalHtmlLinks": [],
+  "forbiddenBrowserApiHits": [],
+  "installedAt": "2026-07-03T13:58:09.232446Z"
+}

@@ -1,0 +1,21 @@
+{
+  "version": "v38",
+  "claim": "AGI Agent Workbench is a browser-local public-safe demonstration of proof-governed agent missions.",
+  "evidence": [
+    "created pages",
+    "assets",
+    "reports",
+    "docs",
+    "demo run",
+    "audit"
+  ],
+  "boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ]
+}
