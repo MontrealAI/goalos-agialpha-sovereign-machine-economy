@@ -1,0 +1,98 @@
+name: GoalOS Gold Master V43 — Public Alpha Gold Master
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy updated public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a tracking issue after installation"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag when create_release is true"
+        required: true
+        type: string
+        default: "v0.63.0-gold-master-v43"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-gold-master-v43
+  cancel-in-progress: false
+
+jobs:
+  install-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Locate pack
+        run: |
+          test -f .goalos/packs/goalos-gold-master-v43-pack.zip || (echo "Missing .goalos/packs/goalos-gold-master-v43-pack.zip" && exit 1)
+          rm -rf .goalos/runtime/gold-master-v43
+          mkdir -p .goalos/runtime/gold-master-v43
+          python -m zipfile -e .goalos/packs/goalos-gold-master-v43-pack.zip .goalos/runtime/gold-master-v43
+      - name: Install GoalOS Gold Master V43
+        run: python .goalos/runtime/gold-master-v43/scripts/install_gold_master_v43.py
+      - name: Run deterministic demo
+        run: python .goalos/runtime/gold-master-v43/scripts/run_gold_master_v43_demo.py
+      - name: Audit route integrity and boundary
+        run: python .goalos/runtime/gold-master-v43/scripts/audit_gold_master_v43.py
+      - name: Commit changes
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs reports evidence content examples issue-bodies .github/ISSUE_TEMPLATE || true
+          if git diff --cached --quiet; then echo "No changes to commit"; else git commit -m "Add GoalOS Gold Master V43"; git push; fi
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.existsSync('issue-bodies/gold-master-v43.md') ? fs.readFileSync('issue-bodies/gold-master-v43.md','utf8') : 'GoalOS Gold Master V43 installed.';
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title: 'GoalOS Gold Master V43 installed', body, labels: ['goalos','website','qa','gold-master']});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Gold Master V43
+          body: GoalOS Gold Master V43 is the public-alpha gold master command center and production-readiness runway. It does not grant production authorization, empirical SOTA, wallet support, or live machine-labor economy claims.
+          files: |
+            reports/gold-master-v43-install-report.json
+            reports/gold-master-v43-qa.json
+            reports/gold-master-v43-route-health.json
+            reports/gold-master-v43-audit.json
+            reports/gold-master-v43-demo-run.json
