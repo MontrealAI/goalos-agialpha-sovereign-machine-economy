@@ -1,0 +1,20 @@
+{
+  "version": "v37",
+  "demo": "AGI Agent Mission Control",
+  "inputs": [
+    "plain-language objective"
+  ],
+  "outputs": [
+    "Mission Contract",
+    "AGI Node Handoff",
+    "Evidence Docket plan",
+    "Reviewer Brief",
+    "Action Graph CSV"
+  ],
+  "gates": [
+    "public-safe boundary",
+    "route fit",
+    "docket completeness",
+    "validation authority"
+  ]
+}

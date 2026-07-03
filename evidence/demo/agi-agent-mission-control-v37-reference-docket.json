@@ -1,0 +1,14 @@
+{
+  "version": "v37",
+  "claim": "AGI Agent Mission Control generates public-safe mission artifacts and routes locally.",
+  "boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ],
+  "status": "reference"
+}

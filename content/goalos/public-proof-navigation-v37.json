@@ -1,0 +1,86 @@
+{
+  "version": "v37",
+  "primary": "public/agi-agent-mission-control.html",
+  "routes": [
+    {
+      "url": "agi-agent-mission-control.html",
+      "title": "AGI Agent Mission Control"
+    },
+    {
+      "url": "agi-agent-playbooks.html",
+      "title": "AGI Agent Playbooks"
+    },
+    {
+      "url": "agent-flow-academy.html",
+      "title": "Agent Flow Academy"
+    },
+    {
+      "url": "goalos.html",
+      "title": "Tell GoalOS"
+    },
+    {
+      "url": "ask-goalos.html",
+      "title": "Ask GoalOS"
+    },
+    {
+      "url": "validation-control-tower.html",
+      "title": "Validation Control Tower"
+    },
+    {
+      "url": "validation-command-center.html",
+      "title": "Validation Command Center"
+    },
+    {
+      "url": "mainnet-contract-atlas.html",
+      "title": "Mainnet Contract Atlas"
+    },
+    {
+      "url": "mainnet-proof-rail.html",
+      "title": "Mainnet Proof Rail"
+    },
+    {
+      "url": "contract-academy.html",
+      "title": "Contract Academy"
+    },
+    {
+      "url": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket"
+    },
+    {
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "title": "Loop → RSI State Capacity"
+    },
+    {
+      "url": "trust-boundary.html",
+      "title": "Trust Boundary"
+    },
+    {
+      "url": "token-boundary.html",
+      "title": "Token Boundary"
+    },
+    {
+      "url": "site-map.html",
+      "title": "All Pages"
+    },
+    {
+      "url": "search.html",
+      "title": "Search"
+    },
+    {
+      "url": "demo-ecosystem-registry.html",
+      "title": "Demo Registry"
+    },
+    {
+      "url": "site-health.html",
+      "title": "Site Health"
+    },
+    {
+      "url": "agi-agent-playbooks.html",
+      "title": "AGI Agent Playbooks"
+    },
+    {
+      "url": "agent-flow-academy.html",
+      "title": "Agent Flow Academy"
+    }
+  ]
+}

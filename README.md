@@ -242,3 +242,8 @@ Boundary: No user data, no user funds, no wallet, no transaction, no network cal
 ## GoalOS AGI Agent Command Center V36
 
 A browser-local, public-safe AGI Agent operating surface has been added at `public/agi-agent-command-center.html`. Users type an objective and GoalOS prepares an agent constellation, Mission Contract, AGI Node handoff, Evidence Docket plan, Reviewer Brief, Action Graph, and next best route. No user data, funds, wallet, transaction, network call, or production authority is used.
+
+
+## GoalOS AGI Agent Mission Control V37
+
+A browser-local AGI Agent Mission Control layer has been added at `public/agi-agent-mission-control.html`. It preserves existing pages and adds one-box objective input, visual flowcharts, AGI Node handoff, Evidence Docket plan, validation route, Reviewer Brief, Action Graph, Ask GoalOS, and use-case playbooks.

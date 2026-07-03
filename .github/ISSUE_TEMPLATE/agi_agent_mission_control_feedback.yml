@@ -1,0 +1,11 @@
+name: AGI Agent Mission Control V37 feedback
+description: Report feedback for the AGI Agent Mission Control V37 demo.
+title: "AGI Agent Mission Control V37 feedback"
+labels: [goalos, demo, agi-agents]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+    validations:
+      required: true

@@ -1047,5 +1047,20 @@
     "title": "AGI Agent Command Center V36",
     "url": "agi-agent-command-center.html",
     "description": "One-box meta-agentic AGI Agent mission surface with AGI Node handoff and proof path."
+  },
+  {
+    "title": "AGI Agent Mission Control V37",
+    "url": "agi-agent-mission-control.html",
+    "description": "Visual one-box AGI Agent mission control with flowcharts and AGI Node handoff."
+  },
+  {
+    "title": "AGI Agent Playbooks V37",
+    "url": "agi-agent-playbooks.html",
+    "description": "Solved end-to-end AGI Agent playbooks."
+  },
+  {
+    "title": "Agent Flow Academy V37",
+    "url": "agent-flow-academy.html",
+    "description": "Visual maps for AGI Agents, AGI Nodes, Mission OS, and AEP."
   }
 ]
