@@ -1,0 +1,19 @@
+{
+  "version": "v27",
+  "status": "passed",
+  "generatedAt": "2026-07-03T01:17:29.001159Z",
+  "samples": [
+    "I am new and want the fastest path to understand GoalOS.",
+    "I want to understand the 48 Ethereum Mainnet contracts.",
+    "I want to run a public-safe proof mission.",
+    "I want to evaluate an AI vendor or tool using evidence, not marketing claims.",
+    "I want to understand Loop to RSI governance.",
+    "I want to check privacy, token, and data boundaries.",
+    "I want to design a controlled pilot where every serious pilot ends with a docket."
+  ],
+  "artifacts": [
+    "Mission Contract JSON",
+    "Reviewer Brief Markdown",
+    "Action Graph CSV"
+  ]
+}

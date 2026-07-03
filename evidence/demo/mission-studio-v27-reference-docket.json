@@ -1,0 +1,475 @@
+{
+  "version": "v27",
+  "status": "review_ready",
+  "claim": "Mission Studio V27 provides a front-and-center one-box interface, Ask GoalOS chat, solved use-case playbooks, and complete navigation preservation.",
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.",
+  "useCases": [
+    {
+      "id": "start",
+      "title": "Understand GoalOS in 10 minutes",
+      "audience": "New user",
+      "objective": "I am new and want the fastest path to understand GoalOS.",
+      "why": "Get the thesis, the trust boundary, and the shortest route through the proof surface.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "start-here.html",
+        "pathfinder.html",
+        "demo-ecosystem-registry.html",
+        "trust-boundary.html"
+      ],
+      "gate": "Boundary and route clarity",
+      "steps": [
+        "Read the mission summary",
+        "Open Pathfinder",
+        "Review trust boundary",
+        "Try one demo"
+      ],
+      "outcome": "A clear first-session path."
+    },
+    {
+      "id": "contracts",
+      "title": "Learn the 48 Ethereum Mainnet contracts",
+      "audience": "Reviewer / Builder",
+      "objective": "I want to understand the 48 Ethereum Mainnet contracts.",
+      "why": "Learn the public proof rail without a wallet or Solidity knowledge.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "mainnet-contract-atlas.html",
+        "mainnet-proof-rail.html",
+        "contract-academy.html",
+        "token-boundary.html"
+      ],
+      "gate": "Public contract identification only",
+      "steps": [
+        "Open Contract Atlas",
+        "Search contract roles",
+        "Read Proof Rail",
+        "Confirm token boundary"
+      ],
+      "outcome": "A user can explain the contract suite safely."
+    },
+    {
+      "id": "proof",
+      "title": "Run a public-safe proof mission",
+      "audience": "Operator",
+      "objective": "I want to run a public-safe proof mission.",
+      "why": "Turn a normal objective into a Mission Contract and Evidence Docket plan.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "mission.html",
+        "proof-run-001-docket.html",
+        "evidence-docket-theatre.html",
+        "proof-mission-forge.html"
+      ],
+      "gate": "No sensitive data, no production action",
+      "steps": [
+        "Bound the objective",
+        "Generate proof path",
+        "Download package",
+        "Review before action"
+      ],
+      "outcome": "A review-ready proof mission package."
+    },
+    {
+      "id": "vendor",
+      "title": "Evaluate an AI vendor or tool using evidence",
+      "audience": "Executive / Procurement",
+      "objective": "I want to evaluate an AI vendor or tool using evidence, not marketing claims.",
+      "why": "Separate claims from proof before adoption or procurement.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "proof-run-001-docket.html",
+        "claim-boundary.html",
+        "proof-metrics-dashboard.html",
+        "trust-boundary.html"
+      ],
+      "gate": "No unsupported claims",
+      "steps": [
+        "List vendor claims",
+        "Separate evidence from marketing",
+        "Check contradictions",
+        "Create decision brief"
+      ],
+      "outcome": "A defensible adoption or rejection memo."
+    },
+    {
+      "id": "pilot",
+      "title": "Design a controlled pilot program",
+      "audience": "Institution",
+      "objective": "I want to design a controlled pilot where every serious pilot ends with a docket.",
+      "why": "A real pilot needs criteria, baselines, acceptance records, and follow-up status.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "pilot-program.html",
+        "commercial-evidence.html",
+        "proof-metrics-dashboard.html",
+        "demo-ecosystem-registry.html"
+      ],
+      "gate": "Pilot evidence and follow-up",
+      "steps": [
+        "Choose workflow",
+        "Define gates",
+        "Plan evidence capture",
+        "Schedule review"
+      ],
+      "outcome": "A pilot that can be audited and improved."
+    },
+    {
+      "id": "rsi",
+      "title": "Understand Loop to RSI governance",
+      "audience": "Advanced user",
+      "objective": "I want to understand Loop to RSI governance.",
+      "why": "Loops become safer when they write state, restart, expose bottlenecks, compare baselines, and package breakthroughs as dossiers.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "loop-contract-lab.html",
+        "loop-flight-recorder.html",
+        "loop-bottleneck-observatory.html",
+        "from-loop-to-rsi-state-capacity.html"
+      ],
+      "gate": "Search control is not outcome authority",
+      "steps": [
+        "Start with Loop Contract",
+        "Inspect Flight Recorder",
+        "Open Bottleneck Observatory",
+        "Move to RSI governance"
+      ],
+      "outcome": "A clear Loop \u2192 RSI learning path."
+    },
+    {
+      "id": "boundary",
+      "title": "Check privacy, token, and data boundaries",
+      "audience": "Boundary reviewer",
+      "objective": "I want to check privacy, token, and data boundaries.",
+      "why": "Confirm the site does not ask for data, funds, wallets, transactions, or sensitive material.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "trust-boundary.html",
+        "token-boundary.html",
+        "privacy.html",
+        "data-boundary.html",
+        "no-data-no-funds.html"
+      ],
+      "gate": "No data, no funds, no wallet",
+      "steps": [
+        "Read Trust Boundary",
+        "Read Token Boundary",
+        "Open Privacy/Data pages",
+        "Confirm no submission path"
+      ],
+      "outcome": "A safe public-alpha posture review."
+    },
+    {
+      "id": "review",
+      "title": "Review or replay a proof claim",
+      "audience": "External reviewer",
+      "objective": "I want to review or replay a GoalOS proof claim.",
+      "why": "A proof claim should point to baselines, packets, replay path, gates, risk, and claim boundary.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "proof-run-001-docket.html",
+        "external-reviewer-replay-room.html",
+        "falsification-gauntlet.html",
+        "demo-ecosystem-registry.html"
+      ],
+      "gate": "Evidence before belief",
+      "steps": [
+        "Open docket",
+        "Read claims matrix",
+        "Check replay path",
+        "Stress the claim"
+      ],
+      "outcome": "Reviewer can accept, reject, or challenge."
+    },
+    {
+      "id": "capability",
+      "title": "Turn accepted work into reusable capability",
+      "audience": "Builder / Operator",
+      "objective": "I want to turn accepted work into reusable capability.",
+      "why": "Verified work should become a reusable package only after proof and review.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "capability-compounding-lab.html",
+        "proof-carrying-artifact-foundry.html",
+        "value-realization-control-room.html",
+        "proof-backed-upgrade-rights-room.html"
+      ],
+      "gate": "Reuse only after proof",
+      "steps": [
+        "Run capability lab",
+        "Create artifact package",
+        "Check upgrade rights",
+        "Route to harder mission"
+      ],
+      "outcome": "Proof compounds into capability."
+    },
+    {
+      "id": "audit",
+      "title": "Audit website and repository completeness",
+      "audience": "Maintainer",
+      "objective": "I want to audit website and repository completeness.",
+      "why": "Keep a large proof site navigable, complete, claim-bounded, and route-health checked.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "site-health.html",
+        "site-map.html",
+        "search.html",
+        "docs.html",
+        "repository-map.html"
+      ],
+      "gate": "No missing route, no stale boundary",
+      "steps": [
+        "Open Site Health",
+        "Search important routes",
+        "Review All Pages",
+        "Check docs"
+      ],
+      "outcome": "Maintainer can see what needs review."
+    },
+    {
+      "id": "cyber",
+      "title": "Plan a defensive cybersecurity proof mission",
+      "audience": "Security reviewer",
+      "objective": "I want to plan a defensive cybersecurity proof mission.",
+      "why": "Security work must stay defensive, repo-owned, bounded, human-reviewed, and evidence-backed.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "proof-mission-forge.html",
+        "trust-boundary.html",
+        "evidence-docket-theatre.html",
+        "claim-boundary.html"
+      ],
+      "gate": "Defensive, sandbox-only, human review",
+      "steps": [
+        "Declare defensive scope",
+        "Block external scanning",
+        "Plan evidence/replay",
+        "Require human review"
+      ],
+      "outcome": "A safe defensive mission scaffold."
+    },
+    {
+      "id": "executive",
+      "title": "Prepare an executive decision brief",
+      "audience": "Executive",
+      "objective": "I want an executive decision brief for GoalOS adoption.",
+      "why": "Leaders need a short path from uncertainty to justified action.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "start-here.html",
+        "proof-run-001-docket.html",
+        "mainnet-contract-atlas.html",
+        "trust-boundary.html"
+      ],
+      "gate": "Decision-ready, not production-authorized",
+      "steps": [
+        "State decision",
+        "Collect evidence routes",
+        "Summarize risk",
+        "Define review path"
+      ],
+      "outcome": "An executive-ready summary with proof routes."
+    },
+    {
+      "id": "procurement",
+      "title": "Create a proof-backed procurement record",
+      "audience": "Procurement / Legal",
+      "objective": "I want a proof-backed procurement record for an AI system.",
+      "why": "Procurement should capture claims, validation status, boundaries, and monitoring.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "commercial-evidence.html",
+        "proof-metrics-dashboard.html",
+        "claim-boundary.html",
+        "trust-boundary.html"
+      ],
+      "gate": "Evidence before procurement confidence",
+      "steps": [
+        "Record vendor claims",
+        "Identify proof requirements",
+        "Plan validator review",
+        "Define monitoring/rollback"
+      ],
+      "outcome": "A reviewable procurement path."
+    },
+    {
+      "id": "research",
+      "title": "Audit a research or strategic claim",
+      "audience": "Research reviewer",
+      "objective": "I want to audit a research or strategic claim before sharing it.",
+      "why": "Strong claims require baselines, replay, evidence, limitations, and claim boundaries.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "research-spine.html",
+        "claim-boundary.html",
+        "falsification-gauntlet.html",
+        "evidence-docket-theatre.html"
+      ],
+      "gate": "No Evidence Docket, no strong empirical claim",
+      "steps": [
+        "Write claim",
+        "List evidence needed",
+        "Check falsifiers",
+        "Generate safe summary"
+      ],
+      "outcome": "A bounded, testable claim."
+    },
+    {
+      "id": "validator",
+      "title": "Prepare a validator council review session",
+      "audience": "Reviewer council",
+      "objective": "I want to prepare a validator council review session.",
+      "why": "Trust is not one judge; it needs roles, dissent, gates, replay, and decision state.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "validator-council-arena.html",
+        "external-reviewer-replay-room.html",
+        "proof-run-001-docket.html",
+        "trust-boundary.html"
+      ],
+      "gate": "Independent review before stronger claims",
+      "steps": [
+        "Pick proof claim",
+        "Assign reviewers",
+        "Open replay materials",
+        "Record decision state"
+      ],
+      "outcome": "A structured accept/reject/hold review."
+    },
+    {
+      "id": "opportunity",
+      "title": "Map a strategic opportunity into a proof mission",
+      "audience": "Founder / Strategy",
+      "objective": "I want to turn a strategic opportunity into a proof mission.",
+      "why": "Opportunities become useful only when converted into missions, evidence requirements, gates, and next actions.",
+      "creates": [
+        "Mission Contract",
+        "Claims Matrix",
+        "Evidence Docket plan",
+        "Reviewer Brief",
+        "Action Graph",
+        "Next best route"
+      ],
+      "routes": [
+        "open-ended-work-engine-lab.html",
+        "proof-mission-forge.html",
+        "capability-compounding-lab.html",
+        "value-realization-control-room.html"
+      ],
+      "gate": "Opportunity must become evidence-bearing",
+      "steps": [
+        "State opportunity",
+        "Define pass/fail proof",
+        "Pick initial mission",
+        "Package capability if accepted"
+      ],
+      "outcome": "A strategy becomes a proof-backed path."
+    }
+  ],
+  "routesCount": 156
+}

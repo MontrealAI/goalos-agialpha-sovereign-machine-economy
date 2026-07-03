@@ -1,0 +1,12 @@
+{
+  "version": "v27",
+  "status": "passed",
+  "generatedAt": "2026-07-03T01:17:28.953061Z",
+  "publicPages": 156,
+  "routeClasses": 7,
+  "useCases": 16,
+  "brokenInternalHtmlLinks": [],
+  "forbiddenBrowserApiHits": [],
+  "externalActions": 0,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}
