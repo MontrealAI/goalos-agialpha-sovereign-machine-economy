@@ -1,0 +1,21 @@
+{
+  "version": "v41",
+  "name": "GoalOS Autonomy Theatre",
+  "category": "Quintessential End-to-End Demo",
+  "inputs": [
+    "plain-language objective"
+  ],
+  "outputs": [
+    "Mission Contract",
+    "AGI Job Spec",
+    "AGI Node Handoff",
+    "ProofBundle",
+    "Evidence Docket Plan",
+    "Validation Certificate",
+    "Reviewer Brief",
+    "Action Graph",
+    "Chronicle Entry",
+    "Capability Package Stub"
+  ],
+  "boundary": "browser-local, no user data, no funds, no wallet, no transaction, no network call, no production authority"
+}

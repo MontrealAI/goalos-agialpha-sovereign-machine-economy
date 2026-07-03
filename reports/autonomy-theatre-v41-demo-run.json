@@ -1,0 +1,38 @@
+{
+  "version": "v41",
+  "status": "passed",
+  "demo": "GoalOS Autonomy Theatre",
+  "objective": "I want AGI agents to show a complete end-to-end example from objective to proof to validation to Chronicle.",
+  "stages": [
+    "Objective",
+    "Mission Contract",
+    "AGI Agents",
+    "AGI Job",
+    "AGI Node",
+    "ProofBundle",
+    "Evidence Docket",
+    "Validate",
+    "Chronicle",
+    "Reusable Capability"
+  ],
+  "artifacts": [
+    "Mission Contract JSON",
+    "AGI Job Spec JSON",
+    "AGI Node Handoff JSON",
+    "ProofBundle JSON",
+    "Evidence Docket Plan",
+    "Validation Certificate",
+    "Reviewer Brief",
+    "Action Graph CSV",
+    "Chronicle Entry JSON",
+    "Demo Replay JSON"
+  ],
+  "boundary": {
+    "noUserData": true,
+    "noFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "humanReviewRequired": true
+  }
+}

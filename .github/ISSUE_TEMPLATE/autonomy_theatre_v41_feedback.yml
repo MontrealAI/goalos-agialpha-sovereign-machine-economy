@@ -1,0 +1,10 @@
+name: GoalOS Autonomy Theatre V41 feedback
+description: Review the end-to-end autonomy theatre.
+title: "GoalOS Autonomy Theatre V41 review"
+labels: [goalos, v41, review]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing? What should improve?

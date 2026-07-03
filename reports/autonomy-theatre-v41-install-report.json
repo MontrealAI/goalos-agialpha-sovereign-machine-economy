@@ -1,0 +1,8 @@
+{
+  "version": "v41",
+  "status": "passed",
+  "primaryPage": "public/autonomy-theatre.html",
+  "publicPages": 216,
+  "brokenInternalHtmlLinks": [],
+  "forbiddenBrowserApiHits": []
+}

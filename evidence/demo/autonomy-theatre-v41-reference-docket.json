@@ -1,0 +1,20 @@
+{
+  "version": "v41",
+  "claim": "GoalOS installs a browser-local end-to-end autonomy theatre that teaches and demonstrates objective \u2192 agents \u2192 AGI Job \u2192 AGI Node \u2192 ProofBundle \u2192 Evidence Docket \u2192 validation \u2192 Chronicle \u2192 reusable capability.",
+  "status": "passed",
+  "notClaims": [
+    "No achieved AGI or ASI",
+    "No empirical SOTA claim",
+    "No production authority",
+    "No wallet or transaction",
+    "No user funds",
+    "No network call",
+    "No external validation claim"
+  ],
+  "evidence": [
+    "public/autonomy-theatre.html",
+    "public/autonomy-theatre-use-cases.html",
+    "public/autonomy-theatre-academy.html",
+    "reports/autonomy-theatre-v41-demo-run.json"
+  ]
+}
