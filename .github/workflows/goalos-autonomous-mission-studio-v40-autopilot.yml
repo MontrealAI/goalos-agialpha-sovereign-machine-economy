@@ -1,0 +1,121 @@
+name: GoalOS Autonomous Mission Studio V40 — End-to-End Demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a tracking issue after installation
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use if create_release is true
+        required: true
+        type: string
+        default: v0.60.0-autonomous-mission-studio-v40
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Verify pack exists
+        run: |
+          set -euo pipefail
+          test -f .goalos/packs/goalos-autonomous-mission-studio-v40-pack.zip || (echo "Missing .goalos/packs/goalos-autonomous-mission-studio-v40-pack.zip" && exit 2)
+
+      - name: Unpack V40 pack
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/work/v40
+          mkdir -p .goalos/work/v40
+          unzip -q .goalos/packs/goalos-autonomous-mission-studio-v40-pack.zip -d .goalos/work/v40
+          cp -R .goalos/work/v40/. .
+
+      - name: Install V40 site layer
+        run: python scripts/install_autonomous_mission_studio_v40.py
+
+      - name: Run deterministic V40 demo
+        run: python scripts/run_autonomous_mission_studio_v40_demo.py
+
+      - name: Audit V40 browser-local safety and routes
+        run: python scripts/audit_autonomous_mission_studio_v40.py
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs examples reports evidence content scripts .github/ISSUE_TEMPLATE issue-bodies || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS Autonomous Mission Studio V40"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Create tracking issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'GoalOS Autonomous Mission Studio V40 review',
+              body: 'Review /autonomous-mission-studio.html. Confirm the end-to-end demo, downloads, Ask GoalOS, route cards, and public-alpha boundary.',
+              labels: ['goalos','v40','review']
+            })
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Autonomous Mission Studio V40
+          body: End-to-end autonomous proof mission demo. Browser-local, no user data, no wallet, no transaction.
+          files: |
+            reports/autonomous-mission-studio-v40-*.json
+            evidence/demo/autonomous-mission-studio-v40-reference-docket.json
