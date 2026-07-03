@@ -1,0 +1,12 @@
+{
+  "version": "v30",
+  "page": "validation-studio.html",
+  "authorityModes": [
+    "auto",
+    "agi-node",
+    "human",
+    "hybrid",
+    "council"
+  ],
+  "boundary": "browser-local; no user data; no funds; no wallet; no transaction; no network call; no production authority"
+}

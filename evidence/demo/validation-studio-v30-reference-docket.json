@@ -1,0 +1,11 @@
+{
+  "schema": "goalos.evidence_docket.v30",
+  "status": "passed",
+  "claim": "GoalOS Validation Studio V30 adds Human/AGI Node/Hybrid/Council validation authority without external calls or page removal.",
+  "reports": [
+    "reports/validation-studio-v30-install-report.json",
+    "reports/validation-studio-v30-qa.json",
+    "reports/validation-studio-v30-route-health.json",
+    "reports/validation-studio-v30-audit.json"
+  ]
+}

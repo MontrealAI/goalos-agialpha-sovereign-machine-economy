@@ -202,3 +202,8 @@ Open: `public/validation-authority.html`
 ## GoalOS Autonomous Validation Mesh V29
 
 Human or AGI Node can validate public-safe proof paths. Use `public/validation-mesh.html` to choose AGI Node, Human, Hybrid, or Architect / Validator Council validation authority. The page is browser-local: no user data, no funds, no wallet, no transaction, no network call, and no production authority.
+
+
+## GoalOS Validation Studio V30
+
+Human or AGI Node can validate public-safe proof paths. Open `public/validation-studio.html` to choose AGI Node, Human, Hybrid, or Architect / Validator Council validation authority. The page is browser-local: no user data, no funds, no wallet, no transaction, no network call, and no production authority.

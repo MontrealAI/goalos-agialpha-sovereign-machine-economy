@@ -1,0 +1,13 @@
+{
+  "version": "v30",
+  "status": "passed",
+  "checks": {
+    "page_exists": true,
+    "has_one_box": true,
+    "has_authority_modes": true,
+    "has_ask_goalos": true,
+    "has_playbooks": true,
+    "has_downloads": true
+  },
+  "generatedAt": "2026-07-03T02:03:28.843446+00:00"
+}

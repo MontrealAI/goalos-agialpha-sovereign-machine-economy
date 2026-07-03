@@ -9,7 +9,7 @@
     "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
     "url": "action-reason-trace-contract.html",
     "description": "A browser-local GoalOS demo showing how external actions become governable only when every action carries reason, scope, observation, validation, rollback, and evidence.",
-    "category": "GoalOS Public Page"
+    "category": "Contracts"
   },
   {
     "title": "Adoption Playbook \u00b7 GoalOS Ascension",
@@ -48,10 +48,10 @@
     "category": "GoalOS Public Page"
   },
   {
-    "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+    "title": "GoalOS Validation Studio V30 \u2014 Human or AGI Node",
     "url": "agi-node-validation.html",
-    "description": "GoalOS browser-local validation authority console: choose Human, AGI Node, or Hybrid validation for public-safe proof missions.",
-    "category": "Validation & Navigation"
+    "description": "Choose Human, AGI Node, Hybrid, or Council validation for a public-safe GoalOS proof path. Browser-local. No user data, no wallet, no transaction.",
+    "category": "Validation"
   },
   {
     "title": "$AGIALPHA Control Rail",
@@ -63,7 +63,7 @@
     "title": "$AGIALPHA Public-Market Boundary",
     "url": "agialpha-token-boundary.html",
     "description": "GoalOS public-alpha legal, privacy, data, and token boundary.",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Architecture \u00b7 GoalOS",
@@ -117,7 +117,7 @@
     "title": "GoalOS Contract Academy \u2014 Learn the 48 Contracts",
     "url": "contract-academy.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Contracts"
   },
   {
     "title": "Coordination Console",
@@ -129,13 +129,13 @@
     "title": "Data boundary \u2014 GoalOS",
     "url": "data-boundary.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Data Room \u00b7 GoalOS Ascension",
     "url": "data-room.html",
     "description": "The repository includes a data-room index for reviewers who need fast access to architecture, governance, security, claim boundaries, QA reports, standards, and pilot design.",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Demo ecosystem registry \u2014 GoalOS",
@@ -273,19 +273,19 @@
     "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
     "url": "from-loop-to-rsi-governance.html",
     "description": "A browser-local GoalOS demonstration showing how a restartable loop becomes deterministic RSI governance: TARGET \u2192 EMIT \u2192 FILTER \u2192 ATLAS \u2192 TEST-PLAN \u2192 EVAL \u2192 INSERT \u2192 PROMOTE.",
-    "category": "GoalOS Public Page"
+    "category": "RSI"
   },
   {
     "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
     "url": "from-loop-to-rsi-sovereign-console.html",
     "description": "A browser-local GoalOS public demo showing how restartable loops become deterministic RSI governance: schema-bound artifacts, ECI, baselines, Move-37 dossiers, and Architect/Validator Council review.",
-    "category": "GoalOS Public Page"
+    "category": "RSI"
   },
   {
     "title": "GoalOS From Loop to RSI State-Capacity Command Room",
     "url": "from-loop-to-rsi-state-capacity.html",
     "description": "A browser-local public demo showing how GoalOS turns long-running loops into RSI governance: replay, evidence, baselines, Move-37 dossiers, council review, and governed decision states.",
-    "category": "GoalOS Public Page"
+    "category": "RSI"
   },
   {
     "title": "Frontier Release Case Study",
@@ -348,22 +348,22 @@
     "category": "GoalOS Public Page"
   },
   {
-    "title": "GoalOS Autonomous Validation Mesh V29 \u2014 Human, AGI Node, or Council",
+    "title": "GoalOS Validation Studio V30 \u2014 Human or AGI Node",
     "url": "human-or-agi-node-validation.html",
-    "description": "Browser-local GoalOS validation mesh: choose Human, AGI Node, Hybrid, Council, or Auto-select validation authority for public-safe proof paths.",
-    "category": "Validation & Navigation"
+    "description": "Choose Human, AGI Node, Hybrid, or Council validation for a public-safe GoalOS proof path. Browser-local. No user data, no wallet, no transaction.",
+    "category": "Validation"
   },
   {
     "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
     "url": "human-or-node-validation.html",
     "description": "GoalOS browser-local validation authority console: choose Human, AGI Node, or Hybrid validation for public-safe proof missions.",
-    "category": "Validation & Navigation"
+    "category": "Validation"
   },
   {
     "title": "Independent Validation \u00b7 GoalOS Ascension",
     "url": "independent-validation.html",
     "description": "The validation protocol gives external reviewers a Mission Contract, Claims Matrix, Evidence Docket, Risk Ledger, replay notes, and acceptance criteria.",
-    "category": "Validation & Navigation"
+    "category": "Validation"
   },
   {
     "title": "GoalOS Mission Studio V27 \u2014 GoalOS",
@@ -381,7 +381,7 @@
     "title": "Token & Investment Boundary",
     "url": "investment-token-boundary.html",
     "description": "GoalOS public-alpha legal, privacy, data, and token boundary.",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
@@ -417,31 +417,31 @@
     "title": "GoalOS Loop Bottleneck Observatory \u2014 The Bottleneck Always Moves",
     "url": "loop-bottleneck-observatory.html",
     "description": "A browser-local public demo showing how GoalOS turns long-running agent loops into contracts, disk state, traces, restarts, bottleneck reports, Evidence Dockets, and review-ready decisions.",
-    "category": "GoalOS Public Page"
+    "category": "RSI"
   },
   {
     "title": "GoalOS Loop Contract Lab \u2014 Write the loop, not the prompt.",
     "url": "loop-contract-lab.html",
     "description": "A browser-local public demo showing how long-running agent loops become proof-bearing GoalOS institutions: role contracts, disk state, restart, traces, bottleneck detection, and Evidence Dockets.",
-    "category": "GoalOS Public Page"
+    "category": "Contracts"
   },
   {
     "title": "GoalOS Loop Flight Recorder \u2014 Restartable Agent Loops",
     "url": "loop-flight-recorder.html",
     "description": "A browser-local GoalOS public demo showing how long-running agent loops become restartable, trace-readable, evidence-bearing, and review-ready.",
-    "category": "GoalOS Public Page"
+    "category": "RSI"
   },
   {
     "title": "GoalOS Mainnet Contract Atlas V17 \u2014 48 Ethereum Mainnet Contracts",
     "url": "mainnet-contract-atlas.html",
     "description": "Browser-local guided atlas for the 48 GoalOS-created Ethereum Mainnet contracts and canonical external AGIALPHA boundary.",
-    "category": "GoalOS Public Page"
+    "category": "Contracts"
   },
   {
     "title": "GoalOS Mainnet Proof Rail \u2014 Contract Journey",
     "url": "mainnet-proof-rail.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Contracts"
   },
   {
     "title": "META-AGENTIC \u03b1-AGI",
@@ -501,7 +501,7 @@
     "title": "No data. No funds. No wallet. \u2014 GoalOS",
     "url": "no-data-no-funds.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Node Runtime \u00b7 GoalOS Ascension",
@@ -549,7 +549,7 @@
     "title": "Choose your shortest path \u2014 GoalOS",
     "url": "pathfinder.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Navigation"
   },
   {
     "title": "Pilot Program \u00b7 GoalOS",
@@ -567,7 +567,7 @@
     "title": "Privacy: we do not want your data. \u2014 GoalOS",
     "url": "privacy.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Product \u00b7 GoalOS",
@@ -771,7 +771,7 @@
     "title": "Search GoalOS routes \u2014 GoalOS",
     "url": "search.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Navigation"
   },
   {
     "title": "Security Boundary \u2014 GoalOS",
@@ -795,7 +795,7 @@
     "title": "All pages. Every route. \u2014 GoalOS",
     "url": "site-map.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Navigation"
   },
   {
     "title": "Source Lineage \u00b7 GoalOS Ascension",
@@ -825,7 +825,7 @@
     "title": "Start in 60 seconds \u2014 GoalOS",
     "url": "start-here.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Navigation"
   },
   {
     "title": "Start Here \u2014 GoalOS",
@@ -855,13 +855,13 @@
     "title": "$AGIALPHA is public-contract identification only. \u2014 GoalOS",
     "url": "token-boundary.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "$AGIALPHA Token Boundary",
     "url": "token.html",
     "description": "GoalOS public-alpha legal, privacy, data, and token boundary.",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Troubleshooting \u00b7 GoalOS Ascension",
@@ -873,19 +873,19 @@
     "title": "Proof-native. Not data-hungry. Not wallet-first. \u2014 GoalOS",
     "url": "trust-boundary.html",
     "description": "",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Trust Center \u00b7 GoalOS Ascension",
     "url": "trust-center.html",
     "description": "The Trust Center organizes the public proof, standards, claim boundary, QA reports, and operator guidance that make the repository credible.",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Trust Center",
     "url": "trust.html",
     "description": "Trust comes from bounded claims, evidence, validators, risk ledgers, human authority, and claim boundaries.",
-    "category": "GoalOS Public Page"
+    "category": "Boundary"
   },
   {
     "title": "Try GoalOS \u2014 Browser-local Demo",
@@ -912,46 +912,52 @@
     "category": "GoalOS Public Page"
   },
   {
-    "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+    "title": "GoalOS Validation Studio V30 \u2014 Human or AGI Node",
     "url": "validation-authority.html",
-    "description": "GoalOS browser-local validation authority console: choose Human, AGI Node, or Hybrid validation for public-safe proof missions.",
-    "category": "Validation & Navigation"
+    "description": "Choose Human, AGI Node, Hybrid, or Council validation for a public-safe GoalOS proof path. Browser-local. No user data, no wallet, no transaction.",
+    "category": "Validation"
   },
   {
     "title": "GoalOS Autonomous Validation Mesh V29 \u2014 Human, AGI Node, or Council",
     "url": "validation-console-v29.html",
     "description": "Browser-local GoalOS validation mesh: choose Human, AGI Node, Hybrid, Council, or Auto-select validation authority for public-safe proof paths.",
-    "category": "Validation & Navigation"
+    "category": "Validation"
   },
   {
-    "title": "GoalOS Validation Authority \u2014 Human or AGI Node",
+    "title": "GoalOS Validation Studio V30 \u2014 Human or AGI Node",
     "url": "validation-console.html",
-    "description": "GoalOS browser-local validation authority console: choose Human, AGI Node, or Hybrid validation for public-safe proof missions.",
-    "category": "Validation & Navigation"
+    "description": "Choose Human, AGI Node, Hybrid, or Council validation for a public-safe GoalOS proof path. Browser-local. No user data, no wallet, no transaction.",
+    "category": "Validation"
   },
   {
-    "title": "GoalOS Autonomous Validation Mesh V29 \u2014 Human, AGI Node, or Council",
+    "title": "GoalOS Validation Studio V30 \u2014 Human or AGI Node",
     "url": "validation-mesh.html",
-    "description": "Browser-local GoalOS validation mesh: choose Human, AGI Node, Hybrid, Council, or Auto-select validation authority for public-safe proof paths.",
-    "category": "Validation & Navigation"
+    "description": "Choose Human, AGI Node, Hybrid, or Council validation for a public-safe GoalOS proof path. Browser-local. No user data, no wallet, no transaction.",
+    "category": "Validation"
+  },
+  {
+    "title": "GoalOS Validation Studio V30 \u2014 Human or AGI Node",
+    "url": "validation-studio.html",
+    "description": "Choose Human, AGI Node, Hybrid, or Council validation for a public-safe GoalOS proof path. Browser-local. No user data, no wallet, no transaction.",
+    "category": "Validation"
   },
   {
     "title": "GoalOS Validator Council Arena \u2014 Commit, Reveal, Challenge",
     "url": "validator-council-arena.html",
     "description": "A browser-local GoalOS demo showing commit-reveal validation, quorum, dissent, replay, challenge windows, and public/private proof boundaries.",
-    "category": "Validation & Navigation"
+    "category": "Validation"
   },
   {
     "title": "Validator Room \u2014 GoalOS",
     "url": "validator-room.html",
     "description": "",
-    "category": "Validation & Navigation"
+    "category": "Validation"
   },
   {
     "title": "Validator Seats",
     "url": "validator-seats.html",
     "description": "Open seats for Evidence Docket, replay, claim-boundary, cost/risk, and frontier-governance review.",
-    "category": "Validation & Navigation"
+    "category": "Validation"
   },
   {
     "title": "GoalOS Value Realization Control Room \u2014 Verified Work Becomes Allocable Capacity",

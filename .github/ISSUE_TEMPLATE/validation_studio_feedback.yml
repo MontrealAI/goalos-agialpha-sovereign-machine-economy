@@ -1,0 +1,12 @@
+name: Validation Studio feedback
+description: Review GoalOS Validation Studio V30
+title: "Validation Studio V30 feedback"
+labels: ["validation", "demo", "review"]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What worked? What was confusing? What should improve?
+    validations:
+      required: true
