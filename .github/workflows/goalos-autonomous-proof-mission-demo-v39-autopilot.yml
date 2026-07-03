@@ -1,0 +1,114 @@
+name: GoalOS Autonomous Proof Mission Demo V39 — End-to-End Demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy the updated public/ site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a review issue after installation"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub Release after approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.59.0-autonomous-proof-mission-demo-v39"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  install-v39:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Verify pack exists
+        run: |
+          PACK=.goalos/packs/goalos-autonomous-proof-mission-demo-v39-pack.zip
+          if [ ! -f "$PACK" ]; then
+            echo "Missing $PACK"
+            echo "Upload goalos-autonomous-proof-mission-demo-v39-pack.zip to .goalos/packs/ before running."
+            exit 1
+          fi
+
+      - name: Extract pack
+        run: unzip -o .goalos/packs/goalos-autonomous-proof-mission-demo-v39-pack.zip
+
+      - name: Install V39 demo
+        run: python3 scripts/install_autonomous_proof_mission_demo_v39.py
+
+      - name: Run deterministic demo
+        run: python3 scripts/run_autonomous_proof_mission_demo_v39_demo.py
+
+      - name: Audit browser-local safety and routes
+        run: python3 scripts/audit_autonomous_proof_mission_demo_v39.py
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs examples reports evidence content issue-bodies .github/ISSUE_TEMPLATE scripts
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Add GoalOS Autonomous Proof Mission Demo V39"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create review issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "Review GoalOS Autonomous Proof Mission Demo V39" --body-file issue-bodies/autonomous-proof-mission-demo-v39.md || true
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ inputs.release_tag }}" \
+            reports/autonomous-proof-mission-demo-v39-install-report.json \
+            reports/autonomous-proof-mission-demo-v39-audit.json \
+            evidence/demo/autonomous-proof-mission-demo-v39-reference-docket.json \
+            --title "GoalOS Autonomous Proof Mission Demo V39" \
+            --notes "End-to-end browser-local GoalOS demo: objective to AGI Agents, AGI Job, AGI Node handoff, ProofBundle, Evidence Docket, validation, Chronicle, and reusable capability." || true
