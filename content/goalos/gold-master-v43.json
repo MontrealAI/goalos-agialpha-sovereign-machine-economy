@@ -1,0 +1,17 @@
+{
+  "version": "v43",
+  "title": "GoalOS Gold Master V43",
+  "claimLevel": "public-alpha gold master",
+  "boundary": "preserved",
+  "productionAuthorization": "not granted",
+  "primaryRoutes": [
+    "goalos-gold-master.html",
+    "public-alpha-gold-master.html",
+    "graduation-control-room.html",
+    "production-readiness-gauntlet.html",
+    "external-validation-roadmap.html",
+    "quintessential-user-journey.html",
+    "gold-master-use-cases.html",
+    "evidence-to-production-roadmap.html"
+  ]
+}

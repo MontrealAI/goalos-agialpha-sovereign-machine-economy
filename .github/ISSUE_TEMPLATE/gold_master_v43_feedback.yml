@@ -1,0 +1,12 @@
+name: GoalOS Gold Master V43 feedback
+description: Report route, UX, boundary, or readiness issues for V43.
+title: "[V43] "
+labels: [goalos, website, qa]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What did you test and what should improve?
+    validations:
+      required: true

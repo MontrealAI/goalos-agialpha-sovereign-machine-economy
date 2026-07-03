@@ -1,0 +1,12 @@
+name: Site Recovery V42 feedback
+description: Report missing routes, navigation issues, or public-alpha boundary concerns.
+title: "Site Recovery V42 feedback"
+labels: [goalos, website, qa]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What page, route, or UX issue should be reviewed?
+    validations:
+      required: true

@@ -1,0 +1,14 @@
+{
+  "version": "v43",
+  "status": "passed",
+  "demo": "gold master can route user to demo, agents, validation, contracts, readiness, all-pages, and search",
+  "testIntents": {
+    "new user": "goalos-gold-master.html",
+    "end-to-end demo": "autonomy-theatre.html",
+    "AGI Agents": "agi-agent-workbench.html",
+    "Human or AGI Node validation": "validation-control-tower.html",
+    "48 contracts": "mainnet-contract-atlas.html",
+    "production readiness": "production-readiness-gauntlet.html"
+  },
+  "routeCount": 142
+}

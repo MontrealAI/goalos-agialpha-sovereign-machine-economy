@@ -1,0 +1,8 @@
+{
+  "version": "v43",
+  "claim": "Public-alpha Gold Master route surface installed and preserved.",
+  "status": "needs_review",
+  "reports": [
+    "reports/gold-master-v43-route-health.json"
+  ]
+}
