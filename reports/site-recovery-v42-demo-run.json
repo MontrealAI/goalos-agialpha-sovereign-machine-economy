@@ -1,0 +1,12 @@
+{
+  "version": "v42",
+  "status": "passed",
+  "demo": "route registry can answer common user intents",
+  "queries": {
+    "48 contracts": "mainnet-contract-atlas.html",
+    "validation": "validation-control-tower.html",
+    "end-to-end demo": "autonomy-theatre.html",
+    "ask": "ask-goalos.html"
+  },
+  "publicPages": 239
+}

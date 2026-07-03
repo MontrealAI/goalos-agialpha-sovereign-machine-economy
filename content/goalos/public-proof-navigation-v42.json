@@ -1,0 +1,1678 @@
+{
+  "version": "v42",
+  "routes": [
+    {
+      "slug": "404.html",
+      "url": "404.html",
+      "title": "GoalOS Route Not Found",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "action-reason-trace-contract.html",
+      "url": "action-reason-trace-contract.html",
+      "title": "GoalOS Action-Reason Trace Contract \u2014 No Action Without Reason",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "adoption.html",
+      "url": "adoption.html",
+      "title": "Adoption Playbook \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agent-constellation-demo.html",
+      "url": "agent-constellation-demo.html",
+      "title": "Agent Constellation Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agent-constellation.html",
+      "url": "agent-constellation.html",
+      "title": "Agent Constellation",
+      "category": "AGI Agents",
+      "description": "Visual constellation of agents and proof roles."
+    },
+    {
+      "slug": "agent-flow-academy-v38.html",
+      "url": "agent-flow-academy-v38.html",
+      "title": "Agent Flow Academy V38",
+      "category": "AGI Agents",
+      "description": "Learn the AGI Agent \u2192 AGI Job \u2192 AGI Node \u2192 ProofBundle \u2192 Evidence Docket \u2192 Validation \u2192 Chronicle flow."
+    },
+    {
+      "slug": "agent-flow-academy.html",
+      "url": "agent-flow-academy.html",
+      "title": "GoalOS Agent Flow Academy V37",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agent-foundry.html",
+      "url": "agent-foundry.html",
+      "title": "Agent Foundry",
+      "category": "AGI Agents",
+      "description": "Design AGI Agent roles and handoffs for public-safe missions."
+    },
+    {
+      "slug": "agents.html",
+      "url": "agents.html",
+      "title": "Agent Foundry \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agi-agent-command-center-v37.html",
+      "url": "agi-agent-command-center-v37.html",
+      "title": "GoalOS AGI Agent Command Center V37",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agi-agent-command-center.html",
+      "url": "agi-agent-command-center.html",
+      "title": "AGI Agent Command Center",
+      "category": "AGI Agents",
+      "description": "One-box AGI Agent command interface."
+    },
+    {
+      "slug": "agi-agent-constellation.html",
+      "url": "agi-agent-constellation.html",
+      "title": "AGI Agent Constellation",
+      "category": "AGI Agents",
+      "description": "Architect, Planner, Research, Builder, Verifier, Node, Sentinel, Docket, Chronicle, Human, and Council roles."
+    },
+    {
+      "slug": "agi-agent-end-to-end-demo-v40.html",
+      "url": "agi-agent-end-to-end-demo-v40.html",
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agi-agent-end-to-end-demo.html",
+      "url": "agi-agent-end-to-end-demo.html",
+      "title": "AGI Agent End-to-End Demo",
+      "category": "Autonomous Demo",
+      "description": "AGI Agent end-to-end demo route."
+    },
+    {
+      "slug": "agi-agent-mission-control-v38.html",
+      "url": "agi-agent-mission-control-v38.html",
+      "title": "GoalOS Unified Agent Operating Room V38",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agi-agent-mission-control.html",
+      "url": "agi-agent-mission-control.html",
+      "title": "AGI Agent Mission Control",
+      "category": "AGI Agents",
+      "description": "Visual AGI Agent mission control with agent orbit, flowcharts, playbooks, and downloads."
+    },
+    {
+      "slug": "agi-agent-operating-room.html",
+      "url": "agi-agent-operating-room.html",
+      "title": "GoalOS Unified Agent Operating Room V38",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agi-agent-operating-system.html",
+      "url": "agi-agent-operating-system.html",
+      "title": "AGI Agent Operating System",
+      "category": "AGI Agents",
+      "description": "Meta-agentic agents become proof-governed work."
+    },
+    {
+      "slug": "agi-agent-playbooks.html",
+      "url": "agi-agent-playbooks.html",
+      "title": "AGI Agent Playbooks",
+      "category": "AGI Agents",
+      "description": "Detailed end-to-end public-safe AGI Agent playbooks."
+    },
+    {
+      "slug": "agi-agent-run-theatre.html",
+      "url": "agi-agent-run-theatre.html",
+      "title": "AGI Agent Run Theatre",
+      "category": "AGI Agents",
+      "description": "Runnable end-to-end AGI Agent theatre."
+    },
+    {
+      "slug": "agi-agent-studio.html",
+      "url": "agi-agent-studio.html",
+      "title": "AGI Agent Studio",
+      "category": "AGI Agents",
+      "description": "Studio for building public-safe agent missions."
+    },
+    {
+      "slug": "agi-agent-use-case-gallery.html",
+      "url": "agi-agent-use-case-gallery.html",
+      "title": "AGI Agent Use Case Gallery",
+      "category": "AGI Agents",
+      "description": "Solved use cases for using AGI Agents end-to-end."
+    },
+    {
+      "slug": "agi-agent-use-cases.html",
+      "url": "agi-agent-use-cases.html",
+      "title": "AGI Agent Use Cases",
+      "category": "AGI Agents",
+      "description": "Practical use cases for non-technical users."
+    },
+    {
+      "slug": "agi-agent-workbench.html",
+      "url": "agi-agent-workbench.html",
+      "title": "AGI Agent Workbench",
+      "category": "AGI Agents",
+      "description": "Tell AGI agents what you want; generate agent constellation, AGI Node handoff, Evidence Docket plan, and validation route."
+    },
+    {
+      "slug": "agi-agents.html",
+      "url": "agi-agents.html",
+      "title": "AGI Agents",
+      "category": "AGI Agents",
+      "description": "AGI Agents as role-bounded contributors in a proof-governed institution."
+    },
+    {
+      "slug": "agi-alpha-node-v0.html",
+      "url": "agi-alpha-node-v0.html",
+      "title": "AGI Alpha Node v0",
+      "category": "AGI Agents",
+      "description": "Deterministic runtime, metering, artifact packaging, validation, and sentinel services."
+    },
+    {
+      "slug": "agi-alpha-thesis.html",
+      "url": "agi-alpha-thesis.html",
+      "title": "AGI ALPHA Thesis",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "agi-jobs-v0-v2.html",
+      "url": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs v0 (v2)",
+      "category": "AGI Agents",
+      "description": "Work OS for bounded jobs, proof bundles, validation, settlement, and Chronicle."
+    },
+    {
+      "slug": "agi-node-use-cases.html",
+      "url": "agi-node-use-cases.html",
+      "title": "AGI Node Use Cases",
+      "category": "Validation",
+      "description": "Practical uses of AGI Nodes for deterministic public-safe validation."
+    },
+    {
+      "slug": "agi-node-validation.html",
+      "url": "agi-node-validation.html",
+      "title": "AGI Node Validation",
+      "category": "Validation",
+      "description": "AGI Node validates deterministic public-safe checks."
+    },
+    {
+      "slug": "agialpha-control-rail.html",
+      "url": "agialpha-control-rail.html",
+      "title": "$AGIALPHA Control Rail",
+      "category": "48 Mainnet Contracts",
+      "description": "Open the public contract rail as part of the complete GoalOS proof surface."
+    },
+    {
+      "slug": "agialpha-token-boundary.html",
+      "url": "agialpha-token-boundary.html",
+      "title": "$AGIALPHA Public-Market Boundary",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "all-pages.html",
+      "url": "all-pages.html",
+      "title": "All Pages",
+      "category": "Navigation & Docs",
+      "description": "Alias for the full GoalOS route map."
+    },
+    {
+      "slug": "architecture.html",
+      "url": "architecture.html",
+      "title": "Architecture",
+      "category": "Proof & Evidence",
+      "description": "GoalOS architecture: doctrine, schema, proof, decision."
+    },
+    {
+      "slug": "ask-goalos.html",
+      "url": "ask-goalos.html",
+      "title": "Ask GoalOS",
+      "category": "Ask GoalOS",
+      "description": "A browser-local chat window for questions that answers from the route map and opens the right page when asked."
+    },
+    {
+      "slug": "atlas.html",
+      "url": "atlas.html",
+      "title": "GoalOS Atlas",
+      "category": "Navigation & Docs",
+      "description": "Atlas of the GoalOS proof surface."
+    },
+    {
+      "slug": "autonomous-demo-run-theatre-v40.html",
+      "url": "autonomous-demo-run-theatre-v40.html",
+      "title": "GoalOS Autonomous Demo Run Theatre V40",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "autonomous-demo-run-theatre-v41.html",
+      "url": "autonomous-demo-run-theatre-v41.html",
+      "title": "Autonomous Demo Run Theatre V41",
+      "category": "Autonomous Demo",
+      "description": "V41 demo run theatre."
+    },
+    {
+      "slug": "autonomous-demo-run-theatre.html",
+      "url": "autonomous-demo-run-theatre.html",
+      "title": "Autonomous Demo Run Theatre",
+      "category": "Autonomous Demo",
+      "description": "Run the browser-local end-to-end proof mission."
+    },
+    {
+      "slug": "autonomous-mission-demo.html",
+      "url": "autonomous-mission-demo.html",
+      "title": "Autonomous Mission Demo",
+      "category": "Autonomous Demo",
+      "description": "Autonomous mission demo route."
+    },
+    {
+      "slug": "autonomous-mission-studio-v41.html",
+      "url": "autonomous-mission-studio-v41.html",
+      "title": "Autonomous Mission Studio V41",
+      "category": "Autonomous Demo",
+      "description": "Autonomous mission studio compatibility route."
+    },
+    {
+      "slug": "autonomous-mission-studio.html",
+      "url": "autonomous-mission-studio.html",
+      "title": "Autonomous Mission Studio",
+      "category": "Autonomous Demo",
+      "description": "End-to-end Mission Studio for agents, proof, validation, Chronicle, and reusable capability."
+    },
+    {
+      "slug": "autonomous-proof-mission-demo-v40.html",
+      "url": "autonomous-proof-mission-demo-v40.html",
+      "title": "Autonomous Proof Mission Demo V40",
+      "category": "Autonomous Demo",
+      "description": "V40 proof mission demo compatibility route."
+    },
+    {
+      "slug": "autonomous-proof-mission-demo.html",
+      "url": "autonomous-proof-mission-demo.html",
+      "title": "Autonomous Proof Mission Demo",
+      "category": "Autonomous Demo",
+      "description": "One objective \u2192 agents \u2192 proof \u2192 validation \u2192 Chronicle."
+    },
+    {
+      "slug": "autonomy-replay-theatre.html",
+      "url": "autonomy-replay-theatre.html",
+      "title": "Autonomy Replay Theatre",
+      "category": "Autonomous Demo",
+      "description": "Replay the autonomous proof path and inspect generated artifacts."
+    },
+    {
+      "slug": "autonomy-theatre-academy.html",
+      "url": "autonomy-theatre-academy.html",
+      "title": "Autonomy Theatre Academy",
+      "category": "Autonomous Demo",
+      "description": "Learn the artifact flow: mission, job, node, proof, docket, validation, Chronicle, reuse."
+    },
+    {
+      "slug": "autonomy-theatre-use-cases.html",
+      "url": "autonomy-theatre-use-cases.html",
+      "title": "Autonomy Theatre Use Cases",
+      "category": "Autonomous Demo",
+      "description": "Solved public-safe demos for non-technical users."
+    },
+    {
+      "slug": "autonomy-theatre.html",
+      "url": "autonomy-theatre.html",
+      "title": "Autonomy Theatre",
+      "category": "Autonomous Demo",
+      "description": "The quintessential browser-local end-to-end autonomous demo."
+    },
+    {
+      "slug": "capability-compounding-lab.html",
+      "url": "capability-compounding-lab.html",
+      "title": "Capability Compounding Lab",
+      "category": "Proof & Evidence",
+      "description": "Verified work becomes reusable capability after proof gates pass."
+    },
+    {
+      "slug": "capability-parity.html",
+      "url": "capability-parity.html",
+      "title": "GoalOS Capability Parity",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "capability-stack.html",
+      "url": "capability-stack.html",
+      "title": "Capability Stack",
+      "category": "Institution & Adoption",
+      "description": "A complete operating model for proof-settled AI work."
+    },
+    {
+      "slug": "case-study.html",
+      "url": "case-study.html",
+      "title": "Case Study",
+      "category": "Institution & Adoption",
+      "description": "Case study route."
+    },
+    {
+      "slug": "claim-boundary.html",
+      "url": "claim-boundary.html",
+      "title": "Claim Boundary",
+      "category": "Trust & Boundary",
+      "description": "What the repository does and does not claim."
+    },
+    {
+      "slug": "commercial-evidence.html",
+      "url": "commercial-evidence.html",
+      "title": "Commercial Evidence",
+      "category": "Institution & Adoption",
+      "description": "Commercial signals become counted evidence only when claim-bounded and reviewable."
+    },
+    {
+      "slug": "console.html",
+      "url": "console.html",
+      "title": "GoalOS Proof Console",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "contract-academy.html",
+      "url": "contract-academy.html",
+      "title": "Contract Academy",
+      "category": "48 Mainnet Contracts",
+      "description": "Plain-language learning path for the 48 contracts and their roles."
+    },
+    {
+      "slug": "coordination-console.html",
+      "url": "coordination-console.html",
+      "title": "Coordination Console",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "data-boundary.html",
+      "url": "data-boundary.html",
+      "title": "Data Boundary",
+      "category": "Trust & Boundary",
+      "description": "Do not submit personal, customer, confidential, regulated, credential, wallet, or trade-secret data."
+    },
+    {
+      "slug": "data-room.html",
+      "url": "data-room.html",
+      "title": "Data Room \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "demo-ecosystem-registry.html",
+      "url": "demo-ecosystem-registry.html",
+      "title": "Demo Ecosystem Registry",
+      "category": "Navigation & Docs",
+      "description": "Every usable demo with workflow role, inputs, outputs, gates, artifacts, and next state."
+    },
+    {
+      "slug": "demo-gallery.html",
+      "url": "demo-gallery.html",
+      "title": "Demo Gallery",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "demo-launcher.html",
+      "url": "demo-launcher.html",
+      "title": "Demo Launcher",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "demo-safety.html",
+      "url": "demo-safety.html",
+      "title": "Demo Safety Boundary",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "docket-builder.html",
+      "url": "docket-builder.html",
+      "title": "Evidence Docket Builder",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "docs.html",
+      "url": "docs.html",
+      "title": "GoalOS Docs",
+      "category": "Navigation & Docs",
+      "description": "Plain-language docs for using GoalOS, Mission Studio, demos, validation, and proof routes."
+    },
+    {
+      "slug": "document-series.html",
+      "url": "document-series.html",
+      "title": "GoalOS Document Series",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "end-to-end-autonomous-demo-v40.html",
+      "url": "end-to-end-autonomous-demo-v40.html",
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "end-to-end-autonomous-demo-v41.html",
+      "url": "end-to-end-autonomous-demo-v41.html",
+      "title": "End-to-End Autonomous Demo V41",
+      "category": "Autonomous Demo",
+      "description": "V41 end-to-end demo compatibility route."
+    },
+    {
+      "slug": "end-to-end-autonomous-demo.html",
+      "url": "end-to-end-autonomous-demo.html",
+      "title": "End-to-End Autonomous Demo",
+      "category": "Autonomous Demo",
+      "description": "Objective-to-Chronicle demonstration."
+    },
+    {
+      "slug": "end-to-end-demo-use-cases-v40.html",
+      "url": "end-to-end-demo-use-cases-v40.html",
+      "title": "GoalOS End-to-End Demo Use Cases V40",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "end-to-end-demo-use-cases-v41.html",
+      "url": "end-to-end-demo-use-cases-v41.html",
+      "title": "End-to-End Demo Use Cases V41",
+      "category": "Autonomous Demo",
+      "description": "V41 use case compatibility route."
+    },
+    {
+      "slug": "end-to-end-demo-use-cases.html",
+      "url": "end-to-end-demo-use-cases.html",
+      "title": "End-to-End Demo Use Cases",
+      "category": "Autonomous Demo",
+      "description": "Use cases for running GoalOS end-to-end."
+    },
+    {
+      "slug": "enterprise.html",
+      "url": "enterprise.html",
+      "title": "Enterprise Readiness \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "evaluation-program.html",
+      "url": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "evaluation.html",
+      "url": "evaluation.html",
+      "title": "Evaluation \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "evidence-docket-theatre.html",
+      "url": "evidence-docket-theatre.html",
+      "title": "Evidence Docket Theatre",
+      "category": "Proof & Evidence",
+      "description": "Convert a public-safe claim into a review-ready Evidence Docket."
+    },
+    {
+      "slug": "evidence-room.html",
+      "url": "evidence-room.html",
+      "title": "Evidence Room \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "evidence-to-scale.html",
+      "url": "evidence-to-scale.html",
+      "title": "Evidence to Scale \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "evidence.html",
+      "url": "evidence.html",
+      "title": "Evidence",
+      "category": "Proof & Evidence",
+      "description": "Evidence surfaces and proof standards."
+    },
+    {
+      "slug": "evolution-ledger-control-room.html",
+      "url": "evolution-ledger-control-room.html",
+      "title": "Evolution Ledger Control Room",
+      "category": "Proof & Evidence",
+      "description": "Watch proof become challengeable state with selection gates, rollback, and public/private boundary."
+    },
+    {
+      "slug": "executive-brief.html",
+      "url": "executive-brief.html",
+      "title": "Executive Brief \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "external-reviewer-replay-room.html",
+      "url": "external-reviewer-replay-room.html",
+      "title": "GoalOS External Reviewer Replay Room \u2014 Independent Review Path",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "falsification-box.html",
+      "url": "falsification-box.html",
+      "title": "Falsification Box",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "falsification-gauntlet.html",
+      "url": "falsification-gauntlet.html",
+      "title": "Falsification Gauntlet",
+      "category": "Proof & Evidence",
+      "description": "Stress-test claims against falsifiers, baselines, replay, and claim boundaries."
+    },
+    {
+      "slug": "faq.html",
+      "url": "faq.html",
+      "title": "FAQ \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "for-new-users.html",
+      "url": "for-new-users.html",
+      "title": "For New Users",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "for-reviewers.html",
+      "url": "for-reviewers.html",
+      "title": "For Reviewers",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "from-loop-to-rsi-governance.html",
+      "url": "from-loop-to-rsi-governance.html",
+      "title": "GoalOS From Loop to RSI Governance Lab \u2014 Sovereign Invention Governance",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "from-loop-to-rsi-sovereign-console.html",
+      "url": "from-loop-to-rsi-sovereign-console.html",
+      "title": "GoalOS From Loop to RSI \u2014 Sovereign Invention Console",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "from-loop-to-rsi-state-capacity.html",
+      "url": "from-loop-to-rsi-state-capacity.html",
+      "title": "From Loop to RSI State Capacity",
+      "category": "Loop \u2192 RSI",
+      "description": "Long-running loops become deterministic RSI governance with replay, baselines, persistence, and dossiers."
+    },
+    {
+      "slug": "frontier-release-case-study.html",
+      "url": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "frontier-release-doctrine.html",
+      "url": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "frontier-release-room.html",
+      "url": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "frontier-room.html",
+      "url": "frontier-room.html",
+      "title": "Frontier Release Room",
+      "category": "Navigation & Docs",
+      "description": "Frontier release and launch room."
+    },
+    {
+      "slug": "glossary.html",
+      "url": "glossary.html",
+      "title": "Glossary",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "goalos-command-center.html",
+      "url": "goalos-command-center.html",
+      "title": "GoalOS Command Center",
+      "category": "Front Door",
+      "description": "One operating surface for Mission Studio, Ask GoalOS, AGI Agents, validation, autonomy theatre, contracts, proof dockets, and all pages."
+    },
+    {
+      "slug": "goalos-loop-bottleneck-observatory.html",
+      "url": "goalos-loop-bottleneck-observatory.html",
+      "title": "GoalOS Loop Bottleneck Observatory",
+      "category": "Loop \u2192 RSI",
+      "description": "Autopilot for observing loop bottlenecks and proof routes."
+    },
+    {
+      "slug": "goalos-mission-studio.html",
+      "url": "goalos-mission-studio.html",
+      "title": "GoalOS Mission Studio V27",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "goalos.html",
+      "url": "goalos.html",
+      "title": "Tell GoalOS What You Want",
+      "category": "Mission Studio",
+      "description": "One friendly box turns a plain-language objective into a proof path, mission package, and next best page."
+    },
+    {
+      "slug": "governance.html",
+      "url": "governance.html",
+      "title": "Governance \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "help-center.html",
+      "url": "help-center.html",
+      "title": "Help Center",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "historical-command-center.html",
+      "url": "historical-command-center.html",
+      "title": "GoalOS Historical Command Center",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "holy-grail-candidate.html",
+      "url": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "category": "Proof & Evidence",
+      "description": "Candidate proof-gated autonomous work surface."
+    },
+    {
+      "slug": "human-or-agi-node-validation.html",
+      "url": "human-or-agi-node-validation.html",
+      "title": "Human or AGI Node Validation",
+      "category": "Validation",
+      "description": "Choose Human reviewer, AGI Node validator, or Hybrid path."
+    },
+    {
+      "slug": "human-or-node-validation.html",
+      "url": "human-or-node-validation.html",
+      "title": "Human or Node Validation",
+      "category": "Validation",
+      "description": "Compatibility route for human or node validation."
+    },
+    {
+      "slug": "independent-validation.html",
+      "url": "independent-validation.html",
+      "title": "Independent Validation \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "index.html",
+      "url": "index.html",
+      "title": "GoalOS Command Center",
+      "category": "Front Door",
+      "description": "The unified front door: tell GoalOS what you want, ask questions, run demos, validate, and navigate every page."
+    },
+    {
+      "slug": "institution.html",
+      "url": "institution.html",
+      "title": "Institution",
+      "category": "Institution & Adoption",
+      "description": "Institutional adoption and proof-governance route."
+    },
+    {
+      "slug": "institutional-deployment-wedge.html",
+      "url": "institutional-deployment-wedge.html",
+      "title": "GoalOS Institutional Deployment Wedge \u2014 Earn the Right to Scale",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "investment-token-boundary.html",
+      "url": "investment-token-boundary.html",
+      "title": "Token & Investment Boundary",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "jobs.html",
+      "url": "jobs.html",
+      "title": "AGI Jobs Ledger \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "launch-narrative.html",
+      "url": "launch-narrative.html",
+      "title": "GoalOS Launch Narrative",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "launch.html",
+      "url": "launch.html",
+      "title": "Launch",
+      "category": "Institution & Adoption",
+      "description": "Launch and release path."
+    },
+    {
+      "slug": "legal-shield.html",
+      "url": "legal-shield.html",
+      "title": "Legal Shield",
+      "category": "Trust & Boundary",
+      "description": "Public-alpha legal and claim-boundary shield."
+    },
+    {
+      "slug": "legal.html",
+      "url": "legal.html",
+      "title": "Legal Shield",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "local-autopilot-demo.html",
+      "url": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "loop-bottleneck-observatory.html",
+      "url": "loop-bottleneck-observatory.html",
+      "title": "Loop Bottleneck Observatory",
+      "category": "Loop \u2192 RSI",
+      "description": "The bottleneck always moves; observe, fix, and ship a smaller harness."
+    },
+    {
+      "slug": "loop-contract-lab.html",
+      "url": "loop-contract-lab.html",
+      "title": "Loop Contract Lab",
+      "category": "Loop \u2192 RSI",
+      "description": "Write the loop, separate roles, negotiate contract, write state to disk, and restart safely."
+    },
+    {
+      "slug": "loop-flight-recorder.html",
+      "url": "loop-flight-recorder.html",
+      "title": "Loop Flight Recorder",
+      "category": "Loop \u2192 RSI",
+      "description": "Read traces, inspect logs, preserve contracts, and debug long-running agent loops."
+    },
+    {
+      "slug": "mainnet-contract-atlas.html",
+      "url": "mainnet-contract-atlas.html",
+      "title": "Mainnet Contract Atlas",
+      "category": "48 Mainnet Contracts",
+      "description": "Explore the 48 GoalOS-created Ethereum Mainnet contracts without wallet or transaction."
+    },
+    {
+      "slug": "mainnet-proof-rail.html",
+      "url": "mainnet-proof-rail.html",
+      "title": "Mainnet Proof Rail",
+      "category": "48 Mainnet Contracts",
+      "description": "Understand how the 48 contracts form one institutional proof rail."
+    },
+    {
+      "slug": "meta-agentic-agent-os.html",
+      "url": "meta-agentic-agent-os.html",
+      "title": "Meta-Agentic Agent OS",
+      "category": "AGI Agents",
+      "description": "Operating model for meta-agentic agents."
+    },
+    {
+      "slug": "meta-agentic-agents.html",
+      "url": "meta-agentic-agents.html",
+      "title": "Meta-Agentic Agents",
+      "category": "AGI Agents",
+      "description": "Agent orchestration, planning, validation, and evidence packaging."
+    },
+    {
+      "slug": "meta-agentic-alpha-agi-os.html",
+      "url": "meta-agentic-alpha-agi-os.html",
+      "title": "META-AGENTIC \u03b1\u2011AGI OS",
+      "category": "AGI Agents",
+      "description": "Meta-agentic operating surface for proof-governed work."
+    },
+    {
+      "slug": "meta-agentic-alpha-agi.html",
+      "url": "meta-agentic-alpha-agi.html",
+      "title": "META-AGENTIC \u03b1\u2011AGI",
+      "category": "AGI Agents",
+      "description": "The original meta-agentic layer connected to GoalOS proof-governed work."
+    },
+    {
+      "slug": "metrics.html",
+      "url": "metrics.html",
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "mission-autopilot.html",
+      "url": "mission-autopilot.html",
+      "title": "Mission Autopilot",
+      "category": "Mission Studio",
+      "description": "Browser-local mission autopilot for public-safe proof paths."
+    },
+    {
+      "slug": "mission-command-center.html",
+      "url": "mission-command-center.html",
+      "title": "Mission Command Center",
+      "category": "Mission Studio",
+      "description": "Objective-to-proof mission command interface."
+    },
+    {
+      "slug": "mission-os-canon.html",
+      "url": "mission-os-canon.html",
+      "title": "Mission OS Canon",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "mission-os.html",
+      "url": "mission-os.html",
+      "title": "Mission OS \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "mission-studio.html",
+      "url": "mission-studio.html",
+      "title": "Mission Studio",
+      "category": "Mission Studio",
+      "description": "A one-box operating surface for objective-to-proof workflows."
+    },
+    {
+      "slug": "mission.html",
+      "url": "mission.html",
+      "title": "GoalOS Mission Studio",
+      "category": "Mission Studio",
+      "description": "Create a Mission Contract, Evidence Docket plan, Reviewer Brief, route cards, and Action Graph from one objective."
+    },
+    {
+      "slug": "move37-dossier.html",
+      "url": "move37-dossier.html",
+      "title": "Move-37 Dossier",
+      "category": "Loop \u2192 RSI",
+      "description": "High-novelty breakthroughs require reproduction, stress testing, persistence gate, and dossier bundle."
+    },
+    {
+      "slug": "multi-agent-institution.html",
+      "url": "multi-agent-institution.html",
+      "title": "GoalOS Multi-Agent Institution \u2014 Not a Swarm. An Institution.",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "narrative.html",
+      "url": "narrative.html",
+      "title": "Narrative",
+      "category": "Navigation & Docs",
+      "description": "Narrative overview and public communications route."
+    },
+    {
+      "slug": "no-data-no-funds.html",
+      "url": "no-data-no-funds.html",
+      "title": "No Data / No Funds",
+      "category": "Trust & Boundary",
+      "description": "GoalOS demos do not need user data, funds, wallets, or transactions."
+    },
+    {
+      "slug": "node.html",
+      "url": "node.html",
+      "title": "Node",
+      "category": "AGI Agents",
+      "description": "AGI Alpha Node public route."
+    },
+    {
+      "slug": "objective-command-center.html",
+      "url": "objective-command-center.html",
+      "title": "Objective Command Center",
+      "category": "Mission Studio",
+      "description": "Turn an objective into mission artifacts and route recommendations."
+    },
+    {
+      "slug": "open-ended-work-engine-lab.html",
+      "url": "open-ended-work-engine-lab.html",
+      "title": "Open Ended Work Engine Lab",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "open-ended-work-engine.html",
+      "url": "open-ended-work-engine.html",
+      "title": "GoalOS Open-Ended Work Engine Lab \u2014 Generate Tasks. Gate Descendants.",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "operator-checklist.html",
+      "url": "operator-checklist.html",
+      "title": "Operator Checklist",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "operators.html",
+      "url": "operators.html",
+      "title": "Operator Console Blueprint \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "paper-to-product.html",
+      "url": "paper-to-product.html",
+      "title": "Paper to Product",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "pathfinder.html",
+      "url": "pathfinder.html",
+      "title": "GoalOS Pathfinder",
+      "category": "Navigation & Docs",
+      "description": "Choose a route by role: new user, reviewer, builder, institution, boundary reviewer, or operator."
+    },
+    {
+      "slug": "pilot-program.html",
+      "url": "pilot-program.html",
+      "title": "Controlled Pilot Program",
+      "category": "Institution & Adoption",
+      "description": "Every serious pilot ends with a docket: criteria, baseline, evidence, decision, and follow-up."
+    },
+    {
+      "slug": "pilot-proof.html",
+      "url": "pilot-proof.html",
+      "title": "Pilot Proof \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "privacy.html",
+      "url": "privacy.html",
+      "title": "Privacy",
+      "category": "Trust & Boundary",
+      "description": "Public-alpha browser-local privacy posture."
+    },
+    {
+      "slug": "product.html",
+      "url": "product.html",
+      "title": "Product",
+      "category": "Institution & Adoption",
+      "description": "GoalOS product overview."
+    },
+    {
+      "slug": "proof-backed-upgrade-rights-room.html",
+      "url": "proof-backed-upgrade-rights-room.html",
+      "title": "GoalOS Proof-Backed Upgrade Rights Room \u2014 Earn the Right to Scale",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-card-studio.html",
+      "url": "proof-card-studio.html",
+      "title": "Proof Card Studio",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-carrying-artifact-foundry.html",
+      "url": "proof-carrying-artifact-foundry.html",
+      "title": "GoalOS Proof-Carrying Artifact Foundry \u2014 Make Reusable Intelligence Earn Authority",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-console.html",
+      "url": "proof-console.html",
+      "title": "Proof Console",
+      "category": "Proof & Evidence",
+      "description": "Declare mission, run gates, export docket, preserve human boundary."
+    },
+    {
+      "slug": "proof-economy.html",
+      "url": "proof-economy.html",
+      "title": "Proof Economy \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-experience-atlas.html",
+      "url": "proof-experience-atlas.html",
+      "title": "GoalOS Proof Experience Atlas \u2014 From output to proof",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-flight-demo.html",
+      "url": "proof-flight-demo.html",
+      "title": "Proof Flight Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-gradient-lab.html",
+      "url": "proof-gradient-lab.html",
+      "title": "GoalOS Proof Gradient Lab \u2014 No proof, no evolution",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-ledger.html",
+      "url": "proof-ledger.html",
+      "title": "Proof Ledger",
+      "category": "Proof & Evidence",
+      "description": "Public proof ledger and proof-carrying artifact records."
+    },
+    {
+      "slug": "proof-metrics-dashboard.html",
+      "url": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard",
+      "category": "Institution & Adoption",
+      "description": "Measure proof quality, not just activity."
+    },
+    {
+      "slug": "proof-mission-control.html",
+      "url": "proof-mission-control.html",
+      "title": "GoalOS Proof Mission Control \u2014 From Objective to First Docket",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-mission-demo-academy-v40.html",
+      "url": "proof-mission-demo-academy-v40.html",
+      "title": "GoalOS Proof Mission Demo Academy V40",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-mission-demo-academy-v41.html",
+      "url": "proof-mission-demo-academy-v41.html",
+      "title": "Proof Mission Demo Academy V41",
+      "category": "Autonomous Demo",
+      "description": "V41 academy compatibility route."
+    },
+    {
+      "slug": "proof-mission-demo-academy.html",
+      "url": "proof-mission-demo-academy.html",
+      "title": "Proof Mission Demo Academy",
+      "category": "Autonomous Demo",
+      "description": "Plain-language guide to Mission Contract, AGI Job, AGI Node, ProofBundle, Evidence Docket, Validation, Chronicle."
+    },
+    {
+      "slug": "proof-mission-demo.html",
+      "url": "proof-mission-demo.html",
+      "title": "Proof Mission Demo",
+      "category": "Autonomous Demo",
+      "description": "Proof mission demo route."
+    },
+    {
+      "slug": "proof-mission-forge.html",
+      "url": "proof-mission-forge.html",
+      "title": "GoalOS Proof Mission Forge \u2014 Turn an objective into a proof mission",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-mission-slots.html",
+      "url": "proof-mission-slots.html",
+      "title": "Proof Mission Slots",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-of-evolution.html",
+      "url": "proof-of-evolution.html",
+      "title": "Proof-of-Evolution",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-run-001-docket.html",
+      "url": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket",
+      "category": "Proof & Evidence",
+      "description": "Repository readiness becomes reviewable evidence: gates, route integrity, claims matrix, docs, QA, and boundary coverage."
+    },
+    {
+      "slug": "proof-run-001-execution-room.html",
+      "url": "proof-run-001-execution-room.html",
+      "title": "Proof Run 001 Execution Room",
+      "category": "Proof & Evidence",
+      "description": "Run and inspect proof-gated execution flow."
+    },
+    {
+      "slug": "proof-run-001-live.html",
+      "url": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-run-001.html",
+      "url": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "category": "Proof & Evidence",
+      "description": "Proof-gated autonomous work theatre."
+    },
+    {
+      "slug": "proof-settlement-chronicle-lab.html",
+      "url": "proof-settlement-chronicle-lab.html",
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "proof-settlement-lab.html",
+      "url": "proof-settlement-lab.html",
+      "title": "Proof-Settlement Lab",
+      "category": "Proof & Evidence",
+      "description": "Proof, validation, settlement, and Chronicle flow for agentic work."
+    },
+    {
+      "slug": "proof-to-action-command-room.html",
+      "url": "proof-to-action-command-room.html",
+      "title": "Proof-to-Action Command Room",
+      "category": "Proof & Evidence",
+      "description": "Objective \u2192 Evidence Docket \u2192 Governed Decision State \u2192 Action Graph \u2192 Chronicle \u2192 Capability Package."
+    },
+    {
+      "slug": "proof-velocity.html",
+      "url": "proof-velocity.html",
+      "title": "Proof Velocity \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "public-metrics-ledger.html",
+      "url": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "public-proof-ledger.html",
+      "url": "public-proof-ledger.html",
+      "title": "Public Proof Ledger \u00b7 GoalOS",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "quick-tour.html",
+      "url": "quick-tour.html",
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "quintessential-autonomous-demo-v40.html",
+      "url": "quintessential-autonomous-demo-v40.html",
+      "title": "GoalOS Autonomous Mission Studio V40 \u2014 End-to-End Proof Mission Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "quintessential-autonomous-demo-v41.html",
+      "url": "quintessential-autonomous-demo-v41.html",
+      "title": "Quintessential Autonomous Demo V41",
+      "category": "Autonomous Demo",
+      "description": "V41 quintessential demo compatibility route."
+    },
+    {
+      "slug": "quintessential-autonomous-demo.html",
+      "url": "quintessential-autonomous-demo.html",
+      "title": "Quintessential Autonomous Demo",
+      "category": "Autonomous Demo",
+      "description": "The canonical end-to-end GoalOS demo."
+    },
+    {
+      "slug": "real-task-benchmark-bridge.html",
+      "url": "real-task-benchmark-bridge.html",
+      "title": "GoalOS Real-Task Benchmark Bridge \u2014 From Demos to Evidence",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "registry.html",
+      "url": "registry.html",
+      "title": "Registry",
+      "category": "Navigation & Docs",
+      "description": "Registry shortcut for demos and routes."
+    },
+    {
+      "slug": "release-gates.html",
+      "url": "release-gates.html",
+      "title": "Release Gates \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "repository-map.html",
+      "url": "repository-map.html",
+      "title": "Repository Map",
+      "category": "Navigation & Docs",
+      "description": "Where the source, docs, content, workflows, reports, evidence, and pages live."
+    },
+    {
+      "slug": "research-spine.html",
+      "url": "research-spine.html",
+      "title": "Research Spine",
+      "category": "Proof & Evidence",
+      "description": "Doctrine \u2192 schema \u2192 proof \u2192 decision."
+    },
+    {
+      "slug": "research.html",
+      "url": "research.html",
+      "title": "Research",
+      "category": "Navigation & Docs",
+      "description": "Research route and doctrine resources."
+    },
+    {
+      "slug": "responsible-use.html",
+      "url": "responsible-use.html",
+      "title": "Responsible Use",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "reviewer-path.html",
+      "url": "reviewer-path.html",
+      "title": "For Reviewers",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "reviewer-replay-room.html",
+      "url": "reviewer-replay-room.html",
+      "title": "Reviewer Replay Room",
+      "category": "Proof & Evidence",
+      "description": "External reviewers inspect dockets, replay path, baselines, verifier notes, and claim boundary."
+    },
+    {
+      "slug": "roadmap.html",
+      "url": "roadmap.html",
+      "title": "Roadmap \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "route-registry.html",
+      "url": "route-registry.html",
+      "title": "Route Registry",
+      "category": "Navigation & Docs",
+      "description": "Canonical browser-local registry of every public route and page family."
+    },
+    {
+      "slug": "rsi-governance-lab.html",
+      "url": "rsi-governance-lab.html",
+      "title": "RSI Governance Lab",
+      "category": "Loop \u2192 RSI",
+      "description": "Deterministic invention governance: TARGET \u2192 EMIT \u2192 FILTER \u2192 ATLAS \u2192 TEST-PLAN \u2192 EVAL \u2192 INSERT \u2192 PROMOTE."
+    },
+    {
+      "slug": "rsi-state-capacity.html",
+      "url": "rsi-state-capacity.html",
+      "title": "RSI State Capacity",
+      "category": "Loop \u2192 RSI",
+      "description": "Replayability, evidence quality, exploration quality, advantage confirmation, and safety."
+    },
+    {
+      "slug": "run-locally.html",
+      "url": "run-locally.html",
+      "title": "Run Locally",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "schema-registry.html",
+      "url": "schema-registry.html",
+      "title": "Schema Registry \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "search.html",
+      "url": "search.html",
+      "title": "Search GoalOS",
+      "category": "Navigation & Docs",
+      "description": "Browser-local search across GoalOS public pages and proof routes."
+    },
+    {
+      "slug": "security-boundary.html",
+      "url": "security-boundary.html",
+      "title": "Security Boundary",
+      "category": "Trust & Boundary",
+      "description": "Public-safe, browser-local demos and human-reviewed high-impact actions."
+    },
+    {
+      "slug": "security.html",
+      "url": "security.html",
+      "title": "Security \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "site-health.html",
+      "url": "site-health.html",
+      "title": "GoalOS Site Health",
+      "category": "Navigation & Docs",
+      "description": "Route count, missing-page checks, boundary coverage, and public-alpha safety posture."
+    },
+    {
+      "slug": "site-map.html",
+      "url": "site-map.html",
+      "title": "All Pages \u2014 Complete Route Map",
+      "category": "Navigation & Docs",
+      "description": "The complete public surface grouped by purpose, with filter and direct links."
+    },
+    {
+      "slug": "source-lineage.html",
+      "url": "source-lineage.html",
+      "title": "Source Lineage \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "sovereign-experience-stream-lab.html",
+      "url": "sovereign-experience-stream-lab.html",
+      "title": "GoalOS Sovereign Experience Stream Lab \u2014 Proof Becomes Governed Experience",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "sovereign-experience-stream.html",
+      "url": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "standards.html",
+      "url": "standards.html",
+      "title": "Standards \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "start-here.html",
+      "url": "start-here.html",
+      "title": "Start Here",
+      "category": "Navigation & Docs",
+      "description": "Start in 60 seconds: the fastest non-technical path through GoalOS."
+    },
+    {
+      "slug": "start.html",
+      "url": "start.html",
+      "title": "Start Here",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "state-capacity-command-room.html",
+      "url": "state-capacity-command-room.html",
+      "title": "State Capacity Command Room",
+      "category": "Loop \u2192 RSI",
+      "description": "Governed invention loops become state capacity through replay, evidence, baseline, and dossier packaging."
+    },
+    {
+      "slug": "strategic-evidence-scorecard.html",
+      "url": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "tell-goalos.html",
+      "url": "tell-goalos.html",
+      "title": "Tell GoalOS",
+      "category": "Mission Studio",
+      "description": "Type what you want; GoalOS creates the proof path."
+    },
+    {
+      "slug": "terms.html",
+      "url": "terms.html",
+      "title": "Terms of Use",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "token-boundary.html",
+      "url": "token-boundary.html",
+      "title": "Token Boundary",
+      "category": "Trust & Boundary",
+      "description": "$AGIALPHA public contract identification only; not available from GoalOS."
+    },
+    {
+      "slug": "token-investment-boundary.html",
+      "url": "token-investment-boundary.html",
+      "title": "Token & Investment Boundary",
+      "category": "Trust & Boundary",
+      "description": "No sale, no custody, no wallet support, no investment or regulatory advice."
+    },
+    {
+      "slug": "token.html",
+      "url": "token.html",
+      "title": "$AGIALPHA Token Boundary",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "troubleshooting.html",
+      "url": "troubleshooting.html",
+      "title": "Troubleshooting \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "trust-boundary.html",
+      "url": "trust-boundary.html",
+      "title": "Trust Boundary",
+      "category": "Trust & Boundary",
+      "description": "No user data, no user funds, no wallet, no transaction, no production authority."
+    },
+    {
+      "slug": "trust-center.html",
+      "url": "trust-center.html",
+      "title": "Trust Center \u00b7 GoalOS Ascension",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "trust.html",
+      "url": "trust.html",
+      "title": "Trust Center",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "try-goalos.html",
+      "url": "try-goalos.html",
+      "title": "Try GoalOS \u2014 Browser-local Demo",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "unified-agent-operating-room.html",
+      "url": "unified-agent-operating-room.html",
+      "title": "GoalOS Unified Agent Operating Room V38",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "universal-mission-autopilot.html",
+      "url": "universal-mission-autopilot.html",
+      "title": "Universal Mission Autopilot",
+      "category": "Mission Studio",
+      "description": "Tell GoalOS what you want and get a public-safe mission path."
+    },
+    {
+      "slug": "universal-mission-composer.html",
+      "url": "universal-mission-composer.html",
+      "title": "Universal Mission Composer",
+      "category": "Mission Studio",
+      "description": "Compose Mission Contracts and Docket plans from plain-language objectives."
+    },
+    {
+      "slug": "upgrade-rights-room.html",
+      "url": "upgrade-rights-room.html",
+      "title": "Upgrade Rights Room",
+      "category": "Proof & Evidence",
+      "description": "Proof-backed upgrade rights: useful work becomes governed, rollbackable capability only after gates pass."
+    },
+    {
+      "slug": "use-case-playbooks.html",
+      "url": "use-case-playbooks.html",
+      "title": "GoalOS Use Case Playbooks V27",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "validation-authority.html",
+      "url": "validation-authority.html",
+      "title": "Validation Authority",
+      "category": "Validation",
+      "description": "Human or AGI Node can validate."
+    },
+    {
+      "slug": "validation-command-center.html",
+      "url": "validation-command-center.html",
+      "title": "Validation Command Center",
+      "category": "Validation",
+      "description": "Visual validation command center with authority selector, playbooks, artifacts, and route cards."
+    },
+    {
+      "slug": "validation-console-v29.html",
+      "url": "validation-console-v29.html",
+      "title": "Validation Console V29",
+      "category": "Validation",
+      "description": "Compatibility validation console route."
+    },
+    {
+      "slug": "validation-console.html",
+      "url": "validation-console.html",
+      "title": "Validation Console",
+      "category": "Validation",
+      "description": "Console for selecting validation authority and generating packets."
+    },
+    {
+      "slug": "validation-control-tower.html",
+      "url": "validation-control-tower.html",
+      "title": "Validation Control Tower",
+      "category": "Validation",
+      "description": "Human, AGI Node, Hybrid, or Council validation for any public-safe proof path."
+    },
+    {
+      "slug": "validation-mesh.html",
+      "url": "validation-mesh.html",
+      "title": "Validation Mesh",
+      "category": "Validation",
+      "description": "Autonomous validation mesh: authority selection, gates, certificates, handoffs, reviewer briefs."
+    },
+    {
+      "slug": "validation-orchestrator.html",
+      "url": "validation-orchestrator.html",
+      "title": "Validation Orchestrator",
+      "category": "Validation",
+      "description": "GoalOS selects the right validation authority and creates the packet."
+    },
+    {
+      "slug": "validation-studio.html",
+      "url": "validation-studio.html",
+      "title": "Validation Studio",
+      "category": "Validation",
+      "description": "One box for validation with AGI Node, Human, Hybrid, and Council modes."
+    },
+    {
+      "slug": "validation-use-cases.html",
+      "url": "validation-use-cases.html",
+      "title": "Validation Use Cases",
+      "category": "Validation",
+      "description": "Solved validation playbooks for AGI Node, Human, Hybrid, and Council review."
+    },
+    {
+      "slug": "validator-council-arena.html",
+      "url": "validator-council-arena.html",
+      "title": "Validator Council Arena",
+      "category": "Proof & Evidence",
+      "description": "Trust is not one judge: validator council, commit-reveal, challenge, dissent, and review."
+    },
+    {
+      "slug": "validator-room.html",
+      "url": "validator-room.html",
+      "title": "Validator Room",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "validator-seats.html",
+      "url": "validator-seats.html",
+      "title": "Validator Seats",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    },
+    {
+      "slug": "value-realization-control-room.html",
+      "url": "value-realization-control-room.html",
+      "title": "Value Realization Control Room",
+      "category": "Proof & Evidence",
+      "description": "Accepted proof \u2192 reusable capability \u2192 value ledger \u2192 capacity allocation \u2192 harder mission."
+    },
+    {
+      "slug": "website-autopilot.html",
+      "url": "website-autopilot.html",
+      "title": "Website Autopilot",
+      "category": "Navigation & Docs",
+      "description": "Autonomous website generation and publication workflow with human review."
+    },
+    {
+      "slug": "website-operating-system.html",
+      "url": "website-operating-system.html",
+      "title": "Website Operating System",
+      "category": "Navigation & Docs",
+      "description": "How the public site is generated, checked, reviewed, and kept route-complete."
+    },
+    {
+      "slug": "what-goalos-does.html",
+      "url": "what-goalos-does.html",
+      "title": "What GoalOS Does",
+      "category": "Existing / Preserved",
+      "description": "Preserved public GoalOS page, kept navigable by V42 route recovery."
+    }
+  ]
+}

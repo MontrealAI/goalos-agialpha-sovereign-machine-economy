@@ -1,0 +1,33 @@
+{
+  "version": "v42",
+  "status": "needs_review",
+  "canonicalRoutes": 133,
+  "publicPages": 239,
+  "missingCanonicalRoutes": [],
+  "brokenInternalHtmlLinks": [],
+  "forbiddenBrowserApiHits": [
+    {
+      "file": "public/assets/goalos-validation-control-routes-v33.js",
+      "pattern": "XMLHttpRequest"
+    },
+    {
+      "file": "public/assets/goalos-validation-control-routes-v33.js",
+      "pattern": "sendBeacon"
+    },
+    {
+      "file": "public/assets/goalos-validation-control-routes-v33.js",
+      "pattern": "localStorage"
+    },
+    {
+      "file": "public/assets/goalos-validation-control-routes-v33.js",
+      "pattern": "sessionStorage"
+    },
+    {
+      "file": "public/assets/goalos-validation-control-routes-v33.js",
+      "pattern": "window.ethereum"
+    }
+  ],
+  "boundary": "preserved",
+  "externalActions": 0,
+  "auditReplayed": true
+}

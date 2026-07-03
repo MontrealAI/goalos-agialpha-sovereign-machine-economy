@@ -1,0 +1,8 @@
+{
+  "version": "v42",
+  "claim": "Website route surface restored and all pages kept navigable",
+  "status": "needs_review",
+  "reports": [
+    "reports/site-recovery-v42-route-health.json"
+  ]
+}
