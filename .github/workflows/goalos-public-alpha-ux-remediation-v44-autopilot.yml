@@ -1,0 +1,98 @@
+name: GoalOS Public Alpha UX Remediation V44 — Human-Readable Site Fix
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy updated public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA tracking issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a release after human visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag when create_release is true"
+        required: true
+        type: string
+        default: "v0.64.0-public-alpha-ux-remediation-v44"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-public-alpha-ux-remediation-v44
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Locate pack
+        run: |
+          test -f .goalos/packs/goalos-public-alpha-ux-remediation-v44-pack.zip || (echo "Missing .goalos/packs/goalos-public-alpha-ux-remediation-v44-pack.zip" && exit 1)
+          rm -rf .goalos/runtime/public-alpha-ux-remediation-v44
+          mkdir -p .goalos/runtime/public-alpha-ux-remediation-v44
+          python -m zipfile -e .goalos/packs/goalos-public-alpha-ux-remediation-v44-pack.zip .goalos/runtime/public-alpha-ux-remediation-v44
+      - name: Install V44 remediation
+        run: python .goalos/runtime/public-alpha-ux-remediation-v44/scripts/install_public_alpha_ux_remediation_v44.py
+      - name: Run browser-local demo smoke test
+        run: python .goalos/runtime/public-alpha-ux-remediation-v44/scripts/run_public_alpha_ux_remediation_v44_demo.py
+      - name: Audit visual-layout signals, routes, and boundary
+        run: python .goalos/runtime/public-alpha-ux-remediation-v44/scripts/audit_public_alpha_ux_remediation_v44.py
+      - name: Commit changes
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "goalos-autopilot@users.noreply.github.com"
+          git add public docs reports evidence content examples issue-bodies .github/ISSUE_TEMPLATE || true
+          if git diff --cached --quiet; then echo "No changes to commit"; else git commit -m "Fix GoalOS public-alpha UX and visual QA V44"; git push; fi
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.existsSync('issue-bodies/public-alpha-ux-remediation-v44.md') ? fs.readFileSync('issue-bodies/public-alpha-ux-remediation-v44.md','utf8') : 'GoalOS V44 UX remediation installed. Human visual QA required.';
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title: 'GoalOS Public Alpha UX Remediation V44 — human visual QA required', body, labels: ['goalos','website','qa','ux','human-review']});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Public Alpha UX Remediation V44
+          body: Corrective release that hardens visual layout, fixes proof-flow alignment, adds human visual QA surface, preserves public-alpha boundary, and does not grant production authorization.
+          files: |
+            reports/public-alpha-ux-remediation-v44-install-report.json
+            reports/public-alpha-ux-remediation-v44-qa.json
+            reports/public-alpha-ux-remediation-v44-audit.json
+            reports/public-alpha-ux-remediation-v44-demo-run.json
+            evidence/demo/public-alpha-ux-remediation-v44-reference-docket.json
