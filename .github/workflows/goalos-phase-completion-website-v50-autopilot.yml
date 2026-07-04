@@ -1,0 +1,101 @@
+name: GoalOS Phase Completion Website V50 — Complete Public Surface
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public/ to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.70.0-phase-completion-website-v50"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-phase-completion-website-v50-pack.zip
+  WORK_DIR: .goalos/tmp/goalos-phase-completion-website-v50
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_ZIP" || (echo "Missing $PACK_ZIP" && exit 1)
+          rm -rf "$WORK_DIR"
+          mkdir -p "$WORK_DIR"
+          unzip -q "$PACK_ZIP" -d "$WORK_DIR"
+          python -m py_compile "$WORK_DIR/install_v50.py"
+      - name: Install Phase Completion Website V50
+        run: |
+          set -euo pipefail
+          python "$WORK_DIR/install_v50.py"
+      - name: Show V50 audit
+        if: always()
+        run: |
+          cat reports/phase-completion-website-v50-audit.json || true
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs reports evidence content examples .goalos || true
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Ship GoalOS Phase Completion Website V50"
+            git push
+          fi
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create             --title "GoalOS Phase Completion Website V50 — human visual QA"             --body "Open index, autonomy theatre, AGI Agent Workbench, RSI/Loop, AGI Node, Validation Control Tower, Mainnet Contract Atlas, All Pages, Search, and Site Health. Confirm no overlaps, complete navigation, colored identity, and public-alpha boundary." || true
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ inputs.release_tag }}"             reports/phase-completion-website-v50-*.json             evidence/demo/phase-completion-website-v50-reference-docket.json             content/goalos/public-proof-navigation-v50.json             --title "GoalOS Phase Completion Website V50"             --notes "Complete colored public-alpha GoalOS website surface: Command Center, AGI Agents, RSI/Loop, AGI Node, Validation, 48 Contracts, All Pages, Search, Site Health. Boundary preserved: no user data, no wallet, no transaction, no production authority."             --latest || true
