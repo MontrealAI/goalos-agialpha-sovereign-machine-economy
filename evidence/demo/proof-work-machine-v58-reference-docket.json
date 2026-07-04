@@ -1,0 +1,14 @@
+{
+  "version": "v58",
+  "status": "public_alpha_reference_docket",
+  "claimBoundary": {
+    "userData": "not_requested",
+    "userFunds": "not_requested",
+    "wallet": "not_enabled",
+    "transaction": "not_enabled",
+    "productionAuthorization": "not_granted",
+    "empiricalSotaClaim": "not_claimed",
+    "externalActions": 0
+  },
+  "requiresExternalReplay": true
+}

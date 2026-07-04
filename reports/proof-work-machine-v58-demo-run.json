@@ -1,0 +1,25 @@
+{
+  "version": "v58",
+  "mission": "Proof-gated open-ended work machine",
+  "loop": [
+    "Mission",
+    "Work",
+    "Proof",
+    "Validation",
+    "Verified Experience",
+    "Chronicle",
+    "Reusable Capability",
+    "Settlement Simulation",
+    "Reinvestment",
+    "Harder Mission"
+  ],
+  "boundary": {
+    "userData": "not_requested",
+    "userFunds": "not_requested",
+    "wallet": "not_enabled",
+    "transaction": "not_enabled",
+    "productionAuthorization": "not_granted",
+    "empiricalSotaClaim": "not_claimed",
+    "externalActions": 0
+  }
+}

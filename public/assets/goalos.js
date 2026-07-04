@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",()=>{document.body.classList.add("goalos-v55-surface")});
+/* compatibility alias */
