@@ -1,13 +1,14 @@
 {
-  "agent-constellation.json": "6d6c39891fa7c7304559bd46ad6779aeb425866fb00d84cf22496bc296e30503",
-  "selection-certificate.json": "e59255c1d922eba63bd2c04d82f5ef77c6e590cfa999b9905111002f0ed7bbef",
-  "proof-bundle.json": "fad2e64bef729f712eab4ec69f90a17d139cd289ff4103cb6093e3731a3c69b5",
-  "mission-contract.json": "016e01888fb5193556189210d609c557080b73c30e1db7d1ed1c117a2588fc26",
-  "chronicle-entry.json": "1164202ecc788a697875c0775e6c7c2848af8b99984876f8dd3b64c654ad0cd8",
+  "agent-constellation.json": "b9c974f3dfad267ec6b4503e5172fb9947686d24720470bd071db056e9f53e4c",
+  "selection-certificate.json": "6b28d11b74bedf2fb196ed5838b3c1e2f05d22420a60df0d0997e4030d8b241e",
+  "proof-bundle.json": "7d2db9ee9afa8232c93f83616fb6ae8db004c1b4e19d9802ace7f7f5f5f74127",
+  "mission-contract.json": "f2cdb181308d6175d530496c68ae3413e514795c2fe5ada2d946fc6d600ae2bc",
+  "hashes.json": "395ed9a9e360de48284e9a77dab9bbdbf25bd3881bcf0c33736d1b4d2f356444",
+  "chronicle-entry.json": "311937a318f9fa7e9c169c0fe565a99a2e5de01fa3ecfae7f637073eb875fef7",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
   "evidence-docket.md": "12b172791e62e2882865ee69f7fb440e771f524afd636df9f983967a49915220",
-  "reusable-capability-package.json": "4daf4d86405d5bdebecab08124b94ecd5e920c299f9ea5b55dbbb38a833f0308",
-  "agi-job-card.json": "f0e5a217658854ae8cffad7a984661c18c2f82b589f314610cb1bdc39f376905",
+  "reusable-capability-package.json": "b56d10238333d94c938ba352d707115ddd156e7f448fc03d092572455525eb13",
+  "agi-job-card.json": "267f16a71a0959418d40ad97ff16ff0249a21f1352a5416021eb939b0e880201",
   "reviewer-brief.md": "bf01c2bf176072d588bbcd2a8d3f9225a28d643b7843afdef09c0897a2dc5ece",
-  "agi-node-validation-certificate.json": "37e0dbffc7d0b200cf59d11d0a5b7896e51b17126c9d98372a7da235c2ea0613"
+  "agi-node-validation-certificate.json": "30556b5a08af90f61676091ae0a28347782f1af8bee17567f2a1c8a727ce966e"
 }
