@@ -1,0 +1,118 @@
+name: GoalOS Sovereign Proof Machine OS V56 — Page-Specific Autonomous Control UI
+
+"on":
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy public site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create human visual QA issue
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create GitHub release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag
+        required: true
+        type: string
+        default: v0.76.0-sovereign-proof-machine-os-v56
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-sovereign-proof-machine-os-v56
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Verify pack exists
+        run: test -f .goalos/packs/goalos-sovereign-proof-machine-os-v56-pack.zip
+      - name: Install GoalOS Sovereign Proof Machine OS V56
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp/goalos-sovereign-proof-machine-os-v56
+          mkdir -p .goalos/tmp/goalos-sovereign-proof-machine-os-v56
+          python -m zipfile -e .goalos/packs/goalos-sovereign-proof-machine-os-v56-pack.zip .goalos/tmp/goalos-sovereign-proof-machine-os-v56
+          python -m py_compile .goalos/tmp/goalos-sovereign-proof-machine-os-v56/scripts/install_v56.py
+          mkdir -p reports
+          python .goalos/tmp/goalos-sovereign-proof-machine-os-v56/scripts/install_v56.py | tee reports/sovereign-proof-machine-os-v56-workflow-output.json
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name goalos-autopilot
+          git config user.email actions@users.noreply.github.com
+          git add public reports evidence content docs .goalos/tmp/goalos-sovereign-proof-machine-os-v56
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Sovereign Proof Machine OS V56"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'GoalOS Sovereign Proof Machine OS V56 — human visual QA';
+            const body = [
+              'Open the deployed site and confirm:',
+              '',
+              '- Run end-to-end demo opens immediately on the canonical pages.',
+              '- Each major page launches a different mission profile.',
+              '- The cockpit is readable, visual, useful, and non-technical-user friendly.',
+              '- Agents activate, stages animate, logs stream, bars move, artifacts download.',
+              '- Ask GoalOS routes correctly.',
+              '- All Pages, Search, Site Health work.',
+              '- No duplicate bottom-button pileups.',
+              '- No text overlap or blank dead zones.',
+              '- No wallet prompt, transaction, backend call, or user-data form.',
+              '',
+              'Verdict: PASS / FAIL'
+            ].join('\n');
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels:['goalos','visual-qa','v56']});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Sovereign Proof Machine OS V56
+          body: Page-specific autonomous control UI, canonical GoalOS surface, route integrity, and public-alpha boundary.
+          files: |
+            reports/sovereign-proof-machine-os-v56-install-report.json
+            reports/sovereign-proof-machine-os-v56-qa.json
+            reports/sovereign-proof-machine-os-v56-route-health.json
+            reports/sovereign-proof-machine-os-v56-audit.json
+            reports/sovereign-proof-machine-os-v56-demo-run.json
+            evidence/demo/sovereign-proof-machine-os-v56-reference-docket.json
+            content/goalos/demo-ecosystem-registry-v56.json
