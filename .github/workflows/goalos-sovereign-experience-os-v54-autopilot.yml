@@ -1,0 +1,121 @@
+name: GoalOS Sovereign Experience OS V54 — Page-Specific Autonomous Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.74.0-sovereign-experience-os-v54"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-sovereign-experience-os-v54-pack.zip
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_ZIP" || (echo "Missing $PACK_ZIP" && exit 1)
+      - name: Install GoalOS Sovereign Experience OS V54
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp/v54
+          mkdir -p .goalos/tmp/v54
+          unzip -q "$PACK_ZIP" -d .goalos/tmp/v54
+          python -m py_compile .goalos/tmp/v54/install_v54.py
+          python .goalos/tmp/v54/install_v54.py
+      - name: Show V54 audit
+        run: cat reports/sovereign-experience-os-v54-qa.json
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content docs evidence examples reports .nojekyll || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Sovereign Experience OS V54"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "GoalOS Sovereign Experience OS V54 — human visual QA";
+            const body = [
+              "Open the core GoalOS pages and click Run end-to-end demo on each surface.",
+              "",
+              "Checklist:",
+              "- Command Center launches command mission.",
+              "- AGI Agent pages launch agent mission.",
+              "- RSI / Loop pages launch RSI or loop mission.",
+              "- AGI Node pages launch node mission.",
+              "- Validation pages launch validation mission.",
+              "- 48 Contract pages launch contract rail mission.",
+              "- Proof pages launch Evidence Docket mission.",
+              "- Search / All Pages launch route guidance mission.",
+              "- No text overlap.",
+              "- No blank dead zones.",
+              "- No wallet prompt, no transaction, no backend call, no user-data form.",
+              "",
+              "Verdict: PASS / FAIL"
+            ].join("\n");
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels:["goalos","visual-qa","v54"]});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Sovereign Experience OS V54
+          body: Page-specific autonomous demos, complete canonical route surface, interactive cockpit, and public-alpha boundary.
+          files: |
+            reports/sovereign-experience-os-v54-install-report.json
+            reports/sovereign-experience-os-v54-qa.json
+            reports/sovereign-experience-os-v54-route-health.json
+            reports/sovereign-experience-os-v54-audit.json
+            reports/sovereign-experience-os-v54-demo-run.json
+            evidence/demo/sovereign-experience-os-v54-reference-docket.json
