@@ -1,0 +1,144 @@
+name: GoalOS Autonomous Proof Factory Website V61
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: Pack zip path
+        required: true
+        default: .goalos/packs/goalos-autonomous-proof-factory-website-v61-pack.zip
+      mission_queue_path:
+        description: Repo-local mission queue path
+        required: true
+        default: .goalos/autonomy/v61/mission-queue.example.json
+      max_cycles:
+        description: Maximum autonomous proof-factory cycles
+        required: true
+        default: '5'
+      commit_changes:
+        description: Commit generated files
+        type: boolean
+        required: true
+        default: true
+      deploy_pages:
+        description: Deploy GitHub Pages
+        type: boolean
+        required: true
+        default: true
+      create_issue:
+        description: Create human-review issue
+        type: boolean
+        required: true
+        default: true
+      create_release:
+        description: Create GitHub release
+        type: boolean
+        required: true
+        default: false
+      release_tag:
+        description: Release tag
+        required: true
+        default: v0.81.0-autonomous-proof-factory-website-v61
+  schedule:
+    - cron: '11 9 * * 1'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-autonomous-proof-factory-website-v61
+  cancel-in-progress: false
+
+env:
+  PACK_PATH: ${{ github.event.inputs.pack_path || '.goalos/packs/goalos-autonomous-proof-factory-website-v61-pack.zip' }}
+  QUEUE_PATH: ${{ github.event.inputs.mission_queue_path || '.goalos/autonomy/v61/mission-queue.example.json' }}
+  MAX_CYCLES: ${{ github.event.inputs.max_cycles || '5' }}
+  COMMIT_CHANGES: ${{ github.event.inputs.commit_changes || 'true' }}
+  DEPLOY_PAGES: ${{ github.event.inputs.deploy_pages || 'true' }}
+  CREATE_ISSUE: ${{ github.event.inputs.create_issue || 'true' }}
+  CREATE_RELEASE: ${{ github.event.inputs.create_release || 'false' }}
+  RELEASE_TAG: ${{ github.event.inputs.release_tag || 'v0.81.0-autonomous-proof-factory-website-v61' }}
+
+jobs:
+  autonomous-proof-factory-v61:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_PATH" || (echo "Missing pack zip: $PACK_PATH" && exit 1)
+
+      - name: Unpack V61 pack
+        run: |
+          rm -rf .goalos/_v61_unpack
+          mkdir -p .goalos/_v61_unpack
+          python - <<'PY'
+          import os, zipfile
+          with zipfile.ZipFile(os.environ['PACK_PATH']) as z:
+              z.extractall('.goalos/_v61_unpack')
+          PY
+
+      - name: Install V61 website and V9 proof-factory layer
+        run: python .goalos/_v61_unpack/scripts/install_goalos_autonomous_proof_factory_website_v61.py
+
+      - name: Run autonomous proof-factory queue
+        run: python scripts/run_goalos_autonomous_proof_factory_website_v61.py --queue "$QUEUE_PATH" --max-cycles "$MAX_CYCLES"
+
+      - name: Audit V61 route, asset, and boundary integrity
+        run: python scripts/audit_goalos_autonomous_proof_factory_website_v61.py
+
+      - name: Commit generated files
+        if: ${{ env.COMMIT_CHANGES != 'false' }}
+        run: |
+          git config user.name "goalos-autonomous-proof-factory-v61"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content docs evidence reports schemas scripts .goalos || true
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Ship GoalOS Autonomous Proof Factory Website V61"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ env.DEPLOY_PAGES != 'false' }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ env.DEPLOY_PAGES != 'false' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ env.DEPLOY_PAGES != 'false' }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human-review issue
+        if: ${{ env.CREATE_ISSUE != 'false' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Review GoalOS Autonomous Proof Factory Website V61',
+              body: 'V61 installed the autonomous proof factory website, integrated the V9 proof factory layer, regenerated navigation/search/site health, and produced proof-factory runtime artifacts. Review `reports/autonomous-proof-factory-website-v61-audit.json`, `reports/autonomous-proof-factory-website-v61-run-report.json`, and `public/autonomous-proof-factory.html`. Boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority.'
+            });
+
+      - name: Create release
+        if: ${{ env.CREATE_RELEASE == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$RELEASE_TAG" "$PACK_PATH" reports/autonomous-proof-factory-website-v61-audit.json reports/autonomous-proof-factory-website-v61-run-report.json --title "GoalOS Autonomous Proof Factory Website V61" --notes "Autonomous proof-gated open-ended work machine, integrated V9 proof factory, full route surface, public-alpha boundary preserved."
