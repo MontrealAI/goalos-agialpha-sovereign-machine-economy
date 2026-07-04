@@ -193,9 +193,9 @@
   },
   {
     "route": "all-pages.html",
-    "title": "All GoalOS Pages",
+    "title": "GoalOS All Pages",
     "category": "Additional",
-    "description": "Open All GoalOS Pages as part of the complete GoalOS public surface."
+    "description": "Open GoalOS All Pages as part of the complete GoalOS public surface."
   },
   {
     "route": "architecture.html",
@@ -1483,9 +1483,9 @@
   },
   {
     "route": "route-registry.html",
-    "title": "All GoalOS Pages",
+    "title": "GoalOS All Pages",
     "category": "Navigation & Docs",
-    "description": "Open All GoalOS Pages as part of the complete GoalOS public surface."
+    "description": "Open GoalOS All Pages as part of the complete GoalOS public surface."
   },
   {
     "route": "rsi-governance-lab.html",
@@ -1537,9 +1537,9 @@
   },
   {
     "route": "site-map.html",
-    "title": "All GoalOS Pages",
+    "title": "GoalOS All Pages",
     "category": "Navigation & Docs",
-    "description": "Open All GoalOS Pages as part of the complete GoalOS public surface."
+    "description": "Open GoalOS All Pages as part of the complete GoalOS public surface."
   },
   {
     "route": "source-lineage.html",
