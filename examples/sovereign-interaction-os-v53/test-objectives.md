@@ -1,0 +1,4 @@
+- Run contracts learning mission
+- Run Loop to RSI mission
+- Run AGI Node handoff
+- Run Validation Control Tower

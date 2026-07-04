@@ -1,0 +1,440 @@
+{
+  "home": {
+    "label": "Command Center",
+    "title": "Run the complete GoalOS mission.",
+    "objective": "I want GoalOS to turn a plain objective into proof, validation, Chronicle memory, and a reusable capability route.",
+    "authority": "Hybrid: AGI Node precheck + human final review",
+    "agents": [
+      "Architect",
+      "Planner",
+      "Research",
+      "Builder",
+      "Verifier",
+      "Node Worker",
+      "Node Validator",
+      "Sentinel",
+      "Docket",
+      "Chronicle"
+    ],
+    "stages": [
+      "Objective",
+      "Mission Contract",
+      "AGI Agents",
+      "AGI Job",
+      "AGI Node",
+      "ProofBundle",
+      "Evidence Docket",
+      "Validate",
+      "Chronicle",
+      "Reusable capability"
+    ],
+    "routes": [
+      "autonomy-theatre.html",
+      "agi-agent-workbench.html",
+      "validation-control-tower.html",
+      "mainnet-contract-atlas.html",
+      "site-map.html"
+    ],
+    "artifacts": [
+      "mission-contract.json",
+      "agent-route.json",
+      "proofbundle-plan.json",
+      "evidence-docket.md",
+      "validation-certificate.json",
+      "chronicle-entry.json"
+    ],
+    "copy": "The command center demonstrates the entire public-alpha proof loop in one browser-local mission."
+  },
+  "autonomy": {
+    "label": "Autonomy Theatre",
+    "title": "Watch one objective become a proof package.",
+    "objective": "I want AGI agents to show a complete end-to-end example from objective to proof to validation to Chronicle.",
+    "authority": "Hybrid validation path",
+    "agents": [
+      "Architect Agent",
+      "Planner Agent",
+      "AGI Node Worker",
+      "Verifier Agent",
+      "Evidence Docket Agent",
+      "AGI Node Validator",
+      "Chronicle Agent"
+    ],
+    "stages": [
+      "Objective accepted",
+      "Mission Contract sealed",
+      "Agent constellation selected",
+      "AGI Job bounded",
+      "AGI Node handoff prepared",
+      "ProofBundle assembled",
+      "Evidence Docket drafted",
+      "Validation path selected",
+      "Chronicle memory written",
+      "Reusable capability packaged"
+    ],
+    "routes": [
+      "agi-agent-workbench.html",
+      "validation-control-tower.html",
+      "proof-run-001-docket.html",
+      "agent-flow-academy-v38.html"
+    ],
+    "artifacts": [
+      "mission-contract.json",
+      "agi-job-spec.json",
+      "agi-node-handoff.json",
+      "proofbundle-plan.json",
+      "evidence-docket.md",
+      "demo-replay.json"
+    ],
+    "copy": "A live, visual, browser-local rehearsal of the GoalOS operating loop."
+  },
+  "agents": {
+    "label": "AGI Agent Workbench",
+    "title": "Assemble a proof-governed agent team.",
+    "objective": "I want AGI agents to handle a public-safe mission with clear roles, evidence, validation, and next routes.",
+    "authority": "AGI Node validator with human escalation",
+    "agents": [
+      "Architect",
+      "Planner",
+      "Researcher",
+      "Builder",
+      "Verifier",
+      "Sentinel",
+      "Docket",
+      "Chronicle",
+      "Council"
+    ],
+    "stages": [
+      "Understand request",
+      "Select agent topology",
+      "Create AGI Job",
+      "Prepare node handoff",
+      "Run verification",
+      "Package proof",
+      "Recommend routes"
+    ],
+    "routes": [
+      "agent-foundry.html",
+      "agi-agent-playbooks.html",
+      "agi-agent-run-theatre.html",
+      "agi-node-validation.html"
+    ],
+    "artifacts": [
+      "agent-constellation.json",
+      "agi-job-spec.json",
+      "agi-node-handoff.json",
+      "reviewer-brief.md",
+      "action-graph.csv"
+    ],
+    "copy": "The agent layer is not a swarm; it is an institution of roles with proof gates."
+  },
+  "playbooks": {
+    "label": "AGI Agent Playbooks",
+    "title": "Launch the right solved use case.",
+    "objective": "I want to choose the best GoalOS playbook and run it from objective to artifacts.",
+    "authority": "Auto-selected authority by risk class",
+    "agents": [
+      "Pathfinder",
+      "Planner",
+      "Verifier",
+      "Route Curator",
+      "Reviewer"
+    ],
+    "stages": [
+      "Choose use case",
+      "Load objective",
+      "Select proof route",
+      "Prepare artifacts",
+      "Open next surface"
+    ],
+    "routes": [
+      "autonomy-theatre.html",
+      "mainnet-contract-atlas.html",
+      "validation-control-tower.html",
+      "from-loop-to-rsi-state-capacity.html"
+    ],
+    "artifacts": [
+      "selected-playbook.json",
+      "route-plan.json",
+      "review-brief.md"
+    ],
+    "copy": "Playbooks show a non-technical user exactly what to do next."
+  },
+  "rsi": {
+    "label": "Loop to RSI",
+    "title": "Run governed invention without granting outcome authority.",
+    "objective": "I want to understand Loop to RSI governance and prepare a Move-37 dossier without overclaiming.",
+    "authority": "Architect / Validator Council",
+    "agents": [
+      "Loop Recorder",
+      "Bottleneck Observer",
+      "RSI Planner",
+      "Risk Sentinel",
+      "Dossier Agent",
+      "Council Reviewer"
+    ],
+    "stages": [
+      "Target",
+      "Emit",
+      "Filter",
+      "Atlas",
+      "Test-plan",
+      "Eval",
+      "Insert",
+      "Promote",
+      "Dossier",
+      "Council decision"
+    ],
+    "routes": [
+      "loop-bottleneck-observatory.html",
+      "loop-contract-lab.html",
+      "loop-flight-recorder.html",
+      "rsi-state-capacity.html",
+      "move37-dossier.html"
+    ],
+    "artifacts": [
+      "rsi-target.json",
+      "bottleneck-log.json",
+      "test-plan.md",
+      "move37-dossier.md",
+      "council-certificate.json"
+    ],
+    "copy": "Search can guide exploration; evidence gates decide what improves."
+  },
+  "loop": {
+    "label": "Loop Observatory",
+    "title": "Find the bottleneck that moves next.",
+    "objective": "I want a long-running agent loop to expose the next bottleneck with replayable traces.",
+    "authority": "AGI Node precheck + human review",
+    "agents": [
+      "Loop Runner",
+      "Trace Reader",
+      "Evaluator",
+      "Bottleneck Detector",
+      "Reporter"
+    ],
+    "stages": [
+      "Write loop",
+      "Separate roles",
+      "Contract first",
+      "Write to disk",
+      "Restart",
+      "Score",
+      "Read traces",
+      "Delete harness",
+      "Find bottleneck"
+    ],
+    "routes": [
+      "loop-flight-recorder.html",
+      "loop-contract-lab.html",
+      "from-loop-to-rsi-state-capacity.html"
+    ],
+    "artifacts": [
+      "loop-contract.md",
+      "trace-log.json",
+      "bottleneck-report.md"
+    ],
+    "copy": "The point of the loop is to make the next bottleneck visible."
+  },
+  "node": {
+    "label": "AGI Alpha Node",
+    "title": "Prepare deterministic node handoff.",
+    "objective": "I want an AGI Node handoff that separates worker, validator, and sentinel responsibilities.",
+    "authority": "AGI Node Validator",
+    "agents": [
+      "Worker Node",
+      "Validator Node",
+      "Sentinel Node",
+      "Metering Agent",
+      "Artifact Packager"
+    ],
+    "stages": [
+      "Runtime context",
+      "Worker packet",
+      "Validator packet",
+      "Sentinel packet",
+      "Metering",
+      "Artifact package",
+      "Attestation"
+    ],
+    "routes": [
+      "agi-node-validation.html",
+      "agi-node-use-cases.html",
+      "validation-control-tower.html"
+    ],
+    "artifacts": [
+      "node-handoff.json",
+      "worker-packet.json",
+      "validator-attestation.json",
+      "sentinel-report.json"
+    ],
+    "copy": "AGI Nodes turn work into deterministic packets and validation surfaces."
+  },
+  "validation": {
+    "label": "Validation Control Tower",
+    "title": "Choose who can validate the proof path.",
+    "objective": "I want Human, AGI Node, Hybrid, or Council validation for a public-safe proof path.",
+    "authority": "User-selected validation authority",
+    "agents": [
+      "AGI Node Validator",
+      "Human Reviewer",
+      "Risk Sentinel",
+      "Council Clerk",
+      "Docket Agent"
+    ],
+    "stages": [
+      "Scope claim",
+      "Check evidence",
+      "Check replay",
+      "Check boundary",
+      "Choose authority",
+      "Issue certificate",
+      "Route next state"
+    ],
+    "routes": [
+      "human-or-agi-node-validation.html",
+      "validation-use-cases.html",
+      "proof-run-001-docket.html"
+    ],
+    "artifacts": [
+      "validation-certificate.json",
+      "attestation.json",
+      "council-packet.md",
+      "risk-ledger.json"
+    ],
+    "copy": "Deterministic checks can be automated; judgment-heavy authority remains review-gated."
+  },
+  "contracts": {
+    "label": "48 Contract Atlas",
+    "title": "Learn the proof rail without touching a wallet.",
+    "objective": "I want to understand the 48 Ethereum Mainnet contracts by role, rail, boundary, and review path.",
+    "authority": "Learning path only - no transaction authority",
+    "agents": [
+      "Contract Curator",
+      "Rail Mapper",
+      "Boundary Sentinel",
+      "Reviewer Guide"
+    ],
+    "stages": [
+      "Identity rail",
+      "Mission rail",
+      "Evidence rail",
+      "Validation rail",
+      "Rollout rail",
+      "Rollback rail",
+      "Economy rail",
+      "Chronicle rail"
+    ],
+    "routes": [
+      "contract-academy.html",
+      "mainnet-proof-rail.html",
+      "token-boundary.html",
+      "trust-boundary.html"
+    ],
+    "artifacts": [
+      "contract-atlas.json",
+      "rail-map.csv",
+      "token-boundary-brief.md",
+      "review-checklist.md"
+    ],
+    "copy": "The atlas is for familiarity, review, and institutional comprehension: no wallet, no transaction."
+  },
+  "proof": {
+    "label": "Evidence Docket",
+    "title": "Make a claim reviewable.",
+    "objective": "I want to inspect a proof docket before trusting a public claim.",
+    "authority": "Human reviewer required",
+    "agents": [
+      "Claim Scanner",
+      "Gate Auditor",
+      "Evidence Docket Agent",
+      "Reviewer",
+      "Route Health Agent"
+    ],
+    "stages": [
+      "Claim",
+      "Scope",
+      "Evidence",
+      "Claims matrix",
+      "Gate ledger",
+      "Replay path",
+      "Validator packet",
+      "Decision state"
+    ],
+    "routes": [
+      "proof-run-001.html",
+      "proof-ledger.html",
+      "evidence-docket-theatre.html",
+      "site-health.html"
+    ],
+    "artifacts": [
+      "claims-matrix.json",
+      "gate-ledger.json",
+      "reviewer-brief.md",
+      "replay-path.json"
+    ],
+    "copy": "No Evidence Docket, no strong empirical claim."
+  },
+  "search": {
+    "label": "Route Intelligence",
+    "title": "Find every surface from one command.",
+    "objective": "I want GoalOS to route me to the correct page for contracts, RSI, AGI Nodes, validation, proof, or trust.",
+    "authority": "Browser-local route assistant",
+    "agents": [
+      "Route Curator",
+      "Search Agent",
+      "Boundary Sentinel",
+      "Pathfinder"
+    ],
+    "stages": [
+      "Read query",
+      "Classify topic",
+      "Rank routes",
+      "Explain why",
+      "Open page"
+    ],
+    "routes": [
+      "site-map.html",
+      "search.html",
+      "site-health.html",
+      "ask-goalos.html"
+    ],
+    "artifacts": [
+      "route-plan.json",
+      "search-results.json",
+      "site-inventory.csv"
+    ],
+    "copy": "Every public surface stays discoverable."
+  },
+  "trust": {
+    "label": "Trust Boundary",
+    "title": "Verify the boundary before using anything.",
+    "objective": "I want to check privacy, token, no-data, no-funds, no-wallet, no-transaction boundaries.",
+    "authority": "Boundary reviewer",
+    "agents": [
+      "Privacy Sentinel",
+      "Token Boundary Agent",
+      "Risk Reviewer",
+      "Human Reviewer"
+    ],
+    "stages": [
+      "Data boundary",
+      "Funds boundary",
+      "Wallet boundary",
+      "Token boundary",
+      "Legal boundary",
+      "Human review"
+    ],
+    "routes": [
+      "trust-boundary.html",
+      "token-boundary.html",
+      "privacy.html",
+      "data-boundary.html"
+    ],
+    "artifacts": [
+      "boundary-map.json",
+      "token-boundary.md",
+      "privacy-checklist.md"
+    ],
+    "copy": "Proof-native does not mean data-hungry or wallet-first."
+  }
+}

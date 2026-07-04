@@ -1,1 +1,1 @@
-window.GoalOSLegacyAssets={status:'available',version:'v46'};
+/* GoalOS compatibility asset. Browser-local only. */

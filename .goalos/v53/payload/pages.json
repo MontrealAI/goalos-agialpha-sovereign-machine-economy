@@ -1,0 +1,242 @@
+{
+  "index.html": [
+    "home",
+    "GoalOS Command Center",
+    "Tell GoalOS what you want.",
+    "One command surface for agents, nodes, proof, validation, contracts, RSI, and route discovery."
+  ],
+  "goalos-phase-completion.html": [
+    "home",
+    "Phase Completion",
+    "Everything we built, one public surface.",
+    "The strongest canonical version of each major GoalOS surface is available and routeable."
+  ],
+  "goalos-command-center.html": [
+    "home",
+    "Command Center",
+    "Operate the proof surface.",
+    "Start with an objective, run the mission, route into the right GoalOS room."
+  ],
+  "autonomy-theatre.html": [
+    "autonomy",
+    "Autonomy Theatre",
+    "One objective. Full proof path.",
+    "Run a browser-local autonomous mission and download the proof package."
+  ],
+  "agi-agent-workbench.html": [
+    "agents",
+    "AGI Agent Workbench",
+    "Tell AGI agents what you want.",
+    "Build a bounded agent team, AGI Job, AGI Node handoff, Evidence Docket, and validation route."
+  ],
+  "agent-foundry.html": [
+    "agents",
+    "Agent Foundry",
+    "Add the AGI agents.",
+    "Assemble a public-safe agent constellation with clear roles and proof gates."
+  ],
+  "agi-agent-run-theatre.html": [
+    "autonomy",
+    "Agent Run Theatre",
+    "Watch agents turn work into proof.",
+    "A page-specific mission theatre for the AGI Agent layer."
+  ],
+  "agi-agent-playbooks.html": [
+    "playbooks",
+    "AGI Agent Playbooks",
+    "Use cases that show what to do.",
+    "Launch solved non-technical use cases end-to-end."
+  ],
+  "agent-flow-academy-v38.html": [
+    "agents",
+    "Flow Academy",
+    "Understand the system visually.",
+    "Learn how Objective, Agents, AGI Job, AGI Node, ProofBundle, Docket, Validation, and Chronicle connect."
+  ],
+  "from-loop-to-rsi-state-capacity.html": [
+    "rsi",
+    "Loop to RSI",
+    "Build the institution before the system outruns it.",
+    "Run TARGET, EMIT, FILTER, ATLAS, TEST-PLAN, EVAL, INSERT, PROMOTE as gated governance."
+  ],
+  "from-loop-to-rsi-governance.html": [
+    "rsi",
+    "Loop to RSI Governance",
+    "Search can guide. Evidence must decide.",
+    "Dossier-oriented RSI governance for public-alpha review."
+  ],
+  "loop-bottleneck-observatory.html": [
+    "loop",
+    "Loop Bottleneck Observatory",
+    "The bottleneck always moves.",
+    "Read traces, score subjective work, and expose what needs to improve next."
+  ],
+  "goalos-loop-bottleneck-observatory.html": [
+    "loop",
+    "Loop Bottleneck Observatory",
+    "The bottleneck always moves.",
+    "Read traces, score subjective work, and expose what needs to improve next."
+  ],
+  "loop-contract-lab.html": [
+    "loop",
+    "Loop Contract Lab",
+    "Write the loop contract first.",
+    "Define roles, criteria, traces, and done conditions before agents act."
+  ],
+  "loop-flight-recorder.html": [
+    "loop",
+    "Loop Flight Recorder",
+    "Write to disk. Read the trace.",
+    "Keep public-safe loop traces visible and reviewable."
+  ],
+  "rsi-state-capacity.html": [
+    "rsi",
+    "RSI State Capacity",
+    "Governed improvement before propagation.",
+    "Evaluate candidate improvements with evidence gates and council review."
+  ],
+  "agi-alpha-node-v0.html": [
+    "node",
+    "AGI Alpha Node",
+    "Node runtime becomes proof handoff.",
+    "Worker, Validator, and Sentinel roles prepare deterministic review packets."
+  ],
+  "agi-node-validation.html": [
+    "node",
+    "AGI Node Validation",
+    "Let the node validate what is deterministic.",
+    "Use AGI Node checks for schema, replay, route, and public-safe proof completeness."
+  ],
+  "agi-node-use-cases.html": [
+    "node",
+    "AGI Node Use Cases",
+    "Know when a node should validate.",
+    "Learn deterministic, public-safe validation scenarios."
+  ],
+  "validation-control-tower.html": [
+    "validation",
+    "Validation Control Tower",
+    "Human or AGI Node can validate.",
+    "Choose AGI Node, Human, Hybrid, or Council authority for the proof path."
+  ],
+  "human-or-agi-node-validation.html": [
+    "validation",
+    "Human or AGI Node Validation",
+    "Choose the right authority.",
+    "Deterministic checks can be automated; judgment remains review-gated."
+  ],
+  "validation-use-cases.html": [
+    "validation",
+    "Validation Use Cases",
+    "Select a validation route.",
+    "Apply the right validation mode to contracts, RSI, proofs, and claims."
+  ],
+  "mainnet-contract-atlas.html": [
+    "contracts",
+    "48 Mainnet Contracts",
+    "Know the proof rail like an institution.",
+    "Explore the 48 GoalOS-created Ethereum Mainnet contracts without wallet or transaction support."
+  ],
+  "contract-academy.html": [
+    "contracts",
+    "Contract Academy",
+    "Learn the rail in three passes.",
+    "Understand what exists, what each rail does, and how to review it safely."
+  ],
+  "mainnet-proof-rail.html": [
+    "contracts",
+    "Mainnet Proof Rail",
+    "Map contracts to proof functions.",
+    "Identity, work, evidence, validation, rollout, rollback, economy, and Chronicle memory."
+  ],
+  "proof-run-001-docket.html": [
+    "proof",
+    "Proof Run 001",
+    "Repository readiness becomes reviewable evidence.",
+    "Inspect the docket, claims matrix, gate ledger, route health, and review boundary."
+  ],
+  "proof-run-001.html": [
+    "proof",
+    "Proof Run 001",
+    "Architecture becomes evidence.",
+    "Open the proof package for review."
+  ],
+  "proof-ledger.html": [
+    "proof",
+    "Proof Ledger",
+    "Every claim needs a trace.",
+    "Review claims, gates, validators, and evidence artifacts."
+  ],
+  "evidence-docket-theatre.html": [
+    "proof",
+    "Evidence Docket Theatre",
+    "Convert claims into reviewable proof.",
+    "A proof page is not a marketing page; it is a docket."
+  ],
+  "visual-flow-proof.html": [
+    "home",
+    "Visual Flow Proof",
+    "The full path is visible.",
+    "Objective to reusable capability, without overlapping divs or hidden labels."
+  ],
+  "ask-goalos.html": [
+    "search",
+    "Ask GoalOS",
+    "Ask where to go next.",
+    "Browser-local route intelligence for the public GoalOS surface."
+  ],
+  "site-map.html": [
+    "search",
+    "All Pages",
+    "Everything routeable.",
+    "The complete public surface grouped by purpose."
+  ],
+  "all-pages.html": [
+    "search",
+    "All Pages",
+    "Everything routeable.",
+    "The complete public surface grouped by purpose."
+  ],
+  "route-registry.html": [
+    "search",
+    "Route Registry",
+    "Every route has a purpose.",
+    "Browse the canonical and preserved public route surface."
+  ],
+  "search.html": [
+    "search",
+    "Search",
+    "Find the right proof surface.",
+    "Search contracts, RSI, loop, node, validation, proof, trust, and boundary pages."
+  ],
+  "site-health.html": [
+    "search",
+    "Site Health",
+    "Ready for review.",
+    "Route discovery, asset compatibility, and public boundary checks are visible."
+  ],
+  "trust-boundary.html": [
+    "trust",
+    "Trust Boundary",
+    "Proof-native. Not data-hungry. Not wallet-first.",
+    "Review no-data, no-funds, no-wallet, no-transaction, and human-review boundaries."
+  ],
+  "token-boundary.html": [
+    "trust",
+    "Token Boundary",
+    "$AGIALPHA is public contract context only.",
+    "No sale, custody, wallet support, investment advice, exchange, bridge, liquidity, or regulatory advice."
+  ],
+  "privacy.html": [
+    "trust",
+    "Privacy Boundary",
+    "We do not want your data.",
+    "Browser-local public-alpha demos avoid user data, accounts, wallets, and backend calls."
+  ],
+  "data-boundary.html": [
+    "trust",
+    "Data Boundary",
+    "Public proof, private intelligence.",
+    "Private prompts, traces, customer data, and sensitive materials stay private."
+  ]
+}
