@@ -1,13 +1,1 @@
-{
-  "version": "v58",
-  "status": "discoverable",
-  "boundary": {
-    "userData": "not_requested",
-    "userFunds": "not_requested",
-    "wallet": "not_enabled",
-    "transaction": "not_enabled",
-    "productionAuthorization": "not_granted",
-    "empiricalSotaClaim": "not_claimed",
-    "externalActions": 0
-  }
-}
+[]

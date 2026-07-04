@@ -1,0 +1,35 @@
+{
+  "version": "v61",
+  "missions": [
+    {
+      "id": "vendor-evidence-review",
+      "objective": "Evaluate an AI vendor using evidence, not marketing claims.",
+      "risk": "medium",
+      "authority": "hybrid"
+    },
+    {
+      "id": "trust-room-package",
+      "objective": "Prepare a buyer-ready AI Trust Room proof package.",
+      "risk": "medium",
+      "authority": "human"
+    },
+    {
+      "id": "boundary-review",
+      "objective": "Check privacy, token, no-data, no-wallet, and no-transaction boundaries.",
+      "risk": "low",
+      "authority": "agi_node"
+    },
+    {
+      "id": "evidence-docket",
+      "objective": "Create a public-safe Evidence Docket for an autonomous proof mission.",
+      "risk": "medium",
+      "authority": "hybrid"
+    },
+    {
+      "id": "move37-dossier",
+      "objective": "Route a high-novelty claim to Architect / Validator Council review.",
+      "risk": "high",
+      "authority": "council"
+    }
+  ]
+}

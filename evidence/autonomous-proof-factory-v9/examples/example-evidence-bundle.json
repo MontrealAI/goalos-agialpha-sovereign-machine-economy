@@ -1,0 +1,15 @@
+{
+  "mission_id": "v9-example",
+  "objective": "Prepare a buyer-ready AI Trust Room proof package.",
+  "decision_state": "human_review_ready",
+  "artifacts": [
+    "Mission Contract",
+    "Agent Constellation",
+    "AGI Job Card",
+    "AGI Node Validation",
+    "ProofBundle",
+    "Evidence Docket 6.1",
+    "Chronicle Entry",
+    "Reusable Capability Package"
+  ]
+}

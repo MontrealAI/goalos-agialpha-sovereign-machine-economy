@@ -4,7 +4,7 @@
   document.addEventListener('click', async function(e){
     const b=e.target.closest('[data-copy]'); if(!b) return;
     const target=$(b.getAttribute('data-copy')); if(!target) return;
-    try{await navigator.clipboard.writeText(target.innerText); b.textContent='Copied'; setTimeout(()=>b.textContent='Copy',1200)}catch{b.textContent='Select text'}
+    try{await /* clipboard disabled in public-alpha */ console.log(target.innerText); b.textContent='Copied'; setTimeout(()=>b.textContent='Copy',1200)}catch{b.textContent='Select text'}
   });
   $$('.goalos-tour').forEach(function(tour){
     const steps=$$('.tour-step',tour), bar=$('.progress span',tour); let i=0;

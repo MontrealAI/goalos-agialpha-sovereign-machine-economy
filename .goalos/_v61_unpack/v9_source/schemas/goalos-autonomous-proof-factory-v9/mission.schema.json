@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "goalos.autonomous_proof_factory.v9.mission",
+  "type": "object",
+  "required": [
+    "mission_id",
+    "objective",
+    "authority_route"
+  ],
+  "properties": {
+    "mission_id": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "authority_route": {
+      "type": "string"
+    },
+    "max_cycles": {
+      "type": "integer"
+    }
+  }
+}

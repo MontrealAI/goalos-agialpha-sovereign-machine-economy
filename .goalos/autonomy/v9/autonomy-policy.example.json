@@ -1,0 +1,22 @@
+{
+  "schema": "goalos.autonomous_proof_factory.v9.policy",
+  "hard_stops": [
+    "user funds",
+    "wallet connection",
+    "transaction signing",
+    "production authority",
+    "legal/financial/medical advice",
+    "unreviewed public claim"
+  ],
+  "done_requires": [
+    "mission contract",
+    "agent constellation",
+    "AGI Job card",
+    "AGI Node validation",
+    "ProofBundle",
+    "Evidence Docket",
+    "Chronicle entry",
+    "Reusable capability package",
+    "review gate"
+  ]
+}

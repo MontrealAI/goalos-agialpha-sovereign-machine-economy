@@ -1,0 +1,26 @@
+{
+  "schema": "goalos.autonomous_proof_factory.v9.queue",
+  "queue": [
+    {
+      "mission_id": "v9-ai-vendor-docket",
+      "objective": "Evaluate an AI vendor using evidence, not marketing claims.",
+      "mission_class": "AI Vendor Evidence Docket",
+      "authority_route": "Hybrid: AGI Node precheck + Human review",
+      "max_cycles": 3
+    },
+    {
+      "mission_id": "v9-contract-atlas-learning",
+      "objective": "Create a public-safe learning path for the 48 Ethereum Mainnet contracts without wallet or transaction actions.",
+      "mission_class": "Contract Atlas Learning Mission",
+      "authority_route": "AGI Node precheck + Human review",
+      "max_cycles": 2
+    },
+    {
+      "mission_id": "v9-boundary-audit",
+      "objective": "Check no-data, no-wallet, no-transaction, no-production-authority boundaries across key pages.",
+      "mission_class": "Boundary Audit",
+      "authority_route": "AGI Node deterministic precheck",
+      "max_cycles": 2
+    }
+  ]
+}

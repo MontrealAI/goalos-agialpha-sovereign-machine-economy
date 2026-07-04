@@ -1,0 +1,477 @@
+{
+  "factory": {
+    "eyebrow": "AUTONOMOUS PROOF FACTORY",
+    "title": "One objective. Autonomous proof factory.",
+    "accent": "Until DONE.",
+    "lead": "Queue public-safe objectives, orchestrate AGI Agents, package AGI Jobs, validate with AGI Nodes, emit Evidence Dockets, record Chronicle memory, promote reusable capability, and hold for review when proof is incomplete.",
+    "objective": "Evaluate an AI vendor using evidence, not marketing claims, and produce a reviewer-ready Evidence Docket with risk ledger and next actions.",
+    "agents": [
+      "Mission Architect",
+      "Planner",
+      "Researcher",
+      "Builder",
+      "Evidence Agent",
+      "Verifier",
+      "AGI Node Validator",
+      "Sentinel",
+      "Chronicle Agent",
+      "Capability Promoter"
+    ],
+    "stages": [
+      "Queue",
+      "Mission Contract",
+      "Agent Roles",
+      "AGI Job",
+      "State on Disk",
+      "ProofBundle",
+      "AGI Node Validate",
+      "Evidence Docket",
+      "Chronicle",
+      "Capability Gate",
+      "Review Hold",
+      "Next Mission"
+    ],
+    "artifacts": [
+      "mission-contract.json",
+      "agent-constellation.json",
+      "agi-job-card.json",
+      "agi-node-validation-certificate.json",
+      "proof-bundle.json",
+      "evidence-docket.md",
+      "reviewer-brief.md",
+      "action-graph.csv",
+      "chronicle-entry.json",
+      "capability-package.json",
+      "selection-certificate.json",
+      "hashes.json"
+    ],
+    "next": [
+      "autonomous-mission-queue-v9.html",
+      "proof-debt-dashboard-v9.html",
+      "agi-node-validator-mesh-v9.html",
+      "capability-promotion-gate-v9.html"
+    ]
+  },
+  "general": {
+    "eyebrow": "AUTONOMOUS GENERAL WORK MACHINE",
+    "title": "Tell GoalOS what you want.",
+    "accent": "It builds the proof path.",
+    "lead": "A plain-language objective becomes a Mission Contract, an AGI Agent constellation, an AGI Job, a validation plan, an Evidence Docket, and reusable capability.",
+    "objective": "Turn one important organizational objective into verified autonomous work with clear evidence, risk, validation, and next actions.",
+    "agents": [
+      "Mission Architect",
+      "Domain Router",
+      "Planner",
+      "Researcher",
+      "Builder",
+      "Evaluator",
+      "AGI Node Validator",
+      "Risk Sentinel",
+      "Reviewer Liaison",
+      "Chronicle Agent"
+    ],
+    "stages": [
+      "Objective",
+      "Mission Contract",
+      "Domain Route",
+      "Agent Constellation",
+      "AGI Job",
+      "Work Plan",
+      "Evidence Gathering",
+      "Validation",
+      "Decision State",
+      "Action Graph",
+      "Chronicle",
+      "Reusable Capability"
+    ],
+    "artifacts": [
+      "goalos-mission-contract.json",
+      "goalos-agent-orchestration-plan.json",
+      "goalos-agi-job-spec.json",
+      "goalos-agi-node-validation-plan.json",
+      "goalos-proofbundle.json",
+      "goalos-evidence-docket.md",
+      "goalos-action-graph.csv",
+      "goalos-validation-certificate.json",
+      "goalos-chronicle-entry.json",
+      "goalos-capability-package.json",
+      "goalos-executive-brief.md"
+    ],
+    "next": [
+      "autonomous-general-work-machine.html",
+      "agi-agent-workbench.html",
+      "validation-control-tower.html",
+      "evidence-docket-theatre.html"
+    ]
+  },
+  "agents": {
+    "eyebrow": "AGI AGENTS",
+    "title": "Agents do the work.",
+    "accent": "Nodes validate it.",
+    "lead": "The agent layer is an orchestrated institution: roles, responsibilities, tools, artifacts, validation duties, and Chronicle memory.",
+    "objective": "Have AGI Agents decompose, execute, verify, and package a complex objective into a proof-backed work package.",
+    "agents": [
+      "Orchestrator",
+      "Planner",
+      "Researcher",
+      "Builder",
+      "Operator",
+      "Safety Agent",
+      "Memory Agent",
+      "Evaluator",
+      "Governance Agent",
+      "Liaison"
+    ],
+    "stages": [
+      "Identify",
+      "Learn",
+      "Think",
+      "Design",
+      "Strategise",
+      "Execute",
+      "Check",
+      "Package",
+      "Validate",
+      "Chronicle"
+    ],
+    "artifacts": [
+      "agent-role-contracts.json",
+      "agent-access-graph.json",
+      "agi-job-card.json",
+      "handoff-notes.md",
+      "reviewer-brief.md",
+      "capability-package.json"
+    ],
+    "next": [
+      "agent-role-contracts.html",
+      "agi-agent-playbooks.html",
+      "agent-foundry.html",
+      "agi-node-validator-mesh-v9.html"
+    ]
+  },
+  "rsi": {
+    "eyebrow": "RSI / LOOP GOVERNANCE",
+    "title": "Open-ended discovery.",
+    "accent": "Mechanical authority.",
+    "lead": "RSI exploration is permitted only through deterministic gates: target, emit, filter, atlas, test-plan, eval, insert, promote.",
+    "objective": "Run an RSI-style governance mission: discover a candidate, compare baselines, stress-test, package a dossier, and promote only if proof survives.",
+    "agents": [
+      "Targeter",
+      "Emitter",
+      "Risk Filter",
+      "Causal Atlas",
+      "Test Planner",
+      "Evaluator",
+      "Archive Agent",
+      "Promotion Gate",
+      "Council Reviewer"
+    ],
+    "stages": [
+      "TARGET",
+      "EMIT",
+      "FILTER",
+      "ATLAS",
+      "TEST-PLAN",
+      "EVAL",
+      "INSERT",
+      "PROMOTE",
+      "Dossier",
+      "Council Hold"
+    ],
+    "artifacts": [
+      "rsi-state.json",
+      "candidate-card.json",
+      "risk-report.json",
+      "causal-atlas.json",
+      "test-plan.json",
+      "baseline-comparison.json",
+      "move37-dossier.md",
+      "promotion-decision.json"
+    ],
+    "next": [
+      "from-loop-to-rsi-state-capacity.html",
+      "move37-dossier.html",
+      "loop-bottleneck-observatory.html",
+      "until-done-autonomy-loop.html"
+    ]
+  },
+  "loop": {
+    "eyebrow": "LONG-HORIZON LOOP",
+    "title": "Write the loop, not the prompt.",
+    "accent": "State survives.",
+    "lead": "GoalOS makes long-running work legible: role contracts, state on disk, trace reading, restarts, scorecards, and moving bottlenecks.",
+    "objective": "Design a long-horizon autonomous loop that can restart, read traces, score quality, delete harness overhead, and expose the next bottleneck.",
+    "agents": [
+      "Loop Architect",
+      "Planner",
+      "Generator",
+      "Evaluator",
+      "Trace Reader",
+      "Bottleneck Scout",
+      "State Steward",
+      "Reviewer"
+    ],
+    "stages": [
+      "Contract",
+      "Roles",
+      "State on Disk",
+      "Run",
+      "Trace",
+      "Restart",
+      "Score",
+      "Delete Harness",
+      "Bottleneck",
+      "Ship Smaller Loop"
+    ],
+    "artifacts": [
+      "loop-contract.json",
+      "state-manifest.json",
+      "trace-log.md",
+      "bottleneck-report.md",
+      "restart-plan.json",
+      "quality-scorecard.json"
+    ],
+    "next": [
+      "loop-contract-lab.html",
+      "loop-flight-recorder.html",
+      "loop-bottleneck-observatory.html",
+      "state-on-disk-harness.html"
+    ]
+  },
+  "node": {
+    "eyebrow": "AGI NODE VALIDATION",
+    "title": "Autonomy needs authority.",
+    "accent": "Nodes validate.",
+    "lead": "AGI Nodes appear as Worker, Validator, and Sentinel roles with replay checks, telemetry, challenge windows, and review-ready certificates.",
+    "objective": "Use AGI Node validation to check replay, evidence, policy boundary, telemetry, and settlement readiness for a proof mission.",
+    "agents": [
+      "Node Worker",
+      "Node Validator",
+      "Node Sentinel",
+      "Telemetry Agent",
+      "Replay Agent",
+      "Challenge Agent",
+      "Certificate Agent"
+    ],
+    "stages": [
+      "Node Identity",
+      "Runtime Pins",
+      "Worker Job",
+      "Telemetry",
+      "Replay",
+      "Validator Attestation",
+      "Sentinel Check",
+      "Challenge Window",
+      "Certificate"
+    ],
+    "artifacts": [
+      "node-identity.json",
+      "runtime-pins.json",
+      "worker-output.json",
+      "replay-result.json",
+      "validator-attestation.json",
+      "sentinel-report.json",
+      "validation-certificate.json"
+    ],
+    "next": [
+      "agi-node-validator-mesh-v9.html",
+      "agi-node-validation.html",
+      "human-or-agi-node-validation.html",
+      "validation-control-tower.html"
+    ]
+  },
+  "validation": {
+    "eyebrow": "VALIDATION CONTROL",
+    "title": "Choose who validates.",
+    "accent": "Human, Node, Hybrid, Council.",
+    "lead": "Validation is explicit: authority mode, replay checks, evidence review, risk ledger, challenge window, certificate, decision state.",
+    "objective": "Validate a proof path with Human, AGI Node, Hybrid, or Council review, then produce a decision certificate and reviewer brief.",
+    "agents": [
+      "Human Reviewer",
+      "AGI Node Validator",
+      "Hybrid Arbiter",
+      "Council Reviewer",
+      "Risk Ledger",
+      "Certificate Agent"
+    ],
+    "stages": [
+      "Select Authority",
+      "Commit Verdict",
+      "Replay Check",
+      "Evidence Review",
+      "Risk Ledger",
+      "Challenge Window",
+      "Certificate",
+      "Decision State"
+    ],
+    "artifacts": [
+      "authority-selection.json",
+      "replay-check.json",
+      "risk-ledger.json",
+      "validation-certificate.json",
+      "reviewer-brief.md",
+      "decision-state.json"
+    ],
+    "next": [
+      "validation-control-tower.html",
+      "agi-node-validator-mesh-v9.html",
+      "trust-boundary.html",
+      "proof-run-001-docket.html"
+    ]
+  },
+  "contracts": {
+    "eyebrow": "48 CONTRACTS / PROOF RAIL",
+    "title": "Proof becomes economic.",
+    "accent": "Bounded first.",
+    "lead": "The contract rail is explained as registry, proof ledger, eval registry, attestation, selection gate, token boundary, and settlement simulation \u2014 never a wallet prompt.",
+    "objective": "Understand the 48 GoalOS-created Ethereum Mainnet contracts as one institutional proof rail without sending a transaction.",
+    "agents": [
+      "Contract Cartographer",
+      "Registry Reader",
+      "Proof Ledger Agent",
+      "Eval Registry Agent",
+      "Token Boundary Agent",
+      "Settlement Simulator",
+      "Reviewer"
+    ],
+    "stages": [
+      "Atlas",
+      "Registry",
+      "Proof Ledger",
+      "Eval Registry",
+      "Attestation",
+      "Selection Gate",
+      "Token Boundary",
+      "Settlement Simulation",
+      "Reviewer Packet"
+    ],
+    "artifacts": [
+      "contract-atlas.json",
+      "role-map.json",
+      "proof-rail-notes.md",
+      "token-boundary.md",
+      "settlement-simulation.json",
+      "reviewer-packet.md"
+    ],
+    "next": [
+      "mainnet-contract-atlas.html",
+      "contract-academy.html",
+      "mainnet-proof-rail.html",
+      "token-boundary.html"
+    ]
+  },
+  "proof": {
+    "eyebrow": "PROOF / EVIDENCE",
+    "title": "Output becomes evidence.",
+    "accent": "Evidence becomes decision.",
+    "lead": "Proof pages focus on claims, baselines, proof packets, replay, risk/cost ledgers, validator reports, and reviewer briefs.",
+    "objective": "Prepare a public-safe Evidence Docket for one proof mission with claims matrix, baselines, risk ledger, replay path, and reviewer brief.",
+    "agents": [
+      "Claims Analyst",
+      "Baseline Agent",
+      "Evidence Agent",
+      "Risk Ledger",
+      "Replay Agent",
+      "Validator",
+      "Reviewer Liaison"
+    ],
+    "stages": [
+      "Claims Matrix",
+      "Environment",
+      "Baselines",
+      "Proof Packets",
+      "Replay",
+      "Cost Ledger",
+      "Risk Ledger",
+      "Validator Report",
+      "Reviewer Brief"
+    ],
+    "artifacts": [
+      "claims-matrix.md",
+      "environment.json",
+      "baseline-comparison.json",
+      "proofbundle.json",
+      "replay-instructions.md",
+      "risk-cost-ledger.json",
+      "validator-report.md",
+      "reviewer-brief.md"
+    ],
+    "next": [
+      "proof-run-001-docket.html",
+      "evidence-docket-theatre.html",
+      "proof-ledger.html",
+      "goalos-holy-grail-candidate.html"
+    ]
+  },
+  "trust": {
+    "eyebrow": "TRUST / BOUNDARY",
+    "title": "No proof, no evolution.",
+    "accent": "No wallet. No transaction.",
+    "lead": "Trust pages make the public-alpha boundary clear while routing users to proof, validation, token boundary, and privacy pages.",
+    "objective": "Check the public-alpha boundary: no user data, no user funds, no wallet, no transaction, no network call, no production authority.",
+    "agents": [
+      "Boundary Agent",
+      "Privacy Agent",
+      "Token Boundary Agent",
+      "Risk Sentinel",
+      "Reviewer"
+    ],
+    "stages": [
+      "Boundary",
+      "Data",
+      "Funds",
+      "Wallet",
+      "Transaction",
+      "Network",
+      "Authority",
+      "Review Required"
+    ],
+    "artifacts": [
+      "boundary-review.md",
+      "privacy-boundary.json",
+      "token-boundary.md",
+      "risk-ledger.json"
+    ],
+    "next": [
+      "trust-boundary.html",
+      "token-boundary.html",
+      "privacy.html",
+      "data-boundary.html"
+    ]
+  },
+  "nav": {
+    "eyebrow": "NAVIGATION / SEARCH",
+    "title": "Everything discoverable.",
+    "accent": "No missing surfaces.",
+    "lead": "All Pages, Search, Site Health, and Route Registry are generated from the actual public HTML inventory.",
+    "objective": "Find the right GoalOS route for RSI, AGI Agents, AGI Nodes, validation, contracts, proof, trust, and autonomous work.",
+    "agents": [
+      "Route Indexer",
+      "Search Agent",
+      "Health Auditor",
+      "Boundary Auditor",
+      "Reviewer"
+    ],
+    "stages": [
+      "Index Routes",
+      "Classify",
+      "Search",
+      "Health Check",
+      "Boundary Check",
+      "Report",
+      "Recommend Route"
+    ],
+    "artifacts": [
+      "route-registry.json",
+      "search-index.json",
+      "site-health.json",
+      "navigation-report.md"
+    ],
+    "next": [
+      "all-pages.html",
+      "search.html",
+      "site-health.html",
+      "route-registry.html"
+    ]
+  }
+}

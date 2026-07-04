@@ -1,0 +1,19 @@
+{
+  "version": "v61",
+  "mission_id": "evidence-docket",
+  "objective": "Create a public-safe Evidence Docket for an autonomous proof mission.",
+  "domain": "general-work",
+  "created_at": "2026-07-04T20:46:59.324884Z",
+  "public_alpha_boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ],
+  "summary": "Mission converted into autonomous proof-factory artifacts.",
+  "status": "review_hold",
+  "next_mission": "increase evidence depth or external replay"
+}

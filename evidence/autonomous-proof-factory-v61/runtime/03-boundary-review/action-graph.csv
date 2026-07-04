@@ -1,0 +1,11 @@
+step,owner,action,proof_required,status
+1,Mission Architect,Mission Contract,mission-contract.json,prepared
+2,Planner,Agent Role Contracts,agent-role-contracts.json,prepared
+3,Researcher,AGI Job Card,agi-job-card.json,prepared
+4,Builder,State on Disk,state-on-disk.json,prepared
+5,Evidence Agent,ProofBundle,proofbundle.json,prepared
+6,Verifier,AGI Node Validation,agi-node-validation.json,prepared
+7,AGI Node Validator,Evidence Docket,evidence-docket.json,prepared
+8,Sentinel,Chronicle Entry,chronicle-entry.json,prepared
+9,Chronicle Agent,Capability Promotion Gate,capability-promotion-gate.json,prepared
+10,Capability Promoter,Human Review Hold,human-review-hold.json,prepared

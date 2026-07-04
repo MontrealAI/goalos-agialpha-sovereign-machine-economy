@@ -1,0 +1,29 @@
+{
+  "version": "v61",
+  "mission_id": "trust-room-package",
+  "objective": "Prepare a buyer-ready AI Trust Room proof package.",
+  "domain": "general-work",
+  "created_at": "2026-07-04T20:46:59.321764Z",
+  "public_alpha_boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ],
+  "success_criteria": [
+    "objective bounded",
+    "claims evidence-backed",
+    "validation route selected",
+    "artifacts review-ready"
+  ],
+  "failure_criteria": [
+    "unsupported claim",
+    "missing replay path",
+    "authority overreach",
+    "wallet or transaction request"
+  ],
+  "done_condition": "reviewer-ready Evidence Docket and decision state"
+}

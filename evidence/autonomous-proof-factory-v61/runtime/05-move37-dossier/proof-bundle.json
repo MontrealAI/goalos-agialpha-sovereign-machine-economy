@@ -1,0 +1,69 @@
+{
+  "version": "v61",
+  "mission_id": "move37-dossier",
+  "objective": "Route a high-novelty claim to Architect / Validator Council review.",
+  "domain": "rsi-open-ended-discovery",
+  "created_at": "2026-07-04T20:46:59.326274Z",
+  "public_alpha_boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ],
+  "proof_packets": [
+    {
+      "stage": "Mission Contract",
+      "status": "prepared",
+      "hash": "5a68f13d85d2321632186a2f9f0a8647af8c90c815110984108e6ce6cd3ac677"
+    },
+    {
+      "stage": "Agent Role Contracts",
+      "status": "prepared",
+      "hash": "06cb7e958892c13706687ce9d028055673609ad9fe909faf4a0d7a5a2ef6bb45"
+    },
+    {
+      "stage": "AGI Job Card",
+      "status": "prepared",
+      "hash": "2f6d897c7c05f4b429223c2ec2620d463d38d678bdedeaad215158c3566c4ce4"
+    },
+    {
+      "stage": "State on Disk",
+      "status": "prepared",
+      "hash": "cd92a9008de7e841261a1cd62f1571e038b20b16b64993e21b910952fc0f8b77"
+    },
+    {
+      "stage": "ProofBundle",
+      "status": "prepared",
+      "hash": "e73f6d28c8524e44c9e3d923185a0e885686bea7e099b67fb045cbe441b72893"
+    },
+    {
+      "stage": "AGI Node Validation",
+      "status": "prepared",
+      "hash": "7bd1e8de62c99012875cd7704bf1a66c9ea911db4264fa85b09ac9d8499ea69a"
+    },
+    {
+      "stage": "Evidence Docket",
+      "status": "prepared",
+      "hash": "43ff76d8a8c739bd9f39fcf728468cc82de150a9562c1eb3840972d942b71591"
+    },
+    {
+      "stage": "Chronicle Entry",
+      "status": "prepared",
+      "hash": "cc8dba4dd4e01935effd5815114b33e999c71e20f6f6b0598c4cf33715fea228"
+    },
+    {
+      "stage": "Capability Promotion Gate",
+      "status": "prepared",
+      "hash": "5f8e46b6328f0fed5bbf1261218a2628e83d9a82bf450681ed9615df72a03401"
+    },
+    {
+      "stage": "Human Review Hold",
+      "status": "prepared",
+      "hash": "8fd0be6c3d1671ce6465f76947da79e85f2205cb0bf5aa59bd444460bf9874db"
+    }
+  ],
+  "replay_path": "Use this runtime folder plus hashes.json and reviewer-brief.md"
+}

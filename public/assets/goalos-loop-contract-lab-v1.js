@@ -105,7 +105,7 @@
   $("deleteHarness").addEventListener("click", () => { state.harnessDeleted = true; gateState.harnessMinimal = true; append("HARNESS · deleted one unnecessary scaffold; kept proof boundary and restart files."); compute(); });
   $("copySummary").addEventListener("click", () => {
     const r = compute(); const text = `GoalOS Loop Contract Lab: ${r.decision} (${r.score}/100). A loop becomes institutional when it has role contracts, disk state, trace review, restart policy, and an Evidence Docket.`;
-    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text);
+    if(navigator.clipboard && /* clipboard disabled in public-alpha */ console.log) /* clipboard disabled in public-alpha */ console.log(text);
     append("COPY · executive summary prepared.");
   });
   document.querySelectorAll("[data-download]").forEach(b => b.addEventListener("click", () => download(b.dataset.download)));

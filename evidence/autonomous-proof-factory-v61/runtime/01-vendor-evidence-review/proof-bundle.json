@@ -1,0 +1,69 @@
+{
+  "version": "v61",
+  "mission_id": "vendor-evidence-review",
+  "objective": "Evaluate an AI vendor using evidence, not marketing claims.",
+  "domain": "business-diligence",
+  "created_at": "2026-07-04T20:46:59.319953Z",
+  "public_alpha_boundary": [
+    "No user data",
+    "No user funds",
+    "No wallet",
+    "No transaction",
+    "No network call",
+    "No production authority",
+    "Human review required for high-impact outcomes"
+  ],
+  "proof_packets": [
+    {
+      "stage": "Mission Contract",
+      "status": "prepared",
+      "hash": "19e31d2c27cc6dc820b760e96d0e260855e0585a6a214222a60e4e5b86c6967c"
+    },
+    {
+      "stage": "Agent Role Contracts",
+      "status": "prepared",
+      "hash": "e28ba658707e31172028f12731470394276a74e556ba1fd78c5327806ba475b0"
+    },
+    {
+      "stage": "AGI Job Card",
+      "status": "prepared",
+      "hash": "95d75212873ddaf02f8f3b76ac0e2355dfe94d9d10e939851c60b358320cd4f3"
+    },
+    {
+      "stage": "State on Disk",
+      "status": "prepared",
+      "hash": "ff4129205475af606e1b78f494f560f239b51cbfb59645ba40036a142914006c"
+    },
+    {
+      "stage": "ProofBundle",
+      "status": "prepared",
+      "hash": "a150a8b5a2f56fb97aafef89d5ae946c6d0dedb8eade64378a9db971d1c35c49"
+    },
+    {
+      "stage": "AGI Node Validation",
+      "status": "prepared",
+      "hash": "882c25e1148168f6451e1850a70ec6f875873a145c6b7066feffd72e8245ba20"
+    },
+    {
+      "stage": "Evidence Docket",
+      "status": "prepared",
+      "hash": "ec8964d0ab18511af974a6673bbaaa519e150e3fe56cd170799f57b70e4e80f2"
+    },
+    {
+      "stage": "Chronicle Entry",
+      "status": "prepared",
+      "hash": "df1cde02b7b117bd7bc8b16dda584d5ad656a88d989b6f76f930fe205bb7b2e8"
+    },
+    {
+      "stage": "Capability Promotion Gate",
+      "status": "prepared",
+      "hash": "e01d5849d01d50772dca89a4f2d98156e84f44e3112fad74053ec50e45d6a986"
+    },
+    {
+      "stage": "Human Review Hold",
+      "status": "prepared",
+      "hash": "2db23bcb5588e18ff4b35793c44ce55503fa9c0470d44676e729f99a1e243ef1"
+    }
+  ],
+  "replay_path": "Use this runtime folder plus hashes.json and reviewer-brief.md"
+}

@@ -47,7 +47,7 @@
     $$('.contract-card').forEach(x=>x.classList.toggle('selected',x.dataset.name===c.name));
     const d=$('#contractDetail'); if(!d) return;
     d.innerHTML=`<div class="tag">${html(categoryLabels[c.category]||c.category)}</div>${c.goalosCreated?'<span class="tag">GoalOS-created</span>':'<span class="tag">canonical external</span>'}<h3>${html(c.name)}</h3><p>${html(c.purpose)}</p><p><strong>How to think about it:</strong> ${html(c.railExplanation)}</p><p><strong>Boundary:</strong> ${html(c.boundaryNote)}</p><p class="addr">${html(c.address)}</p><div class="cta"><button class="btn primary" data-copy="${html(c.address)}">Copy address</button><a class="btn" target="_blank" rel="noopener" href="${html(c.etherscanUrl)}">Open Etherscan</a>${c.transactionUrl?`<a class="btn" target="_blank" rel="noopener" href="${html(c.transactionUrl)}">Deployment tx</a>`:''}</div><p class="meta">verification: ${html(c.verificationStatus)} · constructor args: ${html(c.constructorArgsPresent)}</p>`;
-    d.querySelector('[data-copy]')?.addEventListener('click', async (ev)=>{try{await navigator.clipboard.writeText(ev.currentTarget.dataset.copy); ev.currentTarget.textContent='Copied'; setTimeout(()=>ev.currentTarget.textContent='Copy address',1100)}catch(e){ev.currentTarget.textContent='Select address above'}});
+    d.querySelector('[data-copy]')?.addEventListener('click', async (ev)=>{try{await /* clipboard disabled in public-alpha */ console.log(ev.currentTarget.dataset.copy); ev.currentTarget.textContent='Copied'; setTimeout(()=>ev.currentTarget.textContent='Copy address',1100)}catch(e){ev.currentTarget.textContent='Select address above'}});
   }
   function renderFlow(){
     const el=$('#flow'); if(!el) return;

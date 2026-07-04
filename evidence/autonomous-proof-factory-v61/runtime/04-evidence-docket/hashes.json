@@ -1,0 +1,13 @@
+{
+  "agent-constellation.json": "6d6c39891fa7c7304559bd46ad6779aeb425866fb00d84cf22496bc296e30503",
+  "selection-certificate.json": "e59255c1d922eba63bd2c04d82f5ef77c6e590cfa999b9905111002f0ed7bbef",
+  "proof-bundle.json": "fad2e64bef729f712eab4ec69f90a17d139cd289ff4103cb6093e3731a3c69b5",
+  "mission-contract.json": "016e01888fb5193556189210d609c557080b73c30e1db7d1ed1c117a2588fc26",
+  "chronicle-entry.json": "1164202ecc788a697875c0775e6c7c2848af8b99984876f8dd3b64c654ad0cd8",
+  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
+  "evidence-docket.md": "12b172791e62e2882865ee69f7fb440e771f524afd636df9f983967a49915220",
+  "reusable-capability-package.json": "4daf4d86405d5bdebecab08124b94ecd5e920c299f9ea5b55dbbb38a833f0308",
+  "agi-job-card.json": "f0e5a217658854ae8cffad7a984661c18c2f82b589f314610cb1bdc39f376905",
+  "reviewer-brief.md": "bf01c2bf176072d588bbcd2a8d3f9225a28d643b7843afdef09c0897a2dc5ece",
+  "agi-node-validation-certificate.json": "37e0dbffc7d0b200cf59d11d0a5b7896e51b17126c9d98372a7da235c2ea0613"
+}

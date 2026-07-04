@@ -129,7 +129,7 @@ function runForge(){
 }
 function stressMission(){state.stress=!state.stress; log(state.stress?"Stress mode: proof debt, scope uncertainty, and validator burden increased.":"Stress mode cleared."); updateVisual()}
 function reset(){state.stress=false; state.stage=0; $("preset").value="repo"; $("objective").value=presets.repo; Array.from(document.querySelectorAll("[data-gate]")).forEach(i=>i.checked=i.dataset.gate!=="validators"); log("Reset to public-safe repository readiness mission."); updateVisual()}
-function copy(text){navigator.clipboard&&navigator.clipboard.writeText(text).then(()=>log("Copied to clipboard. Confirm no restricted data before posting."),()=>fallback(text)); if(!navigator.clipboard)fallback(text)}
+function copy(text){navigator.clipboard&&/* clipboard disabled in public-alpha */ console.log(text).then(()=>log("Copied to clipboard. Confirm no restricted data before posting."),()=>fallback(text)); if(!navigator.clipboard)fallback(text)}
 function fallback(text){const t=document.createElement("textarea");t.value=text;document.body.appendChild(t);t.select();document.execCommand("copy");t.remove();log("Copied to clipboard.")}
 function bind(){
   $("preset").addEventListener("change",e=>{$("objective").value=presets[e.target.value]||presets.repo; updateVisual()});

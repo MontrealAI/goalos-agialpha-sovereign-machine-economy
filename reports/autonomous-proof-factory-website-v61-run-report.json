@@ -1,0 +1,48 @@
+{
+  "version": "v61",
+  "status": "passed",
+  "mission_cycles_processed": 5,
+  "missions": [
+    {
+      "mission_id": "vendor-evidence-review",
+      "objective": "Evaluate an AI vendor using evidence, not marketing claims.",
+      "domain": "business-diligence",
+      "runtime": "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/evidence/autonomous-proof-factory-v61/runtime/01-vendor-evidence-review",
+      "status": "review_hold",
+      "artifacts": 12
+    },
+    {
+      "mission_id": "trust-room-package",
+      "objective": "Prepare a buyer-ready AI Trust Room proof package.",
+      "domain": "general-work",
+      "runtime": "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/evidence/autonomous-proof-factory-v61/runtime/02-trust-room-package",
+      "status": "review_hold",
+      "artifacts": 12
+    },
+    {
+      "mission_id": "boundary-review",
+      "objective": "Check privacy, token, no-data, no-wallet, and no-transaction boundaries.",
+      "domain": "governance-boundary",
+      "runtime": "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/evidence/autonomous-proof-factory-v61/runtime/03-boundary-review",
+      "status": "review_hold",
+      "artifacts": 12
+    },
+    {
+      "mission_id": "evidence-docket",
+      "objective": "Create a public-safe Evidence Docket for an autonomous proof mission.",
+      "domain": "general-work",
+      "runtime": "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/evidence/autonomous-proof-factory-v61/runtime/04-evidence-docket",
+      "status": "review_hold",
+      "artifacts": 12
+    },
+    {
+      "mission_id": "move37-dossier",
+      "objective": "Route a high-novelty claim to Architect / Validator Council review.",
+      "domain": "rsi-open-ended-discovery",
+      "runtime": "/home/runner/work/goalos-agialpha-sovereign-machine-economy/goalos-agialpha-sovereign-machine-economy/evidence/autonomous-proof-factory-v61/runtime/05-move37-dossier",
+      "status": "review_hold",
+      "artifacts": 12
+    }
+  ],
+  "public_alpha_boundary_preserved": true
+}

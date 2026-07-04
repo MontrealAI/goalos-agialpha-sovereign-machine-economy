@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": [
+    "objective"
+  ],
+  "properties": {
+    "objective": {
+      "type": "string"
+    },
+    "risk": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    }
+  }
+}
