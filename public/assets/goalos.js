@@ -1,1 +1,1 @@
-/* GoalOS compatibility asset. Browser-local only. */
+/* GoalOS compatibility loader: browser-local. */

@@ -1,1 +1,40 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search · GoalOS</title><link rel="stylesheet" href="assets/goalos-sovereign-interaction-os-v53.css"><script defer src="assets/goalos-route-registry-v53.js"></script><script defer src="assets/goalos-sovereign-interaction-os-v53.js"></script></head><body class="v53-page" data-goalos-kind="search"><div class="v53-shell"><nav class="v53-nav"><a class="v53-brand" href="index.html"><span class="v53-logo">α</span><span><strong>GOALOS</strong><small>AGIALPHA</small></span></a><div class="v53-navlinks"><button data-v53-run>Run Demo</button><a href="search.html">Search</a><a href="site-health.html">Health</a></div></nav><section class="v53-hero"><main class="v53-panel v53-main"><div class="v53-kicker">Search</div><h1 class="v53-title">Find the right <em>proof surface.</em></h1><div class="v53-objective"><label>Search routes</label><textarea id="v53-search-box" style="min-height:74px" placeholder="contracts, RSI, loop, node, validation, proof…"></textarea></div><div id="v53-search-results" class="v53-routes"></div></main></section></div><script>document.addEventListener("DOMContentLoaded",()=>{const q=document.getElementById("v53-search-box"),out=document.getElementById("v53-search-results");function draw(){const s=(q.value||"").toLowerCase();const rows=(window.GOALOS_V53_ROUTES||[]).filter(x=>!s||JSON.stringify(x).toLowerCase().includes(s)).slice(0,100);out.innerHTML=rows.map(x=>`<a class="v53-route" href="${x.href}"><b>${x.title}</b><small>${x.category} · ${x.href}</small></a>`).join("")}q.addEventListener("input",draw);draw()});</script></body></html>
+<!doctype html>
+<html lang="en" data-goalos-page="search">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search · GoalOS</title>
+<meta name="description" content="Search GoalOS routes locally.">
+<link rel="stylesheet" href="assets/goalos-sovereign-experience-os-v54.css">
+</head>
+<body class="g54-page g54-kind-search">
+<div class="g54-bg"></div>
+<nav class="g54-topnav"><a class="g54-brand" href="index.html"><span class="g54-logo">α</span><span><b>GOALOS</b><small>AGIALPHA Ascension</small></span></a><div class="g54-navlinks"><button class="g54-pill g54-run-demo" type="button" data-goalos-run="1">Run Demo</button><a class="g54-pill" href="agi-agent-workbench.html">AGI Agents</a><a class="g54-pill" href="from-loop-to-rsi-state-capacity.html">RSI / Loop</a><a class="g54-pill" href="agi-alpha-node-v0.html">AGI Node</a><a class="g54-pill" href="validation-control-tower.html">Validate</a><a class="g54-pill" href="mainnet-contract-atlas.html">48 Contracts</a><a class="g54-pill" href="site-map.html">All Pages</a><a class="g54-pill" href="search.html">Search</a><a class="g54-pill" href="site-health.html">Health</a></div></nav>
+<main class="g54-main">
+<section class="g54-hero">
+  <div class="g54-copy">
+    <p class="g54-kicker">Route Intelligence</p>
+    <h1>Find the right surface.</h1>
+    <p class="g54-sub">Search the complete GoalOS route map and open the best next page.</p>
+    <div class="g54-actions"><button class="g54-primary g54-run-demo" data-goalos-run="1">Run end-to-end demo</button><button class="g54-secondary g54-ask" type="button">Ask GoalOS</button><a class="g54-secondary" href="site-map.html">All Pages</a></div>
+    <div class="g54-composer"><label>What should GoalOS help you accomplish?</label><textarea class="g54-objective">Find the most relevant GoalOS page for the user objective and explain the route.</textarea><div><button class="g54-primary g54-run-demo" data-goalos-run="1">Generate mission</button><span>browser-local · no wallet · no transaction</span></div></div>
+  </div>
+  <aside class="g54-console">
+    <div class="g54-console-top"><b>Live mission console</b><span>Browser-local guidance</span></div>
+    <div class="g54-orb">α</div>
+    <div class="g54-agents"><div class="g54-agent" data-agent="1"><span>01</span><b>Route Index</b></div><div class="g54-agent" data-agent="2"><span>02</span><b>Intent Classifier</b></div><div class="g54-agent" data-agent="3"><span>03</span><b>Guide</b></div><div class="g54-agent" data-agent="4"><span>04</span><b>Boundary Checker</b></div></div>
+    <pre class="g54-mini-log">mission: GOALOS-search-V54
+surface: search.html
+authority: Browser-local guidance
+state: READY_FOR_PAGE_SPECIFIC_DEMO
+external actions: 0</pre>
+  </aside>
+</section>
+<section class="g54-section"><div class="g54-section-head"><span>Proof path</span><h2>Page-specific autonomous run.</h2><p>The stages below animate when the demo runs. Every surface has its own mission profile.</p></div><div class="g54-flow"><article class="g54-flow-card" data-stage="1"><span>01</span><b>Question</b><p>Browser-local proof gate.</p></article><article class="g54-flow-card" data-stage="2"><span>02</span><b>Intent</b><p>Browser-local proof gate.</p></article><article class="g54-flow-card" data-stage="3"><span>03</span><b>Search</b><p>Browser-local proof gate.</p></article><article class="g54-flow-card" data-stage="4"><span>04</span><b>Rank routes</b><p>Browser-local proof gate.</p></article><article class="g54-flow-card" data-stage="5"><span>05</span><b>Explain</b><p>Browser-local proof gate.</p></article><article class="g54-flow-card" data-stage="6"><span>06</span><b>Open route</b><p>Browser-local proof gate.</p></article><article class="g54-flow-card" data-stage="7"><span>07</span><b>Next action</b><p>Browser-local proof gate.</p></article></div></section>
+
+<section class="g54-section"><div class="g54-section-head"><span>Next routes</span><h2>Open the right surface.</h2></div><div class="g54-next-grid"><a class="g54-next" href="site-map.html"><span>NAV</span><b>All Pages</b><small>Complete public route surface.</small></a><a class="g54-next" href="route-registry.html"><span>NAV</span><b>Route Registry</b><small>Route inventory and status.</small></a><a class="g54-next" href="index.html"><span>COMMAND</span><b>Command Center</b><small>Tell GoalOS what you want. One cockpit for demos, agents, RSI, nodes, validation, contracts, proof, and navigation.</small></a><a class="g54-next" href="ask-goalos.html"><span>ASK</span><b>Ask GoalOS</b><small>Browser-local route guidance.</small></a></div></section>
+<section class="g54-section"><div class="g54-section-head"><span>Search</span><h2>Find any GoalOS surface.</h2></div><input class="g54-search-input" placeholder="Search RSI, contracts, agents, validation, proof..." aria-label="Search routes"><div class="g54-route-list g54-search-results"></div></section>
+<section class="g54-boundary"><b>Public-alpha boundary.</b> No user data. No user funds. No wallet. No transaction. No production authority. Human review required. $AGIALPHA public contract identification only. Not available from GoalOS. No sale. No custody. No wallet support. No investment advice.</section>
+</main>
+<div id="goalos-cockpit-root"></div>
+<script src="assets/goalos-sovereign-experience-os-v54.js"></script>
+</body></html>

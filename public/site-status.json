@@ -1,1 +1,7 @@
-{"status":"ready","boundary":"preserved","externalActions":0}
+{
+  "version": "v54",
+  "publicPages": 298,
+  "boundary": "preserved",
+  "externalActions": 0,
+  "productionAuthorization": "not_granted"
+}

@@ -1,0 +1,1792 @@
+{
+  "version": "v54",
+  "routes": [
+    {
+      "route": "404.html",
+      "title": "404",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "404.html"
+    },
+    {
+      "route": "action-reason-trace-contract.html",
+      "title": "Action Reason Trace Contract",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "contracts",
+      "href": "action-reason-trace-contract.html"
+    },
+    {
+      "route": "adoption.html",
+      "title": "Adoption",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "adoption.html"
+    },
+    {
+      "route": "agent-constellation-demo.html",
+      "title": "Agent Constellation Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agent-constellation-demo.html"
+    },
+    {
+      "route": "agent-constellation.html",
+      "title": "Agent Constellation",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agent-constellation.html"
+    },
+    {
+      "route": "agent-flow-academy-v38.html",
+      "title": "Agent Flow Academy",
+      "description": "Understand the system visually.",
+      "kind": "academy",
+      "href": "agent-flow-academy-v38.html"
+    },
+    {
+      "route": "agent-flow-academy.html",
+      "title": "Agent Flow Academy",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agent-flow-academy.html"
+    },
+    {
+      "route": "agent-foundry.html",
+      "title": "Agent Foundry",
+      "description": "Add the AGI agents and route them through proof.",
+      "kind": "agent",
+      "href": "agent-foundry.html"
+    },
+    {
+      "route": "agents.html",
+      "title": "Agents",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agents.html"
+    },
+    {
+      "route": "agi-agent-command-center-v37.html",
+      "title": "Agi Agent Command Center V37",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-command-center-v37.html"
+    },
+    {
+      "route": "agi-agent-command-center.html",
+      "title": "Agi Agent Command Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-command-center.html"
+    },
+    {
+      "route": "agi-agent-constellation.html",
+      "title": "Agi Agent Constellation",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-constellation.html"
+    },
+    {
+      "route": "agi-agent-end-to-end-demo-v40.html",
+      "title": "Agi Agent End To End Demo V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-end-to-end-demo-v40.html"
+    },
+    {
+      "route": "agi-agent-end-to-end-demo.html",
+      "title": "Agi Agent End To End Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-end-to-end-demo.html"
+    },
+    {
+      "route": "agi-agent-mission-control-v38.html",
+      "title": "Agi Agent Mission Control V38",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-mission-control-v38.html"
+    },
+    {
+      "route": "agi-agent-mission-control.html",
+      "title": "AGI Agent Mission Control",
+      "description": "Visual agent mission control for non-technical users.",
+      "kind": "agent",
+      "href": "agi-agent-mission-control.html"
+    },
+    {
+      "route": "agi-agent-operating-room.html",
+      "title": "Agi Agent Operating Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-operating-room.html"
+    },
+    {
+      "route": "agi-agent-operating-system.html",
+      "title": "Agi Agent Operating System",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-operating-system.html"
+    },
+    {
+      "route": "agi-agent-playbooks.html",
+      "title": "AGI Agent Playbooks",
+      "description": "Solved use cases that show exactly what to do.",
+      "kind": "playbook",
+      "href": "agi-agent-playbooks.html"
+    },
+    {
+      "route": "agi-agent-run-theatre.html",
+      "title": "AGI Agent Run Theatre",
+      "description": "Watch agents turn work into proof.",
+      "kind": "agent-run",
+      "href": "agi-agent-run-theatre.html"
+    },
+    {
+      "route": "agi-agent-studio.html",
+      "title": "Agi Agent Studio",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agent-studio.html"
+    },
+    {
+      "route": "agi-agent-use-case-gallery.html",
+      "title": "Agi Agent Use Case Gallery",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "agi-agent-use-case-gallery.html"
+    },
+    {
+      "route": "agi-agent-use-cases.html",
+      "title": "Agi Agent Use Cases",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "agi-agent-use-cases.html"
+    },
+    {
+      "route": "agi-agent-workbench.html",
+      "title": "AGI Agent Workbench",
+      "description": "Turn a plain objective into agents, AGI Job, AGI Node handoff, proof, and validation.",
+      "kind": "agent",
+      "href": "agi-agent-workbench.html"
+    },
+    {
+      "route": "agi-agents.html",
+      "title": "Agi Agents",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "agi-agents.html"
+    },
+    {
+      "route": "agi-alpha-node-v0.html",
+      "title": "AGI Alpha Node",
+      "description": "Worker, Validator, Sentinel runtime handoff.",
+      "kind": "node",
+      "href": "agi-alpha-node-v0.html"
+    },
+    {
+      "route": "agi-alpha-thesis.html",
+      "title": "Agi Alpha Thesis",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "agi-alpha-thesis.html"
+    },
+    {
+      "route": "agi-jobs-v0-v2.html",
+      "title": "Agi Jobs V0 V2",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "agi-jobs-v0-v2.html"
+    },
+    {
+      "route": "agi-node-use-cases.html",
+      "title": "AGI Node Use Cases",
+      "description": "When to use nodes, humans, hybrid, or council.",
+      "kind": "node",
+      "href": "agi-node-use-cases.html"
+    },
+    {
+      "route": "agi-node-validation.html",
+      "title": "AGI Node Validation",
+      "description": "Deterministic public-safe validation path.",
+      "kind": "node",
+      "href": "agi-node-validation.html"
+    },
+    {
+      "route": "agialpha-control-rail.html",
+      "title": "Agialpha Control Rail",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "agialpha-control-rail.html"
+    },
+    {
+      "route": "agialpha-token-boundary.html",
+      "title": "Agialpha Token Boundary",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "agialpha-token-boundary.html"
+    },
+    {
+      "route": "all-pages.html",
+      "title": "All Pages",
+      "description": "All public pages grouped by purpose.",
+      "kind": "nav",
+      "href": "all-pages.html"
+    },
+    {
+      "route": "architecture.html",
+      "title": "Architecture",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "architecture.html"
+    },
+    {
+      "route": "ask-goalos.html",
+      "title": "Ask GoalOS",
+      "description": "Browser-local route guidance.",
+      "kind": "ask",
+      "href": "ask-goalos.html"
+    },
+    {
+      "route": "atlas.html",
+      "title": "Atlas",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "atlas.html"
+    },
+    {
+      "route": "autonomous-demo-run-theatre-v40.html",
+      "title": "Autonomous Demo Run Theatre V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "autonomous-demo-run-theatre-v40.html"
+    },
+    {
+      "route": "autonomous-demo-run-theatre-v41.html",
+      "title": "Autonomous Demo Run Theatre V41",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "autonomous-demo-run-theatre-v41.html"
+    },
+    {
+      "route": "autonomous-demo-run-theatre.html",
+      "title": "Autonomous Demo Run Theatre",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "autonomous-demo-run-theatre.html"
+    },
+    {
+      "route": "autonomous-mission-demo.html",
+      "title": "Autonomous Mission Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "autonomous-mission-demo.html"
+    },
+    {
+      "route": "autonomous-mission-studio-v41.html",
+      "title": "Autonomous Mission Studio V41",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "autonomous-mission-studio-v41.html"
+    },
+    {
+      "route": "autonomous-mission-studio.html",
+      "title": "Autonomous Mission Studio",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "autonomous-mission-studio.html"
+    },
+    {
+      "route": "autonomous-proof-mission-demo-v40.html",
+      "title": "Autonomous Proof Mission Demo V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "autonomous-proof-mission-demo-v40.html"
+    },
+    {
+      "route": "autonomous-proof-mission-demo.html",
+      "title": "Autonomous Proof Mission Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "autonomous-proof-mission-demo.html"
+    },
+    {
+      "route": "autonomy-replay-theatre.html",
+      "title": "Autonomy Replay Theatre",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "autonomy-replay-theatre.html"
+    },
+    {
+      "route": "autonomy-theatre-academy.html",
+      "title": "Autonomy Theatre Academy",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "autonomy-theatre-academy.html"
+    },
+    {
+      "route": "autonomy-theatre-use-cases.html",
+      "title": "Autonomy Theatre Use Cases",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "autonomy-theatre-use-cases.html"
+    },
+    {
+      "route": "autonomy-theatre.html",
+      "title": "Autonomy Theatre",
+      "description": "Run the complete objective to Chronicle public-safe mission.",
+      "kind": "autonomy",
+      "href": "autonomy-theatre.html"
+    },
+    {
+      "route": "capability-compounding-lab.html",
+      "title": "Capability Compounding Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "capability-compounding-lab.html"
+    },
+    {
+      "route": "capability-parity.html",
+      "title": "Capability Parity",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "capability-parity.html"
+    },
+    {
+      "route": "capability-stack.html",
+      "title": "Capability Stack",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "capability-stack.html"
+    },
+    {
+      "route": "case-study.html",
+      "title": "Case Study",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "case-study.html"
+    },
+    {
+      "route": "claim-boundary.html",
+      "title": "Claim Boundary",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "claim-boundary.html"
+    },
+    {
+      "route": "commercial-evidence.html",
+      "title": "Commercial Evidence",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "commercial-evidence.html"
+    },
+    {
+      "route": "console.html",
+      "title": "Console",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "console.html"
+    },
+    {
+      "route": "contract-academy.html",
+      "title": "Contract Academy",
+      "description": "Learn the proof rail in three passes.",
+      "kind": "contracts",
+      "href": "contract-academy.html"
+    },
+    {
+      "route": "coordination-console.html",
+      "title": "Coordination Console",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "coordination-console.html"
+    },
+    {
+      "route": "data-boundary.html",
+      "title": "Data Boundary",
+      "description": "No personal, customer, credential, or proprietary data.",
+      "kind": "boundary",
+      "href": "data-boundary.html"
+    },
+    {
+      "route": "data-room.html",
+      "title": "Data Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "data-room.html"
+    },
+    {
+      "route": "demo-ecosystem-registry.html",
+      "title": "Demo Ecosystem Registry",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "nav",
+      "href": "demo-ecosystem-registry.html"
+    },
+    {
+      "route": "demo-gallery.html",
+      "title": "Demo Gallery",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "demo-gallery.html"
+    },
+    {
+      "route": "demo-launcher.html",
+      "title": "Demo Launcher",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "demo-launcher.html"
+    },
+    {
+      "route": "demo-safety.html",
+      "title": "Demo Safety",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "demo-safety.html"
+    },
+    {
+      "route": "docket-builder.html",
+      "title": "Docket Builder",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "docket-builder.html"
+    },
+    {
+      "route": "docs.html",
+      "title": "Docs",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "docs.html"
+    },
+    {
+      "route": "document-series.html",
+      "title": "Document Series",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "document-series.html"
+    },
+    {
+      "route": "downloads/index.html",
+      "title": "Index",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "downloads/index.html"
+    },
+    {
+      "route": "end-to-end-autonomous-demo-v40.html",
+      "title": "End To End Autonomous Demo V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "end-to-end-autonomous-demo-v40.html"
+    },
+    {
+      "route": "end-to-end-autonomous-demo-v41.html",
+      "title": "End To End Autonomous Demo V41",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "end-to-end-autonomous-demo-v41.html"
+    },
+    {
+      "route": "end-to-end-autonomous-demo.html",
+      "title": "End To End Autonomous Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "end-to-end-autonomous-demo.html"
+    },
+    {
+      "route": "end-to-end-demo-use-cases-v40.html",
+      "title": "End To End Demo Use Cases V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "end-to-end-demo-use-cases-v40.html"
+    },
+    {
+      "route": "end-to-end-demo-use-cases-v41.html",
+      "title": "End To End Demo Use Cases V41",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "end-to-end-demo-use-cases-v41.html"
+    },
+    {
+      "route": "end-to-end-demo-use-cases.html",
+      "title": "End To End Demo Use Cases",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "end-to-end-demo-use-cases.html"
+    },
+    {
+      "route": "enterprise.html",
+      "title": "Enterprise",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "enterprise.html"
+    },
+    {
+      "route": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "evaluation-program.html"
+    },
+    {
+      "route": "evaluation.html",
+      "title": "Evaluation",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "evaluation.html"
+    },
+    {
+      "route": "evidence-docket-theatre.html",
+      "title": "Evidence Docket Theatre",
+      "description": "Turn claims into reviewable dockets.",
+      "kind": "proof",
+      "href": "evidence-docket-theatre.html"
+    },
+    {
+      "route": "evidence-room.html",
+      "title": "Evidence Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "evidence-room.html"
+    },
+    {
+      "route": "evidence-to-production-roadmap.html",
+      "title": "Evidence To Production Roadmap",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "evidence-to-production-roadmap.html"
+    },
+    {
+      "route": "evidence-to-scale.html",
+      "title": "Evidence To Scale",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "evidence-to-scale.html"
+    },
+    {
+      "route": "evidence.html",
+      "title": "Evidence",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "evidence.html"
+    },
+    {
+      "route": "evolution-ledger-control-room.html",
+      "title": "Evolution Ledger Control Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "evolution-ledger-control-room.html"
+    },
+    {
+      "route": "executive-brief.html",
+      "title": "Executive Brief",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "executive-brief.html"
+    },
+    {
+      "route": "external-reviewer-replay-room.html",
+      "title": "External Reviewer Replay Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "external-reviewer-replay-room.html"
+    },
+    {
+      "route": "external-validation-roadmap.html",
+      "title": "External Validation Roadmap",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "validation",
+      "href": "external-validation-roadmap.html"
+    },
+    {
+      "route": "falsification-box.html",
+      "title": "Falsification Box",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "falsification-box.html"
+    },
+    {
+      "route": "falsification-gauntlet.html",
+      "title": "Falsification Gauntlet",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "falsification-gauntlet.html"
+    },
+    {
+      "route": "faq.html",
+      "title": "Faq",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "faq.html"
+    },
+    {
+      "route": "for-new-users.html",
+      "title": "For New Users",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "for-new-users.html"
+    },
+    {
+      "route": "for-reviewers.html",
+      "title": "For Reviewers",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "for-reviewers.html"
+    },
+    {
+      "route": "from-loop-to-rsi-governance.html",
+      "title": "Loop to RSI Governance",
+      "description": "RSI governance control surface.",
+      "kind": "rsi",
+      "href": "from-loop-to-rsi-governance.html"
+    },
+    {
+      "route": "from-loop-to-rsi-sovereign-console.html",
+      "title": "Loop to RSI Sovereign Console",
+      "description": "Sovereign console for Loop to RSI routes.",
+      "kind": "rsi",
+      "href": "from-loop-to-rsi-sovereign-console.html"
+    },
+    {
+      "route": "from-loop-to-rsi-state-capacity.html",
+      "title": "From Loop to RSI",
+      "description": "Governance before the system outruns the institution.",
+      "kind": "rsi",
+      "href": "from-loop-to-rsi-state-capacity.html"
+    },
+    {
+      "route": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "frontier-release-case-study.html"
+    },
+    {
+      "route": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "frontier-release-doctrine.html"
+    },
+    {
+      "route": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "frontier-release-room.html"
+    },
+    {
+      "route": "frontier-room.html",
+      "title": "Frontier Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "frontier-room.html"
+    },
+    {
+      "route": "glossary.html",
+      "title": "Glossary",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "glossary.html"
+    },
+    {
+      "route": "goalos-aurora-command-center.html",
+      "title": "Goalos Aurora Command Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "goalos-aurora-command-center.html"
+    },
+    {
+      "route": "goalos-aurora.html",
+      "title": "Goalos Aurora",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "goalos-aurora.html"
+    },
+    {
+      "route": "goalos-command-center.html",
+      "title": "Command Center",
+      "description": "Mission composer and phase navigation.",
+      "kind": "command",
+      "href": "goalos-command-center.html"
+    },
+    {
+      "route": "goalos-gold-master.html",
+      "title": "Goalos Gold Master",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "goalos-gold-master.html"
+    },
+    {
+      "route": "goalos-loop-bottleneck-observatory.html",
+      "title": "GoalOS Loop Bottleneck Observatory",
+      "description": "Loop bottleneck observatory route.",
+      "kind": "loop",
+      "href": "goalos-loop-bottleneck-observatory.html"
+    },
+    {
+      "route": "goalos-mission-studio.html",
+      "title": "Goalos Mission Studio",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "goalos-mission-studio.html"
+    },
+    {
+      "route": "goalos-phase-completion.html",
+      "title": "Phase Completion",
+      "description": "Complete phase surface: all major demos, proof paths, and route inventory.",
+      "kind": "command",
+      "href": "goalos-phase-completion.html"
+    },
+    {
+      "route": "goalos.html",
+      "title": "Goalos",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "goalos.html"
+    },
+    {
+      "route": "gold-master-use-cases.html",
+      "title": "Gold Master Use Cases",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "gold-master-use-cases.html"
+    },
+    {
+      "route": "governance.html",
+      "title": "Governance",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "governance.html"
+    },
+    {
+      "route": "graduation-control-room.html",
+      "title": "Graduation Control Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "graduation-control-room.html"
+    },
+    {
+      "route": "help-center.html",
+      "title": "Help Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "help-center.html"
+    },
+    {
+      "route": "historical-command-center.html",
+      "title": "Historical Command Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "historical-command-center.html"
+    },
+    {
+      "route": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "holy-grail-candidate.html"
+    },
+    {
+      "route": "human-or-agi-node-validation.html",
+      "title": "Human or AGI Node Validation",
+      "description": "Choose human, node, hybrid, or council.",
+      "kind": "validation",
+      "href": "human-or-agi-node-validation.html"
+    },
+    {
+      "route": "human-or-node-validation.html",
+      "title": "Human or Node Validation",
+      "description": "Human or node validation path.",
+      "kind": "validation",
+      "href": "human-or-node-validation.html"
+    },
+    {
+      "route": "independent-validation.html",
+      "title": "Independent Validation",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "validation",
+      "href": "independent-validation.html"
+    },
+    {
+      "route": "index.html",
+      "title": "Command Center",
+      "description": "Tell GoalOS what you want. One cockpit for demos, agents, RSI, nodes, validation, contracts, proof, and navigation.",
+      "kind": "command",
+      "href": "index.html"
+    },
+    {
+      "route": "institution.html",
+      "title": "Institution",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "institution.html"
+    },
+    {
+      "route": "institutional-deployment-wedge.html",
+      "title": "Institutional Deployment Wedge",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "institutional-deployment-wedge.html"
+    },
+    {
+      "route": "investment-token-boundary.html",
+      "title": "Investment Token Boundary",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "investment-token-boundary.html"
+    },
+    {
+      "route": "jobs.html",
+      "title": "Jobs",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "jobs.html"
+    },
+    {
+      "route": "launch-narrative.html",
+      "title": "Launch Narrative",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "launch-narrative.html"
+    },
+    {
+      "route": "launch.html",
+      "title": "Launch",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "launch.html"
+    },
+    {
+      "route": "legal-shield.html",
+      "title": "Legal Shield",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "legal-shield.html"
+    },
+    {
+      "route": "legal.html",
+      "title": "Legal",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "legal.html"
+    },
+    {
+      "route": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "local-autopilot-demo.html"
+    },
+    {
+      "route": "loop-bottleneck-observatory.html",
+      "title": "Loop Bottleneck Observatory",
+      "description": "Find the next bottleneck and make it visible.",
+      "kind": "loop",
+      "href": "loop-bottleneck-observatory.html"
+    },
+    {
+      "route": "loop-contract-lab.html",
+      "title": "Loop Contract Lab",
+      "description": "Write the loop, negotiate the contract, then evaluate.",
+      "kind": "loop",
+      "href": "loop-contract-lab.html"
+    },
+    {
+      "route": "loop-flight-recorder.html",
+      "title": "Loop Flight Recorder",
+      "description": "Read the traces and replay the run.",
+      "kind": "loop",
+      "href": "loop-flight-recorder.html"
+    },
+    {
+      "route": "loop-to-rsi.html",
+      "title": "Loop to RSI",
+      "description": "Transition from loop discipline to RSI governance.",
+      "kind": "rsi",
+      "href": "loop-to-rsi.html"
+    },
+    {
+      "route": "mainnet-contract-atlas.html",
+      "title": "Mainnet Contract Atlas",
+      "description": "Know the 48 GoalOS-created Ethereum Mainnet contracts.",
+      "kind": "contracts",
+      "href": "mainnet-contract-atlas.html"
+    },
+    {
+      "route": "mainnet-proof-rail.html",
+      "title": "Mainnet Proof Rail",
+      "description": "Public proof rail for the 48 contracts.",
+      "kind": "contracts",
+      "href": "mainnet-proof-rail.html"
+    },
+    {
+      "route": "meta-agentic-agent-os.html",
+      "title": "Meta Agentic Agent Os",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "meta-agentic-agent-os.html"
+    },
+    {
+      "route": "meta-agentic-agents.html",
+      "title": "Meta Agentic Agents",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "meta-agentic-agents.html"
+    },
+    {
+      "route": "meta-agentic-alpha-agi-os.html",
+      "title": "Meta Agentic Alpha Agi Os",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "meta-agentic-alpha-agi-os.html"
+    },
+    {
+      "route": "meta-agentic-alpha-agi.html",
+      "title": "Meta Agentic Alpha Agi",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "meta-agentic-alpha-agi.html"
+    },
+    {
+      "route": "metrics.html",
+      "title": "Metrics",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "metrics.html"
+    },
+    {
+      "route": "mission-autopilot.html",
+      "title": "Mission Autopilot",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "mission-autopilot.html"
+    },
+    {
+      "route": "mission-command-center.html",
+      "title": "Mission Command Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "mission-command-center.html"
+    },
+    {
+      "route": "mission-os-canon.html",
+      "title": "Mission Os Canon",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "mission-os-canon.html"
+    },
+    {
+      "route": "mission-os.html",
+      "title": "Mission Os",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "mission-os.html"
+    },
+    {
+      "route": "mission-studio.html",
+      "title": "Mission Studio",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "mission-studio.html"
+    },
+    {
+      "route": "mission.html",
+      "title": "Mission",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "mission.html"
+    },
+    {
+      "route": "move37-dossier.html",
+      "title": "Move-37 Dossier",
+      "description": "High-novelty breakthroughs require reproduction, stress testing, persistence gate, and dossier bundle.",
+      "kind": "move37",
+      "href": "move37-dossier.html"
+    },
+    {
+      "route": "multi-agent-institution.html",
+      "title": "Multi Agent Institution",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "multi-agent-institution.html"
+    },
+    {
+      "route": "narrative.html",
+      "title": "Narrative",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "narrative.html"
+    },
+    {
+      "route": "no-data-no-funds.html",
+      "title": "No Data No Funds",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "no-data-no-funds.html"
+    },
+    {
+      "route": "node.html",
+      "title": "Node",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "node",
+      "href": "node.html"
+    },
+    {
+      "route": "objective-command-center.html",
+      "title": "Objective Command Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "objective-command-center.html"
+    },
+    {
+      "route": "open-ended-work-engine-lab.html",
+      "title": "Open Ended Work Engine Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "open-ended-work-engine-lab.html"
+    },
+    {
+      "route": "open-ended-work-engine.html",
+      "title": "Open Ended Work Engine",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "open-ended-work-engine.html"
+    },
+    {
+      "route": "operator-checklist.html",
+      "title": "Operator Checklist",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "operator-checklist.html"
+    },
+    {
+      "route": "operators.html",
+      "title": "Operators",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "operators.html"
+    },
+    {
+      "route": "paper-to-product.html",
+      "title": "Paper To Product",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "paper-to-product.html"
+    },
+    {
+      "route": "pathfinder.html",
+      "title": "Pathfinder",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "pathfinder.html"
+    },
+    {
+      "route": "pilot-program.html",
+      "title": "Pilot Program",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "pilot-program.html"
+    },
+    {
+      "route": "pilot-proof.html",
+      "title": "Pilot Proof",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "pilot-proof.html"
+    },
+    {
+      "route": "privacy.html",
+      "title": "Privacy",
+      "description": "Browser-local public-alpha privacy boundary.",
+      "kind": "boundary",
+      "href": "privacy.html"
+    },
+    {
+      "route": "product.html",
+      "title": "Product",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "product.html"
+    },
+    {
+      "route": "production-graduation-roadmap.html",
+      "title": "Production Graduation Roadmap",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "production-graduation-roadmap.html"
+    },
+    {
+      "route": "production-readiness-gauntlet.html",
+      "title": "Production Readiness Gauntlet",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "production-readiness-gauntlet.html"
+    },
+    {
+      "route": "proof-backed-upgrade-rights-room.html",
+      "title": "Proof Backed Upgrade Rights Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-backed-upgrade-rights-room.html"
+    },
+    {
+      "route": "proof-card-studio.html",
+      "title": "Proof Card Studio",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-card-studio.html"
+    },
+    {
+      "route": "proof-carrying-artifact-foundry.html",
+      "title": "Proof Carrying Artifact Foundry",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-carrying-artifact-foundry.html"
+    },
+    {
+      "route": "proof-console.html",
+      "title": "Proof Console",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-console.html"
+    },
+    {
+      "route": "proof-economy.html",
+      "title": "Proof Economy",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-economy.html"
+    },
+    {
+      "route": "proof-experience-atlas.html",
+      "title": "Proof Experience Atlas",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-experience-atlas.html"
+    },
+    {
+      "route": "proof-flight-demo.html",
+      "title": "Proof Flight Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-flight-demo.html"
+    },
+    {
+      "route": "proof-gradient-lab.html",
+      "title": "Proof Gradient Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-gradient-lab.html"
+    },
+    {
+      "route": "proof-ledger.html",
+      "title": "Proof Ledger",
+      "description": "Public proof ledger and route registry.",
+      "kind": "proof",
+      "href": "proof-ledger.html"
+    },
+    {
+      "route": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-metrics-dashboard.html"
+    },
+    {
+      "route": "proof-mission-control.html",
+      "title": "Proof Mission Control",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-control.html"
+    },
+    {
+      "route": "proof-mission-demo-academy-v40.html",
+      "title": "Proof Mission Demo Academy V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-demo-academy-v40.html"
+    },
+    {
+      "route": "proof-mission-demo-academy-v41.html",
+      "title": "Proof Mission Demo Academy V41",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-demo-academy-v41.html"
+    },
+    {
+      "route": "proof-mission-demo-academy.html",
+      "title": "Proof Mission Demo Academy",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-demo-academy.html"
+    },
+    {
+      "route": "proof-mission-demo.html",
+      "title": "Proof Mission Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-demo.html"
+    },
+    {
+      "route": "proof-mission-forge.html",
+      "title": "Proof Mission Forge",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-forge.html"
+    },
+    {
+      "route": "proof-mission-slots.html",
+      "title": "Proof Mission Slots",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-mission-slots.html"
+    },
+    {
+      "route": "proof-of-evolution.html",
+      "title": "Proof Of Evolution",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-of-evolution.html"
+    },
+    {
+      "route": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket",
+      "description": "Repository readiness becomes reviewable evidence.",
+      "kind": "proof",
+      "href": "proof-run-001-docket.html"
+    },
+    {
+      "route": "proof-run-001-execution-room.html",
+      "title": "Proof Run 001 Execution Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-run-001-execution-room.html"
+    },
+    {
+      "route": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-run-001-live.html"
+    },
+    {
+      "route": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "description": "Proof Run 001 surface.",
+      "kind": "proof",
+      "href": "proof-run-001.html"
+    },
+    {
+      "route": "proof-settlement-chronicle-lab.html",
+      "title": "Proof Settlement Chronicle Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-settlement-chronicle-lab.html"
+    },
+    {
+      "route": "proof-settlement-lab.html",
+      "title": "Proof Settlement Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-settlement-lab.html"
+    },
+    {
+      "route": "proof-to-action-command-room.html",
+      "title": "Proof To Action Command Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-to-action-command-room.html"
+    },
+    {
+      "route": "proof-velocity.html",
+      "title": "Proof Velocity",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "proof-velocity.html"
+    },
+    {
+      "route": "public-alpha-gold-master.html",
+      "title": "Public Alpha Gold Master",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "public-alpha-gold-master.html"
+    },
+    {
+      "route": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "public-metrics-ledger.html"
+    },
+    {
+      "route": "public-proof-ledger.html",
+      "title": "Public Proof Ledger",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "public-proof-ledger.html"
+    },
+    {
+      "route": "quick-tour.html",
+      "title": "Quick Tour",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "quick-tour.html"
+    },
+    {
+      "route": "quintessential-autonomous-demo-v40.html",
+      "title": "Quintessential Autonomous Demo V40",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "quintessential-autonomous-demo-v40.html"
+    },
+    {
+      "route": "quintessential-autonomous-demo-v41.html",
+      "title": "Quintessential Autonomous Demo V41",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "quintessential-autonomous-demo-v41.html"
+    },
+    {
+      "route": "quintessential-autonomous-demo.html",
+      "title": "Quintessential Autonomous Demo",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "autonomy",
+      "href": "quintessential-autonomous-demo.html"
+    },
+    {
+      "route": "quintessential-user-journey.html",
+      "title": "Quintessential User Journey",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "quintessential-user-journey.html"
+    },
+    {
+      "route": "real-task-benchmark-bridge.html",
+      "title": "Real Task Benchmark Bridge",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "real-task-benchmark-bridge.html"
+    },
+    {
+      "route": "registry.html",
+      "title": "Registry",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "nav",
+      "href": "registry.html"
+    },
+    {
+      "route": "release-gates.html",
+      "title": "Release Gates",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "release-gates.html"
+    },
+    {
+      "route": "repository-map.html",
+      "title": "Repository Map",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "repository-map.html"
+    },
+    {
+      "route": "research-spine.html",
+      "title": "Research Spine",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "search",
+      "href": "research-spine.html"
+    },
+    {
+      "route": "research.html",
+      "title": "Research",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "search",
+      "href": "research.html"
+    },
+    {
+      "route": "responsible-use.html",
+      "title": "Responsible Use",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "responsible-use.html"
+    },
+    {
+      "route": "reviewer-path.html",
+      "title": "Reviewer Path",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "reviewer-path.html"
+    },
+    {
+      "route": "reviewer-replay-room.html",
+      "title": "Reviewer Replay Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "reviewer-replay-room.html"
+    },
+    {
+      "route": "roadmap.html",
+      "title": "Roadmap",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "roadmap.html"
+    },
+    {
+      "route": "route-registry.html",
+      "title": "Route Registry",
+      "description": "Route inventory and status.",
+      "kind": "nav",
+      "href": "route-registry.html"
+    },
+    {
+      "route": "rsi-governance-lab.html",
+      "title": "Rsi Governance Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "rsi",
+      "href": "rsi-governance-lab.html"
+    },
+    {
+      "route": "rsi-state-capacity.html",
+      "title": "RSI State Capacity",
+      "description": "State capacity for governed recursive improvement.",
+      "kind": "rsi",
+      "href": "rsi-state-capacity.html"
+    },
+    {
+      "route": "run-locally.html",
+      "title": "Run Locally",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "run-locally.html"
+    },
+    {
+      "route": "schema-registry.html",
+      "title": "Schema Registry",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "nav",
+      "href": "schema-registry.html"
+    },
+    {
+      "route": "search.html",
+      "title": "Search",
+      "description": "Search GoalOS routes locally.",
+      "kind": "nav",
+      "href": "search.html"
+    },
+    {
+      "route": "security-boundary.html",
+      "title": "Security Boundary",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "security-boundary.html"
+    },
+    {
+      "route": "security.html",
+      "title": "Security",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "security.html"
+    },
+    {
+      "route": "site-health.html",
+      "title": "Site Health",
+      "description": "Route, asset, and boundary status.",
+      "kind": "nav",
+      "href": "site-health.html"
+    },
+    {
+      "route": "site-map.html",
+      "title": "All Pages",
+      "description": "Complete public route surface.",
+      "kind": "nav",
+      "href": "site-map.html"
+    },
+    {
+      "route": "source-lineage.html",
+      "title": "Source Lineage",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "source-lineage.html"
+    },
+    {
+      "route": "sovereign-experience-stream-lab.html",
+      "title": "Sovereign Experience Stream Lab",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "sovereign-experience-stream-lab.html"
+    },
+    {
+      "route": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "sovereign-experience-stream.html"
+    },
+    {
+      "route": "standards.html",
+      "title": "Standards",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "standards.html"
+    },
+    {
+      "route": "start-here.html",
+      "title": "Start Here",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "start-here.html"
+    },
+    {
+      "route": "start.html",
+      "title": "Start",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "start.html"
+    },
+    {
+      "route": "state-capacity-command-room.html",
+      "title": "State Capacity Command Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "state-capacity-command-room.html"
+    },
+    {
+      "route": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "strategic-evidence-scorecard.html"
+    },
+    {
+      "route": "tell-goalos.html",
+      "title": "Tell Goalos",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "tell-goalos.html"
+    },
+    {
+      "route": "terms.html",
+      "title": "Terms",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "terms.html"
+    },
+    {
+      "route": "token-boundary.html",
+      "title": "Token Boundary",
+      "description": "Public contract identification only.",
+      "kind": "boundary",
+      "href": "token-boundary.html"
+    },
+    {
+      "route": "token-investment-boundary.html",
+      "title": "Token Investment Boundary",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "token-investment-boundary.html"
+    },
+    {
+      "route": "token.html",
+      "title": "Token",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "token.html"
+    },
+    {
+      "route": "troubleshooting.html",
+      "title": "Troubleshooting",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "troubleshooting.html"
+    },
+    {
+      "route": "trust-boundary.html",
+      "title": "Trust Boundary",
+      "description": "No data, no funds, no wallet, no transaction.",
+      "kind": "boundary",
+      "href": "trust-boundary.html"
+    },
+    {
+      "route": "trust-center.html",
+      "title": "Trust Center",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "trust-center.html"
+    },
+    {
+      "route": "trust.html",
+      "title": "Trust",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "boundary",
+      "href": "trust.html"
+    },
+    {
+      "route": "try-goalos.html",
+      "title": "Try Goalos",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "try-goalos.html"
+    },
+    {
+      "route": "unified-agent-operating-room.html",
+      "title": "Unified Agent Operating Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "agent",
+      "href": "unified-agent-operating-room.html"
+    },
+    {
+      "route": "universal-mission-autopilot.html",
+      "title": "Universal Mission Autopilot",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "universal-mission-autopilot.html"
+    },
+    {
+      "route": "universal-mission-composer.html",
+      "title": "Universal Mission Composer",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "universal-mission-composer.html"
+    },
+    {
+      "route": "upgrade-rights-room.html",
+      "title": "Upgrade Rights Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "upgrade-rights-room.html"
+    },
+    {
+      "route": "use-case-playbooks.html",
+      "title": "Use Case Playbooks",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "playbook",
+      "href": "use-case-playbooks.html"
+    },
+    {
+      "route": "ux-proof-check.html",
+      "title": "Ux Proof Check",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "ux-proof-check.html"
+    },
+    {
+      "route": "validation-authority.html",
+      "title": "Validation Authority",
+      "description": "Select and document validation authority.",
+      "kind": "validation",
+      "href": "validation-authority.html"
+    },
+    {
+      "route": "validation-command-center.html",
+      "title": "Validation Command Center",
+      "description": "Validation command surface.",
+      "kind": "validation",
+      "href": "validation-command-center.html"
+    },
+    {
+      "route": "validation-console-v29.html",
+      "title": "Validation Console V29",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "validation",
+      "href": "validation-console-v29.html"
+    },
+    {
+      "route": "validation-console.html",
+      "title": "Validation Console",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "validation",
+      "href": "validation-console.html"
+    },
+    {
+      "route": "validation-control-tower.html",
+      "title": "Validation Control Tower",
+      "description": "Human, AGI Node, Hybrid, or Council validation.",
+      "kind": "validation",
+      "href": "validation-control-tower.html"
+    },
+    {
+      "route": "validation-mesh.html",
+      "title": "Validation Mesh",
+      "description": "Validator mesh and route selection.",
+      "kind": "validation",
+      "href": "validation-mesh.html"
+    },
+    {
+      "route": "validation-orchestrator.html",
+      "title": "Validation Orchestrator",
+      "description": "Coordinate validation paths.",
+      "kind": "validation",
+      "href": "validation-orchestrator.html"
+    },
+    {
+      "route": "validation-studio.html",
+      "title": "Validation Studio",
+      "description": "Prepare validation artifacts.",
+      "kind": "validation",
+      "href": "validation-studio.html"
+    },
+    {
+      "route": "validation-use-cases.html",
+      "title": "Validation Use Cases",
+      "description": "Examples for human and node validation.",
+      "kind": "validation",
+      "href": "validation-use-cases.html"
+    },
+    {
+      "route": "validator-council-arena.html",
+      "title": "Validator Council Arena",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "validator-council-arena.html"
+    },
+    {
+      "route": "validator-room.html",
+      "title": "Validator Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "validator-room.html"
+    },
+    {
+      "route": "validator-seats.html",
+      "title": "Validator Seats",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "validator-seats.html"
+    },
+    {
+      "route": "value-realization-control-room.html",
+      "title": "Value Realization Control Room",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "value-realization-control-room.html"
+    },
+    {
+      "route": "visual-flow-proof.html",
+      "title": "Visual Flow Proof",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "proof",
+      "href": "visual-flow-proof.html"
+    },
+    {
+      "route": "website-autopilot.html",
+      "title": "Website Autopilot",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "website-autopilot.html"
+    },
+    {
+      "route": "website-operating-system.html",
+      "title": "Website Operating System",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "website-operating-system.html"
+    },
+    {
+      "route": "what-goalos-does.html",
+      "title": "What Goalos Does",
+      "description": "Open this preserved GoalOS surface as part of the complete public route inventory.",
+      "kind": "command",
+      "href": "what-goalos-does.html"
+    }
+  ],
+  "boundary": "preserved",
+  "externalActions": 0
+}

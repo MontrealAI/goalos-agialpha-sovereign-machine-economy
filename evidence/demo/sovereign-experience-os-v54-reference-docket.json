@@ -1,0 +1,18 @@
+{
+  "version": "v54",
+  "docket": "reference",
+  "report": {
+    "version": "v54",
+    "status": "passed",
+    "publicPages": 298,
+    "currentRoutesIndexed": 255,
+    "createdCompatibilityAssets": [],
+    "forbiddenBrowserApiHits": [],
+    "brokenInternalLinksOrAssets": [],
+    "boundary": "preserved",
+    "externalActions": 0,
+    "productionAuthorization": "not_granted",
+    "empiricalSotaClaim": "not_claimed",
+    "walletTransactionSupport": "not_enabled"
+  }
+}
