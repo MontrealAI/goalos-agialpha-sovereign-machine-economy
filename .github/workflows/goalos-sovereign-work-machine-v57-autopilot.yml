@@ -1,0 +1,125 @@
+name: GoalOS Sovereign Work Machine V57 — Proof-Gated Open-Ended Work
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.77.0-sovereign-work-machine-v57"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-sovereign-work-machine-v57
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify pack exists
+        run: test -f .goalos/packs/goalos-sovereign-work-machine-v57-pack.zip
+      - name: Install GoalOS Sovereign Work Machine V57
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp-v57
+          mkdir -p .goalos/tmp-v57
+          unzip -q .goalos/packs/goalos-sovereign-work-machine-v57-pack.zip -d .goalos/tmp-v57
+          python3 -m py_compile .goalos/tmp-v57/install_v57.py
+          python3 .goalos/tmp-v57/install_v57.py
+      - name: Show V57 audit
+        run: cat reports/sovereign-work-machine-v57-audit.json
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public reports evidence content docs .goalos/packs .github/workflows || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Sovereign Work Machine V57"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cat > /tmp/goalos-v57-qa.md <<'EOF'
+          # GoalOS Sovereign Work Machine V57 — human visual QA
+
+          Open the deployed website and confirm the public-alpha experience is ready for human review.
+
+          ## Visual QA checklist
+          - [ ] Run end-to-end demo opens immediately and starts a page-specific mission.
+          - [ ] The control UI is useful to a non-technical user.
+          - [ ] AGI Agents activate and AGI Node validation is visible.
+          - [ ] Proof stages animate and console logs stream.
+          - [ ] Local artifacts download successfully.
+          - [ ] Each major page has a different mission profile.
+          - [ ] All Pages and Search include the complete public surface.
+          - [ ] No duplicate floating button pileups.
+          - [ ] No text overlap or blank dead zones.
+          - [ ] No wallet prompt, transaction, backend call, or user-data form.
+
+          Verdict: PASS / FAIL
+          EOF
+          gh issue create --title "GoalOS Sovereign Work Machine V57 — human visual QA" --body-file /tmp/goalos-v57-qa.md --label goalos --label visual-qa --label v57 || true
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: "GoalOS Sovereign Work Machine V57"
+          body: "Proof-gated open-ended work machine: page-specific autonomous demos, AGI Agents, AGI Nodes, validation, Evidence Dockets, Chronicle, route intelligence, and public-alpha boundary."
+          files: |
+            reports/sovereign-work-machine-v57-install-report.json
+            reports/sovereign-work-machine-v57-qa.json
+            reports/sovereign-work-machine-v57-route-health.json
+            reports/sovereign-work-machine-v57-audit.json
+            reports/sovereign-work-machine-v57-demo-run.json
+            evidence/demo/sovereign-work-machine-v57-reference-docket.json
+            content/goalos/public-proof-navigation-v57.json
+            content/goalos/demo-ecosystem-registry-v57.json
+            docs/website/GOALOS_SOVEREIGN_WORK_MACHINE_V57.md
+            docs/reviewer/HOW_TO_REVIEW_V57.md
