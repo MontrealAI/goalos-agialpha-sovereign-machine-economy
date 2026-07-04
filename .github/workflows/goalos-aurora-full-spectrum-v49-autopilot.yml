@@ -1,0 +1,143 @@
+name: GoalOS Aurora Full Spectrum V49 — Complete Website Experience
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy the updated public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.69.0-aurora-full-spectrum-v49"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Verify pack exists
+        run: |
+          test -f .goalos/packs/goalos-aurora-full-spectrum-v49-pack.zip || (echo "Missing .goalos/packs/goalos-aurora-full-spectrum-v49-pack.zip" && exit 1)
+
+      - name: Install GoalOS Aurora Full Spectrum V49
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp/v49
+          mkdir -p .goalos/tmp/v49
+          unzip -q .goalos/packs/goalos-aurora-full-spectrum-v49-pack.zip -d .goalos/tmp/v49
+          python -m py_compile .goalos/tmp/v49/install_v49.py
+          python .goalos/tmp/v49/install_v49.py
+
+      - name: Show V49 audit
+        run: |
+          cat reports/aurora-full-spectrum-v49-audit.json
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs examples reports evidence content
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Ship GoalOS Aurora Full Spectrum V49"
+            git push
+          fi
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = `Open and review:
+            - index.html
+            - autonomy-theatre.html
+            - agi-agent-workbench.html
+            - from-loop-to-rsi-state-capacity.html
+            - agi-alpha-node-v0.html
+            - validation-control-tower.html
+            - mainnet-contract-atlas.html
+            - visual-flow-proof.html
+            - site-map.html
+            - search.html
+            - site-health.html
+
+            Confirm:
+            - colored GoalOS identity is present
+            - no blank hero gaps
+            - no text overlap
+            - proof flow is readable
+            - navigation is complete
+            - Ask GoalOS opens
+            - public-alpha boundary is visible
+            - no wallet prompt
+            - no transaction
+            - no backend call
+            - no user-data form
+
+            Attach screenshots for any failure.`;
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title: 'GoalOS Aurora Full Spectrum V49 — human visual QA', body, labels: ['goalos','visual-qa','public-alpha']});
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Aurora Full Spectrum V49
+          body: |
+            GoalOS Aurora Full Spectrum V49 consolidates the colored GoalOS public-alpha website experience: command center, one-box mission composer, AGI Agents, Loop→RSI, AGI Nodes, validation, 48 contracts, Ask GoalOS, complete route inventory, search, and site health.
+
+            Boundary: no user data, no user funds, no wallet, no transaction, no production authority.
+          files: |
+            reports/aurora-full-spectrum-v49-audit.json
+            reports/aurora-full-spectrum-v49-route-health.json
+            reports/aurora-full-spectrum-v49-qa.json
+            evidence/demo/aurora-full-spectrum-v49-reference-docket.json
