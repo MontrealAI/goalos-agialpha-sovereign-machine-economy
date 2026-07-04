@@ -1,0 +1,1543 @@
+{
+  "version": "v56",
+  "routes": [
+    {
+      "route": "404.html",
+      "title": "Route not found \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": true
+    },
+    {
+      "route": "action-reason-trace-contract.html",
+      "title": "Action Reason Trace Contract \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Contracts / Token",
+      "canonical": false
+    },
+    {
+      "route": "adoption.html",
+      "title": "Adoption \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "agent-constellation-demo.html",
+      "title": "Agent Constellation Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agent-constellation.html",
+      "title": "Agent Constellation \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agent-flow-academy-v38.html",
+      "title": "Agent Flow Academy \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": true
+    },
+    {
+      "route": "agent-flow-academy.html",
+      "title": "Agent Flow Academy \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agent-foundry.html",
+      "title": "Agent Foundry \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": true
+    },
+    {
+      "route": "agents.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-command-center-v37.html",
+      "title": "AGI Agent Command Center V37 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-command-center.html",
+      "title": "AGI Agent Command Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-constellation.html",
+      "title": "AGI Agent Constellation \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-end-to-end-demo-v40.html",
+      "title": "AGI Agent End To End Demo V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-end-to-end-demo.html",
+      "title": "AGI Agent End To End Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-mission-control-v38.html",
+      "title": "AGI Agent Mission Control V38 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-mission-control.html",
+      "title": "AGI Agent Mission Control \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": true
+    },
+    {
+      "route": "agi-agent-operating-room.html",
+      "title": "AGI Agent Operating Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-operating-system.html",
+      "title": "AGI Agent Operating System \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-playbooks.html",
+      "title": "AGI Agent Playbooks \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": true
+    },
+    {
+      "route": "agi-agent-run-theatre.html",
+      "title": "AGI Agent Run Theatre \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": true
+    },
+    {
+      "route": "agi-agent-studio.html",
+      "title": "AGI Agent Studio \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-use-case-gallery.html",
+      "title": "AGI Agent Use Case Gallery \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-use-cases.html",
+      "title": "AGI Agent Use Cases \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-agent-workbench.html",
+      "title": "AGI Agent Workbench \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": true
+    },
+    {
+      "route": "agi-agents.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "agi-alpha-node-v0.html",
+      "title": "AGI Alpha Node \u2014 GoalOS",
+      "category": "AGI Nodes",
+      "canonical": true
+    },
+    {
+      "route": "agi-alpha-thesis.html",
+      "title": "AGI Alpha Thesis \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs V0 V2 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "agi-node-use-cases.html",
+      "title": "AGI Node Use Cases \u2014 GoalOS",
+      "category": "AGI Nodes",
+      "canonical": true
+    },
+    {
+      "route": "agi-node-validation.html",
+      "title": "AGI Node Validation \u2014 GoalOS",
+      "category": "AGI Nodes",
+      "canonical": true
+    },
+    {
+      "route": "agialpha-control-rail.html",
+      "title": "AGIALPHA Control Rail \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "agialpha-token-boundary.html",
+      "title": "AGIALPHA Token Boundary \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Contracts / Token",
+      "canonical": false
+    },
+    {
+      "route": "all-pages.html",
+      "title": "All Pages \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": true
+    },
+    {
+      "route": "architecture.html",
+      "title": "Architecture \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "ask-goalos.html",
+      "title": "Ask GoalOS \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": true
+    },
+    {
+      "route": "atlas.html",
+      "title": "Atlas \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-demo-run-theatre-v40.html",
+      "title": "Autonomous Demo Run Theatre V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-demo-run-theatre-v41.html",
+      "title": "Autonomous Demo Run Theatre V41 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-demo-run-theatre.html",
+      "title": "Autonomous Demo Run Theatre \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-mission-demo.html",
+      "title": "Autonomous Mission Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-mission-studio-v41.html",
+      "title": "Autonomous Mission Studio V41 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-mission-studio.html",
+      "title": "Autonomous Mission Studio \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-proof-mission-demo-v40.html",
+      "title": "Autonomous Proof Mission Demo V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "autonomous-proof-mission-demo.html",
+      "title": "Autonomous Proof Mission Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "autonomy-replay-theatre.html",
+      "title": "Autonomy Replay Theatre \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomy-theatre-academy.html",
+      "title": "Autonomy Theatre Academy \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomy-theatre-use-cases.html",
+      "title": "Autonomy Theatre Use Cases \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "autonomy-theatre.html",
+      "title": "Autonomy Theatre \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": true
+    },
+    {
+      "route": "capability-compounding-lab.html",
+      "title": "Capability Compounding Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "capability-parity.html",
+      "title": "Capability Parity \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "capability-stack.html",
+      "title": "Capability Stack \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "case-study.html",
+      "title": "Case Study \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "claim-boundary.html",
+      "title": "Claim Boundary \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "commercial-evidence.html",
+      "title": "Commercial Evidence \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "console.html",
+      "title": "Console \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "contract-academy.html",
+      "title": "Contract Academy \u2014 GoalOS",
+      "category": "Contracts / Token",
+      "canonical": true
+    },
+    {
+      "route": "coordination-console.html",
+      "title": "Coordination Console \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "data-boundary.html",
+      "title": "Data Boundary \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "canonical": true
+    },
+    {
+      "route": "data-room.html",
+      "title": "Data Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "demo-ecosystem-registry.html",
+      "title": "Demo Ecosystem Registry \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "demo-gallery.html",
+      "title": "Demo Gallery \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "demo-launcher.html",
+      "title": "Demo Launcher \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "demo-safety.html",
+      "title": "Demo Safety \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "docket-builder.html",
+      "title": "Docket Builder \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "docs.html",
+      "title": "Docs \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "document-series.html",
+      "title": "Document Series \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "downloads/index.html",
+      "title": "Public Downloads",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "end-to-end-autonomous-demo-v40.html",
+      "title": "End To End Autonomous Demo V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "end-to-end-autonomous-demo-v41.html",
+      "title": "End To End Autonomous Demo V41 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "end-to-end-autonomous-demo.html",
+      "title": "End To End Autonomous Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "end-to-end-demo-use-cases-v40.html",
+      "title": "End To End Demo Use Cases V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "end-to-end-demo-use-cases-v41.html",
+      "title": "End To End Demo Use Cases V41 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "end-to-end-demo-use-cases.html",
+      "title": "End To End Demo Use Cases \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "enterprise.html",
+      "title": "Enterprise \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "evaluation-program.html",
+      "title": "Evaluation Program \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "evaluation.html",
+      "title": "Evaluation \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "evidence-docket-theatre.html",
+      "title": "Evidence Docket Theatre \u2014 GoalOS",
+      "category": "Proof / Evidence",
+      "canonical": true
+    },
+    {
+      "route": "evidence-room.html",
+      "title": "Evidence Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "evidence-to-production-roadmap.html",
+      "title": "Evidence To Production Roadmap \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "evidence-to-scale.html",
+      "title": "Evidence To Scale \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "evidence.html",
+      "title": "Evidence \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "evolution-ledger-control-room.html",
+      "title": "Evolution Ledger Control Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "executive-brief.html",
+      "title": "Executive Brief \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "external-reviewer-replay-room.html",
+      "title": "External Reviewer Replay Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "external-validation-roadmap.html",
+      "title": "External Validation Roadmap \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "falsification-box.html",
+      "title": "Falsification Box \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "falsification-gauntlet.html",
+      "title": "Falsification Gauntlet \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "faq.html",
+      "title": "Faq \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "for-new-users.html",
+      "title": "For New Users \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "for-reviewers.html",
+      "title": "For Reviewers \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "from-loop-to-rsi-governance.html",
+      "title": "Loop \u2192 RSI Governance \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "from-loop-to-rsi-sovereign-console.html",
+      "title": "RSI Sovereign Console \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "from-loop-to-rsi-state-capacity.html",
+      "title": "From Loop to RSI \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "frontier-release-room.html",
+      "title": "Frontier Release Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "frontier-room.html",
+      "title": "Frontier Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "glossary.html",
+      "title": "Glossary \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "goalos-aurora-command-center.html",
+      "title": "GoalOS Aurora Command Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "goalos-aurora.html",
+      "title": "GoalOS Aurora \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "goalos-command-center.html",
+      "title": "Command Center \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": true
+    },
+    {
+      "route": "goalos-gold-master.html",
+      "title": "GoalOS Gold Master \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "goalos-holy-grail-candidate.html",
+      "title": "Holy Grail candidate \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": true
+    },
+    {
+      "route": "goalos-loop-bottleneck-observatory.html",
+      "title": "GoalOS Loop Observatory \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "goalos-mission-studio.html",
+      "title": "GoalOS Mission Studio \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "goalos-phase-completion.html",
+      "title": "Phase completion \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": true
+    },
+    {
+      "route": "goalos.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "gold-master-use-cases.html",
+      "title": "Gold Master Use Cases \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "governance.html",
+      "title": "Governance \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "graduation-control-room.html",
+      "title": "Graduation Control Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "help-center.html",
+      "title": "Help Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "historical-command-center.html",
+      "title": "Historical Command Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "human-or-agi-node-validation.html",
+      "title": "Human or AGI Node Validation \u2014 GoalOS",
+      "category": "AGI Nodes",
+      "canonical": true
+    },
+    {
+      "route": "human-or-node-validation.html",
+      "title": "Human or Node Validation \u2014 GoalOS",
+      "category": "AGI Nodes",
+      "canonical": true
+    },
+    {
+      "route": "independent-validation.html",
+      "title": "Independent Validation \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "index.html",
+      "title": "Sovereign Proof Machine \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": true
+    },
+    {
+      "route": "institution.html",
+      "title": "Institution \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "institutional-deployment-wedge.html",
+      "title": "Institutional Deployment Wedge \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "investment-token-boundary.html",
+      "title": "Investment Token Boundary \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Contracts / Token",
+      "canonical": false
+    },
+    {
+      "route": "jobs.html",
+      "title": "Jobs \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "launch-narrative.html",
+      "title": "Launch Narrative \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "launch.html",
+      "title": "Launch \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "legal-shield.html",
+      "title": "Legal Shield \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "legal.html",
+      "title": "Legal \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "loop-bottleneck-observatory.html",
+      "title": "Loop Bottleneck Observatory \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "loop-contract-lab.html",
+      "title": "Loop Contract Lab \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "loop-flight-recorder.html",
+      "title": "Loop Flight Recorder \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "loop-to-rsi.html",
+      "title": "Loop to RSI \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "mainnet-contract-atlas.html",
+      "title": "48 Ethereum Mainnet Contracts \u2014 GoalOS",
+      "category": "Contracts / Token",
+      "canonical": true
+    },
+    {
+      "route": "mainnet-proof-rail.html",
+      "title": "Mainnet Proof Rail \u2014 GoalOS",
+      "category": "Contracts / Token",
+      "canonical": true
+    },
+    {
+      "route": "meta-agentic-agent-os.html",
+      "title": "Meta Agentic Agent OS \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "meta-agentic-agents.html",
+      "title": "Meta Agentic Agents \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "meta-agentic-alpha-agi-os.html",
+      "title": "Meta Agentic Alpha AGI OS \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "meta-agentic-alpha-agi.html",
+      "title": "Meta Agentic Alpha AGI \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "metrics.html",
+      "title": "Metrics \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "mission-autopilot.html",
+      "title": "Mission Autopilot \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "mission-command-center.html",
+      "title": "Mission Command Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "mission-os-canon.html",
+      "title": "Mission OS Canon \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "mission-os.html",
+      "title": "Mission OS \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "mission-studio.html",
+      "title": "Mission Studio \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "mission.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "move37-dossier.html",
+      "title": "Move-37 Dossier \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "multi-agent-institution.html",
+      "title": "Multi Agent Institution \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "narrative.html",
+      "title": "Narrative \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "no-data-no-funds.html",
+      "title": "No Data No Funds \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "node.html",
+      "title": "Node \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Nodes",
+      "canonical": false
+    },
+    {
+      "route": "objective-command-center.html",
+      "title": "Objective Command Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "open-ended-work-engine-lab.html",
+      "title": "Open Ended Work Engine Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "open-ended-work-engine.html",
+      "title": "Open Ended Work Engine \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "operator-checklist.html",
+      "title": "Operator Checklist \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "operators.html",
+      "title": "Operators \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "paper-to-product.html",
+      "title": "Paper To Product \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "pathfinder.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "pilot-program.html",
+      "title": "Pilot Program \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "pilot-proof.html",
+      "title": "Pilot Proof \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "privacy.html",
+      "title": "Privacy Boundary \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "canonical": true
+    },
+    {
+      "route": "product.html",
+      "title": "Product \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "production-graduation-roadmap.html",
+      "title": "Production Graduation Roadmap \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "production-readiness-gauntlet.html",
+      "title": "Production Readiness Gauntlet \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "proof-backed-upgrade-rights-room.html",
+      "title": "Proof Backed Upgrade Rights Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-card-studio.html",
+      "title": "Proof Card Studio \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-carrying-artifact-foundry.html",
+      "title": "Proof Carrying Artifact Foundry \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "proof-console.html",
+      "title": "Proof Console \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-economy.html",
+      "title": "Proof Economy \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-experience-atlas.html",
+      "title": "Proof Experience Atlas \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-flight-demo.html",
+      "title": "Proof Flight Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-gradient-lab.html",
+      "title": "Proof Gradient Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-ledger.html",
+      "title": "Proof Ledger \u2014 GoalOS",
+      "category": "Proof / Evidence",
+      "canonical": true
+    },
+    {
+      "route": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-control.html",
+      "title": "Proof Mission Control \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-demo-academy-v40.html",
+      "title": "Proof Mission Demo Academy V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-demo-academy-v41.html",
+      "title": "Proof Mission Demo Academy V41 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-demo-academy.html",
+      "title": "Proof Mission Demo Academy \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-demo.html",
+      "title": "Proof Mission Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-forge.html",
+      "title": "Proof Mission Forge \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-mission-slots.html",
+      "title": "Proof Mission Slots \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-of-evolution.html",
+      "title": "Proof Of Evolution \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket \u2014 GoalOS",
+      "category": "Proof / Evidence",
+      "canonical": true
+    },
+    {
+      "route": "proof-run-001-execution-room.html",
+      "title": "Proof Run 001 Execution Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-run-001.html",
+      "title": "Proof Run 001 \u2014 GoalOS",
+      "category": "Proof / Evidence",
+      "canonical": true
+    },
+    {
+      "route": "proof-settlement-chronicle-lab.html",
+      "title": "Proof Settlement Chronicle Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-settlement-lab.html",
+      "title": "Proof Settlement Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-to-action-command-room.html",
+      "title": "Proof To Action Command Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "proof-velocity.html",
+      "title": "Proof Velocity \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "public-alpha-gold-master.html",
+      "title": "Public Alpha Gold Master \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "public-proof-ledger.html",
+      "title": "Public Proof Ledger \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "quick-tour.html",
+      "title": "Quick Tour \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "quintessential-autonomous-demo-v40.html",
+      "title": "Quintessential Autonomous Demo V40 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "quintessential-autonomous-demo-v41.html",
+      "title": "Quintessential Autonomous Demo V41 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "quintessential-autonomous-demo.html",
+      "title": "Quintessential Autonomous Demo \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "quintessential-user-journey.html",
+      "title": "Quintessential User Journey \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "real-task-benchmark-bridge.html",
+      "title": "Real Task Benchmark Bridge \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "registry.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "release-gates.html",
+      "title": "Release Gates \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "repository-map.html",
+      "title": "Repository Map \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "research-spine.html",
+      "title": "Research Spine \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "research.html",
+      "title": "Research \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "responsible-use.html",
+      "title": "Responsible Use \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "reviewer-path.html",
+      "title": "Reviewer Path \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "reviewer-replay-room.html",
+      "title": "Reviewer Replay Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "roadmap.html",
+      "title": "Roadmap \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "route-registry.html",
+      "title": "Route Registry \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": true
+    },
+    {
+      "route": "rsi-governance-lab.html",
+      "title": "RSI Governance Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "RSI / Loop",
+      "canonical": false
+    },
+    {
+      "route": "rsi-state-capacity.html",
+      "title": "RSI State Capacity \u2014 GoalOS",
+      "category": "RSI / Loop",
+      "canonical": true
+    },
+    {
+      "route": "run-locally.html",
+      "title": "Run Locally \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "schema-registry.html",
+      "title": "Schema Registry \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Navigation",
+      "canonical": false
+    },
+    {
+      "route": "search.html",
+      "title": "GoalOS Search \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": true
+    },
+    {
+      "route": "security-boundary.html",
+      "title": "Security Boundary \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "security.html",
+      "title": "Security \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "site-health.html",
+      "title": "Site Health \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": true
+    },
+    {
+      "route": "site-map.html",
+      "title": "All Pages \u2014 GoalOS",
+      "category": "Navigation",
+      "canonical": true
+    },
+    {
+      "route": "source-lineage.html",
+      "title": "Source Lineage \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "sovereign-experience-stream-lab.html",
+      "title": "Sovereign Experience Stream Lab \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "standards.html",
+      "title": "Standards \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "start-here.html",
+      "title": "Start Here \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "start.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "state-capacity-command-room.html",
+      "title": "State Capacity Command Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Proof / Evidence",
+      "canonical": false
+    },
+    {
+      "route": "tell-goalos.html",
+      "title": "Tell GoalOS \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "terms.html",
+      "title": "Terms \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "token-boundary.html",
+      "title": "$AGIALPHA Boundary \u2014 GoalOS",
+      "category": "Contracts / Token",
+      "canonical": true
+    },
+    {
+      "route": "token-investment-boundary.html",
+      "title": "Token Investment Boundary \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Contracts / Token",
+      "canonical": false
+    },
+    {
+      "route": "token.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Contracts / Token",
+      "canonical": false
+    },
+    {
+      "route": "troubleshooting.html",
+      "title": "Troubleshooting \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "trust-boundary.html",
+      "title": "Trust Boundary \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "canonical": true
+    },
+    {
+      "route": "trust-center.html",
+      "title": "Trust Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "trust.html",
+      "title": "GoalOS Route \u2014 GoalOS",
+      "category": "Trust & Boundary",
+      "canonical": false
+    },
+    {
+      "route": "try-goalos.html",
+      "title": "Try GoalOS \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "unified-agent-operating-room.html",
+      "title": "Unified Agent Operating Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "AGI Agents",
+      "canonical": false
+    },
+    {
+      "route": "universal-mission-autopilot.html",
+      "title": "Universal Mission Autopilot \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "universal-mission-composer.html",
+      "title": "Universal Mission Composer \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "upgrade-rights-room.html",
+      "title": "Upgrade Rights Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "use-case-playbooks.html",
+      "title": "Use Case Playbooks \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "ux-proof-check.html",
+      "title": "UX Proof Check \u2014 GoalOS",
+      "category": "Proof / Evidence",
+      "canonical": true
+    },
+    {
+      "route": "validation-authority.html",
+      "title": "Validation Authority \u2014 GoalOS",
+      "category": "Validation",
+      "canonical": true
+    },
+    {
+      "route": "validation-command-center.html",
+      "title": "Validation Command Center \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "validation-console-v29.html",
+      "title": "Validation Console V29 \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "validation-console.html",
+      "title": "Validation Console \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "validation-control-tower.html",
+      "title": "Validation Control Tower \u2014 GoalOS",
+      "category": "Validation",
+      "canonical": true
+    },
+    {
+      "route": "validation-mesh.html",
+      "title": "Verifier Mesh \u2014 GoalOS",
+      "category": "Validation",
+      "canonical": true
+    },
+    {
+      "route": "validation-orchestrator.html",
+      "title": "Validation Orchestrator \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "validation-studio.html",
+      "title": "Validation Studio \u2014 GoalOS",
+      "category": "Validation",
+      "canonical": true
+    },
+    {
+      "route": "validation-use-cases.html",
+      "title": "Validation Use Cases \u2014 GoalOS",
+      "category": "Validation",
+      "canonical": true
+    },
+    {
+      "route": "validator-council-arena.html",
+      "title": "Validator Council Arena \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "validator-room.html",
+      "title": "Validator Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "validator-seats.html",
+      "title": "Validator Seats \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Validation",
+      "canonical": false
+    },
+    {
+      "route": "value-realization-control-room.html",
+      "title": "Value Realization Control Room \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "visual-flow-proof.html",
+      "title": "Visual Flow Proof \u2014 GoalOS",
+      "category": "Proof / Evidence",
+      "canonical": true
+    },
+    {
+      "route": "website-autopilot.html",
+      "title": "Website Autopilot \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "website-operating-system.html",
+      "title": "Website Operating System \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    },
+    {
+      "route": "what-goalos-does.html",
+      "title": "What GoalOS Does \u00b7 GoalOS AGIALPHA Ascension",
+      "category": "Additional",
+      "canonical": false
+    }
+  ],
+  "boundary": "preserved",
+  "externalActions": 0
+}

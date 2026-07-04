@@ -1,0 +1,21 @@
+{
+  "version": "v56",
+  "tag": "v0.76.0-sovereign-proof-machine-os-v56",
+  "profiles": [
+    "command",
+    "holy",
+    "autonomy",
+    "agents",
+    "playbooks",
+    "rsi",
+    "move37",
+    "loop",
+    "node",
+    "validation",
+    "contracts",
+    "proof",
+    "search",
+    "trust"
+  ],
+  "boundary": "preserved"
+}
