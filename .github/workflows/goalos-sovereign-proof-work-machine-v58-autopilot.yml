@@ -1,0 +1,127 @@
+name: GoalOS Sovereign Proof Work Machine V58 — Threshold Experience
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy the public/ site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub release after approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.78.0-sovereign-proof-work-machine-v58"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-sovereign-proof-work-machine-v58
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify pack exists
+        run: test -f .goalos/packs/goalos-sovereign-proof-work-machine-v58-pack.zip
+      - name: Install GoalOS Sovereign Proof Work Machine V58
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp-v58
+          mkdir -p .goalos/tmp-v58
+          python -m zipfile -e .goalos/packs/goalos-sovereign-proof-work-machine-v58-pack.zip .goalos/tmp-v58
+          python -m py_compile .goalos/tmp-v58/install_v58.py
+          python .goalos/tmp-v58/install_v58.py
+      - name: Show V58 audit
+        if: always()
+        shell: bash
+        run: |
+          test -f reports/proof-work-machine-v58-audit.json && cat reports/proof-work-machine-v58-audit.json || true
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content reports evidence docs .goalos/packs || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Sovereign Proof Work Machine V58"
+          git push || true
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "GoalOS Sovereign Proof Work Machine V58 — human visual QA";
+            const body = [
+              "Please open the V58 site and confirm the threshold experience.",
+              "",
+              "Checklist:",
+              "- Run end-to-end demo opens immediately.",
+              "- Each major page has a different mission profile.",
+              "- AGI Agent orchestration is visible.",
+              "- AGI Node validation is visible where relevant.",
+              "- Stages animate and console logs stream.",
+              "- Local artifacts download.",
+              "- All Pages and Search expose the full public surface.",
+              "- No duplicate bottom-button pileup.",
+              "- No text overlap or blank dead zones.",
+              "- No wallet prompt, transaction, backend call, or user-data form.",
+              "",
+              "Verdict: PASS / FAIL"
+            ].join("\n");
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ["goalos", "visual-qa", "v58"]});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: "GoalOS Sovereign Proof Work Machine V58"
+          body: "Threshold experience for GoalOS as a proof-gated open-ended work machine: page-specific autonomous demos, AGI Agents, AGI Node validation, Evidence Dockets, complete route surface, and strict public-alpha boundary."
+          files: |
+            reports/proof-work-machine-v58-install-report.json
+            reports/proof-work-machine-v58-qa.json
+            reports/proof-work-machine-v58-route-health.json
+            reports/proof-work-machine-v58-audit.json
+            reports/proof-work-machine-v58-demo-run.json
+            evidence/demo/proof-work-machine-v58-reference-docket.json
+            content/goalos/public-proof-navigation-v58.json
+            content/goalos/goalos-v58-canonical-surface.json
