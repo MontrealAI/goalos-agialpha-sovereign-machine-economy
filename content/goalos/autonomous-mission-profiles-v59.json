@@ -1,0 +1,18 @@
+{
+  "version": "v59",
+  "profiles": [
+    "autonomous",
+    "work",
+    "agents",
+    "playbooks",
+    "rsi",
+    "loop",
+    "move37",
+    "node",
+    "validation",
+    "contracts",
+    "proof",
+    "navigation",
+    "boundary"
+  ]
+}

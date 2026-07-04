@@ -1,1 +1,1 @@
-/* compatibility alias */
+window.GOALOS_LEGACY_COMPAT=true;

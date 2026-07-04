@@ -1,0 +1,1 @@
+window.GOALOS_COMPATIBILITY_ASSET=true;
