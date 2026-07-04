@@ -1,0 +1,134 @@
+name: GoalOS Autonomous General Work Machine V60 — Useful Autonomous Proof Work
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a human visual QA issue
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.80.0-autonomous-general-work-machine-v60
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-autonomous-general-work-machine-v60-pack.zip
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Verify pack exists
+        run: test -f "$PACK_ZIP"
+
+      - name: Install GoalOS Autonomous General Work Machine V60
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp-v60
+          mkdir -p .goalos/tmp-v60
+          unzip -q "$PACK_ZIP" -d .goalos/tmp-v60
+          python -m py_compile .goalos/tmp-v60/install_v60.py
+          python .goalos/tmp-v60/install_v60.py
+
+      - name: Show V60 audit
+        if: always()
+        run: |
+          cat reports/autonomous-general-work-machine-v60-install-report.json || true
+          cat reports/autonomous-general-work-machine-v60-qa.json || true
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public reports evidence content docs .goalos || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous General Work Machine V60"
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportPath = 'reports/autonomous-general-work-machine-v60-install-report.json';
+            const report = fs.existsSync(reportPath) ? JSON.parse(fs.readFileSync(reportPath, 'utf8')) : {status: 'unknown'};
+            const title = 'GoalOS V60 visual QA — autonomous general work machine';
+            const body = [
+              'GoalOS Autonomous General Work Machine V60 is ready for visual review.',
+              '',
+              'Review focus:',
+              '- Run end-to-end demo opens immediately.',
+              '- The cockpit is useful for arbitrary objectives, not only website routes.',
+              '- Generated artifacts contain mission contract, agent plan, AGI Job, validation plan, Evidence Docket, action graph, Chronicle, capability package, settlement simulation, and reinvestment plan.',
+              '- Page-specific missions remain distinct for agents, RSI/Loop, AGI Node, validation, contracts, proof, boundaries, and navigation.',
+              '- No duplicate bottom-button pileup, no text overlap, no blank dead zones.',
+              '- No wallet prompt, transaction, backend call, or user-data form.',
+              '',
+              'Audit status: ' + report.status,
+              '',
+              'Verdict: PASS / FAIL'
+            ].join('\n');
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['goalos','visual-qa','v60']});
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Autonomous General Work Machine V60
+          body: |
+            Fully general autonomous proof-gated open-ended work machine. One objective becomes AGI Agent work, AGI Job packaging, AGI Node validation, Evidence Docket artifacts, Chronicle memory, reusable capability, settlement simulation, and next-harder mission planning. Public-alpha boundary preserved.
+          files: |
+            reports/autonomous-general-work-machine-v60-install-report.json
+            reports/autonomous-general-work-machine-v60-qa.json
+            reports/autonomous-general-work-machine-v60-route-health.json
+            reports/autonomous-general-work-machine-v60-audit.json
+            reports/autonomous-general-work-machine-v60-demo-run.json
+            evidence/demo/autonomous-general-work-machine-v60-reference-docket.json
+            content/goalos/public-proof-navigation-v60.json
