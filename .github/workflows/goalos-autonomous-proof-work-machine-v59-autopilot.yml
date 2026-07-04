@@ -1,0 +1,126 @@
+name: GoalOS Autonomous Proof Work Machine V59 — Autonomous Proof-Gated Open-Ended Work
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a human visual QA issue
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.79.0-autonomous-proof-work-machine-v59
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: goalos-autonomous-proof-work-machine-v59
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Verify pack exists
+        run: test -f .goalos/packs/goalos-autonomous-proof-work-machine-v59-pack.zip
+      - name: Install GoalOS Autonomous Proof Work Machine V59
+        run: |
+          set -euo pipefail
+          mkdir -p .goalos/tmp-v59
+          unzip -o .goalos/packs/goalos-autonomous-proof-work-machine-v59-pack.zip -d .goalos/tmp-v59 >/dev/null
+          python -m py_compile .goalos/tmp-v59/install_v59.py
+          python .goalos/tmp-v59/install_v59.py
+      - name: Show V59 audit
+        run: |
+          cat reports/autonomous-proof-work-machine-v59-audit.json
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public reports evidence content docs .goalos/packs || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous Proof Work Machine V59"
+          git push || true
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "GoalOS Autonomous Proof Work Machine V59 — human visual QA";
+            const body = [
+              "Open the V59 site and confirm:",
+              "",
+              "- Run end-to-end demo opens immediately.",
+              "- The mission runs autonomously to DONE=true.",
+              "- The user can edit one objective in plain language.",
+              "- AGI Agent cards activate.",
+              "- AGI Node validation appears where relevant.",
+              "- Each major page uses a distinct mission profile.",
+              "- Console logs stream.",
+              "- Readiness / replay / risk / reuse meters move.",
+              "- Downloadable artifacts appear.",
+              "- Next routes match the current page.",
+              "- All Pages and Search expose the complete surface.",
+              "- No duplicate bottom-button pileup.",
+              "- No text overlap or blank dead zones.",
+              "- No wallet prompt, transaction, backend call, or user-data form.",
+              "",
+              "Verdict: PASS / FAIL"
+            ].join("\n");
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels:["goalos","visual-qa","v59"]});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Autonomous Proof Work Machine V59
+          body: |
+            Autonomous proof-gated open-ended work machine: AGI Agents orchestrate, AGI Jobs bound, AGI Nodes validate, Evidence Dockets package proof, Chronicle records memory, and settlement remains simulation-only under public-alpha boundaries.
+          files: |
+            reports/autonomous-proof-work-machine-v59-install-report.json
+            reports/autonomous-proof-work-machine-v59-qa.json
+            reports/autonomous-proof-work-machine-v59-route-health.json
+            reports/autonomous-proof-work-machine-v59-audit.json
+            reports/autonomous-proof-work-machine-v59-demo-run.json
+            evidence/demo/autonomous-proof-work-machine-v59-reference-docket.json
+            content/goalos/public-proof-navigation-v59.json
+            content/goalos/autonomous-mission-profiles-v59.json
