@@ -1,0 +1,17 @@
+{
+  "docket": "autonomous-experience-os-v52",
+  "report": {
+    "version": "v52",
+    "status": "passed",
+    "publicPages": 298,
+    "currentRoutesIndexed": 255,
+    "forbiddenBrowserApiHits": [],
+    "brokenInternalLinksOrAssets": [],
+    "boundary": "preserved",
+    "externalActions": 0,
+    "productionAuthorization": "not_granted",
+    "empiricalSotaClaim": "not_claimed",
+    "walletTransactionSupport": "not_enabled"
+  },
+  "claim": "interactive phase-completion public surface"
+}

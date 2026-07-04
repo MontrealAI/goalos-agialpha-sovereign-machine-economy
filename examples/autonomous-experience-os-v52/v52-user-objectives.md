@@ -1,0 +1,3 @@
+- I want AGI agents to show a complete end-to-end example from objective to proof to validation to Chronicle.
+- I want to understand RSI and Loop governance.
+- I want to explore the 48 contracts.
