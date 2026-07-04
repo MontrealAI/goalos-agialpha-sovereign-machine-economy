@@ -1,0 +1,117 @@
+name: GoalOS Autonomous Experience V51 — Interactive Phase Conclusion
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy the updated public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag to use when create_release is true"
+        required: true
+        type: string
+        default: "v0.71.0-autonomous-experience-v51"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-autonomous-experience-v51-pack.zip
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_ZIP" || (echo "Missing $PACK_ZIP" && exit 1)
+      - name: Install GoalOS Autonomous Experience V51
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/tmp/goalos-autonomous-experience-v51
+          mkdir -p .goalos/tmp/goalos-autonomous-experience-v51
+          python -m zipfile -e "$PACK_ZIP" .goalos/tmp/goalos-autonomous-experience-v51
+          python -m py_compile .goalos/tmp/goalos-autonomous-experience-v51/install_v51.py
+          python .goalos/tmp/goalos-autonomous-experience-v51/install_v51.py
+      - name: Show V51 audit
+        run: |
+          cat reports/autonomous-experience-v51-audit.json || true
+          cat reports/autonomous-experience-v51-install-report.json || true
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content docs reports evidence examples .nojekyll || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous Experience V51"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "GoalOS Autonomous Experience V51 — human visual QA";
+            const body = `Open the V51 site and confirm:
+
+- Run end-to-end demo animates and produces artifacts.
+- Ask GoalOS answers and routes.
+- All Pages and Search list RSI, Loop, AGI Node, AGI Agents, Validation, Contracts, Proof.
+- No text overlap.
+- No blank white dead zones.
+- Navigation is complete.
+- Public-alpha boundary is visible.
+- No wallet prompt, transaction, backend call, or user-data form.
+
+Verdict: PASS / FAIL`;
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels:["goalos", "visual-qa", "v51"]});
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: "GoalOS Autonomous Experience V51"
+          body: "Interactive phase-completion website: end-to-end demo, Ask GoalOS, AGI Agents, RSI/Loop, AGI Node, validation, contracts, complete route surface, and public-alpha boundary."
+          files: |
+            reports/autonomous-experience-v51-install-report.json
+            reports/autonomous-experience-v51-qa.json
+            reports/autonomous-experience-v51-route-health.json
+            reports/autonomous-experience-v51-audit.json
+            reports/autonomous-experience-v51-demo-run.json
+            evidence/demo/autonomous-experience-v51-reference-docket.json
