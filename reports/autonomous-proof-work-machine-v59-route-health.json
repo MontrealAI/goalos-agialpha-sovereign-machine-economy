@@ -3,48 +3,7 @@
   "status": "passed",
   "publicPages": 305,
   "currentRoutesIndexed": 262,
-  "createdCompatibilityAssets": [
-    {
-      "file": "404.html",
-      "target": "assets/goalos-v59-routes.js"
-    },
-    {
-      "file": "archive/index-before-website-experience-os-v2.html",
-      "target": "archive/assets/goalos-autonomous-proof-work-machine-v59.css"
-    },
-    {
-      "file": "archive/index-before-website-experience-os-v2.html",
-      "target": "archive/assets/goalos-v59-routes.js"
-    },
-    {
-      "file": "archive/index-before-website-experience-os-v2.html",
-      "target": "archive/assets/goalos-autonomous-proof-work-machine-v59.js"
-    },
-    {
-      "file": "archive/v48-preserved/agent-flow-academy-v38.html",
-      "target": "archive/v48-preserved/assets/goalos-autonomous-proof-work-machine-v59.css"
-    },
-    {
-      "file": "archive/v48-preserved/agent-flow-academy-v38.html",
-      "target": "archive/v48-preserved/assets/goalos-v59-routes.js"
-    },
-    {
-      "file": "archive/v48-preserved/agent-flow-academy-v38.html",
-      "target": "archive/v48-preserved/assets/goalos-autonomous-proof-work-machine-v59.js"
-    },
-    {
-      "file": "downloads/index.html",
-      "target": "downloads/assets/goalos-autonomous-proof-work-machine-v59.css"
-    },
-    {
-      "file": "downloads/index.html",
-      "target": "downloads/assets/goalos-v59-routes.js"
-    },
-    {
-      "file": "downloads/index.html",
-      "target": "downloads/assets/goalos-autonomous-proof-work-machine-v59.js"
-    }
-  ],
+  "createdCompatibilityAssets": [],
   "forbiddenBrowserApiHits": [],
   "brokenInternalLinksOrAssets": [],
   "boundary": "preserved",
