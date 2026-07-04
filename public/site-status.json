@@ -1,7 +1,8 @@
 {
-  "version": "v48",
+  "version": "v49",
   "status": "ready",
-  "publicPages": 296,
+  "publicPages": 297,
   "boundary": "preserved",
-  "externalActions": 0
+  "externalActions": 0,
+  "productionAuthorization": "not_granted"
 }

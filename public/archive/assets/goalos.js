@@ -1,1 +1,2 @@
-window.GoalOSLegacyAssets={status:'available',version:'v46'};
+window.GoalOSBoundary = window.GoalOSBoundary || { mode:'browser-local', externalActions:0, wallet:'disabled', network:'disabled' };
+window.addEventListener('DOMContentLoaded', function(){ document.documentElement.setAttribute('data-goalos-boundary','preserved'); });
