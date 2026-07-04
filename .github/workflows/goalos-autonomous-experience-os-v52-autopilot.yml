@@ -1,0 +1,124 @@
+name: GoalOS Autonomous Experience OS V52 — Interactive Final Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy public site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release after approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.72.0-autonomous-experience-os-v52"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-autonomous-experience-os-v52-pack.zip
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_ZIP" || (echo "Missing $PACK_ZIP" && exit 1)
+      - name: Install GoalOS Autonomous Experience OS V52
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/goalos-v52
+          mkdir -p /tmp/goalos-v52
+          unzip -q "$PACK_ZIP" -d /tmp/goalos-v52
+          python -m py_compile /tmp/goalos-v52/install_v52.py
+          python /tmp/goalos-v52/install_v52.py
+      - name: Show V52 audit
+        run: |
+          cat reports/autonomous-experience-os-v52-audit.json
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public docs examples reports evidence content .nojekyll 2>/dev/null || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous Experience OS V52"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat > /tmp/goalos-v52-issue.md <<'EOF'
+          GoalOS Autonomous Experience OS V52 is deployed for human visual review.
+
+          Review:
+          - Run end-to-end demo animates and produces artifacts.
+          - Ask GoalOS answers and routes.
+          - All Pages and Search list RSI, Loop, AGI Node, AGI Agents, Validation, Contracts, Proof, and Boundary pages.
+          - No text overlap.
+          - No blank white dead zones.
+          - Navigation is complete.
+          - Public-alpha boundary is visible.
+          - No wallet prompt, transaction, backend call, or user-data form.
+
+          Verdict: PASS / FAIL
+          Browser:
+          Viewport:
+          Screenshots if failed:
+          EOF
+          gh issue create --title "GoalOS Autonomous Experience OS V52 — human visual QA" --body-file /tmp/goalos-v52-issue.md --label goalos --label visual-qa || true
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ inputs.release_tag }}
+        run: |
+          cat > /tmp/goalos-v52-release.md <<'EOF'
+          # GoalOS Autonomous Experience OS V52
+
+          Interactive phase-completion website: end-to-end demo, Ask GoalOS, AGI Agents, RSI/Loop, AGI Node, validation, contracts, proof, complete route surface, and public-alpha boundary.
+          EOF
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" reports/autonomous-experience-os-v52-*.json evidence/demo/autonomous-experience-os-v52-reference-docket.json --clobber
+            gh release edit "$TAG" --title "GoalOS Autonomous Experience OS V52" --notes-file /tmp/goalos-v52-release.md
+          else
+            gh release create "$TAG" reports/autonomous-experience-os-v52-*.json evidence/demo/autonomous-experience-os-v52-reference-docket.json --title "GoalOS Autonomous Experience OS V52" --notes-file /tmp/goalos-v52-release.md --target main
+          fi
