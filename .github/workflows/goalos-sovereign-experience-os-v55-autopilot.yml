@@ -1,0 +1,181 @@
+name: GoalOS Sovereign Experience OS V55 — Final Interactive Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: Commit generated website files to the repository
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: Deploy the updated public/ site to GitHub Pages
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: Create a human visual QA issue
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: Create a GitHub Release after visual approval
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: Release tag to use when create_release is true
+        required: true
+        type: string
+        default: v0.75.0-sovereign-experience-os-v55
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_PATH: .goalos/packs/goalos-sovereign-experience-os-v55-pack.zip
+  TMP_DIR: .goalos/tmp-v55
+
+jobs:
+  install-audit-deploy:
+    name: Install V55, audit, deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify V55 pack exists
+        run: |
+          set -euo pipefail
+          test -f "$PACK_PATH"
+          python -m zipfile -t "$PACK_PATH"
+
+      - name: Install GoalOS Sovereign Experience OS V55
+        run: |
+          set -euo pipefail
+          rm -rf "$TMP_DIR"
+          mkdir -p "$TMP_DIR"
+          python -m zipfile -e "$PACK_PATH" "$TMP_DIR"
+          python -m py_compile "$TMP_DIR/scripts/install_v55.py"
+          python "$TMP_DIR/scripts/install_v55.py"
+
+      - name: Show V55 audit
+        run: |
+          set -euo pipefail
+          cat reports/sovereign-experience-os-v55-install-report.json
+
+      - name: Commit generated website files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content docs reports evidence .goalos || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Sovereign Experience OS V55"
+          git push || true
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cat > /tmp/goalos-v55-visual-qa.md <<'EOF'
+          Open the V55 site and confirm the public experience:
+
+          - /index.html
+          - /autonomy-theatre.html
+          - /agi-agent-workbench.html
+          - /agi-agent-mission-control.html
+          - /agi-agent-playbooks.html
+          - /agent-foundry.html
+          - /agi-agent-run-theatre.html
+          - /agent-flow-academy-v38.html
+          - /from-loop-to-rsi-state-capacity.html
+          - /move37-dossier.html
+          - /loop-bottleneck-observatory.html
+          - /loop-contract-lab.html
+          - /loop-flight-recorder.html
+          - /agi-alpha-node-v0.html
+          - /agi-node-validation.html
+          - /validation-control-tower.html
+          - /mainnet-contract-atlas.html
+          - /contract-academy.html
+          - /mainnet-proof-rail.html
+          - /proof-run-001-docket.html
+          - /evidence-docket-theatre.html
+          - /ask-goalos.html
+          - /all-pages.html
+          - /search.html
+          - /site-health.html
+          - /trust-boundary.html
+          - /token-boundary.html
+          - /privacy.html
+          - /data-boundary.html
+
+          Review checklist:
+          - Run end-to-end demo opens immediately.
+          - Each major page launches a page-specific mission.
+          - Stages animate; agent cards activate; console logs stream.
+          - Readiness, replay, risk, and reuse bars move.
+          - Artifact downloads appear.
+          - Ask GoalOS routes to relevant pages.
+          - All Pages and Search include agents, RSI/Loop, AGI Node, validation, contracts, proof, trust, and boundary pages.
+          - No duplicate bottom-button pileups.
+          - No text overlaps.
+          - No blank dead zones.
+          - No wallet prompt.
+          - No transaction.
+          - No backend call.
+          - No user-data form.
+
+          Verdict: PASS / FAIL
+          EOF
+          gh issue create --title "GoalOS Sovereign Experience OS V55 — human visual QA" --body-file /tmp/goalos-v55-visual-qa.md --label goalos --label visual-qa --label v55 || true
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ inputs.release_tag }}"
+          SHA="$(git rev-parse HEAD)"
+          gh release create "$TAG" \
+            --target "$SHA" \
+            --title "GoalOS Sovereign Experience OS V55" \
+            --notes "Final interactive phase-conclusion website: page-specific autonomous demos, complete canonical route surface, Ask GoalOS, All Pages, Search, Site Health, and public-alpha boundary." \
+            reports/sovereign-experience-os-v55-install-report.json \
+            reports/sovereign-experience-os-v55-qa.json \
+            reports/sovereign-experience-os-v55-route-health.json \
+            reports/sovereign-experience-os-v55-audit.json \
+            reports/sovereign-experience-os-v55-demo-run.json \
+            evidence/demo/sovereign-experience-os-v55-reference-docket.json \
+            content/goalos/public-proof-navigation-v55.json \
+            content/goalos/demo-ecosystem-registry-v55.json
