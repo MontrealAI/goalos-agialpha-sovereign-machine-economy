@@ -1,0 +1,120 @@
+name: GoalOS Sovereign Interaction OS V53 — Page-Specific Autonomous Demos
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: "Commit generated files to the repository"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy the updated public/ site to GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create a human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create a GitHub release after approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        type: string
+        default: "v0.73.0-sovereign-interaction-os-v53"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_ZIP: .goalos/packs/goalos-sovereign-interaction-os-v53-pack.zip
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          test -f "$PACK_ZIP" || { echo "Missing $PACK_ZIP"; exit 1; }
+      - name: Install Sovereign Interaction OS V53
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m zipfile -e "$PACK_ZIP" /tmp/goalos-v53
+          cp -R /tmp/goalos-v53/.goalos ./
+          python -m py_compile .goalos/v53/install_v53.py
+          python .goalos/v53/install_v53.py | tee reports/sovereign-interaction-os-v53-action-output.json
+      - name: Show V53 audit
+        shell: bash
+        run: |
+          cat reports/sovereign-interaction-os-v53-install-report.json
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public docs reports evidence content examples .goalos || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Sovereign Interaction OS V53"
+          git push
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          cat > /tmp/v53_issue.md <<'EOF'
+          Review GoalOS Sovereign Interaction OS V53.
+
+          Confirm:
+          - Each page has a page-specific demo, not a generic replay.
+          - Run end-to-end demo opens the mission cockpit.
+          - AGI Agent, RSI/Loop, AGI Node, Validation, Contracts, Proof, Search, and Trust pages each run their own mission.
+          - Agent cards activate, stages animate, bars move, logs stream, artifacts download.
+          - All Pages and Search include the complete public surface.
+          - No overlap, no blank dead zones, no wallet prompt, no transaction, no backend call, no user-data form.
+
+          Verdict: PASS / FAIL
+          EOF
+          gh issue create --title "GoalOS Sovereign Interaction OS V53 — human visual QA" --body-file /tmp/v53_issue.md --label goalos --label visual-qa || true
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Sovereign Interaction OS V53
+          body: Page-specific autonomous demos across GoalOS, AGI Agents, RSI/Loop, AGI Nodes, Validation, Contracts, Proof, Search, and Trust.
+          files: |
+            reports/sovereign-interaction-os-v53-install-report.json
+            reports/sovereign-interaction-os-v53-qa.json
+            reports/sovereign-interaction-os-v53-route-health.json
+            reports/sovereign-interaction-os-v53-audit.json
+            reports/sovereign-interaction-os-v53-demo-run.json
+            evidence/demo/sovereign-interaction-os-v53-reference-docket.json
