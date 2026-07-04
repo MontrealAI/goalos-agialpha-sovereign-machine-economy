@@ -1,0 +1,77 @@
+{
+  "route_health": {
+    "checked_links": 4664,
+    "broken_links": [],
+    "broken_count": 0
+  },
+  "download_health": {
+    "root_escape_links": [],
+    "root_escape_count": 0,
+    "broken_downloads": [],
+    "broken_download_count": 0
+  },
+  "forbidden_api_audit": {
+    "hits": [],
+    "hit_count": 0
+  },
+  "boundary_coverage": {
+    "gaps": [],
+    "gap_count": 0
+  },
+  "issue_templates": {
+    "changed": [
+      ".github/ISSUE_TEMPLATE/proof_to_action_command_room_feedback.yml",
+      ".github/ISSUE_TEMPLATE/falsification_gauntlet_hotfix_feedback.yml",
+      ".github/ISSUE_TEMPLATE/evidence_docket_review.yml",
+      ".github/ISSUE_TEMPLATE/proof_run_001_execution_room_feedback.yml",
+      ".github/ISSUE_TEMPLATE/replay_report.yml",
+      ".github/ISSUE_TEMPLATE/demo_registry_or_falsification_feedback.yml",
+      ".github/ISSUE_TEMPLATE/sovereign_experience_stream_lab_feedback.yml",
+      ".github/ISSUE_TEMPLATE/evolution_ledger_control_room_v2_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_gradient_lab_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_mission.yml",
+      ".github/ISSUE_TEMPLATE/open_ended_work_engine_lab_feedback.yml",
+      ".github/ISSUE_TEMPLATE/value_realization_control_room_feedback.yml",
+      ".github/ISSUE_TEMPLATE/security_boundary_report.yml",
+      ".github/ISSUE_TEMPLATE/mission.yml",
+      ".github/ISSUE_TEMPLATE/evidence_docket_theatre_feedback.yml",
+      ".github/ISSUE_TEMPLATE/capability_compounding_lab_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_mission_control_feedback.yml",
+      ".github/ISSUE_TEMPLATE/user_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_backed_upgrade_rights_room_feedback.yml",
+      ".github/ISSUE_TEMPLATE/public_proof_ledger_feedback.yml",
+      ".github/ISSUE_TEMPLATE/claim-review.yml",
+      ".github/ISSUE_TEMPLATE/external_reviewer_replay.yml",
+      ".github/ISSUE_TEMPLATE/new_user_question.yml",
+      ".github/ISSUE_TEMPLATE/falsification_gauntlet_feedback.yml",
+      ".github/ISSUE_TEMPLATE/real_task_benchmark_bridge_feedback.yml",
+      ".github/ISSUE_TEMPLATE/claim_boundary_review.yml",
+      ".github/ISSUE_TEMPLATE/action_reason_trace_contract_feedback.yml",
+      ".github/ISSUE_TEMPLATE/demo_bug_report.yml",
+      ".github/ISSUE_TEMPLATE/documentation_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_mission_proposal.yml",
+      ".github/ISSUE_TEMPLATE/proof_experience_atlas_feedback.yml",
+      ".github/ISSUE_TEMPLATE/website_experience_os_feedback.yml",
+      ".github/ISSUE_TEMPLATE/validator_review.yml",
+      ".github/ISSUE_TEMPLATE/token_or_market_boundary.yml",
+      ".github/ISSUE_TEMPLATE/evidence-signal.yml",
+      ".github/ISSUE_TEMPLATE/evolution_ledger_control_room_feedback.yml",
+      ".github/ISSUE_TEMPLATE/config.yml",
+      ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml",
+      ".github/ISSUE_TEMPLATE/multi_agent_institution_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_carrying_artifact_foundry_feedback.yml",
+      ".github/ISSUE_TEMPLATE/external_reviewer_report.yml",
+      ".github/ISSUE_TEMPLATE/capability_compounding_lab_v2_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_settlement_chronicle_lab_feedback.yml",
+      ".github/ISSUE_TEMPLATE/reviewer_feedback.yml",
+      ".github/ISSUE_TEMPLATE/validator_council_arena_feedback.yml",
+      ".github/ISSUE_TEMPLATE/proof_mission_forge_feedback.yml",
+      ".github/ISSUE_TEMPLATE/public_safe_pilot_mission.yml",
+      ".github/ISSUE_TEMPLATE/evidence-docket.yml"
+    ],
+    "templates_missing_confirmation": [],
+    "templates_missing_confirmation_count": 0,
+    "total_templates": 50
+  },
+  "status": "passed"
+}

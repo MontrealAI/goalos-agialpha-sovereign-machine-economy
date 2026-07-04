@@ -1,0 +1,10 @@
+{
+  "name": "GoalOS Validator Council Arena V1",
+  "url": "validator-council-arena.html",
+  "category": "validator module / commit-reveal demo",
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "walletOrMainnet": false
+  }
+}

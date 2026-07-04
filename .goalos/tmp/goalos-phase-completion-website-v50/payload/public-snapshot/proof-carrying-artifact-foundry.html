@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Proof-Carrying Artifact Foundry — Make Reusable Intelligence Earn Authority</title>
+  <meta name="description" content="A browser-local public demo showing how raw AI output becomes a proof-carrying artifact with evidence, rollback, scope, selection, and review gates." />
+  <meta property="og:title" content="GoalOS Proof-Carrying Artifact Foundry" />
+  <meta property="og:description" content="The central object is not the agent. It is the proof-carrying artifact." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/goalos-proof-carrying-artifact-foundry-v1.css" />
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+</head>
+<body>
+  <main id="main" class="shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="mark">α</span><span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span></a>
+      <div class="links">
+        <a href="proof-experience-atlas.html">Atlas</a>
+        <a href="proof-gradient-lab.html">Proof Gradient</a>
+        <a href="evidence-docket-theatre.html">Docket Theatre</a>
+        <a href="capability-compounding-lab.html">Compounding</a>
+        <a class="active" href="proof-carrying-artifact-foundry.html">Artifact Foundry</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="heroCopy">
+        <p class="eyebrow"><span></span> Public demo / browser-local / no data</p>
+        <h1>The artifact earns authority.</h1>
+        <p class="lede">A model can answer. An agent can act. An institution must decide what may be reused. This lab shows how raw output becomes a <strong>Proof-Carrying Artifact</strong>: scoped, versioned, evaluated, rollbackable, and human-review-ready.</p>
+        <div class="heroActions">
+          <button id="runBtn" class="primary">Run artifact promotion</button>
+          <button id="stressBtn">Stress rollback debt</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <div class="boundary">No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
+      </div>
+
+      <section class="orbitalCard" aria-label="Proof-Carrying Artifact lifecycle visualization">
+        <div class="modeToggle" role="group" aria-label="View mode">
+          <button class="mode active" data-mode="exec">Executive</button>
+          <button class="mode" data-mode="tech">Technical</button>
+        </div>
+        <svg id="artifactSvg" viewBox="0 0 720 520" role="img" aria-label="Artifact promotion lifecycle">
+          <defs>
+            <radialGradient id="coreGlow" cx="50%" cy="50%" r="60%">
+              <stop offset="0%" stop-color="#fff17a" stop-opacity="1" />
+              <stop offset="42%" stop-color="#67ffd8" stop-opacity=".85" />
+              <stop offset="78%" stop-color="#9a79ff" stop-opacity=".55" />
+              <stop offset="100%" stop-color="#0b1021" stop-opacity="0" />
+            </radialGradient>
+            <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop stop-color="#67ffd8"/><stop offset=".55" stop-color="#ffee88"/><stop offset="1" stop-color="#a88cff"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="720" height="520" rx="34" fill="rgba(11,16,33,.78)" />
+          <g opacity=".18" stroke="#cfe9ff" stroke-width="1">
+            <path d="M30 90 H690 M30 170 H690 M30 250 H690 M30 330 H690 M30 410 H690"/>
+            <path d="M100 35 V485 M190 35 V485 M280 35 V485 M370 35 V485 M460 35 V485 M550 35 V485 M640 35 V485"/>
+          </g>
+          <circle cx="360" cy="260" r="112" fill="url(#coreGlow)" opacity=".88" />
+          <circle cx="360" cy="260" r="78" fill="#0d1527" stroke="url(#lineGrad)" stroke-width="4" />
+          <text x="360" y="246" text-anchor="middle" class="svgTiny">PROOF-CARRYING</text>
+          <text x="360" y="285" text-anchor="middle" class="svgAlpha">ARTIFACT</text>
+          <g id="orbitNodes"></g>
+          <path id="flowPath" d="M158 170 C228 80 492 80 562 170 C650 282 555 432 360 432 C165 432 70 282 158 170" fill="none" stroke="url(#lineGrad)" stroke-width="3" opacity=".7" stroke-dasharray="10 10" />
+          <text x="360" y="480" text-anchor="middle" class="svgNote">Draft → Candidate → Canary → Active only if proof, eval, rollback, scope, and challenge gates pass.</text>
+        </svg>
+      </section>
+    </section>
+
+    <section class="metrics" aria-label="Artifact metrics">
+      <div><b id="readiness">43</b><span>Readiness</span></div>
+      <div><b id="maturity">L1</b><span>Conformance</span></div>
+      <div><b id="debt">61</b><span>Rollback debt</span></div>
+      <div><b id="state">DRAFT</b><span>Selection state</span></div>
+    </section>
+
+    <section class="labGrid">
+      <aside class="panel compose">
+        <div class="panelTitle"><span>01</span><h2>Define the artifact</h2></div>
+        <label>Artifact class</label>
+        <select id="artifactClass">
+          <option value="capability">Reusable capability</option>
+          <option value="workflow">Workflow / temporal option</option>
+          <option value="router">Routing policy</option>
+          <option value="validator">Validator template</option>
+          <option value="tool">Tool contract</option>
+          <option value="policy">Governance policy</option>
+        </select>
+        <label>Artifact under review</label>
+        <textarea id="artifactText" spellcheck="false">CapabilityPackage: Repository Launch Readiness Review — a reusable workflow for checking website-code parity, evidence presence, claim boundaries, replay path, and reviewer readiness before public proof releases.</textarea>
+        <label>Risk / scope</label>
+        <select id="riskClass">
+          <option value="public-safe">Public-safe / read-only</option>
+          <option value="review-required">Review-required / advisory</option>
+          <option value="restricted">Restricted / no promotion</option>
+        </select>
+        <div class="hint">Plain language is enough. This page never sends what you type anywhere.</div>
+      </aside>
+
+      <section class="panel theatre">
+        <div class="panelTitle"><span>02</span><h2>Selection Gate</h2></div>
+        <div class="gateControls" id="gateControls"></div>
+        <div class="timeline" id="timeline" aria-live="polite"></div>
+      </section>
+
+      <aside class="panel decision">
+        <div class="panelTitle"><span>03</span><h2>Decision chamber</h2></div>
+        <div class="donut" style="--p:43"><span id="donutVal">43</span><small>readiness</small></div>
+        <div class="decisionBox">
+          <p class="smallcaps">Governed decision state</p>
+          <h3 id="decisionText">DRAFT_NOT_AUTHORIZED</h3>
+          <p id="decisionExplain">The artifact has not yet earned proof-backed reuse authority.</p>
+        </div>
+        <div class="downloads">
+          <button id="downloadArtifact">Download artifact JSON</button>
+          <button id="downloadSelection">Download selection certificate</button>
+          <button id="downloadRollback">Download rollback receipt</button>
+          <button id="downloadLedger">Download ledger entry</button>
+          <button id="downloadBrief">Download reviewer brief</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="explainGrid">
+      <article>
+        <p class="eyebrow"><span></span> Plain English</p>
+        <h2>The central object is not the agent.</h2>
+        <p>An agent may help produce work, but GoalOS does not let a useful-looking output automatically become trusted institutional memory. It must become a proof-carrying artifact: versioned, scoped, evaluated, rollbackable, and reviewable.</p>
+      </article>
+      <article>
+        <p class="eyebrow"><span></span> Advanced view</p>
+        <h2>Score is advisory. Gates are mandatory.</h2>
+        <p>The Proof Gradient score may improve, but promotion still requires proof validity, evaluation pass, rollback readiness, scope authorization, and challenge-window clearance. High novelty raises the burden of proof.</p>
+      </article>
+      <article>
+        <p class="eyebrow"><span></span> Public-private boundary</p>
+        <h2>Private intelligence stays private.</h2>
+        <p>The public artifact carries hashes, attestations, selection status, and replay pointers. Private prompts, customer data, raw traces, secrets, and privileged workpapers do not belong in the public proof surface.</p>
+      </article>
+    </section>
+  </main>
+  <script src="assets/goalos-proof-carrying-artifact-foundry-v1.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+</body>
+</html>

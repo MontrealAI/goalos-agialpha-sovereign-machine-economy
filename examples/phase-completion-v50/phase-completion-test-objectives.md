@@ -1,0 +1,8 @@
+- I am new and want the fastest path to understand GoalOS.
+- I want AGI agents to show a complete end-to-end example from objective to proof to validation to Chronicle.
+- I want AGI agents to help me turn a mission into proof-bearing work.
+- I want to understand the 48 GoalOS-created Ethereum Mainnet contracts.
+- I want AGI Node precheck and Human final review for a public-safe proof path.
+- I want to understand Loop to RSI governance and Move-37 handling.
+- I want to turn a public claim into reviewable evidence.
+- I want to verify that all public pages are discoverable and boundary-safe.

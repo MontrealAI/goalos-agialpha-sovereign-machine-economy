@@ -1,0 +1,29 @@
+{
+  "name": "GoalOS User Adoption Layer V2",
+  "generated_at": "2026-06-27T14:44:09Z",
+  "pages": [
+    "start-here.html",
+    "try-goalos.html",
+    "evidence-room.html",
+    "proof-run-001-live.html",
+    "validator-room.html",
+    "proof-mission-slots.html",
+    "proof-metrics-dashboard.html",
+    "what-goalos-does.html",
+    "glossary.html",
+    "run-locally.html",
+    "reviewer-path.html",
+    "falsification-box.html"
+  ],
+  "docs": [
+    "docs/reviewer",
+    "docs/pilot",
+    "examples/user-friendly"
+  ],
+  "boundary": [
+    "no_wallet",
+    "no_transaction",
+    "no_external_action",
+    "human_review_required"
+  ]
+}

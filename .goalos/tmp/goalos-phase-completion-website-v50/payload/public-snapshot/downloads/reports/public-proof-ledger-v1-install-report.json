@@ -1,0 +1,13 @@
+{
+  "status": "installed",
+  "generated_at": "2026-06-29T03:08:26.749043Z",
+  "entries": 196,
+  "totals": {
+    "dockets": 30,
+    "reports": 111,
+    "pages": 32,
+    "review_paths": 24,
+    "missing": 0
+  },
+  "page": "public/proof-ledger.html"
+}

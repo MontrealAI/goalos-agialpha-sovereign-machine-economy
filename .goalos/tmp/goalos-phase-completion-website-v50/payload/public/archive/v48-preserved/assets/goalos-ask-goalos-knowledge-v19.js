@@ -1,0 +1,1 @@
+console.log("GoalOS compatibility asset");

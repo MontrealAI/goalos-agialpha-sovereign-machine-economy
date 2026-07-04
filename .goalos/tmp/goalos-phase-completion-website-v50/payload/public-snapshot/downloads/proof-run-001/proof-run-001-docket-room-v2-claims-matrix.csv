@@ -1,0 +1,5 @@
+id,claim,status,evidence,boundary
+C1,The repository has a coherent public-alpha website surface for review.,supported,public/*.html scan,Website completeness is not empirical AGI/ASI/SOTA evidence.
+C2,The repository contains reference implementation modules behind the public website story.,supported,src/goalos_ascension/*.py scan,Reference implementation is not production certification.
+C3,The repository publishes evidence/report artifacts and a reviewer path.,supported,evidence/**/*.json and reports/**/*.json scan,Generated artifacts still require independent review.
+C4,"The public site preserves no-data, no-funds, no-wallet, and human-review boundaries.",supported,boundary text scan and JavaScript safety scan,"This is a minimization posture, not legal advice or universal compliance certification."

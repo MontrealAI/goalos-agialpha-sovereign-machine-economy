@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050914" />
+  <meta name="description" content="GoalOS Evidence Docket Theatre: convert claims into inspectable proof rooms, governed decision states, and reusable capability packages — browser-local, no user data, no user funds." />
+  <title>GoalOS Evidence Docket Theatre — A proof page is not a marketing page</title>
+  <link rel="stylesheet" href="assets/goalos-docket-theatre-v2.css" />
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+</head>
+<body>
+  <canvas id="aura" aria-hidden="true"></canvas>
+  <div class="shell">
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="GoalOS home">
+        <span class="mark">α</span><span><strong>GOALOS</strong><small>Evidence Docket Theatre</small></span>
+      </a>
+      <nav>
+        <a href="start-here.html">Start</a>
+        <a href="evidence-room.html">Evidence Room</a>
+        <a class="active" href="evidence-docket-theatre.html">Docket Theatre</a>
+        <a href="proof-gradient-lab.html">Proof Gradient</a>
+        <a href="multi-agent-institution.html">Institution</a>
+        <a href="no-data-no-funds.html">No Data / No Funds</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span>EDT‑002 / PUBLIC PROOF ROOM / BROWSER‑LOCAL</p>
+          <h1>A proof page is not a marketing page.</h1>
+          <p class="lead">Turn a public-safe claim into a review-ready Evidence Docket: claims matrix, baselines, proof packets, verifier notes, risk/cost ledgers, replay path, claim boundary, governed decision state, and capability package.</p>
+          <div class="hero-actions">
+            <button class="button primary" id="launch-btn">Launch the Proof Room</button>
+            <button class="button secondary" id="sample-btn">Generate sample docket</button>
+            <button class="button ghost" id="mode-btn" aria-pressed="false">Switch to technical mode</button>
+          </div>
+          <div class="boundary"><strong>DEFAULT DENY</strong><span>No user data. No user funds. No wallet. No transaction. No external action. Human review required.</span></div>
+        </div>
+        <aside class="hero-orb" aria-label="Evidence Docket proof room illustration">
+          <svg id="hero-svg" viewBox="0 0 560 420" role="img"></svg>
+        </aside>
+      </section>
+
+      <section class="metric-strip" aria-label="current public-alpha evidence metrics">
+        <div><strong id="metric-claims">0</strong><span>claims mapped</span></div>
+        <div><strong id="metric-evidence">0</strong><span>evidence elements</span></div>
+        <div><strong id="metric-gates">0</strong><span>hard gates passed</span></div>
+        <div><strong>0</strong><span>external actions</span></div>
+        <div><strong>1</strong><span>human boundary</span></div>
+      </section>
+
+      <section class="theatre" id="theatre">
+        <aside class="control-panel">
+          <div class="panel-head">
+            <p class="eyebrow"><span></span>Claim → Docket</p>
+            <h2>Compose the public-safe claim</h2>
+          </div>
+          <label class="field"><span>Scenario</span><select id="scenario"></select></label>
+          <label class="field"><span>Public-safe claim draft</span><textarea id="claim-input" maxlength="900"></textarea></label>
+          <p class="note">Use public-safe text only. Do not enter personal, customer, confidential, regulated, credential, wallet, payment, private-key, seed-phrase, health, children’s, privileged, trade-secret, or proprietary data.</p>
+          <div class="field"><span>Docket elements</span><div class="toggle-grid" id="toggles"></div></div>
+          <div class="buttons-stacked">
+            <button class="button primary" id="run-btn">Run docket assembly</button>
+            <button class="button secondary" id="stress-btn">Stress test evidence</button>
+            <button class="button ghost" id="reset-btn">Reset</button>
+          </div>
+        </aside>
+
+        <section class="stage-panel">
+          <div class="stage-head">
+            <div><p class="eyebrow"><span></span>Evidence Docket 6.1</p><h2>Proof Room Theatre</h2></div>
+            <div class="state-pill" id="state-pill">AWAITING CLAIM</div>
+          </div>
+          <div class="gate-row" id="gate-row"></div>
+          <div class="docket-map">
+            <svg id="docket-svg" viewBox="0 0 820 460" role="img" aria-label="Evidence Docket map"></svg>
+          </div>
+          <div class="lower-stage">
+            <article class="explain-card">
+              <h3 id="explain-title">Manifest</h3>
+              <p id="explain-copy">The manifest states the claim, version, public/private boundary, signer, and review posture.</p>
+            </article>
+            <div class="terminal" id="chronicle" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <aside class="decision-panel">
+          <h2>Decision State</h2>
+          <div class="score-ring" id="score-ring"><div><strong id="score">0</strong><span>docket readiness</span></div></div>
+          <div class="decision-box"><strong>Governed decision</strong><p id="decision">DRAFT_CLAIM_NOT_REVIEWABLE</p></div>
+          <div class="progress-list">
+            <div class="prog"><label><span>Proof integrity</span><b id="v-proof">0%</b></label><i><em id="bar-proof"></em></i></div>
+            <div class="prog"><label><span>Replay readiness</span><b id="v-replay">0%</b></label><i><em id="bar-replay"></em></i></div>
+            <div class="prog"><label><span>Risk visibility</span><b id="v-risk">0%</b></label><i><em id="bar-risk"></em></i></div>
+            <div class="prog"><label><span>Actionability</span><b id="v-action">0%</b></label><i><em id="bar-action"></em></i></div>
+          </div>
+          <div class="download-grid">
+            <button class="button primary" id="download-docket">Docket JSON</button>
+            <button class="button secondary" id="download-report">Public report</button>
+            <button class="button secondary" id="download-review">Review checklist</button>
+            <button class="button ghost" id="download-matrix">Claims CSV</button>
+            <button class="button ghost" id="download-card">Proof card SVG</button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="compare-section">
+        <div class="section-title"><p class="eyebrow"><span></span>Core distinction</p><h2>From claim to governed state</h2></div>
+        <div class="compare-grid">
+          <article class="compare-card bad"><h3>Marketing claim</h3><ul><li>Sounds persuasive</li><li>No baseline</li><li>No verifier notes</li><li>No risk ledger</li><li>No replay path</li><li>No claim boundary</li></ul></article>
+          <article class="compare-card good"><h3>Evidence Docket</h3><ul><li>Claim matrix</li><li>Source provenance</li><li>Baselines</li><li>Proof packets</li><li>Risk/cost ledgers</li><li>Replay and audit path</li></ul></article>
+          <article class="compare-card better"><h3>Governed Decision State</h3><ul><li>Accept / reject / revise</li><li>Action graph</li><li>Rollback condition</li><li>Chronicle entry</li><li>Capability package</li><li>Human review boundary</li></ul></article>
+        </div>
+      </section>
+
+      <section class="advanced" id="advanced-block">
+        <div class="section-title"><p class="eyebrow"><span></span>Advanced inspection</p><h2>Proof-to-action calculus</h2></div>
+        <div class="advanced-grid">
+          <article><h3>AI Work equation</h3><code>AIWork = Output × Proof × Validation × Settlement × Reuse</code><p>If proof is zero, trusted institutional work is zero.</p></article>
+          <article><h3>Proof debt</h3><code>Dproof = Σ Impact × Unverified × Irreversibility × Reuse</code><p>The system reduces proof debt by making claims explicit, source-bound, risk-classed, and reviewable before action.</p></article>
+          <article><h3>Docket completeness</h3><code>Completeness = required elements present / required elements</code><p>Completeness is not authority. It only says the docket is reviewable.</p></article>
+          <article><h3>Boundary rule</h3><code>No data. No funds. No external action. Human review.</code><p>Public demos remain local and claim-bounded.</p></article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="assets/goalos-docket-theatre-v2.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+</body>
+</html>

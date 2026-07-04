@@ -1,0 +1,66 @@
+{
+  "schema": "goalos.multi_agent_institution.demo_run.v6",
+  "generated_at": "2026-06-28T13:07:32Z",
+  "mission": {
+    "name": "browser-local multi-agent institution demo",
+    "objective": "Compare unstructured swarm activity against proof-governed institutional work",
+    "boundary": [
+      "no_user_data",
+      "no_user_funds",
+      "no_wallet",
+      "no_transaction",
+      "human_review_required"
+    ]
+  },
+  "gates": [
+    {
+      "gate": "Mission",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Roles",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Tools",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Evidence",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Validation",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Risk",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Claim",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Decision",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Chronicle",
+      "status": "reference_pass"
+    },
+    {
+      "gate": "Capability",
+      "status": "reference_pass"
+    }
+  ],
+  "metrics": {
+    "verified_work": 82,
+    "proof_integrity": 88,
+    "reuse_potential": 79,
+    "residual_risk": 18,
+    "coordination_overhead": 31
+  },
+  "decision_state": "READY_FOR_VALIDATOR_REVIEW",
+  "artifact_hash": "sha256:d6e7a7dfcab87d9091d1c0984b45a760fa4e8318d4b3125d204132e62bd856c3"
+}

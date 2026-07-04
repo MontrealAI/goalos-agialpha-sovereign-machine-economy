@@ -1,0 +1,1 @@
+console.log("GoalOS Aurora compatibility asset");

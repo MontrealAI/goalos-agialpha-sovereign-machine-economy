@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Proof-to-Action Command Room — Governed Decision State</title>
+  <meta name="description" content="A browser-local GoalOS demonstration that turns proof into a Governed Decision State, Action Graph, Chronicle Entry, and Capability Package." />
+  <link rel="stylesheet" href="assets/goalos-proof-to-action-v1.css" />
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+</head>
+<body>
+  <canvas id="aura" aria-hidden="true"></canvas>
+  <header class="nav">
+    <a class="brand" href="index.html"><span class="mark">α</span><span><strong>GOALOS</strong><small>Proof-to-Action Command Room</small></span></a>
+    <nav>
+      <a href="start-here.html">Start Here</a>
+      <a href="evidence-docket-theatre.html">Evidence Docket</a>
+      <a href="proof-gradient-lab.html">Proof Gradient</a>
+      <a href="multi-agent-institution.html">Institution</a>
+      <a href="no-data-no-funds.html">Boundary</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>MISSION OS / PROOF-TO-ACTION</p>
+        <h1>The deliverable is a <em>governed decision state.</em></h1>
+        <p class="lead">A report is static. A governed decision state is inspectable, challengeable, actionable, rollback-aware, and reusable.</p>
+        <div class="hero-actions">
+          <button class="primary" id="run-main">Run proof-to-action cycle</button>
+          <button class="secondary" id="stress-main">Stress missing evidence</button>
+          <button class="ghost" id="download-main">Download decision state</button>
+        </div>
+        <div class="boundary"><strong>DEFAULT DENY</strong> Browser-local demo. No user data. No user funds. No wallet. No transaction. No network call. Human review required.</div>
+      </div>
+      <aside class="orbital" aria-label="Proof-to-action loop visualization">
+        <svg id="loop-svg" viewBox="0 0 640 500" role="img"></svg>
+      </aside>
+    </section>
+
+    <section class="metrics-strip">
+      <div><strong id="score-main">0</strong><span>decision readiness</span></div>
+      <div><strong id="gate-count">0/0</strong><span>mandatory gates</span></div>
+      <div><strong id="decision-label">INITIALIZING</strong><span>decision state</span></div>
+      <div><strong>0</strong><span>external actions</span></div>
+      <div><strong>1</strong><span>human boundary</span></div>
+    </section>
+
+    <section class="command-grid">
+      <aside class="panel control-panel">
+        <p class="eyebrow"><span></span>Mission selection</p>
+        <h2>Choose one public-safe objective.</h2>
+        <label class="field-label" for="scenario">Mission preset</label>
+        <select id="scenario">
+          <option value="launch">Repository launch readiness</option>
+          <option value="frontier">Frontier release governance review</option>
+          <option value="pilot">Proof mission pilot intake</option>
+          <option value="vendor">AI vendor / procurement review</option>
+          <option value="institution">Multi-agent institution readiness</option>
+        </select>
+        <div class="mission-card">
+          <strong id="mission-title">Repository launch readiness</strong>
+          <p id="mission-copy">Determine whether the public-alpha repository is review-ready, claim-bounded, evidence-backed, and safe for public inspection.</p>
+        </div>
+        <label class="field-label">Mandatory proof controls</label>
+        <div id="proof-toggles" class="toggle-list"></div>
+        <div class="button-stack">
+          <button class="primary" id="run-cycle">Run until proof is done</button>
+          <button class="secondary" id="stress-cycle">Stress test</button>
+          <button class="ghost" id="reset-cycle">Reset</button>
+        </div>
+        <p class="small">This demo uses fixed public-safe scenarios. Do not paste personal, customer, confidential, regulated, credential, wallet, or payment data anywhere in public channels.</p>
+      </aside>
+
+      <section class="panel theatre-panel">
+        <div class="theatre-head">
+          <div>
+            <p class="eyebrow"><span></span>Until-DONE state machine</p>
+            <h2>Objective → Proof → Decision → Action → Capability</h2>
+          </div>
+          <div class="mode-toggle"><button id="exec-mode" class="active">Executive</button><button id="tech-mode">Technical</button></div>
+        </div>
+        <div id="gate-rail" class="gate-rail"></div>
+        <div class="theatre-body">
+          <svg id="state-svg" viewBox="0 0 900 420" role="img"></svg>
+        </div>
+        <div class="lower-grid">
+          <div class="explain-box">
+            <h3 id="active-title">Mission Contract</h3>
+            <p id="active-copy">The objective is converted into success criteria, constraints, risk class, evidence requirements, and a human-review boundary.</p>
+          </div>
+          <div class="terminal" id="chronicle"></div>
+        </div>
+      </section>
+
+      <aside class="panel decision-panel">
+        <p class="eyebrow"><span></span>Decision chamber</p>
+        <h2 id="decision-title">Awaiting mission</h2>
+        <div class="score-ring" id="score-ring"><div><strong id="score-ring-value">0</strong><span>readiness</span></div></div>
+        <div class="decision-state"><strong>Governed Decision State</strong><p id="decision-state">CREATED_PENDING_PROOF</p></div>
+        <div class="meter-list">
+          <div><label>Proof integrity <b id="proof-integrity-value">0%</b></label><span><i id="proof-integrity"></i></span></div>
+          <div><label>Actionability <b id="actionability-value">0%</b></label><span><i id="actionability"></i></span></div>
+          <div><label>Rollback readiness <b id="rollback-value">0%</b></label><span><i id="rollback"></i></span></div>
+          <div><label>Reuse potential <b id="reuse-value">0%</b></label><span><i id="reuse"></i></span></div>
+        </div>
+        <div class="download-grid">
+          <button id="download-decision" class="primary">Decision state</button>
+          <button id="download-action" class="secondary">Action graph</button>
+          <button id="download-chronicle" class="secondary">Chronicle entry</button>
+          <button id="download-capability" class="secondary">Capability package</button>
+          <button id="download-brief" class="ghost">Executive brief</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="explain-grid">
+      <article class="panel"><h3>What this demonstrates</h3><p>GoalOS does not stop at output. It converts an objective into proof, and proof into a governed state that a human can inspect, challenge, approve, reject, or revise.</p></article>
+      <article class="panel"><h3>Why this matters</h3><p>High-stakes AI work needs actionability, rollback conditions, risk visibility, evidence traceability, and reusable capability — not just persuasive prose.</p></article>
+      <article class="panel"><h3>What it does not do</h3><p>It does not approve production action, move funds, connect a wallet, call a model, submit data, or replace legal, security, compliance, investment, or human review.</p></article>
+      <article class="panel"><h3>Best next click</h3><p>Use the Evidence Docket Theatre to inspect the proof room, then return here to see how that proof becomes a governed decision state.</p></article>
+    </section>
+  </main>
+  <script src="assets/goalos-proof-to-action-v1.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+</body>
+</html>

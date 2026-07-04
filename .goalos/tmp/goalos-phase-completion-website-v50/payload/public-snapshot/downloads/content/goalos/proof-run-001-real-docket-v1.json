@@ -1,0 +1,331 @@
+{
+  "schema": "goalos.proof_run_001.real_docket.v1",
+  "generated_at": "2026-06-29T03:20:21Z",
+  "mission_contract": {
+    "objective": "Audit the public-alpha repository for website/code/evidence/boundary readiness and emit a reviewable Proof Run 001 Evidence Docket.",
+    "decision_to_support": "Should the current public-alpha surface be considered ready for external reviewer inspection?",
+    "allowed_sources": "Public repository files only",
+    "forbidden_inputs": "No personal, customer, confidential, regulated, wallet, payment, seed phrase, private key, or trade-secret data.",
+    "human_review_required": true
+  },
+  "claims_matrix": [
+    {
+      "claim": "The repository has a broad public website surface for review.",
+      "status": "supported",
+      "evidence": "Page scan",
+      "boundary": "Website presence is not empirical AGI/ASI/SOTA proof."
+    },
+    {
+      "claim": "The repository has local implementation modules behind the website story.",
+      "status": "supported",
+      "evidence": "Code module scan",
+      "boundary": "Reference implementation is public-alpha, not production certification."
+    },
+    {
+      "claim": "The repository has evidence and report artifacts.",
+      "status": "supported",
+      "evidence": "Artifact scan",
+      "boundary": "Generated artifacts are not independent external validation."
+    },
+    {
+      "claim": "The public boundary says no user data, no user funds, no wallet, no transaction, and human review required.",
+      "status": "needs_revision",
+      "evidence": "Boundary scan",
+      "boundary": "Boundary text is not jurisdiction-specific legal advice."
+    },
+    {
+      "claim": "The public demos avoid common browser network/storage/wallet APIs.",
+      "status": "supported",
+      "evidence": "Static JS scan",
+      "boundary": "Static scan is not formal security certification."
+    },
+    {
+      "claim": "Repository tests pass.",
+      "status": "supported",
+      "evidence": "pytest",
+      "boundary": "Passing tests are not production certification."
+    }
+  ],
+  "scans": {
+    "pages": {
+      "existing_required": [
+        "index.html",
+        "start-here.html",
+        "proof-experience-atlas.html",
+        "proof-ledger.html",
+        "proof-mission-forge.html",
+        "proof-mission-control.html",
+        "proof-run-001-execution-room.html",
+        "external-reviewer-replay-room.html",
+        "multi-agent-institution.html",
+        "proof-gradient-lab.html",
+        "evidence-docket-theatre.html",
+        "proof-to-action-command-room.html",
+        "capability-compounding-lab.html",
+        "sovereign-experience-stream-lab.html",
+        "proof-settlement-chronicle-lab.html",
+        "falsification-gauntlet.html",
+        "legal.html",
+        "privacy.html",
+        "data-boundary.html",
+        "no-data-no-funds.html",
+        "agialpha-token-boundary.html",
+        "token.html"
+      ],
+      "missing_required": [],
+      "all_html_count": 115
+    },
+    "code": {
+      "existing_required": [
+        "src/goalos_ascension/models.py",
+        "src/goalos_ascension/kernel.py",
+        "src/goalos_ascension/evidence.py",
+        "src/goalos_ascension/aep001.py",
+        "src/goalos_ascension/mission_os.py",
+        "src/goalos_ascension/frontier_release.py",
+        "src/goalos_ascension/coordination.py",
+        "src/goalos_ascension/proof_run.py",
+        "src/goalos_ascension/parity.py",
+        "src/goalos_ascension/agent_foundry.py",
+        "src/goalos_ascension/node_runtime.py",
+        "src/goalos_ascension/agi_jobs.py",
+        "src/goalos_ascension/website_parity.py"
+      ],
+      "missing_required": []
+    },
+    "artifacts": {
+      "evidence_json_count": 32,
+      "report_json_count": 113,
+      "sample_evidence": [
+        "evidence/benchmarks/example-baseline-result.json",
+        "evidence/commercial/example-commercial-evidence-record.json",
+        "evidence/demo/autonomous-demo-pack.json",
+        "evidence/demo/capability-compounding-lab-v1-reference-docket.json",
+        "evidence/demo/capability-compounding-lab-v2-reference-docket.json",
+        "evidence/demo/evidence-docket-theatre-v2-reference-docket.json",
+        "evidence/demo/falsification-gauntlet-v1-reference-docket.json",
+        "evidence/demo/multi-agent-institution-v6-reference-docket.json",
+        "evidence/demo/proof-experience-atlas-v1-reference-docket.json",
+        "evidence/demo/proof-gradient-lab-v1-reference-docket.json",
+        "evidence/demo/proof-mission-forge-v1-reference-docket.json",
+        "evidence/demo/proof-settlement-chronicle-lab-v1-reference-docket.json",
+        "evidence/demo/proof-to-action-command-room-v1-reference-docket.json",
+        "evidence/demo/sovereign-experience-stream-lab-v1-reference-docket.json",
+        "evidence/dockets/coordination-run-001-genesis-docket.json",
+        "evidence/dockets/frontier-release-public-source-docket-001.json",
+        "evidence/dockets/proof-run-001-genesis-docket.json",
+        "evidence/fair-value/example-fair-value-support-record.json",
+        "evidence/market/example-customer-discovery-signal.json",
+        "evidence/market/example-design-partner-signal.json",
+        "evidence/pilots/example-pilot-outcome-docket.json",
+        "evidence/proof-ledger/public-proof-ledger-v1-reference-ledger.json",
+        "evidence/proof-missions/proof-mission-control-v1-reference-docket.json",
+        "evidence/proof-run-001/06_governed_decision_state.json",
+        "evidence/proof-run-001/proof-run-001-docket.json",
+        "evidence/proof-run-001/proof-run-001-execution-room-reference-docket.json",
+        "evidence/proof-run-001/proof-run-001-real-docket-v1.json",
+        "evidence/proof-run-001/proof-run-001-report.json",
+        "evidence/proof-velocity/events/example-proof-velocity-event.json",
+        "evidence/reviewer-replay/external-reviewer-replay-room-v1-reference-docket.json",
+        "evidence/strategic-scale/example-strategic-scale-docket.json",
+        "evidence/validation/example-independent-validation-record.json"
+      ],
+      "sample_reports": [
+        "reports/aep001-conformance.json",
+        "reports/agi-alpha-node-theatre-demo.json",
+        "reports/agi-jobs-ledger-demo.json",
+        "reports/agialpha-token-boundary-manifest.json",
+        "reports/agialpha-token-boundary-qa.json",
+        "reports/artifact-digests.json",
+        "reports/ascension-visual-parity-v4-install.json",
+        "reports/ascension-visual-parity-v4-qa.json",
+        "reports/ascension-visual-parity-v4-validation.json",
+        "reports/autonomous-demo-layer-v4-install-report.json",
+        "reports/autonomous-demo-layer-v4-manifest.json",
+        "reports/autonomous-demo-layer-v4-qa.json",
+        "reports/autonomous-demo-run-report.json",
+        "reports/capability-compounding-lab-v1-demo-run.json",
+        "reports/capability-compounding-lab-v1-install-report.json",
+        "reports/capability-compounding-lab-v1-manifest.json",
+        "reports/capability-compounding-lab-v1-qa.json",
+        "reports/capability-compounding-lab-v2-demo-run.json",
+        "reports/capability-compounding-lab-v2-install-report.json",
+        "reports/capability-compounding-lab-v2-manifest.json",
+        "reports/capability-compounding-lab-v2-qa.json",
+        "reports/capability-parity-audit.json",
+        "reports/capability-parity-v2-install-report.json",
+        "reports/claim-scan.json",
+        "reports/coordination-run-001.json",
+        "reports/demo-settlement.json",
+        "reports/document-series-manifest.json",
+        "reports/evidence-docket-theatre-v2-demo-run.json",
+        "reports/evidence-docket-theatre-v2-install-report.json",
+        "reports/evidence-docket-theatre-v2-manifest.json",
+        "reports/evidence-docket-theatre-v2-qa.json",
+        "reports/evidence-maturity-score.json",
+        "reports/evidence-room-index.json",
+        "reports/external-reviewer-replay-room-v1-demo-run.json",
+        "reports/external-reviewer-replay-room-v1-install-report.json",
+        "reports/external-reviewer-replay-room-v1-manifest.json",
+        "reports/external-reviewer-replay-room-v1-qa.json",
+        "reports/falsification-gauntlet-v1-demo-run.json",
+        "reports/falsification-gauntlet-v1-install-report.json",
+        "reports/falsification-gauntlet-v1-manifest.json",
+        "reports/falsification-gauntlet-v1-qa.json",
+        "reports/frontier-release-case-study-sources.json",
+        "reports/frontier-release-room-qa.json",
+        "reports/frontier-release-room-v2-qa.json",
+        "reports/goalos-historical-master-qa.json",
+        "reports/goalos-historical-master-run.json",
+        "reports/goalos-historical-master-workflow.json",
+        "reports/goalos-latest-website-install-report.json",
+        "reports/goalos-latest-website-manifest.json",
+        "reports/goalos-latest-website-qa.json",
+        "reports/historical-opportunity-upgrade.json",
+        "reports/institutional-scorecard.json",
+        "reports/interactive-console-qa.json",
+        "reports/legal-privacy-shield-manifest.json",
+        "reports/legal-privacy-shield-qa.json",
+        "reports/meta-agentic-foundry-demo.json",
+        "reports/mission-os-demo.json",
+        "reports/multi-agent-institution-v6-demo-run.json",
+        "reports/multi-agent-institution-v6-install-report.json",
+        "reports/multi-agent-institution-v6-manifest.json"
+      ]
+    },
+    "boundaries": {
+      "no user data": true,
+      "no user funds": true,
+      "no wallet": true,
+      "no transaction": true,
+      "human review required": true,
+      "not achieved agi": true,
+      "not achieved asi": false
+    },
+    "javascript_safety": {
+      "passed": true,
+      "findings": []
+    },
+    "tests": {
+      "enabled": true,
+      "passed": true,
+      "result": {
+        "cmd": [
+          "/opt/hostedtoolcache/Python/3.12.13/x64/bin/python",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "returncode": 0,
+        "stdout": "..................                                                       [100%]\n18 passed in 0.25s\n",
+        "stderr": ""
+      }
+    }
+  },
+  "gates": {
+    "passed": 9,
+    "total": 10,
+    "items": [
+      {
+        "id": "mission_contract",
+        "name": "Mission Contract exists for Proof Run 001",
+        "passed": true,
+        "note": "Generated by this workflow."
+      },
+      {
+        "id": "public_site",
+        "name": "Core public website pages are present",
+        "passed": true,
+        "note": "missing=[]"
+      },
+      {
+        "id": "code_parity",
+        "name": "Core reference implementation modules are present",
+        "passed": true,
+        "note": "missing=[]"
+      },
+      {
+        "id": "evidence_artifacts",
+        "name": "Evidence artifacts exist",
+        "passed": true,
+        "note": "evidence_json_count=32"
+      },
+      {
+        "id": "audit_reports",
+        "name": "Audit reports exist",
+        "passed": true,
+        "note": "report_json_count=113"
+      },
+      {
+        "id": "boundary",
+        "name": "No-data / no-funds / human-review boundary is present",
+        "passed": false,
+        "note": "{\"no user data\": true, \"no user funds\": true, \"no wallet\": true, \"no transaction\": true, \"human review required\": true, \"not achieved agi\": true, \"not achieved asi\": false}"
+      },
+      {
+        "id": "browser_local",
+        "name": "Demo JavaScript avoids common network/storage/wallet APIs",
+        "passed": true,
+        "note": "[]"
+      },
+      {
+        "id": "tests",
+        "name": "Repository tests pass or are not applicable",
+        "passed": true,
+        "note": ""
+      },
+      {
+        "id": "replay_path",
+        "name": "Replay instructions are generated",
+        "passed": true,
+        "note": "replay/proof-run-001/README.md"
+      },
+      {
+        "id": "validator_packet",
+        "name": "Validator packet is generated",
+        "passed": true,
+        "note": "evidence/proof-run-001/07_validator_packet.md"
+      }
+    ]
+  },
+  "risk_ledger": {
+    "critical_safety_incidents": 0,
+    "external_actions_authorized": false,
+    "wallet_or_mainnet": false,
+    "risks": [
+      {
+        "risk": "Overclaiming architecture as empirical proof",
+        "mitigation": "Claim boundary and review gate"
+      },
+      {
+        "risk": "User data/funds submission",
+        "mitigation": "No-data/no-funds boundary"
+      },
+      {
+        "risk": "Fragmented artifacts",
+        "mitigation": "Public Proof Ledger plus this docket"
+      }
+    ]
+  },
+  "cost_ledger": {
+    "user_funds": 0,
+    "wallet_calls": 0,
+    "external_network_calls_by_demos": 0,
+    "runner": "GitHub-hosted CI only"
+  },
+  "governed_decision_state": {
+    "state": "HOLD_PENDING_REMEDIATION",
+    "readiness_score": 90,
+    "human_review_required": true,
+    "next_action": "Resolve blocked gates and rerun"
+  },
+  "chronicle_entry": {
+    "event": "Proof Run 001 real repository-readiness docket generated",
+    "timestamp": "2026-06-29T03:20:21Z",
+    "status": "HOLD_PENDING_REMEDIATION"
+  },
+  "capability_package": {
+    "name": "GoalOS Repository Proof Surface Audit",
+    "reuse": "Rerun before releases to produce a fresh readiness docket."
+  }
+}

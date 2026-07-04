@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-29T22:24:07Z",
+  "docket": {
+    "docketId": "GOALOS-WEBSITE-EXPERIENCE-OS-V2",
+    "generatedAt": "2026-06-29T22:24:07Z",
+    "claim": "The GoalOS public-alpha website has a unified navigation, route registry, role-based Pathfinder, site map, and visible no-data/no-funds boundary.",
+    "boundary": [
+      "No user data",
+      "No user funds",
+      "No wallet",
+      "No transaction",
+      "No network call",
+      "No production authority",
+      "Human review required"
+    ],
+    "routeCount": 130,
+    "routeFamilies": {
+      "start": 6,
+      "evidence": 12,
+      "review": 6,
+      "mission": 3,
+      "core demo": 8,
+      "advanced demo": 10,
+      "benchmark": 1,
+      "adoption": 2,
+      "frontier": 1,
+      "hands-on": 7,
+      "legacy / canon": 3,
+      "docs": 7,
+      "trust": 12,
+      "additional": 52
+    },
+    "artifacts": [
+      "public/index.html",
+      "public/website-operating-system.html",
+      "public/pathfinder.html",
+      "public/demo-ecosystem-registry.html",
+      "public/site-map.html",
+      "reports/website-experience-os-v2-qa.json"
+    ],
+    "decisionState": "WEBSITE_REVIEW_READY"
+  }
+}

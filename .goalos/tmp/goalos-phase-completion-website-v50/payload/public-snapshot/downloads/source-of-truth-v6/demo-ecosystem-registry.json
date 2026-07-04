@@ -1,0 +1,3174 @@
+{
+  "version": "0.31.5",
+  "release_label": "source-of-truth-v6",
+  "generated_at_utc": "2026-06-30T15:51:11+00:00",
+  "route_schema": [
+    "user action",
+    "mission/event type",
+    "selected demo engine",
+    "required inputs",
+    "proof gates",
+    "output artifact",
+    "next allowed state"
+  ],
+  "routes": [
+    {
+      "name": "Action-Reason Trace Contract",
+      "category": "action",
+      "description": "Every high-impact action must carry reason, scope, observation, validation, rollback, and evidence.",
+      "inputs": [
+        "action intent",
+        "tool surface",
+        "risk class",
+        "evidence completeness"
+      ],
+      "outputs": [
+        "trace contract",
+        "action graph",
+        "rollback playbook",
+        "evidence pointer map"
+      ],
+      "gates": [
+        "scope",
+        "reason",
+        "observation",
+        "validator",
+        "rollback",
+        "boundary"
+      ],
+      "state": "ACTION_REVIEW_READY",
+      "role": "action-governance module",
+      "path": "action-reason-trace-contract.html",
+      "title": "GoalOS Action-Reason Trace Contract — No Action Without Reason",
+      "sha16": "1e7404efcde1dadc"
+    },
+    {
+      "name": "404",
+      "category": "additional",
+      "description": "GoalOS public route for 404; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "404.html",
+      "title": "Page Not Found · GoalOS",
+      "sha16": "484e2c911a37f1cb"
+    },
+    {
+      "name": "Adoption",
+      "category": "additional",
+      "description": "GoalOS public route for Adoption; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "adoption.html",
+      "title": "Adoption Playbook · GoalOS Ascension",
+      "sha16": "b62da78ae7829c61"
+    },
+    {
+      "name": "Agents",
+      "category": "additional",
+      "description": "GoalOS public route for Agents; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "agents.html",
+      "title": "Agent Foundry · GoalOS Ascension",
+      "sha16": "49f44e009c877c2d"
+    },
+    {
+      "name": "Agi Alpha Node V0",
+      "category": "additional",
+      "description": "GoalOS public route for Agi Alpha Node V0; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "agi-alpha-node-v0.html",
+      "title": "AGI Alpha Node v0",
+      "sha16": "679d39bb7243373f"
+    },
+    {
+      "name": "Agi Alpha Thesis",
+      "category": "additional",
+      "description": "GoalOS public route for Agi Alpha Thesis; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "agi-alpha-thesis.html",
+      "title": "AGI ALPHA Thesis",
+      "sha16": "bcf14d0644d939f6"
+    },
+    {
+      "name": "Agi Jobs V0 V2",
+      "category": "additional",
+      "description": "GoalOS public route for Agi Jobs V0 V2; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "agi-jobs-v0-v2.html",
+      "title": "AGI Jobs v0 (v2)",
+      "sha16": "b83c7cd3689e1ca7"
+    },
+    {
+      "name": "Architecture",
+      "category": "additional",
+      "description": "GoalOS public route for Architecture; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "architecture.html",
+      "title": "Architecture · GoalOS",
+      "sha16": "8e9ae4e0993c5fea"
+    },
+    {
+      "name": "Capability Parity",
+      "category": "additional",
+      "description": "GoalOS public route for Capability Parity; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "capability-parity.html",
+      "title": "GoalOS Capability Parity",
+      "sha16": "b9943ffba41b6881"
+    },
+    {
+      "name": "Capability Stack",
+      "category": "additional",
+      "description": "GoalOS public route for Capability Stack; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "capability-stack.html",
+      "title": "Capability Stack · GoalOS Ascension",
+      "sha16": "bae6b3b0f9017480"
+    },
+    {
+      "name": "Console",
+      "category": "additional",
+      "description": "GoalOS public route for Console; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "console.html",
+      "title": "GoalOS Proof Console",
+      "sha16": "ac68f68501837de2"
+    },
+    {
+      "name": "Coordination Console",
+      "category": "additional",
+      "description": "GoalOS public route for Coordination Console; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "coordination-console.html",
+      "title": "Coordination Console",
+      "sha16": "270123e64d7e511f"
+    },
+    {
+      "name": "Docs",
+      "category": "additional",
+      "description": "GoalOS public route for Docs; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "docs.html",
+      "title": "Docs · GoalOS",
+      "sha16": "232c612bcf7ab474"
+    },
+    {
+      "name": "Document Series",
+      "category": "additional",
+      "description": "GoalOS public route for Document Series; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "document-series.html",
+      "title": "GoalOS Document Series",
+      "sha16": "17f70fd218a624bd"
+    },
+    {
+      "name": "Enterprise",
+      "category": "additional",
+      "description": "GoalOS public route for Enterprise; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "enterprise.html",
+      "title": "Enterprise Readiness · GoalOS Ascension",
+      "sha16": "deec26f2c83974c5"
+    },
+    {
+      "name": "Evaluation",
+      "category": "additional",
+      "description": "GoalOS public route for Evaluation; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "evaluation.html",
+      "title": "Evaluation · GoalOS Ascension",
+      "sha16": "b3046783001e7e3f"
+    },
+    {
+      "name": "Evaluation Program",
+      "category": "additional",
+      "description": "GoalOS public route for Evaluation Program; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "evaluation-program.html",
+      "title": "Evaluation Program",
+      "sha16": "1c966896bdb1deda"
+    },
+    {
+      "name": "Executive Brief",
+      "category": "additional",
+      "description": "GoalOS public route for Executive Brief; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "executive-brief.html",
+      "title": "Executive Brief · GoalOS Ascension",
+      "sha16": "0cd41579d62d8cb4"
+    },
+    {
+      "name": "Falsification Box",
+      "category": "additional",
+      "description": "GoalOS public route for Falsification Box; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "falsification-box.html",
+      "title": "Falsification Box — GoalOS",
+      "sha16": "d2cc7669770a36ff"
+    },
+    {
+      "name": "Faq",
+      "category": "additional",
+      "description": "GoalOS public route for Faq; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "faq.html",
+      "title": "FAQ · GoalOS Ascension",
+      "sha16": "212afb4cd38c5674"
+    },
+    {
+      "name": "For New Users",
+      "category": "additional",
+      "description": "GoalOS public route for For New Users; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "for-new-users.html",
+      "title": "For New Users — GoalOS",
+      "sha16": "40a56e0fd179ddcf"
+    },
+    {
+      "name": "Frontier Release Case Study",
+      "category": "additional",
+      "description": "GoalOS public route for Frontier Release Case Study; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "frontier-release-case-study.html",
+      "title": "Frontier Release Case Study",
+      "sha16": "0d4cfa85796516cd"
+    },
+    {
+      "name": "Frontier Release Doctrine",
+      "category": "additional",
+      "description": "GoalOS public route for Frontier Release Doctrine; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "frontier-release-doctrine.html",
+      "title": "Frontier Release Doctrine",
+      "sha16": "21b16eeb8a7b6754"
+    },
+    {
+      "name": "Glossary",
+      "category": "additional",
+      "description": "GoalOS public route for Glossary; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "glossary.html",
+      "title": "Glossary — GoalOS",
+      "sha16": "a4ca1b0cf100e726"
+    },
+    {
+      "name": "Governance",
+      "category": "additional",
+      "description": "GoalOS public route for Governance; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "governance.html",
+      "title": "Governance · GoalOS Ascension",
+      "sha16": "a9b3741ff54ff375"
+    },
+    {
+      "name": "Help Center",
+      "category": "additional",
+      "description": "GoalOS public route for Help Center; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "help-center.html",
+      "title": "Help Center — GoalOS",
+      "sha16": "3e3cfaadf87e1e9a"
+    },
+    {
+      "name": "Historical Command Center",
+      "category": "additional",
+      "description": "GoalOS public route for Historical Command Center; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "historical-command-center.html",
+      "title": "GoalOS Historical Command Center",
+      "sha16": "23da7d644d197687"
+    },
+    {
+      "name": "Holy Grail Candidate",
+      "category": "additional",
+      "description": "GoalOS public route for Holy Grail Candidate; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "holy-grail-candidate.html",
+      "title": "Holy Grail Candidate",
+      "sha16": "f9baa4306006924d"
+    },
+    {
+      "name": "Independent Validation",
+      "category": "additional",
+      "description": "GoalOS public route for Independent Validation; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "independent-validation.html",
+      "title": "Independent Validation · GoalOS Ascension",
+      "sha16": "f6b1e6b3ab8ff134"
+    },
+    {
+      "name": "Jobs",
+      "category": "additional",
+      "description": "GoalOS public route for Jobs; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "jobs.html",
+      "title": "AGI Jobs Ledger · GoalOS Ascension",
+      "sha16": "e27a37cdb3bf5ea3"
+    },
+    {
+      "name": "Launch",
+      "category": "additional",
+      "description": "GoalOS public route for Launch; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "launch.html",
+      "title": "Launch Package · GoalOS Ascension",
+      "sha16": "e412bc5825b1bd56"
+    },
+    {
+      "name": "Launch Narrative",
+      "category": "additional",
+      "description": "GoalOS public route for Launch Narrative; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "launch-narrative.html",
+      "title": "GoalOS Launch Narrative",
+      "sha16": "9623a16ef39dc89a"
+    },
+    {
+      "name": "Meta Agentic Alpha Agi",
+      "category": "additional",
+      "description": "GoalOS public route for Meta Agentic Alpha Agi; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "meta-agentic-alpha-agi.html",
+      "title": "META-AGENTIC α-AGI",
+      "sha16": "92940360eba2cee7"
+    },
+    {
+      "name": "Metrics",
+      "category": "additional",
+      "description": "GoalOS public route for Metrics; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "metrics.html",
+      "title": "Operating Metrics · GoalOS Ascension",
+      "sha16": "17e4969ede40f17d"
+    },
+    {
+      "name": "Node",
+      "category": "additional",
+      "description": "GoalOS public route for Node; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "node.html",
+      "title": "Node Runtime · GoalOS Ascension",
+      "sha16": "2475e134136da915"
+    },
+    {
+      "name": "Operator Checklist",
+      "category": "additional",
+      "description": "GoalOS public route for Operator Checklist; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "operator-checklist.html",
+      "title": "Operator Checklist — GoalOS",
+      "sha16": "bd56ecf89a8098db"
+    },
+    {
+      "name": "Operators",
+      "category": "additional",
+      "description": "GoalOS public route for Operators; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "operators.html",
+      "title": "Operator Console Blueprint · GoalOS Ascension",
+      "sha16": "d60ab95b474a1bf5"
+    },
+    {
+      "name": "Paper To Product",
+      "category": "additional",
+      "description": "GoalOS public route for Paper To Product; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "paper-to-product.html",
+      "title": "Paper to Product",
+      "sha16": "650d127d24c094a7"
+    },
+    {
+      "name": "Pilot Program",
+      "category": "additional",
+      "description": "GoalOS public route for Pilot Program; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "pilot-program.html",
+      "title": "Pilot Program · GoalOS Ascension",
+      "sha16": "f44796e64e1e1a84"
+    },
+    {
+      "name": "Product",
+      "category": "additional",
+      "description": "GoalOS public route for Product; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "product.html",
+      "title": "Product · GoalOS",
+      "sha16": "8c6e337786927b6e"
+    },
+    {
+      "name": "Public Metrics Ledger",
+      "category": "additional",
+      "description": "GoalOS public route for Public Metrics Ledger; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "public-metrics-ledger.html",
+      "title": "Public Metrics Ledger · GoalOS Ascension",
+      "sha16": "72e54d51ee674f4a"
+    },
+    {
+      "name": "Quick Tour",
+      "category": "additional",
+      "description": "GoalOS public route for Quick Tour; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "quick-tour.html",
+      "title": "Try GoalOS — Browser-local Demo",
+      "sha16": "be788b4c15b57157"
+    },
+    {
+      "name": "Release Gates",
+      "category": "additional",
+      "description": "GoalOS public route for Release Gates; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "release-gates.html",
+      "title": "Release Gates · GoalOS Ascension",
+      "sha16": "dffd3aac47f38676"
+    },
+    {
+      "name": "Repository Map",
+      "category": "additional",
+      "description": "GoalOS public route for Repository Map; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "repository-map.html",
+      "title": "Repository Map · GoalOS Ascension",
+      "sha16": "8dbd7993212f88b0"
+    },
+    {
+      "name": "Research Spine",
+      "category": "additional",
+      "description": "GoalOS public route for Research Spine; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "research-spine.html",
+      "title": "Research Spine",
+      "sha16": "8cb20a7d4c4a6f3a"
+    },
+    {
+      "name": "Responsible Use",
+      "category": "additional",
+      "description": "GoalOS public route for Responsible Use; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "responsible-use.html",
+      "title": "Responsible Use — GoalOS",
+      "sha16": "de6351914cfeff04"
+    },
+    {
+      "name": "Roadmap",
+      "category": "additional",
+      "description": "GoalOS public route for Roadmap; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "roadmap.html",
+      "title": "Roadmap · GoalOS Ascension",
+      "sha16": "806c7919e1cddcc3"
+    },
+    {
+      "name": "Run Locally",
+      "category": "additional",
+      "description": "GoalOS public route for Run Locally; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "run-locally.html",
+      "title": "Run Locally — GoalOS",
+      "sha16": "a0252f10dcdefab9"
+    },
+    {
+      "name": "Schema Registry",
+      "category": "additional",
+      "description": "GoalOS public route for Schema Registry; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "schema-registry.html",
+      "title": "Schema Registry · GoalOS Ascension",
+      "sha16": "582f79ea047d6174"
+    },
+    {
+      "name": "Search",
+      "category": "additional",
+      "description": "GoalOS public route for Search; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "search.html",
+      "title": "Search · GoalOS",
+      "sha16": "37af6a3d15b1768e"
+    },
+    {
+      "name": "Security",
+      "category": "additional",
+      "description": "GoalOS public route for Security; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "security.html",
+      "title": "Security · GoalOS Ascension",
+      "sha16": "93cfa2c1c5632fa6"
+    },
+    {
+      "name": "Site Health",
+      "category": "additional",
+      "description": "GoalOS public route for Site Health; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "site-health.html",
+      "title": "Site Health · GoalOS",
+      "sha16": "991c80fc97cc94a6"
+    },
+    {
+      "name": "Site Map",
+      "category": "additional",
+      "description": "GoalOS public route for Site Map; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "site-map.html",
+      "title": "Site Map · GoalOS",
+      "sha16": "00a3479451ff99bb"
+    },
+    {
+      "name": "Source Lineage",
+      "category": "additional",
+      "description": "GoalOS public route for Source Lineage; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "source-lineage.html",
+      "title": "Source Lineage · GoalOS Ascension",
+      "sha16": "8f9c3d9895653ec2"
+    },
+    {
+      "name": "Sovereign Experience Stream",
+      "category": "additional",
+      "description": "GoalOS public route for Sovereign Experience Stream; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "sovereign-experience-stream.html",
+      "title": "Sovereign Experience Stream Lab · GoalOS",
+      "sha16": "70cf9b88163f82bb"
+    },
+    {
+      "name": "Standards",
+      "category": "additional",
+      "description": "GoalOS public route for Standards; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "standards.html",
+      "title": "Standards · GoalOS Ascension",
+      "sha16": "54f4bdc3410c7359"
+    },
+    {
+      "name": "Start",
+      "category": "additional",
+      "description": "GoalOS public route for Start; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "start.html",
+      "title": "Start Here · GoalOS Ascension",
+      "sha16": "ff27b4d12abc638f"
+    },
+    {
+      "name": "Terms",
+      "category": "additional",
+      "description": "GoalOS public route for Terms; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "terms.html",
+      "title": "Terms of Use — GoalOS",
+      "sha16": "3e9da38cbc66b1be"
+    },
+    {
+      "name": "Troubleshooting",
+      "category": "additional",
+      "description": "GoalOS public route for Troubleshooting; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "troubleshooting.html",
+      "title": "Troubleshooting · GoalOS Ascension",
+      "sha16": "8829c7860d517db3"
+    },
+    {
+      "name": "Try Goalos",
+      "category": "additional",
+      "description": "GoalOS public route for Try Goalos; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "try-goalos.html",
+      "title": "Try GoalOS — Browser-local Demo",
+      "sha16": "711ea1c9e0eec7c2"
+    },
+    {
+      "name": "Website Autopilot",
+      "category": "additional",
+      "description": "GoalOS public route for Website Autopilot; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "website-autopilot.html",
+      "title": "Website Autopilot · GoalOS Ascension",
+      "sha16": "d648cd3007384fc2"
+    },
+    {
+      "name": "What Goalos Does",
+      "category": "additional",
+      "description": "GoalOS public route for What Goalos Does; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "page-specific user intent",
+        "public-safe navigation"
+      ],
+      "outputs": [
+        "route guidance",
+        "related proof links"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "route integrity",
+        "human review"
+      ],
+      "state": "ROUTE_AVAILABLE",
+      "role": "documentation module",
+      "path": "what-goalos-does.html",
+      "title": "What GoalOS Does — GoalOS",
+      "sha16": "75554f8838dbc34e"
+    },
+    {
+      "name": "Institutional Deployment Wedge",
+      "category": "adoption",
+      "description": "Start with one workflow and earn the right to scale.",
+      "inputs": [
+        "workflow",
+        "objective",
+        "rollback maturity",
+        "risk class"
+      ],
+      "outputs": [
+        "deployment plan",
+        "GoalOSCommit",
+        "canary monitor",
+        "rollback playbook"
+      ],
+      "gates": [
+        "Evidence Docket",
+        "replay",
+        "selection gate",
+        "canary",
+        "rollback"
+      ],
+      "state": "CANARY_READY",
+      "role": "adoption module",
+      "path": "institutional-deployment-wedge.html",
+      "title": "GoalOS Institutional Deployment Wedge — Earn the Right to Scale",
+      "sha16": "d636d79daf6c4437"
+    },
+    {
+      "name": "Value Realization Control Room",
+      "category": "adoption",
+      "description": "Show verified work becoming allocable capacity.",
+      "inputs": [
+        "capability",
+        "value scenario",
+        "allocation policy"
+      ],
+      "outputs": [
+        "Value Realization Ledger",
+        "Capacity Allocation Plan",
+        "asset map"
+      ],
+      "gates": [
+        "Evidence Docket",
+        "validator review",
+        "risk boundary",
+        "allocation policy"
+      ],
+      "state": "VALUE_REALIZATION_REVIEW_READY",
+      "role": "adoption module",
+      "path": "value-realization-control-room.html",
+      "title": "GoalOS Value Realization Control Room — Verified Work Becomes Allocable Capacity",
+      "sha16": "76cb8ee05669d172"
+    },
+    {
+      "name": "Evolution Ledger Control Room",
+      "category": "advanced demo",
+      "description": "Show that the ledger remembers proof, not secrets.",
+      "inputs": [
+        "ProofRoot",
+        "EvalAttestation",
+        "SelectionCertificate",
+        "RollbackReceipt"
+      ],
+      "outputs": [
+        "ledger entry",
+        "selection certificate",
+        "boundary map"
+      ],
+      "gates": [
+        "public/private boundary",
+        "proof root",
+        "eval attestation",
+        "rollback",
+        "challenge window"
+      ],
+      "state": "LEDGER_REVIEW_READY",
+      "role": "ledger module",
+      "path": "evolution-ledger-control-room.html",
+      "title": "GoalOS Evolution Ledger Control Room — Proof, Not Secrets",
+      "sha16": "a093bac74b3e6fc5"
+    },
+    {
+      "name": "Open-Ended Work Engine",
+      "category": "advanced demo",
+      "description": "Generate tasks and gate descendants.",
+      "inputs": [
+        "seed objective",
+        "generation scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "mission set",
+        "validator lattice",
+        "proof template pack"
+      ],
+      "gates": [
+        "syntax",
+        "sandbox",
+        "validator-bound",
+        "replayable",
+        "risk-bounded"
+      ],
+      "state": "ENGINE_REVIEW_READY",
+      "role": "orchestration layer",
+      "path": "open-ended-work-engine.html",
+      "title": "GoalOS Open-Ended Work Engine Lab — Generate Tasks. Gate Descendants.",
+      "sha16": "5e1e0109ed88d93a"
+    },
+    {
+      "name": "Proof-Backed Upgrade Rights Room",
+      "category": "advanced demo",
+      "description": "Show how artifacts earn limited, governed upgrade rights.",
+      "inputs": [
+        "artifact",
+        "requested scope",
+        "rollout risk"
+      ],
+      "outputs": [
+        "upgrade right",
+        "selection certificate",
+        "rollback receipt"
+      ],
+      "gates": [
+        "proof history",
+        "eval",
+        "baseline",
+        "canary",
+        "rollback"
+      ],
+      "state": "UPGRADE_RIGHT_REVIEW_READY",
+      "role": "capability-package generator",
+      "path": "proof-backed-upgrade-rights-room.html",
+      "title": "GoalOS Proof-Backed Upgrade Rights Room — Earn the Right to Scale",
+      "sha16": "e87df13805c2a690"
+    },
+    {
+      "name": "Proof-Carrying Artifact Foundry",
+      "category": "advanced demo",
+      "description": "Turn raw output into scoped, rollbackable, proof-carrying artifacts.",
+      "inputs": [
+        "artifact candidate",
+        "artifact class",
+        "proof gates"
+      ],
+      "outputs": [
+        "Artifact JSON",
+        "Selection Certificate",
+        "Rollback Receipt"
+      ],
+      "gates": [
+        "proof history",
+        "eval pass",
+        "rollback",
+        "scope",
+        "challenge window"
+      ],
+      "state": "ARTIFACT_REVIEW_READY",
+      "role": "capability-package generator",
+      "path": "proof-carrying-artifact-foundry.html",
+      "title": "GoalOS Proof-Carrying Artifact Foundry — Make Reusable Intelligence Earn Authority",
+      "sha16": "599a75b1ef7c0f01"
+    },
+    {
+      "name": "Real-Task Benchmark Bridge",
+      "category": "benchmark",
+      "description": "Bridge demos toward real-task benchmark evidence.",
+      "inputs": [
+        "task family",
+        "claim",
+        "baseline ladder"
+      ],
+      "outputs": [
+        "benchmark plan",
+        "baseline matrix",
+        "reviewer brief"
+      ],
+      "gates": [
+        "real task",
+        "equal budget",
+        "baselines",
+        "replay",
+        "validator report"
+      ],
+      "state": "BENCHMARK_BRIDGE_READY",
+      "role": "benchmark module",
+      "path": "real-task-benchmark-bridge.html",
+      "title": "GoalOS Real-Task Benchmark Bridge — From Demos to Evidence",
+      "sha16": "308eb0a57f0946a4"
+    },
+    {
+      "name": "Capability Compounding Lab",
+      "category": "core demo",
+      "description": "Show how accepted proof becomes reusable capability.",
+      "inputs": [
+        "proof cycle",
+        "capability package",
+        "harder mission"
+      ],
+      "outputs": [
+        "Chronicle entry",
+        "Capability Package",
+        "reuse ledger"
+      ],
+      "gates": [
+        "Evidence Docket",
+        "validator review",
+        "replay",
+        "risk boundary"
+      ],
+      "state": "CAPABILITY_REVIEW_READY",
+      "role": "capability-package generator",
+      "path": "capability-compounding-lab.html",
+      "title": "GoalOS Capability Compounding Lab — Verified Work Becomes Reusable Capability",
+      "sha16": "9dee201faac81934"
+    },
+    {
+      "name": "Evidence Docket Theatre",
+      "category": "core demo",
+      "description": "Convert a claim into a review-ready Evidence Docket.",
+      "inputs": [
+        "claim",
+        "sources",
+        "baselines"
+      ],
+      "outputs": [
+        "Claims Matrix",
+        "Evidence Docket",
+        "review brief"
+      ],
+      "gates": [
+        "claim boundary",
+        "source provenance",
+        "replay path",
+        "baselines"
+      ],
+      "state": "DOCKET_REVIEW_READY",
+      "role": "receipt/audit module",
+      "path": "evidence-docket-theatre.html",
+      "title": "GoalOS Evidence Docket Theatre — A proof page is not a marketing page",
+      "sha16": "4f479cd5843d8ab6"
+    },
+    {
+      "name": "Falsification Gauntlet",
+      "category": "core demo",
+      "description": "Stress claims against baselines, replay, cost/risk, and claim boundaries.",
+      "inputs": [
+        "claim under test",
+        "baseline ladder",
+        "stress mode"
+      ],
+      "outputs": [
+        "falsification report",
+        "Evidence Docket",
+        "decision state"
+      ],
+      "gates": [
+        "baselines",
+        "replay",
+        "cost/risk",
+        "privacy boundary"
+      ],
+      "state": "FALSIFICATION_REVIEW_READY",
+      "role": "scoring module",
+      "path": "falsification-gauntlet.html",
+      "title": "GoalOS Falsification Gauntlet V1.2 — Claim-Sensitive Stress",
+      "sha16": "d42aa6ff363a6b81"
+    },
+    {
+      "name": "Multi-Agent Institution",
+      "category": "core demo",
+      "description": "Compare raw swarms with proof-governed institutions.",
+      "inputs": [
+        "mission",
+        "agent topology",
+        "proof gates"
+      ],
+      "outputs": [
+        "Evidence Docket",
+        "review brief",
+        "institution score"
+      ],
+      "gates": [
+        "role clarity",
+        "dissent",
+        "proof gates",
+        "human review"
+      ],
+      "state": "INSTITUTION_REVIEW_READY",
+      "role": "UI demo",
+      "path": "multi-agent-institution.html",
+      "title": "GoalOS Multi-Agent Institution — Not a Swarm. An Institution.",
+      "sha16": "801393b75ad064ba"
+    },
+    {
+      "name": "Proof Gradient Lab",
+      "category": "core demo",
+      "description": "Show that scores are advisory and gates are mandatory.",
+      "inputs": [
+        "candidate upgrade",
+        "proof score",
+        "gate toggles"
+      ],
+      "outputs": [
+        "Selection Certificate",
+        "gate ledger"
+      ],
+      "gates": [
+        "ProofValid",
+        "EvalPass",
+        "RollbackReady",
+        "ChallengeCleared"
+      ],
+      "state": "SELECTION_REVIEW_READY",
+      "role": "scoring module",
+      "path": "proof-gradient-lab.html",
+      "title": "GoalOS Proof Gradient Lab — No proof, no evolution",
+      "sha16": "0cfb4f946b1f3dc7"
+    },
+    {
+      "name": "Proof-Settlement Chronicle Lab",
+      "category": "core demo",
+      "description": "Demonstrate no ProofBundle, no settlement, no replay, no settlement.",
+      "inputs": [
+        "job spec",
+        "ProofBundle",
+        "validator verdict"
+      ],
+      "outputs": [
+        "settlement receipt simulation",
+        "Chronicle entry"
+      ],
+      "gates": [
+        "ProofBundle",
+        "replay",
+        "validator quorum",
+        "challenge window"
+      ],
+      "state": "SETTLEMENT_SIM_READY",
+      "role": "receipt/audit module",
+      "path": "proof-settlement-chronicle-lab.html",
+      "title": "GoalOS Proof-Settlement Chronicle Lab",
+      "sha16": "68984e21dd3d109f"
+    },
+    {
+      "name": "Proof-to-Action Command Room",
+      "category": "core demo",
+      "description": "Turn evidence into a Governed Decision State and Action Graph.",
+      "inputs": [
+        "objective",
+        "Evidence Docket",
+        "risk class"
+      ],
+      "outputs": [
+        "Governed Decision State",
+        "Action Graph",
+        "Chronicle entry"
+      ],
+      "gates": [
+        "docket",
+        "risk ledger",
+        "rollback",
+        "human review"
+      ],
+      "state": "DECISION_REVIEW_READY",
+      "role": "orchestration layer",
+      "path": "proof-to-action-command-room.html",
+      "title": "GoalOS Proof-to-Action Command Room — Governed Decision State",
+      "sha16": "a879d1cbb388b36c"
+    },
+    {
+      "name": "Sovereign Experience Stream Lab",
+      "category": "core demo",
+      "description": "Turn accepted proof into governed experience streams.",
+      "inputs": [
+        "experience event",
+        "validator outcome",
+        "reward signal"
+      ],
+      "outputs": [
+        "experience stream",
+        "reward ledger",
+        "router proposal"
+      ],
+      "gates": [
+        "provenance",
+        "quarantine",
+        "delayed outcome",
+        "human review"
+      ],
+      "state": "EXPERIENCE_REVIEW_READY",
+      "role": "orchestration layer",
+      "path": "sovereign-experience-stream-lab.html",
+      "title": "GoalOS Sovereign Experience Stream Lab — Proof Becomes Governed Experience",
+      "sha16": "241984e608719779"
+    },
+    {
+      "name": "Agent Constellation Demo",
+      "category": "demo",
+      "description": "GoalOS public route for Agent Constellation Demo; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "public-safe scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "downloadable artifact",
+        "review brief where applicable"
+      ],
+      "gates": [
+        "browser-local",
+        "no data",
+        "no funds",
+        "human review"
+      ],
+      "state": "DEMO_READY",
+      "role": "UI demo",
+      "path": "agent-constellation-demo.html",
+      "title": "Agent Constellation Demo — GoalOS",
+      "sha16": "8fd83a258d54e09e"
+    },
+    {
+      "name": "Demo Gallery",
+      "category": "demo",
+      "description": "GoalOS public route for Demo Gallery; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "public-safe scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "downloadable artifact",
+        "review brief where applicable"
+      ],
+      "gates": [
+        "browser-local",
+        "no data",
+        "no funds",
+        "human review"
+      ],
+      "state": "DEMO_READY",
+      "role": "UI demo",
+      "path": "demo-gallery.html",
+      "title": "Demo Gallery — GoalOS",
+      "sha16": "ece340263e73bc38"
+    },
+    {
+      "name": "Demo Launcher",
+      "category": "demo",
+      "description": "GoalOS public route for Demo Launcher; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "public-safe scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "downloadable artifact",
+        "review brief where applicable"
+      ],
+      "gates": [
+        "browser-local",
+        "no data",
+        "no funds",
+        "human review"
+      ],
+      "state": "DEMO_READY",
+      "role": "UI demo",
+      "path": "demo-launcher.html",
+      "title": "Demo Launcher — GoalOS",
+      "sha16": "3b6a03e040efd198"
+    },
+    {
+      "name": "Demo Safety",
+      "category": "demo",
+      "description": "GoalOS public route for Demo Safety; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "public-safe scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "downloadable artifact",
+        "review brief where applicable"
+      ],
+      "gates": [
+        "browser-local",
+        "no data",
+        "no funds",
+        "human review"
+      ],
+      "state": "DEMO_READY",
+      "role": "UI demo",
+      "path": "demo-safety.html",
+      "title": "Demo Safety Boundary — GoalOS",
+      "sha16": "2a3943a62dd538d4"
+    },
+    {
+      "name": "Frontier Release Room",
+      "category": "demo",
+      "description": "GoalOS public route for Frontier Release Room; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "public-safe scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "downloadable artifact",
+        "review brief where applicable"
+      ],
+      "gates": [
+        "browser-local",
+        "no data",
+        "no funds",
+        "human review"
+      ],
+      "state": "DEMO_READY",
+      "role": "UI demo",
+      "path": "frontier-release-room.html",
+      "title": "Frontier Release Room",
+      "sha16": "f75b7135e1f7936e"
+    },
+    {
+      "name": "Local Autopilot Demo",
+      "category": "demo",
+      "description": "GoalOS public route for Local Autopilot Demo; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "public-safe scenario",
+        "gate toggles"
+      ],
+      "outputs": [
+        "downloadable artifact",
+        "review brief where applicable"
+      ],
+      "gates": [
+        "browser-local",
+        "no data",
+        "no funds",
+        "human review"
+      ],
+      "state": "DEMO_READY",
+      "role": "UI demo",
+      "path": "local-autopilot-demo.html",
+      "title": "Local Autopilot Demo — GoalOS",
+      "sha16": "4d3b8503ca07e96d"
+    },
+    {
+      "name": "Commercial Evidence",
+      "category": "evidence",
+      "description": "GoalOS public route for Commercial Evidence; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "commercial-evidence.html",
+      "title": "Commercial Evidence · GoalOS Ascension",
+      "sha16": "c8dbc508f61f7087"
+    },
+    {
+      "name": "Docket Builder",
+      "category": "evidence",
+      "description": "GoalOS public route for Docket Builder; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "docket-builder.html",
+      "title": "Evidence Docket Builder — GoalOS",
+      "sha16": "5f6242075b111b9f"
+    },
+    {
+      "name": "Evidence",
+      "category": "evidence",
+      "description": "GoalOS public route for Evidence; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "evidence.html",
+      "title": "Evidence Layer · GoalOS Ascension",
+      "sha16": "acdaa789249d3a36"
+    },
+    {
+      "name": "Evidence Room",
+      "category": "evidence",
+      "description": "GoalOS public route for Evidence Room; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "evidence-room.html",
+      "title": "Evidence Room · GoalOS Ascension",
+      "sha16": "63a1479d33d629ad"
+    },
+    {
+      "name": "Evidence To Scale",
+      "category": "evidence",
+      "description": "GoalOS public route for Evidence To Scale; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "evidence-to-scale.html",
+      "title": "Evidence to Scale · GoalOS Ascension",
+      "sha16": "06be3577076e0fd1"
+    },
+    {
+      "name": "Pilot Proof",
+      "category": "evidence",
+      "description": "GoalOS public route for Pilot Proof; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "pilot-proof.html",
+      "title": "Pilot Proof · GoalOS Ascension",
+      "sha16": "a9085985b766c197"
+    },
+    {
+      "name": "Proof Card Studio",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Card Studio; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-card-studio.html",
+      "title": "Proof Card Studio — GoalOS",
+      "sha16": "aff7933ff652f4f3"
+    },
+    {
+      "name": "Proof Economy",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Economy; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-economy.html",
+      "title": "Proof Economy · GoalOS Ascension",
+      "sha16": "38d0a813be9bd564"
+    },
+    {
+      "name": "Proof Experience Atlas",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Experience Atlas; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-experience-atlas.html",
+      "title": "GoalOS Proof Experience Atlas — From output to proof",
+      "sha16": "25e3e311a0cd24a6"
+    },
+    {
+      "name": "Proof Flight Demo",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Flight Demo; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-flight-demo.html",
+      "title": "Proof Flight Demo — GoalOS",
+      "sha16": "067d5452d26d76e5"
+    },
+    {
+      "name": "Proof Metrics Dashboard",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Metrics Dashboard; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-metrics-dashboard.html",
+      "title": "Proof Metrics Dashboard — GoalOS",
+      "sha16": "d3f5af3b7935a918"
+    },
+    {
+      "name": "Proof Mission Slots",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Mission Slots; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-mission-slots.html",
+      "title": "Proof Mission Slots — GoalOS",
+      "sha16": "6eeeb38d1029d620"
+    },
+    {
+      "name": "Proof Of Evolution",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Of Evolution; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-of-evolution.html",
+      "title": "Proof-of-Evolution",
+      "sha16": "15af7e9c82571ff2"
+    },
+    {
+      "name": "Proof Run 001",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Run 001; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-run-001.html",
+      "title": "Proof Run 001",
+      "sha16": "548277e96bf019ce"
+    },
+    {
+      "name": "Proof Run 001 Docket",
+      "category": "evidence",
+      "description": "Repository-readiness Evidence Docket generated from current source, gates, reports, and routes.",
+      "inputs": [
+        "repository source",
+        "route map",
+        "reports",
+        "evidence artifacts"
+      ],
+      "outputs": [
+        "Evidence Docket",
+        "Claims Matrix",
+        "Validator Packet",
+        "Replay path"
+      ],
+      "gates": [
+        "route integrity",
+        "claim boundary",
+        "token boundary",
+        "registry specificity",
+        "replay path"
+      ],
+      "state": "REVIEW_READY",
+      "role": "receipt/audit module",
+      "path": "proof-run-001-docket.html",
+      "title": "Proof Run 001 Docket · GoalOS",
+      "sha16": "2a847a3cc388332e"
+    },
+    {
+      "name": "Proof Run 001 Live",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Run 001 Live; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-run-001-live.html",
+      "title": "Proof Run 001 Live — GoalOS",
+      "sha16": "b54f8476550a3e80"
+    },
+    {
+      "name": "Proof Velocity",
+      "category": "evidence",
+      "description": "GoalOS public route for Proof Velocity; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "proof-velocity.html",
+      "title": "Proof Velocity · GoalOS Ascension",
+      "sha16": "fa9ca74167fe45d0"
+    },
+    {
+      "name": "Public Proof Ledger",
+      "category": "evidence",
+      "description": "Unified evidence registry for dockets, reports, routes, and reviewer paths.",
+      "inputs": [
+        "proof artifact type"
+      ],
+      "outputs": [
+        "ledger index",
+        "review route"
+      ],
+      "gates": [
+        "evidence present",
+        "report present"
+      ],
+      "state": "LEDGER_READY",
+      "role": "receipt/audit module",
+      "path": "proof-ledger.html",
+      "title": "GoalOS Public Proof Ledger — Evidence Registry",
+      "sha16": "971fa7aab3d00af9"
+    },
+    {
+      "name": "Public Proof Ledger",
+      "category": "evidence",
+      "description": "Legacy alias for the unified proof ledger.",
+      "inputs": [
+        "proof artifact type"
+      ],
+      "outputs": [
+        "ledger index"
+      ],
+      "gates": [
+        "evidence present"
+      ],
+      "state": "LEDGER_READY",
+      "role": "receipt/audit module",
+      "path": "public-proof-ledger.html",
+      "title": "Public Proof Ledger · GoalOS",
+      "sha16": "089b6102d6822894"
+    },
+    {
+      "name": "Strategic Evidence Scorecard",
+      "category": "evidence",
+      "description": "GoalOS public route for Strategic Evidence Scorecard; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "claim",
+        "docket",
+        "evidence route"
+      ],
+      "outputs": [
+        "review path",
+        "proof artifact links"
+      ],
+      "gates": [
+        "claim boundary",
+        "evidence",
+        "replay where applicable"
+      ],
+      "state": "EVIDENCE_ROUTE_READY",
+      "role": "receipt/audit module",
+      "path": "strategic-evidence-scorecard.html",
+      "title": "Strategic Evidence Scorecard · GoalOS Ascension",
+      "sha16": "c66badbd00c73400"
+    },
+    {
+      "name": "Agialpha Control Rail",
+      "category": "mission",
+      "description": "GoalOS public route for Agialpha Control Rail; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "objective",
+        "mission context"
+      ],
+      "outputs": [
+        "mission package",
+        "readiness path"
+      ],
+      "gates": [
+        "mission contract",
+        "Evidence Docket",
+        "risk boundary"
+      ],
+      "state": "MISSION_ROUTE_READY",
+      "role": "orchestration layer",
+      "path": "agialpha-control-rail.html",
+      "title": "$AGIALPHA Control Rail",
+      "sha16": "45a253931fd46236"
+    },
+    {
+      "name": "Mission Os",
+      "category": "mission",
+      "description": "GoalOS public route for Mission Os; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "objective",
+        "mission context"
+      ],
+      "outputs": [
+        "mission package",
+        "readiness path"
+      ],
+      "gates": [
+        "mission contract",
+        "Evidence Docket",
+        "risk boundary"
+      ],
+      "state": "MISSION_ROUTE_READY",
+      "role": "orchestration layer",
+      "path": "mission-os.html",
+      "title": "Mission OS · GoalOS Ascension",
+      "sha16": "c4ed115763bd430b"
+    },
+    {
+      "name": "Mission Os Canon",
+      "category": "mission",
+      "description": "GoalOS public route for Mission Os Canon; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "objective",
+        "mission context"
+      ],
+      "outputs": [
+        "mission package",
+        "readiness path"
+      ],
+      "gates": [
+        "mission contract",
+        "Evidence Docket",
+        "risk boundary"
+      ],
+      "state": "MISSION_ROUTE_READY",
+      "role": "orchestration layer",
+      "path": "mission-os-canon.html",
+      "title": "Mission OS Canon",
+      "sha16": "adac512e022ea505"
+    },
+    {
+      "name": "Proof Mission Control",
+      "category": "mission",
+      "description": "Readiness board for proof missions and Proof Run 001 progress.",
+      "inputs": [
+        "mission preset",
+        "gate status"
+      ],
+      "outputs": [
+        "readiness board",
+        "mission docket",
+        "validator packet"
+      ],
+      "gates": [
+        "replay",
+        "validator packet",
+        "risk ledger",
+        "boundary"
+      ],
+      "state": "MISSION_REVIEW_READY",
+      "role": "orchestration layer",
+      "path": "proof-mission-control.html",
+      "title": "GoalOS Proof Mission Control — From Objective to First Docket",
+      "sha16": "590647fb4cef3dca"
+    },
+    {
+      "name": "Proof Mission Forge",
+      "category": "mission",
+      "description": "Turn a plain-language objective into a public-safe proof mission package.",
+      "inputs": [
+        "objective",
+        "decision",
+        "risk class",
+        "source boundary"
+      ],
+      "outputs": [
+        "Mission Contract",
+        "Evidence Docket plan",
+        "Validator Packet",
+        "GitHub issue draft"
+      ],
+      "gates": [
+        "public-safe objective",
+        "proof artifacts",
+        "human review"
+      ],
+      "state": "MISSION_FORGED",
+      "role": "orchestration layer",
+      "path": "proof-mission-forge.html",
+      "title": "GoalOS Proof Mission Forge — Turn an objective into a proof mission",
+      "sha16": "a561d10e77f04009"
+    },
+    {
+      "name": "Proof Run 001 Execution Room",
+      "category": "mission",
+      "description": "Browser-local rehearsal for assembling the first public proof package.",
+      "inputs": [
+        "public-safe mission preset",
+        "gate toggles"
+      ],
+      "outputs": [
+        "Evidence Docket",
+        "review brief",
+        "validator packet"
+      ],
+      "gates": [
+        "mission contract",
+        "claims matrix",
+        "replay path",
+        "validator report"
+      ],
+      "state": "DOCKET_READY",
+      "role": "orchestration layer",
+      "path": "proof-run-001-execution-room.html",
+      "title": "GoalOS Proof Run 001 Execution Room",
+      "sha16": "10c454072b0e33cf"
+    },
+    {
+      "name": "Website Operating System",
+      "category": "navigation",
+      "description": "Complete operating map for the public proof site.",
+      "inputs": [
+        "route intent"
+      ],
+      "outputs": [
+        "sectioned route map"
+      ],
+      "gates": [
+        "route integrity",
+        "boundary visibility"
+      ],
+      "state": "SITE_MAP_READY",
+      "role": "navigation module",
+      "path": "website-operating-system.html",
+      "title": "Website Operating System · GoalOS",
+      "sha16": "6c50612b8c743950"
+    },
+    {
+      "name": "Demo Ecosystem Registry",
+      "category": "registry",
+      "description": "Routeable registry of demos, inputs, artifacts, gates, and next states.",
+      "inputs": [
+        "search query",
+        "workflow category"
+      ],
+      "outputs": [
+        "demo route",
+        "workflow matrix"
+      ],
+      "gates": [
+        "specific inputs",
+        "specific outputs",
+        "specific state"
+      ],
+      "state": "REGISTRY_READY",
+      "role": "orchestration layer",
+      "path": "demo-ecosystem-registry.html",
+      "title": "Demo Ecosystem Registry · GoalOS",
+      "sha16": "c20a9dd58bc164c7"
+    },
+    {
+      "name": "External Reviewer Replay Room",
+      "category": "review",
+      "description": "Independent reviewer path for replay, dissent, revision, and verdict.",
+      "inputs": [
+        "docket",
+        "replay checklist",
+        "validator notes"
+      ],
+      "outputs": [
+        "reviewer report",
+        "dissent memo",
+        "attestation"
+      ],
+      "gates": [
+        "replay",
+        "baselines",
+        "claim boundary",
+        "privacy boundary"
+      ],
+      "state": "REVIEW_READY",
+      "role": "reviewer module",
+      "path": "external-reviewer-replay-room.html",
+      "title": "GoalOS External Reviewer Replay Room — Independent Review Path",
+      "sha16": "b140c821b3ea985e"
+    },
+    {
+      "name": "For Reviewers",
+      "category": "review",
+      "description": "GoalOS public route for For Reviewers; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "docket",
+        "review question"
+      ],
+      "outputs": [
+        "review path",
+        "validator guidance"
+      ],
+      "gates": [
+        "human review",
+        "dissent preserved",
+        "public/private boundary"
+      ],
+      "state": "REVIEW_ROUTE_READY",
+      "role": "reviewer module",
+      "path": "for-reviewers.html",
+      "title": "For Reviewers — GoalOS",
+      "sha16": "4b6b0c7fec4858e0"
+    },
+    {
+      "name": "Reviewer Path",
+      "category": "review",
+      "description": "GoalOS public route for Reviewer Path; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "docket",
+        "review question"
+      ],
+      "outputs": [
+        "review path",
+        "validator guidance"
+      ],
+      "gates": [
+        "human review",
+        "dissent preserved",
+        "public/private boundary"
+      ],
+      "state": "REVIEW_ROUTE_READY",
+      "role": "reviewer module",
+      "path": "reviewer-path.html",
+      "title": "For Reviewers — GoalOS",
+      "sha16": "4b6b0c7fec4858e0"
+    },
+    {
+      "name": "Validator Council Arena",
+      "category": "review",
+      "description": "Commit-reveal validation, challenge, dissent, and council verdict.",
+      "inputs": [
+        "claim",
+        "validator quorum",
+        "diversity",
+        "evidence integrity"
+      ],
+      "outputs": [
+        "attestation",
+        "dissent memo",
+        "challenge record",
+        "Evidence Docket"
+      ],
+      "gates": [
+        "commit reveal",
+        "quorum",
+        "diversity",
+        "replay",
+        "dissent"
+      ],
+      "state": "VALIDATION_REVIEW_READY",
+      "role": "validator module",
+      "path": "validator-council-arena.html",
+      "title": "GoalOS Validator Council Arena — Commit, Reveal, Challenge",
+      "sha16": "b7a15adc9fc2c1b9"
+    },
+    {
+      "name": "Validator Room",
+      "category": "review",
+      "description": "GoalOS public route for Validator Room; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "docket",
+        "review question"
+      ],
+      "outputs": [
+        "review path",
+        "validator guidance"
+      ],
+      "gates": [
+        "human review",
+        "dissent preserved",
+        "public/private boundary"
+      ],
+      "state": "REVIEW_ROUTE_READY",
+      "role": "reviewer module",
+      "path": "validator-room.html",
+      "title": "Validator Room — GoalOS",
+      "sha16": "4676d022a406224e"
+    },
+    {
+      "name": "Validator Seats",
+      "category": "review",
+      "description": "GoalOS public route for Validator Seats; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "docket",
+        "review question"
+      ],
+      "outputs": [
+        "review path",
+        "validator guidance"
+      ],
+      "gates": [
+        "human review",
+        "dissent preserved",
+        "public/private boundary"
+      ],
+      "state": "REVIEW_ROUTE_READY",
+      "role": "reviewer module",
+      "path": "validator-seats.html",
+      "title": "Validator Seats",
+      "sha16": "b20f8721278e9052"
+    },
+    {
+      "name": "GoalOS Home",
+      "category": "start",
+      "description": "Institutional front door for GoalOS AGIALPHA Ascension.",
+      "inputs": [
+        "visitor role",
+        "proof objective"
+      ],
+      "outputs": [
+        "path selection",
+        "proof journey"
+      ],
+      "gates": [
+        "public-alpha boundary",
+        "human review"
+      ],
+      "state": "START_READY",
+      "role": "navigation module",
+      "path": "index.html",
+      "title": "GoalOS AGIALPHA Ascension · GoalOS",
+      "sha16": "306ecbf4f499a142"
+    },
+    {
+      "name": "Pathfinder",
+      "category": "start",
+      "description": "Role-based route selector for users, reviewers, builders, and institutions.",
+      "inputs": [
+        "role selection"
+      ],
+      "outputs": [
+        "recommended routes"
+      ],
+      "gates": [
+        "public-safe links",
+        "boundary visible"
+      ],
+      "state": "PATH_SELECTED",
+      "role": "navigation module",
+      "path": "pathfinder.html",
+      "title": "GoalOS Pathfinder · GoalOS",
+      "sha16": "1c3ef459fafd1c51"
+    },
+    {
+      "name": "Start Here",
+      "category": "start",
+      "description": "Plain-language first step for new visitors.",
+      "inputs": [
+        "user role"
+      ],
+      "outputs": [
+        "recommended path"
+      ],
+      "gates": [
+        "no data",
+        "no funds"
+      ],
+      "state": "USER_ORIENTED",
+      "role": "onboarding module",
+      "path": "start-here.html",
+      "title": "Start Here · GoalOS",
+      "sha16": "c1dc102928880be3"
+    },
+    {
+      "name": "$AGIALPHA Token Boundary",
+      "category": "trust",
+      "description": "Public contract identification only; not available from GoalOS.",
+      "inputs": [
+        "public contract address"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no sale",
+        "no custody",
+        "no wallet support",
+        "no advice"
+      ],
+      "state": "TOKEN_BOUNDARY_READY",
+      "role": "trust module",
+      "path": "token-boundary.html",
+      "title": "$AGIALPHA Token Boundary · GoalOS",
+      "sha16": "957517782b444ab8"
+    },
+    {
+      "name": "Agialpha Token Boundary",
+      "category": "trust",
+      "description": "GoalOS public route for Agialpha Token Boundary; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "agialpha-token-boundary.html",
+      "title": "$AGIALPHA Public-Market Boundary",
+      "sha16": "6d93c3676737fe68"
+    },
+    {
+      "name": "Claim Boundary",
+      "category": "trust",
+      "description": "GoalOS public route for Claim Boundary; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "claim-boundary.html",
+      "title": "Claim Boundary · GoalOS Ascension",
+      "sha16": "95a9522b9c6a72f5"
+    },
+    {
+      "name": "Data Boundary",
+      "category": "trust",
+      "description": "GoalOS public route for Data Boundary; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "data-boundary.html",
+      "title": "Data Boundary · GoalOS",
+      "sha16": "5f0eb5bdbaba58c8"
+    },
+    {
+      "name": "Data Room",
+      "category": "trust",
+      "description": "GoalOS public route for Data Room; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "data-room.html",
+      "title": "Data Room · GoalOS Ascension",
+      "sha16": "ccc8ce08df288c7d"
+    },
+    {
+      "name": "Investment Token Boundary",
+      "category": "trust",
+      "description": "GoalOS public route for Investment Token Boundary; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "investment-token-boundary.html",
+      "title": "Token & Investment Boundary",
+      "sha16": "11c94ce161757683"
+    },
+    {
+      "name": "Legal",
+      "category": "trust",
+      "description": "GoalOS public route for Legal; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "legal.html",
+      "title": "Legal Shield — GoalOS",
+      "sha16": "a879a1b5d42ebb93"
+    },
+    {
+      "name": "No Data No Funds",
+      "category": "trust",
+      "description": "GoalOS public route for No Data No Funds; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "no-data-no-funds.html",
+      "title": "No Data / No Funds · GoalOS",
+      "sha16": "2b2789a976781b6f"
+    },
+    {
+      "name": "Privacy",
+      "category": "trust",
+      "description": "GoalOS public route for Privacy; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "privacy.html",
+      "title": "Privacy · GoalOS",
+      "sha16": "2d3ffa1866c0c9e0"
+    },
+    {
+      "name": "Security Boundary",
+      "category": "trust",
+      "description": "GoalOS public route for Security Boundary; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "security-boundary.html",
+      "title": "Security Boundary — GoalOS",
+      "sha16": "f2d215c932b4447c"
+    },
+    {
+      "name": "Token",
+      "category": "trust",
+      "description": "GoalOS public route for Token; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "token.html",
+      "title": "$AGIALPHA Token Boundary",
+      "sha16": "444083647ebf46c7"
+    },
+    {
+      "name": "Trust",
+      "category": "trust",
+      "description": "GoalOS public route for Trust; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "trust.html",
+      "title": "Trust Center",
+      "sha16": "f5068b6fb9707f9a"
+    },
+    {
+      "name": "Trust Boundary",
+      "category": "trust",
+      "description": "No-data, no-funds, no-wallet, no-transaction, human-review boundary.",
+      "inputs": [
+        "visitor concern"
+      ],
+      "outputs": [
+        "boundary map"
+      ],
+      "gates": [
+        "privacy",
+        "funds",
+        "wallet",
+        "claim boundary"
+      ],
+      "state": "TRUST_BOUNDARY_READY",
+      "role": "trust module",
+      "path": "trust-boundary.html",
+      "title": "Trust Boundary · GoalOS",
+      "sha16": "150ba62a00927144"
+    },
+    {
+      "name": "Trust Center",
+      "category": "trust",
+      "description": "GoalOS public route for Trust Center; preserved as part of the source-of-truth website map.",
+      "inputs": [
+        "boundary question"
+      ],
+      "outputs": [
+        "boundary statement"
+      ],
+      "gates": [
+        "no data",
+        "no funds",
+        "no wallet",
+        "human review"
+      ],
+      "state": "BOUNDARY_READY",
+      "role": "trust module",
+      "path": "trust-center.html",
+      "title": "Trust Center · GoalOS",
+      "sha16": "636d6b96ec361eae"
+    }
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

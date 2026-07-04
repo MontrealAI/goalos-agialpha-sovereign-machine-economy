@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="assets/goalos-boundary-guard-v46.js"></script>
+<link rel="stylesheet" href="assets/goalos-aurora-website-os-v46.css">
+<script defer src="assets/goalos-route-registry-v46.js"></script>
+<script defer src="assets/goalos-aurora-website-os-v46.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS From Loop to RSI Governance Lab — Sovereign Invention Governance</title>
+  <meta name="description" content="A browser-local GoalOS demonstration showing how a restartable loop becomes deterministic RSI governance: TARGET → EMIT → FILTER → ATLAS → TEST-PLAN → EVAL → INSERT → PROMOTE.">
+  <meta property="og:title" content="GoalOS From Loop to RSI Governance Lab">
+  <meta property="og:description" content="Build the governance institution first. Search control is not outcome authority. Breakthroughs are audited state transitions.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-from-loop-to-rsi-governance-v1.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-restore-v12.css"><script defer src="assets/goalos-site-index-data-v12.js"></script><script defer src="assets/goalos-command-palette-restore-v12.js"></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v13.css"><script src="assets/goalos-site-index-data-v13.js"></script><link rel="stylesheet" href="assets/goalos-command-palette-v14.css"><link rel="stylesheet" href="assets/goalos-site-premium-experience-v15.css">
+<script src="assets/goalos-site-index-data-v15.js" defer></script>
+<script src="assets/goalos-site-premium-experience-v15.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-site-immersive-command-center-v16.css">
+<script src="assets/goalos-site-index-data-v16.js"></script>
+<script src="assets/goalos-site-immersive-command-center-v16.js" defer></script>
+
+<link rel="stylesheet" href="assets/goalos-ask-goalos-concierge-v19.css">
+<link rel="stylesheet" href="assets/goalos-objective-command-center-v20.css">
+<link rel="stylesheet" href="assets/goalos-autopilot-float-v21.css">
+<link rel="stylesheet" href="assets/goalos-universal-interface-v22.css"><link rel="stylesheet" href="assets/goalos-universal-interface-float-v22.css"><link rel="stylesheet" href="assets/goalos-universal-mission-interface-v23.css"><link rel="stylesheet" href="assets/goalos-universal-operating-interface-v24.css"><link rel="stylesheet" href="assets/goalos-universal-mission-composer-v25.css"><link rel="stylesheet" href="assets/goalos-mission-studio-v26.css"><link rel="stylesheet" href="assets/goalos-mission-studio-v27.css">
+<style id="goalos-v28-float-style">.goalos-v28-float{position:fixed;right:18px;bottom:18px;z-index:9999;display:flex;gap:10px}.goalos-v28-float a{font-family:Inter,system-ui,sans-serif;font-size:14px;font-weight:1000;text-decoration:none;color:#06110d;background:linear-gradient(135deg,#fff06a,#61ffd3);padding:12px 16px;border-radius:999px;box-shadow:0 12px 36px rgba(0,0,0,.35)}</style>
+<link rel="stylesheet" href="assets/goalos-validation-mesh-v29-rail.css">
+<link rel="stylesheet" href="assets/goalos-validation-studio-v30.css">
+<link rel="stylesheet" href="assets/goalos-validation-orchestrator-v31.css">
+<link rel="stylesheet" href="assets/goalos-validation-command-center-v32.css">
+<!-- GOALOS_V33_ASSETS -->
+<link rel="stylesheet" href="assets/goalos-validation-control-tower-v33.css">
+<link rel="stylesheet" href="assets/goalos-agi-agent-command-center-v36.css">
+<link rel="stylesheet" href="assets/goalos-agi-agent-mission-control-v37.css">
+<link rel="stylesheet" href="assets/goalos-agi-agent-workbench-v38.css">
+<link rel="stylesheet" href="assets/goalos-autonomous-proof-mission-demo-v39.css"><link rel="stylesheet" href="assets/goalos-autonomy-theatre-v41.css"><link rel="stylesheet" href="assets/goalos-site-recovery-v42.css"><script src="assets/goalos-route-registry-v42.js" defer></script><script src="assets/goalos-site-recovery-v42.js" defer></script><link rel="stylesheet" href="assets/goalos-gold-master-v43.css"><script src="assets/goalos-route-registry-v43.js" defer></script><script src="assets/goalos-gold-master-v43.js" defer></script><link rel="stylesheet" href="assets/goalos-public-alpha-ux-remediation-v44-1.css">
+<script src="assets/goalos-public-alpha-ux-remediation-v44-1.js"></script>
+<script src="assets/goalos-boundary-guard-v48.js"></script>
+<link rel="stylesheet" href="assets/goalos-aurora-experience-os-v48.css">
+<script defer src="assets/goalos-route-registry-v48.js"></script>
+<script defer src="assets/goalos-aurora-experience-os-v48.js"></script>
+</head>
+<body class="goalos-v46-page" class="gx47 aurora-compat" class="gx47 aurora-compat" class="gx47 aurora-compat" class="gx47 aurora-compat">
+  <div class="ambient" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="nav-shell">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="brand-mark">α</span>
+      <span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html">Start</a>
+      <a href="loop-contract-lab.html">Loop Contract</a>
+      <a href="loop-flight-recorder.html">Flight Recorder</a>
+      <a href="loop-bottleneck-observatory.html">Bottleneck</a>
+      <a href="proof-run-001-docket.html">Proof Run 001</a>
+      <a href="demo-ecosystem-registry.html">Registry</a>
+      <a href="trust-boundary.html">Trust</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> FROM LOOP TO RSI / BROWSER-LOCAL / NO DATA</p>
+        <h1>Build the governance institution <em>before</em> the system scales.</h1>
+        <p class="lead">
+          A long-running loop becomes RSI only when it is deterministic, replayable,
+          schema-bound, baseline-comparative, risk-gated, and dossier-ready.
+        </p>
+        <div class="cta-row">
+          <button class="primary" id="runCycleTop" type="button">Run RSI cycle</button>
+          <button id="stressTop" type="button">Stress Move‑37</button>
+          <a class="ghost" href="#lab">Open lab ↓</a>
+        </div>
+        <div class="boundary">
+          <strong>PUBLIC-ALPHA BOUNDARY</strong>
+          No user data. No user funds. No wallet. No transaction. No network call.
+          No production authority. Human review required.
+        </div>
+      </div>
+
+      <aside class="rsi-console" aria-label="RSI governance console">
+        <div class="console-top">
+          <div>
+            <span class="console-kicker">Sovereign Invention Governance</span>
+            <h2>Search control ≠ outcome authority.</h2>
+          </div>
+          <span class="pill">Local simulation</span>
+        </div>
+
+        <div class="pipeline" id="pipelineViz" aria-label="RSI pipeline">
+          <span data-stage="TARGET">TARGET</span>
+          <span data-stage="EMIT">EMIT</span>
+          <span data-stage="FILTER">FILTER</span>
+          <span data-stage="ATLAS">ATLAS</span>
+          <span data-stage="TEST-PLAN">TEST‑PLAN</span>
+          <span data-stage="EVAL">EVAL</span>
+          <span data-stage="INSERT">INSERT</span>
+          <span data-stage="PROMOTE">PROMOTE</span>
+        </div>
+
+        <div class="orbit-wrap" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="core">RSI</div>
+          <span class="node n1">risk</span>
+          <span class="node n2">evidence</span>
+          <span class="node n3">baseline</span>
+          <span class="node n4">replay</span>
+          <span class="node n5">dossier</span>
+          <span class="node n6">human</span>
+        </div>
+
+        <pre class="terminal" id="terminal" aria-live="polite">01 · Loop contract loaded.
+02 · Deterministic invention OS ready.
+03 · Outcome authority is mechanical.</pre>
+      </aside>
+    </section>
+
+    <section class="stats" aria-label="RSI status metrics">
+      <article><strong id="readiness">62</strong><span>readiness</span></article>
+      <article><strong id="decision">HOLD_REVIEW</strong><span>decision state</span></article>
+      <article><strong id="eci">E1</strong><span>evidence contact</span></article>
+      <article><strong id="move37">probe</strong><span>Move‑37 posture</span></article>
+    </section>
+
+    <section class="doctrine-grid">
+      <article>
+        <p class="eyebrow small">LOOP</p>
+        <h2>Write state. Read traces. Restart.</h2>
+        <p>
+          The loop is the first durable object: roles are separate, state lives on disk,
+          traces are inspectable, and the next run can resume without hidden context.
+        </p>
+      </article>
+      <article>
+        <p class="eyebrow small">RSI</p>
+        <h2>Promote only through gates.</h2>
+        <p>
+          RSI adds the institution: schema-bound artifacts, ECI discipline, baseline
+          comparison, drift sentinel, Move‑37 dossiers, and validator review.
+        </p>
+      </article>
+      <article>
+        <p class="eyebrow small">GOVERNANCE</p>
+        <h2>Exploration is allowed. Authority is earned.</h2>
+        <p>
+          OMNI-style interestingness may allocate exploration pressure, but it cannot
+          insert, settle, promote, or override risk, evidence, baseline, or persistence gates.
+        </p>
+      </article>
+    </section>
+
+    <section id="lab" class="lab-layout">
+      <section class="panel controls" aria-label="Configure RSI cycle">
+        <div class="panel-head">
+          <span>01</span>
+          <h2>Configure the invention loop</h2>
+        </div>
+
+        <label class="label" for="scenario">Scenario</label>
+        <select id="scenario">
+          <option value="governance">Governed RSI pilot</option>
+          <option value="breakthrough">Move‑37 candidate handling</option>
+          <option value="omni">OMNI allocation stress</option>
+          <option value="dossier">Sovereign dossier packaging</option>
+        </select>
+
+        <label class="label" for="objective">Public-safe objective</label>
+        <textarea id="objective" maxlength="520">Turn a restartable GoalOS agent loop into a deterministic RSI governance cycle that can propose, test, replay, baseline, and package a public-safe invention candidate without giving search control outcome authority.</textarea>
+
+        <div class="sliders">
+          <label>Novelty distance <output id="noveltyOut">0.74</output><input id="novelty" type="range" min="0" max="100" value="74"></label>
+          <label>Advantage delta <output id="advantageOut">0.42</output><input id="advantage" type="range" min="0" max="100" value="42"></label>
+          <label>Evidence contact <output id="eciOut">0.46</output><input id="eciScore" type="range" min="0" max="100" value="46"></label>
+          <label>Drift risk <output id="driftOut">0.18</output><input id="driftRisk" type="range" min="0" max="100" value="18"></label>
+        </div>
+
+        <div class="button-grid">
+          <button id="runCycle" class="primary" type="button">Run RSI cycle</button>
+          <button id="stressMove37" type="button">Stress Move‑37</button>
+          <button id="restartDisk" type="button">Restart from manifest</button>
+          <button id="omniOverreach" type="button">Simulate OMNI overreach</button>
+          <button id="packageDossier" type="button">Package dossier</button>
+          <button id="readTraces" type="button">Read traces</button>
+        </div>
+      </section>
+
+      <section class="panel observatory" aria-label="Watch RSI state">
+        <div class="panel-head">
+          <span>02</span>
+          <h2>Watch loop become RSI</h2>
+        </div>
+
+        <div class="flow-rail" id="flowRail">
+          <div class="flow-card active">Loop contract</div>
+          <div class="flow-card">Disk state</div>
+          <div class="flow-card">Drift sentinel</div>
+          <div class="flow-card">ECI ledger</div>
+          <div class="flow-card">Baseline gate</div>
+          <div class="flow-card">Move‑37 dossier</div>
+          <div class="flow-card">Selection gate</div>
+        </div>
+
+        <div class="split">
+          <div class="mini-card">
+            <h3>Search control</h3>
+            <p>Allocation, targeting, interestingness, bridge regions, candidate pressure.</p>
+          </div>
+          <div class="mini-card authority">
+            <h3>Outcome authority</h3>
+            <p>Risk gate, evidence gate, baseline gate, persistence gate, replay, validator, human review.</p>
+          </div>
+        </div>
+
+        <div class="score-matrix" id="scoreMatrix"></div>
+      </section>
+
+      <section class="panel gates" aria-label="Governance gates">
+        <div class="panel-head">
+          <span>03</span>
+          <h2>Mechanical gates</h2>
+        </div>
+        <div id="gateList" class="gate-list"></div>
+        <div class="download-stack">
+          <button id="downloadState" type="button">Download RSI state</button>
+          <button id="downloadDossier" type="button">Download Move‑37 dossier</button>
+          <button id="downloadEci" type="button">Download ECI ledger</button>
+          <button id="downloadBaseline" type="button">Download baseline report</button>
+          <button id="downloadBrief" type="button">Download reviewer brief</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="review-room">
+      <div>
+        <p class="eyebrow small">REVIEWER ROUTE</p>
+        <h2>What would make the RSI claim stronger?</h2>
+      </div>
+      <div class="review-grid">
+        <article><strong>Replay</strong><span>Can an independent reviewer reproduce the cycle from manifest hashes?</span></article>
+        <article><strong>Evidence</strong><span>Did confidence rise only after executed, replayed, or stress-tested evidence?</span></article>
+        <article><strong>Baselines</strong><span>Did the candidate beat incumbent, nearest-neighbor, null, and current-stack baselines?</span></article>
+        <article><strong>Dossier</strong><span>Was a high-novelty candidate packaged with reproduction, stress, persistence, and risk notes?</span></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>GoalOS AGIALPHA Ascension — public-alpha proof operating system.</strong>
+    <span>Browser-local demonstration. No model call. No wallet. No transaction. Human review required.</span>
+    <nav>
+      <a href="trust-boundary.html">Trust Boundary</a>
+      <a href="token-boundary.html">Token Boundary</a>
+      <a href="site-map.html">Site Map</a>
+    </nav>
+  </footer>
+
+  <script src="assets/goalos-from-loop-to-rsi-governance-v1.js"></script>
+<a class="gx13-open-map" href="site-map.html">Open all pages</a><script src="assets/goalos-command-palette-v13.js"></script><script src="assets/goalos-site-index-data-v14.js"></script><script src="assets/goalos-command-palette-v14.js"></script><style>.goalos-contract-atlas-v17-button{position:fixed;right:18px;bottom:76px;z-index:9999;padding:12px 16px;border-radius:999px;background:linear-gradient(135deg,#ffed8d,#70ffd8);color:#061018;font:900 13px system-ui;text-decoration:none;box-shadow:0 12px 40px rgba(0,0,0,.35)}</style><a class="goalos-contract-atlas-v17-button" href="mainnet-contract-atlas.html">Contracts</a>
+<script src="assets/goalos-ask-goalos-knowledge-v19.js"></script><script src="assets/goalos-ask-goalos-concierge-v19.js"></script>
+<a class="goalos-v20-mission-float" href="mission-command-center.html" style="position:fixed;right:18px;bottom:72px;z-index:90;border-radius:999px;padding:12px 16px;background:linear-gradient(100deg,#ffe66e,#68ffdf);color:#061012;font-weight:1000;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.3)">Tell GoalOS</a>
+<a class="goalos-v21-float" href="tell-goalos.html" aria-label="Tell GoalOS what you want">Tell GoalOS</a>
+<a class="v22-float" href="goalos.html">Tell GoalOS</a><div class="g23-float" data-g23-global><a href="goalos.html">Tell GoalOS</a><a href="site-map.html">All Pages</a></div><script src="assets/goalos-universal-mission-routes-v23.js"></script><script src="assets/goalos-universal-mission-interface-v23.js"></script><div class="g24-float"><a href="goalos.html">Tell GoalOS</a><button data-g24-ask>Ask</button><button data-g24-open-pages>Search /</button></div><div class="g24-modal" id="g24-allpages-modal"><div class="g24-modal-card"><div class="g24-modal-top"><b>GoalOS route command palette</b><button class="g24-close" data-g24-close>×</button></div><div style="padding:20px"><input class="g24-filter" id="g24-allpages-filter" placeholder="Search all GoalOS routes: contracts, RSI, proof, token, validator..."/><div class="g24-table" id="g24-allpages-list"></div></div></div></div><div class="g24-ask" id="g24-ask-modal"><div class="g24-ask-panel"><div class="g24-modal-top"><b>Ask GoalOS</b><button class="g24-close" data-g24-close>×</button></div><div class="g24-chat-log" id="g24-chat-log"></div><form class="g24-chat-form" id="g24-chat-form"><input id="g24-chat-input" placeholder="Ask: where are the 48 contracts?"/><button>Ask</button></form></div></div><script src="assets/goalos-universal-operating-routes-v24.js"></script><script src="assets/goalos-universal-operating-interface-v24.js"></script><div class="g25-float"><a href="goalos.html">Tell GoalOS</a><button data-g25-ask-open>Ask GoalOS</button><button data-g25-open-pages>All Pages</button></div><div class="g25-modal" id="g25-allpages-modal"><div class="g25-modal-card"><div class="g25-modal-top"><h2>All GoalOS pages</h2><button class="g25-close" data-g25-close>Close</button></div><input class="g25-input" data-g25-search-input placeholder="Search GoalOS routes…"><div class="g25-results" data-g25-results></div></div></div><div class="g25-modal" id="g25-ask-modal"><div class="g25-modal-card"><div class="g25-modal-top"><div><h2>Ask GoalOS</h2><p class="g25-mini">Ask a question. GoalOS answers from the public site index and routes you to the right page.</p></div><button class="g25-close" data-g25-close>Close</button></div><div class="g25-chatlog" data-g25-chatlog><div class="g25-msg"><strong>GoalOS ready.</strong><p>Try: “Where are the 48 contracts?”, “What is RSI?”, “Show Proof Run 001”, or “Is $AGIALPHA available from GoalOS?”</p></div></div><div style="display:flex;gap:10px;margin-top:12px"><input class="g25-input" data-g25-ask-input placeholder="Ask GoalOS…"><button class="g25-btn primary" data-g25-ask-send>Send</button></div></div></div><script src="assets/goalos-universal-mission-routes-v25.js"></script><script src="assets/goalos-universal-mission-composer-v25.js"></script><script src="assets/goalos-mission-routes-v26.js"></script><script src="assets/goalos-mission-studio-v26.js"></script><script src="assets/goalos-mission-routes-v27.js"></script><script src="assets/goalos-mission-studio-v27.js"></script>
+<div class="goalos-v28-float"><a href="validation-authority.html">Validate</a><a href="ask-goalos.html">Ask GoalOS</a></div>
+<div class="goalos-v29-rail" aria-label="GoalOS quick actions"><a href="validation-mesh.html">Validate</a><a class="secondary" href="ask-goalos.html">Ask GoalOS</a><a class="secondary" href="site-map.html">All Pages</a></div>
+<div class="goalos-v30-rail" aria-label="GoalOS quick actions"><a href="validation-studio.html">Validate</a><a href="goalos.html">Tell GoalOS</a><a href="ask-goalos.html">Ask GoalOS</a><a href="site-map.html">All Pages</a></div>
+<div class="quickbar"><a href="validation-orchestrator.html">Validate</a><a href="goalos.html">Tell GoalOS</a><a href="ask-goalos.html">Ask</a><a href="site-map.html">All Pages</a></div>
+<script src="assets/goalos-validation-orchestrator-routes-v32.js"></script>
+<script src="assets/goalos-validation-command-center-v32.js"></script>
+<!-- GOALOS_V33_NAV -->
+<script src="assets/goalos-validation-control-routes-v33.js"></script>
+<script src="assets/goalos-validation-control-tower-v33.js"></script>
+<div style="position:fixed;left:16px;bottom:16px;z-index:9999"><a style="display:inline-block;padding:10px 14px;border-radius:999px;background:#66ffd2;color:#051014;font-weight:900;text-decoration:none" href="agi-agent-constellation.html">AGI Agents</a></div><script src="assets/goalos-agi-agent-routes-v36.js"></script>
+<script src="assets/goalos-agi-agent-command-center-v36.js"></script>
+<script src="assets/goalos-agi-agent-mission-data-v37.js"></script>
+<script src="assets/goalos-agi-agent-mission-control-v37.js"></script>
+<div id="goalos-v37-floating-path" class="ask-launch"><a class="btn primary" href="agi-agent-mission-control.html">AGI Agents</a><button class="btn askOpen">Ask</button><a class="btn" href="site-map.html">All Pages</a></div>
+<script src="assets/goalos-agi-agent-workbench-data-v38.js"></script>
+<script src="assets/goalos-agi-agent-workbench-v38.js"></script>
+<div id="goalos-v38-floating-path" class="ask-launch"><a class="btn primary" href="agi-agent-workbench.html">AGI Agents</a><button class="btn askOpen">Ask GoalOS</button><a class="btn" href="site-map.html">All Pages</a></div>
+<script src="assets/goalos-autonomous-demo-data-v39.js"></script><script src="assets/goalos-autonomous-proof-mission-demo-v39.js"></script><div style="position:fixed;left:16px;bottom:16px;z-index:50;display:flex;gap:8px;flex-wrap:wrap"><a href="autonomous-mission-studio.html" style="font:800 12px system-ui;padding:9px 12px;border-radius:999px;background:#eefa76;color:#061018;text-decoration:none">Run end-to-end demo</a><a href="ask-goalos.html" style="font:800 12px system-ui;padding:9px 12px;border-radius:999px;background:#78ffd8;color:#061018;text-decoration:none">Ask GoalOS</a><a href="site-map.html" style="font:800 12px system-ui;padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.18);color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.2)">All Pages</a></div><div class="floating goalos-v41-float"><a class="pill primary" href="autonomy-theatre.html">Run Demo</a><a class="pill primary" href="ask-goalos.html">Ask GoalOS</a><a class="pill primary" href="site-map.html">All Pages</a></div><script src="assets/goalos-autonomy-theatre-data-v41.js"></script><script src="assets/goalos-autonomy-theatre-v41.js"></script><div class="float"><button class="js-ask">Ask GoalOS</button><a href="site-map.html">All Pages</a></div><aside id="ask-panel" class="ask panel"><div class="ask-head"><b>Ask GoalOS</b><button class="js-close-ask">×</button></div><div id="ask-body" class="ask-body"><div class="msg bot">Ask where to go. Example: “Open the 48 contracts” or “Can the AGI Node validate this?”</div></div><div style="padding:12px;display:flex;gap:8px"><input id="ask-input" placeholder="Ask GoalOS…"><button class="btn primary js-send-ask">Send</button></div></aside></body>
+</html>

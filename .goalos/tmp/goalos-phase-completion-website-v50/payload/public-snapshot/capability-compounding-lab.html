@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <meta name="description" content="GoalOS Capability Compounding Lab — a browser-local public demonstration showing how verified work becomes reusable capability." />
+  <title>GoalOS Capability Compounding Lab — Verified Work Becomes Reusable Capability</title>
+  <link rel="stylesheet" href="assets/goalos-capability-compounding-lab-v2.css" />
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+</head>
+<body>
+  <div class="aura" aria-hidden="true"></div>
+  <div class="gridline" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="index.html">Start</a>
+      <a href="multi-agent-institution.html">Institution</a>
+      <a href="proof-gradient-lab.html">Proof Gradient</a>
+      <a href="evidence-docket-theatre.html">Docket Theatre</a>
+      <a href="proof-to-action-command-room.html">Proof → Action</a>
+      <a class="active" href="capability-compounding-lab.html">Compounding Lab</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><i></i> PUBLIC DEMO / BROWSER-LOCAL / NO DATA</p>
+        <h1>Verified work becomes <em>reusable capability.</em></h1>
+        <p class="lede">Run one proof cycle, seal accepted work into Chronicle memory, package it as a reusable capability, then apply it to a harder mission. This is the GoalOS compounding loop made visible.</p>
+        <div class="actions">
+          <button id="run" class="btn primary">Run compounding cycle</button>
+          <button id="stress" class="btn secondary">Stress proof debt</button>
+          <button id="reset" class="btn quiet">Reset</button>
+        </div>
+        <div class="boundary"><b>Default deny</b><span>No user data, no user funds, no wallet, no transaction, no network call, no production authority, human review required.</span></div>
+      </div>
+      <aside class="hero-visual" aria-label="Compounding loop visual">
+        <div class="mode-toggle" role="group" aria-label="View mode">
+          <button id="mode-exec" class="pill active">Executive</button>
+          <button id="mode-tech" class="pill">Technical</button>
+        </div>
+        <svg id="loop-svg" viewBox="0 0 620 430" role="img" aria-label="GoalOS compounding loop">
+          <defs>
+            <radialGradient id="orb" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#ffef8b"/><stop offset=".38" stop-color="#72ffd5"/><stop offset=".72" stop-color="#7ea8ff"/><stop offset="1" stop-color="#9c79ff"/></radialGradient>
+            <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ffe37a"/></marker>
+          </defs>
+          <rect width="620" height="430" rx="26" fill="rgba(255,255,255,.025)"/>
+          <g id="static-loop" opacity="1">
+            <path d="M310 80 C465 80 540 155 540 250 C540 345 440 380 310 380 C180 380 80 345 80 250 C80 155 155 80 310 80" fill="none" stroke="rgba(255,227,122,.42)" stroke-width="2" stroke-dasharray="8 10" marker-end="url(#arrow)"/>
+            <path d="M310 98 C420 100 485 165 485 250 C485 335 410 360 310 360 C210 360 135 335 135 250 C135 165 200 100 310 98" fill="none" stroke="rgba(110,255,218,.32)" stroke-width="2" stroke-dasharray="4 8"/>
+            <circle cx="310" cy="225" r="78" fill="url(#orb)" filter="url(#softGlow)" opacity=".94"/>
+            <circle cx="310" cy="225" r="105" fill="none" stroke="rgba(255,255,255,.13)"/>
+            <text x="310" y="214" text-anchor="middle" fill="#04101a" font-size="16" font-weight="900" letter-spacing="2">CAPABILITY</text>
+            <text x="310" y="248" text-anchor="middle" fill="#04101a" font-size="54" font-weight="900">α</text>
+            <g class="nodes">
+              <g><circle cx="310" cy="72" r="30"/><text x="310" y="77">MISSION</text></g>
+              <g><circle cx="474" cy="125" r="30"/><text x="474" y="130">PROOF</text></g>
+              <g><circle cx="542" cy="250" r="30"/><text x="542" y="255">VERIFY</text></g>
+              <g><circle cx="475" cy="355" r="30"/><text x="475" y="360">CHRON</text></g>
+              <g><circle cx="310" cy="385" r="30"/><text x="310" y="390">REUSE</text></g>
+              <g><circle cx="145" cy="355" r="30"/><text x="145" y="360">APPLY</text></g>
+              <g><circle cx="78" cy="250" r="30"/><text x="78" y="255">HARDER</text></g>
+              <g><circle cx="145" cy="125" r="30"/><text x="145" y="130">VALUE</text></g>
+            </g>
+          </g>
+        </svg>
+      </aside>
+    </section>
+
+    <section class="metric-rail" aria-label="Compounding metrics">
+      <div><strong id="score">41</strong><span>readiness</span></div>
+      <div><strong id="reuse">0%</strong><span>reuse lift</span></div>
+      <div><strong id="debt">59</strong><span>proof debt</span></div>
+      <div><strong id="maturity">L1</strong><span>capability maturity</span></div>
+      <div><strong id="next">blocked</strong><span>harder mission</span></div>
+    </section>
+
+    <section class="lab-grid">
+      <aside class="panel mission-panel">
+        <div class="panel-head"><span>01</span><h2>Compose the mission</h2></div>
+        <label for="scenario">Mission preset</label>
+        <select id="scenario">
+          <option value="launch">Repository launch readiness</option>
+          <option value="frontier">Frontier release governance</option>
+          <option value="institution">Multi-agent institution review</option>
+          <option value="science">Scientific discovery triage</option>
+          <option value="pilot">Proof mission pilot readiness</option>
+        </select>
+        <label for="mission-text">Mission contract</label>
+        <textarea id="mission-text" rows="6"></textarea>
+        <div class="toggles" id="toggles" aria-label="Mandatory compounding gates"></div>
+      </aside>
+
+      <section class="panel theatre-panel">
+        <div class="panel-head"><span>02</span><h2>Watch capability compound</h2></div>
+        <div class="timeline" id="timeline" aria-live="polite"></div>
+        <div class="compare">
+          <article>
+            <h3>One-off AI output</h3>
+            <p>Useful once, weakly traced, hard to replay, easy to over-trust, rarely compounds.</p>
+            <ul id="one-off-list"><li>Answer</li><li>Report</li><li>Unverified suggestion</li></ul>
+          </article>
+          <article class="gold">
+            <h3>GoalOS capability</h3>
+            <p>Evidence-bound, validator-reviewed, Chronicle-preserved, reusable under a clear claim boundary.</p>
+            <ul id="capability-list"><li>Evidence Docket</li><li>Chronicle Entry</li><li>Capability Package</li></ul>
+          </article>
+        </div>
+        <div class="chronicle" id="chronicle"></div>
+      </section>
+
+      <aside class="panel decision-panel">
+        <div class="panel-head"><span>03</span><h2>Decision chamber</h2></div>
+        <div class="ring" id="ring" style="--p:41%"><b id="ring-score">41</b><span>ready</span></div>
+        <div class="decision" id="decision">HOLD_PENDING_PROOF</div>
+        <div class="bars">
+          <label>Evidence integrity <b id="b-evidence">44%</b><span><i id="bar-evidence"></i></span></label>
+          <label>Replayability <b id="b-replay">38%</b><span><i id="bar-replay"></i></span></label>
+          <label>Reuse potential <b id="b-reuse">0%</b><span><i id="bar-reuse"></i></span></label>
+          <label>Risk control <b id="b-risk">55%</b><span><i id="bar-risk"></i></span></label>
+        </div>
+        <div class="download-grid">
+          <button id="docket" class="btn primary small">Download docket</button>
+          <button id="package" class="btn secondary small">Capability package</button>
+          <button id="chronicle-file" class="btn secondary small">Chronicle entry</button>
+          <button id="report" class="btn quiet small">Compounding report</button>
+          <button id="card" class="btn quiet small">Proof card SVG</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="deep-section">
+      <article class="explain-card">
+        <h2>Why this matters</h2>
+        <p>GoalOS is not trying to make another impressive report. It makes the result reusable: the accepted proof becomes a Chronicle entry, a capability package, and a safer starting point for the next mission.</p>
+      </article>
+      <article class="explain-card">
+        <h2>Compounding law</h2>
+        <p><b>Mission → Work → Proof → Validation → Chronicle → Capability → Harder Mission.</b> If proof debt remains high, the next mission is blocked.</p>
+      </article>
+      <article class="explain-card">
+        <h2>Claim boundary</h2>
+        <p>This is a browser-local public demonstration. It does not certify empirical SOTA, production authority, legal approval, token settlement, user-fund movement, or achieved AGI/ASI.</p>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/goalos-capability-compounding-lab-v2.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+</body>
+</html>

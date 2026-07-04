@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T12:30:18Z",
+  "files": [
+    "public/proof-run-001-docket.html",
+    "evidence/proof-run-001/proof-run-001-docket-room-v2.json",
+    "reports/proof-run-001-docket-room-v2-qa.json"
+  ]
+}

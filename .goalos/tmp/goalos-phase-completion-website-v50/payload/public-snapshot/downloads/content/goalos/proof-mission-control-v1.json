@@ -1,0 +1,19 @@
+{
+  "id": "proof-mission-control-v1",
+  "title": "GoalOS Proof Mission Control V1",
+  "tagline": "Turn proof missions into reviewable operating state.",
+  "url": "proof-mission-control.html",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "no_transaction": true,
+  "human_review_required": true,
+  "stations": [
+    "Proposal",
+    "Contract",
+    "Docket",
+    "Review",
+    "Decision"
+  ]
+}

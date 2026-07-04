@@ -1,0 +1,136 @@
+{
+  "status": "completed_with_site_verify_findings",
+  "generated_at": "2026-06-30T03:05:00Z",
+  "changed_files": [
+    "docs/START_HERE.md",
+    "public/adoption.html",
+    "public/agents.html",
+    "public/assets/social-preview.svg",
+    "public/capability-stack.html",
+    "public/claim-boundary.html",
+    "public/commercial-evidence.html",
+    "public/data-room.html",
+    "public/enterprise.html",
+    "public/evaluation.html",
+    "public/evidence-room.html",
+    "public/evidence-to-scale.html",
+    "public/evidence.html",
+    "public/executive-brief.html",
+    "public/faq.html",
+    "public/governance.html",
+    "public/independent-validation.html",
+    "public/index.html",
+    "public/jobs.html",
+    "public/launch.html",
+    "public/metrics.html",
+    "public/mission-os.html",
+    "public/node.html",
+    "public/operators.html",
+    "public/pilot-program.html",
+    "public/pilot-proof.html",
+    "public/proof-economy.html",
+    "public/proof-velocity.html",
+    "public/public-metrics-ledger.html",
+    "public/release-gates.html",
+    "public/repository-map.html",
+    "public/roadmap.html",
+    "public/schema-registry.html",
+    "public/search-index.json",
+    "public/security.html",
+    "public/site-status.json",
+    "public/sitemap.xml",
+    "public/source-lineage.html",
+    "public/standards.html",
+    "public/start.html",
+    "public/strategic-evidence-scorecard.html",
+    "public/troubleshooting.html",
+    "public/trust-center.html",
+    "public/website-autopilot.html",
+    "reports/autopilot-summary.md",
+    "reports/proof-run-001-reference-report.json",
+    "reports/repo-validation.json",
+    "reports/repository-preflight-inventory-v2.json",
+    "reports/repository-preflight-inventory-v2.md",
+    "reports/site-qa.json"
+  ],
+  "created_docs": [],
+  "updated_docs": [
+    "docs/START_HERE.md",
+    "README.md",
+    "docs/DEMO_ECOSYSTEM.md",
+    "docs/REPOSITORY_SETTINGS.md",
+    "docs/REVIEWER_GUIDE.md",
+    "docs/VALIDATOR_GUIDE.md",
+    "docs/DEVELOPER_GUIDE.md"
+  ],
+  "diagrams_added": [
+    "docs/diagrams/action-reason-trace-contract.mmd",
+    "docs/diagrams/aep-object-lifecycle.mmd",
+    "docs/diagrams/developer-local-run.mmd",
+    "docs/diagrams/evidence-docket-flow.mmd",
+    "docs/diagrams/goalos-core-loop.mmd",
+    "docs/diagrams/institutional-deployment-wedge.mmd",
+    "docs/diagrams/proof-gradient-selection-law.mmd",
+    "docs/diagrams/proof-settlement-loop.mmd",
+    "docs/diagrams/public-private-proof-boundary.mmd",
+    "docs/diagrams/reviewer-path.mmd",
+    "docs/diagrams/token-boundary.mmd",
+    "docs/diagrams/website-user-journey.mmd"
+  ],
+  "badges_added": [
+    "Docs Quality workflow badge",
+    "GitHub Pages/deploy workflow badge",
+    "MIT license badge",
+    "Public Alpha static badge",
+    "No User Data static badge",
+    "No User Funds static badge",
+    "Human Review Required static badge",
+    "Browser Local Demos static badge"
+  ],
+  "workflows_added_or_verified": [
+    ".github/workflows/goalos-docs-quality.yml"
+  ],
+  "issue_templates_added_or_verified": [
+    ".github/ISSUE_TEMPLATE/demo_bug_report.yml",
+    ".github/ISSUE_TEMPLATE/documentation_feedback.yml",
+    ".github/ISSUE_TEMPLATE/evidence_docket_review.yml",
+    ".github/ISSUE_TEMPLATE/external_reviewer_report.yml",
+    ".github/ISSUE_TEMPLATE/new_user_question.yml",
+    ".github/ISSUE_TEMPLATE/proof_mission_proposal.yml",
+    ".github/ISSUE_TEMPLATE/security_boundary_report.yml",
+    ".github/ISSUE_TEMPLATE/token_or_market_boundary.yml",
+    ".github/ISSUE_TEMPLATE/website_navigation_feedback.yml"
+  ],
+  "qa_checks_run": [
+    {
+      "command": "python scripts/goalos_docs_quality.py",
+      "result": "passed"
+    },
+    {
+      "command": "python scripts/validate_repo.py",
+      "result": "passed with 89 existing warnings reported by script"
+    },
+    {
+      "command": "python scripts/build_site.py",
+      "result": "passed; generated 39 pages in public/"
+    },
+    {
+      "command": "python scripts/verify_site.py",
+      "result": "failed; existing generated-page/site-boundary findings recorded in reports/site-qa.json"
+    },
+    {
+      "command": "python -m unittest discover -s tests",
+      "result": "passed; 14 tests"
+    },
+    {
+      "command": "python -m compileall scripts src",
+      "result": "passed"
+    }
+  ],
+  "known_limitations": [
+    "Site verification currently reports claim-boundary findings for demo-ecosystem-registry.html, pathfinder.html, site-map.html, trust-boundary.html, and website-operating-system.html, plus a short-page finding for demo-ecosystem-registry.html.",
+    "Repository validation passes but reports 89 warnings in reports/repo-validation.json.",
+    "Docs QA is deterministic and local-only; it does not validate remote GitHub Pages availability."
+  ],
+  "next_recommended_move": "Fix the site verification claim-boundary findings in public navigation pages, then rerun build_site.py and verify_site.py before public-alpha release tagging."
+}

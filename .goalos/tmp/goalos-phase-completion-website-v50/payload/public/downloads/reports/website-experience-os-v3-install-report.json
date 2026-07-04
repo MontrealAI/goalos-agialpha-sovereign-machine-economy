@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-06-30T02:39:22Z",
+  "files": [
+    "public/index.html",
+    "public/pathfinder.html",
+    "public/website-operating-system.html",
+    "public/demo-ecosystem-registry.html",
+    "public/site-map.html",
+    "public/trust-boundary.html",
+    "public/assets/goalos-website-os-v3.css",
+    "public/assets/goalos-command-palette-v3.css",
+    "public/assets/goalos-website-os-v3.js"
+  ]
+}

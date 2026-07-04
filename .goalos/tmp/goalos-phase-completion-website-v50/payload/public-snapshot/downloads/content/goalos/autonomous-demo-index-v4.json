@@ -1,0 +1,14 @@
+{
+  "schema": "goalos.autonomous_demo_index.v4",
+  "pages": [
+    "demo-launcher.html",
+    "proof-flight-demo.html",
+    "docket-builder.html",
+    "agent-constellation-demo.html",
+    "proof-card-studio.html",
+    "local-autopilot-demo.html",
+    "demo-gallery.html",
+    "demo-safety.html"
+  ],
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

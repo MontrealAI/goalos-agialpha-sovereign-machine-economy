@@ -1,0 +1,27 @@
+{
+  "docketId": "ACTION-REASON-TRACE-CONTRACT-V1-REFERENCE",
+  "generatedAt": "2026-06-29T19:05:54.859322+00:00",
+  "claim": "GoalOS can represent an external-action request as a reviewable Action-Reason Trace Contract in a browser-local public demo.",
+  "artifact": "public/action-reason-trace-contract.html",
+  "actionReasonTrace": [
+    "reason",
+    "permission_scope",
+    "expected_observation",
+    "actual_observation",
+    "validator_status",
+    "cost_risk_ledger",
+    "rollback_pointer",
+    "evidence_pointer",
+    "human_review"
+  ],
+  "decisionState": "ACTION_REVIEW_READY_WITH_HUMAN_BOUNDARY",
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "noProductionAuthority": true,
+    "humanReviewRequired": true
+  }
+}

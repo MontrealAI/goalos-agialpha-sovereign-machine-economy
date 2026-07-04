@@ -1,0 +1,6 @@
+id,claim,status,evidence
+C-001,The committed source now contains the canonical website operating surface.,Supported,public/index.html; content/goalos/release-state.json
+C-002,The site has a route integrity report and no known local route dead-ends after repair.,Supported,reports/source-of-truth-v6-route-health.json
+C-003,The claim scanner is context-aware and distinguishes negated boundaries from unsupported claims.,Supported,scripts/validate_claims.py; reports/claim-scan.json
+C-004,"Proof Run 001 is repository-readiness evidence, not empirical AGI/ASI/SOTA validation.",Supported,claim boundary on proof-run-001-docket.html
+C-005,All public-alpha demos remain no-data/no-funds/no-wallet/no-transaction surfaces unless explicitly reviewed.,Supported,trust-boundary.html; reports/source-of-truth-v6-qa.json

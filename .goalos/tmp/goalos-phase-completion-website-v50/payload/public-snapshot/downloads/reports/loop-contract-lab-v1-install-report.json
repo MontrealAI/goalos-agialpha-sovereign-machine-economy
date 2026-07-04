@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "generated_at": "2026-07-01T13:42:13Z",
+  "installed": [
+    "public/loop-contract-lab.html",
+    "public/assets/goalos-loop-contract-lab-v1.css",
+    "public/assets/goalos-loop-contract-lab-v1.js",
+    "docs/demos/LOOP_CONTRACT_LAB_V1.md",
+    "docs/reviewer/HOW_TO_REVIEW_LOOP_CONTRACT_LAB.md",
+    "examples/loop-contract-lab/public-safe-loop-scenarios.md",
+    "scripts/run_loop_contract_lab_v1_demo.py",
+    "scripts/goalos_loop_contract_lab_v1_audit.py",
+    "evidence/demo/loop-contract-lab-v1-reference-docket.json",
+    "reports/loop-contract-lab-v1-install-report.json",
+    "content/goalos/loop-contract-lab-v1.json",
+    ".github/ISSUE_TEMPLATE/loop_contract_lab_feedback.yml",
+    "issue-bodies/loop-contract-lab-v1.md"
+  ],
+  "index_card_added": true,
+  "boundary": "No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required."
+}

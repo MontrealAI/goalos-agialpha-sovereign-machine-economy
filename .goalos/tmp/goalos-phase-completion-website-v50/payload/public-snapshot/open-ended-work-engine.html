@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GoalOS Open-Ended Work Engine Lab — Generate Tasks. Gate Descendants.</title>
+  <meta name="description" content="A browser-local public demo showing how GoalOS generates mission candidates, validators, proof templates, and capability packages while admitting only replayable, risk-bounded, proof-ready descendants.">
+  <meta property="og:title" content="GoalOS Open-Ended Work Engine Lab">
+  <meta property="og:description" content="Generate tasks. Gate descendants. Keep open-endedness tethered to proof.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-open-ended-work-engine-v1.css">
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="brand-mark">α</span>
+      <span><strong>GOALOS</strong><em>AGIALPHA ASCENSION</em></span>
+    </a>
+    <nav>
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-mission-forge.html">Mission Forge</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="real-task-benchmark-bridge.html">Benchmark Bridge</a>
+      <a class="active" href="open-ended-work-engine.html">Open-Ended Engine</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> public demo / browser-local / no data</p>
+        <h1>Generate tasks.<br><i>Gate descendants.</i></h1>
+        <p class="thesis">Open-ended AI becomes useful only when generated missions, validators, workflows, and capability packages remain tethered to proof.</p>
+        <div class="hero-actions">
+          <button id="runEngine" class="primary">Run open-ended cycle</button>
+          <button id="stressUntethering" class="secondary">Stress untethering</button>
+          <button id="resetEngine" class="ghost">Reset</button>
+        </div>
+        <div class="boundary">No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
+      </div>
+      <aside class="oracle" aria-label="Open-ended work engine status">
+        <div class="mode-toggle" role="group" aria-label="View mode">
+          <button id="modeExec" class="mode active">Executive</button>
+          <button id="modeTech" class="mode">Technical</button>
+        </div>
+        <div class="orb-wrap">
+          <svg id="engineOrb" viewBox="0 0 520 360" role="img" aria-labelledby="orbTitle orbDesc">
+            <title id="orbTitle">Open-ended work engine proof rail</title>
+            <desc id="orbDesc">A browser-local diagram of generation, validation, proof, selection, archive, and harder mission loops.</desc>
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#fff8a6"/>
+                <stop offset="34%" stop-color="#7cffda"/>
+                <stop offset="70%" stop-color="#8da2ff"/>
+                <stop offset="100%" stop-color="#7f5cff"/>
+              </radialGradient>
+              <filter id="blur"><feGaussianBlur stdDeviation="7"/></filter>
+            </defs>
+            <rect width="520" height="360" rx="28" fill="rgba(255,255,255,.03)" stroke="rgba(255,255,255,.16)"/>
+            <g class="rail">
+              <circle cx="260" cy="180" r="58" fill="url(#glow)" opacity=".95"/>
+              <circle cx="260" cy="180" r="76" fill="none" stroke="#7cffda" stroke-opacity=".32"/>
+              <circle cx="260" cy="180" r="118" fill="none" stroke="#ffe875" stroke-opacity=".22" stroke-dasharray="3 8"/>
+              <circle cx="260" cy="180" r="154" fill="none" stroke="#a99cff" stroke-opacity=".18" stroke-dasharray="2 10"/>
+              <text x="260" y="172" text-anchor="middle" class="orb-a">OPEN</text>
+              <text x="260" y="202" text-anchor="middle" class="orb-b">ENDED</text>
+              <g id="svgNodes"></g>
+            </g>
+          </svg>
+        </div>
+        <div class="oracle-stats">
+          <div><strong id="readiness">72</strong><span>admissibility</span></div>
+          <div><strong id="generated">12</strong><span>candidates</span></div>
+          <div><strong id="admitted">3</strong><span>admitted</span></div>
+          <div><strong id="quarantined">4</strong><span>quarantined</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="statement">
+      <div>
+        <p class="tag">Core doctrine</p>
+        <h2>Open-endedness without untethering.</h2>
+      </div>
+      <p>A generated mission is not automatically useful. A generated validator is not automatically trustworthy. A generated capability package is not automatically reusable. GoalOS admits descendants only when they are public-safe, replayable, validator-bound, risk-bounded, and useful for future verified work.</p>
+    </section>
+
+    <section class="lab-grid">
+      <aside class="panel controls">
+        <div class="panel-title"><span>01</span><h3>Configure the generator</h3></div>
+        <label>Generation scenario</label>
+        <select id="scenario">
+          <option value="mission">Public proof mission generation</option>
+          <option value="validator">Validator challenge generation</option>
+          <option value="workflow">Agent workflow design generation</option>
+          <option value="capability">Capability package generation</option>
+          <option value="curriculum">Task curriculum generation</option>
+        </select>
+
+        <label>Seed objective</label>
+        <textarea id="seedText" spellcheck="false">Generate public-safe mission variants that help reviewers test whether GoalOS turns autonomous AI work into evidence-bearing, replayable, human-review-ready proof packages.</textarea>
+
+        <div class="slider-row"><span>Novelty pressure</span><strong id="noveltyOut">0.62</strong></div>
+        <input id="novelty" type="range" min="0" max="100" value="62">
+
+        <div class="slider-row"><span>Learnability</span><strong id="learnOut">0.74</strong></div>
+        <input id="learnability" type="range" min="0" max="100" value="74">
+
+        <div class="slider-row"><span>Risk pressure</span><strong id="riskOut">0.36</strong></div>
+        <input id="risk" type="range" min="0" max="100" value="36">
+
+        <div class="toggle-stack" id="gateToggles" aria-label="Admissibility gates"></div>
+      </aside>
+
+      <section class="panel theatre">
+        <div class="panel-title"><span>02</span><h3>Watch generated work become gated state</h3><b id="decision">HOLD_REVIEW_READY</b></div>
+        <div class="pipeline" id="pipeline">
+          <div data-stage="generate">Generate</div>
+          <div data-stage="validate">Validate</div>
+          <div data-stage="prove">Prove</div>
+          <div data-stage="archive">Archive</div>
+          <div data-stage="select">Select</div>
+          <div data-stage="next">Harder mission</div>
+        </div>
+        <div class="candidate-grid" id="candidateGrid"></div>
+        <div class="terminal" id="chronicle" aria-label="Chronicle trace"></div>
+      </section>
+
+      <aside class="panel chamber">
+        <div class="panel-title"><span>03</span><h3>Admissibility chamber</h3></div>
+        <div class="score-ring" aria-label="Admissibility score">
+          <svg viewBox="0 0 140 140">
+            <circle cx="70" cy="70" r="54" class="track"></circle>
+            <circle id="scoreArc" cx="70" cy="70" r="54" class="arc"></circle>
+          </svg>
+          <div><strong id="score">72</strong><span>gate score</span></div>
+        </div>
+        <div class="state-card">
+          <p>Terminal state</p>
+          <h4 id="stateTitle">HOLD_REVIEW_READY</h4>
+          <span id="stateText">Generated candidates are browser-local and review-ready, but no production authority exists.</span>
+        </div>
+        <div class="download-stack">
+          <button data-download="docket">Download generated-object docket</button>
+          <button data-download="missionSet">Download mission set</button>
+          <button data-download="validatorLattice">Download validator lattice</button>
+          <button data-download="proofTemplates">Download proof template pack</button>
+          <button data-download="reviewBrief">Download reviewer brief</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="technical" id="technicalBlock">
+      <div class="formula">
+        <p class="tag">Admissibility law</p>
+        <code>Admit(gₜ)=1 iff SyntaxValid ∧ SandboxSafe ∧ ValidatorBound ∧ Replayable ∧ Interesting ∧ Learnable ∧ NonRedundant ∧ RiskBounded ∧ ImprovesWork ∧ BoundaryPass</code>
+      </div>
+      <div class="plain">
+        <h3>What this proves</h3>
+        <p>This page does not claim an autonomous production AI-generating system. It demonstrates the control law: generated descendants remain candidates until proof gates make them review-ready.</p>
+      </div>
+      <div class="plain">
+        <h3>What it does not do</h3>
+        <p>It does not call models, submit data, use a wallet, generate live tasks for external users, settle work, or authorize production action.</p>
+      </div>
+    </section>
+
+    <section class="why">
+      <h2>Why this is a core GoalOS demonstration</h2>
+      <div class="why-grid">
+        <article><strong>A demo can impress.</strong><span>An open-ended engine can drift.</span></article>
+        <article><strong>Generation is cheap.</strong><span>Validated generation is scarce.</span></article>
+        <article><strong>Novelty is not enough.</strong><span>Only replayable, validator-bound novelty can compound.</span></article>
+        <article><strong>The next mission should be harder.</strong><span>But only if the last proof earned it.</span></article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/goalos-open-ended-work-engine-v1.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+</body>
+</html>

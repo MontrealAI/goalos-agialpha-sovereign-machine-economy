@@ -1,0 +1,20 @@
+{
+  "status": "packaged",
+  "files": [
+    ".github/ISSUE_TEMPLATE/multi_agent_institution_feedback.yml",
+    "content/goalos/multi-agent-institution-v6.json",
+    "docs/institution/ADVANCED_COORDINATION_NOTES.md",
+    "docs/institution/MULTI_AGENT_INSTITUTION_EXPERIENCE_V6.md",
+    "docs/institution/NON_TECHNICAL_USER_GUIDE.md",
+    "examples/institution/public-safe-mission-examples.md",
+    "issue-bodies/multi-agent-institution-v6.md",
+    "public/assets/goalos-institution-v6.css",
+    "public/assets/goalos-institution-v6.js",
+    "public/multi-agent-institution.html",
+    "reports/multi-agent-institution-v6-manifest.json",
+    "scripts/goalos_multi_agent_institution_v6_audit.py",
+    "scripts/install_multi_agent_institution_v6.py",
+    "scripts/run_multi_agent_institution_v6_demo.py"
+  ],
+  "generated_at": "2026-06-28T12:42:20Z"
+}

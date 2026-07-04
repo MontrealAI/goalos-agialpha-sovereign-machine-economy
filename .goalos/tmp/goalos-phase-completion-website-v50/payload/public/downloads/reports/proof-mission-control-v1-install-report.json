@@ -1,0 +1,17 @@
+{
+  "status": "installed",
+  "installed_at": "2026-06-29T02:44:22.344351+00:00",
+  "page": "public/proof-mission-control.html",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "human_review_required": true
+  },
+  "files": [
+    "public/proof-mission-control.html",
+    "docs/proof-missions/PROOF_MISSION_CONTROL_V1.md",
+    "reports/proof-mission-control-v1-install-report.json"
+  ]
+}

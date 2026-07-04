@@ -1,0 +1,18 @@
+{
+  "version": "v6",
+  "page": "public/multi-agent-institution.html",
+  "thesis": "Not a swarm. An institution.",
+  "browser_local": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "features": [
+    "executive mode",
+    "technical mode",
+    "proof flight",
+    "swarm comparator",
+    "Evidence Docket download",
+    "review brief download",
+    "capability package download",
+    "stress mode"
+  ]
+}

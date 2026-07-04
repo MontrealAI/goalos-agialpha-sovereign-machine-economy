@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "generated_at": "2026-07-01T18:46:44Z",
+  "demo": "GoalOS Loop Bottleneck Observatory V1",
+  "reference_cycle": {
+    "objective": "release hardening loop",
+    "contract": 72,
+    "state": 68,
+    "trace": 61,
+    "evaluator": 74,
+    "taste": 58,
+    "harness": 43,
+    "decision_state": "LOOP_REVIEW_READY"
+  },
+  "stress_cycle": {
+    "expected_bottleneck": "contract or harness overhead",
+    "expected_states": [
+      "REJECT_NO_CONTRACT",
+      "HOLD_HARNESS_OVERHEAD_DOMINATES",
+      "BLOCK_PRIVACY_BOUNDARY"
+    ]
+  },
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  }
+}

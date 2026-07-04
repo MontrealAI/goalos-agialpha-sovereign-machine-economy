@@ -1,0 +1,3 @@
+claim,status,evidence,boundary
+"Final hardening V7 source, routes, downloads, scanners, templates, and proof docket are synchronized.",REVIEW_READY,reports/final-hardening-v7-qa.json,Repository-readiness only
+GoalOS achieved AGI/ASI or empirical SOTA,NOT_CLAIMED,Claim boundary,Explicitly not claimed

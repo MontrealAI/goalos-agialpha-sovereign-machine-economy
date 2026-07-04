@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoalOS Loop Bottleneck Observatory — The Bottleneck Always Moves</title>
+  <meta name="description" content="A browser-local public demo showing how GoalOS turns long-running agent loops into contracts, disk state, traces, restarts, bottleneck reports, Evidence Dockets, and review-ready decisions." />
+  <meta property="og:title" content="GoalOS Loop Bottleneck Observatory" />
+  <meta property="og:description" content="A prompt produces output. A loop produces governed work. A GoalOS loop produces proof." />
+  <meta name="theme-color" content="#07111d" />
+  <link rel="stylesheet" href="assets/goalos-loop-bottleneck-observatory-v1.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page-shell">
+    <header class="topbar" aria-label="GoalOS navigation">
+      <a class="brand" href="index.html" aria-label="GoalOS home">
+        <span class="brand-mark">α</span>
+        <span><b>GOALOS</b><small>AGIALPHA ASCENSION</small></span>
+      </a>
+      <nav>
+        <a href="index.html">Start</a>
+        <a href="loop-contract-lab.html">Loop Contract</a>
+        <a href="loop-flight-recorder.html">Flight Recorder</a>
+        <a href="proof-run-001-docket.html">Proof Run 001</a>
+        <a href="demo-ecosystem-registry.html">Registry</a>
+        <a href="trust-boundary.html">Trust</a>
+      </nav>
+      <button id="paletteButton" class="pill secondary" type="button">Search /</button>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span>PUBLIC DEMO / LOOP GOVERNANCE / BROWSER-LOCAL</p>
+          <h1>The bottleneck <em>always</em> moves.</h1>
+          <p class="lede">Run a long-horizon agent loop and watch GoalOS expose the next bottleneck: contract, state, traces, evaluator, taste rubric, harness overhead, or proof boundary.</p>
+          <p class="doctrine">A prompt produces output. A loop produces governed work. A GoalOS loop produces proof.</p>
+          <div class="cta-row">
+            <button id="runLoop" class="pill primary" type="button">Run bottleneck loop</button>
+            <button id="stressLoop" class="pill" type="button">Stress weak loop</button>
+            <button id="restartLoop" class="pill" type="button">Restart from disk</button>
+            <button id="deleteHarness" class="pill" type="button">Delete harness overhead</button>
+          </div>
+          <div class="boundary" role="note"><b>PUBLIC-ALPHA BOUNDARY</b> No user data. No user funds. No wallet. No transaction. No network call. No production authority. Human review required.</div>
+        </div>
+        <aside class="observatory" aria-label="Loop observatory visual console">
+          <div class="console-head"><span>LOOP OBSERVATORY</span><b id="decisionTop">LOOP_DRAFT</b></div>
+          <div class="orbit-wrap">
+            <svg class="orbit" viewBox="0 0 640 420" role="img" aria-label="Loop bottleneck orbit showing stages of a governed agent loop">
+              <defs>
+                <radialGradient id="coreGlow" cx="50%" cy="50%" r="70%"><stop offset="0%" stop-color="#fff77a"/><stop offset="40%" stop-color="#70ffd0"/><stop offset="100%" stop-color="#8f8cff"/></radialGradient>
+                <filter id="soft"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              </defs>
+              <rect x="0" y="0" width="640" height="420" rx="34" fill="rgba(255,255,255,.035)"/>
+              <g class="grid-lines" opacity=".32">
+                <path d="M0 70H640M0 140H640M0 210H640M0 280H640M0 350H640M80 0V420M160 0V420M240 0V420M320 0V420M400 0V420M480 0V420M560 0V420"/>
+              </g>
+              <circle cx="320" cy="210" r="146" class="ring primary"/>
+              <circle cx="320" cy="210" r="198" class="ring secondary"/>
+              <circle cx="320" cy="210" r="76" fill="url(#coreGlow)" filter="url(#soft)"/>
+              <text x="320" y="226" text-anchor="middle" class="alpha">α</text>
+              <g id="orbitNodes"></g>
+              <g id="bottleneckBeam"><path d="M320 210L320 52" class="beam"/><circle cx="320" cy="52" r="28" class="hot-node"/><text x="320" y="58" class="node-text" text-anchor="middle">CON</text></g>
+            </svg>
+          </div>
+          <div class="mini-status">
+            <div><b id="readinessStat">42</b><span>readiness</span></div>
+            <div><b id="bottleneckStat">contract</b><span>bottleneck</span></div>
+            <div><b id="loopsStat">0</b><span>cycles</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="panel-grid control-room" aria-label="Loop controls and evidence console">
+        <aside class="card controls">
+          <div class="card-title"><span>01</span><h2>Configure the loop</h2></div>
+          <label class="field"><span>Loop scenario</span><select id="scenario"></select></label>
+          <label class="field"><span>Public-safe objective</span><textarea id="objective" maxlength="720"></textarea></label>
+          <div class="two-col">
+            <label class="field"><span>Risk class</span><select id="risk"><option>LOW</option><option selected>MEDIUM</option><option>HIGH</option></select></label>
+            <label class="field"><span>Loop horizon</span><select id="horizon"><option>4 hours</option><option selected>3 days</option><option>2 weeks</option></select></label>
+          </div>
+          <div class="slider-stack">
+            <label><span>Contract clarity <b id="vContract">72</b></span><input id="contract" type="range" min="0" max="100" value="72" /></label>
+            <label><span>State compression <b id="vState">68</b></span><input id="state" type="range" min="0" max="100" value="68" /></label>
+            <label><span>Trace readability <b id="vTrace">61</b></span><input id="trace" type="range" min="0" max="100" value="61" /></label>
+            <label><span>Evaluator independence <b id="vEval">74</b></span><input id="evaluator" type="range" min="0" max="100" value="74" /></label>
+            <label><span>Taste rubric quality <b id="vTaste">58</b></span><input id="taste" type="range" min="0" max="100" value="58" /></label>
+            <label><span>Harness overhead <b id="vHarness">43</b></span><input id="harness" type="range" min="0" max="100" value="43" /></label>
+          </div>
+          <div class="gate-stack" id="gateStack" aria-label="Loop proof gates"></div>
+        </aside>
+
+        <section class="card theatre">
+          <div class="card-title"><span>02</span><h2>Watch the bottleneck move</h2></div>
+          <div class="loop-track" id="loopTrack"></div>
+          <div class="bottleneck-board">
+            <div class="bottleneck-meter"><div id="bottleneckFill"></div></div>
+            <div>
+              <p class="micro">Current bottleneck</p>
+              <h3 id="bottleneckName">Contract before code</h3>
+              <p id="bottleneckAdvice">Negotiate the contract before the generator writes. If the contract is weak, the loop converges on plausible output instead of verified work.</p>
+            </div>
+          </div>
+          <div class="trace-grid">
+            <div class="terminal"><div id="terminal"></div></div>
+            <div class="state-files">
+              <h3>Disk state pack</h3>
+              <ul id="stateFiles"></ul>
+            </div>
+          </div>
+        </section>
+
+        <aside class="card decision-card">
+          <div class="card-title"><span>03</span><h2>Decision chamber</h2></div>
+          <div class="score-ring" aria-label="Loop readiness score"><span id="scoreRing">42</span><small>readiness</small></div>
+          <p class="micro">Governed Decision State</p>
+          <h3 id="decisionState">LOOP_DRAFT</h3>
+          <p id="decisionCopy">Run the loop to generate a review-ready bottleneck report.</p>
+          <div class="verdict-list" id="verdictList"></div>
+          <div class="download-stack">
+            <button class="pill primary" id="downloadReport" type="button">Download bottleneck report</button>
+            <button class="pill" id="downloadContract" type="button">Download loop contract</button>
+            <button class="pill" id="downloadTrace" type="button">Download trace ledger</button>
+            <button class="pill" id="downloadReplay" type="button">Download replay pack</button>
+            <button class="pill" id="downloadBrief" type="button">Download reviewer brief</button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="wide-card matrix">
+        <p class="eyebrow"><span></span>LOOP RULES → GOALOS GATES</p>
+        <h2>From agent loop hygiene to proof-governed institution.</h2>
+        <div class="rule-grid" id="ruleGrid"></div>
+      </section>
+
+      <section class="wide-card reviewer">
+        <div>
+          <p class="eyebrow"><span></span>REVIEWER PATH</p>
+          <h2>Inspect the loop before trusting the output.</h2>
+          <p>A long-running loop earns authority only when it leaves contract, state, traces, evaluator notes, bottleneck report, replay path, and boundary evidence. Strong output without those objects remains unpromoted.</p>
+        </div>
+        <div class="review-steps">
+          <span>01 Contract</span><span>02 State</span><span>03 Trace</span><span>04 Restart</span><span>05 Bottleneck</span><span>06 Docket</span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="palette" class="palette">
+    <form method="dialog"><button aria-label="Close command palette">×</button></form>
+    <h2>GoalOS command palette</h2>
+    <input id="paletteSearch" placeholder="Search proof pages: docket, loop, validator, token..." />
+    <div id="paletteResults"></div>
+  </dialog>
+
+  <script src="assets/goalos-loop-bottleneck-observatory-v1.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "demo": "institutional-deployment-wedge-v1",
+  "generatedAt": "2026-06-29T16:04:55Z",
+  "referenceDocket": "evidence/deployment-wedge/institutional-deployment-wedge-v1-reference-docket.json",
+  "browserLocal": true,
+  "noUserData": true,
+  "noUserFunds": true,
+  "walletOrMainnet": false,
+  "humanReviewRequired": true
+}

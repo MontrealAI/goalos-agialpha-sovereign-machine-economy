@@ -1,0 +1,12 @@
+{
+  "schema": "goalos.user_friendly_operating_layer_v3.qa",
+  "generated_at": "2026-06-27T19:00:43Z",
+  "status": "passed",
+  "pages_checked": 19,
+  "errors": [],
+  "no_user_data": true,
+  "no_user_funds": true,
+  "no_wallet": true,
+  "no_transaction": true,
+  "human_review_required": true
+}

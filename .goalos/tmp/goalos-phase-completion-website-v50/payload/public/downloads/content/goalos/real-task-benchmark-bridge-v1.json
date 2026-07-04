@@ -1,0 +1,20 @@
+{
+  "id": "goalos-real-task-benchmark-bridge-v1",
+  "title": "GoalOS Real-Task Benchmark Bridge V1",
+  "url": "real-task-benchmark-bridge.html",
+  "thesis": "From demos to real-task evidence.",
+  "boundary": {
+    "browser_local": true,
+    "no_network_call": true,
+    "no_user_data": true,
+    "no_user_funds": true,
+    "wallet_or_mainnet": false,
+    "human_review_required": true
+  },
+  "downloads": [
+    "Benchmark Plan JSON",
+    "Baseline Matrix CSV",
+    "Evidence Docket Plan",
+    "Reviewer Brief"
+  ]
+}

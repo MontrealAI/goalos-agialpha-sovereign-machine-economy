@@ -1,0 +1,60 @@
+/* GoalOS Public Alpha UX Remediation V44.1
+   Corrective layer: readable, institutional, non-overlapping, responsive.
+   Purpose: make public-alpha proof surfaces human-verifiable before any production graduation. */
+:root{
+  --goalos-bg:#f7f9fc;
+  --goalos-paper:#ffffff;
+  --goalos-ink:#0f172a;
+  --goalos-muted:#42526a;
+  --goalos-border:#d7e0ea;
+  --goalos-accent:#0f766e;
+  --goalos-accent-2:#1d4ed8;
+  --goalos-warn:#8a4b00;
+  --goalos-good:#047857;
+  --goalos-shadow:0 18px 50px rgba(15,23,42,.08);
+}
+html{background:var(--goalos-bg)!important;color:var(--goalos-ink)!important;scroll-behavior:smooth;}
+body{background:linear-gradient(180deg,#ffffff 0%,#f7f9fc 45%,#eef4f8 100%)!important;color:var(--goalos-ink)!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;line-height:1.55!important;letter-spacing:-.01em!important;overflow-x:hidden!important;}
+body::before,body::after,.bg-word,.watermark,.giant-watermark,.constellation,.particles,.starfield,.orbital-bg,.background-orbit{opacity:.045!important;pointer-events:none!important;z-index:0!important;}
+a{color:#075985!important;text-decoration-thickness:1.5px;text-underline-offset:3px;}
+a:hover{color:#0f766e!important;}
+main,section,article,.wrap,.container,.shell,.page,.surface,.command-center,.gold-master,.hero,.hero-grid,.console-grid,.mission-grid{max-width:1180px!important;margin-left:auto!important;margin-right:auto!important;position:relative!important;z-index:1!important;}
+.hero,.hero-grid,.command-center,.gold-master,.mission-shell,.proof-shell,.console,.panel,.card,.glass,.surface,.docket,.stage,.route-card,.qa-card,.trust-card,.metric,.stat,.callout{background:rgba(255,255,255,.94)!important;color:var(--goalos-ink)!important;border:1px solid var(--goalos-border)!important;box-shadow:var(--goalos-shadow)!important;backdrop-filter:none!important;text-shadow:none!important;}
+.hero,.gold-master,.command-center,.mission-shell,.proof-shell{border-radius:28px!important;padding:clamp(24px,4vw,56px)!important;}
+.card,.panel,.surface,.route-card,.qa-card,.trust-card,.metric,.stat,.callout{border-radius:18px!important;padding:clamp(16px,2.4vw,26px)!important;}
+h1,h2,h3,h4,p,li,dt,dd,span,strong,em,label,summary,button,input,textarea,select,code,pre{color:var(--goalos-ink)!important;text-shadow:none!important;}
+h1{font-size:clamp(2.4rem,7vw,6.6rem)!important;line-height:.92!important;letter-spacing:-.075em!important;max-width:980px!important;overflow-wrap:normal!important;}
+h2{font-size:clamp(1.7rem,4vw,3.2rem)!important;line-height:1.02!important;letter-spacing:-.045em!important;}
+h3{font-size:clamp(1.18rem,2vw,1.65rem)!important;line-height:1.1!important;}
+p,li{font-size:clamp(.98rem,1vw,1.08rem)!important;color:var(--goalos-muted)!important;}
+.kicker,.eyebrow,.badge,.pill,.chip,.tag{color:#134e4a!important;background:#ecfdf5!important;border:1px solid #99f6e4!important;box-shadow:none!important;text-transform:uppercase!important;letter-spacing:.12em!important;font-weight:800!important;}
+button,.button,.btn,.cta,[role="button"]{background:#0f766e!important;color:#ffffff!important;border:1px solid #0f766e!important;border-radius:999px!important;box-shadow:0 10px 25px rgba(15,118,110,.15)!important;font-weight:800!important;}
+button.secondary,.button.secondary,.btn.secondary,.ghost{background:#ffffff!important;color:#0f172a!important;border:1px solid var(--goalos-border)!important;}
+input,textarea,select{background:#ffffff!important;color:#0f172a!important;border:1px solid #cbd5e1!important;border-radius:16px!important;box-shadow:inset 0 1px 0 rgba(15,23,42,.03)!important;}
+textarea{min-height:180px!important;}
+pre,code{background:#f1f5f9!important;color:#0f172a!important;border:1px solid #d7e0ea!important;border-radius:14px!important;white-space:pre-wrap!important;overflow-wrap:anywhere!important;}
+/* Correct the criticised visual flow: no absolute connector divs hiding text. */
+.flowline,.visual-flow,.proof-flow,.mission-flow,.state-flow,.e2e-flow,.proof-path,.action-graph,.rail,.stage-rail,.runway,.timeline,.route-flow{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))!important;gap:14px!important;align-items:stretch!important;position:relative!important;overflow:visible!important;margin:24px 0!important;}
+.flowline::before,.flowline::after,.visual-flow::before,.visual-flow::after,.proof-flow::before,.proof-flow::after,.mission-flow::before,.mission-flow::after,.state-flow::before,.state-flow::after,.action-graph::before,.action-graph::after,.rail::before,.rail::after,.stage-rail::before,.stage-rail::after,.connector,.line,.edge,.arrow-line,.orbit-line,.flow-line,.graph-line,.wire,.node-connector{display:none!important;content:none!important;}
+.flowline>*,.visual-flow>*,.proof-flow>*,.mission-flow>*,.state-flow>*,.e2e-flow>*,.proof-path>*,.action-graph>*,.rail>*,.stage-rail>*,.runway>*,.timeline>*,.route-flow>*{position:relative!important;inset:auto!important;left:auto!important;top:auto!important;right:auto!important;bottom:auto!important;transform:none!important;z-index:2!important;min-width:0!important;min-height:120px!important;padding:18px!important;border-radius:18px!important;border:1px solid var(--goalos-border)!important;background:#ffffff!important;color:#0f172a!important;box-shadow:0 8px 24px rgba(15,23,42,.06)!important;overflow-wrap:anywhere!important;}
+.flowline>*::after,.visual-flow>*::after,.proof-flow>*::after,.mission-flow>*::after,.state-flow>*::after,.proof-path>*::after{content:"→";position:absolute;right:12px;bottom:10px;color:#0f766e;font-weight:900;opacity:.55;}
+.flowline>*:last-child::after,.visual-flow>*:last-child::after,.proof-flow>*:last-child::after,.mission-flow>*:last-child::after,.state-flow>*:last-child::after,.proof-path>*:last-child::after{content:"✓";}
+/* Make AI/orbit visuals serious and readable; no circular labels covering content. */
+.agent-orbit,.proof-orbit,.sovereign-orbit,.orbit,.orbital,.constellation-map,.agent-constellation,.node-map,.graph-orbit{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))!important;gap:12px!important;position:relative!important;width:100%!important;min-height:auto!important;height:auto!important;overflow:visible!important;background:#ffffff!important;border:1px solid var(--goalos-border)!important;border-radius:22px!important;padding:18px!important;box-shadow:var(--goalos-shadow)!important;}
+.agent-orbit>* ,.proof-orbit>* ,.sovereign-orbit>* ,.orbit>* ,.orbital>* ,.constellation-map>* ,.agent-constellation>* ,.node-map>* ,.graph-orbit>*{position:relative!important;inset:auto!important;left:auto!important;top:auto!important;right:auto!important;bottom:auto!important;transform:none!important;width:auto!important;height:auto!important;min-height:72px!important;border-radius:16px!important;background:#f8fafc!important;color:#0f172a!important;border:1px solid #d7e0ea!important;display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;font-weight:800!important;z-index:2!important;}
+.alpha-orb,.core-orb,.orb-core,.center-node{background:linear-gradient(135deg,#ecfeff,#fef9c3)!important;color:#0f172a!important;border:1px solid #99f6e4!important;}
+/* Specific V43/V41/V38 hardening selectors observed in generated surfaces. */
+#visual-flow-proof,.visual-flow-proof,.mission-console,.sovereign-mission-console,.proof-console,.route-console{background:#ffffff!important;color:#0f172a!important;border:1px solid var(--goalos-border)!important;border-radius:24px!important;box-shadow:var(--goalos-shadow)!important;overflow:visible!important;}
+.status-strip,.boundary-strip,.claim-boundary,.public-alpha-boundary{background:#fff7ed!important;color:#7c2d12!important;border:1px solid #fed7aa!important;border-radius:16px!important;box-shadow:none!important;}
+.status-strip *,.boundary-strip *,.claim-boundary *,.public-alpha-boundary *{color:#7c2d12!important;}
+/* Navigation made legible and not over-dominant. */
+nav,.nav,.topbar,.site-nav,.goalos-nav{background:rgba(255,255,255,.96)!important;color:#0f172a!important;border:1px solid var(--goalos-border)!important;box-shadow:0 10px 30px rgba(15,23,42,.06)!important;backdrop-filter:none!important;}
+nav a,.nav a,.topbar a,.site-nav a,.goalos-nav a{color:#0f172a!important;background:transparent!important;}
+/* Responsive floor. */
+@media (max-width:900px){
+  main,section,article,.wrap,.container,.shell,.page,.surface{max-width:calc(100vw - 28px)!important;}
+  .hero,.gold-master,.command-center,.mission-shell,.proof-shell{padding:24px!important;border-radius:22px!important;}
+  h1{font-size:clamp(2.25rem,15vw,4.2rem)!important;line-height:.95!important;}
+  .flowline,.visual-flow,.proof-flow,.mission-flow,.state-flow,.e2e-flow,.proof-path,.action-graph,.rail,.stage-rail,.runway,.timeline,.route-flow,.agent-orbit,.proof-orbit,.sovereign-orbit,.orbit,.orbital,.constellation-map,.agent-constellation,.node-map,.graph-orbit{grid-template-columns:1fr!important;}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important;}}

@@ -1,0 +1,33 @@
+{
+  "name": "GoalOS Evolution Ledger Control Room V1",
+  "slug": "evolution-ledger-control-room-v1",
+  "page": "public/evolution-ledger-control-room.html",
+  "thesis": "The ledger remembers proof, not secrets.",
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "objects": [
+    "GoalOSCommit",
+    "RunRoot",
+    "ProofRoot",
+    "EvalAttestation",
+    "SelectionCertificate",
+    "RolloutReceipt",
+    "RollbackReceipt"
+  ],
+  "decision_states": [
+    "LEDGER_REVIEW_READY",
+    "BLOCK_PRIVACY_BOUNDARY",
+    "REJECT_NO_PROOF_ROOT",
+    "REJECT_NO_EVAL_ATTESTATION",
+    "HOLD_ROLLBACK_REQUIRED",
+    "HOLD_VALIDATOR_QUORUM_REQUIRED",
+    "HOLD_CHALLENGE_WINDOW",
+    "REVISE_SELECTION_CERTIFICATE"
+  ]
+}

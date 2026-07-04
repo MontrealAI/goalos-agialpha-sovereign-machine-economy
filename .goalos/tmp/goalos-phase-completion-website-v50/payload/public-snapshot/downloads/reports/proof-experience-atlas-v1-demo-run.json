@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "kind": "ProofExperienceAtlasDemoRun",
+  "generated_at": "2026-06-29T02:23:41.494376+00:00",
+  "stations": [
+    "Start Here",
+    "Multi-Agent Institution",
+    "Proof Gradient Lab",
+    "Evidence Docket Theatre",
+    "Proof-to-Action Command Room",
+    "Capability Compounding Lab",
+    "Sovereign Experience Stream Lab",
+    "Proof-Settlement Chronicle Lab",
+    "Falsification Gauntlet",
+    "Proof Run 001 Execution Room"
+  ],
+  "boundary": {
+    "browser_local": true,
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "human_review_required": true
+  },
+  "next_step": "Proof Run 001"
+}

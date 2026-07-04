@@ -1,0 +1,20 @@
+{
+  "name": "GoalOS Demo Registry + Falsification Gauntlet V1.2",
+  "files": [
+    ".github/ISSUE_TEMPLATE/demo_registry_or_falsification_feedback.yml",
+    "content/goalos/demo-ecosystem-registry-v1.json",
+    "docs/demos/DEMO_ECOSYSTEM_REGISTRY_V1.md",
+    "docs/demos/FALSIFICATION_GAUNTLET_V1_2.md",
+    "docs/reviewer/HOW_TO_USE_DEMO_ECOSYSTEM_REGISTRY.md",
+    "issue-bodies/demo-registry-falsification-v1-2.md",
+    "public/assets/goalos-demo-registry-data-v1.js",
+    "public/assets/goalos-demo-registry-v1.js",
+    "public/assets/goalos-falsification-gauntlet-v12.js",
+    "public/assets/goalos-registry-falsification-v12.css",
+    "public/demo-ecosystem-registry.html",
+    "public/falsification-gauntlet.html",
+    "scripts/goalos_demo_registry_falsification_v1_2_audit.py",
+    "scripts/install_demo_registry_falsification_v1_2.py"
+  ],
+  "demo_count": 26
+}

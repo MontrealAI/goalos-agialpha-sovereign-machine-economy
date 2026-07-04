@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-30T13:01:09+00:00",
+  "preserved_pages_count": 134,
+  "no_pages_removed": true,
+  "assets": [
+    "goalos-website-os-v5.css",
+    "goalos-command-palette-v5.css",
+    "goalos-website-os-v5.js",
+    "goalos-site-index-data-v5.js",
+    "social-preview.svg"
+  ]
+}

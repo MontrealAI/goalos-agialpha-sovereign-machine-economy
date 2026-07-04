@@ -1,0 +1,13 @@
+{
+  "version": "v50",
+  "status": "passed",
+  "publicPages": 256,
+  "forbiddenBrowserApiHits": [],
+  "brokenInternalLinksOrAssets": [],
+  "boundary": "preserved",
+  "externalActions": 0,
+  "productionAuthorization": "not_granted",
+  "empiricalSotaClaim": "not_claimed",
+  "walletTransactionSupport": "not_enabled",
+  "generatedAt": "2026-07-04T02:02:42.628894+00:00"
+}

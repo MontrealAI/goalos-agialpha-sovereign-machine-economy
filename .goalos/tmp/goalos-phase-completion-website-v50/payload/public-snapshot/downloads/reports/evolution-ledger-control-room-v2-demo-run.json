@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "generated_at": "2026-06-29T14:58:07.688401+00:00",
+  "reference_docket": "evidence/demo/evolution-ledger-control-room-v2-reference-docket.json",
+  "decision_state": "LEDGER_REVIEW_READY",
+  "docket_hash": "17a3c7aa6067f2edda58409d2795f474fc6bc5e43a114c97442d8d8fbae490d4"
+}

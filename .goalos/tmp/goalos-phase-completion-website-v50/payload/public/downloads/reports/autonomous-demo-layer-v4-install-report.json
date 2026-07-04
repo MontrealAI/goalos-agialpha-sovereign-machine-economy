@@ -1,0 +1,15 @@
+{
+  "schema": "goalos.autonomous_demo_layer_v4.install",
+  "status": "passed",
+  "pages": [
+    "demo-launcher.html",
+    "proof-flight-demo.html",
+    "docket-builder.html",
+    "agent-constellation-demo.html",
+    "proof-card-studio.html",
+    "local-autopilot-demo.html",
+    "demo-gallery.html",
+    "demo-safety.html"
+  ],
+  "generated_at": "2026-06-27T18:54:39Z"
+}

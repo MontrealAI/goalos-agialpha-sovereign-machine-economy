@@ -1,7 +1,6 @@
 {
-  "version": "v49",
-  "status": "ready",
-  "publicPages": 297,
+  "version": "v50",
+  "publicPages": 256,
   "boundary": "preserved",
   "externalActions": 0,
   "productionAuthorization": "not_granted"

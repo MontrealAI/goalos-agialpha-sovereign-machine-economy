@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="assets/goalos-boundary-guard-v46.js"></script>
+<link rel="stylesheet" href="assets/goalos-aurora-website-os-v46.css">
+<script defer src="assets/goalos-route-registry-v46.js"></script>
+<script defer src="assets/goalos-aurora-website-os-v46.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GoalOS Real-Task Benchmark Bridge — From Demos to Evidence</title>
+  <meta name="description" content="A browser-local public demo showing how GoalOS turns public-alpha architecture into real-task benchmark evidence: task families, baselines, proof bundles, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review.">
+  <meta property="og:title" content="GoalOS Real-Task Benchmark Bridge">
+  <meta property="og:description" content="From demos to real tasks. Strong claims need baselines, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/goalos-real-task-benchmark-bridge-v1.css">
+<link rel="stylesheet" href="assets/goalos-website-os-v1.css">
+<script src="assets/goalos-site-index-data-v1.js"></script>
+<script src="assets/goalos-website-os-v1.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v3.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-v5.css">
+<link rel="stylesheet" href="assets/goalos-command-palette-restore-v12.css"><script defer src="assets/goalos-site-index-data-v12.js"></script><script defer src="assets/goalos-command-palette-restore-v12.js"></script>
+<link rel="stylesheet" href="assets/goalos-command-palette-v13.css"><script src="assets/goalos-site-index-data-v13.js"></script><link rel="stylesheet" href="assets/goalos-command-palette-v14.css"><link rel="stylesheet" href="assets/goalos-site-premium-experience-v15.css">
+<script src="assets/goalos-site-index-data-v15.js" defer></script>
+<script src="assets/goalos-site-premium-experience-v15.js" defer></script>
+<link rel="stylesheet" href="assets/goalos-site-immersive-command-center-v16.css">
+<script src="assets/goalos-site-index-data-v16.js"></script>
+<script src="assets/goalos-site-immersive-command-center-v16.js" defer></script>
+
+<link rel="stylesheet" href="assets/goalos-ask-goalos-concierge-v19.css">
+<link rel="stylesheet" href="assets/goalos-objective-command-center-v20.css">
+<link rel="stylesheet" href="assets/goalos-autopilot-float-v21.css">
+<link rel="stylesheet" href="assets/goalos-universal-interface-v22.css"><link rel="stylesheet" href="assets/goalos-universal-interface-float-v22.css"><link rel="stylesheet" href="assets/goalos-universal-mission-interface-v23.css"><link rel="stylesheet" href="assets/goalos-universal-operating-interface-v24.css"><link rel="stylesheet" href="assets/goalos-universal-mission-composer-v25.css"><link rel="stylesheet" href="assets/goalos-mission-studio-v26.css"><link rel="stylesheet" href="assets/goalos-mission-studio-v27.css">
+<style id="goalos-v28-float-style">.goalos-v28-float{position:fixed;right:18px;bottom:18px;z-index:9999;display:flex;gap:10px}.goalos-v28-float a{font-family:Inter,system-ui,sans-serif;font-size:14px;font-weight:1000;text-decoration:none;color:#06110d;background:linear-gradient(135deg,#fff06a,#61ffd3);padding:12px 16px;border-radius:999px;box-shadow:0 12px 36px rgba(0,0,0,.35)}</style>
+<link rel="stylesheet" href="assets/goalos-validation-mesh-v29-rail.css">
+<link rel="stylesheet" href="assets/goalos-validation-studio-v30.css">
+<link rel="stylesheet" href="assets/goalos-validation-orchestrator-v31.css">
+<link rel="stylesheet" href="assets/goalos-validation-command-center-v32.css">
+<!-- GOALOS_V33_ASSETS -->
+<link rel="stylesheet" href="assets/goalos-validation-control-tower-v33.css">
+<link rel="stylesheet" href="assets/goalos-agi-agent-command-center-v36.css">
+<link rel="stylesheet" href="assets/goalos-agi-agent-mission-control-v37.css">
+<link rel="stylesheet" href="assets/goalos-agi-agent-workbench-v38.css">
+<link rel="stylesheet" href="assets/goalos-autonomous-proof-mission-demo-v39.css"><link rel="stylesheet" href="assets/goalos-autonomy-theatre-v41.css"><link rel="stylesheet" href="assets/goalos-site-recovery-v42.css"><script src="assets/goalos-route-registry-v42.js" defer></script><script src="assets/goalos-site-recovery-v42.js" defer></script><link rel="stylesheet" href="assets/goalos-gold-master-v43.css"><script src="assets/goalos-route-registry-v43.js" defer></script><script src="assets/goalos-gold-master-v43.js" defer></script><link rel="stylesheet" href="assets/goalos-public-alpha-ux-remediation-v44-1.css">
+<script src="assets/goalos-public-alpha-ux-remediation-v44-1.js"></script>
+<script src="assets/goalos-boundary-guard-v48.js"></script>
+<link rel="stylesheet" href="assets/goalos-aurora-experience-os-v48.css">
+<script defer src="assets/goalos-route-registry-v48.js"></script>
+<script defer src="assets/goalos-aurora-experience-os-v48.js"></script>
+</head>
+<body class="goalos-v46-page" class="gx47 aurora-compat" class="gx47 aurora-compat" class="gx47 aurora-compat" class="gx47 aurora-compat">
+  <div class="ambient"></div>
+  <div class="grid"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="GoalOS home">
+      <span class="mark">α</span>
+      <span><strong>GOALOS</strong><small>AGIALPHA ASCENSION</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="proof-experience-atlas.html">Atlas</a>
+      <a href="proof-ledger.html">Proof Ledger</a>
+      <a href="proof-run-001-docket.html">Docket</a>
+      <a href="external-reviewer-replay-room.html">Reviewer Room</a>
+      <a class="active" href="real-task-benchmark-bridge.html">Benchmark Bridge</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>PUBLIC DEMO / BROWSER-LOCAL / NO DATA</p>
+        <h1>From demos to <em>real-task evidence.</em></h1>
+        <p class="lead">
+          GoalOS becomes empirical only when claims survive real tasks, equal-budget baselines,
+          ProofBundles, replay, cost/risk ledgers, validator reports, delayed outcomes, and independent review.
+        </p>
+        <div class="actions">
+          <button id="runBridge" class="primary">Run benchmark bridge</button>
+          <button id="stressBridge" class="secondary">Stress baselines</button>
+          <button id="resetBridge" class="ghost">Reset</button>
+        </div>
+        <p class="boundary"><strong>Default deny:</strong> no user data, no user funds, no wallet, no transaction, no network call, no production authority. Human review required.</p>
+      </div>
+      <aside class="hero-panel" aria-label="Benchmark readiness">
+        <div class="mode-toggle" role="group" aria-label="Display mode">
+          <button class="mode active" data-mode="executive">Executive</button>
+          <button class="mode" data-mode="technical">Technical</button>
+        </div>
+        <div class="ring-wrap">
+          <svg viewBox="0 0 180 180" class="ring" aria-hidden="true">
+            <circle cx="90" cy="90" r="70" class="ring-bg"></circle>
+            <circle cx="90" cy="90" r="70" class="ring-fg" id="readinessRing"></circle>
+            <text x="90" y="84" id="readinessNumber">58</text>
+            <text x="90" y="110" class="caption">bridge readiness</text>
+          </svg>
+        </div>
+        <h2 id="decisionState">HOLD_BASELINES_REQUIRED</h2>
+        <p id="decisionExplain">Run the bridge to assemble the benchmark path.</p>
+      </aside>
+    </section>
+
+    <section class="stat-rail" aria-label="Live metrics">
+      <div><strong id="taskFamily">Software repair</strong><span>Task family</span></div>
+      <div><strong id="baselineWinner">B5</strong><span>Current leader</span></div>
+      <div><strong id="gatesPassed">5/9</strong><span>Gates passed</span></div>
+      <div><strong id="proofDebt">42</strong><span>Proof debt</span></div>
+      <div><strong id="riskState">bounded</strong><span>Risk state</span></div>
+    </section>
+
+    <section class="lab-grid">
+      <aside class="card controls">
+        <div class="step"><span>01</span><h3>Choose the evidence target</h3></div>
+        <label>Benchmark family
+          <select id="scenario">
+            <option value="repo">Repository launch readiness</option>
+            <option value="software" selected>Software repair</option>
+            <option value="web">Web / desktop workflow</option>
+            <option value="policy">Policy-bound tool use</option>
+            <option value="science">Scientific / data workflow</option>
+            <option value="agijobs">Protocol-native AGI Jobs</option>
+          </select>
+        </label>
+        <label>Claim under test
+          <textarea id="claimText" maxlength="420">GoalOS public-alpha architecture is ready to enter a real-task benchmark bridge with explicit baselines, replay path, cost/risk ledger, validator packet, and claim boundary.</textarea>
+        </label>
+        <label>Risk class
+          <select id="riskClass">
+            <option>Public-safe</option>
+            <option>Constrained</option>
+            <option>High-review</option>
+          </select>
+        </label>
+        <div class="toggles">
+          <label><input type="checkbox" data-gate="task" checked> Real task manifest</label>
+          <label><input type="checkbox" data-gate="budget" checked> Equal-budget constraint</label>
+          <label><input type="checkbox" data-gate="baselines" checked> Baseline ladder B0–B6</label>
+          <label><input type="checkbox" data-gate="proof" checked> ProofBundle / Evidence Docket</label>
+          <label><input type="checkbox" data-gate="replay" checked> Replay path</label>
+          <label><input type="checkbox" data-gate="costrisk" checked> Cost + risk ledgers</label>
+          <label><input type="checkbox" data-gate="validator" checked> Validator report</label>
+          <label><input type="checkbox" data-gate="delayed"> Delayed-outcome plan</label>
+          <label><input type="checkbox" data-gate="external"> Independent reviewer path</label>
+        </div>
+      </aside>
+
+      <section class="card theatre">
+        <div class="step"><span>02</span><h3>Watch the bridge assemble</h3></div>
+        <div class="bridge-visual" id="bridgeVisual">
+          <svg viewBox="0 0 900 460" role="img" aria-label="Benchmark bridge fallback diagram">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1">
+                <stop offset="0" stop-color="#79f7d0"/>
+                <stop offset="1" stop-color="#a591ff"/>
+              </linearGradient>
+              <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <rect width="900" height="460" rx="28" fill="#071021"/>
+            <g opacity=".18" stroke="#fff">
+              <path d="M60 80H840M60 140H840M60 200H840M60 260H840M60 320H840M60 380H840"/>
+              <path d="M120 50V420M220 50V420M320 50V420M420 50V420M520 50V420M620 50V420M720 50V420"/>
+            </g>
+            <g id="staticNodes" font-family="Inter, Arial" font-weight="800" font-size="18" text-anchor="middle">
+              <rect x="70" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#79f7d0"/>
+              <text x="140" y="225" fill="#fff">TASK</text><text x="140" y="250" fill="#9fb2d8" font-size="12">real manifest</text>
+              <rect x="250" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#79f7d0"/>
+              <text x="320" y="225" fill="#fff">BASELINES</text><text x="320" y="250" fill="#9fb2d8" font-size="12">B0 → B6</text>
+              <rect x="430" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#ffe777"/>
+              <text x="500" y="225" fill="#fff">PROOF</text><text x="500" y="250" fill="#9fb2d8" font-size="12">docket + replay</text>
+              <rect x="610" y="185" width="140" height="90" rx="18" fill="#0e172d" stroke="#a591ff"/>
+              <text x="680" y="225" fill="#fff">VALIDATE</text><text x="680" y="250" fill="#9fb2d8" font-size="12">reviewer path</text>
+              <circle cx="805" cy="230" r="48" fill="url(#g1)" filter="url(#glow)"/>
+              <text x="805" y="237" fill="#071021" font-size="28">α</text>
+              <path d="M210 230H250M390 230H430M570 230H610M750 230H757" stroke="url(#g1)" stroke-width="5" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="bars" id="baselineBars"></div>
+        <div class="chronicle" id="chronicle" aria-live="polite">
+          <p>Awaiting bridge run. The benchmark bridge will compare baselines before allowing a stronger claim.</p>
+        </div>
+      </section>
+
+      <aside class="card decision">
+        <div class="step"><span>03</span><h3>Inspect the verdict</h3></div>
+        <div class="verdict">
+          <h4 id="verdictTitle">Baseline bridge not yet assembled.</h4>
+          <p id="verdictCopy">A strong empirical claim remains blocked until real-task manifest, baselines, replay, ledgers, validator report, delayed-outcome plan, and review path are present.</p>
+        </div>
+        <dl>
+          <div><dt>External actions</dt><dd>0</dd></div>
+          <div><dt>Network calls</dt><dd>0</dd></div>
+          <div><dt>Wallet surface</dt><dd>none</dd></div>
+          <div><dt>Human review</dt><dd>required</dd></div>
+        </dl>
+        <button class="download" data-download="plan">Download Benchmark Plan</button>
+        <button class="download" data-download="matrix">Download Baseline Matrix CSV</button>
+        <button class="download" data-download="docket">Download Evidence Docket Plan</button>
+        <button class="download" data-download="brief">Download Reviewer Brief</button>
+      </aside>
+    </section>
+
+    <section class="explain">
+      <article>
+        <h2>Why this matters</h2>
+        <p>
+          A public demo can show the architecture. A real-task benchmark shows whether the architecture actually improves
+          verified work under equal constraints. This bridge teaches the upgrade path from impressive demo to empirical evidence.
+        </p>
+      </article>
+      <article>
+        <h2>What would promote the claim?</h2>
+        <p>
+          A real task, strong baselines, replayable proof, cost/risk ledgers, validator review, delayed-outcome tracking,
+          and independent reviewer access. If a baseline wins, GoalOS revises the claim.
+        </p>
+      </article>
+      <article>
+        <h2>What this is not</h2>
+        <p>
+          Not achieved AGI, not achieved ASI, not empirical SOTA, not production authorization, not legal/financial advice,
+          not a token sale, not a wallet, and not a data collection surface.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/goalos-real-task-benchmark-bridge-v1.js"></script>
+
+<footer class="goalos-boundary-note"><h2>Claim Boundary</h2><p>GoalOS does not claim production authority, investment return, legal advice, tax advice, security assurance, achieved AGI/ASI, state-of-the-art empirical performance, mainnet authorization, wallet support, custody, or live transaction capability from this public-alpha repository. No user data. No user funds. No wallet. No transaction. Human review required.</p></footer>
+<script src="assets/goalos-site-index-data-v3.js"></script><script src="assets/goalos-website-os-v3.js"></script>
+<script src="assets/goalos-site-index-data-v5.js"></script>
+<script src="assets/goalos-website-os-v5.js" defer></script>
+<a class="gx13-open-map" href="site-map.html">Open all pages</a><script src="assets/goalos-command-palette-v13.js"></script><script src="assets/goalos-site-index-data-v14.js"></script><script src="assets/goalos-command-palette-v14.js"></script><style>.goalos-contract-atlas-v17-button{position:fixed;right:18px;bottom:76px;z-index:9999;padding:12px 16px;border-radius:999px;background:linear-gradient(135deg,#ffed8d,#70ffd8);color:#061018;font:900 13px system-ui;text-decoration:none;box-shadow:0 12px 40px rgba(0,0,0,.35)}</style><a class="goalos-contract-atlas-v17-button" href="mainnet-contract-atlas.html">Contracts</a>
+<script src="assets/goalos-ask-goalos-knowledge-v19.js"></script><script src="assets/goalos-ask-goalos-concierge-v19.js"></script>
+<a class="goalos-v20-mission-float" href="mission-command-center.html" style="position:fixed;right:18px;bottom:72px;z-index:90;border-radius:999px;padding:12px 16px;background:linear-gradient(100deg,#ffe66e,#68ffdf);color:#061012;font-weight:1000;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.3)">Tell GoalOS</a>
+<a class="goalos-v21-float" href="tell-goalos.html" aria-label="Tell GoalOS what you want">Tell GoalOS</a>
+<a class="v22-float" href="goalos.html">Tell GoalOS</a><div class="g23-float" data-g23-global><a href="goalos.html">Tell GoalOS</a><a href="site-map.html">All Pages</a></div><script src="assets/goalos-universal-mission-routes-v23.js"></script><script src="assets/goalos-universal-mission-interface-v23.js"></script><div class="g24-float"><a href="goalos.html">Tell GoalOS</a><button data-g24-ask>Ask</button><button data-g24-open-pages>Search /</button></div><div class="g24-modal" id="g24-allpages-modal"><div class="g24-modal-card"><div class="g24-modal-top"><b>GoalOS route command palette</b><button class="g24-close" data-g24-close>×</button></div><div style="padding:20px"><input class="g24-filter" id="g24-allpages-filter" placeholder="Search all GoalOS routes: contracts, RSI, proof, token, validator..."/><div class="g24-table" id="g24-allpages-list"></div></div></div></div><div class="g24-ask" id="g24-ask-modal"><div class="g24-ask-panel"><div class="g24-modal-top"><b>Ask GoalOS</b><button class="g24-close" data-g24-close>×</button></div><div class="g24-chat-log" id="g24-chat-log"></div><form class="g24-chat-form" id="g24-chat-form"><input id="g24-chat-input" placeholder="Ask: where are the 48 contracts?"/><button>Ask</button></form></div></div><script src="assets/goalos-universal-operating-routes-v24.js"></script><script src="assets/goalos-universal-operating-interface-v24.js"></script><div class="g25-float"><a href="goalos.html">Tell GoalOS</a><button data-g25-ask-open>Ask GoalOS</button><button data-g25-open-pages>All Pages</button></div><div class="g25-modal" id="g25-allpages-modal"><div class="g25-modal-card"><div class="g25-modal-top"><h2>All GoalOS pages</h2><button class="g25-close" data-g25-close>Close</button></div><input class="g25-input" data-g25-search-input placeholder="Search GoalOS routes…"><div class="g25-results" data-g25-results></div></div></div><div class="g25-modal" id="g25-ask-modal"><div class="g25-modal-card"><div class="g25-modal-top"><div><h2>Ask GoalOS</h2><p class="g25-mini">Ask a question. GoalOS answers from the public site index and routes you to the right page.</p></div><button class="g25-close" data-g25-close>Close</button></div><div class="g25-chatlog" data-g25-chatlog><div class="g25-msg"><strong>GoalOS ready.</strong><p>Try: “Where are the 48 contracts?”, “What is RSI?”, “Show Proof Run 001”, or “Is $AGIALPHA available from GoalOS?”</p></div></div><div style="display:flex;gap:10px;margin-top:12px"><input class="g25-input" data-g25-ask-input placeholder="Ask GoalOS…"><button class="g25-btn primary" data-g25-ask-send>Send</button></div></div></div><script src="assets/goalos-universal-mission-routes-v25.js"></script><script src="assets/goalos-universal-mission-composer-v25.js"></script><script src="assets/goalos-mission-routes-v26.js"></script><script src="assets/goalos-mission-studio-v26.js"></script><script src="assets/goalos-mission-routes-v27.js"></script><script src="assets/goalos-mission-studio-v27.js"></script>
+<div class="goalos-v28-float"><a href="validation-authority.html">Validate</a><a href="ask-goalos.html">Ask GoalOS</a></div>
+<div class="goalos-v29-rail" aria-label="GoalOS quick actions"><a href="validation-mesh.html">Validate</a><a class="secondary" href="ask-goalos.html">Ask GoalOS</a><a class="secondary" href="site-map.html">All Pages</a></div>
+<div class="goalos-v30-rail" aria-label="GoalOS quick actions"><a href="validation-studio.html">Validate</a><a href="goalos.html">Tell GoalOS</a><a href="ask-goalos.html">Ask GoalOS</a><a href="site-map.html">All Pages</a></div>
+<div class="quickbar"><a href="validation-orchestrator.html">Validate</a><a href="goalos.html">Tell GoalOS</a><a href="ask-goalos.html">Ask</a><a href="site-map.html">All Pages</a></div>
+<script src="assets/goalos-validation-orchestrator-routes-v32.js"></script>
+<script src="assets/goalos-validation-command-center-v32.js"></script>
+<!-- GOALOS_V33_NAV -->
+<script src="assets/goalos-validation-control-routes-v33.js"></script>
+<script src="assets/goalos-validation-control-tower-v33.js"></script>
+<div style="position:fixed;left:16px;bottom:16px;z-index:9999"><a style="display:inline-block;padding:10px 14px;border-radius:999px;background:#66ffd2;color:#051014;font-weight:900;text-decoration:none" href="agi-agent-constellation.html">AGI Agents</a></div><script src="assets/goalos-agi-agent-routes-v36.js"></script>
+<script src="assets/goalos-agi-agent-command-center-v36.js"></script>
+<script src="assets/goalos-agi-agent-mission-data-v37.js"></script>
+<script src="assets/goalos-agi-agent-mission-control-v37.js"></script>
+<div id="goalos-v37-floating-path" class="ask-launch"><a class="btn primary" href="agi-agent-mission-control.html">AGI Agents</a><button class="btn askOpen">Ask</button><a class="btn" href="site-map.html">All Pages</a></div>
+<script src="assets/goalos-agi-agent-workbench-data-v38.js"></script>
+<script src="assets/goalos-agi-agent-workbench-v38.js"></script>
+<div id="goalos-v38-floating-path" class="ask-launch"><a class="btn primary" href="agi-agent-workbench.html">AGI Agents</a><button class="btn askOpen">Ask GoalOS</button><a class="btn" href="site-map.html">All Pages</a></div>
+<script src="assets/goalos-autonomous-demo-data-v39.js"></script><script src="assets/goalos-autonomous-proof-mission-demo-v39.js"></script><div style="position:fixed;left:16px;bottom:16px;z-index:50;display:flex;gap:8px;flex-wrap:wrap"><a href="autonomous-mission-studio.html" style="font:800 12px system-ui;padding:9px 12px;border-radius:999px;background:#eefa76;color:#061018;text-decoration:none">Run end-to-end demo</a><a href="ask-goalos.html" style="font:800 12px system-ui;padding:9px 12px;border-radius:999px;background:#78ffd8;color:#061018;text-decoration:none">Ask GoalOS</a><a href="site-map.html" style="font:800 12px system-ui;padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.18);color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.2)">All Pages</a></div><div class="floating goalos-v41-float"><a class="pill primary" href="autonomy-theatre.html">Run Demo</a><a class="pill primary" href="ask-goalos.html">Ask GoalOS</a><a class="pill primary" href="site-map.html">All Pages</a></div><script src="assets/goalos-autonomy-theatre-data-v41.js"></script><script src="assets/goalos-autonomy-theatre-v41.js"></script><div class="float"><button class="js-ask">Ask GoalOS</button><a href="site-map.html">All Pages</a></div><aside id="ask-panel" class="ask panel"><div class="ask-head"><b>Ask GoalOS</b><button class="js-close-ask">×</button></div><div id="ask-body" class="ask-body"><div class="msg bot">Ask where to go. Example: “Open the 48 contracts” or “Can the AGI Node validate this?”</div></div><div style="padding:12px;display:flex;gap:8px"><input id="ask-input" placeholder="Ask GoalOS…"><button class="btn primary js-send-ask">Send</button></div></aside></body>
+</html>

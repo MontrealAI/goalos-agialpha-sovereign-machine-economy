@@ -1,0 +1,23 @@
+{
+  "name": "GoalOS Evolution Ledger Control Room V2",
+  "status": "installed",
+  "generated_at": "2026-06-29T14:58:07.619388+00:00",
+  "public_page": "public/evolution-ledger-control-room.html",
+  "fixes": [
+    "high-contrast gate labels",
+    "static SVG fallback",
+    "executive and technical modes",
+    "public/private proof boundary visualization",
+    "downloadable ledger artifacts",
+    "browser-local safety boundary"
+  ],
+  "boundary": {
+    "no_user_data": true,
+    "no_user_funds": true,
+    "no_wallet": true,
+    "no_transaction": true,
+    "no_network_call": true,
+    "production_authority": false,
+    "human_review_required": true
+  }
+}

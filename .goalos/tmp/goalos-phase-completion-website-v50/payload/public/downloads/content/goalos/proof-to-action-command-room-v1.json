@@ -1,0 +1,22 @@
+{
+  "page": "proof-to-action-command-room.html",
+  "title": "Proof-to-Action Command Room",
+  "tagline": "The deliverable is a governed decision state.",
+  "loop": [
+    "Objective",
+    "Mission Contract",
+    "Evidence Docket",
+    "Governed Decision State",
+    "Action Graph",
+    "Chronicle",
+    "Capability Package"
+  ],
+  "boundary": [
+    "no user data",
+    "no user funds",
+    "no wallet",
+    "no transaction",
+    "no network call",
+    "human review required"
+  ]
+}

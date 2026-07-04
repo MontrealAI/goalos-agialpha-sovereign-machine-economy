@@ -1,0 +1,53 @@
+{
+  "name": "GoalOS Institutional Deployment Wedge V1",
+  "url": "institutional-deployment-wedge.html",
+  "category": "institutional-adoption",
+  "oneLine": "Start with one workflow. Earn the right to scale.",
+  "inputs": [
+    "workflow preset",
+    "objective",
+    "risk class",
+    "repeatability",
+    "evidence availability",
+    "validator readiness",
+    "rollback maturity",
+    "mandatory gates"
+  ],
+  "outputs": [
+    "deployment plan",
+    "GoalOSCommit",
+    "Evidence Docket plan",
+    "canary monitor",
+    "rollback playbook",
+    "reviewer brief",
+    "GitHub-ready pilot issue"
+  ],
+  "proofGates": [
+    "repeatable workflow",
+    "GoalOSCommit",
+    "Evidence Docket",
+    "baseline ladder",
+    "replay path",
+    "Selection Gate",
+    "canary",
+    "rollback",
+    "boundary",
+    "human review"
+  ],
+  "stateTransitions": [
+    "MISSION_DRAFT_REQUIRED",
+    "EVIDENCE_DOCKET_REQUIRED",
+    "SELECTION_GATE_REVIEW_READY",
+    "CANARY_READY",
+    "ROLLBACKABLE_EXPANSION_READY"
+  ],
+  "boundary": {
+    "noUserData": true,
+    "noUserFunds": true,
+    "noWallet": true,
+    "noTransaction": true,
+    "noNetworkCall": true,
+    "noProductionAuthority": true,
+    "humanReviewRequired": true
+  }
+}

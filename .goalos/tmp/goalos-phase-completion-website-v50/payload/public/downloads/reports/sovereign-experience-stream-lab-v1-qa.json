@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checked_at": "2026-06-28T18:20:45.938506+00:00",
+  "checks": [
+    {
+      "file": "public/sovereign-experience-stream-lab.html",
+      "exists": true
+    },
+    {
+      "file": "public/assets/goalos-experience-stream-lab-v1.css",
+      "exists": true
+    },
+    {
+      "file": "public/assets/goalos-experience-stream-lab-v1.js",
+      "exists": true
+    },
+    {
+      "file": "docs/demos/SOVEREIGN_EXPERIENCE_STREAM_LAB_V1.md",
+      "exists": true
+    }
+  ],
+  "browser_local": true,
+  "no_network_call": true,
+  "no_user_data": true,
+  "no_user_funds": true,
+  "human_review_required": true,
+  "errors": []
+}
