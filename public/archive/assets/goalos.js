@@ -1,1 +1,1 @@
-/* GoalOS compatibility asset. Browser-local only. */
+document.addEventListener("DOMContentLoaded",()=>{document.body.classList.add("goalos-v55-surface")});

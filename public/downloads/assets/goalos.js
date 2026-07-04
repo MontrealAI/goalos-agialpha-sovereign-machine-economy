@@ -1,1 +1,1 @@
-window.GoalOSLegacyAssets={status:'available',version:'v46'};
+document.addEventListener("DOMContentLoaded",()=>{document.body.classList.add("goalos-v55-surface")});

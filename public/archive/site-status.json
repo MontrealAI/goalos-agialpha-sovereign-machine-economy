@@ -1,1 +1,6 @@
-{"status":"ready","boundary":"preserved","externalActions":0}
+{
+  "status": "discoverable",
+  "boundary": "preserved",
+  "externalActions": 0,
+  "productionAuthorization": "not_granted"
+}

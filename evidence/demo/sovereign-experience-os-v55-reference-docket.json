@@ -1,0 +1,122 @@
+{
+  "docket": "GoalOS V55 reference docket",
+  "version": "v55",
+  "name": "GoalOS Sovereign Experience OS V55",
+  "status": "passed",
+  "timestamp": "2026-07-04T15:18:14.022205+00:00",
+  "publicPages": 298,
+  "currentRoutesIndexed": 254,
+  "createdCompatibilityTargets": [],
+  "forbiddenBrowserApiHits": [],
+  "brokenInternalLinksOrAssets": [],
+  "boundary": "preserved",
+  "externalActions": 0,
+  "productionAuthorization": "not_granted",
+  "empiricalSotaClaim": "not_claimed",
+  "walletTransactionSupport": "not_enabled",
+  "pageSpecificAutonomousDemos": true,
+  "canonicalSurfaces": {
+    "Command Center": [
+      "index.html",
+      "goalos-phase-completion.html",
+      "goalos-command-center.html",
+      "goalos-aurora-command-center.html",
+      "goalos-gold-master.html",
+      "public-alpha-gold-master.html",
+      "start.html",
+      "start-here.html"
+    ],
+    "Autonomous Demos": [
+      "autonomy-theatre.html",
+      "autonomous-demo-run-theatre.html",
+      "autonomous-proof-mission-demo.html",
+      "end-to-end-autonomous-demo.html",
+      "quintessential-autonomous-demo.html",
+      "proof-flight-demo.html"
+    ],
+    "AGI Agents": [
+      "agi-agent-workbench.html",
+      "agi-agent-mission-control.html",
+      "agi-agent-playbooks.html",
+      "agent-foundry.html",
+      "agi-agent-run-theatre.html",
+      "agent-flow-academy-v38.html",
+      "meta-agentic-alpha-agi.html",
+      "meta-agentic-agents.html"
+    ],
+    "RSI / Loop": [
+      "from-loop-to-rsi-state-capacity.html",
+      "from-loop-to-rsi-governance.html",
+      "from-loop-to-rsi-sovereign-console.html",
+      "move37-dossier.html",
+      "loop-bottleneck-observatory.html",
+      "goalos-loop-bottleneck-observatory.html",
+      "loop-contract-lab.html",
+      "loop-flight-recorder.html",
+      "loop-to-rsi.html",
+      "rsi-state-capacity.html"
+    ],
+    "AGI Nodes": [
+      "agi-alpha-node-v0.html",
+      "agi-node-validation.html",
+      "agi-node-use-cases.html",
+      "node.html"
+    ],
+    "Validation": [
+      "validation-control-tower.html",
+      "human-or-agi-node-validation.html",
+      "human-or-node-validation.html",
+      "validation-authority.html",
+      "validation-command-center.html",
+      "validation-mesh.html",
+      "validation-orchestrator.html",
+      "validation-studio.html",
+      "validation-use-cases.html",
+      "validator-council-arena.html"
+    ],
+    "48 Contracts": [
+      "mainnet-contract-atlas.html",
+      "contract-academy.html",
+      "mainnet-proof-rail.html",
+      "proof-settlement-lab.html",
+      "proof-settlement-chronicle-lab.html"
+    ],
+    "Proof / Evidence": [
+      "proof-run-001-docket.html",
+      "proof-run-001.html",
+      "proof-run-001-live.html",
+      "proof-ledger.html",
+      "evidence-docket-theatre.html",
+      "proof-mission-control.html",
+      "proof-mission-forge.html",
+      "proof-carrying-artifact-foundry.html",
+      "proof-gradient-lab.html",
+      "evidence-room.html"
+    ],
+    "Navigation": [
+      "all-pages.html",
+      "site-map.html",
+      "route-registry.html",
+      "search.html",
+      "site-health.html",
+      "ask-goalos.html",
+      "pathfinder.html",
+      "registry.html"
+    ],
+    "Trust Boundary": [
+      "trust-boundary.html",
+      "token-boundary.html",
+      "privacy.html",
+      "data-boundary.html",
+      "claim-boundary.html",
+      "security-boundary.html",
+      "investment-token-boundary.html",
+      "token-investment-boundary.html",
+      "no-data-no-funds.html",
+      "responsible-use.html",
+      "legal.html",
+      "terms.html"
+    ]
+  },
+  "notes": "Every top-level public route is rendered with the V55 sovereign interaction shell. Major routes have page-specific mission profiles."
+}
