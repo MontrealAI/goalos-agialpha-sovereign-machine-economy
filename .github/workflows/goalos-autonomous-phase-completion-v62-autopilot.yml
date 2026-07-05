@@ -1,0 +1,163 @@
+name: GoalOS Autonomous Phase Completion V62 — Proof Factory Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to V62 pack zip"
+        required: true
+        default: ".goalos/packs/goalos-autonomous-phase-completion-v62-pack.zip"
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        default: "v0.82.0-autonomous-phase-completion-v62"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_PATH: ${{ inputs.pack_path }}
+
+concurrency:
+  group: goalos-autonomous-phase-completion-v62
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_PATH"
+          mkdir -p .goalos/tmp/v62
+          python - <<'PY'
+          import zipfile, os
+          path=os.environ['PACK_PATH']
+          with zipfile.ZipFile(path) as z:
+              bad=z.testzip()
+              assert bad is None, bad
+              names=z.namelist()
+              assert 'scripts/install_goalos_autonomous_phase_completion_v62.py' in names
+              assert 'public/assets/goalos-v62.css' in names
+              assert 'public/assets/goalos-v62.js' in names
+          print('V62 pack verified:', path)
+          PY
+
+      - name: Unpack V62 pack
+        run: |
+          rm -rf .goalos/tmp/v62/pack
+          mkdir -p .goalos/tmp/v62/pack
+          unzip -q "$PACK_PATH" -d .goalos/tmp/v62/pack
+
+      - name: Install autonomous phase completion website
+        run: |
+          python .goalos/tmp/v62/pack/scripts/install_goalos_autonomous_phase_completion_v62.py
+
+      - name: Compile and syntax check generated assets
+        run: |
+          python -m py_compile .goalos/tmp/v62/pack/scripts/install_goalos_autonomous_phase_completion_v62.py
+          node --check public/assets/goalos-v62.js
+          python - <<'PY'
+          import json
+          for f in [
+            'reports/autonomous-phase-completion-v62-install-report.json',
+            'reports/autonomous-phase-completion-v62-qa.json',
+            'reports/autonomous-phase-completion-v62-route-health.json'
+          ]:
+              with open(f) as fh:
+                  data=json.load(fh)
+              print(f, data.get('status','ok'))
+              if data.get('status') == 'failed':
+                  raise SystemExit(1)
+          PY
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content reports evidence docs .goalos/autonomy schemas scripts || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous Phase Completion V62"
+          git push
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'GoalOS Autonomous Phase Completion V62 — visual QA';
+            const body = [
+              'Open the deployed site and verify:',
+              '',
+              '- Autonomous Proof Factory is the primary experience.',
+              '- Run end-to-end demo opens immediately and produces useful artifacts.',
+              '- AGI Agents, AGI Nodes, RSI / Loop, validation, contracts, proof, and boundary pages are present.',
+              '- Preserved archive pages are styled and navigable.',
+              '- All Pages, Search, and Site Health expose the complete surface.',
+              '- No duplicate bottom-button pileups, broken formatting, blank pages, wallet prompts, transactions, backend calls, or user-data forms.',
+              '',
+              'Reports:',
+              '- reports/autonomous-phase-completion-v62-install-report.json',
+              '- reports/autonomous-phase-completion-v62-qa.json',
+              '- reports/autonomous-phase-completion-v62-route-health.json'
+            ].join('\n');
+            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['goalos','visual-qa','v62'] });
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Autonomous Phase Completion V62
+          body: "Autonomous proof factory website: V9 integrated, complete route surface, dark GoalOS design, universal mission cockpit, page-specific autonomous demos, and public-alpha boundary."
+          files: |
+            reports/autonomous-phase-completion-v62-install-report.json
+            reports/autonomous-phase-completion-v62-qa.json
+            reports/autonomous-phase-completion-v62-route-health.json
+            evidence/demo/autonomous-phase-completion-v62-reference-docket.json
+            content/goalos/public-proof-navigation-v62.json
