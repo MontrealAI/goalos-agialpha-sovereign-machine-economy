@@ -1,0 +1,175 @@
+name: GoalOS Autonomous Unified Work OS V64 — Phase Completion
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to the V64 pack zip"
+        required: true
+        default: ".goalos/packs/goalos-autonomous-unified-work-os-v64-pack.zip"
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy GitHub Pages from public/"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release after visual approval"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        default: "v0.84.0-autonomous-unified-work-os-v64"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  V64_PACK_PATH: ${{ inputs.pack_path }}
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Verify pack exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f "$V64_PACK_PATH"
+          python - <<'PY'
+          import zipfile, os
+          p = os.environ['V64_PACK_PATH']
+          with zipfile.ZipFile(p) as z:
+              names = set(z.namelist())
+              required = {
+                  'scripts/install_goalos_autonomous_unified_work_os_v64.py',
+                  'payload/goalos-unified-local-agi-work-os-v20-standalone.html',
+                  'payload/goalos-autonomous-proof-factory-v9-standalone.html'
+              }
+              missing = sorted(required - names)
+              if missing:
+                  raise SystemExit('Missing required pack files: ' + ', '.join(missing))
+          print('V64 pack verified:', p)
+          PY
+
+      - name: Install autonomous unified work OS V64
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import zipfile, os
+          p = os.environ['V64_PACK_PATH']
+          with zipfile.ZipFile(p) as z:
+              z.extractall('.')
+          print('Extracted', p)
+          PY
+          python -m py_compile scripts/install_goalos_autonomous_unified_work_os_v64.py
+          python scripts/install_goalos_autonomous_unified_work_os_v64.py
+
+      - name: Compile and syntax check generated assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, pathlib, re, subprocess, sys
+          report = pathlib.Path('reports/autonomous-unified-work-os-v64-install-report.json')
+          data = json.loads(report.read_text())
+          print(json.dumps(data, indent=2))
+          if data.get('status') != 'passed':
+              raise SystemExit('V64 audit did not pass')
+          for js in pathlib.Path('public').rglob('*.js'):
+              subprocess.run(['node', '--check', str(js)], check=True)
+          print('V64 generated asset syntax passed')
+          PY
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content reports evidence scripts payload .goalos || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous Unified Work OS V64"
+          git push || true
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'GoalOS Autonomous Unified Work OS V64 — human visual QA';
+            const body = `Open the live site and verify:
+
+            - Dark GoalOS aurora design is restored.
+            - Run end-to-end demo opens an autonomous cockpit immediately.
+            - User can type any objective.
+            - Proof Factory V9 is present and functional.
+            - Unified Local AGI Work OS V20 is present and functional.
+            - AGI Agents, AGI Nodes, RSI / Loop, Validation, 48 Contracts, Proof Run, Evidence Docket, Search, All Pages, and Site Health are discoverable.
+            - Preserved/archive pages are styled and navigable.
+            - Generated artifacts are useful and objective-aware.
+            - No duplicate bottom-button pileups.
+            - No raw unformatted pages.
+            - No wallet prompt.
+            - No transaction.
+            - No backend call.
+            - No user-data form.
+
+            Reports:
+            - reports/autonomous-unified-work-os-v64-install-report.json
+            - reports/autonomous-unified-work-os-v64-qa.json
+            - reports/autonomous-unified-work-os-v64-route-health.json
+            - reports/autonomous-unified-work-os-v64-audit.json
+            - evidence/demo/autonomous-unified-work-os-v64-reference-docket.json`;
+            await github.rest.issues.create({owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['goalos','visual-qa','v64']});
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: "GoalOS Autonomous Unified Work OS V64"
+          body: "Autonomous proof-gated open-ended work machine: Proof Factory V9, Unified Local AGI Work OS V20, AGI Agents, AGI Nodes, RSI/Loop, contracts, proof, search, all pages, site health, archive styling, and public-alpha boundary."
+          files: |
+            reports/autonomous-unified-work-os-v64-install-report.json
+            reports/autonomous-unified-work-os-v64-qa.json
+            reports/autonomous-unified-work-os-v64-route-health.json
+            reports/autonomous-unified-work-os-v64-audit.json
+            evidence/demo/autonomous-unified-work-os-v64-reference-docket.json
