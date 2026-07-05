@@ -210,7 +210,7 @@
       "route": "all-pages.html",
       "title": "All Pages \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 126106
+      "size": 125977
     },
     {
       "route": "architecture.html",
@@ -3600,7 +3600,7 @@
       "route": "route-registry.html",
       "title": "All Pages \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 126106
+      "size": 125977
     },
     {
       "route": "rsi-governance-lab.html",
@@ -3630,7 +3630,7 @@
       "route": "search.html",
       "title": "Search \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 108042
+      "size": 107916
     },
     {
       "route": "security-boundary.html",
@@ -3654,7 +3654,7 @@
       "route": "site-map.html",
       "title": "All Pages \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 126106
+      "size": 125977
     },
     {
       "route": "source-lineage.html",
