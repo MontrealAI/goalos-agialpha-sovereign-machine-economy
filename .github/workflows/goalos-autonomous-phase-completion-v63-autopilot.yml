@@ -1,0 +1,168 @@
+name: GoalOS Autonomous Phase Completion V63 — Corrective Proof Factory Website
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to V63 pack zip"
+        required: true
+        default: ".goalos/packs/goalos-autonomous-phase-completion-v63-pack.zip"
+      commit_changes:
+        description: "Commit generated files"
+        required: true
+        type: boolean
+        default: true
+      deploy_pages:
+        description: "Deploy GitHub Pages"
+        required: true
+        type: boolean
+        default: true
+      create_issue:
+        description: "Create human visual QA issue"
+        required: true
+        type: boolean
+        default: true
+      create_release:
+        description: "Create GitHub release"
+        required: true
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag"
+        required: true
+        default: "v0.83.0-autonomous-phase-completion-v63"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+env:
+  PACK_PATH: ${{ inputs.pack_path }}
+
+concurrency:
+  group: goalos-autonomous-phase-completion-v63
+  cancel-in-progress: false
+
+jobs:
+  install-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Verify pack exists
+        run: |
+          test -f "$PACK_PATH"
+          rm -rf .goalos/tmp/v63/pack
+          mkdir -p .goalos/tmp/v63
+          python - <<'PY'
+          import zipfile, os
+          path=os.environ['PACK_PATH']
+          with zipfile.ZipFile(path) as z:
+              bad=z.testzip()
+              assert bad is None, bad
+              names=set(z.namelist())
+              required={'scripts/install_goalos_autonomous_phase_completion_v63.py','public/assets/goalos-v63.css','public/assets/goalos-v63.js','public/autonomous-proof-factory-v9.html'}
+              missing=required-names
+              assert not missing, missing
+          print('V63 pack verified:', path)
+          PY
+
+      - name: Unpack V63 pack
+        run: |
+          rm -rf .goalos/tmp/v63/pack
+          mkdir -p .goalos/tmp/v63/pack
+          unzip -q "$PACK_PATH" -d .goalos/tmp/v63/pack
+
+      - name: Install autonomous phase completion website
+        run: |
+          python .goalos/tmp/v63/pack/scripts/install_goalos_autonomous_phase_completion_v63.py
+
+      - name: Compile and syntax check generated assets
+        run: |
+          python -m py_compile .goalos/tmp/v63/pack/scripts/install_goalos_autonomous_phase_completion_v63.py
+          node --check public/assets/goalos-v63.js
+          python - <<'PY'
+          import json
+          files=[
+            'reports/autonomous-phase-completion-v63-install-report.json',
+            'reports/autonomous-phase-completion-v63-qa.json',
+            'reports/autonomous-phase-completion-v63-route-health.json',
+            'reports/autonomous-phase-completion-v63-audit.json'
+          ]
+          for f in files:
+              with open(f) as fh: data=json.load(fh)
+              print(f, data.get('status'))
+              if data.get('status') != 'passed':
+                  raise SystemExit(f)
+          PY
+
+      - name: Commit generated files
+        if: ${{ inputs.commit_changes }}
+        run: |
+          git config user.name "goalos-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public content reports evidence docs .goalos/autonomy .goalos/archive schemas scripts || true
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Ship GoalOS Autonomous Phase Completion V63"
+          git push
+
+      - name: Configure Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy Pages
+        if: ${{ inputs.deploy_pages }}
+        uses: actions/deploy-pages@v4
+
+      - name: Create human visual QA issue
+        if: ${{ inputs.create_issue }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'GoalOS Autonomous Phase Completion V63 — visual QA';
+            const body = [
+              'Open the deployed site and verify:',
+              '',
+              '- Dark GoalOS aurora identity is restored.',
+              '- Autonomous Proof Factory and Proof Factory V9 are primary, visible, and usable.',
+              '- Run end-to-end demo opens immediately and produces objective-aware artifacts.',
+              '- AGI Agents, AGI Nodes, RSI / Loop, validation, contracts, proof, boundary, All Pages, Search, and Site Health are present.',
+              '- Preserved archive pages are styled and do not show raw unformatted fragments.',
+              '- Compatibility assets prevent broken archive references.',
+              '- No duplicate bottom-button pileups, blank pages, wallet prompts, transactions, backend calls, or user-data forms.',
+              '',
+              'Reports:',
+              '- reports/autonomous-phase-completion-v63-install-report.json',
+              '- reports/autonomous-phase-completion-v63-qa.json',
+              '- reports/autonomous-phase-completion-v63-route-health.json',
+              '- reports/autonomous-phase-completion-v63-audit.json'
+            ].join('\n');
+            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['goalos','visual-qa','v63'] });
+
+      - name: Create release
+        if: ${{ inputs.create_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag }}
+          name: GoalOS Autonomous Phase Completion V63
+          body: "Corrective autonomous phase-completion website: Proof Factory V9 integrated, dark GoalOS design restored, compatibility assets repaired, full route surface indexed, autonomous cockpit active, public-alpha boundary preserved."
+          files: |
+            reports/autonomous-phase-completion-v63-install-report.json
+            reports/autonomous-phase-completion-v63-qa.json
+            reports/autonomous-phase-completion-v63-route-health.json
+            reports/autonomous-phase-completion-v63-audit.json
+            evidence/demo/autonomous-phase-completion-v63-reference-docket.json
+            content/goalos/public-proof-navigation-v63.json
