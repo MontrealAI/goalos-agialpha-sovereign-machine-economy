@@ -1,0 +1,31 @@
+{
+  "version": "v63",
+  "mission": "Autonomous phase completion website",
+  "proofPath": [
+    "objective",
+    "AGI Agents",
+    "AGI Job",
+    "AGI Node validation",
+    "ProofBundle",
+    "Evidence Docket",
+    "Chronicle",
+    "human review hold"
+  ],
+  "boundary": {
+    "version": "v63",
+    "status": "passed",
+    "publicPages": 652,
+    "currentRoutesIndexed": 652,
+    "brokenInternalLinksOrAssets": [],
+    "forbiddenBrowserApiHits": [],
+    "boundary": "preserved",
+    "externalActions": 0,
+    "productionAuthorization": "not_granted",
+    "empiricalSotaClaim": "not_claimed",
+    "walletTransactionSupport": "not_enabled",
+    "autonomousProofFactoryV9Included": true,
+    "autonomousGeneralWorkMachine": true,
+    "auroraDesignRestored": true,
+    "archiveCompatibilityAssetsCreated": true
+  }
+}
