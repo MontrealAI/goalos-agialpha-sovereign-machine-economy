@@ -207,9 +207,9 @@
     },
     {
       "route": "all-pages.html",
-      "title": "All Pages \u00b7 GoalOS Autonomous Proof Factory",
+      "title": "All Pages \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 76537
+      "size": 126106
     },
     {
       "route": "architecture.html",
@@ -3597,9 +3597,9 @@
     },
     {
       "route": "route-registry.html",
-      "title": "Route Registry \u00b7 GoalOS Autonomous Proof Factory",
+      "title": "All Pages \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 76542
+      "size": 126106
     },
     {
       "route": "rsi-governance-lab.html",
@@ -3627,9 +3627,9 @@
     },
     {
       "route": "search.html",
-      "title": "Search \u00b7 GoalOS Autonomous Proof Factory",
+      "title": "Search \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 76534
+      "size": 108042
     },
     {
       "route": "security-boundary.html",
@@ -3645,15 +3645,15 @@
     },
     {
       "route": "site-health.html",
-      "title": "Site Health \u00b7 GoalOS Autonomous Proof Factory",
+      "title": "Site Health \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 76539
+      "size": 1561
     },
     {
       "route": "site-map.html",
-      "title": "Site Map \u00b7 GoalOS Autonomous Proof Factory",
+      "title": "All Pages \u00b7 GoalOS",
       "category": "Navigation",
-      "size": 76536
+      "size": 126106
     },
     {
       "route": "source-lineage.html",
