@@ -1,0 +1,9 @@
+{
+  "questions": [
+    "What would falsify the claim?",
+    "What remains unsupported?",
+    "Which claims are blocked?",
+    "Can the result be replayed?"
+  ],
+  "status": "required_for_proof_run_001"
+}

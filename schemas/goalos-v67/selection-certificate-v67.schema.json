@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "required": [
+    "decision",
+    "proof_valid",
+    "eval_pass",
+    "rollback_ready",
+    "challenge_window"
+  ],
+  "properties": {
+    "decision": {
+      "enum": [
+        "promote",
+        "hold",
+        "reject",
+        "rollback"
+      ]
+    }
+  }
+}

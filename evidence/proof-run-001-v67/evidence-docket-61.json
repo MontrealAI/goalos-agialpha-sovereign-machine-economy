@@ -1,0 +1,16 @@
+{
+  "id": "goalos-proof-run-001-v67",
+  "title": "Evidence Docket 6.1 \u2014 Proof Run 001 Seed",
+  "status": "planned",
+  "claims_matrix": [
+    {
+      "claim": "GoalOS can structure proof debt as AGI Jobs",
+      "status": "supported_structurally"
+    },
+    {
+      "claim": "GoalOS has achieved AGI or ASI",
+      "status": "blocked"
+    }
+  ],
+  "claim_boundary": "This page is public-alpha architecture and implementation scaffolding. It does not claim achieved AGI, achieved ASI, empirical SOTA, legal/security/compliance certification, guaranteed ROI, live settlement in local mode, user-fund handling, autonomous production authorization, or completed external validation. Stronger claims require public Evidence Dockets, real tasks, baselines, ProofBundles, replay logs, validator reports, cost/risk ledgers, delayed outcomes, and independent review."
+}

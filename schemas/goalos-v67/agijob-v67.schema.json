@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "job_id",
+    "title",
+    "objective",
+    "acceptance_tests",
+    "validator",
+    "proofbundle_required"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "acceptance_tests": {
+      "type": "array"
+    },
+    "validator": {
+      "type": "string"
+    },
+    "proofbundle_required": {
+      "type": "boolean"
+    }
+  }
+}

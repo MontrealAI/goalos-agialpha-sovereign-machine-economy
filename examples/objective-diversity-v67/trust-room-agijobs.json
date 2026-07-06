@@ -1,0 +1,20 @@
+[
+  {
+    "job_id": "agijob-v67-trust-001",
+    "title": "Verify AI vendor trust-room claims against supplied evidence",
+    "validator": "Procurement proof reviewer",
+    "acceptance_tests": [
+      "Every top claim maps to evidence or is blocked",
+      "Privacy and data-boundary claims are separated from security claims"
+    ]
+  },
+  {
+    "job_id": "agijob-v67-trust-002",
+    "title": "Build buyer-readiness risk ledger and reviewer questions",
+    "validator": "Enterprise AI buyer reviewer",
+    "acceptance_tests": [
+      "Risk ledger contains blocked claims",
+      "Reviewer questions are answerable from evidence"
+    ]
+  }
+]

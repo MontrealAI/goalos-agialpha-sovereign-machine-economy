@@ -1,0 +1,16 @@
+{
+  "signals": [
+    "proof_quality",
+    "false_acceptance_rate",
+    "replay_failure_rate",
+    "risk_level",
+    "external_validation"
+  ],
+  "actuators": [
+    "budget_flow",
+    "validator_pressure",
+    "settlement_hold",
+    "mission_pause",
+    "claim_maturity"
+  ]
+}

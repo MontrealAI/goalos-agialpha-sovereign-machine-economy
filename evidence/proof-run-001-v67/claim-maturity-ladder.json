@@ -1,0 +1,11 @@
+{
+  "levels": [
+    "architectural",
+    "local scaffold",
+    "public evidence docket",
+    "external replay",
+    "independent review",
+    "delayed outcome"
+  ],
+  "current": "architectural-plus-local-scaffold"
+}

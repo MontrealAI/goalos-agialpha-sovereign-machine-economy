@@ -1,0 +1,42 @@
+{
+  "version": "goalos-incremental-sovereign-proof-work-v67",
+  "jobs": [
+    {
+      "job_id": "agijob-v67-trust-001",
+      "title": "Verify AI vendor trust-room claims against supplied evidence",
+      "validator": "Procurement proof reviewer",
+      "acceptance_tests": [
+        "Every top claim maps to evidence or is blocked",
+        "Privacy and data-boundary claims are separated from security claims"
+      ]
+    },
+    {
+      "job_id": "agijob-v67-trust-002",
+      "title": "Build buyer-readiness risk ledger and reviewer questions",
+      "validator": "Enterprise AI buyer reviewer",
+      "acceptance_tests": [
+        "Risk ledger contains blocked claims",
+        "Reviewer questions are answerable from evidence"
+      ]
+    },
+    {
+      "job_id": "agijob-v67-solar-001",
+      "title": "Validate hospital campus load, tariff, resilience, and interconnection assumptions",
+      "validator": "Energy infrastructure reviewer",
+      "acceptance_tests": [
+        "Load assumptions are explicit",
+        "Tariff/interconnection proof debt is listed"
+      ]
+    },
+    {
+      "job_id": "agijob-v67-solar-002",
+      "title": "Create financing-model sensitivity table and permitting proof debt register",
+      "validator": "Project finance reviewer",
+      "acceptance_tests": [
+        "Sensitivity table includes capex, rates, savings, and resilience value",
+        "Permitting assumptions remain blocked until evidenced"
+      ]
+    }
+  ],
+  "promotion_rule": "No Chronicle promotion unless replay and validation pass."
+}

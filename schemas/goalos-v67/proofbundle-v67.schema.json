@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "required": [
+    "version",
+    "job_id",
+    "job_spec_uri",
+    "objective",
+    "acceptance_tests",
+    "outputs",
+    "replay_result",
+    "validator_verdict",
+    "claim_boundary",
+    "created_at"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "replay_result": {
+      "type": "object"
+    },
+    "validator_verdict": {
+      "type": "string"
+    }
+  }
+}

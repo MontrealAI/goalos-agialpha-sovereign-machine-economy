@@ -1,0 +1,4 @@
+{
+  "decision": "hold",
+  "reason": "Proof Run 001 requires returned ProofBundles, replay result, validator verdict, and human review."
+}

@@ -1585,76 +1585,6 @@
       "category": "Incremental Proof-Grail",
       "canonical": false,
       "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "Sovereign Proof Work Command Center",
-      "path": "sovereign-proof-work-command-center-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "Holy Grail Candidate, Claim-Bounded",
-      "path": "holy-grail-candidate-boundary-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "Proof Debt \u2192 AGI Jobs Dispatch",
-      "path": "proof-debt-to-agijobs-dispatch-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "ProofBundle \u2192 Chronicle Gate",
-      "path": "proofbundle-to-chronicle-gate-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "$AGIALPHA Settlement Thermostat",
-      "path": "agialpha-settlement-thermostat-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "Proof Run 001 Evidence Room",
-      "path": "proof-run-001-evidence-room-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "RSI / Move-37 Governance Room",
-      "path": "rsi-move37-governance-room-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "\u03b1\u2011Work Units Proof Meter",
-      "path": "alpha-work-units-proof-meter-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "External Replay & Reviewer Room",
-      "path": "external-replay-and-reviewer-room-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
-    },
-    {
-      "title": "Sovereign Machine Economy Flywheel",
-      "path": "sovereign-machine-economy-flywheel-v67.html",
-      "capability": "sovereign-proof-work-v67",
-      "status": "public-alpha",
-      "claim_level": "architectural-plus-local-evidence-scaffold"
     }
   ],
   "boundary": "preserved",
@@ -1673,22 +1603,5 @@
         "now-we-prove-it.html"
       ]
     }
-  ],
-  "capability_layers": {
-    "goalos-incremental-sovereign-proof-work-v67": {
-      "added_at": "2026-07-06T03:07:50+00:00",
-      "routes": [
-        "sovereign-proof-work-command-center-v67.html",
-        "holy-grail-candidate-boundary-v67.html",
-        "proof-debt-to-agijobs-dispatch-v67.html",
-        "proofbundle-to-chronicle-gate-v67.html",
-        "agialpha-settlement-thermostat-v67.html",
-        "proof-run-001-evidence-room-v67.html",
-        "rsi-move37-governance-room-v67.html",
-        "alpha-work-units-proof-meter-v67.html",
-        "external-replay-and-reviewer-room-v67.html",
-        "sovereign-machine-economy-flywheel-v67.html"
-      ]
-    }
-  }
+  ]
 }

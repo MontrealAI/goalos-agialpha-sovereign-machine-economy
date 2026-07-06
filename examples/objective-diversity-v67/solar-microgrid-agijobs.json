@@ -1,0 +1,20 @@
+[
+  {
+    "job_id": "agijob-v67-solar-001",
+    "title": "Validate hospital campus load, tariff, resilience, and interconnection assumptions",
+    "validator": "Energy infrastructure reviewer",
+    "acceptance_tests": [
+      "Load assumptions are explicit",
+      "Tariff/interconnection proof debt is listed"
+    ]
+  },
+  {
+    "job_id": "agijob-v67-solar-002",
+    "title": "Create financing-model sensitivity table and permitting proof debt register",
+    "validator": "Project finance reviewer",
+    "acceptance_tests": [
+      "Sensitivity table includes capex, rates, savings, and resilience value",
+      "Permitting assumptions remain blocked until evidenced"
+    ]
+  }
+]
