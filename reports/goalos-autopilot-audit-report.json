@@ -1,0 +1,17 @@
+{
+  "audited_at": "2026-07-06T01:30:17Z",
+  "status": "pass",
+  "required_file_count": 11,
+  "documentation_documents": 167,
+  "download_artifacts": [
+    "goalos-v25-standalone.zip",
+    "goalos-v38-everything-bundle.zip",
+    "goalos-v37-everything-bundle.zip",
+    "goalos-v36-customer-download.zip"
+  ],
+  "forbidden_local_standalone_hits": {},
+  "claim_boundary_preserved": true,
+  "wallet_boundary_preserved": true,
+  "errors": [],
+  "warnings": []
+}

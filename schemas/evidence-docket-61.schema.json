@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "goalos/evidence-docket-61.schema.json",
+  "type": "object",
+  "required": [
+    "claims_matrix",
+    "proof_debt_register",
+    "blocked_claims_register",
+    "risk_ledger",
+    "baseline_comparison",
+    "claim_boundary"
+  ],
+  "properties": {}
+}

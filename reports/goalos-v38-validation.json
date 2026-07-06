@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-05T23:32:16Z",
+  "single_html": true,
+  "generated_from_scratch": true,
+  "objective_specific_classifier": true,
+  "scenario_specific_job_library": true,
+  "diagnostic_distinct_job_sets": true,
+  "browser_zip_builder": true,
+  "documentation_documents": 46,
+  "github_action_pack_generator": true,
+  "reviewer_room_export": true,
+  "external_asset_references": false,
+  "forbidden_browser_api_hits": 0,
+  "boundary_preserved": true,
+  "transaction_policy": "intent-only in local engine; optional live settlement boundary separated",
+  "strategic_communications_page": true,
+  "updated_by": "GoalOS One-Click Autopilot v2 Strategic Communications Pack"
+}

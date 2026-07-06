@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-05T23:59:26Z",
+  "managed_by": "GoalOS One-Click Autopilot",
+  "claim_boundary": "public-alpha architecture and local proof workbench; no achieved AGI/ASI, SOTA, certification, live settlement, wallet authorization, or guaranteed ROI claim",
+  "routes": [
+    {
+      "path": "/goalos.html",
+      "title": "GoalOS Home"
+    },
+    {
+      "path": "/goalos-product-console.html",
+      "title": "GoalOS V38 Product Console"
+    },
+    {
+      "path": "/strategic-communications/",
+      "title": "Strategic Communications"
+    },
+    {
+      "path": "/capabilities/",
+      "title": "Capability Hub"
+    },
+    {
+      "path": "/capabilities/goalos-v38/",
+      "title": "V38 Console Mirror"
+    },
+    {
+      "path": "/standalone-reviewer-proof-room.html",
+      "title": "Reviewer Proof Room"
+    },
+    {
+      "path": "/proof-event-001-ai-trust-room-vs-vendor-faq.html",
+      "title": "Proof Event 001"
+    },
+    {
+      "path": "/downloads/",
+      "title": "Downloads"
+    }
+  ]
+}

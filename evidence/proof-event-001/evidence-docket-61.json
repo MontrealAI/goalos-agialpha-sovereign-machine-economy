@@ -1,0 +1,37 @@
+{
+  "id": "proof-event-001-ai-trust-room-vs-vendor-faq",
+  "version": "evidence-docket-6.1",
+  "created_at": "2026-07-05T23:32:16Z",
+  "objective": "Evaluate whether an AI vendor trust room is buyer-ready for enterprise procurement and prepare a reviewer-ready proof package.",
+  "baseline": "ordinary vendor FAQ",
+  "claims_matrix": [
+    {
+      "claim": "The trust room is more reviewable than a FAQ because claims map to evidence slots.",
+      "status": "structurally supported",
+      "evidence_needed": "external buyer reviewer attestation"
+    },
+    {
+      "claim": "GoalOS can identify proof debt and turn it into AGI Jobs.",
+      "status": "supported locally",
+      "evidence_needed": "replayable public run"
+    },
+    {
+      "claim": "Enterprise buyer readiness is achieved.",
+      "status": "blocked",
+      "evidence_needed": "qualified external reviewer verdict"
+    }
+  ],
+  "proof_debt_register": [
+    "external reviewer not attached",
+    "source evidence not independently checked",
+    "delayed outcome not measured",
+    "ROI not measured in production"
+  ],
+  "agi_jobs_created": [
+    "claim-to-evidence mapping",
+    "vendor FAQ baseline comparison",
+    "privacy/security/compliance boundary review",
+    "buyer reviewer verdict packet"
+  ],
+  "claim_boundary": "No achieved certification, legal advice, security certification, guaranteed buyer approval, or empirical SOTA claim."
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "goalos/selection-certificate-draft.schema.json",
+  "type": "object",
+  "required": [
+    "decision",
+    "scope",
+    "rollback_target",
+    "challenge_window",
+    "claim_boundary"
+  ],
+  "properties": {}
+}

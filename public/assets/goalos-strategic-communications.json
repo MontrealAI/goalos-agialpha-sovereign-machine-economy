@@ -1,0 +1,44 @@
+{
+  "managed_by": "GOALOS_AUTOPILOT_MANAGED",
+  "title": "GoalOS Strategic Communications Presentation",
+  "headline": "GoalOS is the Proof OS for autonomous AI work.",
+  "canonical_thesis": "AI creates output. GoalOS creates proof. AGIJobs completes missing proof. Only validated capability compounds.",
+  "one_sentence_pitch": "GoalOS turns one objective into proof-bearing machine labor: agents do the work, jobs carry missing evidence, nodes validate results, ProofBundles return, Evidence Dockets govern claims, and only validated capability can influence the next mission.",
+  "category": "Autonomous proof-gated open-ended work machine.",
+  "loop": [
+    "Objective",
+    "Mission Contract",
+    "Autonomous Work",
+    "Verification",
+    "Evidence Docket",
+    "Governed Decision State",
+    "Action Graph",
+    "Chronicle",
+    "Reusable Capability"
+  ],
+  "agijobs_loop": [
+    "User Objective",
+    "GoalOS Mission Contract",
+    "AGI Agents execute local work",
+    "AGI Nodes review proof",
+    "Evidence Docket identifies proof debt",
+    "Missing evidence becomes AGI Jobs",
+    "AGIJobManager-ready work packets",
+    "ProofBundles return",
+    "Evidence Docket updates",
+    "Capability Promotion Gate decides",
+    "Chronicle records accepted capability"
+  ],
+  "non_claims": [
+    "achieved AGI",
+    "achieved ASI",
+    "empirical SOTA",
+    "legal certification",
+    "security certification",
+    "compliance certification",
+    "guaranteed ROI",
+    "live settlement in local mode",
+    "production authorization without review"
+  ],
+  "created_at": "2026-07-05T23:59:26Z"
+}

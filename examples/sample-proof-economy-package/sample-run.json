@@ -1,0 +1,12 @@
+{
+  "run_id": "sample-dynamic-run-ai-procurement-001",
+  "scenario": "AI Vendor / Procurement",
+  "jobs": [
+    "claim-to-evidence mapping",
+    "vendor FAQ baseline comparison",
+    "privacy/security/compliance boundary review",
+    "buyer reviewer verdict packet"
+  ],
+  "gate": "HOLD until replay and validator verdict pass",
+  "boundary": "No wallet, no backend, no live settlement in local mode."
+}

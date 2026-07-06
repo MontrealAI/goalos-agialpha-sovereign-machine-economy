@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "goalos/agi-job.schema.json",
+  "type": "object",
+  "required": [
+    "job_id",
+    "title",
+    "why_needed",
+    "worker_role",
+    "validator_role",
+    "acceptance_tests",
+    "required_outputs",
+    "promotion_rule"
+  ],
+  "properties": {}
+}
