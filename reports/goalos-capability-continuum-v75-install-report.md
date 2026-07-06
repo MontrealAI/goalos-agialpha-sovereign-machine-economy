@@ -1,14 +1,14 @@
 # GoalOS Capability Continuum v75 install report
 
-Generated: 2026-07-06T12:50:47.473692+00:00
+Generated: 2026-07-06T12:51:40.569198+00:00
 
-Installed files: 42
+Installed files: 1
 
-Copied files: 6
+Copied files: 0
 
-Patched existing pages: 5
+Patched existing pages: 0
 
-Skipped files: 0
+Skipped files: 52
 
 ## New pages
 - `public/capability-continuum-v75.html`

@@ -1,9 +1,12 @@
 {
   "version": "goalos.incremental.capability-continuum.v75.install",
-  "generated_at": "2026-07-06T12:50:47.473692+00:00",
-  "run_id": "28792787699",
+  "generated_at": "2026-07-06T12:51:40.569198+00:00",
+  "run_id": "28792836792",
   "repository": "MontrealAI/goalos-agialpha-sovereign-machine-economy",
-  "installed": [
+  "installed": [],
+  "copied": [],
+  "patched": [],
+  "skipped": [
     "public/capability-continuum-v75.html",
     "public/goalos-product-lineage-v75.html",
     "public/objective-diversity-lab-v75.html",
@@ -16,6 +19,12 @@
     "public/external-reviewer-replay-v75.html",
     "public/release-bundle-vault-v75.html",
     "public/now-we-prove-it-v75.html",
+    "public/downloads/goalos-release-bundles-v75/goalos-v34-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v35-dynamic-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v36-production-final-dynamic-autonomous-proof-gated-open-ended-work-machine-customer-download-1-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v37-ascension-dynamic-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v37-complete-standalone-product-console-everything-bundle-1-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v38-production-final-correctness-verified-standalone-product-console-everything-bundle-2-.zip",
     "public/goalos-capability-continuum-v75-index.json",
     "content/goalos-capability-continuum-v75/site_layer_manifest.json",
     "public/capability-continuum-v75-search-index.json",
@@ -44,24 +53,13 @@
     "docs/capability-continuum-v75/EXTERNAL_REPLAY_REVIEWER_ROOM.md",
     "docs/capability-continuum-v75/NOW_WE_PROVE_IT.md",
     "docs/capability-continuum-v75/AUTONOMOUS_PUBLICATION_RULE.md",
-    "public/capability-continuum-v75-readme.md"
+    "public/capability-continuum-v75-readme.md",
+    "public/index.html (nav already present)",
+    "public/goalos.html (nav already present)",
+    "public/goalos-product-console.html (nav already present)",
+    "public/all-pages.html (nav already present)",
+    "public/site-map.html (nav already present)"
   ],
-  "copied": [
-    "public/downloads/goalos-release-bundles-v75/goalos-v34-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
-    "public/downloads/goalos-release-bundles-v75/goalos-v35-dynamic-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
-    "public/downloads/goalos-release-bundles-v75/goalos-v36-production-final-dynamic-autonomous-proof-gated-open-ended-work-machine-customer-download-1-2-.zip",
-    "public/downloads/goalos-release-bundles-v75/goalos-v37-ascension-dynamic-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
-    "public/downloads/goalos-release-bundles-v75/goalos-v37-complete-standalone-product-console-everything-bundle-1-.zip",
-    "public/downloads/goalos-release-bundles-v75/goalos-v38-production-final-correctness-verified-standalone-product-console-everything-bundle-2-.zip"
-  ],
-  "patched": [
-    "public/index.html",
-    "public/goalos.html",
-    "public/goalos-product-console.html",
-    "public/all-pages.html",
-    "public/site-map.html"
-  ],
-  "skipped": [],
   "pages": [
     "capability-continuum-v75.html",
     "goalos-product-lineage-v75.html",

@@ -1,6 +1,6 @@
 # GoalOS Capability Continuum v75 audit report
 
-Generated: 2026-07-06T12:50:47.529577+00:00
+Generated: 2026-07-06T12:51:40.624774+00:00
 
 Status: **PASS**
 
