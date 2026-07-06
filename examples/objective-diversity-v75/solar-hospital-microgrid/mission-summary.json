@@ -1,0 +1,10 @@
+{
+  "objective": "Design a solar microgrid financing model for a hospital campus.",
+  "domain": "Energy / Infrastructure / Finance",
+  "jobs": [
+    "Verify site/load/tariff assumptions",
+    "Model financing sensitivity",
+    "Validate hospital resilience requirements",
+    "Map permitting and interconnection proof debt"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "route_count": 12,
+  "bundle_count": 6,
+  "issues": [],
+  "warnings": [],
+  "generated_at": "2026-07-06T12:50:47.529577+00:00",
+  "status": "pass",
+  "claim_boundary_preserved": true,
+  "wallet_boundary_preserved": true
+}

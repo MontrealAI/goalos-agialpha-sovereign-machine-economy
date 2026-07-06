@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "title": "GoalOS v75 AGI Job",
+  "type": "object",
+  "required": [
+    "job_id",
+    "title",
+    "worker_role",
+    "validator_role",
+    "acceptance_tests",
+    "promotion_rule"
+  ]
+}

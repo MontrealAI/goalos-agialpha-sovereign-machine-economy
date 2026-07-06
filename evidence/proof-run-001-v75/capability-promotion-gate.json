@@ -1,0 +1,21 @@
+{
+  "gate_id": "capability-promotion-gate-v75",
+  "status": "HOLD",
+  "reason": "Proof Run 001 scaffold is generated, but replay_result and validator_verdict are pending.",
+  "required_to_pass": [
+    "Mission Contract",
+    "Benchmark Contract",
+    "Evidence Docket",
+    "ProofBundle with replay_result",
+    "validator_verdict",
+    "claim boundary",
+    "external review path"
+  ],
+  "forbidden_promotions": [
+    "achieved AGI",
+    "achieved ASI",
+    "empirical SOTA",
+    "live settlement",
+    "guaranteed ROI"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "goalos.validation.v75",
+  "generated_at": "2026-07-06T12:50:47.473692+00:00",
+  "dynamic_generation_from_user_input_required": true,
+  "different_objectives_generate_different_jobs_required": true,
+  "proofbundle_validator_required": true,
+  "agijob_queue": true,
+  "claim_boundary_preserved": true,
+  "wallet_boundary_preserved": true,
+  "transaction_policy": "intent/spec only in local engine; optional live dApp separated",
+  "forbidden_local_mode_boundary": [
+    "fetch(",
+    "XMLHttpRequest",
+    "sendBeacon",
+    "window.ethereum",
+    "localStorage",
+    "sessionStorage"
+  ]
+}

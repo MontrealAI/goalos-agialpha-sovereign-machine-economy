@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "title": "Evidence Docket 6.1",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "objective",
+    "claims_matrix",
+    "proof_debt_register",
+    "blocked_claims_register",
+    "public_private_boundary"
+  ]
+}

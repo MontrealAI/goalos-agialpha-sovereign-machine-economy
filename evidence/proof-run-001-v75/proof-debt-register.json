@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pd-v75-001",
+    "claim": "GoalOS can preserve product lineage from V34 through V38.",
+    "missing_evidence": "bundle hashes, public vault, release manifest",
+    "job": "agi-job-v75-001"
+  },
+  {
+    "id": "pd-v75-002",
+    "claim": "GoalOS generates materially different jobs for unrelated objectives.",
+    "missing_evidence": "objective diversity regression artifacts",
+    "job": "agi-job-v75-002"
+  },
+  {
+    "id": "pd-v75-003",
+    "claim": "Local mode keeps no-backend/no-wallet/no-transaction boundary.",
+    "missing_evidence": "boundary audit report",
+    "job": "agi-job-v75-003"
+  },
+  {
+    "id": "pd-v75-004",
+    "claim": "Proof Run 001 can accept returned ProofBundles.",
+    "missing_evidence": "ProofBundle template and validator checklist",
+    "job": "agi-job-v75-004"
+  },
+  {
+    "id": "pd-v75-005",
+    "claim": "External replay can inspect the run.",
+    "missing_evidence": "reviewer room and replay checklist",
+    "job": "agi-job-v75-005"
+  }
+]

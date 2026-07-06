@@ -1,0 +1,24 @@
+{
+  "version": "goalos.proofbundle.v75.template",
+  "job_id": "agi-job-v75-004",
+  "job_spec_uri": "local://evidence/proof-run-001-v75/agi-job-queue.json#agi-job-v75-004",
+  "job_completion_uri": "local://proofbundles/proof-run-001-v75/agi-job-v75-004.json",
+  "objective": "Prepare GoalOS Proof Run 001 by publishing a claim-bounded capability continuum, release bundle vault, proof-debt-to-AGI-Jobs router, ProofBundle return gate, Evidence Docket 6.1 room, RSI/Move-37 gate, and external replay room.",
+  "acceptance_tests": [
+    "replay_result present",
+    "validator_verdict present",
+    "risk_ledger present",
+    "claim_boundary present"
+  ],
+  "policy_context": "public-alpha, no-backend, no-wallet, no-transaction local proof mode",
+  "inputs": [],
+  "outputs": [],
+  "artifact_pointers": [],
+  "logs_or_trace_summary": "to be supplied by AGI Job executor",
+  "replay_result": "PENDING",
+  "validator_verdict": "PENDING",
+  "claim_boundary": "No strong empirical claim before replay and validator verdict.",
+  "risk_ledger": [],
+  "worker_signature_or_attestation": "PENDING",
+  "created_at": "2026-07-06T12:50:47.473692+00:00"
+}

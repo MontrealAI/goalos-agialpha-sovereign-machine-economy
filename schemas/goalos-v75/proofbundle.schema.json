@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "title": "GoalOS v75 ProofBundle",
+  "type": "object",
+  "required": [
+    "version",
+    "job_id",
+    "job_spec_uri",
+    "objective",
+    "acceptance_tests",
+    "replay_result",
+    "validator_verdict",
+    "claim_boundary",
+    "risk_ledger",
+    "created_at"
+  ]
+}

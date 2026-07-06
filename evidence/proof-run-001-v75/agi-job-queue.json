@@ -1,0 +1,66 @@
+[
+  {
+    "job_id": "agi-job-v75-001",
+    "title": "Verify release bundle vault",
+    "worker_role": "AGI Agent or release engineer",
+    "validator_role": "AGI Node Validator or human reviewer",
+    "why_needed": "Product lineage should be preserved as inspectable evidence.",
+    "acceptance_tests": [
+      "all expected bundles present",
+      "sha256 hashes recorded",
+      "download paths work"
+    ],
+    "promotion_rule": "No release lineage claim without bundle manifest."
+  },
+  {
+    "job_id": "agi-job-v75-002",
+    "title": "Run objective diversity regression",
+    "worker_role": "Mission compiler evaluator",
+    "validator_role": "External reviewer",
+    "why_needed": "GoalOS must not generate identical AGI Jobs for unrelated objectives.",
+    "acceptance_tests": [
+      "AI trust room and solar microgrid objectives produce different domains",
+      "job-family overlap below threshold"
+    ],
+    "promotion_rule": "No objective-native claim without diversity evidence."
+  },
+  {
+    "job_id": "agi-job-v75-003",
+    "title": "Audit local/no-wallet boundary",
+    "worker_role": "Sentinel Agent",
+    "validator_role": "Security/privacy reviewer",
+    "why_needed": "The site must not imply live wallet, backend, user-fund, or settlement behavior in local mode.",
+    "acceptance_tests": [
+      "no forbidden APIs in generated v75 pages",
+      "boundary text visible",
+      "token claims remain non-investment"
+    ],
+    "promotion_rule": "No deployment claim if boundary fails."
+  },
+  {
+    "job_id": "agi-job-v75-004",
+    "title": "Prepare ProofBundle return package",
+    "worker_role": "ProofBundle engineer",
+    "validator_role": "ProofBundle validator",
+    "why_needed": "AGI Jobs require return evidence before Chronicle promotion.",
+    "acceptance_tests": [
+      "template includes replay_result",
+      "template includes validator_verdict",
+      "promotion remains HOLD if missing"
+    ],
+    "promotion_rule": "No Chronicle promotion unless replay and validation pass."
+  },
+  {
+    "job_id": "agi-job-v75-005",
+    "title": "Create external replay reviewer room",
+    "worker_role": "Reviewer packet builder",
+    "validator_role": "Independent reviewer",
+    "why_needed": "Holy Grail candidate framing must move toward public evidence, not only narrative.",
+    "acceptance_tests": [
+      "review checklist present",
+      "falsification questions present",
+      "Evidence Docket pointer present"
+    ],
+    "promotion_rule": "No external validation claim without reviewer evidence."
+  }
+]

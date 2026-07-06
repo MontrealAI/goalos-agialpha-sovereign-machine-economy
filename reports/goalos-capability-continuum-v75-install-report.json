@@ -1,0 +1,124 @@
+{
+  "version": "goalos.incremental.capability-continuum.v75.install",
+  "generated_at": "2026-07-06T12:50:47.473692+00:00",
+  "run_id": "28792787699",
+  "repository": "MontrealAI/goalos-agialpha-sovereign-machine-economy",
+  "installed": [
+    "public/capability-continuum-v75.html",
+    "public/goalos-product-lineage-v75.html",
+    "public/objective-diversity-lab-v75.html",
+    "public/proof-debt-job-router-v75.html",
+    "public/agijobmanager-bridge-room-v75.html",
+    "public/proofbundle-import-validator-v75.html",
+    "public/evidence-docket-61-dashboard-v75.html",
+    "public/rsi-governance-move37-v75.html",
+    "public/alpha-work-unit-settlement-v75.html",
+    "public/external-reviewer-replay-v75.html",
+    "public/release-bundle-vault-v75.html",
+    "public/now-we-prove-it-v75.html",
+    "public/goalos-capability-continuum-v75-index.json",
+    "content/goalos-capability-continuum-v75/site_layer_manifest.json",
+    "public/capability-continuum-v75-search-index.json",
+    "evidence/proof-run-001-v75/mission-contract.json",
+    "evidence/proof-run-001-v75/proof-debt-register.json",
+    "evidence/proof-run-001-v75/agi-job-queue.json",
+    "evidence/proof-run-001-v75/proofbundle-template.json",
+    "evidence/proof-run-001-v75/evidence-docket-61.json",
+    "evidence/proof-run-001-v75/capability-promotion-gate.json",
+    "evidence/proof-run-001-v75/release-bundle-manifest.json",
+    "evidence/proof-run-001-v75/validation-report.json",
+    "examples/objective-diversity-v75/ai-vendor-trust-room/mission-summary.json",
+    "examples/objective-diversity-v75/solar-hospital-microgrid/mission-summary.json",
+    "schemas/goalos-v75/agijob.schema.json",
+    "schemas/goalos-v75/proofbundle.schema.json",
+    "schemas/goalos-v75/evidence-docket-61.schema.json",
+    "schemas/goalos-v75/release-bundle.schema.json",
+    "docs/capability-continuum-v75/README.md",
+    "docs/capability-continuum-v75/PROOF_DEBT_TO_AGIJOBS.md",
+    "docs/capability-continuum-v75/OBJECTIVE_DIVERSITY_STANDARD.md",
+    "docs/capability-continuum-v75/AGIJOBMANAGER_BOUNDARY.md",
+    "docs/capability-continuum-v75/PROOFBUNDLE_RETURN_GATE.md",
+    "docs/capability-continuum-v75/EVIDENCE_DOCKET_61_PUBLIC_ROOM.md",
+    "docs/capability-continuum-v75/RSI_MOVE37_GATE.md",
+    "docs/capability-continuum-v75/ALPHA_WORK_UNIT_THERMOSTAT.md",
+    "docs/capability-continuum-v75/EXTERNAL_REPLAY_REVIEWER_ROOM.md",
+    "docs/capability-continuum-v75/NOW_WE_PROVE_IT.md",
+    "docs/capability-continuum-v75/AUTONOMOUS_PUBLICATION_RULE.md",
+    "public/capability-continuum-v75-readme.md"
+  ],
+  "copied": [
+    "public/downloads/goalos-release-bundles-v75/goalos-v34-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v35-dynamic-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v36-production-final-dynamic-autonomous-proof-gated-open-ended-work-machine-customer-download-1-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v37-ascension-dynamic-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v37-complete-standalone-product-console-everything-bundle-1-.zip",
+    "public/downloads/goalos-release-bundles-v75/goalos-v38-production-final-correctness-verified-standalone-product-console-everything-bundle-2-.zip"
+  ],
+  "patched": [
+    "public/index.html",
+    "public/goalos.html",
+    "public/goalos-product-console.html",
+    "public/all-pages.html",
+    "public/site-map.html"
+  ],
+  "skipped": [],
+  "pages": [
+    "capability-continuum-v75.html",
+    "goalos-product-lineage-v75.html",
+    "objective-diversity-lab-v75.html",
+    "proof-debt-job-router-v75.html",
+    "agijobmanager-bridge-room-v75.html",
+    "proofbundle-import-validator-v75.html",
+    "evidence-docket-61-dashboard-v75.html",
+    "rsi-governance-move37-v75.html",
+    "alpha-work-unit-settlement-v75.html",
+    "external-reviewer-replay-v75.html",
+    "release-bundle-vault-v75.html",
+    "now-we-prove-it-v75.html"
+  ],
+  "bundles": [
+    {
+      "file": "goalos-v34-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle(2).zip",
+      "safe_name": "goalos-v34-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+      "sha256": "a3cb92c840d303c3003a178be677aebf70b139cc3fbee684f0bf8b1ca444c7f3",
+      "bytes": 588911,
+      "human_size_kb": 575.1
+    },
+    {
+      "file": "goalos-v35-dynamic-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle(2).zip",
+      "safe_name": "goalos-v35-dynamic-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+      "sha256": "4d2ab157da605d3a5ab6b7c0472846c115b68fa6807b81563f03fd99847a60e4",
+      "bytes": 558847,
+      "human_size_kb": 545.7
+    },
+    {
+      "file": "goalos-v36-production-final-dynamic-autonomous-proof-gated-open-ended-work-machine-customer-download(1)(2).zip",
+      "safe_name": "goalos-v36-production-final-dynamic-autonomous-proof-gated-open-ended-work-machine-customer-download-1-2-.zip",
+      "sha256": "1f07a87c3867f39008d7ca6d83da8e1096b88f340f0bbdec6dc3599a799febd1",
+      "bytes": 623168,
+      "human_size_kb": 608.6
+    },
+    {
+      "file": "goalos-v37-ascension-dynamic-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle(2).zip",
+      "safe_name": "goalos-v37-ascension-dynamic-production-final-autonomous-proof-gated-open-ended-work-machine-everything-bundle-2-.zip",
+      "sha256": "290dc18686c9b699c72df4990371d821cf9e5202fc2e912251aebfcc4f5493af",
+      "bytes": 217078,
+      "human_size_kb": 212.0
+    },
+    {
+      "file": "goalos-v37-complete-standalone-product-console-everything-bundle(1).zip",
+      "safe_name": "goalos-v37-complete-standalone-product-console-everything-bundle-1-.zip",
+      "sha256": "2bae66c90e0acca2861c1e21fa8e24445b938fdc26b79c74606a19a79a5d48e0",
+      "bytes": 135934,
+      "human_size_kb": 132.7
+    },
+    {
+      "file": "goalos-v38-production-final-correctness-verified-standalone-product-console-everything-bundle(2).zip",
+      "safe_name": "goalos-v38-production-final-correctness-verified-standalone-product-console-everything-bundle-2-.zip",
+      "sha256": "f07481e3522cf7b45b95fd067f085b17e1190c00ba08c7f9f8d80e2f9e77c1da",
+      "bytes": 257803,
+      "human_size_kb": 251.8
+    }
+  ],
+  "boundary": "Additive; no backend, no wallet, no transaction, no user funds, no live settlement; no achieved AGI/ASI or empirical SOTA claim."
+}

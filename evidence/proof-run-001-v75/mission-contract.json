@@ -1,0 +1,26 @@
+{
+  "id": "goalos-proof-run-001-v75",
+  "version": "goalos.v75",
+  "created_at": "2026-07-06T12:50:47.473692+00:00",
+  "objective": "Prepare GoalOS Proof Run 001 by publishing a claim-bounded capability continuum, release bundle vault, proof-debt-to-AGI-Jobs router, ProofBundle return gate, Evidence Docket 6.1 room, RSI/Move-37 gate, and external replay room.",
+  "decision_to_support": "Can the public site move from architecture narrative to first public evidence-producing run without overclaiming?",
+  "success_criteria": [
+    "Required pages exist",
+    "Release bundles copied and hashed",
+    "Proof debt converted to AGI Jobs",
+    "Evidence Docket scaffold present",
+    "Capability Promotion Gate remains HOLD until replay and validation pass",
+    "Claim boundary visible"
+  ],
+  "constraints": [
+    "additive only",
+    "no deletion",
+    "no backend",
+    "no wallet",
+    "no transaction",
+    "no user funds",
+    "no live settlement",
+    "human review required for high-impact outcomes"
+  ],
+  "done_condition": "public-safe Proof Run 001 scaffolding and audit report generated"
+}
