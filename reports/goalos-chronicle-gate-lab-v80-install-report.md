@@ -1,8 +1,11 @@
 # GoalOS Chronicle Gate Lab v80 install report
 
-Installed at: `2026-07-06T13:01:12Z`
+Installed at: `2026-07-06T13:02:39Z`
 
 ## Added or refreshed
+- `public/goalos-chronicle-gate-lab-v80-index.json`
+
+## Skipped existing files
 - `public/chronicle-gate-lab-v80.html`
 - `public/goalos-chronicle-gate-lab-v80-index.json`
 - `issue-bodies/goalos-chronicle-gate-lab-v80.md`
@@ -20,15 +23,8 @@ Installed at: `2026-07-06T13:01:12Z`
 - `schemas/goalos-v80/chronicle-gate-state.schema.json`
 - `examples/chronicle-gate-lab-v80/demo-state-transition.json`
 
-## Skipped existing files
-- none
-
 ## Patched pages
-- `public/index.html`
-- `public/goalos.html`
-- `public/all-pages.html`
-- `public/site-map.html`
-- `public/evidence.html`
+- none
 
 ## Boundary
 No backend, no wallet, no transaction, no user funds, no live settlement, no achieved AGI/ASI, no empirical SOTA, no certification, no guaranteed ROI, no autonomous production authority.

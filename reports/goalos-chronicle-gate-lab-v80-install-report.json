@@ -1,7 +1,10 @@
 {
   "version": "v80",
-  "installed_at": "2026-07-06T13:01:12Z",
+  "installed_at": "2026-07-06T13:02:39Z",
   "added_or_refreshed": [
+    "public/goalos-chronicle-gate-lab-v80-index.json"
+  ],
+  "skipped_existing": [
     "public/chronicle-gate-lab-v80.html",
     "public/goalos-chronicle-gate-lab-v80-index.json",
     "issue-bodies/goalos-chronicle-gate-lab-v80.md",
@@ -19,14 +22,7 @@
     "schemas/goalos-v80/chronicle-gate-state.schema.json",
     "examples/chronicle-gate-lab-v80/demo-state-transition.json"
   ],
-  "skipped_existing": [],
-  "patched_pages": [
-    "public/index.html",
-    "public/goalos.html",
-    "public/all-pages.html",
-    "public/site-map.html",
-    "public/evidence.html"
-  ],
+  "patched_pages": [],
   "allow_overwrite": false,
   "principle": "Only validated results can enter Chronicle memory or influence future missions.",
   "claim_boundary": "Public-alpha architectural interface; no AGI/ASI/SOTA/certification/ROI/live-settlement claim."
