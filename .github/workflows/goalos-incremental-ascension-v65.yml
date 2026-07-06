@@ -1,0 +1,191 @@
+name: GoalOS Incremental Ascension Autopilot v65
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to the incremental GoalOS pack zip"
+        required: true
+        default: ".goalos/packs/goalos-incremental-ascension-v65-pack.zip"
+      publication_mode:
+        description: "direct_commit is one-run autonomous; pull_request is safest for human review; audit_only changes nothing."
+        required: true
+        default: "direct_commit"
+        type: choice
+        options:
+          - direct_commit
+          - pull_request
+          - audit_only
+      allow_overwrite:
+        description: "Normally false. Existing unmanaged files are preserved."
+        required: true
+        default: false
+        type: boolean
+      update_nav:
+        description: "Add an incremental navigation block to key existing pages."
+        required: true
+        default: true
+        type: boolean
+      patch_existing_pages:
+        description: "Patch only inside explicit markers or append a new marked block. Never delete."
+        required: true
+        default: true
+        type: boolean
+      deploy_pages:
+        description: "Deploy the public/ folder to GitHub Pages after a direct commit."
+        required: true
+        default: true
+        type: boolean
+      create_issue:
+        description: "Create a GitHub issue with the install/audit summary."
+        required: true
+        default: true
+        type: boolean
+      fail_on_audit_error:
+        description: "Fail the workflow if the audit finds missing files or boundary violations."
+        required: true
+        default: true
+        type: boolean
+
+concurrency:
+  group: goalos-incremental-ascension-v65-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  integrate:
+    name: Install incremental GoalOS capabilities
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    outputs:
+      changes_detected: ${{ steps.diff.outputs.changes_detected }}
+      deploy_ready: ${{ steps.deployflag.outputs.deploy_ready }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate pack exists
+        run: |
+          test -f "${{ github.event.inputs.pack_path }}" || (echo "Pack not found: ${{ github.event.inputs.pack_path }}" && exit 1)
+
+      - name: Unpack incremental GoalOS pack
+        run: |
+          set -euo pipefail
+          rm -rf "$RUNNER_TEMP/goalos-incremental-ascension-v65"
+          mkdir -p "$RUNNER_TEMP/goalos-incremental-ascension-v65"
+          unzip -q "${{ github.event.inputs.pack_path }}" -d "$RUNNER_TEMP/goalos-incremental-ascension-v65"
+
+      - name: Install additive capabilities
+        if: ${{ github.event.inputs.publication_mode != 'audit_only' }}
+        env:
+          ALLOW_OVERWRITE: ${{ github.event.inputs.allow_overwrite }}
+          UPDATE_NAV: ${{ github.event.inputs.update_nav }}
+          PATCH_EXISTING_PAGES: ${{ github.event.inputs.patch_existing_pages }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: python "$RUNNER_TEMP/goalos-incremental-ascension-v65/scripts/install_goalos_incremental_ascension.py"
+
+      - name: Audit incremental capabilities
+        env:
+          FAIL_ON_AUDIT_ERROR: ${{ github.event.inputs.fail_on_audit_error }}
+        run: python "$RUNNER_TEMP/goalos-incremental-ascension-v65/scripts/audit_goalos_incremental_ascension.py"
+
+      - name: Build Pages artifact from public/
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          cp -a public/. _site/
+          touch _site/.nojekyll
+
+      - name: Upload install and audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: goalos-incremental-ascension-v65-reports
+          path: |
+            reports/goalos-incremental-ascension-v65-*.json
+            reports/goalos-incremental-ascension-v65-*.md
+          if-no-files-found: warn
+
+      - name: Detect repository changes
+        id: diff
+        run: |
+          if git status --porcelain | grep .; then
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit changes directly
+        if: ${{ github.event.inputs.publication_mode == 'direct_commit' && steps.diff.outputs.changes_detected == 'true' }}
+        run: |
+          git config user.name "goalos-incremental-ascension[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs evidence examples schemas content reports || true
+          git commit -m "Add GoalOS Incremental Ascension v65 capabilities"
+          git push
+
+      - name: Open human-review pull request
+        if: ${{ github.event.inputs.publication_mode == 'pull_request' && steps.diff.outputs.changes_detected == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          BRANCH="autopilot/goalos-incremental-ascension-v65-${GITHUB_RUN_ID}"
+          git config user.name "goalos-incremental-ascension[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add public docs evidence examples schemas content reports || true
+          git commit -m "Add GoalOS Incremental Ascension v65 capabilities"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create --base "${GITHUB_REF_NAME}" --head "$BRANCH" --title "GoalOS Incremental Ascension v65" --body-file reports/goalos-incremental-ascension-v65-install-report.md
+
+      - name: Create install/audit issue
+        if: ${{ github.event.inputs.create_issue == 'true' && github.event.inputs.publication_mode != 'audit_only' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --title "GoalOS Incremental Ascension v65 install/audit summary" --body-file reports/goalos-incremental-ascension-v65-audit-report.md || true
+
+      - name: Set deploy flag
+        id: deployflag
+        run: |
+          if [ "${{ github.event.inputs.deploy_pages }}" = "true" ] && [ "${{ github.event.inputs.publication_mode }}" = "direct_commit" ]; then
+            echo "deploy_ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy_ready=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload Pages artifact
+        if: ${{ steps.deployflag.outputs.deploy_ready == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: integrate
+    if: ${{ needs.integrate.outputs.deploy_ready == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
