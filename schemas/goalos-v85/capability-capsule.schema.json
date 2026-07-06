@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS v85 Capability Capsule",
+  "type": "object",
+  "required": [
+    "capsule_id",
+    "status",
+    "source_agent",
+    "propagation_rule"
+  ],
+  "properties": {
+    "capsule_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "QUARANTINE",
+        "CHRONICLE_CANDIDATE",
+        "ACTIVE_BOUNDED"
+      ]
+    },
+    "source_agent": {
+      "type": "string"
+    },
+    "propagation_rule": {
+      "type": "string"
+    },
+    "rollback_ready": {
+      "type": "boolean"
+    }
+  }
+}

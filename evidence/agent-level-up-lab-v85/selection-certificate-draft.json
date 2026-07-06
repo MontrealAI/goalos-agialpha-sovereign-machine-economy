@@ -1,0 +1,13 @@
+{
+  "selection_certificate_id": "selection-agent-level-up-v85-draft",
+  "decision": "candidate if proof gates pass, hold otherwise",
+  "gates": [
+    "ProofValid",
+    "EvalPass",
+    "RiskWithinBoundary",
+    "RollbackReady",
+    "ScopeAuthorized",
+    "ChallengeWindowCleared"
+  ],
+  "claim_boundary": "draft demo certificate only"
+}

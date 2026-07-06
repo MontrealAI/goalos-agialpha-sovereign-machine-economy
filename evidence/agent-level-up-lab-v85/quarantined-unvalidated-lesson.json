@@ -1,0 +1,7 @@
+{
+  "lesson_id": "lesson-quarantined-v85-sample",
+  "status": "QUARANTINE",
+  "reason": "Replay or validator verdict missing.",
+  "network_effect": "No agent level-up.",
+  "future_mission_influence": "blocked"
+}

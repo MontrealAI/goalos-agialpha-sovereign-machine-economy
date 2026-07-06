@@ -1,0 +1,12 @@
+{
+  "event_id": "level-up-event-v85-sample",
+  "source_agent": "Researcher",
+  "target_agents": "all registered agents",
+  "proof_required": [
+    "ProofBundle",
+    "replay_result",
+    "validator_verdict",
+    "Evidence Docket update"
+  ],
+  "chronicle_rule": "No validation, no Chronicle memory. No Chronicle memory, no future mission influence."
+}

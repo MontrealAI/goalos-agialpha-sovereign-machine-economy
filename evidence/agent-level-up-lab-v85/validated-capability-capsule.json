@@ -1,0 +1,13 @@
+{
+  "capsule_id": "cap-agent-level-up-v85-sample",
+  "status": "CHRONICLE_CANDIDATE",
+  "source_agent": "Researcher",
+  "accepted_by": [
+    "Replay Gate",
+    "Validator Gate",
+    "Evidence Docket Gate"
+  ],
+  "propagation_rule": "All agents receive bounded capability update only after gate pass.",
+  "rollback_ready": true,
+  "future_mission_influence": "allowed in bounded public-alpha demo scope"
+}

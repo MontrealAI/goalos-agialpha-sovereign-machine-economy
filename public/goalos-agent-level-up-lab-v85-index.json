@@ -1,0 +1,23 @@
+{
+  "id": "goalos-agent-level-up-lab-v85",
+  "title": "GoalOS Agent Level-Up Lab v85",
+  "route": "agent-level-up-lab-v85.html",
+  "tagline": "One Agent learns. All Agents level up \u2014 only after validated capability propagation.",
+  "capabilities": [
+    "interactive agent network",
+    "proof gate funnel",
+    "skill heatmap",
+    "future mission influence graph",
+    "local artifact workbench",
+    "ProofBundle / Evidence Docket / Chronicle demonstration"
+  ],
+  "boundaries": [
+    "no backend",
+    "no wallet",
+    "no transaction",
+    "no user funds",
+    "no live settlement",
+    "no achieved AGI/ASI claim",
+    "no empirical SOTA claim"
+  ]
+}

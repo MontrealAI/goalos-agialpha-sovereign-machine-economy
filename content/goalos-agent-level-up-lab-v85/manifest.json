@@ -1,0 +1,23 @@
+{
+  "version": "v85",
+  "name": "GoalOS Agent Level-Up Lab",
+  "route": "/agent-level-up-lab-v85.html",
+  "doctrine": "One Agent learns. All Agents level up only after validated capability propagation.",
+  "pipeline": [
+    "Draft lesson",
+    "Proof Debt",
+    "AGI Jobs",
+    "ProofBundle",
+    "Replay",
+    "Validator Verdict",
+    "Evidence Docket",
+    "Chronicle",
+    "Future Mission Influence"
+  ],
+  "generated_files": [
+    "public/agent-level-up-lab-v85.html",
+    "docs/agent-level-up-lab-v85/*",
+    "evidence/agent-level-up-lab-v85/*",
+    "schemas/goalos-v85/*"
+  ]
+}

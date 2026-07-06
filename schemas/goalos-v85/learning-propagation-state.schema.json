@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS v85 Learning Propagation State",
+  "type": "object",
+  "required": [
+    "run_id",
+    "objective",
+    "gates",
+    "agents",
+    "jobs"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "gates": {
+      "type": "object"
+    },
+    "agents": {
+      "type": "object"
+    },
+    "jobs": {
+      "type": "array"
+    }
+  }
+}

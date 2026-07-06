@@ -1,0 +1,36 @@
+{
+  "id": "evidence-docket-61-agent-level-up-v85",
+  "title": "Evidence Docket 6.1 \u2014 Agent Level-Up Lab",
+  "objective": "Demonstrate how a validated lesson from one agent becomes bounded Chronicle memory for all agents.",
+  "claims_matrix": [
+    {
+      "claim": "A single agent can propose a reusable lesson.",
+      "status": "supported structurally",
+      "evidence": "interactive demo state and learning-event artifact"
+    },
+    {
+      "claim": "All agents can use the lesson only after validation.",
+      "status": "gated",
+      "evidence": "ProofBundle, replay_result, validator_verdict, Chronicle candidate"
+    },
+    {
+      "claim": "Unvalidated lessons cannot influence future missions.",
+      "status": "demonstrated by quarantine path",
+      "evidence": "missing replay and rejected verdict simulations"
+    }
+  ],
+  "proof_debt_register": [
+    "Need replay result",
+    "Need validator verdict",
+    "Need scope-limited Chronicle entry",
+    "Need rollback boundary"
+  ],
+  "blocked_claims_register": [
+    "achieved AGI",
+    "empirical SOTA",
+    "external validation completed",
+    "live settlement completed"
+  ],
+  "public_private_boundary": "Public page shows proof state and public-safe artifacts only; private traces and sensitive context remain out of public pages.",
+  "claim_boundary": "Public-alpha interface. Strong claims require real proof runs, baselines, replay logs, validator reports, delayed outcomes, and independent review."
+}
