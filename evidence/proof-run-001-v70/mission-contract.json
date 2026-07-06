@@ -1,0 +1,32 @@
+{
+  "id": "proof-run-001-v70",
+  "version": "goalos.proof_run_001.v70",
+  "created_at": "2026-07-06T03:10:58Z",
+  "objective": "Evaluate whether GoalOS can turn a high-stakes objective into proof-gated open-ended work that is reviewer-ready, evidence-docketed, and held until replay and validation pass.",
+  "decision_to_support": "Whether GoalOS can publicly demonstrate the proof path without overclaiming achieved AGI or live settlement.",
+  "success_criteria": [
+    "Mission Contract exists",
+    "Proof Debt Register exists",
+    "AGI Jobs are generated",
+    "ProofBundle template exists",
+    "Evidence Docket 6.1 exists",
+    "External replay path exists",
+    "Claim boundary remains visible"
+  ],
+  "failure_criteria": [
+    "Unsupported claims promoted",
+    "No replay path",
+    "No validator/reviewer route",
+    "Wallet or transaction behavior implied in local mode",
+    "Existing site content deleted"
+  ],
+  "constraints": [
+    "public-alpha",
+    "no backend",
+    "no wallet in local mode",
+    "no transaction in local mode",
+    "human review required",
+    "no achieved AGI/ASI claim"
+  ],
+  "done_condition": "human-review-ready proof package emitted and promotion held until ProofBundles/replay/validation return"
+}

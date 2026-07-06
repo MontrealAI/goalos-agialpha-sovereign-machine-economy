@@ -1,0 +1,74 @@
+{
+  "version": "goalos.proof_run_001.v70",
+  "managed_by": "goalos-proof-run-001-v70",
+  "generated_at": "2026-07-06T03:10:58Z",
+  "repository": "MontrealAI/goalos-agialpha-sovereign-machine-economy",
+  "source_sha": "aa2848b0e78c2c356a8184df8892b4facb3697b5",
+  "pages": [
+    {
+      "title": "Proof Run 001 Command Center",
+      "slug": "proof-run-001-command-center-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proof-run-001-command-center-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "Evidence Docket 6.1 Public Room",
+      "slug": "evidence-docket-61-public-room-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/evidence-docket-61-public-room-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "Proof Debt to AGI Jobs Dispatch Rail",
+      "slug": "agijobs-dispatch-rail-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agijobs-dispatch-rail-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "ProofBundle Return Gate",
+      "slug": "proofbundle-return-gate-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/proofbundle-return-gate-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "Verified Experience Chronicle",
+      "slug": "chronicle-capability-library-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/chronicle-capability-library-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "$AGIALPHA Proof Economy Thermostat",
+      "slug": "agialpha-settlement-thermostat-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/agialpha-settlement-thermostat-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "External Replay and Reviewer Room",
+      "slug": "external-replay-reviewer-room-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/external-replay-reviewer-room-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "RSI Move-37 Dossier Gate",
+      "slug": "rsi-move37-dossier-gate-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/rsi-move37-dossier-gate-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "Autonomous Publication Health Room",
+      "slug": "autonomous-publication-health-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/autonomous-publication-health-v70.html",
+      "public_safe": true
+    },
+    {
+      "title": "Now We Prove It",
+      "slug": "now-we-prove-it-v70.html",
+      "url": "https://montrealai.github.io/goalos-agialpha-sovereign-machine-economy/now-we-prove-it-v70.html",
+      "public_safe": true
+    }
+  ],
+  "boundaries": {
+    "claim_boundary": "Public-alpha claim boundary: this page does not claim achieved AGI, does not claim achieved ASI, does not claim empirical SOTA, does not claim legal/security/compliance certification, does not claim guaranteed ROI, does not claim live settlement in local mode, does not claim wallet execution, does not claim user-fund handling, does not claim autonomous production authorization, and does not claim completed external validation. Stronger claims require real Proof Runs, returned ProofBundles, replay logs, validator reports, cost/risk ledgers, delayed outcomes, and independent review.",
+    "local_boundary": "Local/website boundary: no backend, no wallet, no transaction, no user funds, no live settlement, no private intelligence on-chain, and human review required for high-impact outcomes.",
+    "settlement_boundary": "Local GoalOS prepares job specs and proof artifacts only. Live posting, escrow, validation, disputes, and settlement require a separate human-confirmed dApp boundary."
+  }
+}

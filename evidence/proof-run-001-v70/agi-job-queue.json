@@ -1,0 +1,93 @@
+[
+  {
+    "job_id": "agi-job-001",
+    "title": "Compile Proof Run 001 mission contract and claims matrix",
+    "worker_role": "Planner Agent",
+    "validator_role": "AGI Node Validator / Human Reviewer",
+    "sentinel_role": "AGI Node Sentinel",
+    "why_needed": "The public proof loop needs a bounded objective and success/failure tests before work begins.",
+    "acceptance_tests": [
+      "Mission Contract present",
+      "Claims matrix present",
+      "Claim boundary present"
+    ],
+    "required_outputs": [
+      "mission-contract.json",
+      "claims-matrix.md"
+    ],
+    "promotion_rule": "No Chronicle promotion unless replay and validation pass."
+  },
+  {
+    "job_id": "agi-job-002",
+    "title": "Convert proof debt into executable AGI Jobs",
+    "worker_role": "Evidence Docket Agent",
+    "validator_role": "AGI Node Validator / Human Reviewer",
+    "sentinel_role": "AGI Node Sentinel",
+    "why_needed": "Missing evidence must become executable work, not vague uncertainty.",
+    "acceptance_tests": [
+      "Each proof debt item links to a job",
+      "Each job has acceptance tests",
+      "Each job has ProofBundle return template"
+    ],
+    "required_outputs": [
+      "proof-debt-register.json",
+      "agi-job-queue.json"
+    ],
+    "promotion_rule": "No ProofBundle, no settlement."
+  },
+  {
+    "job_id": "agi-job-003",
+    "title": "Prepare ProofBundle return and replay validator packet",
+    "worker_role": "Verifier Agent",
+    "validator_role": "External Reviewer",
+    "sentinel_role": "AGI Node Sentinel",
+    "why_needed": "Returned work must contain evidence sufficient to update the Evidence Docket.",
+    "acceptance_tests": [
+      "ProofBundle schema present",
+      "replay_result field required",
+      "validator_verdict field required"
+    ],
+    "required_outputs": [
+      "proofbundle-template.json",
+      "reviewer-report-template.md"
+    ],
+    "promotion_rule": "Missing replay_result or validator_verdict keeps gate HOLD."
+  },
+  {
+    "job_id": "agi-job-004",
+    "title": "Model $AGIALPHA settlement thermostat without live transactions",
+    "worker_role": "Value Accountant Agent",
+    "validator_role": "Protocol Reviewer",
+    "sentinel_role": "Token Boundary Sentinel",
+    "why_needed": "The economic rail should respond to proof quality without implying investment returns or live local settlement.",
+    "acceptance_tests": [
+      "Utility boundary visible",
+      "No wallet local mode",
+      "No user funds",
+      "Simulation only"
+    ],
+    "required_outputs": [
+      "settlement-thermostat.json",
+      "token-boundary.md"
+    ],
+    "promotion_rule": "Live settlement remains separated and human-confirmed."
+  },
+  {
+    "job_id": "agi-job-005",
+    "title": "Create external replay and falsification packet",
+    "worker_role": "Reviewer Room Agent",
+    "validator_role": "External Reviewer",
+    "sentinel_role": "Claim Boundary Sentinel",
+    "why_needed": "The proof run must be challengeable, replayable, and falsifiable.",
+    "acceptance_tests": [
+      "Replay instructions present",
+      "Honesty box present",
+      "What would falsify this documented"
+    ],
+    "required_outputs": [
+      "external-replay-room.md",
+      "falsification-tests.md"
+    ],
+    "promotion_rule": "No external validation claim without reviewer evidence."
+  }
+]

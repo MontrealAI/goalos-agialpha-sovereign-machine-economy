@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS ProofBundle v70",
+  "type": "object",
+  "required": [
+    "version",
+    "job_id",
+    "job_spec_uri",
+    "objective",
+    "acceptance_tests",
+    "replay_result",
+    "validator_verdict",
+    "claim_boundary",
+    "created_at"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "job_spec_uri": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "acceptance_tests": {
+      "type": "array"
+    },
+    "replay_result": {
+      "type": "string"
+    },
+    "validator_verdict": {
+      "type": "string"
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

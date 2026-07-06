@@ -1,0 +1,21 @@
+{
+  "mode": "simulation_only_local_boundary",
+  "token_boundary": "$AGIALPHA described only as a utility/control rail, not equity or investment claim.",
+  "signals": [
+    "proof_quality",
+    "false_acceptance_rate",
+    "replay_failure_rate",
+    "validator_latency",
+    "risk_class",
+    "external_validation_status"
+  ],
+  "actuators": [
+    "mission_budget",
+    "validator_quorum",
+    "proof_bond",
+    "challenge_window",
+    "slashing_parameter",
+    "reinvestment_queue"
+  ],
+  "live_actions": "none in local/website mode"
+}

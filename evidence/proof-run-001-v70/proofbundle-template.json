@@ -1,0 +1,26 @@
+{
+  "version": "goalos.proofbundle.v70",
+  "job_id": "agi-job-001",
+  "job_spec_uri": "local://evidence/proof-run-001-v70/agijobs_queue.json#agi-job-001",
+  "job_completion_uri": "local://proofbundles/proof-run-001-v70/agi-job-001-completion.json",
+  "objective": "Evaluate whether GoalOS can turn a high-stakes objective into proof-gated open-ended work that is reviewer-ready, evidence-docketed, and held until replay and validation pass.",
+  "acceptance_tests": [
+    "mission contract exists",
+    "proof debt register exists",
+    "evidence docket exists"
+  ],
+  "policy_context": {
+    "claim_boundary": "public-alpha",
+    "local_mode": "no backend, no wallet, no transaction"
+  },
+  "inputs": [],
+  "outputs": [],
+  "output_hashes_or_artifact_pointers": [],
+  "logs_or_trace_summary": "required before promotion",
+  "replay_result": "required: pass | fail | not-run",
+  "validator_verdict": "required: approved | needs-review | rejected",
+  "claim_boundary": "Public-alpha claim boundary: this page does not claim achieved AGI, does not claim achieved ASI, does not claim empirical SOTA, does not claim legal/security/compliance certification, does not claim guaranteed ROI, does not claim live settlement in local mode, does not claim wallet execution, does not claim user-fund handling, does not claim autonomous production authorization, and does not claim completed external validation. Stronger claims require real Proof Runs, returned ProofBundles, replay logs, validator reports, cost/risk ledgers, delayed outcomes, and independent review.",
+  "risk_ledger": [],
+  "worker_signature_or_attestation": "required",
+  "created_at": "2026-07-06T03:10:58Z"
+}

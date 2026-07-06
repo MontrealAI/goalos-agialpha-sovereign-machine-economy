@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pd-001",
+    "claim": "GoalOS can compile objectives into mission contracts and evidence dockets.",
+    "missing_evidence": "First public mission run with generated artifacts and QA report.",
+    "agi_job_id": "agi-job-001"
+  },
+  {
+    "id": "pd-002",
+    "claim": "GoalOS can convert missing evidence into AGI Jobs.",
+    "missing_evidence": "AGI Job queue with acceptance tests, validator route, and ProofBundle templates.",
+    "agi_job_id": "agi-job-002"
+  },
+  {
+    "id": "pd-003",
+    "claim": "GoalOS capability can compound safely.",
+    "missing_evidence": "Returned ProofBundles, replay logs, validator verdicts, and Chronicle promotion gate.",
+    "agi_job_id": "agi-job-003"
+  },
+  {
+    "id": "pd-004",
+    "claim": "$AGIALPHA settlement can respond to proof quality.",
+    "missing_evidence": "Settlement simulation with no wallet/local boundary and no live fund movement.",
+    "agi_job_id": "agi-job-004"
+  },
+  {
+    "id": "pd-005",
+    "claim": "External reviewers can replay the proof path.",
+    "missing_evidence": "Reviewer instructions, honesty box, falsification tests, and replay bundle.",
+    "agi_job_id": "agi-job-005"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "managed_by": "goalos-proof-run-001-v70",
+  "generated_at": "2026-07-06T03:10:58Z",
+  "mission_contract_hash": "652be258115b885cc7e435422b55fc501d093ba77465ffcc6c00295761b96805",
+  "evidence_docket_hash": "43f20ffa10222e9f1f3e74aac8a85897229cad5d59c7ca3dd23001aa037a1f90",
+  "capability_gate": "HOLD_PENDING_PROOFBUNDLES_AND_REVIEW",
+  "pages": [
+    "proof-run-001-command-center-v70.html",
+    "evidence-docket-61-public-room-v70.html",
+    "agijobs-dispatch-rail-v70.html",
+    "proofbundle-return-gate-v70.html",
+    "chronicle-capability-library-v70.html",
+    "agialpha-settlement-thermostat-v70.html",
+    "external-replay-reviewer-room-v70.html",
+    "rsi-move37-dossier-gate-v70.html",
+    "autonomous-publication-health-v70.html",
+    "now-we-prove-it-v70.html"
+  ]
+}

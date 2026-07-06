@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Docket 6.1 v70",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "objective",
+    "claims_matrix",
+    "proof_debt_register",
+    "claim_boundary"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "claims_matrix": {
+      "type": "array"
+    },
+    "proof_debt_register": {
+      "type": "array"
+    },
+    "claim_boundary": {
+      "type": "string"
+    }
+  }
+}

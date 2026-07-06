@@ -1,0 +1,20 @@
+{
+  "gate_id": "capability-promotion-gate-proof-run-001-v70",
+  "status": "HOLD_PENDING_PROOFBUNDLES_AND_REVIEW",
+  "required_before_promotion": [
+    "returned ProofBundles",
+    "replay_result",
+    "validator_verdict",
+    "reviewer report",
+    "cost/risk ledger",
+    "claim boundary pass"
+  ],
+  "forbidden_promotions": [
+    "achieved AGI",
+    "achieved ASI",
+    "empirical SOTA",
+    "live settlement",
+    "guaranteed ROI"
+  ],
+  "rule": "Only validated results can enter Chronicle memory or influence future missions."
+}
