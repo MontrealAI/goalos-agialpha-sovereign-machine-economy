@@ -1,0 +1,163 @@
+name: GoalOS One-Click Autopilot
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to the GoalOS pack ZIP"
+        required: true
+        default: ".goalos/packs/goalos-pack.zip"
+      commit_changes:
+        description: "Commit generated website/docs/evidence back to the repository"
+        required: true
+        default: true
+        type: boolean
+      deploy_pages:
+        description: "Deploy the generated site to GitHub Pages"
+        required: true
+        default: true
+        type: boolean
+      create_issue:
+        description: "Create an issue with the install/audit summary"
+        required: true
+        default: true
+        type: boolean
+      create_release:
+        description: "Create a GitHub Release containing the pack and audit reports"
+        required: true
+        default: false
+        type: boolean
+      release_tag:
+        description: "Release tag if create_release is true"
+        required: true
+        default: "v1.0.0-goalos"
+      allow_overwrite:
+        description: "Normally false. Existing non-GoalOS files are preserved."
+        required: true
+        default: false
+        type: boolean
+      fail_on_audit_error:
+        description: "Fail if required pages, docs, downloads, or boundaries are missing"
+        required: true
+        default: true
+        type: boolean
+
+concurrency:
+  group: goalos-one-click-autopilot-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  install-audit-package:
+    name: Install, audit, package, and upload Pages artifact
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unpack GoalOS pack
+        run: |
+          set -euo pipefail
+          PACK="${{ github.event.inputs.pack_path }}"
+          test -f "$PACK" || (echo "Pack not found: $PACK" && exit 1)
+          rm -rf _goalos_pack
+          mkdir -p _goalos_pack
+          unzip -q "$PACK" -d _goalos_pack
+
+      - name: Install GoalOS website layer additively
+        run: |
+          python _goalos_pack/scripts/install_goalos_pack.py \
+            --repo . \
+            --pack _goalos_pack \
+            --allow-overwrite "${{ github.event.inputs.allow_overwrite }}"
+
+      - name: Audit GoalOS website layer
+        env:
+          GOALOS_FAIL_ON_AUDIT_ERROR: ${{ github.event.inputs.fail_on_audit_error }}
+        run: python _goalos_pack/scripts/audit_goalos_pack.py
+
+      - name: Build GitHub Pages artifact while preserving existing site
+        run: python _goalos_pack/scripts/build_pages_artifact.py
+
+      - name: Upload GoalOS audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: goalos-autopilot-reports
+          path: |
+            reports/goalos-autopilot-install-report.json
+            reports/goalos-autopilot-install-report.md
+            reports/goalos-autopilot-audit-report.json
+            reports/goalos-autopilot-audit-report.md
+            reports/goalos-v38-validation.json
+            reports/goalos-v38-validation.md
+          if-no-files-found: warn
+
+      - name: Commit generated GoalOS files
+        if: ${{ github.event.inputs.commit_changes == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-autopilot[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs evidence examples schemas reports .goalos/autopilot-installed.json || true
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Install GoalOS AGIALPHA autonomous website layer"
+            git push
+          fi
+
+      - name: Create install/audit issue
+        if: ${{ github.event.inputs.create_issue == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "GoalOS One-Click Autopilot install/audit summary" \
+            --body-file reports/goalos-autopilot-audit-report.md || true
+
+      - name: Create optional release
+        if: ${{ github.event.inputs.create_release == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${{ github.event.inputs.release_tag }}" \
+            "${{ github.event.inputs.pack_path }}" \
+            reports/goalos-autopilot-install-report.json \
+            reports/goalos-autopilot-audit-report.json \
+            --title "GoalOS One-Click Autopilot" \
+            --notes-file reports/goalos-autopilot-install-report.md || true
+
+      - name: Upload GitHub Pages artifact
+        if: ${{ github.event.inputs.deploy_pages == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    needs: install-audit-package
+    if: ${{ github.event.inputs.deploy_pages == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
