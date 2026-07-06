@@ -1,0 +1,17 @@
+{
+  "objective": "Evaluate an AI vendor trust room.",
+  "before_valid_proof": {
+    "chronicle_memory": [],
+    "future_mission_influence": [],
+    "gate": "HOLD"
+  },
+  "after_valid_proof": {
+    "chronicle_memory": [
+      "validated evidence map"
+    ],
+    "future_mission_influence": [
+      "proof template and reviewer questions only"
+    ],
+    "gate": "CHRONICLE_CANDIDATE"
+  }
+}

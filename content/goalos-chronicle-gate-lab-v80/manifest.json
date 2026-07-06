@@ -1,0 +1,13 @@
+{
+  "version": "v80",
+  "name": "GoalOS Chronicle Gate Lab",
+  "page": "public/chronicle-gate-lab-v80.html",
+  "docs": [
+    "docs/chronicle-gate-lab-v80/README.md",
+    "docs/chronicle-gate-lab-v80/ARCHITECTURE.md",
+    "docs/chronicle-gate-lab-v80/NON_TECHNICAL_GUIDE.md",
+    "docs/chronicle-gate-lab-v80/CHRONICLE_GATE_STANDARD.md",
+    "docs/chronicle-gate-lab-v80/INTERFACE_AND_CHARTS.md"
+  ],
+  "principle": "Only validated results can enter Chronicle memory or influence future missions."
+}

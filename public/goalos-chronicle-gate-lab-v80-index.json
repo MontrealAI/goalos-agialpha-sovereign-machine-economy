@@ -1,0 +1,22 @@
+{
+  "version": "goalos.chronicle-gate-lab.v80",
+  "title": "GoalOS Chronicle Gate Lab v80",
+  "primary_page": "chronicle-gate-lab-v80.html",
+  "purpose": "Interactive proof firewall demonstrating that only validated ProofBundles can enter Chronicle memory or influence future missions.",
+  "pages": [
+    "chronicle-gate-lab-v80.html"
+  ],
+  "claim_boundary": "Public-alpha architectural interface; no achieved AGI/ASI, empirical SOTA, certification, guaranteed ROI, live settlement, or autonomous production authority claim.",
+  "local_boundary": "No backend, no wallet, no transaction, no user funds, no live settlement in this website interface.",
+  "gates": [
+    "ProofBundle present",
+    "replay_result passed",
+    "validator_verdict approved",
+    "claim boundary preserved",
+    "human review hold recorded"
+  ],
+  "created_by": "GoalOS Chronicle Gate Lab Autopilot v80",
+  "installed_at": "2026-07-06T13:01:12Z",
+  "repository": "MontrealAI/goalos-agialpha-sovereign-machine-economy",
+  "run_id": "28793407148"
+}

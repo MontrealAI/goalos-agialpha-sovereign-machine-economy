@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS ProofBundle Chronicle Gate v80",
+  "type": "object",
+  "required": [
+    "version",
+    "job_id",
+    "job_spec_uri",
+    "objective",
+    "acceptance_tests",
+    "policy_context",
+    "inputs",
+    "outputs",
+    "output_hashes",
+    "logs_or_trace_summary",
+    "replay_result",
+    "validator_verdict",
+    "claim_boundary",
+    "risk_ledger",
+    "worker_signature_or_attestation",
+    "created_at"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "job_spec_uri": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "acceptance_tests": {
+      "type": "array"
+    },
+    "policy_context": {
+      "type": "object"
+    },
+    "inputs": {
+      "type": "array"
+    },
+    "outputs": {
+      "type": "array"
+    },
+    "output_hashes": {
+      "type": "array"
+    },
+    "logs_or_trace_summary": {
+      "type": "string"
+    },
+    "replay_result": {
+      "type": [
+        "object",
+        "string"
+      ]
+    },
+    "validator_verdict": {
+      "type": [
+        "object",
+        "string"
+      ]
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "risk_ledger": {
+      "type": "array"
+    },
+    "worker_signature_or_attestation": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

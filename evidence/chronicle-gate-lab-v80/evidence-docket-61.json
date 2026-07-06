@@ -1,0 +1,26 @@
+{
+  "id": "evidence-docket-chronicle-gate-v80",
+  "title": "Evidence Docket 6.1 \u2014 Chronicle Gate Lab v80",
+  "objective": "Demonstrate that only validated ProofBundles can enter Chronicle memory or influence future missions.",
+  "claims": [
+    {
+      "claim": "The interface blocks Chronicle promotion when replay is missing.",
+      "status": "structurally demonstrated by local validator"
+    },
+    {
+      "claim": "The interface admits a Chronicle candidate when replay and validator verdict pass.",
+      "status": "structurally demonstrated by local validator"
+    },
+    {
+      "claim": "The system is externally validated.",
+      "status": "blocked pending external review"
+    }
+  ],
+  "proof_debt": [
+    "external reviewer replay",
+    "real Proof Run 001 artifact",
+    "delayed outcome record"
+  ],
+  "public_private_boundary": "Public-safe demo only; private intelligence and customer data must remain off-chain/private.",
+  "claim_boundary": "No achieved AGI/ASI, SOTA, certification, ROI, production authority, wallet, transaction, or live-settlement claim."
+}

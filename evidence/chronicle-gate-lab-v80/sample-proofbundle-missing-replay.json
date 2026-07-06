@@ -1,0 +1,37 @@
+{
+  "version": "goalos.proofbundle.v1",
+  "job_id": "agi-job-example-missing-replay",
+  "job_spec_uri": "local://jobs/agi-job-example-valid.json",
+  "objective": "Demonstrate Chronicle admission after replay and validator approval.",
+  "acceptance_tests": [
+    "Evidence artifact exists",
+    "Replay path exists",
+    "Validator verdict recorded"
+  ],
+  "policy_context": {
+    "claim_boundary": "public-alpha; no achieved AGI/ASI claim",
+    "local_mode": true
+  },
+  "inputs": [
+    "sample objective"
+  ],
+  "outputs": [
+    "validated evidence map"
+  ],
+  "output_hashes": [
+    "sha256:example"
+  ],
+  "logs_or_trace_summary": "Replay manifest and validator notes present.",
+  "validator_verdict": {
+    "status": "needs-review"
+  },
+  "claim_boundary": "No AGI/ASI/SOTA/certification/ROI/live-settlement claim.",
+  "risk_ledger": [
+    {
+      "risk": "overclaim",
+      "control": "claim boundary"
+    }
+  ],
+  "worker_signature_or_attestation": "local-demo-attestation",
+  "created_at": "2026-07-06T00:00:00Z"
+}

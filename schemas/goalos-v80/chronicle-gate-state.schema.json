@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Chronicle Gate State v80",
+  "type": "object",
+  "required": [
+    "status",
+    "reason",
+    "rule"
+  ],
+  "properties": {
+    "status": {
+      "enum": [
+        "HOLD",
+        "BLOCKED",
+        "CHRONICLE_CANDIDATE"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "rule": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "selection_certificate_draft": "chronicle-gate-v80",
+  "decision": "HOLD by default; CHRONICLE_CANDIDATE only after valid ProofBundle",
+  "gates": [
+    "ProofBundle present",
+    "replay_result passed",
+    "validator_verdict approved",
+    "claim boundary preserved",
+    "rollback target recorded"
+  ],
+  "rollback_ready": true,
+  "human_review_required": true
+}
