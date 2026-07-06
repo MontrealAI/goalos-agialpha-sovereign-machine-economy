@@ -1,6 +1,6 @@
 # GoalOS Agent Level-Up Lab v85 install report
 
-Installed at: `2026-07-06T13:16:38.307031Z`
+Installed at: `2026-07-06T13:18:03.258677Z`
 
 ## Added capability
 
@@ -11,6 +11,9 @@ One Agent learns. All Agents level up — only after ProofBundle, replay, valida
 `public/agent-level-up-lab-v85.html`
 
 ## Copied files
+- No new files copied.
+
+## Skipped existing files
 - `public/goalos-agent-level-up-lab-v85-index.json`
 - `public/agent-level-up-lab-v85.html`
 - `issue-bodies/goalos-agent-level-up-lab-v85.md`
@@ -29,15 +32,8 @@ One Agent learns. All Agents level up — only after ProofBundle, replay, valida
 - `schemas/goalos-v85/capability-capsule.schema.json`
 - `examples/agent-level-up-lab-v85/demo-propagation-run.json`
 
-## Skipped existing files
-- None
-
 ## Patched pages
-- `public/index.html`
-- `public/goalos.html`
-- `public/site-map.html`
-- `public/all-pages.html`
-- `public/search.html`
+- None
 
 ## Boundary
 

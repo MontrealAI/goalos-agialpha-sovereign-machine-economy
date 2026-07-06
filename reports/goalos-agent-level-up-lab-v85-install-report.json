@@ -1,7 +1,8 @@
 {
   "version": "goalos-agent-level-up-lab-v85",
-  "installed_at": "2026-07-06T13:16:38.307031Z",
-  "copied_files": [
+  "installed_at": "2026-07-06T13:18:03.258677Z",
+  "copied_files": [],
+  "skipped_existing_files": [
     "public/goalos-agent-level-up-lab-v85-index.json",
     "public/agent-level-up-lab-v85.html",
     "issue-bodies/goalos-agent-level-up-lab-v85.md",
@@ -20,14 +21,7 @@
     "schemas/goalos-v85/capability-capsule.schema.json",
     "examples/agent-level-up-lab-v85/demo-propagation-run.json"
   ],
-  "skipped_existing_files": [],
-  "patched_pages": [
-    "public/index.html",
-    "public/goalos.html",
-    "public/site-map.html",
-    "public/all-pages.html",
-    "public/search.html"
-  ],
+  "patched_pages": [],
   "allow_overwrite": false,
   "page": "public/agent-level-up-lab-v85.html",
   "claim_boundary": "public-alpha; no achieved AGI/ASI; no empirical SOTA; no live settlement; no wallet; no user funds"
