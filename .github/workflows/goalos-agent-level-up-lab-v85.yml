@@ -1,0 +1,235 @@
+name: GoalOS Agent Level-Up Lab Autopilot v85
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to the incremental GoalOS Agent Level-Up Lab pack ZIP"
+        required: true
+        default: ".goalos/packs/goalos-agent-level-up-lab-v85-pack.zip"
+      publication_mode:
+        description: "direct_commit does everything; pull_request opens a review PR; audit_only checks only."
+        required: true
+        default: "direct_commit"
+        type: choice
+        options:
+          - direct_commit
+          - pull_request
+          - audit_only
+      deploy_pages:
+        description: "Deploy GitHub Pages after direct_commit."
+        required: true
+        default: true
+        type: boolean
+      create_issue:
+        description: "Create a summary issue with the install/audit report."
+        required: true
+        default: true
+        type: boolean
+      update_navigation:
+        description: "Add safe links to selected existing website pages."
+        required: true
+        default: true
+        type: boolean
+      patch_existing_pages:
+        description: "Append one marked navigation block to existing pages. Never deletes content."
+        required: true
+        default: true
+        type: boolean
+      allow_overwrite:
+        description: "Normally false. Existing unmanaged files are preserved."
+        required: true
+        default: false
+        type: boolean
+      fail_on_audit_error:
+        description: "Fail the run if the audit finds a blocker."
+        required: true
+        default: true
+        type: boolean
+
+concurrency:
+  group: goalos-agent-level-up-lab-v85-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  integrate:
+    name: Install additive GoalOS Agent Level-Up Lab capability
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    outputs:
+      changes_detected: ${{ steps.diff.outputs.changes_detected }}
+      deploy_ready: ${{ steps.deployflag.outputs.deploy_ready }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate pack path
+        env:
+          PACK_PATH: ${{ github.event.inputs.pack_path }}
+        run: |
+          set -euo pipefail
+          test -f "$PACK_PATH" || (echo "Missing pack: $PACK_PATH" && exit 1)
+
+      - name: Unpack incremental capability pack
+        env:
+          PACK_PATH: ${{ github.event.inputs.pack_path }}
+        run: |
+          set -euo pipefail
+          rm -rf .goalos/_agent-level-up-lab-v85-run
+          mkdir -p .goalos/_agent-level-up-lab-v85-run
+          python - <<'PY'
+          import os, zipfile, pathlib
+          pack = pathlib.Path(os.environ['PACK_PATH'])
+          out = pathlib.Path('.goalos/_agent-level-up-lab-v85-run')
+          with zipfile.ZipFile(pack) as z:
+              z.extractall(out)
+          print(f"Unpacked {pack} -> {out}")
+          PY
+
+      - name: Install interactive Agent Level-Up Lab
+        if: ${{ github.event.inputs.publication_mode != 'audit_only' }}
+        env:
+          UPDATE_NAVIGATION: ${{ github.event.inputs.update_navigation }}
+          PATCH_EXISTING_PAGES: ${{ github.event.inputs.patch_existing_pages }}
+          ALLOW_OVERWRITE: ${{ github.event.inputs.allow_overwrite }}
+          GOALOS_REPOSITORY: ${{ github.repository }}
+          GOALOS_RUN_ID: ${{ github.run_id }}
+          GOALOS_SHA: ${{ github.sha }}
+          GOALOS_REF_NAME: ${{ github.ref_name }}
+        run: python .goalos/_agent-level-up-lab-v85-run/install_goalos_agent_level_up_lab_v85.py
+
+      - name: Audit interactive Agent Level-Up Lab
+        env:
+          FAIL_ON_AUDIT_ERROR: ${{ github.event.inputs.fail_on_audit_error }}
+        run: python .goalos/_agent-level-up-lab-v85-run/audit_goalos_agent_level_up_lab_v85.py
+
+      - name: Refuse destructive changes
+        if: ${{ github.event.inputs.publication_mode != 'audit_only' }}
+        run: |
+          set -euo pipefail
+          if git diff --name-status | awk '$1 ~ /^D/ {print; bad=1} END {exit bad ? 1 : 0}'; then
+            echo "No deletions detected."
+          else
+            echo "Destructive deletion detected. This incremental autopilot refuses to proceed."
+            exit 1
+          fi
+
+      - name: Build Pages artifact from public/
+        if: ${{ github.event.inputs.publication_mode != 'audit_only' }}
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+          if [ -d public ]; then
+            cp -a public/. _site/
+          else
+            cp -a . _site/
+          fi
+          touch _site/.nojekyll
+
+      - name: Upload incremental audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: goalos-agent-level-up-lab-v85-audit
+          path: |
+            reports/goalos-agent-level-up-lab-v85-install-report.json
+            reports/goalos-agent-level-up-lab-v85-install-report.md
+            reports/goalos-agent-level-up-lab-v85-audit-report.json
+            reports/goalos-agent-level-up-lab-v85-audit-report.md
+            public/goalos-agent-level-up-lab-v85-index.json
+          if-no-files-found: warn
+
+      - name: Detect generated changes
+        id: diff
+        run: |
+          if git status --porcelain | grep .; then
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+            git status --short
+          else
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit directly to current branch
+        if: ${{ github.event.inputs.publication_mode == 'direct_commit' && steps.diff.outputs.changes_detected == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-agent-level-up-lab[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs evidence examples schemas content reports issue-bodies .nojekyll || true
+          git commit -m "Add GoalOS Agent Level-Up Lab v85"
+          git push
+
+      - name: Open human-review pull request
+        if: ${{ github.event.inputs.publication_mode == 'pull_request' && steps.diff.outputs.changes_detected == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          BRANCH="autopilot/goalos-agent-level-up-lab-v85-${GITHUB_RUN_ID}"
+          git config user.name "goalos-agent-level-up-lab[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add public docs evidence examples schemas content reports issue-bodies .nojekyll || true
+          git commit -m "Add GoalOS Agent Level-Up Lab v85"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create \
+            --base "${GITHUB_REF_NAME}" \
+            --head "$BRANCH" \
+            --title "GoalOS Agent Level-Up Lab v85" \
+            --body-file reports/goalos-agent-level-up-lab-v85-install-report.md
+
+      - name: Create install/audit summary issue
+        if: ${{ github.event.inputs.create_issue == 'true' && github.event.inputs.publication_mode != 'audit_only' && steps.diff.outputs.changes_detected == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "GoalOS Agent Level-Up Lab v85 installed" \
+            --body-file reports/goalos-agent-level-up-lab-v85-install-report.md || true
+
+      - name: Set deploy flag
+        id: deployflag
+        run: |
+          if [ "${{ github.event.inputs.deploy_pages }}" = "true" ] && [ "${{ github.event.inputs.publication_mode }}" = "direct_commit" ]; then
+            echo "deploy_ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy_ready=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload Pages artifact
+        if: ${{ steps.deployflag.outputs.deploy_ready == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: integrate
+    if: ${{ needs.integrate.outputs.deploy_ready == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
