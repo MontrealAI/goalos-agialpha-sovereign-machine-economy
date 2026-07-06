@@ -1,0 +1,207 @@
+name: GoalOS Incremental Proof-Grail Capability Autopilot
+
+on:
+  workflow_dispatch:
+    inputs:
+      pack_path:
+        description: "Path to the incremental GoalOS pack ZIP"
+        required: true
+        default: ".goalos/incremental-packs/goalos-incremental-proof-grail-v1.zip"
+      publication_mode:
+        description: "direct_commit runs end-to-end; pull_request creates a review PR; audit_only does not commit"
+        required: true
+        default: "direct_commit"
+        type: choice
+        options:
+          - direct_commit
+          - pull_request
+          - audit_only
+      deploy_pages:
+        description: "Deploy GitHub Pages after direct_commit"
+        required: true
+        default: true
+        type: boolean
+      create_issue:
+        description: "Create a summary issue with the install/audit report"
+        required: true
+        default: true
+        type: boolean
+      update_navigation:
+        description: "Add safe links to existing home/GoalOS/all-pages surfaces"
+        required: true
+        default: true
+        type: boolean
+      allow_overwrite:
+        description: "Normally false. Existing non-managed files are never overwritten."
+        required: true
+        default: false
+        type: boolean
+      fail_on_audit_error:
+        description: "Fail the workflow if the incremental audit finds a blocker"
+        required: true
+        default: true
+        type: boolean
+
+concurrency:
+  group: goalos-incremental-proof-grail-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  integrate:
+    name: Install additive GoalOS proof-grail capability layer
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    outputs:
+      changes_detected: ${{ steps.diff.outputs.changes_detected }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unpack incremental capability pack
+        env:
+          PACK_PATH: ${{ github.event.inputs.pack_path }}
+        run: |
+          set -euo pipefail
+          test -f "$PACK_PATH"
+          rm -rf .goalos/_incremental-proof-grail-run
+          mkdir -p .goalos/_incremental-proof-grail-run
+          python - <<'PY'
+          import os, zipfile, pathlib
+          pack = pathlib.Path(os.environ['PACK_PATH'])
+          out = pathlib.Path('.goalos/_incremental-proof-grail-run')
+          with zipfile.ZipFile(pack) as z:
+              z.extractall(out)
+          print(f"Unpacked {pack} -> {out}")
+          PY
+
+      - name: Install incremental pages, docs, evidence, and reports
+        env:
+          UPDATE_NAVIGATION: ${{ github.event.inputs.update_navigation }}
+          ALLOW_OVERWRITE: ${{ github.event.inputs.allow_overwrite }}
+          GOALOS_REPOSITORY: ${{ github.repository }}
+          GOALOS_RUN_ID: ${{ github.run_id }}
+          GOALOS_SHA: ${{ github.sha }}
+          GOALOS_REF_NAME: ${{ github.ref_name }}
+        run: python .goalos/_incremental-proof-grail-run/install_incremental_proof_grail.py
+
+      - name: Audit incremental capability layer
+        env:
+          FAIL_ON_AUDIT_ERROR: ${{ github.event.inputs.fail_on_audit_error }}
+        run: python .goalos/_incremental-proof-grail-run/audit_incremental_proof_grail.py
+
+      - name: Refuse destructive changes
+        run: |
+          set -euo pipefail
+          if git diff --name-status | awk '$1 ~ /^D/ {print; bad=1} END {exit bad ? 1 : 0}'; then
+            echo "No deletions detected."
+          else
+            echo "Destructive deletion detected. This incremental autopilot refuses to proceed."
+            exit 1
+          fi
+
+      - name: Build Pages artifact from public/
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+          if [ -d public ]; then
+            cp -a public/. _site/
+          else
+            cp -a . _site/
+          fi
+          touch _site/.nojekyll
+
+      - name: Upload incremental audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: goalos-incremental-proof-grail-audit
+          path: |
+            reports/goalos-incremental-proof-grail-v1-install-report.json
+            reports/goalos-incremental-proof-grail-v1-install-report.md
+            reports/goalos-incremental-proof-grail-v1-audit.json
+            reports/goalos-incremental-proof-grail-v1-audit.md
+            public/incremental-proof-grail-capability-index.json
+          if-no-files-found: warn
+
+      - name: Detect generated changes
+        id: diff
+        run: |
+          if git status --porcelain | grep .; then
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+            git status --short
+          else
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit directly to current branch
+        if: ${{ github.event.inputs.publication_mode == 'direct_commit' && steps.diff.outputs.changes_detected == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "goalos-incremental-autopilot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public docs evidence reports content .nojekyll || true
+          git commit -m "Add GoalOS incremental proof-grail capability layer"
+          git push
+
+      - name: Open human-review pull request
+        if: ${{ github.event.inputs.publication_mode == 'pull_request' && steps.diff.outputs.changes_detected == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          BRANCH="autopilot/goalos-incremental-proof-grail-${GITHUB_RUN_ID}"
+          git config user.name "goalos-incremental-autopilot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add public docs evidence reports content .nojekll .nojekyll || true
+          git commit -m "Add GoalOS incremental proof-grail capability layer"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create \
+            --base "${GITHUB_REF_NAME}" \
+            --head "$BRANCH" \
+            --title "GoalOS incremental proof-grail capability layer" \
+            --body-file reports/goalos-incremental-proof-grail-v1-install-report.md
+
+      - name: Create install/audit summary issue
+        if: ${{ github.event.inputs.create_issue == 'true' && steps.diff.outputs.changes_detected == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "GoalOS incremental proof-grail capability layer installed" \
+            --body-file reports/goalos-incremental-proof-grail-v1-install-report.md || true
+
+      - name: Upload Pages artifact
+        if: ${{ github.event.inputs.deploy_pages == 'true' && github.event.inputs.publication_mode == 'direct_commit' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: integrate
+    if: ${{ github.event.inputs.deploy_pages == 'true' && github.event.inputs.publication_mode == 'direct_commit' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4
