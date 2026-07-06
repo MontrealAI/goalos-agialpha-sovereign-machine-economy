@@ -1,0 +1,53 @@
+{
+  "version": "v65",
+  "routes": [
+    {
+      "path": "proof-gated-universal-work-machine-v65.html",
+      "title": "Proof-Gated Universal Work Machine",
+      "tag": "Holy Grail Candidate",
+      "desc": "GoalOS as a proof-gated universal work machine: open-ended autonomous work, Evidence Dockets, ProofBundles, Chronicle, and settlement boundaries."
+    },
+    {
+      "path": "proof-run-001-command-room-v65.html",
+      "title": "Proof Run 001 Command Room",
+      "tag": "Next Proof",
+      "desc": "The public-safe plan for moving from architecture to inspectable Evidence Docket proof."
+    },
+    {
+      "path": "proof-debt-agijobs-compiler-v65.html",
+      "title": "Proof Debt \u2192 AGI Jobs Compiler",
+      "tag": "Dynamic Tool",
+      "desc": "A browser-local compiler that turns unsupported claims and missing evidence into objective-specific AGI Jobs."
+    },
+    {
+      "path": "agialpha-proof-economy-thermostat-v65.html",
+      "title": "$AGIALPHA Proof Economy Thermostat",
+      "tag": "Settlement Boundary",
+      "desc": "How proof quality, validator pressure, challenge windows, and settlement logic become economic control signals without overclaiming."
+    },
+    {
+      "path": "evidence-docket-public-room-v65.html",
+      "title": "Evidence Docket 6.1 Public Room",
+      "tag": "Proof Room",
+      "desc": "Claims, proof debt, risks, ProofBundles, blocked claims, verifier questions, and public/private boundaries."
+    },
+    {
+      "path": "verified-experience-chronicle-v65.html",
+      "title": "Verified Experience Chronicle",
+      "tag": "Compounding Memory",
+      "desc": "How validated work becomes Chronicle memory, reusable capability, and harder future missions."
+    },
+    {
+      "path": "ascension-evidence-hub-v65.html",
+      "title": "Ascension Evidence Hub",
+      "tag": "Evidence Hub",
+      "desc": "Public index of new pages, docs, routes, proof run artifacts, and incremental capability status."
+    }
+  ],
+  "doctrine": [
+    "AI creates output. GoalOS creates proof.",
+    "Missing evidence becomes executable AGI Jobs.",
+    "Only validated capability compounds."
+  ],
+  "claim_boundary": "public-alpha, evidence-pending"
+}

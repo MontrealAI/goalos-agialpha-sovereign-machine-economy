@@ -1,0 +1,9 @@
+{
+  "objective": "Evaluate whether an AI vendor trust room is buyer-ready for enterprise procurement.",
+  "expected_jobs": [
+    "vendor claims evidence mapping",
+    "security/privacy boundary review",
+    "buyer-readiness comparison",
+    "external reviewer attestation"
+  ]
+}

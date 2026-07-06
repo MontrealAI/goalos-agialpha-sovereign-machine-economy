@@ -1,0 +1,110 @@
+{
+  "version": "v65",
+  "marker": "GOALOS_INCREMENTAL_ASCENSION_V65",
+  "created_at": "2026-07-06T03:04:48.218286Z",
+  "run_id": "28765031482",
+  "added": [
+    "schemas/agijob-v65.schema.json",
+    "schemas/evidence-docket-61-v65.schema.json",
+    "public/proof-debt-agijobs-compiler-v65.html",
+    "public/proof-gated-universal-work-machine-v65.html",
+    "public/agialpha-proof-economy-thermostat-v65.html",
+    "public/ascension-evidence-hub-v65.html",
+    "public/verified-experience-chronicle-v65.html",
+    "public/proof-run-001-command-room-v65.html",
+    "public/evidence-docket-public-room-v65.html",
+    "evidence/proof-run-001-v65/evidence_docket_61.json",
+    "evidence/proof-run-001-v65/proof_debt_register.json",
+    "evidence/proof-run-001-v65/agi_jobs.json",
+    "evidence/proof-run-001-v65/manifest.json",
+    "evidence/proof-run-001-v65/PROOF_RUN_001_CHECKLIST.md",
+    "content/goalos-incremental-ascension-v65/manifest.json",
+    "docs/ascension/PROOF_DEBT_TO_AGI_JOBS.md",
+    "docs/ascension/EVIDENCE_DOCKET_6_1_PUBLIC_ROOM.md",
+    "docs/ascension/CAPABILITY_COMPOUNDING_CHRONICLE.md",
+    "docs/ascension/PROOF_GATED_UNIVERSAL_WORK_MACHINE.md",
+    "docs/ascension/PROOF_RUN_001_OPERATING_PLAN.md",
+    "docs/ascension/AGIALPHA_PROOF_ECONOMY_THERMOSTAT.md",
+    "docs/ascension/INCREMENTAL_ASCENSION_RUNBOOK.md",
+    "docs/ascension/CLAIM_BOUNDARY_HOLY_GRAIL_CANDIDATE.md",
+    "public/agialpha-proof-economy-thermostat-v65/index.html",
+    "public/assets/goalos-incremental-ascension-v65.css",
+    "public/assets/goalos-incremental-ascension-v65.js",
+    "public/assets/goalos-incremental-ascension-v65-routes.json",
+    "public/proof-run-001-command-room-v65/index.html",
+    "public/verified-experience-chronicle-v65/index.html",
+    "public/evidence-docket-public-room-v65/index.html",
+    "public/proof-debt-agijobs-compiler-v65/index.html",
+    "public/ascension-evidence-hub-v65/index.html",
+    "public/proof-gated-universal-work-machine-v65/index.html",
+    "examples/agijobs-proof-debt/ai_vendor_trust_room_example.json"
+  ],
+  "overwritten": [],
+  "skipped_existing_unmanaged": [
+    "public/.nojekyll"
+  ],
+  "patched": [
+    "public/index.html",
+    "public/goalos.html",
+    "public/all-pages.html",
+    "public/site-map.html",
+    "public/sitemap.xml"
+  ],
+  "backups": [
+    ".goalos/backups/incremental-ascension-v65/28765031482/public/index.html",
+    ".goalos/backups/incremental-ascension-v65/28765031482/public/goalos.html",
+    ".goalos/backups/incremental-ascension-v65/28765031482/public/all-pages.html",
+    ".goalos/backups/incremental-ascension-v65/28765031482/public/site-map.html",
+    ".goalos/backups/incremental-ascension-v65/28765031482/public/sitemap.xml"
+  ],
+  "routes": [
+    {
+      "path": "proof-gated-universal-work-machine-v65.html",
+      "title": "Proof-Gated Universal Work Machine",
+      "tag": "Holy Grail Candidate",
+      "desc": "GoalOS as a proof-gated universal work machine: open-ended autonomous work, Evidence Dockets, ProofBundles, Chronicle, and settlement boundaries."
+    },
+    {
+      "path": "proof-run-001-command-room-v65.html",
+      "title": "Proof Run 001 Command Room",
+      "tag": "Next Proof",
+      "desc": "The public-safe plan for moving from architecture to inspectable Evidence Docket proof."
+    },
+    {
+      "path": "proof-debt-agijobs-compiler-v65.html",
+      "title": "Proof Debt \u2192 AGI Jobs Compiler",
+      "tag": "Dynamic Tool",
+      "desc": "A browser-local compiler that turns unsupported claims and missing evidence into objective-specific AGI Jobs."
+    },
+    {
+      "path": "agialpha-proof-economy-thermostat-v65.html",
+      "title": "$AGIALPHA Proof Economy Thermostat",
+      "tag": "Settlement Boundary",
+      "desc": "How proof quality, validator pressure, challenge windows, and settlement logic become economic control signals without overclaiming."
+    },
+    {
+      "path": "evidence-docket-public-room-v65.html",
+      "title": "Evidence Docket 6.1 Public Room",
+      "tag": "Proof Room",
+      "desc": "Claims, proof debt, risks, ProofBundles, blocked claims, verifier questions, and public/private boundaries."
+    },
+    {
+      "path": "verified-experience-chronicle-v65.html",
+      "title": "Verified Experience Chronicle",
+      "tag": "Compounding Memory",
+      "desc": "How validated work becomes Chronicle memory, reusable capability, and harder future missions."
+    },
+    {
+      "path": "ascension-evidence-hub-v65.html",
+      "title": "Ascension Evidence Hub",
+      "tag": "Evidence Hub",
+      "desc": "Public index of new pages, docs, routes, proof run artifacts, and incremental capability status."
+    }
+  ],
+  "policy": {
+    "allow_overwrite": false,
+    "update_nav": true,
+    "patch_existing_pages": true,
+    "deletes": "none"
+  }
+}

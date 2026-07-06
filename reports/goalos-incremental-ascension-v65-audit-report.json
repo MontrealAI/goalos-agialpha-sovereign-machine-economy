@@ -1,0 +1,10 @@
+{
+  "version": "v65",
+  "marker": "GOALOS_INCREMENTAL_ASCENSION_V65",
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "required_files_checked": 12,
+  "claim_boundary_preserved": true,
+  "deletes": "none"
+}

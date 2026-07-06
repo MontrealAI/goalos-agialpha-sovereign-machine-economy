@@ -1,0 +1,8 @@
+[
+  {
+    "job_id": "AGIJOB-001",
+    "title": "Create public-safe Proof Run 001 Evidence Docket",
+    "validator_role": "AGI Node Validator + Human Reviewer",
+    "promotion_rule": "No Chronicle promotion unless replay and validation pass."
+  }
+]

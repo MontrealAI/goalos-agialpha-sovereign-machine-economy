@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoalOS Incremental AGI Job",
+  "type": "object",
+  "required": [
+    "job_id",
+    "title",
+    "why_needed",
+    "acceptance_tests",
+    "validator_role",
+    "promotion_rule"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "why_needed": {
+      "type": "string"
+    },
+    "acceptance_tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validator_role": {
+      "type": "string"
+    },
+    "promotion_rule": {
+      "type": "string"
+    }
+  }
+}

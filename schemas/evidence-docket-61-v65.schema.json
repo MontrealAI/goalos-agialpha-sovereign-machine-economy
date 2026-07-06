@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Docket 6.1 Incremental",
+  "type": "object",
+  "required": [
+    "claims_matrix",
+    "proof_debt_register",
+    "blocked_claims_register",
+    "public_private_boundary"
+  ],
+  "properties": {
+    "claims_matrix": {
+      "type": "array"
+    },
+    "proof_debt_register": {
+      "type": "array"
+    },
+    "blocked_claims_register": {
+      "type": "array"
+    },
+    "public_private_boundary": {
+      "type": "string"
+    }
+  }
+}

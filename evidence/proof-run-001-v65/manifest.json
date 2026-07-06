@@ -1,0 +1,16 @@
+{
+  "version": "v65",
+  "proof_run": "proof-run-001",
+  "status": "planned_public_safe",
+  "claim_level": "architecture_ready_evidence_pending",
+  "required": [
+    "mission_contract",
+    "proof_debt_register",
+    "agi_jobs",
+    "proofbundles",
+    "evidence_docket_61",
+    "validator_report",
+    "cost_risk_ledger",
+    "replay_path"
+  ]
+}

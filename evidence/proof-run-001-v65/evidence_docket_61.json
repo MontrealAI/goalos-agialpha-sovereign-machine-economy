@@ -1,0 +1,10 @@
+{
+  "claims_matrix": [],
+  "proof_debt_register": [],
+  "blocked_claims_register": [
+    "achieved AGI",
+    "empirical SOTA",
+    "guaranteed ROI"
+  ],
+  "public_private_boundary": "publish proof commitments and public-safe summaries only"
+}
