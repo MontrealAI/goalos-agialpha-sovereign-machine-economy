@@ -1,0 +1,75 @@
+{
+  "version": "goalos-incremental-proof-grail-v1",
+  "generated_at": "2026-07-06T03:00:38+00:00",
+  "repository": "MontrealAI/goalos-agialpha-sovereign-machine-economy",
+  "github_run_id": "28764892096",
+  "sha": "c843e68e6c08ab28558eb50d875957eb6f1e40f6",
+  "ref": "main",
+  "allow_overwrite": false,
+  "update_navigation": true,
+  "written": [
+    "public/assets/goalos-incremental-proof-grail-v1.css",
+    "public/goalos-incremental-capabilities.html",
+    "public/proof-gated-universal-work-machine.html",
+    "public/agijobs-dispatch-matrix.html",
+    "public/agialpha-settlement-thermostat.html",
+    "public/proof-run-001-command-room.html",
+    "public/sovereign-machine-economy-flywheel.html",
+    "public/now-we-prove-it.html",
+    "public/incremental-proof-grail-capability-index.json",
+    "docs/INCREMENTAL_PROOF_GRAIL_CAPABILITY_LAYER.md",
+    "docs/AGIJOBS_DISPATCH_MATRIX.md",
+    "docs/AGIALPHA_SETTLEMENT_THERMOSTAT.md",
+    "docs/PROOF_RUN_001_COMMAND_ROOM.md",
+    "docs/SOVEREIGN_MACHINE_ECONOMY_FLYWHEEL.md",
+    "docs/NOW_WE_PROVE_IT_RELEASE_NOTE.md",
+    "docs/WEBSITE_INCREMENTAL_AUTOPILOT_GUIDE.md",
+    "evidence/proof-run-001/incremental-proof-run-001-manifest.json",
+    "evidence/proof-run-001/agijobs-dispatch-matrix.json",
+    "evidence/proof-run-001/settlement-thermostat-simulation.json"
+  ],
+  "patched": [
+    "public/route-registry.json",
+    "content/site_manifest.json",
+    "public/sitemap.xml",
+    "public/index.html",
+    "public/goalos.html",
+    "public/all-pages.html",
+    "public/site-map.html"
+  ],
+  "skipped": [],
+  "backups": [
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__public__route-registry.json.bak",
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__content__site_manifest.json.bak",
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__public__sitemap.xml.bak",
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__public__index.html.bak",
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__public__goalos.html.bak",
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__public__all-pages.html.bak",
+    "reports/backups/goalos-incremental-proof-grail-v1-__home__runner__work__goalos-agialpha-sovereign-machine-economy__goalos-agialpha-sovereign-machine-economy__public__site-map.html.bak"
+  ],
+  "routes_added": [
+    "goalos-incremental-capabilities.html",
+    "proof-gated-universal-work-machine.html",
+    "agijobs-dispatch-matrix.html",
+    "agialpha-settlement-thermostat.html",
+    "proof-run-001-command-room.html",
+    "sovereign-machine-economy-flywheel.html",
+    "now-we-prove-it.html"
+  ],
+  "claim_boundary": {
+    "achieved_agi": false,
+    "achieved_asi": false,
+    "empirical_sota": false,
+    "guaranteed_roi": false,
+    "legal_security_compliance_certification": false,
+    "live_settlement_in_local_mode": false,
+    "autonomous_production_authorization": false
+  },
+  "safety": {
+    "no_files_deleted": true,
+    "no_wallet": true,
+    "no_user_funds": true,
+    "no_live_settlement": true,
+    "no_external_calls_in_generated_pages": true
+  }
+}

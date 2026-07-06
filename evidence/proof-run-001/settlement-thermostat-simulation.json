@@ -1,0 +1,19 @@
+{
+  "version": "goalos-incremental-proof-grail-v1",
+  "simulation_only": true,
+  "no_live_settlement": true,
+  "signals": [
+    "proof_quality",
+    "false_acceptance_rate",
+    "replay_failure_rate",
+    "risk_class",
+    "external_validation"
+  ],
+  "actuators": [
+    "mission_budget",
+    "validator_pressure",
+    "challenge_window",
+    "settlement_hold",
+    "treasury_reinvestment_hold"
+  ]
+}

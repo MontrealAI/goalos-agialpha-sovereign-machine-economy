@@ -1536,72 +1536,8 @@
       "title": "What GoalOS Does \u00b7 GoalOS AGIALPHA Ascension",
       "category": "Additional",
       "canonical": false
-    },
-    {
-      "route": "goalos-incremental-capabilities.html",
-      "title": "GoalOS Incremental Capabilities \u00b7 Proof-Grail Layer",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "route": "proof-gated-universal-work-machine.html",
-      "title": "Proof-Gated Universal Work Machine \u00b7 GoalOS",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "route": "agijobs-dispatch-matrix.html",
-      "title": "AGI Jobs Dispatch Matrix \u00b7 GoalOS",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "route": "agialpha-settlement-thermostat.html",
-      "title": "$AGIALPHA Settlement Thermostat \u00b7 GoalOS",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "route": "proof-run-001-command-room.html",
-      "title": "Proof Run 001 Command Room \u00b7 GoalOS",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "route": "sovereign-machine-economy-flywheel.html",
-      "title": "Sovereign Machine Economy Flywheel \u00b7 GoalOS",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "route": "now-we-prove-it.html",
-      "title": "Now We Prove It \u00b7 GoalOS",
-      "category": "Incremental Proof-Grail",
-      "canonical": false,
-      "incremental": "goalos-incremental-proof-grail-v1"
     }
   ],
   "boundary": "preserved",
-  "externalActions": 0,
-  "incrementalCapabilityLayers": [
-    {
-      "version": "goalos-incremental-proof-grail-v1",
-      "generated_at": "2026-07-06T03:00:38+00:00",
-      "routes": [
-        "goalos-incremental-capabilities.html",
-        "proof-gated-universal-work-machine.html",
-        "agijobs-dispatch-matrix.html",
-        "agialpha-settlement-thermostat.html",
-        "proof-run-001-command-room.html",
-        "sovereign-machine-economy-flywheel.html",
-        "now-we-prove-it.html"
-      ]
-    }
-  ]
+  "externalActions": 0
 }

@@ -1,5 +1,5 @@
 {
-  "title": "GoalOS AGIALPHA Ascension \u2014 Sovereign Machine Economy \u2728",
+  "title": "GoalOS AGIALPHA Ascension — Sovereign Machine Economy ✨",
   "short_title": "GoalOS Ascension",
   "tagline": "AI creates output. GoalOS creates proof.",
   "subtitle": "An institutional-grade operating surface for proof-settled autonomous AI work, governed decision states, validator-gated jobs, and reusable capability packages.",
@@ -11,7 +11,7 @@
       "role": "upstream evidence-first GoalOS repository and claim-boundary source"
     },
     {
-      "name": "META-AGENTIC \u03b1\u2011AGI",
+      "name": "META-AGENTIC α‑AGI",
       "url": "https://github.com/MontrealAI/AGI-Alpha-Agent-v0",
       "role": "meta-agentic agent foundry lineage"
     },
@@ -316,7 +316,7 @@
       "eyebrow": "Meta-agentic council",
       "title": "Agent Foundry",
       "headline": "Agents that manage agents remain governed by proof.",
-      "body": "The META-AGENTIC \u03b1\u2011AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance.",
+      "body": "The META-AGENTIC α‑AGI lineage is reimplemented as an Agent Foundry that creates, selects, evaluates, reconfigures, and retires agents under explicit governance.",
       "cta": "Start with the launch guide",
       "cta_href": "start.html",
       "sections": [
@@ -762,7 +762,7 @@
       "eyebrow": "Source integration",
       "title": "Source Lineage",
       "headline": "One GoalOS-native surface for prior lineages.",
-      "body": "The repository integrates the previous META-AGENTIC \u03b1\u2011AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline.",
+      "body": "The repository integrates the previous META-AGENTIC α‑AGI, AGI Alpha Node, and AGI Jobs lineages under the GoalOS proof discipline.",
       "cta": "Start with the launch guide",
       "cta_href": "start.html",
       "sections": [
@@ -972,7 +972,7 @@
         },
         {
           "title": "If the website is not live yet",
-          "text": "Open Actions, wait for the deploy job to finish, then open Settings \u2192 Pages for the final URL."
+          "text": "Open Actions, wait for the deploy job to finish, then open Settings → Pages for the final URL."
         }
       ]
     },
@@ -1148,63 +1148,6 @@
           "title": "Disclosure discipline",
           "text": "Names, revenue amounts, contract terms, and legal records are not published unless permission is clear."
         }
-      ]
-    },
-    {
-      "title": "GoalOS Incremental Capabilities \u00b7 Proof-Grail Layer",
-      "href": "goalos-incremental-capabilities.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "Proof-Gated Universal Work Machine \u00b7 GoalOS",
-      "href": "proof-gated-universal-work-machine.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "AGI Jobs Dispatch Matrix \u00b7 GoalOS",
-      "href": "agijobs-dispatch-matrix.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "$AGIALPHA Settlement Thermostat \u00b7 GoalOS",
-      "href": "agialpha-settlement-thermostat.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "Proof Run 001 Command Room \u00b7 GoalOS",
-      "href": "proof-run-001-command-room.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "Sovereign Machine Economy Flywheel \u00b7 GoalOS",
-      "href": "sovereign-machine-economy-flywheel.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    },
-    {
-      "title": "Now We Prove It \u00b7 GoalOS",
-      "href": "now-we-prove-it.html",
-      "category": "Incremental Proof-Grail",
-      "incremental": "goalos-incremental-proof-grail-v1"
-    }
-  ],
-  "incremental_capabilities": [
-    {
-      "version": "goalos-incremental-proof-grail-v1",
-      "generated_at": "2026-07-06T03:00:38+00:00",
-      "routes": [
-        "goalos-incremental-capabilities.html",
-        "proof-gated-universal-work-machine.html",
-        "agijobs-dispatch-matrix.html",
-        "agialpha-settlement-thermostat.html",
-        "proof-run-001-command-room.html",
-        "sovereign-machine-economy-flywheel.html",
-        "now-we-prove-it.html"
       ]
     }
   ]

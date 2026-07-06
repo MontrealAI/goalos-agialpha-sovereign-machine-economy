@@ -1,0 +1,38 @@
+{
+  "version": "goalos-incremental-proof-grail-v1",
+  "generated_at": "2026-07-06T03:00:38+00:00",
+  "repository": "MontrealAI/goalos-agialpha-sovereign-machine-economy",
+  "run_id": "28764892096",
+  "sha": "c843e68e6c08ab28558eb50d875957eb6f1e40f6",
+  "claim_boundary": {
+    "achieved_agi": false,
+    "achieved_asi": false,
+    "empirical_sota": false,
+    "guaranteed_roi": false,
+    "legal_security_compliance_certification": false,
+    "live_settlement_in_local_mode": false,
+    "autonomous_production_authorization": false
+  },
+  "capabilities": [
+    "goalos-incremental-capabilities.html",
+    "proof-gated-universal-work-machine.html",
+    "agijobs-dispatch-matrix.html",
+    "agialpha-settlement-thermostat.html",
+    "proof-run-001-command-room.html",
+    "sovereign-machine-economy-flywheel.html",
+    "now-we-prove-it.html"
+  ],
+  "loop": [
+    "Mission",
+    "Work",
+    "Proof",
+    "Validation",
+    "Verified Experience",
+    "Chronicle",
+    "Reusable Capability",
+    "Settlement",
+    "Reinvestment",
+    "Harder Mission"
+  ],
+  "next_proof": "Proof Run 001: public Evidence Docket with baselines, ProofBundles, replay logs, validator reports, cost/risk ledger, delayed outcomes, and independent review."
+}

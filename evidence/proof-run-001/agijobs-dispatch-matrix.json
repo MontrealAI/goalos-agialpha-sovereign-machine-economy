@@ -1,0 +1,22 @@
+{
+  "version": "goalos-incremental-proof-grail-v1",
+  "generated_at": "2026-07-06T03:00:38+00:00",
+  "rule": "Missing evidence becomes executable AGI Jobs.",
+  "dispatch_cases": [
+    {
+      "llm_weak_spot": "unsupported claim",
+      "job": "source verification",
+      "return": "claim evidence packet"
+    },
+    {
+      "llm_weak_spot": "missing replay",
+      "job": "replay and variance check",
+      "return": "replay log"
+    },
+    {
+      "llm_weak_spot": "settlement-facing claim",
+      "job": "ProofBundle completion",
+      "return": "validator verdict and risk ledger"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "goalos-incremental-proof-grail-v1",
+  "generated_at": "2026-07-06T03:00:38+00:00",
+  "status": "pass",
+  "missing_required_files": [],
+  "forbidden_or_boundary_hits": {},
+  "route_registry_contains_routes": true,
+  "route_registry_error": null,
+  "claim_boundary_preserved": true,
+  "destructive_changes_detected_by_installer": false
+}
