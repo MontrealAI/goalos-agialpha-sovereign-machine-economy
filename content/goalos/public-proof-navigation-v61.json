@@ -231,6 +231,41 @@
     "description": "Open Agialpha Control Rail as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "agialpha-proof-economy-thermostat-v65.html",
+    "title": "Agialpha Proof Economy Thermostat V65",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Agialpha Proof Economy Thermostat V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "agialpha-proof-economy-thermostat-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "agialpha-settlement-thermostat-v67.html",
+    "title": "Agialpha Settlement Thermostat V67",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Agialpha Settlement Thermostat V67 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "agialpha-settlement-thermostat-v70.html",
+    "title": "Agialpha Settlement Thermostat V70",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Agialpha Settlement Thermostat V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "agialpha-settlement-thermostat.html",
+    "title": "Agialpha Settlement Thermostat",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Agialpha Settlement Thermostat as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "agialpha-token-boundary.html",
     "title": "Agialpha Token Boundary",
     "category": "Contracts",
@@ -238,11 +273,32 @@
     "description": "Open Agialpha Token Boundary as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "agijobs-dispatch-matrix.html",
+    "title": "Agijobs Dispatch Matrix",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Agijobs Dispatch Matrix as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "agijobs-dispatch-rail-v70.html",
+    "title": "Agijobs Dispatch Rail V70",
+    "category": "Contracts",
+    "kind": "contracts",
+    "description": "Open Agijobs Dispatch Rail V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "all-pages.html",
     "title": "All Pages",
     "category": "Navigation",
     "kind": "nav",
     "description": "Open All Pages as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "alpha-work-units-proof-meter-v67.html",
+    "title": "Alpha Work Units Proof Meter V67",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Alpha Work Units Proof Meter V67 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "architecture.html",
@@ -553,6 +609,20 @@
     "description": "Open Visual Flow Proof as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "ascension-evidence-hub-v65.html",
+    "title": "Ascension Evidence Hub V65",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Ascension Evidence Hub V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "ascension-evidence-hub-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "ask-goalos.html",
     "title": "Ask Goalos",
     "category": "Autonomous Work Machine",
@@ -644,6 +714,20 @@
     "description": "Open Autonomous Proof Factory Share Kit as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "autonomous-proof-factory-v9-standalone.html",
+    "title": "Autonomous Proof Factory V9 Standalone",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Autonomous Proof Factory V9 Standalone as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "autonomous-proof-factory-v9.html",
+    "title": "Autonomous Proof Factory V9",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Autonomous Proof Factory V9 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "autonomous-proof-factory.html",
     "title": "Autonomous Proof Factory",
     "category": "Autonomous Proof Factory",
@@ -677,6 +761,13 @@
     "category": "Proof and Evidence",
     "kind": "proof",
     "description": "Open Autonomous Proof Work Machine as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "autonomous-publication-health-v70.html",
+    "title": "Autonomous Publication Health V70",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Autonomous Publication Health V70 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "autonomous-work-os.html",
@@ -728,6 +819,20 @@
     "description": "Open Autonomy Theatre as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "capabilities/goalos-v38/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "capabilities/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "capability-compounding-lab.html",
     "title": "Capability Compounding Lab",
     "category": "Autonomous Work Machine",
@@ -761,6 +866,13 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Case Study as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "chronicle-capability-library-v70.html",
+    "title": "Chronicle Capability Library V70",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Chronicle Capability Library V70 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "chronicle-compounding-engine-v9.html",
@@ -938,6 +1050,27 @@
     "description": "Open Evaluation as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "evidence-docket-61-public-room-v70.html",
+    "title": "Evidence Docket 61 Public Room V70",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Evidence Docket 61 Public Room V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "evidence-docket-public-room-v65.html",
+    "title": "Evidence Docket Public Room V65",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Evidence Docket Public Room V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "evidence-docket-public-room-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "evidence-docket-theatre.html",
     "title": "Evidence Docket Theatre",
     "category": "Proof and Evidence",
@@ -985,6 +1118,20 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Executive Brief as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "external-replay-and-reviewer-room-v67.html",
+    "title": "External Replay And Reviewer Room V67",
+    "category": "Validation",
+    "kind": "validation",
+    "description": "Open External Replay And Reviewer Room V67 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "external-replay-reviewer-room-v70.html",
+    "title": "External Replay Reviewer Room V70",
+    "category": "Validation",
+    "kind": "validation",
+    "description": "Open External Replay Reviewer Room V70 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "external-reviewer-replay-room.html",
@@ -1113,6 +1260,27 @@
     "description": "Open Goalos Autonomous General Work Machine as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "goalos-autonomous-phase-completion.html",
+    "title": "Goalos Autonomous Phase Completion",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Goalos Autonomous Phase Completion as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "goalos-autonomous-proof-factory-v9-standalone.html",
+    "title": "Goalos Autonomous Proof Factory V9 Standalone",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Goalos Autonomous Proof Factory V9 Standalone as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "goalos-autonomous-proof-factory-v9.html",
+    "title": "Goalos Autonomous Proof Factory V9",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Goalos Autonomous Proof Factory V9 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "goalos-autonomous-proof-factory.html",
     "title": "Goalos Autonomous Proof Factory",
     "category": "Autonomous Proof Factory",
@@ -1148,6 +1316,13 @@
     "description": "Open Goalos Holy Grail Candidate as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "goalos-incremental-capabilities.html",
+    "title": "Goalos Incremental Capabilities",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Goalos Incremental Capabilities as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "goalos-loop-bottleneck-observatory.html",
     "title": "Goalos Loop Bottleneck Observatory",
     "category": "Loops",
@@ -1167,6 +1342,13 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Goalos Phase Completion as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "goalos-product-console.html",
+    "title": "Goalos Product Console",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Goalos Product Console as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "goalos-sovereign-work-machine.html",
@@ -1216,6 +1398,13 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Historical Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "holy-grail-candidate-boundary-v67.html",
+    "title": "Holy Grail Candidate Boundary V67",
+    "category": "Contracts",
+    "kind": "contracts",
+    "description": "Open Holy Grail Candidate Boundary V67 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "holy-grail-candidate.html",
@@ -1477,6 +1666,20 @@
     "description": "Open Node as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "now-we-prove-it-v70.html",
+    "title": "Now We Prove It V70",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Now We Prove It V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "now-we-prove-it.html",
+    "title": "Now We Prove It",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Now We Prove It as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "objective-command-center.html",
     "title": "Objective Command Center",
     "category": "Autonomous Work Machine",
@@ -1596,11 +1799,32 @@
     "description": "Open Proof Console as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "proof-debt-agijobs-compiler-v65.html",
+    "title": "Proof Debt Agijobs Compiler V65",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Proof Debt Agijobs Compiler V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-debt-agijobs-compiler-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "proof-debt-dashboard-v9.html",
     "title": "Proof Debt Dashboard V9",
     "category": "Autonomous Proof Factory",
     "kind": "factory",
     "description": "Open Proof Debt Dashboard V9 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-debt-to-agijobs-dispatch-v67.html",
+    "title": "Proof Debt To Agijobs Dispatch V67",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Proof Debt To Agijobs Dispatch V67 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "proof-economy.html",
@@ -1610,6 +1834,13 @@
     "description": "Open Proof Economy as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "proof-event-001-ai-trust-room-vs-vendor-faq.html",
+    "title": "Proof Event 001 Ai Trust Room Vs Vendor Faq",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Event 001 Ai Trust Room Vs Vendor Faq as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "proof-experience-atlas.html",
     "title": "Proof Experience Atlas",
     "category": "Proof and Evidence",
@@ -1617,11 +1848,39 @@
     "description": "Open Proof Experience Atlas as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "proof-factory-v9.html",
+    "title": "Proof Factory V9",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Proof Factory V9 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "proof-flight-demo.html",
     "title": "Proof Flight Demo",
     "category": "Proof and Evidence",
     "kind": "proof",
     "description": "Open Proof Flight Demo as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-gated-universal-work-machine-v65.html",
+    "title": "Proof Gated Universal Work Machine V65",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Gated Universal Work Machine V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-gated-universal-work-machine-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-gated-universal-work-machine.html",
+    "title": "Proof Gated Universal Work Machine",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Gated Universal Work Machine as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "proof-gated-work-machine.html",
@@ -1708,11 +1967,46 @@
     "description": "Open Proof Of Evolution as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "proof-run-001-command-center-v70.html",
+    "title": "Proof Run 001 Command Center V70",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Run 001 Command Center V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-run-001-command-room-v65.html",
+    "title": "Proof Run 001 Command Room V65",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Run 001 Command Room V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-run-001-command-room-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-run-001-command-room.html",
+    "title": "Proof Run 001 Command Room",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Run 001 Command Room as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "proof-run-001-docket.html",
     "title": "Proof Run 001 Docket",
     "category": "Proof and Evidence",
     "kind": "proof",
     "description": "Open Proof Run 001 Docket as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-run-001-evidence-room-v67.html",
+    "title": "Proof Run 001 Evidence Room V67",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proof Run 001 Evidence Room V67 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "proof-run-001-execution-room.html",
@@ -1762,6 +2056,20 @@
     "category": "Proof and Evidence",
     "kind": "proof",
     "description": "Open Proof Velocity as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proofbundle-return-gate-v70.html",
+    "title": "Proofbundle Return Gate V70",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proofbundle Return Gate V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proofbundle-to-chronicle-gate-v67.html",
+    "title": "Proofbundle To Chronicle Gate V67",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Proofbundle To Chronicle Gate V67 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "public-alpha-gold-master.html",
@@ -1904,6 +2212,20 @@
     "description": "Open RSI Governance Lab as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "rsi-move37-dossier-gate-v70.html",
+    "title": "RSI Move37 Dossier Gate V70",
+    "category": "RSI Governance",
+    "kind": "rsi",
+    "description": "Open RSI Move37 Dossier Gate V70 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "rsi-move37-governance-room-v67.html",
+    "title": "RSI Move37 Governance Room V67",
+    "category": "RSI Governance",
+    "kind": "rsi",
+    "description": "Open RSI Move37 Governance Room V67 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "rsi-state-capacity.html",
     "title": "RSI State Capacity",
     "category": "RSI Governance",
@@ -1981,6 +2303,34 @@
     "description": "Open Sovereign Experience Stream as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "sovereign-machine-economy-flywheel-v67.html",
+    "title": "Sovereign Machine Economy Flywheel V67",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Sovereign Machine Economy Flywheel V67 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "sovereign-machine-economy-flywheel.html",
+    "title": "Sovereign Machine Economy Flywheel",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Sovereign Machine Economy Flywheel as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "sovereign-proof-work-command-center-v67.html",
+    "title": "Sovereign Proof Work Command Center V67",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Sovereign Proof Work Command Center V67 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "standalone-reviewer-proof-room.html",
+    "title": "Standalone Reviewer Proof Room",
+    "category": "Validation",
+    "kind": "validation",
+    "description": "Open Standalone Reviewer Proof Room as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "standards.html",
     "title": "Standards",
     "category": "Autonomous Work Machine",
@@ -2014,6 +2364,13 @@
     "category": "Autonomous Proof Factory",
     "kind": "factory",
     "description": "Open State On Disk Harness as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "strategic-communications/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "strategic-evidence-scorecard.html",
@@ -2231,6 +2588,20 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Value Realization Control Room as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "verified-experience-chronicle-v65.html",
+    "title": "Verified Experience Chronicle V65",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Verified Experience Chronicle V65 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "verified-experience-chronicle-v65/index.html",
+    "title": "GoalOS Command Center",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open GoalOS Command Center as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "visual-flow-proof.html",

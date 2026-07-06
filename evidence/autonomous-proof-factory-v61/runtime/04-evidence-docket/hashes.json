@@ -1,14 +1,14 @@
 {
-  "agent-constellation.json": "b9c974f3dfad267ec6b4503e5172fb9947686d24720470bd071db056e9f53e4c",
-  "selection-certificate.json": "6b28d11b74bedf2fb196ed5838b3c1e2f05d22420a60df0d0997e4030d8b241e",
-  "proof-bundle.json": "7d2db9ee9afa8232c93f83616fb6ae8db004c1b4e19d9802ace7f7f5f5f74127",
-  "mission-contract.json": "f2cdb181308d6175d530496c68ae3413e514795c2fe5ada2d946fc6d600ae2bc",
-  "hashes.json": "395ed9a9e360de48284e9a77dab9bbdbf25bd3881bcf0c33736d1b4d2f356444",
-  "chronicle-entry.json": "311937a318f9fa7e9c169c0fe565a99a2e5de01fa3ecfae7f637073eb875fef7",
+  "agent-constellation.json": "f01ee067932d05284cde85c2f46a115f478ccf81927f09eccad68d0e36426e19",
+  "selection-certificate.json": "04661157fa0bc69f3fd31a8abffb00bf0578ac0012b645d911b124b0cbbf4eb6",
+  "proof-bundle.json": "cf25228b7bf3d2a7a007f29c7e610a194d9da9c17e7eab21bd35bce8c1fa0fbf",
+  "mission-contract.json": "1a22ba826a6bcccb864231d19a091024e52bd0d0b2feb5d33169be3741615d4b",
+  "hashes.json": "38dd7c5803a636ad6b51818d1b929bb25442c280a6635c71dbb4a89608fe0353",
+  "chronicle-entry.json": "e950e749c2f8b8e6336bfb1b55ffd86fee38a0e0deab66074ebb865feda14073",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
   "evidence-docket.md": "12b172791e62e2882865ee69f7fb440e771f524afd636df9f983967a49915220",
-  "reusable-capability-package.json": "b56d10238333d94c938ba352d707115ddd156e7f448fc03d092572455525eb13",
-  "agi-job-card.json": "267f16a71a0959418d40ad97ff16ff0249a21f1352a5416021eb939b0e880201",
+  "reusable-capability-package.json": "09fdd11be57768e28fc4acc03bde6865ad1d9160d88a8796d6aa6c31f521f3d2",
+  "agi-job-card.json": "3f533328bc9e3f5721bb48e947993a17f4401f7f4692dc86f880ba1c475b656e",
   "reviewer-brief.md": "bf01c2bf176072d588bbcd2a8d3f9225a28d643b7843afdef09c0897a2dc5ece",
-  "agi-node-validation-certificate.json": "30556b5a08af90f61676091ae0a28347782f1af8bee17567f2a1c8a727ce966e"
+  "agi-node-validation-certificate.json": "2f514946662a76ec8b0d2388def09cf921acc13b128d9765b565623a2bb780c4"
 }
