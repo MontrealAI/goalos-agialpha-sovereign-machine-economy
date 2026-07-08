@@ -1,0 +1,40 @@
+{
+  "version": "V91",
+  "title": "GoalOS: The Validated Skill Graph",
+  "subtitle": "Reusable Capability, Chronicle-Gated Memory, and Proof-Carrying Skill Accumulation",
+  "focus": "Validated Skill Graph / Reusable Capability only",
+  "paper_files": {
+    "pdf": "/mnt/data/goalos_v91_validated_skill_graph_reusable_capability_final.pdf",
+    "tex": "/mnt/data/goalos_v91_validated_skill_graph_reusable_capability_final.tex",
+    "zip": "/mnt/data/goalos_v91_validated_skill_graph_reusable_capability_final_latex_package.zip",
+    "summary": "/mnt/data/goalos_v91_validated_skill_graph_reusable_capability_final_summary.json",
+    "montage": "/mnt/data/goalos_v91_validated_skill_graph_reusable_capability_final_rendered_montage.jpg"
+  },
+  "pages": 12,
+  "figures": [
+    "Validated Skill Graph as governed proof-gated capability memory",
+    "Skill Node Object Model",
+    "Chronicle Admission Policy",
+    "Proof-Level Policy Ladder",
+    "Validated Skill Graph Operations",
+    "Worth-Keeping Selection Frontier",
+    "Capability Composition Gate"
+  ],
+  "corrections": [
+    "Rebuilt figures as cleaner vector/TikZ plates with reduced clutter and improved page flow",
+    "Removed preloaded-job ambiguity; custom jobs are generated only after objective and proof level are set",
+    "Centered Chronicle Gate as the policy boundary between evidence and memory",
+    "Defined skill node schema, graph operations, worth-keeping utility, and falsification tests",
+    "Kept mainnet handoff explicit as an external live-network boundary"
+  ],
+  "boundary": [
+    "No claim of achieved AGI/ASI or empirical SOTA",
+    "No live wallet, funds, settlement, or production authority in local mode",
+    "Private intelligence remains off-chain; proof and handoff artifacts are governable"
+  ],
+  "build": {
+    "pdflatex_passes": 2,
+    "rendered_for_visual_QA": true,
+    "rendered_pages_dir": "/mnt/data/goalos_v91_validated_skill_graph_paper/rendered"
+  }
+}

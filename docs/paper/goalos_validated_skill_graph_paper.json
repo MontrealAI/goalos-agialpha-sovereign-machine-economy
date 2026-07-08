@@ -1,0 +1,42 @@
+{
+  "version": "V92",
+  "title": "GoalOS: The Validated Skill Graph",
+  "subtitle": "Reusable Capability, Chronicle-Gated Memory, and Proof-Carrying Skill Accumulation",
+  "author": "Vincent Boucher, President, QUEBEC.AI & MONTREAL.AI",
+  "focus": "Validated Skill Graph / Reusable Capability only",
+  "format": [
+    "LaTeX",
+    "PDF"
+  ],
+  "figures": [
+    "Capability transition kernel",
+    "Validated Skill Graph substrate",
+    "Skill node passport",
+    "Chronicle admission policy",
+    "Proof-level policy",
+    "Graph semantics",
+    "Capability composition gate",
+    "Validated skill commercial flywheel"
+  ],
+  "corrections": [
+    "Removed table of contents blank page",
+    "Fixed malformed figure labels",
+    "Rebuilt Skill Node Passport with explicit fields",
+    "Rebuilt Graph Semantics figure without overlap",
+    "Added headheight fix and clean PDF compile",
+    "Preserved claim boundaries and mainnet handoff separation"
+  ],
+  "claim_boundary": [
+    "No achieved AGI/ASI claim",
+    "No empirical SOTA claim",
+    "No legal/security certification claim",
+    "No live wallet or settlement in local mode",
+    "Validated skill requires proof, replay, validator coverage, risk bounds, and Chronicle admission"
+  ],
+  "files": {
+    "pdf": "/mnt/data/goalos_v92_validated_skill_graph_final_paper.pdf",
+    "tex": "/mnt/data/goalos_v92_validated_skill_graph_final_paper.tex",
+    "zip": "/mnt/data/goalos_v92_validated_skill_graph_final_paper_latex_package.zip",
+    "montage": "/mnt/data/goalos_v92_validated_skill_graph_final_paper_rendered_montage.jpg"
+  }
+}
