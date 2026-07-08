@@ -1,0 +1,21 @@
+{
+  "version": "V87",
+  "title": "GoalOS: A Unified Sovereign Proof Economy Operating System",
+  "edition": "Corrected Research Paper",
+  "page_count": 7,
+  "corrections": [
+    "Rebuilt flawed figures as publication-grade figure plates",
+    "Separated local proof operations from mainnet settlement boundary",
+    "Made custom AGI Job Factory explicitly start empty by design",
+    "Added flexible proof-level control model",
+    "Clarified Chronicle Gate and Validated Skill Graph accumulation",
+    "Added source notes and claim boundary page"
+  ],
+  "boundary": "Local mode prepares handoff packets only; live posting, wallet signing, escrow, bonds, disputes, slashing, and settlement remain outside local mode.",
+  "artifacts": [
+    "PDF",
+    "LaTeX source",
+    "figure plates",
+    "summary JSON"
+  ]
+}
