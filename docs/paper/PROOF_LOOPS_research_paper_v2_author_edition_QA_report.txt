@@ -1,0 +1,52 @@
+PROOF_LOOPS.md Research Paper v2.0 Author Edition - QA Report
+======================================================================
+PDF: PROOF_LOOPS_research_paper_v2_author_edition.pdf
+TeX: PROOF_LOOPS_research_paper_v2_author_edition.tex
+Author: Vincent Boucher
+Affiliation: President, QUEBEC.AI & MONTREAL.AI
+Generated: 2026-07-09T14:01:57Z
+
+PDFINFO:
+Title:           PROOFLOOPS.md: Field Notes on Machines That Turn Work Into Capability
+Subject:         GoalOS proof-gated autonomous work loops
+Keywords:        GoalOS, Proof Loops, Validated Skill Graph, AGI Jobs, Evidence Docket, Chronicle, proof economy
+Author:          Vincent Boucher
+Creator:         LaTeX with hyperref
+Producer:        pdfTeX-1.40.26
+CreationDate:    Thu Jul  9 13:59:56 2026 UTC
+ModDate:         Thu Jul  9 13:59:56 2026 UTC
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           12
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       240928 bytes
+Optimized:       no
+PDF version:     1.7
+
+TEXT CHECKS:
+PROOF_LOOPS.md: True
+Vincent Boucher: True
+President, QUEBEC.AI & MONTREAL.AI: True
+Objective: True
+Proof Mission: True
+AGI Jobs: True
+Evidence: True
+Chronicle: True
+Validated Skill: True
+On-chain Graph Root: True
+Future Mission Improvement: True
+Claim Boundary: True
+
+Overfull hbox count: 0
+Underfull hbox count: 1
+Rendered pages: 12
+Render verification: completed with /home/oai/skills/pdfs/scripts/render_pdf.py at 160 DPI.
+Contact sheet: PROOF_LOOPS_research_paper_v2_author_edition_contact_sheet.png
+Manual visual check: title page, core loop, layered system, job factory, Chronicle gate, skill object, and public/private boundary render cleanly with no clipping observed.
