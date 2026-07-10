@@ -1,0 +1,120 @@
+{
+  "release": "GoalOS Canonical Edition 1.0",
+  "title": "GoalOS: Proof-Carrying Autonomy",
+  "author": "Vincent Boucher, President, QUEBEC.AI & MONTREAL.AI",
+  "date": "2026-07-10",
+  "status": "Production-grade specification and release-candidate implementation package; external empirical validation pending.",
+  "canonical_loop": [
+    "Objective",
+    "Proof Mission",
+    "AGI Jobs",
+    "Evidence",
+    "Chronicle",
+    "Validated Skill",
+    "On-chain Graph Root",
+    "Future Mission Improvement"
+  ],
+  "document_series": [
+    "00 - Executive Charter",
+    "01 - PROOF_LOOPS Standard",
+    "02 - Proof Mission Operations",
+    "03 - Evidence, Chronicle, and the Validated Skill Graph",
+    "04 - Merkle, ZK, and Agent Authority",
+    "05 - Governance, Security, and Capability Improvement",
+    "06 - Product, Masterclass, and Deployment",
+    "07 - Evaluation and Proof Run 001"
+  ],
+  "qa": {
+    "main_pdf_pages": 32,
+    "series_pdf_pages": 39,
+    "main_pdf_openable": true,
+    "series_pdf_openable": true,
+    "main_pdf_searchable": true,
+    "series_pdf_searchable": true,
+    "main_pdf_encrypted": false,
+    "series_pdf_encrypted": false,
+    "main_source_recompiled_independently": true,
+    "recompiled_page_count_matches": true,
+    "latex_errors": 0,
+    "overfull_boxes": 0,
+    "rendered_main_pages": 32,
+    "rendered_series_pages": 39,
+    "visual_qa_montages_included": true,
+    "key_figures_inspected": [
+      "cover",
+      "evidence status",
+      "Chronicle gate",
+      "Validated Skill Graph",
+      "Merkle forest",
+      "governed improvement",
+      "Proof Run 001"
+    ]
+  },
+  "claim_boundary": {
+    "does_not_claim": [
+      "achieved AGI or ASI",
+      "empirical state of the art",
+      "independent external validation",
+      "legal/security/compliance certification",
+      "guaranteed ROI",
+      "production mainnet deployment",
+      "live settlement in local mode",
+      "autonomous production authority"
+    ],
+    "next_empirical_gate": "Proof Run 001"
+  },
+  "files": [
+    {
+      "name": "GOALOS_CANONICAL_EDITION_1_0_PROOF_CARRYING_AUTONOMY.pdf",
+      "bytes": 391309,
+      "sha256": "2b671af531b9df551e793ee8a76bbaa500d6ca6a453319f4f078c457b15dabeb",
+      "pages": 32
+    },
+    {
+      "name": "GOALOS_CANONICAL_EDITION_1_0_PROOF_CARRYING_AUTONOMY.tex",
+      "bytes": 3729,
+      "sha256": "c2a83c965a7168e6284c02c403039b56986cd9c45eca5104f18478d1cc9029f5"
+    },
+    {
+      "name": "goalos-canonical-edition-1-0-latex-package.zip",
+      "bytes": 942964,
+      "sha256": "cfebc4ed5043c46e9227cff37419f52d80f9079510599e8bdc18e759bf49420a"
+    },
+    {
+      "name": "GOALOS_CANONICAL_DOCUMENT_SERIES_1_0.pdf",
+      "bytes": 1114008,
+      "sha256": "ffb6b367c975831172d74cadc8b70effc1a602cba490eaaf3d7f3867bc88defa",
+      "pages": 39
+    },
+    {
+      "name": "goalos-canonical-document-series-1-0.zip",
+      "bytes": 2674164,
+      "sha256": "0f4b39a418eb36c266f74e48aa1c52cc76bcb7ab81b1a9f3f68d0379483abdb8"
+    },
+    {
+      "name": "GOALOS_CANONICAL_RELEASE_1_0_README.md",
+      "bytes": 2147,
+      "sha256": "a3dd99167de08d5655b87bcbb29a98441a029b18e771a2633303df3b0fcd9e6e"
+    },
+    {
+      "name": "GOALOS_PROOF_RUN_001_PROTOCOL.md",
+      "bytes": 2626,
+      "sha256": "b3bef83277d37c3d5c02331b45058d67284409d86c44d37b37fd59201a4a2d5b"
+    },
+    {
+      "name": "GOALOS_CLAIMS_AND_BOUNDARIES.md",
+      "bytes": 1715,
+      "sha256": "2c8cf8c6acff23dfdecafd4fecded1cd47f5697cff4a06ebff5de4d45bbd2f04"
+    },
+    {
+      "name": "GOALOS_CANONICAL_EDITION_1_0_QA_MONTAGE.jpg",
+      "bytes": 567770,
+      "sha256": "f50111e3b5495f94751054c71599931bb92e293209b87ec4add24fd30ed198aa"
+    },
+    {
+      "name": "GOALOS_CANONICAL_DOCUMENT_SERIES_1_0_QA_MONTAGE.jpg",
+      "bytes": 453474,
+      "sha256": "9e0eba984377504ebe9097fd55b2a7e645050718aaa1e883d55278a810b9d0fe"
+    }
+  ]
+}
