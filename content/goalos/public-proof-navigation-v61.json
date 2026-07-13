@@ -56,6 +56,13 @@
     "description": "Open Agent Foundry as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "agent-level-up-lab-v85.html",
+    "title": "Agent Level Up Lab V85",
+    "category": "AGI Agents",
+    "kind": "agents",
+    "description": "Open Agent Level Up Lab V85 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "agent-role-contracts.html",
     "title": "Agent Role Contracts",
     "category": "AGI Agents",
@@ -273,6 +280,13 @@
     "description": "Open Agialpha Token Boundary as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "agijobmanager-bridge-room-v75.html",
+    "title": "Agijobmanager Bridge Room V75",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Agijobmanager Bridge Room V75 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "agijobs-dispatch-matrix.html",
     "title": "Agijobs Dispatch Matrix",
     "category": "Autonomous Work Machine",
@@ -292,6 +306,13 @@
     "category": "Navigation",
     "kind": "nav",
     "description": "Open All Pages as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "alpha-work-unit-settlement-v75.html",
+    "title": "Alpha Work Unit Settlement V75",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Alpha Work Unit Settlement V75 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "alpha-work-units-proof-meter-v67.html",
@@ -840,6 +861,13 @@
     "description": "Open Capability Compounding Lab as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "capability-continuum-v75.html",
+    "title": "Capability Continuum V75",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Capability Continuum V75 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "capability-parity.html",
     "title": "Capability Parity",
     "category": "Autonomous Work Machine",
@@ -880,6 +908,13 @@
     "category": "Autonomous Proof Factory",
     "kind": "factory",
     "description": "Open Chronicle Compounding Engine V9 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "chronicle-gate-lab-v80.html",
+    "title": "Chronicle Gate Lab V80",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Chronicle Gate Lab V80 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "claim-boundary.html",
@@ -1050,6 +1085,13 @@
     "description": "Open Evaluation as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "evidence-docket-61-dashboard-v75.html",
+    "title": "Evidence Docket 61 Dashboard V75",
+    "category": "Proof and Evidence",
+    "kind": "proof",
+    "description": "Open Evidence Docket 61 Dashboard V75 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "evidence-docket-61-public-room-v70.html",
     "title": "Evidence Docket 61 Public Room V70",
     "category": "Proof and Evidence",
@@ -1139,6 +1181,13 @@
     "category": "Validation",
     "kind": "validation",
     "description": "Open External Reviewer Replay Room as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "external-reviewer-replay-v75.html",
+    "title": "External Reviewer Replay V75",
+    "category": "Validation",
+    "kind": "validation",
+    "description": "Open External Reviewer Replay V75 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "external-validation-roadmap.html",
@@ -1349,6 +1398,13 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Goalos Product Console as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "goalos-product-lineage-v75.html",
+    "title": "Goalos Product Lineage V75",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Goalos Product Lineage V75 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "goalos-sovereign-work-machine.html",
@@ -1673,6 +1729,13 @@
     "description": "Open Now We Prove It V70 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "now-we-prove-it-v75.html",
+    "title": "Now We Prove It V75",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Now We Prove It V75 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "now-we-prove-it.html",
     "title": "Now We Prove It",
     "category": "Autonomous Work Machine",
@@ -1685,6 +1748,13 @@
     "category": "Autonomous Work Machine",
     "kind": "general",
     "description": "Open Objective Command Center as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "objective-diversity-lab-v75.html",
+    "title": "Objective Diversity Lab V75",
+    "category": "RSI Governance",
+    "kind": "rsi",
+    "description": "Open Objective Diversity Lab V75 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "open-ended-work-engine-lab.html",
@@ -1818,6 +1888,13 @@
     "category": "Autonomous Proof Factory",
     "kind": "factory",
     "description": "Open Proof Debt Dashboard V9 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "proof-debt-job-router-v75.html",
+    "title": "Proof Debt Job Router V75",
+    "category": "Autonomous Proof Factory",
+    "kind": "factory",
+    "description": "Open Proof Debt Job Router V75 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "proof-debt-to-agijobs-dispatch-v67.html",
@@ -2058,6 +2135,13 @@
     "description": "Open Proof Velocity as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "proofbundle-import-validator-v75.html",
+    "title": "Proofbundle Import Validator V75",
+    "category": "Validation",
+    "kind": "validation",
+    "description": "Open Proofbundle Import Validator V75 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "proofbundle-return-gate-v70.html",
     "title": "Proofbundle Return Gate V70",
     "category": "Proof and Evidence",
@@ -2142,6 +2226,13 @@
     "description": "Open Registry as part of the GoalOS autonomous proof-gated work surface."
   },
   {
+    "route": "release-bundle-vault-v75.html",
+    "title": "Release Bundle Vault V75",
+    "category": "Autonomous Work Machine",
+    "kind": "general",
+    "description": "Open Release Bundle Vault V75 as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
     "route": "release-gates.html",
     "title": "Release Gates",
     "category": "Autonomous Work Machine",
@@ -2210,6 +2301,13 @@
     "category": "RSI Governance",
     "kind": "rsi",
     "description": "Open RSI Governance Lab as part of the GoalOS autonomous proof-gated work surface."
+  },
+  {
+    "route": "rsi-governance-move37-v75.html",
+    "title": "RSI Governance Move37 V75",
+    "category": "RSI Governance",
+    "kind": "rsi",
+    "description": "Open RSI Governance Move37 V75 as part of the GoalOS autonomous proof-gated work surface."
   },
   {
     "route": "rsi-move37-dossier-gate-v70.html",

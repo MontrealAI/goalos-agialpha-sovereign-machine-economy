@@ -1,8 +1,8 @@
 {
   "version": "v61",
   "status": "passed",
-  "publicPages": 752,
-  "currentRoutesIndexed": 376,
+  "publicPages": 780,
+  "currentRoutesIndexed": 390,
   "forbiddenBrowserApiHits": [],
   "brokenInternalLinksOrAssets": [],
   "boundary": "preserved",

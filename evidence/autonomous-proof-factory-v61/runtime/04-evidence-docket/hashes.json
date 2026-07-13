@@ -1,14 +1,14 @@
 {
-  "agent-constellation.json": "f01ee067932d05284cde85c2f46a115f478ccf81927f09eccad68d0e36426e19",
-  "selection-certificate.json": "04661157fa0bc69f3fd31a8abffb00bf0578ac0012b645d911b124b0cbbf4eb6",
-  "proof-bundle.json": "cf25228b7bf3d2a7a007f29c7e610a194d9da9c17e7eab21bd35bce8c1fa0fbf",
-  "mission-contract.json": "1a22ba826a6bcccb864231d19a091024e52bd0d0b2feb5d33169be3741615d4b",
-  "hashes.json": "38dd7c5803a636ad6b51818d1b929bb25442c280a6635c71dbb4a89608fe0353",
-  "chronicle-entry.json": "e950e749c2f8b8e6336bfb1b55ffd86fee38a0e0deab66074ebb865feda14073",
+  "agent-constellation.json": "db335b3c2e12e5a5d1861a7e70d848974336fc65098345a1e986b289615549c8",
+  "selection-certificate.json": "371b2d77c4a46542f8b0d865ab6284361404a800015ae82b4899848bedf468fb",
+  "proof-bundle.json": "b993452abf015961693e4333dc4c853dcef8e7bce040873b4ada32c3361bcaee",
+  "mission-contract.json": "001243673270200959713ef885f45c42b98e46fee4a7978b3e81262b8bac8b71",
+  "hashes.json": "0684ad8629f532ffc5825ae8ceb2daef1bd5b962d586a4b18ec12b9d7f8ca0b7",
+  "chronicle-entry.json": "66d5ac651403ab7a1e0098d5e199831251a62eaf233c8c642a1cfcd2e5050a68",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
   "evidence-docket.md": "12b172791e62e2882865ee69f7fb440e771f524afd636df9f983967a49915220",
-  "reusable-capability-package.json": "09fdd11be57768e28fc4acc03bde6865ad1d9160d88a8796d6aa6c31f521f3d2",
-  "agi-job-card.json": "3f533328bc9e3f5721bb48e947993a17f4401f7f4692dc86f880ba1c475b656e",
+  "reusable-capability-package.json": "d0c881c1a60c0de82fa95a977472a4ee3aa49c6616775c19127cb85b364de494",
+  "agi-job-card.json": "ff69174ae920afdc21057d7616847d6b07bf1e6dd83580cddbf1e5c6dad8f7e6",
   "reviewer-brief.md": "bf01c2bf176072d588bbcd2a8d3f9225a28d643b7843afdef09c0897a2dc5ece",
-  "agi-node-validation-certificate.json": "2f514946662a76ec8b0d2388def09cf921acc13b128d9765b565623a2bb780c4"
+  "agi-node-validation-certificate.json": "f5961df7d23f7b3482f77d142a260c249b2d22e5296cd8a14e88f7bb6c30f475"
 }
