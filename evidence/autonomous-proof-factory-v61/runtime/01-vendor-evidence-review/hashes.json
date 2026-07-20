@@ -1,14 +1,14 @@
 {
-  "agent-constellation.json": "fceba142e02602092d7efbdb5ff60b31c5bbb62f33244530fe3834ac73014184",
-  "selection-certificate.json": "4802ead1cc850b8303d4192429827f7e4ffc2e94178f25b081ac0bd4f20bb9e4",
-  "proof-bundle.json": "c2e22145646fc4fed770eafa9071634a2ac84dc33885b300bbf3c7860079b70e",
-  "mission-contract.json": "b77bc5268e06673259994a985a5fc9f76a8da985030f0f8284d1cb589becf307",
-  "hashes.json": "2d4aaf24983fda0fa96325c0e14467a864224f249fca21788a62e73065787260",
-  "chronicle-entry.json": "e447d9443dab9f98920b199c4af204c88fcad4c981e3c35142431bc0d831fe13",
-  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
+  "reusable-capability-package.json": "0fdc1ceba64f5de69ed1083ba365c0582bc8acee1b28fb0c5cf4df7cf26435ac",
+  "selection-certificate.json": "91941cf714f5748c52b0fead7ff8f80c473864dc53d4954be81c2763defc26a5",
   "evidence-docket.md": "5a825ccd87de2d944c2528cd8a3f166924f6bc186f33c79aeb3ee5091294b096",
-  "reusable-capability-package.json": "fbb7c214b3f125bee56818ac3f6e0cd0bc7216c98bb9ab7aaa3ad3135dc67ce2",
-  "agi-job-card.json": "92b33850f928b58b03167a89742d79a44f2f6e450c1f38a00c5dcf872503beb2",
+  "mission-contract.json": "78699751969ad6f1d3657a08f53ecea906cf1fda2bf471294d56e5d7562a7198",
+  "agi-job-card.json": "fc3f62258993fb5512687dc74ed4a6f2146050e57f9ecc14b0e8ff6c30d7e8ec",
+  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
+  "proof-bundle.json": "b009111edff961de31acad7d042d04a1074a6b3a3c64def755525aacc9df0301",
   "reviewer-brief.md": "f6f7eb73a34872a37438dc1b327923b535d8e9c56d0e2605971e23087588befc",
-  "agi-node-validation-certificate.json": "df56cd9fcda373a5898359d174deeb0f8fff8829594ed9442de24ac869d0df70"
+  "hashes.json": "2807e482b1b5bd823167ef1c6f826e5b0642921117413bea66a665ad0fe5388c",
+  "agi-node-validation-certificate.json": "542224880435451ae1f41c4a2dfdcb0962035a4d5b324a43cd44912c45928a33",
+  "chronicle-entry.json": "fc5a5a71410e201cfdae76034eca08f4f735867e433de0354059a855784990d7",
+  "agent-constellation.json": "e4a1c1409a8a575db612bc2a4f2c02cbef806ff35722db4a2a3220b0d5bd0961"
 }
