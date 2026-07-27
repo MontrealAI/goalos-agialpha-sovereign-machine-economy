@@ -1,14 +1,14 @@
 {
-  "reusable-capability-package.json": "acf4f630fe397b300b9c999e4e09383ed77614cc3ff7c4d0ab6784f7bd937d0b",
-  "selection-certificate.json": "b3e54e513ea64c54bfea7d026edbeb9ac4173e17c52ed2cfccf886abd0f1a8a3",
-  "evidence-docket.md": "6e1af03e4577957f3853b5361b6f643f80aec4b65ea1673dd54e24be5b919280",
-  "mission-contract.json": "b2b4e5e0299afcc52d0460a7f728e2614b05ef508b680636a3ece10f403a3255",
-  "agi-job-card.json": "760b877672ff46c8ba52748a32c4459c41ee6e8c13de54dd31f18c5db98673c7",
-  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "proof-bundle.json": "b751c30e73d7dae1b1ea99560442185f7bfe0af4e025c255ecd7289a25cf9be6",
+  "hashes.json": "c256e4b3b0fed50d5deb1bee9e98fd9f66c1b4647f95b1270851e9d52e5c6990",
+  "selection-certificate.json": "de6f020b8ea5b9e2c84e570a0bcc43b6349c405504688e413eded7da06237c0b",
+  "chronicle-entry.json": "6d59e2e4bc2a71cfc4d31e1ba49aa8c290c0632ec434b5e70483f89eaede2b20",
+  "agi-job-card.json": "e651efc11e6dec6133832cce33dab51f38c37811cb299c6ad20da76ef4f011b5",
+  "mission-contract.json": "8ff59406c6e1cb455495d65eb40b68b63e73b5c811fe21437b8a1790cf610e20",
   "reviewer-brief.md": "50bd78ba0dbfb4bc40a83100fc88ce8d9e0e8502025c467e735203316f30fd5c",
-  "hashes.json": "1a3b6728918767eb727e5ee041fdc23591184efb32edd084ed1edad9ae5ff1ba",
-  "agi-node-validation-certificate.json": "6098b0d8bf95b5df00db2f4a7bdd04cfe876b76dbc659a57e351e3a0038ca62b",
-  "chronicle-entry.json": "c84ed55c127ef73f84c6cd797d1e7e3388744ef8dfc7d1d05f19e5a8aa67bd4b",
-  "agent-constellation.json": "5a1af86900c5de64b09356a497bc92ea80a417b24cabadf9c1146d6fec5260ac"
+  "evidence-docket.md": "6e1af03e4577957f3853b5361b6f643f80aec4b65ea1673dd54e24be5b919280",
+  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
+  "agent-constellation.json": "8172560544dc7e8aa8122312cc72c57f7bc7661e4ed295235ffe38413df60dea",
+  "reusable-capability-package.json": "2e3648d875e0d87734ee219fd98f7afb1cde7e0f39d8f9a6404ed93a33c62fa3",
+  "agi-node-validation-certificate.json": "5ea3110375acd48780c88f0b6ac30c31b9188167f83f4d888bba53192e15a3b6",
+  "proof-bundle.json": "41033651c1a623c89ed40d249ff4f62bcb714aa43edfbb1aad14ce18ed34c192"
 }
