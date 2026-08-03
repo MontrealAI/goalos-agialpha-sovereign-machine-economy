@@ -1,14 +1,14 @@
 {
-  "hashes.json": "f736840e006d389770bf8a1af5c23b34d1314a229f7b37ce09cc7b6411e4d8db",
-  "selection-certificate.json": "8ba96ec0bf89507bb9c37b890711cb8c79553c076a531192fb87e8b19d281bbc",
-  "chronicle-entry.json": "39e765332647fbba014a49c261c91742807c69a866f9d86602f24332e8857197",
-  "agi-job-card.json": "91bf697bd57e7a9c963dfc68dca04eb5e08d93862ffb0725bcf7809dcb3f2d61",
-  "mission-contract.json": "35503c254ec089c1daab014772940e7e3117c1ca2e8e26ab718c1f74ccb1226b",
+  "hashes.json": "134d7b57096ee4c7494d53afecd86913020ff9c0d8b0ac088435e1eca7d0d038",
+  "selection-certificate.json": "c463a3eec3791ac496979de80e7d7aa27e00e3650996d81030d406acb3741fec",
+  "chronicle-entry.json": "c4e90454c98c194f20c55f8851748bb136760e05c107247b5721af3738e8b54d",
+  "agi-job-card.json": "bb693b7381bef10816e184205b63bb82594516d42bc00537bc7e9edfc8fee3dd",
+  "mission-contract.json": "f8c61f43e4ce8882c5ca59db254db701305d22b3929b5635e4e8ee130e173489",
   "reviewer-brief.md": "f6f7eb73a34872a37438dc1b327923b535d8e9c56d0e2605971e23087588befc",
   "evidence-docket.md": "5a825ccd87de2d944c2528cd8a3f166924f6bc186f33c79aeb3ee5091294b096",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "agent-constellation.json": "14393bf1b5855882f0fd70effb88196d21a901cf6e8655e357975b8afca03139",
-  "reusable-capability-package.json": "527618aabb76df82839a61ea24b9fd3fb44de2d487a1aa3eee2e24acf3cdf91e",
-  "agi-node-validation-certificate.json": "17b57dbb08083c36a70895b02c3362ace70cdcf721660c79b3650c609e3d204c",
-  "proof-bundle.json": "f922a8c5e5bcba6ab355bbd0b37e08dd46647e9726d7e0c99fc3b86a5a7969fa"
+  "agent-constellation.json": "bb23e85354c0a040f3b9a0629debbbc8f9efb776be916dab93c195d23057f26f",
+  "reusable-capability-package.json": "9b0bb5d9b88eed994bca8dd4a25818c40e89cc4d4a8acdb1230d68aa61c5d44a",
+  "agi-node-validation-certificate.json": "57430031f6c89cfc67c6ca450aa0ce237cb25908538f36af2e246c18754611d1",
+  "proof-bundle.json": "bcd611c4eebc95e796863df84754276eda9adcc61fdfdca9057a17ee1ed5dcd3"
 }
