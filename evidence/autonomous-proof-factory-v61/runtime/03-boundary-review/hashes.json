@@ -1,14 +1,14 @@
 {
-  "hashes.json": "3ba1a06e118c4eb6bc979543d49f86a1a76922ebe0fb1b395895320fbccaaf87",
-  "selection-certificate.json": "04ff4da00b62e4162c0888eb5f739985e6e0aa14b74aa80709186a82ef0d0568",
-  "chronicle-entry.json": "1a5a0d484ac89d416277c875baa24c37aded01ccaa35fcd8cd112c340e1890d7",
-  "agi-job-card.json": "7fd13d502c2770d5f38062d67fcf6dac4533b2aa37bbde68a1b5a0f83e93f7f6",
-  "mission-contract.json": "cd551eb6ca03688f5ba61ddf90791d3116a3f08edd12c6672d223fcbcdd1a4a3",
+  "hashes.json": "5e37b7a4cdff6abd047bb460072c941867b8d2acd436ce58fb81786414e4bcac",
+  "selection-certificate.json": "67cea126e9515cb50acc9d5f5f316d9a0198fb9375724294887d978c0b812ee3",
+  "chronicle-entry.json": "50e51e09bffb91a295fc1a73033a471f26d7ddd2b2a3daa78387fbc5e8afff02",
+  "agi-job-card.json": "dde7dc17f1a499f52a9926b1ac85facdef21995ed9849e757d04959c538b2925",
+  "mission-contract.json": "5076fe16be087b0d5435e044ac9f34f1b883cfe0f380ebc4e69aa08d87a70b04",
   "reviewer-brief.md": "0a990250767b28a3cb66d3358a32bad8a3efa1520cdc75437ee1fe10f82f1a91",
   "evidence-docket.md": "d955e570d537d4b16929cb317f8dbc713159518cac712f91627e5c4a1ec398a9",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "agent-constellation.json": "67d7b71909819662409202e3e54dc9d932364ef5f20662795579cf9c6f9a40ed",
-  "reusable-capability-package.json": "52c9fa3b12e4367a7dbe064a73428fae7addf625d9095d8ca73d2de9f884f4f6",
-  "agi-node-validation-certificate.json": "d66f19d27c27bdc5ec65c6c8b3c2b34c79d8a7050d8f4fb3d30e9f9375b18704",
-  "proof-bundle.json": "8179806399be9031ad80ddf1da268e319ef2edc4d528811952f684b9c6d5c774"
+  "agent-constellation.json": "2370b51281c603440281134e01014e16835e34c56d56beb83b013dc7393d6b23",
+  "reusable-capability-package.json": "8859ce8c4f244750dea594b7070980dfa4794f37199ca80f66597c3eb259d8f4",
+  "agi-node-validation-certificate.json": "b9e59ceed73a628ecfca323a80fae9ed580925ac5e0dea3435b6d6a063bc9b0e",
+  "proof-bundle.json": "c5eaca33650e13cd9e8dee58a51b907576bb277588bf6fa161fe17ef1e509cfd"
 }

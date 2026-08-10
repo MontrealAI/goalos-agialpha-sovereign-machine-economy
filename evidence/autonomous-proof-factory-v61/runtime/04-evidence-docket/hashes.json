@@ -1,14 +1,14 @@
 {
-  "hashes.json": "ce11f46c3c3172fb90e6504c96a9e97fe6d338028c795eddaa961b9c00b70d96",
-  "selection-certificate.json": "5d11712c6b4f95e802de9c3dff7e96715906ade62afc3a363132f9ee6430007e",
-  "chronicle-entry.json": "4ed80dd91263c0fdf1b3a87a5c8514bba8b63985ca1f77b85bca0a90730b41ab",
-  "agi-job-card.json": "d440fb2b024183c2e06480dede09f50fada65a2887c99ce2bbcbedf0dd84790a",
-  "mission-contract.json": "ea3c25f56f4f0b29bebaac5f454c43d92c23c362f010b8cdd7a2db1c75eab042",
+  "hashes.json": "35adb801f9fb7c5ee7a6dac273fd4a39d421f81e575ad1400b837ee38a6f45df",
+  "selection-certificate.json": "d36e81cd63f4dd7a4da11920ffbf4e1fb90ee8525bb3211fc6479e41d22952e3",
+  "chronicle-entry.json": "4c3db9cf92c97214264836e886d404c408ab4f2ca6167724c0e0bfceb90b8869",
+  "agi-job-card.json": "c873d3c716bf2ab35e227d4aafc6a03895535110f20eb13924c6f68b87b7d433",
+  "mission-contract.json": "53de6619fc3d36e8f9c96e0ff14a9275b21dec0133db13ad8c7399aed6842db5",
   "reviewer-brief.md": "bf01c2bf176072d588bbcd2a8d3f9225a28d643b7843afdef09c0897a2dc5ece",
   "evidence-docket.md": "12b172791e62e2882865ee69f7fb440e771f524afd636df9f983967a49915220",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "agent-constellation.json": "3709e5057683005304ece655be396ddd353126a2edeb9514ef9f8ca9f77ac4ce",
-  "reusable-capability-package.json": "cd740dc7f0757869609425518e47e7498cdf82e9128af600c545dd8940496897",
-  "agi-node-validation-certificate.json": "0596e30df9372807181d007312074ed30632fd002dc3acb6a973e33eeed54170",
-  "proof-bundle.json": "517001f9d201020d7bf557de08df1a71d5311c37545c2e3dbfbc405d627abae8"
+  "agent-constellation.json": "6384c81f311f9a5e0b7b9fbcfa39d56e56db10b023772ba82e0f7cf32aa5f30f",
+  "reusable-capability-package.json": "7917e47e3c9c411cb0f2c2bf1e5283587bc6f85583de10de768ce2015b081cbf",
+  "agi-node-validation-certificate.json": "03bfeb10779434b9da06689c0b55e4bf38c1e808d3584f8b575895816341c7a1",
+  "proof-bundle.json": "d3c0d8fd2342fe783d34f31b1b103fcc29f0b92f910a971b1d34b3cad99eb099"
 }

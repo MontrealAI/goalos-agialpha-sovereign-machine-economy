@@ -1,14 +1,14 @@
 {
-  "hashes.json": "134d7b57096ee4c7494d53afecd86913020ff9c0d8b0ac088435e1eca7d0d038",
-  "selection-certificate.json": "c463a3eec3791ac496979de80e7d7aa27e00e3650996d81030d406acb3741fec",
-  "chronicle-entry.json": "c4e90454c98c194f20c55f8851748bb136760e05c107247b5721af3738e8b54d",
-  "agi-job-card.json": "bb693b7381bef10816e184205b63bb82594516d42bc00537bc7e9edfc8fee3dd",
-  "mission-contract.json": "f8c61f43e4ce8882c5ca59db254db701305d22b3929b5635e4e8ee130e173489",
+  "hashes.json": "1ff26662c0f6c45baa9f27975c4730f956d8842ba08d8f8a1433dac23889f39e",
+  "selection-certificate.json": "0d545e3d2efe9f4a7b79ec14536b15e8c9ec8f01b5f7fccc3b15e683060739be",
+  "chronicle-entry.json": "82742745a5663f8ba0d03fa9a385a4120ef652987440e90178fff2fe57946333",
+  "agi-job-card.json": "0e37a6800f3b8adb3a497889c9c22e0cee683291f429e6ce1d738c7ba2643835",
+  "mission-contract.json": "939b5ed00287bd5b2e87cbbbb01c8c54d0389fb04b8b07b1dac071cb44a07d8d",
   "reviewer-brief.md": "f6f7eb73a34872a37438dc1b327923b535d8e9c56d0e2605971e23087588befc",
   "evidence-docket.md": "5a825ccd87de2d944c2528cd8a3f166924f6bc186f33c79aeb3ee5091294b096",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "agent-constellation.json": "bb23e85354c0a040f3b9a0629debbbc8f9efb776be916dab93c195d23057f26f",
-  "reusable-capability-package.json": "9b0bb5d9b88eed994bca8dd4a25818c40e89cc4d4a8acdb1230d68aa61c5d44a",
-  "agi-node-validation-certificate.json": "57430031f6c89cfc67c6ca450aa0ce237cb25908538f36af2e246c18754611d1",
-  "proof-bundle.json": "bcd611c4eebc95e796863df84754276eda9adcc61fdfdca9057a17ee1ed5dcd3"
+  "agent-constellation.json": "dd03107c82beb27022ddd7293724050b5f5d69a36b68bb7163cf7dad7fd9f304",
+  "reusable-capability-package.json": "d457e82260ce67dc61a040760c91ba8e869d621409f7b342ec9599f34a567cbc",
+  "agi-node-validation-certificate.json": "72c2bff7e7ee453f73bd9e06725fa70521737bdb9f7adb2adc52f7bd271af84e",
+  "proof-bundle.json": "d204227924fe9cadbe03411772614e8488489d9c02fb70c3bd694cac1f43dfda"
 }
