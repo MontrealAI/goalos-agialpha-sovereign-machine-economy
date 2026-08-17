@@ -1,14 +1,14 @@
 {
-  "hashes.json": "5e37b7a4cdff6abd047bb460072c941867b8d2acd436ce58fb81786414e4bcac",
-  "selection-certificate.json": "67cea126e9515cb50acc9d5f5f316d9a0198fb9375724294887d978c0b812ee3",
-  "chronicle-entry.json": "50e51e09bffb91a295fc1a73033a471f26d7ddd2b2a3daa78387fbc5e8afff02",
-  "agi-job-card.json": "dde7dc17f1a499f52a9926b1ac85facdef21995ed9849e757d04959c538b2925",
-  "mission-contract.json": "5076fe16be087b0d5435e044ac9f34f1b883cfe0f380ebc4e69aa08d87a70b04",
+  "selection-certificate.json": "a63e6af0b4e5039ac1b0a6824fdd6ebb0fd3c25253f2e5d6c2fb0f659556c4bb",
+  "agi-job-card.json": "ec2c3a744218938fefcf645038a387e08741faca34a0087844fede4269b172d8",
   "reviewer-brief.md": "0a990250767b28a3cb66d3358a32bad8a3efa1520cdc75437ee1fe10f82f1a91",
-  "evidence-docket.md": "d955e570d537d4b16929cb317f8dbc713159518cac712f91627e5c4a1ec398a9",
+  "agent-constellation.json": "9595777d825e65ac169341e32bb823ce38a36191a84058b64b5feeb7b34809ca",
+  "proof-bundle.json": "f353959697e47e268376ec297bf34cf74235eda3e931dce55e873cf94dd31376",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "agent-constellation.json": "2370b51281c603440281134e01014e16835e34c56d56beb83b013dc7393d6b23",
-  "reusable-capability-package.json": "8859ce8c4f244750dea594b7070980dfa4794f37199ca80f66597c3eb259d8f4",
-  "agi-node-validation-certificate.json": "b9e59ceed73a628ecfca323a80fae9ed580925ac5e0dea3435b6d6a063bc9b0e",
-  "proof-bundle.json": "c5eaca33650e13cd9e8dee58a51b907576bb277588bf6fa161fe17ef1e509cfd"
+  "hashes.json": "76169a09c933c9617e9619523db5f8f4554c947f26296c1554e3edcb54d9db97",
+  "chronicle-entry.json": "67d0acbe14410a5b267a111836b2a1672e8002c834fa83ea93d62b7d3ed21841",
+  "reusable-capability-package.json": "36304b6187b7150c3863028a1b4d0edc45919afd3250faac08f4bc4dfc5360b6",
+  "agi-node-validation-certificate.json": "d27748212f06feec62200160119222848f7f8fe2ef4f2857a45220844449f441",
+  "evidence-docket.md": "d955e570d537d4b16929cb317f8dbc713159518cac712f91627e5c4a1ec398a9",
+  "mission-contract.json": "d5dcc0478b8b10ae28ef27257b1499ea513ee87c1ffb11ddc247eb76f4c40495"
 }
