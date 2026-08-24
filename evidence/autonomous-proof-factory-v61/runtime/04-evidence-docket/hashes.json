@@ -1,14 +1,14 @@
 {
-  "selection-certificate.json": "240f9c07fce0a9fa841bace912119eeab68a2bf99090543e0a6d741d7011b269",
-  "agi-job-card.json": "f51a90c372d3bfe5e9d9ad0c02371f1babe029d85b43a55ea5d2cdd3b97f75c6",
+  "selection-certificate.json": "974f0c5f603170ca9b1efae768ac2c9bbbed4ae0b5f3414cc253993669fa1582",
+  "agi-job-card.json": "003c8101e04be8852e055fcc76784dfd4a42adbf411db11651b9eb7bdb2126b5",
   "reviewer-brief.md": "bf01c2bf176072d588bbcd2a8d3f9225a28d643b7843afdef09c0897a2dc5ece",
-  "agent-constellation.json": "6a1149a594f4d66d53d926e47ee477ee6bcd93eb5a19c7c09b3389911efe91d6",
-  "proof-bundle.json": "7b6c0c3e573e9badde0f93eaa41bdc997300c78d7ddaf10e095b28d5581d5ad7",
+  "agent-constellation.json": "3b728b8db9e1ee0da8e84a408ee2a1c9a090abf3b93903121c83701d3f6666a2",
+  "proof-bundle.json": "215c26d70787bb70ddd989fae5537c6987adbb34edf3e288ab90b14071fc7d0c",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "hashes.json": "835eab9c8ab0659bcecba2499b2e192800a59b839d04effdfd75221f3009160a",
-  "chronicle-entry.json": "60bb852cc28a0618c7d2994b1323c688376032417a2a6d655dc62a02616305e6",
-  "reusable-capability-package.json": "f7d54d2cd19ec176ab780219f458dde283268d93f90451ab00c1239530d1b98a",
-  "agi-node-validation-certificate.json": "0864e50152e56a3c4920b454ac3e22a871ba94494fc73ee93b2bdd70084e0d68",
+  "hashes.json": "09c66eb0d6cce2bc7c93560b6756e7f9bd0e7b6fe529bfcd8acd17f62b78e8cc",
+  "chronicle-entry.json": "827b8657e0ec1c572b45a279ea401e43334368fb04f0018059d38b74e2987e07",
+  "reusable-capability-package.json": "8b320aa193a4e6681f72c125c8eee9719937d48c4970640ec740a91d10385aa2",
+  "agi-node-validation-certificate.json": "3e512eb5941c4537f66eafdb67e66527cc809b92426662eb62baa55302a41f73",
   "evidence-docket.md": "12b172791e62e2882865ee69f7fb440e771f524afd636df9f983967a49915220",
-  "mission-contract.json": "2dd7dbd36ca60cfdda9022dd4296633eb9cfc0258c8f75334520a882d72e5adc"
+  "mission-contract.json": "e16d454ff3c4d462dd6378a5d60f1ef130c3449550c8a15b51b09187d34851f5"
 }

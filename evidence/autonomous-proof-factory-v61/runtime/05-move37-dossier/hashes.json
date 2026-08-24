@@ -1,14 +1,14 @@
 {
-  "selection-certificate.json": "00041c1ef16c86d080b1f516f9c80843ea35acabd8cd9f7d7ae20d0a8a94de15",
-  "agi-job-card.json": "e43ab7569a1a022f246f5ef47574317d6ff9cf4cec1cfd5b6368c10635fbd626",
+  "selection-certificate.json": "bc623b1095339e5d9ceb93b679fd6a6170e96730a535c62745cc49e7c46ad310",
+  "agi-job-card.json": "25a38bd52f08fa0ddfa300d1d5a05aa435f79420b3dc474325c40e08405b2d42",
   "reviewer-brief.md": "50bd78ba0dbfb4bc40a83100fc88ce8d9e0e8502025c467e735203316f30fd5c",
-  "agent-constellation.json": "82d83cd3b70a5ac77f35a6387a0ec5be21e619916d05e2a290dfee3010305174",
-  "proof-bundle.json": "f2d7ea6ba675e9944202e8b88c65598a9990a32bfc82b77f5d028ba1a92afb4a",
+  "agent-constellation.json": "9a2c7b0abe86822efb89649144c2c166902a5c8528a99bcec92f2a018acaa412",
+  "proof-bundle.json": "bede20af897956e2d35f262b66bcd40e5cf696b638c7eca5f79337f4e9dd8b5f",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "hashes.json": "2db8b38f84ea8231b1d34ded4de1b70279f35c8df244d8e7a71adfaba2111d6a",
-  "chronicle-entry.json": "8be4d8e7af65dfa2e51cd412ccb9c3fcd787670314f68c2a1191c690919162ab",
-  "reusable-capability-package.json": "e323716375ab58be1719de044cf3624ad5699c2a1024a61a71f7a027918de978",
-  "agi-node-validation-certificate.json": "4a7cd82fd9bd37323f20631f15c30739f41f1ad1c8d2b09d6348635229613233",
+  "hashes.json": "25e4f0e95d4cae16aba9b0e6d7996ed606437bc6aca7ea4d4e757afdd288056e",
+  "chronicle-entry.json": "730b24fa0a8a5eb0ec6f3dfda372b3668d7823c198ad91b92206e5050e9bd9a6",
+  "reusable-capability-package.json": "61031421c0d88787f161ec442161e2938a14957293c677cf6b75f423bc7102e6",
+  "agi-node-validation-certificate.json": "130def447e22a9ebc77bf321499017f47425cc0350ac139535c66fc467b8e00f",
   "evidence-docket.md": "6e1af03e4577957f3853b5361b6f643f80aec4b65ea1673dd54e24be5b919280",
-  "mission-contract.json": "459fc6ff199fd98d5f7a641d8bf6313a64256e18462d56602f63f21f63b2cfd3"
+  "mission-contract.json": "a874c5a421646f446b9b448c1c449100d9b2b426dc0c794618a6ff4333869cea"
 }

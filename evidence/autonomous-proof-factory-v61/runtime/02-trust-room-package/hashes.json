@@ -1,14 +1,14 @@
 {
-  "selection-certificate.json": "66ee108cbdf6abb3e7a0aad8ab67476e7ce9871ced1ae16e0001fce2caef6f02",
-  "agi-job-card.json": "a8279a359a49743f9232b55f07bfe4e13d745d2e94a536ee84b0abfb72bfcd6a",
+  "selection-certificate.json": "61faab0443dd57af3c23df6c65062a5e3827eab87ddd8e382fae47bd2cc9ba92",
+  "agi-job-card.json": "7d62013730a30d80545b933fb3d3d9257dcc4b6fba44b5b6e9435a84a79376ac",
   "reviewer-brief.md": "6ed68022325c40cd9fccd7863d5c279c4fbc5b24c7f2eba38b03abf8373d55e1",
-  "agent-constellation.json": "f59edc3f36defa0d14470a62de8c16d4ef4ba597b5d11b965219aca5d6589bcb",
-  "proof-bundle.json": "17da4f13a87e5d2baa1e2ccc25f30ee91b5609ccd347f33118ac07303415969f",
+  "agent-constellation.json": "cd933a6219f3f8873c4e49979f6c7602759405ed652f39e889334820f8e5e050",
+  "proof-bundle.json": "f3289254009fa63583fdfafce645230b10747b5fd02c61957c65a04f8619ac9b",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "hashes.json": "cf081489689a4cd5c26c65f3562af1e5e88c28aeb30a64b2e96f55b067be1a2d",
-  "chronicle-entry.json": "4ab4f661a773d3e135dac9d1d204a846ac2092a295f6ea08ba1ae523f1ade02d",
-  "reusable-capability-package.json": "a4124570dbe0c55d3fb122007136e067f060922acf96ec3175ddcb5909b1c2f5",
-  "agi-node-validation-certificate.json": "7dcd75573269724cf5724a404bb8e6fca1366019a23b4da7dbcd53896302bd2d",
+  "hashes.json": "84396d967bae530d61af37e0c6289f2b61ad28bfe1a9b179dbd02fc2d3384b2f",
+  "chronicle-entry.json": "601c536c95ae732baedafd7f2af14eeac1f9122f04a9fd096e345f9ff07c1b78",
+  "reusable-capability-package.json": "a20b7b2b1916624c24c47822fb4245a7cac86532b7a93f29ea5662abecbf7837",
+  "agi-node-validation-certificate.json": "8a618870abffd21dbc0ba12cdf4cc92e64a3c0f1ffb88c58247170bace73dcf6",
   "evidence-docket.md": "41c3acc6009df67e231d8b44d5a1d114a6b1e0f15907d844b99041e89f63fd4c",
-  "mission-contract.json": "c18334e88917e9746aac0426d0f802d00e2975544c610b5e9e574f012a184f7a"
+  "mission-contract.json": "a6ee15adb4f1ebadde80edaf363eac993c653cf8f320c956d5fce2c80fa5779b"
 }
