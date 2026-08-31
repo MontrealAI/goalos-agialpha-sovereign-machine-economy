@@ -1,14 +1,14 @@
 {
-  "selection-certificate.json": "f27c517360370a07ab9b0bc6ac11f6b584a022cd6f0d5c1562c7df6105826be0",
-  "agi-job-card.json": "89b542c2f38a4247439d84a691d3817f9ec9d3e65ae410141a82b82b87243ea1",
+  "selection-certificate.json": "361833778b2932fcaa2bc7e4c2472592534e01cf4b895d7aa116cdb0e834b11e",
+  "agi-job-card.json": "9ec38cc359e4f18372f6fb6c9dde61601226b51275a2714cf4fd3fb117d219a8",
   "reviewer-brief.md": "f6f7eb73a34872a37438dc1b327923b535d8e9c56d0e2605971e23087588befc",
-  "agent-constellation.json": "57f9849b0929a37c707bc64f9e43bd801519c399dcd1884db6d295ed57e2f84e",
-  "proof-bundle.json": "c981e478395da34f7f84891b969b8686c5562d4fd872e0c5ebe5dcdf137338e3",
+  "agent-constellation.json": "44cae268eb6266a20974c29ff858c814fdfc143a7de866dafe8d8864697f57e4",
+  "proof-bundle.json": "e33f563fe42e7dee31011b99de4050cb009c19e2cb8ae91195e9aa090127aad8",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "hashes.json": "76672a4f9129224c0b47ebeea0f920c4bd54621854898c59b65c4507af0ee474",
-  "chronicle-entry.json": "3d5d2598fde06befdfa40a919571247c0df5575c0a608219cbde7b9886155424",
-  "reusable-capability-package.json": "d3e43654615a8f53aa00eff45309cc447bc76ae77aa749bb531c090b7d40f8c0",
-  "agi-node-validation-certificate.json": "af7cc3b8eb776a9cbc20197e09632ab8f23fc415f0e22a1c44a484a11e96da26",
+  "hashes.json": "9fa48ccba45592440cd5116bc461dc98d9526e8300764485c468ad5735a0c632",
+  "chronicle-entry.json": "95280c5db62a39e1b4b90ab37c27053a7a623c99b8e0e3d279e8d625a583dff6",
+  "reusable-capability-package.json": "5b432bef9dad7b0f8e1852e5d4373acb5dec36f418b43348143e7fea27aa3cdf",
+  "agi-node-validation-certificate.json": "e003a3a7b8a08d27f2ad1448b8339a43c0ae6f5813ecc94ef413f7bca38b38cd",
   "evidence-docket.md": "5a825ccd87de2d944c2528cd8a3f166924f6bc186f33c79aeb3ee5091294b096",
-  "mission-contract.json": "cb22b5d4b53a0354fdd0be0046ea4dc33b926811d0dfe63d3d1d9244ac9a504a"
+  "mission-contract.json": "031b3314ad88424e0c428842d40a67e9c5d001cb2c6a35e775097e398ff31bd9"
 }
