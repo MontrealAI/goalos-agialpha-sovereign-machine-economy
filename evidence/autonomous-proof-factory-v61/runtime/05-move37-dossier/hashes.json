@@ -1,14 +1,14 @@
 {
-  "selection-certificate.json": "3cb032f3afa673715f9ee6d195e01bbf18cd47d9ef82a7a7ac838ea968f59a0c",
-  "agi-job-card.json": "bfe81e519d95c7f232361e80a56487cfb638d3f914ca8a576436d502d01f2cfe",
-  "reviewer-brief.md": "50bd78ba0dbfb4bc40a83100fc88ce8d9e0e8502025c467e735203316f30fd5c",
-  "agent-constellation.json": "79fe83b4d421fcce653a2ce855df31b874f3901c02097d8d3551e98bdc2c3979",
-  "proof-bundle.json": "410f0b069970da4a9b3fd5524a0698ce999dfd9001adc90c7e29227c7a9b1bd9",
+  "agent-constellation.json": "2f6bc059351139baa1cd7aa658f1f9c67ebff10c8ff04a45d6510299c42155a6",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "hashes.json": "bfca3010a38a361044e0f3300ab4d26912cff2512695d3f88b940b0caa274ee9",
-  "chronicle-entry.json": "da3cfde44193ba1509c258efb87e9d82c7e5cd60da947c761e03694804911f78",
-  "reusable-capability-package.json": "26677d88aad6d1f7bec75b1875a96041ba6b654371f9329c05cf352515f18044",
-  "agi-node-validation-certificate.json": "9aba5644cbb40ddd0c9be0d3763b71ea490e4a015016f4380111c62f1b7a068a",
+  "agi-job-card.json": "a4fb328329174490f6b735980ccf04325716faef0085bba888bca538a384384e",
+  "reviewer-brief.md": "50bd78ba0dbfb4bc40a83100fc88ce8d9e0e8502025c467e735203316f30fd5c",
   "evidence-docket.md": "6e1af03e4577957f3853b5361b6f643f80aec4b65ea1673dd54e24be5b919280",
-  "mission-contract.json": "248c72a3649cbc66cce7503f7fb1ca68f99e4b3a0b9d3c70ef5c350fcef0b267"
+  "selection-certificate.json": "22629592d5b66682e980a436eea5bab7fbfd95424200ae064c94acfcf88c269c",
+  "proof-bundle.json": "6cbaa43168bde89f3f95fd06f6a793088269c014279e9243729116e527be66e5",
+  "reusable-capability-package.json": "39dfa948c8b26204128db18f28987298c1fefbabaafd983335a32455779e8430",
+  "chronicle-entry.json": "49b8b77090873c21be33ad4fd6267fa9035047e7386aadd97132cb8483175364",
+  "mission-contract.json": "4a42501d9775bf986acc7180fc25a2f3c4018518f676674796a7fc167031b59d",
+  "agi-node-validation-certificate.json": "cb6e07e6bf38647b9230a1e55b8fd450fdef933652be7b4d9c58e7fbce3a0d66",
+  "hashes.json": "bfa164d91d252454debcbdce05745ec15198d14f0956f0e8dcb07fd5904aa5ad"
 }
