@@ -1,14 +1,14 @@
 {
-  "agent-constellation.json": "25c66e8a811fc6f2d6fe0d0c9d087cc8ac0cdfaed8aff51d7bd71d75738eddd6",
-  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "agi-job-card.json": "ff63aacf6a4bd84cc8d1c3f3826283e19c22a046fd90480386b671ac8ea6957b",
   "reviewer-brief.md": "f6f7eb73a34872a37438dc1b327923b535d8e9c56d0e2605971e23087588befc",
+  "mission-contract.json": "9475061598b254a62036f83dcad9dd20ad4df432fdc56ec620f5a84e5a0e02e4",
+  "agent-constellation.json": "efb861338f4ed8306de4cda3eeb40ce85f266d5599e32ec78c0f122ae2b462c1",
+  "hashes.json": "53156f29701b17c0f1b74f2659a7fd3b7a297a74a8d8dbc1d499e0ace0923a25",
+  "proof-bundle.json": "cfbc2ce31c9789bb0d600f80b59963acda699160b714181e1f0316a0f7ff400d",
   "evidence-docket.md": "5a825ccd87de2d944c2528cd8a3f166924f6bc186f33c79aeb3ee5091294b096",
-  "selection-certificate.json": "f59ad6a50350642596014c7bc14a77707b16fdb634b2c5328a4298327ad5ed0a",
-  "proof-bundle.json": "6270728cb771e9b2c862dd768c7425d38b3a3591b9a700ff9914c72cf1ca02ec",
-  "reusable-capability-package.json": "1d81206af5fe51bc1267017d233a594cafa79973de68a1837a3e90db55ddf329",
-  "chronicle-entry.json": "8d021c704626c93fe5f25b9e93678fbec4a5e471f67f7159fad0465efba5d064",
-  "mission-contract.json": "9822e48641641b72bb9e1ba2f1bbaa1ad5fe5f51856e180c29ba30c839f16906",
-  "agi-node-validation-certificate.json": "79d1fa9e164f6de281e90988732912653c4465421ec04892a9b692026c3eb6d2",
-  "hashes.json": "225d6232beb0c06e8a61f22d53a609e30728a15a2be2ec304dc5fa3bef152b43"
+  "agi-job-card.json": "6ce03c74783a5a99db7e46d04961db86d64a95208e5e90a836604e4682d94827",
+  "selection-certificate.json": "f8d5268afe2c446faf58aa43a173f9da5354f0ee5d1388b08d078a8ad0972b10",
+  "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
+  "reusable-capability-package.json": "84dad52741b1279b6d73f9b83b80eb1de43909d2fa2445d69e6f06b0436c2f6a",
+  "agi-node-validation-certificate.json": "55cfc7cb6f961728d2eac244cf7c5711fa05c4bc2fd3d9479a2f2eedc39df83f",
+  "chronicle-entry.json": "e7ccab256d1dc805d474936f3b9081a77178cf6a836ca97620be704a46f77724"
 }
