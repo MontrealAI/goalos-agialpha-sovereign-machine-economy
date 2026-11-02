@@ -1,14 +1,14 @@
 {
+  "agi-job-card.json": "9fb5d27e6eaa5b777d211ef338d88639c54dc2aff2c79877e73520fbcc4600de",
   "reviewer-brief.md": "50bd78ba0dbfb4bc40a83100fc88ce8d9e0e8502025c467e735203316f30fd5c",
-  "mission-contract.json": "c405d3d4fc63eb4b63ae35e3db3be126123941033f76c09057e5db9613c4cce1",
-  "agent-constellation.json": "b91da967e56abd1fbec0f4d9535aae8b1053893cd00fcf48df8e73390bba1400",
-  "hashes.json": "f9b8d62e2bd6b053a2e3e80d3d608b886f8ec4813ee43e2556b1d430411fc8a2",
-  "proof-bundle.json": "6aa5f85eec0228b73b7809b7258c7cead81599f0aeaf74e09561bf16c4c3bde7",
   "evidence-docket.md": "6e1af03e4577957f3853b5361b6f643f80aec4b65ea1673dd54e24be5b919280",
-  "agi-job-card.json": "c6ab5c8a2b31bc0a95a022c033f0108df838360eac42dd54b6d15511c1e14a35",
-  "selection-certificate.json": "3a7dceb921bf53ed4fd47b73089b3a5ea76e2cddac396efeb0aad8f8dbacbf32",
+  "mission-contract.json": "600158dc2ff5cd2fc5450af6f89f9393168c9eb51bd4f3450949a38e6b499143",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "reusable-capability-package.json": "62f2d063f432e7b642935ddc127308ecca8476a6c24cb864748a6767d8396694",
-  "agi-node-validation-certificate.json": "ba4974bfb9e488e01f4c6ec950b5e875972e816a8495523c9cb678ca397b4688",
-  "chronicle-entry.json": "1c2823cc253066e875e49115dc8de3390c6ab7bf5f60ea846d767729779c1fea"
+  "reusable-capability-package.json": "e35fe032ac8a3bad50cc062a6217c67381cf89276209b5272e60e8fa39469fb1",
+  "agi-node-validation-certificate.json": "399373c41897aa72bbf6d27ea25060c8a10d72ac55ca64a15f102ea00c4cce01",
+  "chronicle-entry.json": "0a81431fe49a5980f2f412edb311a4ab14838f0ff9780cb34389840f98cc80d5",
+  "agent-constellation.json": "73de5f668c263fc368fc0702b52b3e082d188c312c6c40280baf9047e5aa4791",
+  "selection-certificate.json": "115ace9862fc1598c1ce8a31f2cbf9224510111f077a13bbf14073fd4eb40de0",
+  "proof-bundle.json": "98cf60e7c884a07321eb3a31eb0b07b1ac02e1fd5e8679a4686e1e25c24f2c5e",
+  "hashes.json": "4fbefb197ad6d6173702c32c5e49ce449dcad99fe55de0634153bbcc7cef3082"
 }

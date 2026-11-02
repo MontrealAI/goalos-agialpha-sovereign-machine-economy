@@ -1,14 +1,14 @@
 {
+  "agi-job-card.json": "ed8bf3de13394b7e332241f33982ad8ecec5bfc70f44da1f75479f172806b135",
   "reviewer-brief.md": "0a990250767b28a3cb66d3358a32bad8a3efa1520cdc75437ee1fe10f82f1a91",
-  "mission-contract.json": "32730e9d2695a76efb75ba0fe5eb6386f82583f13ad78cd20ed1edb59b80a94d",
-  "agent-constellation.json": "d3f160c4be3189d5125d40f1ba22ea7793c2c9b14aaa3bbff400acd89e11635a",
-  "hashes.json": "8dc35bc8f408f618b359acee40bb8d048d1477506fd43868c92e844ce43290ed",
-  "proof-bundle.json": "751763de23c6988357bcf1de0e7f643cfd5cdb47e53cfa9ac7a7aa81ff4c5c6a",
   "evidence-docket.md": "d955e570d537d4b16929cb317f8dbc713159518cac712f91627e5c4a1ec398a9",
-  "agi-job-card.json": "9e854e7c883a351ecfdb9234ed3a2853cd81f9c4a7a9c880512d1ce3d38084b6",
-  "selection-certificate.json": "f44ef6cfee73f09aae63a93c230b757c475f7211c59556096aa0eea252b95015",
+  "mission-contract.json": "b5390dfdc0c8e7f6f942d65a7f7ca4ffdd496c1847eb49b2d25a5ea90b5b06e1",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "reusable-capability-package.json": "6e13b8530de4da833343385281fbb3d0a139972456a650d5ce90e335dd59ce81",
-  "agi-node-validation-certificate.json": "59132cc69e4ead42963011747f2059dc4367ca6a38d8bf7ce576249c0ab5ba21",
-  "chronicle-entry.json": "a74d8275064d56d7496d73fc9e4ac7f4f57b2c016deadafd73dcf2bf3e68636e"
+  "reusable-capability-package.json": "9258e23938c99ed1197c771e05ac60686ed0b10068bb8c86f31078b265632813",
+  "agi-node-validation-certificate.json": "26b575212f715cf7b834d932c925110af18146c0a520c1f7d7d4ff25d1139d63",
+  "chronicle-entry.json": "26c896a90abcd6717fb6eb85f02d0a66da0065329e4a44be53a9a08a5c46eb2f",
+  "agent-constellation.json": "02f5d5a3488d97ccab1b01f2051086226db50d2b1ef81e252a55e761d380434d",
+  "selection-certificate.json": "5d7cd67794b97203674c628315193e3a9c5a10fbe62c3c545fe39140981755d4",
+  "proof-bundle.json": "f47b5d42dc85a89b23fa33ca26c4ead57cfac4878985c07a80af0ea47f7cde14",
+  "hashes.json": "33e2fd4cf8e1a82df41353e19e2f04c6baeeb9ab171c53f01debe7fd9861f8ef"
 }

@@ -1,14 +1,14 @@
 {
+  "agi-job-card.json": "832be471c251fabad5791e502a6e97424307b207227da812cc7254f9b6f0bdd4",
   "reviewer-brief.md": "f6f7eb73a34872a37438dc1b327923b535d8e9c56d0e2605971e23087588befc",
-  "mission-contract.json": "a29df82f4bc02142fd8dbb08a90bdf389f870ee51ca474315a2661704ce848e0",
-  "agent-constellation.json": "7f58c23b60982c503fe4a1d15b024359ed55f8771e9c15637eb239c5c2ffc2ab",
-  "hashes.json": "6d49c9b2186be444bce79efe47d868109669e4201892cbc04949bfe2b83db2ae",
-  "proof-bundle.json": "3f3a8f025da7bcace186a65d3d3e74ddee9172dd032aa648fec20b9fc353c19d",
   "evidence-docket.md": "5a825ccd87de2d944c2528cd8a3f166924f6bc186f33c79aeb3ee5091294b096",
-  "agi-job-card.json": "30b84886d50c173625cca03e849c024b26da33b389f6de38a93553f0eb2c9c60",
-  "selection-certificate.json": "c1a702812549c5da4d7fe1737a85e597155028a00d3841f74f5166c86dab5dcf",
+  "mission-contract.json": "cc650dd0e2b388fa238eda7dcd9e5d5b0981095b2be0f4a838b831accd630bcc",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "reusable-capability-package.json": "392e6d3a2c9f768a18dff031ae61f52674346955a8371a6d475bc688661a4ba0",
-  "agi-node-validation-certificate.json": "9881f1d31bf7f23c64d66f4b7938dc591c98f69b8393f401649eb9cdd376ec5c",
-  "chronicle-entry.json": "677d2fb9a82885ea2333a4c870f7384b4e78efa3bb64af7c59e38fea23b894ad"
+  "reusable-capability-package.json": "190598758b251fff227048c6f4aa5dd7ccf0759a1916aad43fb04898b9dfd396",
+  "agi-node-validation-certificate.json": "cfeebfe4435a62f88093a8da0a3670af5e45fd88f9c6798d27f7cb35d5b3d2ff",
+  "chronicle-entry.json": "f36c1e6a412674bb101abe2077d551e430fb990ec11246c7c90cd7f0cf289b77",
+  "agent-constellation.json": "547d3db36a5ff6dc81d6486eb74dd94833c44cde03b32d34694bc705482f47f4",
+  "selection-certificate.json": "1cd16edd643bf0d5ba5027b56e60207abfb0c9389cd146b46de35354e3d6cc88",
+  "proof-bundle.json": "c83a639c9707388e7ed8f17d2e852b028131c646f7b097988df0f1757dff440c",
+  "hashes.json": "65491a106ed82bf150fd5471b68edc24473b33ea5ad18be649b94de7e668922c"
 }
