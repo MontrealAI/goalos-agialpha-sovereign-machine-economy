@@ -1,14 +1,14 @@
 {
-  "agi-job-card.json": "ed8bf3de13394b7e332241f33982ad8ecec5bfc70f44da1f75479f172806b135",
+  "agi-job-card.json": "a5bdd0b9442c7a2e02894d6d1a2a2876a0fde0f6ecff5bf7bbcca429b62f0919",
   "reviewer-brief.md": "0a990250767b28a3cb66d3358a32bad8a3efa1520cdc75437ee1fe10f82f1a91",
   "evidence-docket.md": "d955e570d537d4b16929cb317f8dbc713159518cac712f91627e5c4a1ec398a9",
-  "mission-contract.json": "b5390dfdc0c8e7f6f942d65a7f7ca4ffdd496c1847eb49b2d25a5ea90b5b06e1",
+  "mission-contract.json": "e8dedb59ca9187119a016d70955da33cf7e72876c9fafd2fe8a98be0962ed9de",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "reusable-capability-package.json": "9258e23938c99ed1197c771e05ac60686ed0b10068bb8c86f31078b265632813",
-  "agi-node-validation-certificate.json": "26b575212f715cf7b834d932c925110af18146c0a520c1f7d7d4ff25d1139d63",
-  "chronicle-entry.json": "26c896a90abcd6717fb6eb85f02d0a66da0065329e4a44be53a9a08a5c46eb2f",
-  "agent-constellation.json": "02f5d5a3488d97ccab1b01f2051086226db50d2b1ef81e252a55e761d380434d",
-  "selection-certificate.json": "5d7cd67794b97203674c628315193e3a9c5a10fbe62c3c545fe39140981755d4",
-  "proof-bundle.json": "f47b5d42dc85a89b23fa33ca26c4ead57cfac4878985c07a80af0ea47f7cde14",
-  "hashes.json": "33e2fd4cf8e1a82df41353e19e2f04c6baeeb9ab171c53f01debe7fd9861f8ef"
+  "reusable-capability-package.json": "69b99508bff6b704e56f1bef4ca2a710ebf513ce153fab8ee1e0b3b4de7b78e0",
+  "agi-node-validation-certificate.json": "c40ee41b8c530e7d0e7a1542aca0aedc739334617e40bae31f709b9626c09dba",
+  "chronicle-entry.json": "a089a063a5d115c971e791b1eeeebae5b4dde662500fc6ea8c0e42b8b4215a8e",
+  "agent-constellation.json": "e3eecbfac8f4c2dbc0fb152e65ee335dd53a9b419ab5daefea933c425d389930",
+  "selection-certificate.json": "7131a69e9eee7741c2a5400beb9148b5f6ec77218dcc6a6c92f21fcf4479445a",
+  "proof-bundle.json": "518d20f2955f18bed4f775c43f627e7ca0c1165e970e828cd380a69bede46e3d",
+  "hashes.json": "67dfca3017256ffe9532ab947888e8c78f6bb4a0f1104a6d80a608afd05daa7c"
 }

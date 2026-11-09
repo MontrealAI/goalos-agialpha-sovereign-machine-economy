@@ -1,14 +1,14 @@
 {
-  "agi-job-card.json": "0f7c159f4967240e6f17cffef237062853757383af5bff31b79f61569e2a8474",
+  "agi-job-card.json": "54fa311653e9c88a2ca01356f1d8809ac2cb5ac2289fb45dc7ea9ff120e29dea",
   "reviewer-brief.md": "6ed68022325c40cd9fccd7863d5c279c4fbc5b24c7f2eba38b03abf8373d55e1",
   "evidence-docket.md": "41c3acc6009df67e231d8b44d5a1d114a6b1e0f15907d844b99041e89f63fd4c",
-  "mission-contract.json": "cec68038b4569b3fd6057f2f247386968aa6dcb190a842f2a6825322bc8c729d",
+  "mission-contract.json": "2eae47b50d0dceec111e5a6fe304896f76f11cff44bac20750db981822a2d084",
   "action-graph.csv": "382e199a5eca1b63ff270282a0322135d5d74e3cd1361e50d2bc8c885627e218",
-  "reusable-capability-package.json": "5704bfc1f01d800a9e8978f15605df4d244caa023aca377dc96034feba7eebc6",
-  "agi-node-validation-certificate.json": "2c6eac7bb24ac1405f3e987b1da676b1aa0c4d808cb49bfcc77d22a41cee7d9e",
-  "chronicle-entry.json": "c9f8764c9da54e4f10f1e9cec4f3df1998c30a63f366cb536ec38f4b8928e1d3",
-  "agent-constellation.json": "965e5b7f2af4104ad8b5521c8386066a0269c1788e046813d3b47fb23502f401",
-  "selection-certificate.json": "1628cf0f5e877bdc059d38d05e54b6473ad790845de38472f703bf70c11abe6a",
-  "proof-bundle.json": "209aa2499e08b1854751baa38a7924475d54532e8adeb5f50229e4c2b4f733d1",
-  "hashes.json": "f23e5d323bd3fb63c8e4aa6e9dc397473dd9e2d7647e9c2c0af8e9234f99234c"
+  "reusable-capability-package.json": "7567cc9129fe690dec75cdfa57c532d2d980de3c579843f0e8f36c4a1bf6ea0d",
+  "agi-node-validation-certificate.json": "00ab03d49454330720ba55890b25f5dc63f040a290f07dd99976a26fdc20a510",
+  "chronicle-entry.json": "34614519fa23f99f797b94317c26403c4fad9e3eb0da4faae7196bbd9745cd6c",
+  "agent-constellation.json": "47c515344a8a261c588cca6cb58b0c2f382f42e2f30136c960ce4a680396c3b0",
+  "selection-certificate.json": "08d18a1d2d95b3613a789a68946e022e06676ad3162b5f752d9b31b38e58f365",
+  "proof-bundle.json": "de609a8ea6535626e2fe200555cacb6f60c1304af22af03b4354d13f7ae255ce",
+  "hashes.json": "9d30ab3b5b58ec291c5298166b5bf783def9b52f76ee531fefe2fc3ce56565fb"
 }
